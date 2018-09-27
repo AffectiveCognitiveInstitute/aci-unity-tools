@@ -1,0 +1,12 @@
+{
+    "name": "UnitTests",
+    "references": [
+        "Aci.Unity"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

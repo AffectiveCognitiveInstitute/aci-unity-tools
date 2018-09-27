@@ -1,0 +1,3 @@
+[submodule "Assets/ACIUnityTools"]
+	path = Assets/ACIUnityTools
+	url = git@github.com:AffectiveCognitiveInstitute/aci-unity-tools.git
