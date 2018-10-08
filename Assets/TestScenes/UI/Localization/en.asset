@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 147590455ba92a043a504eac2c9ed3e9, type: 3}
-  m_Name: en_us
+  m_Name: en
   m_EditorClassIdentifier: 
   internalStringData:
     keys:
@@ -22,5 +22,5 @@ MonoBehaviour:
     - This style is currently used!
     - We are constructing
     - string from several parts!
-  languageDescriptor: ENG
-  languageIETF: en_US
+  languageDescriptor: eng
+  languageIETF: en
