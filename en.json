@@ -1,0 +1,6 @@
+{
+  "TEST_NAME": "LocalizationTest",
+  "REPLACEMENT_STYLE": "This style is currently used!",
+  "FIRSTPART": "We are constructing",
+  "SECOND_PART": "string from several parts!"
+}
