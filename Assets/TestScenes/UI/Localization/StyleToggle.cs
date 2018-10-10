@@ -11,7 +11,7 @@ public class StyleToggle : MonoBehaviour
     public Text buttonText;
 
     [Inject]
-    private AciEventBroker _broker;
+    private IAciEventManager _broker;
 
     [Inject]
     private ILocalizationManager _locMan;
@@ -39,6 +39,6 @@ public class StyleToggle : MonoBehaviour
         int index = (replacementPatterns.IndexOf(_locMan.replacementPattern) + 1) % replacementPatterns.Count;
         _locMan.replacementPattern = replacementPatterns[index];
         buttonText.text = _locMan.replacementPattern;
-        _broker.localizationEvent.Invoke(null, null);
+        _broker.Invoke(new LocalizationChangedArgs());
     }
 }
