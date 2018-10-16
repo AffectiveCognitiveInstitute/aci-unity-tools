@@ -20,7 +20,7 @@ MonoBehaviour:
     values:
     - LocalizationTest
     - This style is currently used!
-    - We are constructing
-    - string from several parts!
+    - $(0) hurr and $(2) durr don't make
+    - Shmeckle less entertaining than $(1) Plumbus!
   languageDescriptor: eng
   languageIETF: en

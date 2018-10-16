@@ -20,7 +20,7 @@ MonoBehaviour:
     values:
     - Lokalisierungstest
     - Dieses Ersetzungsmuster wird gerade verwendet!
-    - Wir bauen
-    - String aus mehren Teilen!
+    - $(0) hurr und $(2) durr machen
+    - Shmeckle weniger unterhaltsam als $(1) Plumbus!
   languageDescriptor: deu
   languageIETF: de

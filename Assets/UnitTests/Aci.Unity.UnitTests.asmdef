@@ -1,5 +1,5 @@
 {
-    "name": "UnitTests",
+    "name": "Aci.Unity.UnitTests",
     "references": [
         "Aci.Unity"
     ],
