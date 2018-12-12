@@ -16,5 +16,6 @@ action "Publish to GitHub Pages" {
     GH_EMAIL = "moritz.umfahrer@hs-offenburg.de"
     GH_USER = "umfahrem"
     GH_PAGES_BRANCH = "gh-pages"
+    GH_REPO = "git@github.com:AffectiveCognitiveInstitute/aci-unity-tools-development.git"
   }
 }
