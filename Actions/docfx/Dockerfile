@@ -10,7 +10,7 @@ LABEL "maintainer"="Moritz Umfahrer <moritz.umfahrer@hs-ofenburg.de>"
 
 # Install dependencies
 RUN apt-get update \
-  && apt-get install -y gnupg gnupg2 gnupg1
+  && apt-get install -y gnupg gnupg2 gnupg1 apt-transport-https
 
 # Install MONO
 ENV MONO_VERSION 5.16.0.179
