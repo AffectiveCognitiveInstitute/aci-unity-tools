@@ -23,5 +23,6 @@ RUN echo "deb https://download.mono-project.com/repo/debian stable-stretch main"
   && apt-get install -y mono-devel \
 && rm -rf /var/lib/apt/lists/* /tmp/*
 
+RUN chmod +x entrypoint.sh
 ADD entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
