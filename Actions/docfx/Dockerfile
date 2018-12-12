@@ -16,11 +16,11 @@ RUN apt-get update \
   && apt-get install -y gnupg gnupg2 gnupg1
 
 # Install MONO
-RUN apt-get install apt-transport-https dirmngr
+RUN apt-get install -y apt-transport-https dirmngr
 RUN apt-key adv --no-tty --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
 RUN echo "deb https://download.mono-project.com/repo/debian stable-stretch main" | tee /etc/apt/sources.list.d/mono-official-stable.list \
   && apt-get update \
-  && sudo apt install mono-devel \
+  && sudo apt install -y mono-devel \
 && rm -rf /var/lib/apt/lists/* /tmp/*
 
 ADD entrypoint.sh /entrypoint.sh
