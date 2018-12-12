@@ -19,6 +19,7 @@ RUN apt-key adv --no-tty --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3
 
 RUN echo "deb https://download.mono-project.com/repo/ubuntu stable-bionic main" > /etc/apt/sources.list.d/mono-official-stable.list \
   && apt-get update \
+  && apt-get install -y mono-runtime-sgen \
   && apt-get install -y mono-runtime \
   && apt-get install -y mono-complete \
 && rm -rf /var/lib/apt/lists/* /tmp/*
