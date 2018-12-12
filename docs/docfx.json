@@ -4,10 +4,11 @@
       "src": [
         {
           "files": [
-            "../Assets/**/**.cs"
+            "**.cs"
           ]
         }
       ],
+      "src": "../Assets/Scripts/",
       "dest": "api",
       "disableGitFeatures": false,
       "disableDefaultFilter": false
