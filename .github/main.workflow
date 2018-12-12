@@ -15,5 +15,6 @@ action "Publish to GitHub Pages" {
     CONTENT = "docs/_site"
     GH_EMAIL = "moritz.umfahrer@hs-offenburg.de"
     GH_USER = "umfahrem"
+    GH_PAGES_BRANCH = "gh-pages"
   }
 }
