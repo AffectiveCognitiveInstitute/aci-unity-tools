@@ -1,4 +1,4 @@
-FROM debian:9.5-slim
+FROM ubuntu:18.04
 
 LABEL "com.github.actions.name"="DocFX"
 LABEL "com.github.actions.description"="Build and publish documentation"
@@ -8,9 +8,12 @@ LABEL "com.github.actions.color"="green"
 LABEL "repository"="https://github.com/AffectiveCognitiveInstitute/aci-unity-tools-development"
 LABEL "maintainer"="Moritz Umfahrer <moritz.umfahrer@hs-ofenburg.de>"
 
+ENV TZ=Europe/Berlin
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
 # Install dependencies
 RUN apt-get update \
-  && apt-get install -y gnupg gnupg2 gnupg1 apt-transport-https software-properties-common
+  && apt-get install -y unzip wget gnupg gnupg2 gnupg1 apt-transport-https software-properties-common
 
 # Install MONO
 ENV MONO_VERSION 5.16.0.179
