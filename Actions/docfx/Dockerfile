@@ -17,11 +17,11 @@ ENV MONO_VERSION 5.16.0.179
 
 RUN echo "deb http://download.mono-project.com/repo/debian stable-jessie/snapshots/$MONO_VERSION main" > /etc/apt/sources.list.d/mono-official-stable.list \
   && apt-get update \
-  && apt-get install -y mono-runtime \
+  && apt-get install -y --allow-unauthenticated mono-runtime \
 && rm -rf /var/lib/apt/lists/* /tmp/*
 
 RUN apt-get update \
-  && apt-get install -y binutils curl mono-devel ca-certificates-mono fsharp mono-vbnc nuget referenceassemblies-pcl \
+  && apt-get install -y --allow-unauthenticated binutils curl mono-devel ca-certificates-mono fsharp mono-vbnc nuget referenceassemblies-pcl \
 && rm -rf /var/lib/apt/lists/* /tmp/*
 
 ADD entrypoint.sh /entrypoint.sh
