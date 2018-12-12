@@ -10,7 +10,7 @@ LABEL "maintainer"="Moritz Umfahrer <moritz.umfahrer@hs-ofenburg.de>"
 
 # Install dependencies
 RUN apt-get update \
-  && apt-get install -y gnupg gnupg2 gnupg1 apt-transport-https
+  && apt-get install -y gnupg gnupg2 gnupg1 apt-transport-https software-properties-common
 
 # Install MONO
 ENV MONO_VERSION 5.16.0.179
@@ -19,8 +19,6 @@ RUN apt-key adv --no-tty --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3
 
 RUN echo "deb https://download.mono-project.com/repo/ubuntu stable-bionic main" > /etc/apt/sources.list.d/mono-official-stable.list \
   && apt-get update \
-  && apt-get install -y mono-runtime-sgen \
-  && apt-get install -y mono-runtime \
   && apt-get install -y mono-complete \
 && rm -rf /var/lib/apt/lists/* /tmp/*
 
