@@ -11,11 +11,11 @@ git config --global user.name "$GH_USER"
 git clone --depth 1 --branch ${GH_PAGES_BRANCH} --single-branch https://x-access-token:${GITHUB_TOKEN}@${GH_REPO} ../docs-repo
 
 # Publish docs
+find ../docs-repo/. -name "[^.]*" -delete
 cp -a -r ${CONTENT}/. ../docs-repo/
-
 
 cd ../docs-repo/
 
 git add *
-git commit -m "Update docs"
+git commit -m "Generated new documentation for ${GITHUB_SHA}"
 git push -f

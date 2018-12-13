@@ -6,8 +6,8 @@ action "Publish to gh-pages" {
     secrets = ["GITHUB_TOKEN"],    
     env = {
         CONTENT = "docs/_site/"
-        GH_EMAIL = "jannik.lassahn@uid.com"
-        GH_USER = "JannikLassahn"
-        GH_REPO = "https://github.com/AffectiveCognitiveInstitute/kobelu-bot"
+        GH_EMAIL = "moritz.umfahrer@hs-offenburg.de"
+        GH_USER = "Moritz Umfahrer"
+        GH_REPO = Target Repo
     }```
 }
