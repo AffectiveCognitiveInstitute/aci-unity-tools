@@ -23,7 +23,6 @@ else
 	ssh-keyscan github.com >> /root/.ssh/known_hosts
 
 	git clone --depth 1 --branch gh-pages --single-branch ${GH_REPO} ../docs-repo
-	return
 fi
 
 
