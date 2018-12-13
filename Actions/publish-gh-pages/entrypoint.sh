@@ -9,7 +9,7 @@ git config --global user.email "$GH_EMAIL"
 git config --global user.name "$GH_USER"
 
 # check if we are using a different repository with ssh
-if [[  -z "${GH_REPO}" ]]; then
+if [ -z "${GH_REPO}" ]; then
 	git clone --depth 1 --branch gh-pages --single-branch https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git ../docs-repo
 else
 	# update rsa
