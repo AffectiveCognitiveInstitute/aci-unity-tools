@@ -12,7 +12,7 @@ git clone --depth 1 --branch ${GH_PAGES_BRANCH} --single-branch https://x-access
 
 # Publish docs
 cd ../docs-repo/
-find . -name "[^.]*" -delete
+rm -rf *
 cd ${GITHUB_WORKSPACE}
 cp -a -r ${CONTENT}/. ../docs-repo/
 
