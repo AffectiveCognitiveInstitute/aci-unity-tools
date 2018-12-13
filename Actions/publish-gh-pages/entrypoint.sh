@@ -10,6 +10,8 @@ git config --global user.name "$GH_USER"
 
 # check if we are using a different repository with ssh
 if [[  -z "${GH_REPO}" ]]; then
+	git clone --depth 1 --branch gh-pages --single-branch https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git ../docs-repo
+else
 	# update rsa
 	mkdir /root/.ssh
 	chmod 700 /root/.ssh
@@ -22,8 +24,6 @@ if [[  -z "${GH_REPO}" ]]; then
 
 	git clone --depth 1 --branch gh-pages --single-branch ${GH_REPO} ../docs-repo
 	return
-else
-	git clone --depth 1 --branch gh-pages --single-branch https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git ../docs-repo
 fi
 
 
