@@ -21,8 +21,8 @@ apt-get install -y unzip wget
 wget https://github.com/dotnet/docfx/releases/download/v2.40.2/docfx.zip
 unzip docfx.zip -d _docfx
 
+# check if submodules were checked out
+ls Assets/AciUnityTools/
+
 # Build docs
 mono _docfx/docfx.exe docs/docfx.json
-
-# Debug (TODO: remove)
-ls docs/_site

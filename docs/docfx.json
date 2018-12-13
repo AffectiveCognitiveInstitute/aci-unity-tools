@@ -8,7 +8,7 @@
           ]
         }
       ],
-      "src": "../Assets/Scripts/",
+      "src": "../Assets/AciUnityTools",
       "dest": "api",
       "disableGitFeatures": false,
       "disableDefaultFilter": false
