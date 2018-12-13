@@ -17,9 +17,7 @@ else
 	chmod 700 /root/.ssh
 	eval $(ssh-agent -s)
 	var=${RSA_VAR}
-	echo "$var"
-	declare -n rsa ="$var"
-	echo "$rsa" > /root/.ssh/id_rsa
+	eval 'echo "${'"$var"'}"' > /root/.ssh/id_rsa
 	chmod 600 /root/.ssh/id_rsa
 	ssh-add /root/.ssh/id_rsa
 	ssh-keyscan github.com >> /root/.ssh/known_hosts
