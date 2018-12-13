@@ -22,13 +22,15 @@ wget https://github.com/dotnet/docfx/releases/download/v2.40.4/docfx.zip
 unzip docfx.zip -d _docfx
 
 # try to intialize submodules
-apt-get install -y ssh git
+apt-get install -y git
 mkdir ~/.ssh
+chmod 700 ~/.ssh
 eval $(ssh-agent -s)
 echo "${ACITOOLS_SSH}" > ~/.ssh/id_rsa
-chmod 400 ~/.ssh/id_rsa
+chmod 600 ~/.ssh/id_rsa
 ssh-add ~/.ssh/id_rsa
 ssh-keyscan github.com >> ~/.ssh/known_hosts
+echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 git status
 git submodule update --init
 
