@@ -5,11 +5,11 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.Assert.yml",
+      "source_relative_path": "api/Aci.Unity.Events.AciEventInstaller.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.Assert.html",
-          "hash": "7XVSvGHKcRI1Syb8AKQGLw=="
+          "relative_path": "api/Aci.Unity.Events.AciEventInstaller.html",
+          "hash": "e9Js7wf5qIt+inSul2qFeg=="
         }
       },
       "is_incremental": false,
@@ -17,11 +17,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.LinqExtensions.yml",
+      "source_relative_path": "api/Aci.Unity.Events.AciEventManager.EventDelegate-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.LinqExtensions.html",
-          "hash": "8c4NVNx73KAnhmVhzdDajA=="
+          "relative_path": "api/Aci.Unity.Events.AciEventManager.EventDelegate-1.html",
+          "hash": "bJ5+49B5+UEH7/aF63Nrlg=="
         }
       },
       "is_incremental": false,
@@ -29,11 +29,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.Log.yml",
+      "source_relative_path": "api/Aci.Unity.Events.AciEventManager.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.Log.html",
-          "hash": "iiv+rKDF9psYKejygSJWQg=="
+          "relative_path": "api/Aci.Unity.Events.AciEventManager.html",
+          "hash": "jKFPnNBlnRhn+MqN2BrhNA=="
         }
       },
       "is_incremental": false,
@@ -41,11 +41,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.MiscExtensions.yml",
+      "source_relative_path": "api/Aci.Unity.Events.DbRemoveArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.MiscExtensions.html",
-          "hash": "DEPbQNfKess2s84qi84brA=="
+          "relative_path": "api/Aci.Unity.Events.DbRemoveArgs.html",
+          "hash": "NQMcdYp4j0RfJrBihiFpNw=="
         }
       },
       "is_incremental": false,
@@ -53,11 +53,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.ReflectionUtil.yml",
+      "source_relative_path": "api/Aci.Unity.Events.DbUpdateArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.ReflectionUtil.html",
-          "hash": "KnZe/Gtjh+e1bGh7EQvj+g=="
+          "relative_path": "api/Aci.Unity.Events.DbUpdateArgs.html",
+          "hash": "l5Mj2qg4PZXP5U0MxSeGPw=="
         }
       },
       "is_incremental": false,
@@ -65,11 +65,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.TypeExtensions.yml",
+      "source_relative_path": "api/Aci.Unity.Events.IAciEventHandler-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.TypeExtensions.html",
-          "hash": "+2w4tfaD7ciAauC7S6Xy2A=="
+          "relative_path": "api/Aci.Unity.Events.IAciEventHandler-1.html",
+          "hash": "M1W7a/rXfXxHLMo8x23tKQ=="
         }
       },
       "is_incremental": false,
@@ -77,11 +77,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.Util.Action-10.yml",
+      "source_relative_path": "api/Aci.Unity.Events.IAciEventManager.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.Util.Action-10.html",
-          "hash": "7d07dM3ouBfi+rFwwFxn2A=="
+          "relative_path": "api/Aci.Unity.Events.IAciEventManager.html",
+          "hash": "qF5921MdKJQRRLTJKsjf9A=="
         }
       },
       "is_incremental": false,
@@ -89,11 +89,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.Util.Action-11.yml",
+      "source_relative_path": "api/Aci.Unity.Events.LocalizationChangedArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.Util.Action-11.html",
-          "hash": "iYVxnV2Z9rbszMX4tZ0yWg=="
+          "relative_path": "api/Aci.Unity.Events.LocalizationChangedArgs.html",
+          "hash": "Q/YFUDlUdmbwVMdTIoNRWQ=="
         }
       },
       "is_incremental": false,
@@ -101,11 +101,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.Util.Action-5.yml",
+      "source_relative_path": "api/Aci.Unity.Events.UserLoginArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.Util.Action-5.html",
-          "hash": "BAX4xGDA2UMEXuWSqhBq2w=="
+          "relative_path": "api/Aci.Unity.Events.UserLoginArgs.html",
+          "hash": "Udt2U92NmEhXurbpEtlRJg=="
         }
       },
       "is_incremental": false,
@@ -113,11 +113,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.Util.Action-6.yml",
+      "source_relative_path": "api/Aci.Unity.Events.UserLogoutArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.Util.Action-6.html",
-          "hash": "jl6vurT0gJedeEsWsHKO9Q=="
+          "relative_path": "api/Aci.Unity.Events.UserLogoutArgs.html",
+          "hash": "uCAkJ1jZWYTlRxemY/xeWA=="
         }
       },
       "is_incremental": false,
@@ -125,11 +125,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.Util.Action-7.yml",
+      "source_relative_path": "api/Aci.Unity.Events.UserRegisterArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.Util.Action-7.html",
-          "hash": "2+TyCP460+0lUTM0ZMSBgg=="
+          "relative_path": "api/Aci.Unity.Events.UserRegisterArgs.html",
+          "hash": "3qpPKCFlVzjPRxnW8zeUKQ=="
         }
       },
       "is_incremental": false,
@@ -137,11 +137,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.Util.Action-8.yml",
+      "source_relative_path": "api/Aci.Unity.Events.UserUpdateArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.Util.Action-8.html",
-          "hash": "cM5dSjqh7zwOFQ5RNt2nhA=="
+          "relative_path": "api/Aci.Unity.Events.UserUpdateArgs.html",
+          "hash": "2LAsaRu+SlaEe6jvCisrnw=="
         }
       },
       "is_incremental": false,
@@ -149,11 +149,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.Util.Action-9.yml",
+      "source_relative_path": "api/Aci.Unity.Events.WebcamStatusChangedArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.Util.Action-9.html",
-          "hash": "cR675xH96cOPeBp0QCzQyQ=="
+          "relative_path": "api/Aci.Unity.Events.WebcamStatusChangedArgs.html",
+          "hash": "zQ9OVF9OPLML8lND9PlB7Q=="
         }
       },
       "is_incremental": false,
@@ -161,11 +161,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.Util.Func-10.yml",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.AciEventBroker.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.Util.Func-10.html",
-          "hash": "jObu0HM4Yt7GpjJ4gid5OA=="
+          "relative_path": "api/Aci.Unity.Events.deprecated.AciEventBroker.html",
+          "hash": "H3yy1VPyblke+nAl3lZqgA=="
         }
       },
       "is_incremental": false,
@@ -173,11 +173,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.Util.Func-11.yml",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.DbRemoveEvent.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.Util.Func-11.html",
-          "hash": "5GP6ERks3W/vaSRPqgPUdA=="
+          "relative_path": "api/Aci.Unity.Events.deprecated.DbRemoveEvent.html",
+          "hash": "62n3eQ5mTgmOwGgADQVSJw=="
         }
       },
       "is_incremental": false,
@@ -185,11 +185,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.Util.Func-12.yml",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.DbUpdateEvent.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.Util.Func-12.html",
-          "hash": "2r+yus4foMS6EHbc+oVdvw=="
+          "relative_path": "api/Aci.Unity.Events.deprecated.DbUpdateEvent.html",
+          "hash": "FIEuazZ6ce22FeSbul4xHw=="
         }
       },
       "is_incremental": false,
@@ -197,11 +197,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.Util.Func-6.yml",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.IAciEventHandler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.Util.Func-6.html",
-          "hash": "wv7x3d7r0oioordOxuYc6Q=="
+          "relative_path": "api/Aci.Unity.Events.deprecated.IAciEventHandler.html",
+          "hash": "WB8UG+pNsoqtu8HniL022w=="
         }
       },
       "is_incremental": false,
@@ -209,11 +209,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.Util.Func-7.yml",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.IDbRemoveHandler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.Util.Func-7.html",
-          "hash": "dESmLcBK4nxtmaafoTtacA=="
+          "relative_path": "api/Aci.Unity.Events.deprecated.IDbRemoveHandler.html",
+          "hash": "kHmDJoBjEUs1+wBs0AzWPA=="
         }
       },
       "is_incremental": false,
@@ -221,11 +221,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.Util.Func-8.yml",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.IDbUpdateHandler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.Util.Func-8.html",
-          "hash": "FqglBuTeGqMaIA3ZU0gdGA=="
+          "relative_path": "api/Aci.Unity.Events.deprecated.IDbUpdateHandler.html",
+          "hash": "EQRpMXBpSjD921wUhoUnrw=="
         }
       },
       "is_incremental": false,
@@ -233,11 +233,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.Util.Func-9.yml",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.ILocalizationChangedHandler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.Util.Func-9.html",
-          "hash": "+1yRWkcAvr5V6CS1AcLNLQ=="
+          "relative_path": "api/Aci.Unity.Events.deprecated.ILocalizationChangedHandler.html",
+          "hash": "dkrCaVUPSn9DSJVlnhYC6g=="
         }
       },
       "is_incremental": false,
@@ -245,11 +245,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.Util.PreserveAttribute.yml",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.ILoginHandler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.Util.PreserveAttribute.html",
-          "hash": "Q8+hz2f2+KKbFZZT/mHoAA=="
+          "relative_path": "api/Aci.Unity.Events.deprecated.ILoginHandler.html",
+          "hash": "Z189qwRLHXucdqkLGB3/MA=="
         }
       },
       "is_incremental": false,
@@ -257,11 +257,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.Util.UnityUtil.yml",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.ILogoutHandler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.Util.UnityUtil.html",
-          "hash": "s1XguioTkouSkDLbYPhBWg=="
+          "relative_path": "api/Aci.Unity.Events.deprecated.ILogoutHandler.html",
+          "hash": "fWLcGntPOBKQhNUfzQRVvA=="
         }
       },
       "is_incremental": false,
@@ -269,11 +269,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.Util.ValuePair-2.yml",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.IUpdateHandler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.Util.ValuePair-2.html",
-          "hash": "tltsRki6YvrRufpjoooMhQ=="
+          "relative_path": "api/Aci.Unity.Events.deprecated.IUpdateHandler.html",
+          "hash": "LXraVoSJx2YeweJh1GrGGQ=="
         }
       },
       "is_incremental": false,
@@ -281,11 +281,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.Util.ValuePair-3.yml",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.LocalizationChangedEvent.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.Util.ValuePair-3.html",
-          "hash": "Voxrt3pBvQ8SI8lIiO+pHw=="
+          "relative_path": "api/Aci.Unity.Events.deprecated.LocalizationChangedEvent.html",
+          "hash": "eDG8heALAZNPytDRQCiXLQ=="
         }
       },
       "is_incremental": false,
@@ -293,11 +293,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.Util.ValuePair-4.yml",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.UserLoginEvent.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.Util.ValuePair-4.html",
-          "hash": "qobhbLhHhTnCyBEsUkzMxw=="
+          "relative_path": "api/Aci.Unity.Events.deprecated.UserLoginEvent.html",
+          "hash": "sY/bkhyl0sxc6usFz1enjg=="
         }
       },
       "is_incremental": false,
@@ -305,11 +305,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.Util.ValuePair.yml",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.UserLogoutEvent.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.Util.ValuePair.html",
-          "hash": "CrrRYhI/AMW1MCDcxzDSew=="
+          "relative_path": "api/Aci.Unity.Events.deprecated.UserLogoutEvent.html",
+          "hash": "lgMiW0ngLNKRUgQM4UJn8g=="
         }
       },
       "is_incremental": false,
@@ -317,11 +317,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.Util.yml",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.UserRegisterEvent.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.Util.html",
-          "hash": "OPDosClAUCPQkyX0DHse1A=="
+          "relative_path": "api/Aci.Unity.Events.deprecated.UserRegisterEvent.html",
+          "hash": "AYDx7cXMGXc/bISIB1ptxw=="
         }
       },
       "is_incremental": false,
@@ -329,11 +329,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ModestTree.yml",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.UserRegisterHandler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ModestTree.html",
-          "hash": "3sgPrAq8rWM6sC/Fw8jSgg=="
+          "relative_path": "api/Aci.Unity.Events.deprecated.UserRegisterHandler.html",
+          "hash": "dtw13M3e41n21r5eOOdUtQ=="
         }
       },
       "is_incremental": false,
@@ -341,11 +341,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityAsyncAwaitUtil.AsyncCoroutineRunner.yml",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.UserUpdateEvent.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityAsyncAwaitUtil.AsyncCoroutineRunner.html",
-          "hash": "6PQC3p2E8azmf2EOE/x3Bw=="
+          "relative_path": "api/Aci.Unity.Events.deprecated.UserUpdateEvent.html",
+          "hash": "OxCVLcuFGRzq883ED9Eh+Q=="
         }
       },
       "is_incremental": false,
@@ -353,11 +353,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityAsyncAwaitUtil.SyncContextUtil.yml",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityAsyncAwaitUtil.SyncContextUtil.html",
-          "hash": "zlG9xa8tPR66l2G5fYcdMw=="
+          "relative_path": "api/Aci.Unity.Events.deprecated.html",
+          "hash": "meYfod0yDjsWUCgqgtRtZQ=="
         }
       },
       "is_incremental": false,
@@ -365,11 +365,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityAsyncAwaitUtil.yml",
+      "source_relative_path": "api/Aci.Unity.Events.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityAsyncAwaitUtil.html",
-          "hash": "tamr/L6clWnnsVws0DR59Q=="
+          "relative_path": "api/Aci.Unity.Events.html",
+          "hash": "gEzWh8CLTr7Fi+5zlrkQxA=="
         }
       },
       "is_incremental": false,
@@ -377,11 +377,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ActionInstaller.yml",
+      "source_relative_path": "api/Aci.Unity.Logging.AciLog.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.ActionInstaller.html",
-          "hash": "ubk+VIoS6XP3hUxecUwB5Q=="
+          "relative_path": "api/Aci.Unity.Logging.AciLog.html",
+          "hash": "6aE0fIqHheKDKztmX7PWKA=="
         }
       },
       "is_incremental": false,
@@ -389,11 +389,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.AddToCurrentGameObjectComponentProvider.yml",
+      "source_relative_path": "api/Aci.Unity.Logging.LoggingInstaller.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.AddToCurrentGameObjectComponentProvider.html",
-          "hash": "YbFzG6CV2Bq5/5izKEXekQ=="
+          "relative_path": "api/Aci.Unity.Logging.LoggingInstaller.html",
+          "hash": "noIFLjCXleRIX5/sGI2R/A=="
         }
       },
       "is_incremental": false,
@@ -401,11 +401,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.AddToExistingGameObjectComponentProvider.yml",
+      "source_relative_path": "api/Aci.Unity.Logging.LoggingPackage.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.AddToExistingGameObjectComponentProvider.html",
-          "hash": "HZHpuLPkrzoNrikpPL6nsQ=="
+          "relative_path": "api/Aci.Unity.Logging.LoggingPackage.html",
+          "hash": "TFQH8VM7AR1ZQbULuFSiOw=="
         }
       },
       "is_incremental": false,
@@ -413,11 +413,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.AddToExistingGameObjectComponentProviderGetter.yml",
+      "source_relative_path": "api/Aci.Unity.Logging.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.AddToExistingGameObjectComponentProviderGetter.html",
-          "hash": "sQMWhb5JUcu7R1Wk6UdupA=="
+          "relative_path": "api/Aci.Unity.Logging.html",
+          "hash": "oNo1CIgLywLr2fSIkv2Sww=="
         }
       },
       "is_incremental": false,
@@ -425,11 +425,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.AddToGameObjectComponentProviderBase.yml",
+      "source_relative_path": "api/Aci.Unity.Network.INetworkPackage.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.AddToGameObjectComponentProviderBase.html",
-          "hash": "hM42nEN/FfSfIVFrj+TghQ=="
+          "relative_path": "api/Aci.Unity.Network.INetworkPackage.html",
+          "hash": "4wZRklSLAmSveDahAgj7kw=="
         }
       },
       "is_incremental": false,
@@ -437,11 +437,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.AddToNewGameObjectComponentProvider.yml",
+      "source_relative_path": "api/Aci.Unity.Network.INetworkPackageHandler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.AddToNewGameObjectComponentProvider.html",
-          "hash": "IXPUk6zmfHbrbaGIWB35Dg=="
+          "relative_path": "api/Aci.Unity.Network.INetworkPackageHandler.html",
+          "hash": "InMV6htwcFJNggoAxhusUQ=="
         }
       },
       "is_incremental": false,
@@ -449,11 +449,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.AnimatorIkHandlerManager.yml",
+      "source_relative_path": "api/Aci.Unity.Network.INetworkPublisher.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.AnimatorIkHandlerManager.html",
-          "hash": "r4scjh7nraaI5W0PGCPCsw=="
+          "relative_path": "api/Aci.Unity.Network.INetworkPublisher.html",
+          "hash": "27euZBeGwGCqxzs9PEJG7g=="
         }
       },
       "is_incremental": false,
@@ -461,11 +461,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.AnimatorInstaller.yml",
+      "source_relative_path": "api/Aci.Unity.Network.NetworkInstaller.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.AnimatorInstaller.html",
-          "hash": "Qchg66hETk9QFvJGdSjJNA=="
+          "relative_path": "api/Aci.Unity.Network.NetworkInstaller.html",
+          "hash": "l11+SRx/nTWR+XDdh0JetA=="
         }
       },
       "is_incremental": false,
@@ -473,11 +473,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.AnimatorMoveHandlerManager.yml",
+      "source_relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.AnimatorMoveHandlerManager.html",
-          "hash": "781+ic8XpqN7xT8vYPOpwg=="
+          "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-1.html",
+          "hash": "EoEsrPEhfLkQ832XOE8N7g=="
         }
       },
       "is_incremental": false,
@@ -485,11 +485,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ArgConditionCopyNonLazyBinder.yml",
+      "source_relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerRegistry.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.ArgConditionCopyNonLazyBinder.html",
-          "hash": "L5wcj47INSEP9Loh59qhGQ=="
+          "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerRegistry.html",
+          "hash": "/NgQSY71xFd6AKXq+pzYPw=="
         }
       },
       "is_incremental": false,
@@ -497,11 +497,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ArgNonLazyBinder.yml",
+      "source_relative_path": "api/Aci.Unity.Network.NetworkPublisher.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.ArgNonLazyBinder.html",
-          "hash": "C8hn3SXp7s1kilEHfkS49Q=="
+          "relative_path": "api/Aci.Unity.Network.NetworkPublisher.html",
+          "hash": "xMOdWpi7KJ9qwrXdU9cGWA=="
         }
       },
       "is_incremental": false,
@@ -509,11 +509,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.BindFinalizerWrapper.yml",
+      "source_relative_path": "api/Aci.Unity.Network.NetworkSubscriber.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.BindFinalizerWrapper.html",
-          "hash": "GdiBQRZkb18nbUP0MCH4vQ=="
+          "relative_path": "api/Aci.Unity.Network.NetworkSubscriber.html",
+          "hash": "8hnt3qOwbEKYAoe2YFagwg=="
         }
       },
       "is_incremental": false,
@@ -521,11 +521,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.BindInfo.yml",
+      "source_relative_path": "api/Aci.Unity.Network.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.BindInfo.html",
-          "hash": "t2YymqxpKJtKZ/jdZEVoaw=="
+          "relative_path": "api/Aci.Unity.Network.html",
+          "hash": "OyQOcwv8/qxzs4U2I20x7Q=="
         }
       },
       "is_incremental": false,
@@ -533,11 +533,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.BindingCondition.yml",
+      "source_relative_path": "api/Aci.Unity.Sensor.WebcamProvider.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.BindingCondition.html",
-          "hash": "dRQAkR8Z7zb7u+gC4h5xlQ=="
+          "relative_path": "api/Aci.Unity.Sensor.WebcamProvider.html",
+          "hash": "laCU8LGINzTytfxCdum1UQ=="
         }
       },
       "is_incremental": false,
@@ -545,11 +545,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.BindingId.yml",
+      "source_relative_path": "api/Aci.Unity.Sensor.WebcamProviderEditor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.BindingId.html",
-          "hash": "vxZJNzB3MShK9o7RjS2ALA=="
+          "relative_path": "api/Aci.Unity.Sensor.WebcamProviderEditor.html",
+          "hash": "Me2Kt1IifMxB80t6Gr2VYw=="
         }
       },
       "is_incremental": false,
@@ -557,11 +557,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.BindingInheritanceMethods.yml",
+      "source_relative_path": "api/Aci.Unity.Sensor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.BindingInheritanceMethods.html",
-          "hash": "aLcvm8rdfAN/qbtHZ9SB5A=="
+          "relative_path": "api/Aci.Unity.Sensor.html",
+          "hash": "jIKkAhlGxNGVer53wa0Ydw=="
         }
       },
       "is_incremental": false,
@@ -569,11 +569,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.CachedOpenTypeProvider.yml",
+      "source_relative_path": "api/Aci.Unity.Services.ICachedResourceProvider-2.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.CachedOpenTypeProvider.html",
-          "hash": "+eYMpNKaWogFRLKDgRANDQ=="
+          "relative_path": "api/Aci.Unity.Services.ICachedResourceProvider-2.html",
+          "hash": "cz00+V+DSxoVvmvtmvVY3w=="
         }
       },
       "is_incremental": false,
@@ -581,11 +581,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.CachedProvider.yml",
+      "source_relative_path": "api/Aci.Unity.Services.InMemoryCachedImageProvider.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.CachedProvider.html",
-          "hash": "o5+OZkZ8k08G+W9WE33QpA=="
+          "relative_path": "api/Aci.Unity.Services.InMemoryCachedImageProvider.html",
+          "hash": "W4kBgHWD1tXrg376QFyF1Q=="
         }
       },
       "is_incremental": false,
@@ -593,11 +593,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.CheatSheet.Bar.yml",
+      "source_relative_path": "api/Aci.Unity.Services.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.CheatSheet.Bar.html",
-          "hash": "BRNTkuhk9q0oe3mK0v11ag=="
+          "relative_path": "api/Aci.Unity.Services.html",
+          "hash": "waDj3L3UjCS0qPCev2COng=="
         }
       },
       "is_incremental": false,
@@ -605,11 +605,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.CheatSheet.Baz.yml",
+      "source_relative_path": "api/Aci.Unity.UI.AciButton.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.CheatSheet.Baz.html",
-          "hash": "jxlQybvy0UM5aIstA+fkkw=="
+          "relative_path": "api/Aci.Unity.UI.AciButton.html",
+          "hash": "RTPv/lFCtzZFIRcp43CJrw=="
         }
       },
       "is_incremental": false,
@@ -617,11 +617,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.CheatSheet.Foo.yml",
+      "source_relative_path": "api/Aci.Unity.UI.CachedImageComponent.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.CheatSheet.Foo.html",
-          "hash": "ceu2qKa+FdfANu0Zn+HxWg=="
+          "relative_path": "api/Aci.Unity.UI.CachedImageComponent.html",
+          "hash": "Ybi4PdifeWK4RRoyIxT18w=="
         }
       },
       "is_incremental": false,
@@ -629,11 +629,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.CheatSheet.Foo1.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.ActivityIndicatorDialog.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.CheatSheet.Foo1.html",
-          "hash": "tVm1IYmR3vGGvMlzkNMT5w=="
+          "relative_path": "api/Aci.Unity.UI.Dialog.ActivityIndicatorDialog.html",
+          "hash": "WWx3f1v1FXeAsgfgo/tDng=="
         }
       },
       "is_incremental": false,
@@ -641,11 +641,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.CheatSheet.Foo2.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.ActivityIndicatorFactory.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.CheatSheet.Foo2.html",
-          "hash": "ntAwcJxhmyGHeL+j2+POAw=="
+          "relative_path": "api/Aci.Unity.UI.Dialog.ActivityIndicatorFactory.html",
+          "hash": "TONH+J3VUJNSCig5EyQBrg=="
         }
       },
       "is_incremental": false,
@@ -653,11 +653,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.CheatSheet.Foo3.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.AlertDialog.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.CheatSheet.Foo3.html",
-          "hash": "tdIebB6UBLPc3kxlft2nLA=="
+          "relative_path": "api/Aci.Unity.UI.Dialog.AlertDialog.html",
+          "hash": "xUNK7YkbeC4PC/wTZk+hEg=="
         }
       },
       "is_incremental": false,
@@ -665,11 +665,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.CheatSheet.FooInstaller.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.AlertDialogFactory.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.CheatSheet.FooInstaller.html",
-          "hash": "YAYNDlgdMzoo75AKjyQD0w=="
+          "relative_path": "api/Aci.Unity.UI.Dialog.AlertDialogFactory.html",
+          "hash": "/07fNz8Mx4cuyrKlSBudKQ=="
         }
       },
       "is_incremental": false,
@@ -677,11 +677,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.CheatSheet.FooInstallerWithArgs.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.DialogBase.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.CheatSheet.FooInstallerWithArgs.html",
-          "hash": "7kJhtMhd41q6cPDXYvGejA=="
+          "relative_path": "api/Aci.Unity.UI.Dialog.DialogBase.html",
+          "hash": "diFkb4vPlvAhf7xAmESnVw=="
         }
       },
       "is_incremental": false,
@@ -689,11 +689,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.CheatSheet.Gui.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.DialogService.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.CheatSheet.Gui.html",
-          "hash": "YXf3oodY7ZpyeHIj02x/jA=="
+          "relative_path": "api/Aci.Unity.UI.Dialog.DialogService.html",
+          "hash": "lMVzesuKSWGaa9en6yYx9A=="
         }
       },
       "is_incremental": false,
@@ -701,11 +701,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.CheatSheet.IBar.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.IActivityIndicatorFactory.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.CheatSheet.IBar.html",
-          "hash": "hLf+d0vXf1DOg8/lt5LfBg=="
+          "relative_path": "api/Aci.Unity.UI.Dialog.IActivityIndicatorFactory.html",
+          "hash": "3z05IEOkLfrP02Atr/AJ6Q=="
         }
       },
       "is_incremental": false,
@@ -713,11 +713,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.CheatSheet.IFoo.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.IAlertDialogFactory.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.CheatSheet.IFoo.html",
-          "hash": "dabyekNVmHqvpfMtWlt1Xw=="
+          "relative_path": "api/Aci.Unity.UI.Dialog.IAlertDialogFactory.html",
+          "hash": "+EvrizBreJlwQxagnb9GxQ=="
         }
       },
       "is_incremental": false,
@@ -725,11 +725,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.CheatSheet.IFoo2.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.IDialog.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.CheatSheet.IFoo2.html",
-          "hash": "cMyFqm6YBMjk1Kdn+FalLg=="
+          "relative_path": "api/Aci.Unity.UI.Dialog.IDialog.html",
+          "hash": "vuRmCdsPlHO/yzyNp/yjCQ=="
         }
       },
       "is_incremental": false,
@@ -737,11 +737,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.CheatSheet.Norf.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.IDialogService.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.CheatSheet.Norf.html",
-          "hash": "AUXhDaeqBuItP/n/nD+Wsg=="
+          "relative_path": "api/Aci.Unity.UI.Dialog.IDialogService.html",
+          "hash": "GXIFnxcz02bTr18U17MY3g=="
         }
       },
       "is_incremental": false,
@@ -749,11 +749,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.CheatSheet.Norf2.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.CheatSheet.Norf2.html",
-          "hash": "litMe9Q3cnWjNybrR76YlQ=="
+          "relative_path": "api/Aci.Unity.UI.Dialog.html",
+          "hash": "e1FPcP3+k4YGJpoTMGoqcQ=="
         }
       },
       "is_incremental": false,
@@ -761,11 +761,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.CheatSheet.Qux.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Localization.ILocalizationManager.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.CheatSheet.Qux.html",
-          "hash": "uuE767A3J2iryloo9tyz9g=="
+          "relative_path": "api/Aci.Unity.UI.Localization.ILocalizationManager.html",
+          "hash": "1FxyIpf3jZJf5kf/uoqYNw=="
         }
       },
       "is_incremental": false,
@@ -773,11 +773,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.CheatSheet.Qux2.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Localization.LocalizationData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.CheatSheet.Qux2.html",
-          "hash": "4bg6hnZ9T/A8DQ3883avcg=="
+          "relative_path": "api/Aci.Unity.UI.Localization.LocalizationData.html",
+          "hash": "2jITAjBR06oNOsG871TOIg=="
         }
       },
       "is_incremental": false,
@@ -785,11 +785,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.CheatSheet.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Localization.LocalizationDataEditor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.CheatSheet.html",
-          "hash": "CwtO1OufsbDolFV5Yc7ZMg=="
+          "relative_path": "api/Aci.Unity.UI.Localization.LocalizationDataEditor.html",
+          "hash": "VrBSfN4NWqQVozlmK+aVmg=="
         }
       },
       "is_incremental": false,
@@ -797,11 +797,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ConcreteBinderGeneric-1.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Localization.LocalizationDictionary.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.ConcreteBinderGeneric-1.html",
-          "hash": "4wzacBMIwtp8Wp1+Kyyxtw=="
+          "relative_path": "api/Aci.Unity.UI.Localization.LocalizationDictionary.html",
+          "hash": "BWAnNsS26q0Ozn94JsdOHw=="
         }
       },
       "is_incremental": false,
@@ -809,11 +809,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ConcreteBinderNonGeneric.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Localization.LocalizationManager.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.ConcreteBinderNonGeneric.html",
-          "hash": "w3jkBPl7A2oV23CEmbUaCw=="
+          "relative_path": "api/Aci.Unity.UI.Localization.LocalizationManager.html",
+          "hash": "sNVDLMXUPUyEju22WznDqA=="
         }
       },
       "is_incremental": false,
@@ -821,11 +821,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ConcreteIdArgConditionCopyNonLazyBinder.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Localization.LocalizedString.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.ConcreteIdArgConditionCopyNonLazyBinder.html",
-          "hash": "rIU+AK3LbTa5Bh5WYPRd0A=="
+          "relative_path": "api/Aci.Unity.UI.Localization.LocalizedString.html",
+          "hash": "4QpjXbLZ/1vw1GCktiQllw=="
         }
       },
       "is_incremental": false,
@@ -833,11 +833,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ConcreteIdArgNonLazyBinder.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Localization.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.ConcreteIdArgNonLazyBinder.html",
-          "hash": "zyX2fq9R1ITBIYFpbJixxQ=="
+          "relative_path": "api/Aci.Unity.UI.Localization.html",
+          "hash": "1zzRhAcyUP3dY0S8xut6/w=="
         }
       },
       "is_incremental": false,
@@ -845,11 +845,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ConcreteIdBinderGeneric-1.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.IDestructible.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.ConcreteIdBinderGeneric-1.html",
-          "hash": "1Yc4axrmIQBfqnXBslfGIg=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.IDestructible.html",
+          "hash": "g+dryQZJs6kf7seNGlkotQ=="
         }
       },
       "is_incremental": false,
@@ -857,11 +857,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ConcreteIdBinderNonGeneric.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.INavigatedAware.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.ConcreteIdBinderNonGeneric.html",
-          "hash": "/H/D/sW4OVk3vNTw3S6qOg=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.INavigatedAware.html",
+          "hash": "mISRNtiGfZSt9VDgMptpaA=="
         }
       },
       "is_incremental": false,
@@ -869,11 +869,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ConditionCopyNonLazyBinder.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.INavigatedAwayAware.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.ConditionCopyNonLazyBinder.html",
-          "hash": "6hNEh9dUh8pik6pEHEQRKQ=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.INavigatedAwayAware.html",
+          "hash": "4x7cxyR2UX7i5GSCFrrJRg=="
         }
       },
       "is_incremental": false,
@@ -881,11 +881,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Context.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.INavigatedBackAware.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.Context.html",
-          "hash": "rSyI59FP8qJQ003Ha7zIaA=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.INavigatedBackAware.html",
+          "hash": "xDdRSZFLhFPgSZwAWNM7KA=="
         }
       },
       "is_incremental": false,
@@ -893,11 +893,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ContextEditor.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.INavigatedToAware.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.ContextEditor.html",
-          "hash": "nbE0bdjRBXs8LP8B1PUqsQ=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.INavigatedToAware.html",
+          "hash": "MhhxI44lGqBp5sDq5N8y9g=="
         }
       },
       "is_incremental": false,
@@ -905,11 +905,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ConventionAssemblySelectionBinder.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.INavigatingAware.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.ConventionAssemblySelectionBinder.html",
-          "hash": "fKBwxTMGYHTK8MpdfFWnaQ=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.INavigatingAware.html",
+          "hash": "9TZWtYGu7FcIu5RIkYLYcQ=="
         }
       },
       "is_incremental": false,
@@ -917,11 +917,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ConventionBindInfo.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.INavigationAware.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.ConventionBindInfo.html",
-          "hash": "vLMgfgIKmPTla16eTUIpxA=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.INavigationAware.html",
+          "hash": "NqSfu/i2rdi8vwc1NfoG8Q=="
         }
       },
       "is_incremental": false,
@@ -929,11 +929,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ConventionFilterTypesBinder.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.INavigationEvent.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.ConventionFilterTypesBinder.html",
-          "hash": "SMPsiE8SQkJUOIt4p4N/1w=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.INavigationEvent.html",
+          "hash": "w1PAG59HxMOj+m0HoXRXkQ=="
         }
       },
       "is_incremental": false,
@@ -941,11 +941,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ConventionSelectTypesBinder.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.INavigationParameters.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.ConventionSelectTypesBinder.html",
-          "hash": "AGRL5M+ABq3VBBqV5aK0Nw=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.INavigationParameters.html",
+          "hash": "yAIZe+mTcwT5vvovrOgQKg=="
         }
       },
       "is_incremental": false,
@@ -953,11 +953,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.CopyNonLazyBinder.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.INavigationService.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.CopyNonLazyBinder.html",
-          "hash": "5yHfrGuf7ewE8Lgqq7WHvQ=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.INavigationService.html",
+          "hash": "Gsg7IcwFLtLpkAMjWJXaSQ=="
         }
       },
       "is_incremental": false,
@@ -965,11 +965,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.DecoratorToChoiceFromBinder-1.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.IPageContainer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.DecoratorToChoiceFromBinder-1.html",
-          "hash": "rW86/LuL6t7WnWbd8+ds4Q=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.IPageContainer.html",
+          "hash": "q1mW2qMyfjSQRcyCT6pWGA=="
         }
       },
       "is_incremental": false,
@@ -977,11 +977,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.DefaultGameObjectKernel.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.IPageContainerRegistry.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.DefaultGameObjectKernel.html",
-          "hash": "qQeAbJDGWUmH0iPRam9R7w=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.IPageContainerRegistry.html",
+          "hash": "kphR5u0QZRcv47hmAF+Wbg=="
         }
       },
       "is_incremental": false,
@@ -989,11 +989,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.DiContainer.ProviderInfo.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.IPageTransition.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.DiContainer.ProviderInfo.html",
-          "hash": "xCofUz4FBrfPg6mxTqn+4g=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.IPageTransition.html",
+          "hash": "40MwO3xWTFaxY2UCF4HAAA=="
         }
       },
       "is_incremental": false,
@@ -1001,11 +1001,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.DiContainer.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.NavigationParameters.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.DiContainer.html",
-          "hash": "uCyh5+ZeAhc6n3L61bA0jg=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.NavigationParameters.html",
+          "hash": "WsCycJkgF6nrf0D7QFU3Nw=="
         }
       },
       "is_incremental": false,
@@ -1013,11 +1013,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.DictionaryPool-2.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.NavigationService.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.DictionaryPool-2.html",
-          "hash": "jF0Cc7oeAKQvCMZAKl1DwQ=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.NavigationService.html",
+          "hash": "0Oq/L/g1NHzhVvrN3/QFOw=="
         }
       },
       "is_incremental": false,
@@ -1025,11 +1025,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.DisposableManager.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.PageContainer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.DisposableManager.html",
-          "hash": "bNjlfFLacNq/4i8GU2lrRw=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.PageContainer.html",
+          "hash": "snl/Pqg895SGu7MeYKgLpg=="
         }
       },
       "is_incremental": false,
@@ -1037,11 +1037,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.DisposeBlock.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.PageContainerRegistry.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.DisposeBlock.html",
-          "hash": "kGmFATNVrC02B+UwdmE5dw=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.PageContainerRegistry.html",
+          "hash": "0JHc3FTIUhxqmh5tKs1YNg=="
         }
       },
       "is_incremental": false,
@@ -1049,11 +1049,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.EditorStaticInstaller-1.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.PageNotFoundException.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.EditorStaticInstaller-1.html",
-          "hash": "H6QmXi20prNz8SDqB6pY5A=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.PageNotFoundException.html",
+          "hash": "soJboMds/q9Y382CMrjWoQ=="
         }
       },
       "is_incremental": false,
@@ -1061,11 +1061,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.EmptyGameObjectProvider.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.EmptyGameObjectProvider.html",
-          "hash": "krR0adaiAvdhrjtUYUcmBg=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.html",
+          "hash": "Pp73LY1NWLcS37SEjpHL5Q=="
         }
       },
       "is_incremental": false,
@@ -1073,11 +1073,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ExecutionOrderInstaller.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.AlphaTweener.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.ExecutionOrderInstaller.html",
-          "hash": "/sEUrtoEU623ni38a+sMag=="
+          "relative_path": "api/Aci.Unity.UI.Tweening.AlphaTweener.html",
+          "hash": "+Gi1I7v5e006iq2sLvlCCg=="
         }
       },
       "is_incremental": false,
@@ -1085,11 +1085,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Factory-1.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.AnchorTweener.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.Factory-1.html",
-          "hash": "FL5cTo+fXbXM/Bd/pGZj3Q=="
+          "relative_path": "api/Aci.Unity.UI.Tweening.AnchorTweener.html",
+          "hash": "oLhQ11E3IYIbuos780vrqw=="
         }
       },
       "is_incremental": false,
@@ -1097,11 +1097,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Factory-11.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.ColorTweener.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.Factory-11.html",
-          "hash": "pzbxvyroiYGQugI/tgSYbg=="
+          "relative_path": "api/Aci.Unity.UI.Tweening.ColorTweener.html",
+          "hash": "E9dYClTY48oIgB/enbQ3fw=="
         }
       },
       "is_incremental": false,
@@ -1109,11 +1109,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Factory-2.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.Editor.TweenerDirectorEditor.Style.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.Factory-2.html",
-          "hash": "LtrWnOcAb1WLgo3WqwST6g=="
+          "relative_path": "api/Aci.Unity.UI.Tweening.Editor.TweenerDirectorEditor.Style.html",
+          "hash": "PfBsctcfZ6twL9Y7KVe8kw=="
         }
       },
       "is_incremental": false,
@@ -1121,11 +1121,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Factory-3.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.Editor.TweenerDirectorEditor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.Factory-3.html",
-          "hash": "wsCf7cT0d5Wart76kvPgxw=="
+          "relative_path": "api/Aci.Unity.UI.Tweening.Editor.TweenerDirectorEditor.html",
+          "hash": "4MR+3qmQMoMXDJooYl2iQg=="
         }
       },
       "is_incremental": false,
@@ -1133,11 +1133,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Factory-4.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.Editor.TweenerEditor.Style.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.Factory-4.html",
-          "hash": "O/GJPgWjZ7d6fiKIySW2ug=="
+          "relative_path": "api/Aci.Unity.UI.Tweening.Editor.TweenerEditor.Style.html",
+          "hash": "AvW4Eu7BS0J3I2AEuqSjuA=="
         }
       },
       "is_incremental": false,
@@ -1145,11 +1145,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Factory-5.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.Editor.TweenerEditor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.Factory-5.html",
-          "hash": "qnWMDh7hP8XTSY5P0tmoHA=="
+          "relative_path": "api/Aci.Unity.UI.Tweening.Editor.TweenerEditor.html",
+          "hash": "WbuQqX1YWhMclFDyGV8iNQ=="
         }
       },
       "is_incremental": false,
@@ -1157,11 +1157,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Factory-6.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.Editor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.Factory-6.html",
-          "hash": "n3JQ0h7eNiqBrrFc3AGWbA=="
+          "relative_path": "api/Aci.Unity.UI.Tweening.Editor.html",
+          "hash": "foUp6Q2gLKfXyzjfyKn+tg=="
         }
       },
       "is_incremental": false,
@@ -1169,11 +1169,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Factory-7.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.RectTransformAnchor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.Factory-7.html",
-          "hash": "tBljhTsU1xE10H2JcccQ0Q=="
+          "relative_path": "api/Aci.Unity.UI.Tweening.RectTransformAnchor.html",
+          "hash": "zwe//Fl7v5PM247m8VrR1Q=="
         }
       },
       "is_incremental": false,
@@ -1181,11 +1181,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryArgumentsToChoiceBinder-1.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.RectTransformRotation.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.FactoryArgumentsToChoiceBinder-1.html",
-          "hash": "ZbGj2R20xDAGCeX8vbfY0Q=="
+          "relative_path": "api/Aci.Unity.UI.Tweening.RectTransformRotation.html",
+          "hash": "rIQ5DUCpT9xyeu1AMkrANw=="
         }
       },
       "is_incremental": false,
@@ -1193,11 +1193,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryArgumentsToChoiceBinder-11.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.RotationTweener.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.FactoryArgumentsToChoiceBinder-11.html",
-          "hash": "rygds6ZmC5/WEb+e3PJ0bQ=="
+          "relative_path": "api/Aci.Unity.UI.Tweening.RotationTweener.html",
+          "hash": "eL49cccOs77ernu/P5YWXw=="
         }
       },
       "is_incremental": false,
@@ -1205,11 +1205,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryArgumentsToChoiceBinder-2.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.ScaleTweener.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.FactoryArgumentsToChoiceBinder-2.html",
-          "hash": "WCYKSU9ifgXe42UiTKHnKQ=="
+          "relative_path": "api/Aci.Unity.UI.Tweening.ScaleTweener.html",
+          "hash": "MdWS5paEHTv7zdN3KPGAsA=="
         }
       },
       "is_incremental": false,
@@ -1217,11 +1217,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryArgumentsToChoiceBinder-3.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.Tweener-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.FactoryArgumentsToChoiceBinder-3.html",
-          "hash": "AG8ih5zNWkA2u6yBLGpteA=="
+          "relative_path": "api/Aci.Unity.UI.Tweening.Tweener-1.html",
+          "hash": "5MG6oWqjBVXs50KyFvpMWg=="
         }
       },
       "is_incremental": false,
@@ -1229,11 +1229,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryArgumentsToChoiceBinder-4.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.Tweener-2.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.FactoryArgumentsToChoiceBinder-4.html",
-          "hash": "+jv8sZp+6IVGh29GWrjFCA=="
+          "relative_path": "api/Aci.Unity.UI.Tweening.Tweener-2.html",
+          "hash": "7D64iOniM2CoZa5+4L+eKQ=="
         }
       },
       "is_incremental": false,
@@ -1241,11 +1241,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryArgumentsToChoiceBinder-5.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.Tweener.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.FactoryArgumentsToChoiceBinder-5.html",
-          "hash": "EnHdUCXZaIY2B6l/or9urQ=="
+          "relative_path": "api/Aci.Unity.UI.Tweening.Tweener.html",
+          "hash": "CubdAISIMO/2xveMHK3PQw=="
         }
       },
       "is_incremental": false,
@@ -1253,11 +1253,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryArgumentsToChoiceBinder-6.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.TweenerDirector.PlayTweenEventType.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.FactoryArgumentsToChoiceBinder-6.html",
-          "hash": "ad5YoNDXyZ1xsOlT/W3Gbg=="
+          "relative_path": "api/Aci.Unity.UI.Tweening.TweenerDirector.PlayTweenEventType.html",
+          "hash": "j07IXURA7txHBwfypgWtlg=="
         }
       },
       "is_incremental": false,
@@ -1265,11 +1265,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryArgumentsToChoiceBinder-7.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.TweenerDirector.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.FactoryArgumentsToChoiceBinder-7.html",
-          "hash": "d0e6RAZcj08aNpfCmWUEew=="
+          "relative_path": "api/Aci.Unity.UI.Tweening.TweenerDirector.html",
+          "hash": "igroGWKw2GFKZvutgpy66A=="
         }
       },
       "is_incremental": false,
@@ -1277,11 +1277,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryBindInfo.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.FactoryBindInfo.html",
-          "hash": "VBV2UT73uN0xDpal+i9D8w=="
+          "relative_path": "api/Aci.Unity.UI.Tweening.html",
+          "hash": "K/tIkuRxNw/ub55qQFvu0Q=="
         }
       },
       "is_incremental": false,
@@ -1289,11 +1289,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryFromBinder-1.yml",
+      "source_relative_path": "api/Aci.Unity.UI.ViewControllers.CameraFeedViewController.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.FactoryFromBinder-1.html",
-          "hash": "clrkjcPhqxac5lE7Tr5MsQ=="
+          "relative_path": "api/Aci.Unity.UI.ViewControllers.CameraFeedViewController.html",
+          "hash": "XQMdS93fgz4YsS6Ix9PI0g=="
         }
       },
       "is_incremental": false,
@@ -1301,11 +1301,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryFromBinder-11.yml",
+      "source_relative_path": "api/Aci.Unity.UI.ViewControllers.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.FactoryFromBinder-11.html",
-          "hash": "Q+r3kmrL37Brbdmppajirw=="
+          "relative_path": "api/Aci.Unity.UI.ViewControllers.html",
+          "hash": "b6OtsaSX+C4C1d6lq7tRkg=="
         }
       },
       "is_incremental": false,
@@ -1313,11 +1313,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryFromBinder-2.yml",
+      "source_relative_path": "api/Aci.Unity.UI.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.FactoryFromBinder-2.html",
-          "hash": "0kaB8RhBSOmDOVIYFHcyKA=="
+          "relative_path": "api/Aci.Unity.UI.html",
+          "hash": "MVZZYAFap4V6CxEIKxG5gg=="
         }
       },
       "is_incremental": false,
@@ -1325,11 +1325,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryFromBinder-3.yml",
+      "source_relative_path": "api/Aci.Unity.Util.AsyncTimeProvider.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.FactoryFromBinder-3.html",
-          "hash": "K1TIK5O+0jqq4t66CBl0OQ=="
+          "relative_path": "api/Aci.Unity.Util.AsyncTimeProvider.html",
+          "hash": "toyzdT9jskmd/v5c3F+MJg=="
         }
       },
       "is_incremental": false,
@@ -1337,11 +1337,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryFromBinder-4.yml",
+      "source_relative_path": "api/Aci.Unity.Util.ITimeProvider.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.FactoryFromBinder-4.html",
-          "hash": "vdh+f/Ee5xsRupTalWwe1A=="
+          "relative_path": "api/Aci.Unity.Util.ITimeProvider.html",
+          "hash": "3xPzW7AodDZTGIfwczY8XQ=="
         }
       },
       "is_incremental": false,
@@ -1349,11 +1349,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryFromBinder-5.yml",
+      "source_relative_path": "api/Aci.Unity.Util.SerializableDictionary-2.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.FactoryFromBinder-5.html",
-          "hash": "AHirS2vdRi2TIgVbvE2CDg=="
+          "relative_path": "api/Aci.Unity.Util.SerializableDictionary-2.html",
+          "hash": "SdI16oIcW5r5UdRYv2O0MQ=="
         }
       },
       "is_incremental": false,
@@ -1361,11 +1361,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryFromBinder-6.yml",
+      "source_relative_path": "api/Aci.Unity.Util.Texture2DHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.FactoryFromBinder-6.html",
-          "hash": "VaiD5fKs8IeaTRVTZ+0WbA=="
+          "relative_path": "api/Aci.Unity.Util.Texture2DHelper.html",
+          "hash": "rXVbXgflgaksBplq2GQp1w=="
         }
       },
       "is_incremental": false,
@@ -1373,11 +1373,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryFromBinder-7.yml",
+      "source_relative_path": "api/Aci.Unity.Util.UnityMainThreadDispatcher.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.FactoryFromBinder-7.html",
-          "hash": "mGTc1Qg/CkwW68h5jUN6AQ=="
+          "relative_path": "api/Aci.Unity.Util.UnityMainThreadDispatcher.html",
+          "hash": "MMHLL/85eW+YhRwcQz46Zg=="
         }
       },
       "is_incremental": false,
@@ -1385,4247 +1385,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryFromBinder0Extensions.yml",
+      "source_relative_path": "api/Aci.Unity.Util.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Zenject.FactoryFromBinder0Extensions.html",
-          "hash": "wvh4IxB9YtwCrRtUp6ibuA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryFromBinder1Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryFromBinder1Extensions.html",
-          "hash": "yQ4hDXRIn565wqUv9p3Djg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryFromBinder2Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryFromBinder2Extensions.html",
-          "hash": "nYcvdGJqQTiGYawz6qEN2A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryFromBinder3Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryFromBinder3Extensions.html",
-          "hash": "3EuJY+2GiAPsuFyxAObWrQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryFromBinder4Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryFromBinder4Extensions.html",
-          "hash": "OJ+v0i2nk2aA2X3tFF09jw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryFromBinder5Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryFromBinder5Extensions.html",
-          "hash": "1x4JXEP9SUKQ36tqBIEX/w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryFromBinder6Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryFromBinder6Extensions.html",
-          "hash": "htHY/klYe0qh9xAsh1EOnQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryFromBinderBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryFromBinderBase.html",
-          "hash": "ev9Y22567Xhg3aSqKDmBPQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryFromBinderUntyped.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryFromBinderUntyped.html",
-          "hash": "xGZXb21nvZ22Kk4/moudDA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryProviderWrapper-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryProviderWrapper-1.html",
-          "hash": "466UBndX6HJjyqiBb/cMag=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactorySubContainerBinder-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactorySubContainerBinder-1.html",
-          "hash": "+STluDvuZ4tW7ytZRmc5Uw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactorySubContainerBinder-11.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactorySubContainerBinder-11.html",
-          "hash": "Pb5AJ+Lv97w/3yK41479sA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactorySubContainerBinder-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactorySubContainerBinder-2.html",
-          "hash": "v1b1cCpxfJofyfUDnVddpw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactorySubContainerBinder-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactorySubContainerBinder-3.html",
-          "hash": "2d1zB1OMCK2Z1RCMky8AQA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactorySubContainerBinder-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactorySubContainerBinder-4.html",
-          "hash": "aiWPEzdfHH6m0xPt6n5YWQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactorySubContainerBinder-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactorySubContainerBinder-5.html",
-          "hash": "2HrId8anCDpKtBgp7TV1mA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactorySubContainerBinder-6.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactorySubContainerBinder-6.html",
-          "hash": "XwoD/zx+Nj+brGD9hsWJrw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactorySubContainerBinder-7.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactorySubContainerBinder-7.html",
-          "hash": "cRgs4TBrGpqreIAK0Vphsw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactorySubContainerBinderBase-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactorySubContainerBinderBase-1.html",
-          "hash": "VvACfnXqmwVklkp0rDPqsQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactorySubContainerBinderWithParams-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactorySubContainerBinderWithParams-1.html",
-          "hash": "15ml9D4bWxhdH92ynybQmQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryToChoiceBinder-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryToChoiceBinder-1.html",
-          "hash": "u7rA5+3RqpFpEweNVLXlOw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryToChoiceBinder-11.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryToChoiceBinder-11.html",
-          "hash": "O24Cvxjq2HhO6KBfaBjUmQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryToChoiceBinder-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryToChoiceBinder-2.html",
-          "hash": "5nfPpISb/GdwjX0U2/NsMw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryToChoiceBinder-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryToChoiceBinder-3.html",
-          "hash": "6gU5ScDE6x5GyjKGu4+9/w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryToChoiceBinder-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryToChoiceBinder-4.html",
-          "hash": "euHGKRy1DH7p3T1jaowB8A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryToChoiceBinder-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryToChoiceBinder-5.html",
-          "hash": "C6trGWlH8Akh6GJ6HbEuJw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryToChoiceBinder-6.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryToChoiceBinder-6.html",
-          "hash": "/Xf+kcBf1wc/AiWhRk96dg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryToChoiceBinder-7.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryToChoiceBinder-7.html",
-          "hash": "HtCo7sHWjCNANoLP3YQf/Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryToChoiceIdBinder-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryToChoiceIdBinder-1.html",
-          "hash": "a3ey93x6A6WMosxJeIxr5g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryToChoiceIdBinder-11.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryToChoiceIdBinder-11.html",
-          "hash": "pQEMPQS6jyZXn9KHJp8+Cg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryToChoiceIdBinder-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryToChoiceIdBinder-2.html",
-          "hash": "FgxtGhwW0ay3U9wjGpKwkA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryToChoiceIdBinder-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryToChoiceIdBinder-3.html",
-          "hash": "1WM3xgl0FYfZ/D37roRMKA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryToChoiceIdBinder-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryToChoiceIdBinder-4.html",
-          "hash": "7ij/A4LEcSmyMeMKzoCXnA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryToChoiceIdBinder-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryToChoiceIdBinder-5.html",
-          "hash": "CnXRLAdQT7+JqjnqWLLS1Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryToChoiceIdBinder-6.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryToChoiceIdBinder-6.html",
-          "hash": "erRvr15fztm+DHuaNoR5EA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FactoryToChoiceIdBinder-7.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FactoryToChoiceIdBinder-7.html",
-          "hash": "2kIcfY/V6IWCTbxc2xN9dw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FixedTickablesTaskUpdater.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FixedTickablesTaskUpdater.html",
-          "hash": "3ffr1P6hjtH6783dp2WY6w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FromBinder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FromBinder.html",
-          "hash": "I/Go3IWixsbh+i3Y8hw27Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FromBinderGeneric-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FromBinderGeneric-1.html",
-          "hash": "p2gLuYQ+A9/0gHNNHy6BjA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.FromBinderNonGeneric.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.FromBinderNonGeneric.html",
-          "hash": "7taquSk5jXYBtunf27pvaw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.GameObjectContext.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.GameObjectContext.html",
-          "hash": "3zUrPs45OPajz5WAV63e0A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.GameObjectContextEditor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.GameObjectContextEditor.html",
-          "hash": "TpNryz1ZlMzltArpeNoT3A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.GameObjectCreationParameters.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.GameObjectCreationParameters.html",
-          "hash": "+iSfrF2YOWk8cLN4TXdf8A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.GetFromGameObjectComponentProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.GetFromGameObjectComponentProvider.html",
-          "hash": "OmJg7XveOdaXnwpv3M9ZVg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.GetFromGameObjectGetterComponentProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.GetFromGameObjectGetterComponentProvider.html",
-          "hash": "+5Hnm8O3PK9w7Zs5p74HlA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.GetFromPrefabComponentProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.GetFromPrefabComponentProvider.html",
-          "hash": "ntlZSDxm4SJl4rgyl1lmQw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.GetterProvider-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.GetterProvider-2.html",
-          "hash": "JJUWlQ4fLlUQWafg/rVDlA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.GuiRenderableManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.GuiRenderableManager.html",
-          "hash": "MDY6+me3UjcsDp4iHat4Fw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.GuiRenderer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.GuiRenderer.html",
-          "hash": "L4/5ByeaWHLk2hLMJvehAQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.HashSetPool-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.HashSetPool-1.html",
-          "hash": "lQwXip9oRQvCzzh56vCS3Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IAnimatorIkHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IAnimatorIkHandler.html",
-          "hash": "/5AUnjLT4DktkT3OqU6ASw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IAnimatorMoveHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IAnimatorMoveHandler.html",
-          "hash": "a54SshVRlMrZ1ibKI8sqFQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IBindingFinalizer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IBindingFinalizer.html",
-          "hash": "yxI7F6VjfqC5N3WAiQk0tg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IDespawnableMemoryPool-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IDespawnableMemoryPool-1.html",
-          "hash": "c1uQDlkQWgUNAxOx4xHMiw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IFactory-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IFactory-1.html",
-          "hash": "bqYavCcDSRn+ZIqI+8GOUA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IFactory-10.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IFactory-10.html",
-          "hash": "ggR8JQndEvyyodQiBKjvrA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IFactory-11.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IFactory-11.html",
-          "hash": "zeNoV1CYm7/Cb8upmlQz1Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IFactory-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IFactory-2.html",
-          "hash": "DScDzDc/bP+U/cg9zNKFKw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IFactory-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IFactory-3.html",
-          "hash": "sZXqF+sV6rPnBmApzYPwLw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IFactory-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IFactory-4.html",
-          "hash": "6gPhRah41j+4DYp65610SQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IFactory-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IFactory-5.html",
-          "hash": "92L9AD0iQ88b49fAiJ2B9w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IFactory-6.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IFactory-6.html",
-          "hash": "sSiOLqKMSWlFbfXWYdZdIg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IFactory-7.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IFactory-7.html",
-          "hash": "PIGqp0R3Y5srYNxd4POknA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IFactory-8.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IFactory-8.html",
-          "hash": "79PHejIxPHx9whtn/2eh7Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IFactory-9.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IFactory-9.html",
-          "hash": "ctbQZzwV00Y7pdb92dV6Mw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IFactory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IFactory.html",
-          "hash": "wk5BEjhINOPKvuk+rvdxcA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IFactoryProvider-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IFactoryProvider-1.html",
-          "hash": "aAnORvlJcZ/dJmtYExyjMg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IFactoryProvider-11.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IFactoryProvider-11.html",
-          "hash": "iWZs4TkJll2asWfV9pD2GA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IFactoryProvider-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IFactoryProvider-2.html",
-          "hash": "zSK1tMhGgC97YBRBxuGWlQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IFactoryProvider-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IFactoryProvider-3.html",
-          "hash": "R0mDR7nRjc2h1Iz8nhPwFQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IFactoryProvider-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IFactoryProvider-4.html",
-          "hash": "gfzIDYArjMoEiihR8kzHGA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IFactoryProvider-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IFactoryProvider-5.html",
-          "hash": "KbcgaFy0gaBvIcDhMhMmWg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IFactoryProvider-6.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IFactoryProvider-6.html",
-          "hash": "bF7qiuVEBYVg0oh+n9WsqA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IFactoryProvider-7.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IFactoryProvider-7.html",
-          "hash": "3MjDzsc0in8XpcIQHlqEIA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IFactoryProviderBase-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IFactoryProviderBase-1.html",
-          "hash": "z+rmhxOdKKAwQC2d91OfnA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IInstaller.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IInstaller.html",
-          "hash": "JFY/YXYbLh1He9VnGS4wpg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IInstantiator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IInstantiator.html",
-          "hash": "eVXWY8lVu7ZpavvDDSIyQw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IMemoryPool-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IMemoryPool-1.html",
-          "hash": "Yexn7MOopfD9Xm6OEA/Asg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IMemoryPool-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IMemoryPool-2.html",
-          "hash": "D8MuRrnh79LU/Np/4HHdTA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IMemoryPool-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IMemoryPool-3.html",
-          "hash": "VVXrxgIG7DW3C7GwcP0swQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IMemoryPool-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IMemoryPool-4.html",
-          "hash": "t1h7R/VsDQkV2cPbJ02N2g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IMemoryPool-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IMemoryPool-5.html",
-          "hash": "J5Xh283X3XAnkZTyLWuA5g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IMemoryPool-6.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IMemoryPool-6.html",
-          "hash": "/9iWezS2PU7aLC6Yv/2sKg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IMemoryPool-7.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IMemoryPool-7.html",
-          "hash": "vj5uSpuv2AYfzlc58o+2jw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IMemoryPool-8.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IMemoryPool-8.html",
-          "hash": "YVovb8aCM0UvSH3kOHqpQg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IMemoryPool-9.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IMemoryPool-9.html",
-          "hash": "wNsZ+3BU0xiMFrrsGb6wZQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IMemoryPool.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IMemoryPool.html",
-          "hash": "MdkUqNqf2rgyHWTRIDLNJw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IPlaceholderFactory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IPlaceholderFactory.html",
-          "hash": "6dsbwB5ihV5O2/22vxhvgg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IPrefabInstantiator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IPrefabInstantiator.html",
-          "hash": "5rSTKJe6R8w43Ony8Wx4kg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IPrefabProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IPrefabProvider.html",
-          "hash": "7HC2HKARbarPY7Rgw2LalA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IProvider.html",
-          "hash": "kxEDovn8n1rweHYHMVCW9Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IProviderExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IProviderExtensions.html",
-          "hash": "VwVCiY9wJlPmKFeACgsbbQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ISubContainerCreator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ISubContainerCreator.html",
-          "hash": "3PefDFKqlpMYK7GS5kxT7Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IValidatable.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IValidatable.html",
-          "hash": "Nuq+c7zTMhXgOoU4u4rJsQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IdBinder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IdBinder.html",
-          "hash": "HKTzz3tMLqLWqLmnm/6asQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IdScopeConditionCopyNonLazyBinder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IdScopeConditionCopyNonLazyBinder.html",
-          "hash": "dxXorTsNkUs+Z43bZaZwTg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.IfNotBoundBinder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.IfNotBoundBinder.html",
-          "hash": "CM9Fot3ffXe2ucfxgqCk7A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.InitializableManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.InitializableManager.html",
-          "hash": "O42tgLqg3vxaRy4CZPJT/A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.InjectArgs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.InjectArgs.html",
-          "hash": "oDGw+6YMg6s1zHwOXpjqNw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.InjectContext.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.InjectContext.html",
-          "hash": "8NZQvAi87IYA82tMXPSBAg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.InjectUtil.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.InjectUtil.html",
-          "hash": "F3yZ8dejfrF8MzIz8POzIQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.InjectableInfo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.InjectableInfo.html",
-          "hash": "yo+46HLlqpgyaa3JtoEsCA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Installer-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.Installer-1.html",
-          "hash": "hsbJ2UHye7b7oGlEuVFT9w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Installer-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.Installer-2.html",
-          "hash": "EBtqSOj6gBLn3vk8MNne1w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Installer-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.Installer-3.html",
-          "hash": "kr/rG0LETXMElCHZy8bcmw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Installer-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.Installer-4.html",
-          "hash": "jfv9SF5DVZDbeeugiD4pfQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Installer-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.Installer-5.html",
-          "hash": "hzTNyZEzliYod/bOG/gPow=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Installer-6.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.Installer-6.html",
-          "hash": "pVfzpk6zRlWHHtRXVmtrAQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Installer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.Installer.html",
-          "hash": "f/9nUGMCIRgb6unEC2jkPw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.InstallerBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.InstallerBase.html",
-          "hash": "ir2fbrP2R2qdJY3TVswheg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.InstanceProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.InstanceProvider.html",
-          "hash": "zsXBhSk0GZQE12z+YjxLXA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.InstantiateOnPrefabComponentProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.InstantiateOnPrefabComponentProvider.html",
-          "hash": "uMHiWfLqKX7t2Qms+lzoag=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Internal.DecoratorProvider-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.Internal.DecoratorProvider-1.html",
-          "hash": "l2+gkJmOrgME4YIS+B8lvg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Internal.DefaultSceneContractConfig.ContractInfo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.Internal.DefaultSceneContractConfig.ContractInfo.html",
-          "hash": "HHt7ha5wG8C+f3gCjnNHEQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Internal.DefaultSceneContractConfig.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.Internal.DefaultSceneContractConfig.html",
-          "hash": "o9utTBfqvOvvflRK7+FDmw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Internal.IDecoratorProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.Internal.IDecoratorProvider.html",
-          "hash": "um9Dd7ghPps4POKjUxGgwQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Internal.SceneParentAutomaticLoader.LoadedSceneInfo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.Internal.SceneParentAutomaticLoader.LoadedSceneInfo.html",
-          "hash": "4N57D4PuLdsOgiLS3gZcyA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Internal.SceneParentAutomaticLoader.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.Internal.SceneParentAutomaticLoader.html",
-          "hash": "4mI0I0C1Wo+EA1JKQr2lhQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Internal.SingletonMarkRegistry.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.Internal.SingletonMarkRegistry.html",
-          "hash": "suM8uDlKcMTXMBBbBaOy+g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Internal.ZenMenuItems.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.Internal.ZenMenuItems.html",
-          "hash": "M/CtzZ3matFQa4CCWKOmeg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Internal.ZenUnityEditorUtil.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.Internal.ZenUnityEditorUtil.html",
-          "hash": "XcjvM3c7CXFW6Lbl1HayAg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Internal.ZenUtilInternal.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.Internal.ZenUtilInternal.html",
-          "hash": "ABZvWnmmy3PnaZjQuqD1pw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Internal.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.Internal.html",
-          "hash": "ud0O97/ezR0knAqw6K5cyw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.InvalidBindResponses.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.InvalidBindResponses.html",
-          "hash": "jGtM0uKmuEHeswsCM7N+Cg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.Kernel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.Kernel.html",
-          "hash": "fnhswL77RTU2T1+KpsASEA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.KeyedFactory-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.KeyedFactory-2.html",
-          "hash": "QtXOJZZsaJSfzMUANFn9EA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.KeyedFactory-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.KeyedFactory-3.html",
-          "hash": "JLozaEsYU4xK0dgO4TDvTg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.KeyedFactory-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.KeyedFactory-4.html",
-          "hash": "yQdr4X1/IqdGQ2zyIgZv6Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.KeyedFactory-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.KeyedFactory-5.html",
-          "hash": "kaIC+1+FVVP2NfNo2bKS6Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.KeyedFactory-6.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.KeyedFactory-6.html",
-          "hash": "va/6Gw8dYZyy0DfFh5XDng=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.KeyedFactoryBase-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.KeyedFactoryBase-2.html",
-          "hash": "Nclfws27n+UXU4FM2sUSng=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.LateTickablesTaskUpdater.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.LateTickablesTaskUpdater.html",
-          "hash": "Wj1ngnQssHBAhvDiyGTSvw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.LazyInject-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.LazyInject-1.html",
-          "hash": "izSD0Z3TrL6FUPkpxlh3rA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.LazyInstanceInjector.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.LazyInstanceInjector.html",
-          "hash": "QypcWRAdZWNDBi3QqMJMlg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ListPool-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ListPool-1.html",
-          "hash": "s305/YylJJ0U9Z2fIQwIQg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.LoadSceneRelationship.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.LoadSceneRelationship.html",
-          "hash": "UzjFIb0C3NjgYfUYrJQKMw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MemoryPool-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MemoryPool-1.html",
-          "hash": "cXxQYuzJpW6iTzILx/ZMhA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MemoryPool-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MemoryPool-2.html",
-          "hash": "czNvG1lKSVhM2Fy+3Y0EYQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MemoryPool-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MemoryPool-3.html",
-          "hash": "5BQBTKA2pI8dS291/6DNrg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MemoryPool-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MemoryPool-4.html",
-          "hash": "7Pvs+JaaM1vsBXQZg4O6eg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MemoryPool-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MemoryPool-5.html",
-          "hash": "pEL47xf2b6oN1HZvRT4Dow=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MemoryPool-6.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MemoryPool-6.html",
-          "hash": "1EB0YqZB8PYjsJL3RfFGvw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MemoryPool-7.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MemoryPool-7.html",
-          "hash": "j2yNuUMw7taQW7jF+c15Iw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MemoryPool-8.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MemoryPool-8.html",
-          "hash": "70bC1FyIX6SVyCIO3wB70g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MemoryPool-9.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MemoryPool-9.html",
-          "hash": "gJ9uAkK1ciCE3iXxnwTnDw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MemoryPoolBase-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MemoryPoolBase-1.html",
-          "hash": "jOeQbJ1Kvwr9ZentVh6lDA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MemoryPoolBindInfo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MemoryPoolBindInfo.html",
-          "hash": "HD1z5e/ZATE8JSlLTQT7Ig=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MemoryPoolBindingFinalizer-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MemoryPoolBindingFinalizer-1.html",
-          "hash": "vxC/IL2QPM6oL89yqfU7Pg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MemoryPoolExpandBinder-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MemoryPoolExpandBinder-1.html",
-          "hash": "4Ol3pHpj8pxYXbzfCfKo7w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MemoryPoolIdInitialSizeMaxSizeBinder-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MemoryPoolIdInitialSizeMaxSizeBinder-1.html",
-          "hash": "SNxAbj7BVddAt9RTrFU7KA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MemoryPoolInitialSizeMaxSizeBinder-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MemoryPoolInitialSizeMaxSizeBinder-1.html",
-          "hash": "WusvllIWLjfVRALdoPfv0Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MemoryPoolMaxSizeBinder-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MemoryPoolMaxSizeBinder-1.html",
-          "hash": "jiBjCYC5q/kuRs9bJocC4w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MemoryPoolSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MemoryPoolSettings.html",
-          "hash": "4Iq1XrMmlZtsOIycZCcgOA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MethodMultipleProviderUntyped.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MethodMultipleProviderUntyped.html",
-          "hash": "e4FhPZYfjZd1VlkAxsM17Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MethodProvider-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MethodProvider-1.html",
-          "hash": "x30MGNKEbIg3tZicCnVPYg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MethodProviderMultiple-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MethodProviderMultiple-1.html",
-          "hash": "dTBL482Km6vyhxfwU1cGNA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MethodProviderSimple-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MethodProviderSimple-1.html",
-          "hash": "5ivN6v1HBaqM5o0OZx5k6Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MethodProviderUntyped.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MethodProviderUntyped.html",
-          "hash": "KTIBv49lJ80w2XoWsf/1Mg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MethodProviderWithContainer-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MethodProviderWithContainer-1.html",
-          "hash": "hy1XeHyi4lq8I6rEOF+b1Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MethodProviderWithContainer-11.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MethodProviderWithContainer-11.html",
-          "hash": "BpICoUMDAG84z4JLKrI5rQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MethodProviderWithContainer-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MethodProviderWithContainer-2.html",
-          "hash": "foeM0k2KlTLZQvQWv+ePJQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MethodProviderWithContainer-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MethodProviderWithContainer-3.html",
-          "hash": "k9HFJNGE38b+E+oNw3nxFw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MethodProviderWithContainer-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MethodProviderWithContainer-4.html",
-          "hash": "HDRi1xOwgDG7JA3biq3xXA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MethodProviderWithContainer-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MethodProviderWithContainer-5.html",
-          "hash": "bzfQDPGAGDcEyFHw806P2Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MethodProviderWithContainer-6.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MethodProviderWithContainer-6.html",
-          "hash": "WL9KAxMmnm38wTj5Add4AQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MethodProviderWithContainer-7.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MethodProviderWithContainer-7.html",
-          "hash": "77omW/as4150ZQ8NHsSQ/g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoInstaller-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoInstaller-1.html",
-          "hash": "dE1ckCT/U8EM1Sv1yL6CUA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoInstaller-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoInstaller-2.html",
-          "hash": "G6ZleefB36EU0+xn5OX27A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoInstaller-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoInstaller-3.html",
-          "hash": "Mm6OR/nbupZTgH61Fwo+IQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoInstaller-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoInstaller-4.html",
-          "hash": "2RipZcPifkVlzTCuJvH8BQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoInstaller-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoInstaller-5.html",
-          "hash": "C+TiMsal5LPR4KkJPdcbEQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoInstaller-6.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoInstaller-6.html",
-          "hash": "UB675EGFVlGWJvRerQAoNg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoInstaller.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoInstaller.html",
-          "hash": "R9LiVVsXL1UyM6j/39Hu6A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoInstallerBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoInstallerBase.html",
-          "hash": "6C8BoP2LeKygkQsjmo8Rtw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoInstallerUtil.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoInstallerUtil.html",
-          "hash": "iyJCd4N9XeQzBOsLOG9rUA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoKernel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoKernel.html",
-          "hash": "oLyPBY9/xKThpq03QHE4Pw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoMemoryPool-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoMemoryPool-1.html",
-          "hash": "XqtAU9UsZuqwf/WdajrLSg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoMemoryPool-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoMemoryPool-2.html",
-          "hash": "MmWXDajyiChOBnKpzP15gg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoMemoryPool-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoMemoryPool-3.html",
-          "hash": "n7mWkDQaDrb49nZPDYG9/w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoMemoryPool-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoMemoryPool-4.html",
-          "hash": "eDhEqD/jY9DRu2JBIG2gbg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoMemoryPool-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoMemoryPool-5.html",
-          "hash": "sv5VEQ27t/cnC8jA6TMVgQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoMemoryPool-6.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoMemoryPool-6.html",
-          "hash": "+noRN1GhsMlv0mZi3asAtg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoPoolableMemoryPool-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoPoolableMemoryPool-1.html",
-          "hash": "pbAGC5SrjQV7gkRkSmqWUg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoPoolableMemoryPool-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoPoolableMemoryPool-2.html",
-          "hash": "V+tWt3+dLm+ZoBSU4Ks1eQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoPoolableMemoryPool-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoPoolableMemoryPool-3.html",
-          "hash": "Yv63KzGNyRbB722lk410LA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoPoolableMemoryPool-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoPoolableMemoryPool-4.html",
-          "hash": "fi1WHJDTU9gBNoeK7pgNJw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoPoolableMemoryPool-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoPoolableMemoryPool-5.html",
-          "hash": "nhQXmVQQZOfFpXX+yp83lA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoPoolableMemoryPool-6.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoPoolableMemoryPool-6.html",
-          "hash": "1waadgzKtcpWBS7tB8+qng=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoPoolableMemoryPool-7.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoPoolableMemoryPool-7.html",
-          "hash": "LygchV6e4MgptZb/pq2g9Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoPoolableMemoryPool-8.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoPoolableMemoryPool-8.html",
-          "hash": "8oeCtl6e/staoK9Diqa7Rg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.MonoPoolableMemoryPool-9.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.MonoPoolableMemoryPool-9.html",
-          "hash": "tCPkupVf88IVC7dF+mmHPg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.NameTransformConditionCopyNonLazyBinder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.NameTransformConditionCopyNonLazyBinder.html",
-          "hash": "vVhFkbauAhLEnk6kDKTR7w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder.html",
-          "hash": "x/4b2lX0+26YLrBEuVEt5w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.NameTransformScopeConcreteIdArgNonLazyBinder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.NameTransformScopeConcreteIdArgNonLazyBinder.html",
-          "hash": "CbPhM8KtoARJKAvjxs7pOA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.NameTransformScopeConditionCopyNonLazyBinder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.NameTransformScopeConditionCopyNonLazyBinder.html",
-          "hash": "2u+zgLAZs7k8IIGJrkM/uA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.NonLazyBinder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.NonLazyBinder.html",
-          "hash": "huzAFiejD3LaTz819ZBWsw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.NullBindingFinalizer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.NullBindingFinalizer.html",
-          "hash": "NOJOXg2xSZqLrmQH8POZhg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ObjectGraphVisualizer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ObjectGraphVisualizer.html",
-          "hash": "qiMePbQIhAmumtdO8rfeEA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PlaceholderFactory-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PlaceholderFactory-1.html",
-          "hash": "jwkX1uecymINUErabBW9/A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PlaceholderFactory-11.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PlaceholderFactory-11.html",
-          "hash": "Q+K0oMu1VFjXQ6ZF0S+gOg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PlaceholderFactory-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PlaceholderFactory-2.html",
-          "hash": "x2tjWkCz4e55C/x16jnQQw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PlaceholderFactory-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PlaceholderFactory-3.html",
-          "hash": "fYgLB0FBM3POkbQgeIfJeQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PlaceholderFactory-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PlaceholderFactory-4.html",
-          "hash": "/M4Xvcj42CINStcugG4Acg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PlaceholderFactory-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PlaceholderFactory-5.html",
-          "hash": "T652sCmFhsOSLwinQCZI1w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PlaceholderFactory-6.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PlaceholderFactory-6.html",
-          "hash": "aGSrnSLFCujyupobmQJukg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PlaceholderFactory-7.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PlaceholderFactory-7.html",
-          "hash": "AzpjYh0tZiZlfJKFjpVUbw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PlaceholderFactoryBase-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PlaceholderFactoryBase-1.html",
-          "hash": "5LMvnB07sKCJm2RyaDRLug=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PlaceholderFactoryBindingFinalizer-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PlaceholderFactoryBindingFinalizer-1.html",
-          "hash": "SsJjddNwNlw3Kt0ZEVbo8w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolCleanupChecker.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolCleanupChecker.html",
-          "hash": "eQMK0udFF2RnILmE5aMt7w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolExceededFixedSizeException.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolExceededFixedSizeException.html",
-          "hash": "EC/evp1xb4XKR5/yviTOWg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolExpandMethods.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolExpandMethods.html",
-          "hash": "HvLnWsAsaR/cFJRiuYNtGg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolWrapperFactory-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolWrapperFactory-1.html",
-          "hash": "scWxfBzBe+jr5RnKiwc4/g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolWrapperFactory-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolWrapperFactory-2.html",
-          "hash": "L998tltHEZ3WBworEcPnIw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableManager.html",
-          "hash": "2TKSiuQWsi6aemdZiNBFrA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableMemoryPool-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableMemoryPool-1.html",
-          "hash": "9kNX3ScmmQNiZjcYsV84Eg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableMemoryPool-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableMemoryPool-2.html",
-          "hash": "8/gO8PrG167zy+yMOYeBfw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableMemoryPool-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableMemoryPool-3.html",
-          "hash": "a/fY8sCjYTD/2t8UzaU9mA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableMemoryPool-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableMemoryPool-4.html",
-          "hash": "MRS8vddtyPVUqinKTBwZWQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableMemoryPool-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableMemoryPool-5.html",
-          "hash": "JhnZp9aniOiQfBhcAjl29Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableMemoryPool-6.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableMemoryPool-6.html",
-          "hash": "h4p9SW5PmzqY4K7xQmbL8A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableMemoryPool-7.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableMemoryPool-7.html",
-          "hash": "ekS5zAVh174fprfDctpIbQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableMemoryPool-8.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableMemoryPool-8.html",
-          "hash": "oOMTFeRbiBc/VrbwHGAhoA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableMemoryPool-9.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableMemoryPool-9.html",
-          "hash": "VndUww41+AQv894+tEbpGw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableMemoryPoolProvider-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableMemoryPoolProvider-2.html",
-          "hash": "AA2MAfrnSiWdbge66RLmYw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableMemoryPoolProvider-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableMemoryPoolProvider-3.html",
-          "hash": "jmbR6YXb0yVjZFx8llj+uA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableMemoryPoolProvider-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableMemoryPoolProvider-4.html",
-          "hash": "F5LkJ2XxvTOkxz9SciiYCA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableMemoryPoolProvider-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableMemoryPoolProvider-5.html",
-          "hash": "M0E92TPlU10SD+t5oE+SYg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableMemoryPoolProvider-6.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableMemoryPoolProvider-6.html",
-          "hash": "rfrkACEfyXzAYjqE3ooRmQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableMemoryPoolProvider-7.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableMemoryPoolProvider-7.html",
-          "hash": "We/UcgtwFTfyeGpehe9+TA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableMemoryPoolProvider-8.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableMemoryPoolProvider-8.html",
-          "hash": "s36nmnLUQwUJTfbRj3C4dw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableMemoryPoolProviderBase-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableMemoryPoolProviderBase-1.html",
-          "hash": "tq23jiGwBI+1J4OI3opACw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableStaticMemoryPool-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableStaticMemoryPool-1.html",
-          "hash": "e3QqT6yAP7u5703PHKJmDQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableStaticMemoryPool-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableStaticMemoryPool-2.html",
-          "hash": "sn9NeVYWWgxHaJf41D9rmA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableStaticMemoryPool-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableStaticMemoryPool-3.html",
-          "hash": "gqqrWmrS9LEB/HPy92LuRQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableStaticMemoryPool-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableStaticMemoryPool-4.html",
-          "hash": "z72EbbL5yE7bPDp4TxPqxQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableStaticMemoryPool-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableStaticMemoryPool-5.html",
-          "hash": "90PCx/GhjtBuTzr0XBzJkQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableStaticMemoryPool-6.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableStaticMemoryPool-6.html",
-          "hash": "VG61z0iwl5jUvkCmn8MxGQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableStaticMemoryPool-7.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableStaticMemoryPool-7.html",
-          "hash": "+doltA2xLIywCw0shYBFmw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PoolableStaticMemoryPool-8.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PoolableStaticMemoryPool-8.html",
-          "hash": "oXt7EubqD5SThyk9X73P5Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PostInjectableInfo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PostInjectableInfo.html",
-          "hash": "pYCxrT9FJnVpCC4bMNhIDw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PrefabBindingFinalizer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PrefabBindingFinalizer.html",
-          "hash": "VX4YzvukFUybaMJQfEBQMA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PrefabFactory-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PrefabFactory-1.html",
-          "hash": "LoOpp2UOCelZmQkNW8w72w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PrefabFactory-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PrefabFactory-2.html",
-          "hash": "1lqRrvS5HL22IiZh/pFzxA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PrefabFactory-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PrefabFactory-3.html",
-          "hash": "rMDkHNy0i3ofcBktMWCDEw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PrefabFactory-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PrefabFactory-4.html",
-          "hash": "oRWRt9meE8Zl0jhXghRfxg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PrefabFactory-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PrefabFactory-5.html",
-          "hash": "rUAsradv3upafLmSqGDfgQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PrefabGameObjectProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PrefabGameObjectProvider.html",
-          "hash": "kQ2t3DTWffoJp0jNzeI0eA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PrefabInstantiator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PrefabInstantiator.html",
-          "hash": "Wjh79M0VMyyYM3afAHhFQw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PrefabInstantiatorCached.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PrefabInstantiatorCached.html",
-          "hash": "e4fzAhk/Saw9AUyY/z3+sQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PrefabProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PrefabProvider.html",
-          "hash": "Lm2UziAG2Swuc8R2SIk6Sw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PrefabProviderResource.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PrefabProviderResource.html",
-          "hash": "67D1hVfEQivMA5yvi4hLTg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.PrefabResourceBindingFinalizer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.PrefabResourceBindingFinalizer.html",
-          "hash": "rRzXJZAzcoSyS1ivQTeftA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ProfileBlock.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ProfileBlock.html",
-          "hash": "+qJzFKZ6GKpRcPDTYiSZ3w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ProjectContext.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ProjectContext.html",
-          "hash": "cpGr3qPapAwE6YvakEWM0g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ProjectContextEditor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ProjectContextEditor.html",
-          "hash": "/hUDKF2L2DP/ub1kLqUBPA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ProjectKernel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ProjectKernel.html",
-          "hash": "KmKdfWS+TX8MTre4ueT20w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ProviderBindingFinalizer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ProviderBindingFinalizer.html",
-          "hash": "Q44wZB7tddVagJHMkEd6zQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ProviderUtil.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ProviderUtil.html",
-          "hash": "Q74UEOkJ+aWvTmSlr2uMOA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ResolveProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ResolveProvider.html",
-          "hash": "918FpZbIay2LXSJpCEDZNA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ResourceProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ResourceProvider.html",
-          "hash": "PJrCqFLG9pFdIcn48JTyrQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.RootResolveMethods.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.RootResolveMethods.html",
-          "hash": "WpM8ybjnfQ3MOxKUWg6RNA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.RunnableContext.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.RunnableContext.html",
-          "hash": "4l/PmDtFyoWSZyQOeSg7kQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.RunnableContextEditor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.RunnableContextEditor.html",
-          "hash": "PhKSWqwmfxe/468RBsyofg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SceneContext.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SceneContext.html",
-          "hash": "V/hakRpxdxba5s4edOWkdw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SceneContextEditor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SceneContextEditor.html",
-          "hash": "42p1L5N4tvwxNb0ucff3Vg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SceneContextRegistry.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SceneContextRegistry.html",
-          "hash": "sdoZWxsGucJIacedt69NAA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SceneContextRegistryAdderAndRemover.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SceneContextRegistryAdderAndRemover.html",
-          "hash": "/ZxOav23B1iCU7Cbt0dffA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SceneDecoratorContext.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SceneDecoratorContext.html",
-          "hash": "WdQFAd/To1hEQh+WnpD1Ew=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SceneDecoratorContextEditor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SceneDecoratorContextEditor.html",
-          "hash": "TgBUoa6hxUn4eWa5KRuDaA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SceneKernel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SceneKernel.html",
-          "hash": "DPYUuBlp2YpY6NOLpFJ1Mw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ScopableBindingFinalizer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ScopableBindingFinalizer.html",
-          "hash": "HB+youNso/ZTlkDockhHVQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder.html",
-          "hash": "mreGdQfIqRC7p2Y5nN7yAw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ScopeConcreteIdArgNonLazyBinder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ScopeConcreteIdArgNonLazyBinder.html",
-          "hash": "ftmm6qLl8LQfxFXkI6WzDA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ScopeConditionCopyNonLazyBinder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ScopeConditionCopyNonLazyBinder.html",
-          "hash": "NyOWOvlFx+C5UeeHFypHhA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ScopeNonLazyBinder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ScopeNonLazyBinder.html",
-          "hash": "KBqzK4pPZyYRqMkha7uLxA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ScopeTypes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ScopeTypes.html",
-          "hash": "hF9PXNCMM0t/F0iaQn1MMQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ScriptableObjectInstaller-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ScriptableObjectInstaller-1.html",
-          "hash": "zDkaW2IbaKXqULXBKmBrDw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ScriptableObjectInstaller-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ScriptableObjectInstaller-2.html",
-          "hash": "RdiOvKm8o1+6pNn+K6+1Aw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ScriptableObjectInstaller-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ScriptableObjectInstaller-3.html",
-          "hash": "YpstJKLXApXO0oEI1ed9QA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ScriptableObjectInstaller-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ScriptableObjectInstaller-4.html",
-          "hash": "mky2RYdWQ5vSsN0XEBCetA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ScriptableObjectInstaller-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ScriptableObjectInstaller-5.html",
-          "hash": "Yxm4S+clx22geVi0cVUt1A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ScriptableObjectInstaller.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ScriptableObjectInstaller.html",
-          "hash": "QOM/b3ZJPZu/Cu9VdMVnow=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ScriptableObjectInstallerBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ScriptableObjectInstallerBase.html",
-          "hash": "uqIt6ZEq6AQG0l9+x84uYw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ScriptableObjectInstallerUtil.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ScriptableObjectInstallerUtil.html",
-          "hash": "psYWSZ1ScbWHDaIxepBdbw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ScriptableObjectResourceProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ScriptableObjectResourceProvider.html",
-          "hash": "xFxfSuJ79SUuAPrdI04lZA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SignalDefaultSyncModes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SignalDefaultSyncModes.html",
-          "hash": "Znl7bAWFgcJm+AEiEA49gQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SignalMissingHandlerResponses.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SignalMissingHandlerResponses.html",
-          "hash": "M0VezY6Bj1oFMcnRE5xZ6g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SingleProviderBindingFinalizer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SingleProviderBindingFinalizer.html",
-          "hash": "eZ6W56hn/INqj4TR9h9C1Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.StaticContext.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.StaticContext.html",
-          "hash": "gHvLeN3YRBac3PhZWIs2Sg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.StaticMemoryPool-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.StaticMemoryPool-1.html",
-          "hash": "XyzMoZu/Kf0PTNeJ579OuA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.StaticMemoryPool-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.StaticMemoryPool-2.html",
-          "hash": "iPYfjVvuZafMK/liEwXj/Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.StaticMemoryPool-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.StaticMemoryPool-3.html",
-          "hash": "dFaYGJSc4bw3dHll6PzuIg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.StaticMemoryPool-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.StaticMemoryPool-4.html",
-          "hash": "NnhmhQOJYVw3C+s5IOYAbw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.StaticMemoryPool-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.StaticMemoryPool-5.html",
-          "hash": "3w0gCjkLdMxadcPLDXt7VQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.StaticMemoryPool-6.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.StaticMemoryPool-6.html",
-          "hash": "SpatTnVzxRv9hi1X25Vikg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.StaticMemoryPool-7.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.StaticMemoryPool-7.html",
-          "hash": "zlmTt2CEaWZ6BPvOb2W8Pg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.StaticMemoryPool-8.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.StaticMemoryPool-8.html",
-          "hash": "MFh62b4HW8DO99ka3zNr5A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.StaticMemoryPoolBase-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.StaticMemoryPoolBase-1.html",
-          "hash": "CZahMS5iJmtwis12nKQ/3A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.StaticMemoryPoolRegistry.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.StaticMemoryPoolRegistry.html",
-          "hash": "miSiMInhgFH6a5BbEVgbdw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerBinder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerBinder.html",
-          "hash": "9q/HwNE2QDkrZg1GGklssQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerCreatorByInstaller.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerCreatorByInstaller.html",
-          "hash": "EMThKHwrh36lAYoAIIaz0g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerCreatorByMethod-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerCreatorByMethod-1.html",
-          "hash": "5DhJAj2GnlDVGMvH9Y857g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerCreatorByMethod-10.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerCreatorByMethod-10.html",
-          "hash": "ngn8vPGX+IcDFSXyWFi9aA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerCreatorByMethod-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerCreatorByMethod-2.html",
-          "hash": "zJ92n7LEcSYpHaj2O/SHTA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerCreatorByMethod-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerCreatorByMethod-3.html",
-          "hash": "pXPrVnOxR69I22oysa/OfA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerCreatorByMethod-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerCreatorByMethod-4.html",
-          "hash": "EpyYQ8S8voddvRA3XdH86w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerCreatorByMethod-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerCreatorByMethod-5.html",
-          "hash": "EE5T9cbks7X+HZGRx8nVeg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerCreatorByMethod-6.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerCreatorByMethod-6.html",
-          "hash": "vVuJBWqiHvC9QldlbD/j/w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerCreatorByMethod.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerCreatorByMethod.html",
-          "hash": "NeUDGvPo6liMru1eVdV/Mg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerCreatorByNewPrefab.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerCreatorByNewPrefab.html",
-          "hash": "9vyLosafDkA4gQUey8X9vw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerCreatorByNewPrefabDynamicContext.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerCreatorByNewPrefabDynamicContext.html",
-          "hash": "7wGn47ulBc+aZxdzCDZCvw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerCreatorByNewPrefabInstaller.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerCreatorByNewPrefabInstaller.html",
-          "hash": "XN5lUOcmU8AhsTDpGnb/IA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerCreatorByNewPrefabMethod-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerCreatorByNewPrefabMethod-1.html",
-          "hash": "zpWURViHatWrvAksaazOEA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerCreatorByNewPrefabMethod-10.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerCreatorByNewPrefabMethod-10.html",
-          "hash": "htiXWaB53I+7PMDnX5f1fw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerCreatorByNewPrefabMethod-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerCreatorByNewPrefabMethod-2.html",
-          "hash": "JdAffYJmNu5t1DoB9i/GOg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerCreatorByNewPrefabMethod-3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerCreatorByNewPrefabMethod-3.html",
-          "hash": "SiBKvsui7WoYF1WkmXgXWw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerCreatorByNewPrefabMethod-4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerCreatorByNewPrefabMethod-4.html",
-          "hash": "DkVfNN5N6Kh4r18CgNbBWg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerCreatorByNewPrefabMethod-5.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerCreatorByNewPrefabMethod-5.html",
-          "hash": "aG7CbEFl+pHn36hf0feXrw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerCreatorByNewPrefabMethod-6.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerCreatorByNewPrefabMethod-6.html",
-          "hash": "QmejPr1tWX2Imp/XOo/GHQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerCreatorByNewPrefabMethod.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerCreatorByNewPrefabMethod.html",
-          "hash": "zv1RpfIN8Rn1W63gempNRA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerCreatorByNewPrefabWithParams.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerCreatorByNewPrefabWithParams.html",
-          "hash": "C2t7uFdHhPELt5Q0Lww80w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerCreatorCached.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerCreatorCached.html",
-          "hash": "KRiHDhcbd4f5Fn+CvARLpQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerDependencyProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerDependencyProvider.html",
-          "hash": "aJP8u5v2ammEF3CEsOMI/w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerInstallerBindingFinalizer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerInstallerBindingFinalizer.html",
-          "hash": "LVB++O9A4Q4uOxGphwCQTg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerMethodBindingFinalizer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerMethodBindingFinalizer.html",
-          "hash": "Vrr7GzE9POKK0vGQMVUd6A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.SubContainerPrefabBindingFinalizer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.SubContainerPrefabBindingFinalizer.html",
-          "hash": "inD7q9Rn8WjuDT8O9X3ckA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.TaskUpdater-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.TaskUpdater-1.html",
-          "hash": "1N6Jqbl3rcYahqd/xbCqEA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.TickableManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.TickableManager.html",
-          "hash": "RPrMMMTGO8Qrh8a48oYyqg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.TickablesTaskUpdater.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.TickablesTaskUpdater.html",
-          "hash": "bUIL0WnorQAzD8GW2zlTvQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ToChoices.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ToChoices.html",
-          "hash": "2yanqSsvv4WDYG+yhgQjNw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.TransformConditionCopyNonLazyBinder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.TransformConditionCopyNonLazyBinder.html",
-          "hash": "gpONVKWVO7oYa0d5WS53xA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.TransformScopeConcreteIdArgConditionCopyNonLazyBinder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.TransformScopeConcreteIdArgConditionCopyNonLazyBinder.html",
-          "hash": "e45h+v+QqSABli8MI017dQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.TransformScopeConcreteIdArgNonLazyBinder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.TransformScopeConcreteIdArgNonLazyBinder.html",
-          "hash": "PL6BPP7KTmPrYxGPQECfJw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.TransformScopeConditionCopyNonLazyBinder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.TransformScopeConditionCopyNonLazyBinder.html",
-          "hash": "NBVs0w7jMxYy/y8RThoc9g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.TransientProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.TransientProvider.html",
-          "hash": "E3+TmrLdHxrncpYbz6MwDw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.TypeAnalyzer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.TypeAnalyzer.html",
-          "hash": "2VUL4/HWcAZNG9/gS6UrZQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.TypeValuePair.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.TypeValuePair.html",
-          "hash": "vH1vyi1w+sqOlVl0ZAxPCw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.UnityInspectorListEditor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.UnityInspectorListEditor.html",
-          "hash": "ovBk7AN1vEWjlCK5koGWdQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ValidationErrorResponses.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ValidationErrorResponses.html",
-          "hash": "Hmlh+DJMl/V7M+bKM2qXfw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ValidationMarker.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ValidationMarker.html",
-          "hash": "L3d3Q1l+rBBN3MOEsCTlCg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ValidationUtil.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ValidationUtil.html",
-          "hash": "uj3rk6Dw5aUVATmgMMN2xw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ZenAutoInjecter.ContainerSources.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ZenAutoInjecter.ContainerSources.html",
-          "hash": "CazQFtWW0rbPOmWt+4HJuw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ZenAutoInjecter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ZenAutoInjecter.html",
-          "hash": "q7sqhpQVqZpRMfDzllLxag=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ZenjectBinding.BindTypes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ZenjectBinding.BindTypes.html",
-          "hash": "D3QpRTYt+NoFu/3s+84TDA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ZenjectBinding.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ZenjectBinding.html",
-          "hash": "gpUfCB89ZmFadU3rkwLxhg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ZenjectEditorWindow.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ZenjectEditorWindow.html",
-          "hash": "b2RxkqXNxjVvkqGSa/1VRA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ZenjectException.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ZenjectException.html",
-          "hash": "qW62cyBZbzwamZvVRHaBOA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ZenjectManagersInstaller.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ZenjectManagersInstaller.html",
-          "hash": "L6GHWbUhmJsXwcY98HEgsw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ZenjectSceneLoader.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ZenjectSceneLoader.html",
-          "hash": "MPI79gsqrQDDbyqZrQrjwA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ZenjectSettings.SignalSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ZenjectSettings.SignalSettings.html",
-          "hash": "5V9LBa0U9ko9Lhs+vdPy0Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ZenjectSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ZenjectSettings.html",
-          "hash": "Z95fibFcbFAdW95hH8uTHw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ZenjectStateMachineBehaviourAutoInjecter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ZenjectStateMachineBehaviourAutoInjecter.html",
-          "hash": "JSHrYlRChoky9n1Vq5PvpA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.ZenjectTypeInfo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.ZenjectTypeInfo.html",
-          "hash": "stbhPMHUdEv67OaNDWOhdQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Zenject.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Zenject.html",
-          "hash": "vOBPrislWqDhKSME7qDBVw=="
+          "relative_path": "api/Aci.Unity.Util.html",
+          "hash": "s3+ZaGLsn3IqLCD3CjSK/g=="
         }
       },
       "is_incremental": false,
@@ -5637,7 +1401,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "dmsIOttl1RZn1NqIaQW6FA=="
+          "hash": "BZ/A07PAL9E66J0Kk8wNEg=="
         }
       },
       "is_incremental": false,
@@ -5649,7 +1413,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Qz9gg731xWztRHbgzcmiGg=="
+          "hash": "iFRhlak00zpYwNSlRU/8Pw=="
         }
       },
       "is_incremental": false,
@@ -5683,7 +1447,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "g6WQHOSVn0Eckwd0GBITNQ=="
+          "hash": "39zzuujGHCitwW1L6cQ0DQ=="
         }
       },
       "is_incremental": false,
@@ -5695,7 +1459,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/index.html",
-          "hash": "drXvKu69nyBc9Cf9rRrprg=="
+          "hash": "XwCNuG8OMrfEY188xZBJWA=="
         }
       },
       "is_incremental": false,
@@ -5719,7 +1483,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/userMan.html",
-          "hash": "iqc1gwBV5FMrEwVuiOj5Ag=="
+          "hash": "wQW3kiLaKIxs+QUUbmXCjQ=="
         }
       },
       "is_incremental": false,
@@ -5731,7 +1495,7 @@
       "output": {
         ".html": {
           "relative_path": "setup.html",
-          "hash": "R3JR9ZfxriIzocmCubnrwQ=="
+          "hash": "/xoswYR62OXku9xVdf8lhQ=="
         }
       },
       "is_incremental": false,
