@@ -23,8 +23,10 @@ unzip docfx.zip -d _docfx
 
 # try to intialize submodules
 apt-get install -y git
+git config --global user.name "x-access-token"
+git config --global user.password "${GITHUB_TOKEN}"
 git status
-git submodule update --init
+git submodule update --init Assets/AciUnityTools
 
 # check if submodules were checked out
 for entry in Assets/*
