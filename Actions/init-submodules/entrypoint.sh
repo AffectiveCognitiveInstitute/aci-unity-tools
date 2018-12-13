@@ -1,7 +1,10 @@
 #!/bin/sh -l
 
-# try to intialize submodules
+# Install git
+apt-get update
 apt-get install -y git
+
+# update rsa
 mkdir ~/.ssh
 chmod 700 ~/.ssh
 eval $(ssh-agent -s)
@@ -11,5 +14,7 @@ ssh-add ~/.ssh/id_rsa
 ssh-keyscan github.com >> ~/.ssh/known_hosts
 echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 ssh -Tv git@github.com
+
+# try submodules
 git status
 git submodule update --init
