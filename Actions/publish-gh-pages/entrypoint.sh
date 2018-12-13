@@ -18,6 +18,8 @@ cp -a -r ${CONTENT}/. ../docs-repo/
 
 cd ../docs-repo/
 
+git status --short | grep -v "??" | cut -d " " -f 3 | xargs git add
 git add *
+git status --short
 git commit -m "Generated new documentation for ${GITHUB_SHA}"
 git push -f
