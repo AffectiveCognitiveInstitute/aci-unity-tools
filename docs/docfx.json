@@ -3,7 +3,7 @@
     {
       "src": [
         {
-          "src": "../Assets",
+          "src": "../Assets/AciUnityTools",
           "files": [
             "**/**.cs",
             "**.cs"
