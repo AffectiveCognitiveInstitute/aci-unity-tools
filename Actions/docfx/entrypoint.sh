@@ -21,20 +21,9 @@ apt-get install -y unzip wget
 wget https://github.com/dotnet/docfx/releases/download/v2.40.4/docfx.zip
 unzip docfx.zip -d _docfx
 
-echo "Trying ~/.ssh/"
-for entry in ~/.ssh/*
-do
-  echo "$entry"
-done
-
-echo "Trying /root/.ssh/"
-for entry in /root/.ssh/*
-do
-  echo "$entry"
-done
-
 # try to intialize submodules
 apt-get install -y git
+mkdir ~/.ssh
 eval $(ssh-agent -s)
 echo "${ACITOOLS_SSH}" > ~/.ssh/id_rsa
 chmod 400 ~/.ssh/id_rsa
