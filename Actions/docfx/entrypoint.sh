@@ -23,8 +23,8 @@ unzip docfx.zip -d _docfx
 
 # try to intialize submodules
 apt-get install -y git
-rm ~/.ssh/id_rsa
-echo "${ACITOOLS_SSH}" > ~/.ssh/id_rsa
+echo "${ACITOOLS_SSH}" > ../id_rsa
+ssh-add ../id_rsa
 git status
 git submodule update --init
 
