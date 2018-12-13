@@ -20,9 +20,11 @@ if [[  -z "${GH_REPO}" ]]; then
 	ssh-add /root/.ssh/id_rsa
 	ssh-keyscan github.com >> /root/.ssh/known_hosts
 
-	git clone --depth 1 --brnach gh-pages --single-branch ${GH_REPO} ../docs-repo
+	git clone --depth 1 --branch gh-pages --single-branch ${GH_REPO} ../docs-repo
 else
+	echo ${GITHUB_REPOSITORY}
 	git clone --depth 1 --branch gh-pages --single-branch https://x-access-token:${GITHUB_TOKEN}@${GITHUB_REPOSITORY} ../docs-repo
+	return
 fi
 
 
