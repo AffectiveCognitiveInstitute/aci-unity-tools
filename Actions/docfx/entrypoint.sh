@@ -22,7 +22,10 @@ wget https://github.com/dotnet/docfx/releases/download/v2.40.2/docfx.zip
 unzip docfx.zip -d _docfx
 
 # check if submodules were checked out
-ls Assets/AciUnityTools/
+for entry in Assets/AciUnityTools/*
+do
+  echo "$entry"
+done
 
 # Build docs
 mono _docfx/docfx.exe docs/docfx.json
