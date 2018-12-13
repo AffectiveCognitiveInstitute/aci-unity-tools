@@ -5,6 +5,7 @@ workflow "Push => GitHub Pages" {
 
 action "DocFX" {
   uses = "./Actions/docfx"
+  secrets = ["ACITOOLS_SSH"]
 }
 
 action "Publish to GitHub Pages" {
