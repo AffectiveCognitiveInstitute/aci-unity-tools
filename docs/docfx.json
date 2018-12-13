@@ -3,13 +3,13 @@
     {
       "src": [
         {
+          "src": "../Assets",
           "files": [
             "**/**.cs",
             "**.cs"
           ]
         }
       ],
-      "src": "../Assets",
       "dest": "api",
       "disableGitFeatures": false,
       "disableDefaultFilter": false
