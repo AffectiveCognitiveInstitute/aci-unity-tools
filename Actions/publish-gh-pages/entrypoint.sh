@@ -21,6 +21,7 @@ if [[  -z "${GH_REPO}" ]]; then
 	ssh-keyscan github.com >> /root/.ssh/known_hosts
 
 	git clone --depth 1 --branch gh-pages --single-branch ${GH_REPO} ../docs-repo
+	return
 else
 	git clone --depth 1 --branch gh-pages --single-branch https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git ../docs-repo
 fi
