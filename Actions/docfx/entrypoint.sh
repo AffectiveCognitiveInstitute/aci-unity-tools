@@ -36,10 +36,10 @@ done
 # try to intialize submodules
 apt-get install -y git
 eval $(ssh-agent -s)
-echo "${ACITOOLS_SSH}" > ../id_rsa
-chmod 400 ../id_rsa
-ssh-add ../id_rsa
-ssh-keygen -R github.com
+echo "${ACITOOLS_SSH}" > ~/.ssh/id_rsa
+chmod 400 ~/.ssh/id_rsa
+ssh-add ~/.ssh/id_rsa
+ssh-keyscan github.com >> ~/.ssh/known_hosts
 git status
 git submodule update --init
 
