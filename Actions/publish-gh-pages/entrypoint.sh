@@ -22,8 +22,7 @@ if [[  -z "${GH_REPO}" ]]; then
 
 	git clone --depth 1 --branch gh-pages --single-branch ${GH_REPO} ../docs-repo
 else
-	echo ${GITHUB_REPOSITORY}
-	git clone --depth 1 --branch gh-pages --single-branch https://x-access-token:${GITHUB_TOKEN}@${GITHUB_REPOSITORY} ../docs-repo
+	git clone --depth 1 --branch gh-pages --single-branch https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git ../docs-repo
 	return
 fi
 
