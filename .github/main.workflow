@@ -1,8 +1,6 @@
 workflow "Push => GitHub Pages" {
   on = "push"
-  resolves = [
-    "Initialize submodules",
-  ]
+  resolves = ["Publish to GitHub Pages"]
 }
 
 action "Initialize submodules" {
