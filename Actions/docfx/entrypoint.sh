@@ -25,6 +25,7 @@ unzip docfx.zip -d _docfx
 apt-get install -y git
 eval $(ssh-agent -s)
 echo "${ACITOOLS_SSH}" > ../id_rsa
+chmod 400 ../id_rsa
 ssh-add ../id_rsa
 git status
 git submodule update --init
