@@ -18,8 +18,13 @@ echo "deb https://download.mono-project.com/repo/debian stable-stretch main" | t
 apt-get update
 apt-get install -y unzip wget
 
-wget https://github.com/dotnet/docfx/releases/download/v2.40.2/docfx.zip
+wget https://github.com/dotnet/docfx/releases/download/v2.40.4/docfx.zip
 unzip docfx.zip -d _docfx
+
+# try to intialize submodules
+apt-get install -y git
+git status
+git submodule update --init
 
 # check if submodules were checked out
 for entry in Assets/*
