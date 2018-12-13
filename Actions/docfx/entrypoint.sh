@@ -22,7 +22,7 @@ wget https://github.com/dotnet/docfx/releases/download/v2.40.4/docfx.zip
 unzip docfx.zip -d _docfx
 
 # try to intialize submodules
-apt-get install -y git
+apt-get install -y ssh git
 mkdir ~/.ssh
 eval $(ssh-agent -s)
 echo "${ACITOOLS_SSH}" > ~/.ssh/id_rsa
