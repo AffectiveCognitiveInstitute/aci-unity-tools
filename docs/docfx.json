@@ -4,11 +4,12 @@
       "src": [
         {
           "files": [
+            "**/**.cs",
             "**.cs"
           ]
         }
       ],
-      "src": "../Assets/AciUnityTools",
+      "src": "../Assets",
       "dest": "api",
       "disableGitFeatures": false,
       "disableDefaultFilter": false

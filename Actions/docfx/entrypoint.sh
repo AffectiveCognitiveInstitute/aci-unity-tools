@@ -22,7 +22,7 @@ wget https://github.com/dotnet/docfx/releases/download/v2.40.2/docfx.zip
 unzip docfx.zip -d _docfx
 
 # check if submodules were checked out
-for entry in Assets/AciUnityTools/*
+for entry in Assets/*
 do
   echo "$entry"
 done
