@@ -1,0 +1,342 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class StaticMemoryPool&lt;TValue&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class StaticMemoryPool&lt;TValue&gt;
+   ">
+    <meta name="generator" content="docfx 2.40.2.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Zenject.StaticMemoryPool`1">
+  <h1 id="Zenject_StaticMemoryPool_1" data-uid="Zenject.StaticMemoryPool`1">Class StaticMemoryPool&lt;TValue&gt;
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Zenject.StaticMemoryPoolBase-1.html">StaticMemoryPoolBase</a>&lt;TValue&gt;</div>
+    <div class="level2"><span class="xref">StaticMemoryPool&lt;TValue&gt;</span></div>
+  </div>
+  
+      <div class="level3"><a class="xref" href="Zenject.DictionaryPool-2.html">DictionaryPool&lt;TKey, TValue&gt;</a></div>
+      <div class="level3"><a class="xref" href="Zenject.HashSetPool-1.html">HashSetPool&lt;T&gt;</a></div>
+      <div class="level3"><a class="xref" href="Zenject.ListPool-1.html">ListPool&lt;T&gt;</a></div>
+      <div class="level3"><a class="xref" href="Zenject.PoolableStaticMemoryPool-1.html">PoolableStaticMemoryPool&lt;TValue&gt;</a></div>
+  
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Zenject.StaticMemoryPoolBase-1.html#Zenject_StaticMemoryPoolBase_1_OnDespawnedMethod">StaticMemoryPoolBase&lt;TValue&gt;.OnDespawnedMethod</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.StaticMemoryPoolBase-1.html#Zenject_StaticMemoryPoolBase_1_NumTotal">StaticMemoryPoolBase&lt;TValue&gt;.NumTotal</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.StaticMemoryPoolBase-1.html#Zenject_StaticMemoryPoolBase_1_NumActive">StaticMemoryPoolBase&lt;TValue&gt;.NumActive</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.StaticMemoryPoolBase-1.html#Zenject_StaticMemoryPoolBase_1_NumInactive">StaticMemoryPoolBase&lt;TValue&gt;.NumInactive</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.StaticMemoryPoolBase-1.html#Zenject_StaticMemoryPoolBase_1_ItemType">StaticMemoryPoolBase&lt;TValue&gt;.ItemType</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.StaticMemoryPoolBase-1.html#Zenject_StaticMemoryPoolBase_1_Resize_System_Int32_">StaticMemoryPoolBase&lt;TValue&gt;.Resize(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.StaticMemoryPoolBase-1.html#Zenject_StaticMemoryPoolBase_1_Dispose">StaticMemoryPoolBase&lt;TValue&gt;.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.StaticMemoryPoolBase-1.html#Zenject_StaticMemoryPoolBase_1_ClearActiveCount">StaticMemoryPoolBase&lt;TValue&gt;.ClearActiveCount()</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.StaticMemoryPoolBase-1.html#Zenject_StaticMemoryPoolBase_1_Clear">StaticMemoryPoolBase&lt;TValue&gt;.Clear()</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.StaticMemoryPoolBase-1.html#Zenject_StaticMemoryPoolBase_1_ShrinkBy_System_Int32_">StaticMemoryPoolBase&lt;TValue&gt;.ShrinkBy(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.StaticMemoryPoolBase-1.html#Zenject_StaticMemoryPoolBase_1_ExpandBy_System_Int32_">StaticMemoryPoolBase&lt;TValue&gt;.ExpandBy(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.StaticMemoryPoolBase-1.html#Zenject_StaticMemoryPoolBase_1_SpawnInternal">StaticMemoryPoolBase&lt;TValue&gt;.SpawnInternal()</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.StaticMemoryPoolBase-1.html#Zenject_StaticMemoryPoolBase_1_Zenject_IMemoryPool_Despawn_System_Object_">StaticMemoryPoolBase&lt;TValue&gt;.IMemoryPool.Despawn(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.StaticMemoryPoolBase-1.html#Zenject_StaticMemoryPoolBase_1_Despawn__0_">StaticMemoryPoolBase&lt;TValue&gt;.Despawn(TValue)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  
+  <h5 id="Zenject_StaticMemoryPool_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class StaticMemoryPool&lt;TValue&gt; : StaticMemoryPoolBase&lt;TValue&gt;, IDisposable, IMemoryPool&lt;TValue&gt;, IDespawnableMemoryPool&lt;TValue&gt;, IMemoryPool where TValue : class, new()</code></pre>
+  </div>
+
+  
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">TValue</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Zenject_StaticMemoryPool_1__ctor_" data-uid="Zenject.StaticMemoryPool`1.#ctor*"></a>
+  
+  <h4 id="Zenject_StaticMemoryPool_1__ctor_System_Action__0__System_Action__0__" data-uid="Zenject.StaticMemoryPool`1.#ctor(System.Action{`0},System.Action{`0})"><a href="#collapsible-Zenject_StaticMemoryPool_1__ctor_System_Action__0__System_Action__0__" class="expander" data-toggle="collapse">StaticMemoryPool(Action&lt;TValue&gt;, Action&lt;TValue&gt;)</a></h4>
+  
+  <div id="collapsible-Zenject_StaticMemoryPool_1__ctor_System_Action__0__System_Action__0__" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticMemoryPool(Action&lt;TValue&gt; onSpawnMethod = null, Action&lt;TValue&gt; onDespawnedMethod = null)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Action</span>&lt;TValue&gt;</span>
+        <span class="parametername">onSpawnMethod</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Action</span>&lt;TValue&gt;</span>
+        <span class="parametername">onDespawnedMethod</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Zenject_StaticMemoryPool_1_OnSpawnMethod_" data-uid="Zenject.StaticMemoryPool`1.OnSpawnMethod*"></a>
+  
+  <h4 id="Zenject_StaticMemoryPool_1_OnSpawnMethod" data-uid="Zenject.StaticMemoryPool`1.OnSpawnMethod"><a href="#collapsible-Zenject_StaticMemoryPool_1_OnSpawnMethod" class="expander" data-toggle="collapse">OnSpawnMethod</a></h4>
+  
+  <div id="collapsible-Zenject_StaticMemoryPool_1_OnSpawnMethod" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;TValue&gt; OnSpawnMethod { set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Action</span>&lt;TValue&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Zenject_StaticMemoryPool_1_Spawn_" data-uid="Zenject.StaticMemoryPool`1.Spawn*"></a>
+  
+  <h4 id="Zenject_StaticMemoryPool_1_Spawn" data-uid="Zenject.StaticMemoryPool`1.Spawn"><a href="#collapsible-Zenject_StaticMemoryPool_1_Spawn" class="expander" data-toggle="collapse">Spawn()</a></h4>
+  
+  <div id="collapsible-Zenject_StaticMemoryPool_1_Spawn" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TValue Spawn()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">TValue</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="implements">Implements</h5>
+      <div><a class="xref" href="Zenject.IMemoryPool-1.html#Zenject_IMemoryPool_1_Spawn">IMemoryPool&lt;TValue&gt;.Spawn()</a></div>
+  
+  
+  
+  
+  </div>
+  
+  
+</article>
+          </div>
+          <div class="contribution-panel mobile-hide">
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-left">Generated by <strong>DocFX</strong></span>
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>
+                      <span class="far fa-copyright"></span>
+                      2018, Affective & Cognitive Institute</span>
+                      <a href="https://affective-lab.org" class="fas fa-home"></a>
+                      <a href="https://www.researchgate.net/lab/Affective-and-Cognitive-Institute-Affective-Lab-Oliver-Korn" class="fab fa-researchgate"></a>
+                      <a href="https://www.linkedin.com/company/affective-cognitive-institute/" class="fab fa-linkedin"></a>
+                      <a href="https://www.youtube.com/channel/UCYetO2MEXJ0KMVWyxLXMS1g" class="fab fa-youtube"></a>
+                      <a href="https://github.com/AffectiveCognitiveInstitute" class="fab fa-github"></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,2254 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class FromBinder
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FromBinder
+   ">
+    <meta name="generator" content="docfx 2.40.2.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Zenject.FromBinder">
+  <h1 id="Zenject_FromBinder" data-uid="Zenject.FromBinder">Class FromBinder
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Zenject.IfNotBoundBinder.html">IfNotBoundBinder</a></div>
+    <div class="level2"><a class="xref" href="Zenject.NonLazyBinder.html">NonLazyBinder</a></div>
+    <div class="level3"><a class="xref" href="Zenject.CopyNonLazyBinder.html">CopyNonLazyBinder</a></div>
+    <div class="level4"><a class="xref" href="Zenject.ConditionCopyNonLazyBinder.html">ConditionCopyNonLazyBinder</a></div>
+    <div class="level5"><a class="xref" href="Zenject.ArgConditionCopyNonLazyBinder.html">ArgConditionCopyNonLazyBinder</a></div>
+    <div class="level6"><a class="xref" href="Zenject.ConcreteIdArgConditionCopyNonLazyBinder.html">ConcreteIdArgConditionCopyNonLazyBinder</a></div>
+    <div class="level7"><a class="xref" href="Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder.html">ScopeConcreteIdArgConditionCopyNonLazyBinder</a></div>
+    <div class="level8"><span class="xref">FromBinder</span></div>
+  </div>
+  
+      <div class="level9"><a class="xref" href="Zenject.FromBinderGeneric-1.html">FromBinderGeneric&lt;TContract&gt;</a></div>
+      <div class="level9"><a class="xref" href="Zenject.FromBinderNonGeneric.html">FromBinderNonGeneric</a></div>
+  
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder.html#Zenject_ScopeConcreteIdArgConditionCopyNonLazyBinder_AsCached">ScopeConcreteIdArgConditionCopyNonLazyBinder.AsCached()</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder.html#Zenject_ScopeConcreteIdArgConditionCopyNonLazyBinder_AsSingle">ScopeConcreteIdArgConditionCopyNonLazyBinder.AsSingle()</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder.html#Zenject_ScopeConcreteIdArgConditionCopyNonLazyBinder_AsTransient">ScopeConcreteIdArgConditionCopyNonLazyBinder.AsTransient()</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ConcreteIdArgConditionCopyNonLazyBinder.html#Zenject_ConcreteIdArgConditionCopyNonLazyBinder_WithConcreteId_System_Object_">ConcreteIdArgConditionCopyNonLazyBinder.WithConcreteId(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ArgConditionCopyNonLazyBinder.html#Zenject_ArgConditionCopyNonLazyBinder_WithArguments__1___0_">ArgConditionCopyNonLazyBinder.WithArguments&lt;T&gt;(T)</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ArgConditionCopyNonLazyBinder.html#Zenject_ArgConditionCopyNonLazyBinder_WithArguments__2___0___1_">ArgConditionCopyNonLazyBinder.WithArguments&lt;TParam1, TParam2&gt;(TParam1, TParam2)</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ArgConditionCopyNonLazyBinder.html#Zenject_ArgConditionCopyNonLazyBinder_WithArguments__3___0___1___2_">ArgConditionCopyNonLazyBinder.WithArguments&lt;TParam1, TParam2, TParam3&gt;(TParam1, TParam2, TParam3)</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ArgConditionCopyNonLazyBinder.html#Zenject_ArgConditionCopyNonLazyBinder_WithArguments__4___0___1___2___3_">ArgConditionCopyNonLazyBinder.WithArguments&lt;TParam1, TParam2, TParam3, TParam4&gt;(TParam1, TParam2, TParam3, TParam4)</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ArgConditionCopyNonLazyBinder.html#Zenject_ArgConditionCopyNonLazyBinder_WithArguments__5___0___1___2___3___4_">ArgConditionCopyNonLazyBinder.WithArguments&lt;TParam1, TParam2, TParam3, TParam4, TParam5&gt;(TParam1, TParam2, TParam3, TParam4, TParam5)</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ArgConditionCopyNonLazyBinder.html#Zenject_ArgConditionCopyNonLazyBinder_WithArguments__6___0___1___2___3___4___5_">ArgConditionCopyNonLazyBinder.WithArguments&lt;TParam1, TParam2, TParam3, TParam4, TParam5, TParam6&gt;(TParam1, TParam2, TParam3, TParam4, TParam5, TParam6)</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ArgConditionCopyNonLazyBinder.html#Zenject_ArgConditionCopyNonLazyBinder_WithArguments_System_Object___">ArgConditionCopyNonLazyBinder.WithArguments(Object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ArgConditionCopyNonLazyBinder.html#Zenject_ArgConditionCopyNonLazyBinder_WithArgumentsExplicit_System_Collections_Generic_IEnumerable_Zenject_TypeValuePair__">ArgConditionCopyNonLazyBinder.WithArgumentsExplicit(IEnumerable&lt;TypeValuePair&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ConditionCopyNonLazyBinder.html#Zenject_ConditionCopyNonLazyBinder_When_Zenject_BindingCondition_">ConditionCopyNonLazyBinder.When(BindingCondition)</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ConditionCopyNonLazyBinder.html#Zenject_ConditionCopyNonLazyBinder_WhenInjectedIntoInstance_System_Object_">ConditionCopyNonLazyBinder.WhenInjectedIntoInstance(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ConditionCopyNonLazyBinder.html#Zenject_ConditionCopyNonLazyBinder_WhenInjectedInto_System_Type___">ConditionCopyNonLazyBinder.WhenInjectedInto(Type[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ConditionCopyNonLazyBinder.html#Zenject_ConditionCopyNonLazyBinder_WhenInjectedInto__1">ConditionCopyNonLazyBinder.WhenInjectedInto&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ConditionCopyNonLazyBinder.html#Zenject_ConditionCopyNonLazyBinder_WhenNotInjectedInto__1">ConditionCopyNonLazyBinder.WhenNotInjectedInto&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.CopyNonLazyBinder.html#Zenject_CopyNonLazyBinder_CopyIntoAllSubContainers">CopyNonLazyBinder.CopyIntoAllSubContainers()</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.CopyNonLazyBinder.html#Zenject_CopyNonLazyBinder_CopyIntoDirectSubContainers">CopyNonLazyBinder.CopyIntoDirectSubContainers()</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.CopyNonLazyBinder.html#Zenject_CopyNonLazyBinder_MoveIntoAllSubContainers">CopyNonLazyBinder.MoveIntoAllSubContainers()</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.CopyNonLazyBinder.html#Zenject_CopyNonLazyBinder_MoveIntoDirectSubContainers">CopyNonLazyBinder.MoveIntoDirectSubContainers()</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.NonLazyBinder.html#Zenject_NonLazyBinder_NonLazy">NonLazyBinder.NonLazy()</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.NonLazyBinder.html#Zenject_NonLazyBinder_Lazy">NonLazyBinder.Lazy()</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.IfNotBoundBinder.html#Zenject_IfNotBoundBinder_BindInfo">IfNotBoundBinder.BindInfo</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.IfNotBoundBinder.html#Zenject_IfNotBoundBinder_IfNotBound">IfNotBoundBinder.IfNotBound()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  
+  <h5 id="Zenject_FromBinder_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class FromBinder : ScopeConcreteIdArgConditionCopyNonLazyBinder</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Zenject_FromBinder__ctor_" data-uid="Zenject.FromBinder.#ctor*"></a>
+  
+  <h4 id="Zenject_FromBinder__ctor_Zenject_DiContainer_Zenject_BindInfo_Zenject_BindFinalizerWrapper_" data-uid="Zenject.FromBinder.#ctor(Zenject.DiContainer,Zenject.BindInfo,Zenject.BindFinalizerWrapper)"><a href="#collapsible-Zenject_FromBinder__ctor_Zenject_DiContainer_Zenject_BindInfo_Zenject_BindFinalizerWrapper_" class="expander" data-toggle="collapse">FromBinder(DiContainer, BindInfo, BindFinalizerWrapper)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder__ctor_Zenject_DiContainer_Zenject_BindInfo_Zenject_BindFinalizerWrapper_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FromBinder(DiContainer bindContainer, BindInfo bindInfo, BindFinalizerWrapper finalizerWrapper)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="Zenject.DiContainer.html">DiContainer</a></span>
+        <span class="parametername">bindContainer</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="Zenject.BindInfo.html">BindInfo</a></span>
+        <span class="parametername">bindInfo</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="Zenject.BindFinalizerWrapper.html">BindFinalizerWrapper</a></span>
+        <span class="parametername">finalizerWrapper</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Zenject_FromBinder_AllParentTypes_" data-uid="Zenject.FromBinder.AllParentTypes*"></a>
+  
+  <h4 id="Zenject_FromBinder_AllParentTypes" data-uid="Zenject.FromBinder.AllParentTypes"><a href="#collapsible-Zenject_FromBinder_AllParentTypes" class="expander" data-toggle="collapse">AllParentTypes</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_AllParentTypes" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IEnumerable&lt;Type&gt; AllParentTypes { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Type</span>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_BindContainer_" data-uid="Zenject.FromBinder.BindContainer*"></a>
+  
+  <h4 id="Zenject_FromBinder_BindContainer" data-uid="Zenject.FromBinder.BindContainer"><a href="#collapsible-Zenject_FromBinder_BindContainer" class="expander" data-toggle="collapse">BindContainer</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_BindContainer" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected DiContainer BindContainer { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.DiContainer.html">DiContainer</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_ConcreteTypes_" data-uid="Zenject.FromBinder.ConcreteTypes*"></a>
+  
+  <h4 id="Zenject_FromBinder_ConcreteTypes" data-uid="Zenject.FromBinder.ConcreteTypes"><a href="#collapsible-Zenject_FromBinder_ConcreteTypes" class="expander" data-toggle="collapse">ConcreteTypes</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_ConcreteTypes" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IEnumerable&lt;Type&gt; ConcreteTypes { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Type</span>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FinalizerWrapper_" data-uid="Zenject.FromBinder.FinalizerWrapper*"></a>
+  
+  <h4 id="Zenject_FromBinder_FinalizerWrapper" data-uid="Zenject.FromBinder.FinalizerWrapper"><a href="#collapsible-Zenject_FromBinder_FinalizerWrapper" class="expander" data-toggle="collapse">FinalizerWrapper</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FinalizerWrapper" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected BindFinalizerWrapper FinalizerWrapper { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.BindFinalizerWrapper.html">BindFinalizerWrapper</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_SubFinalizer_" data-uid="Zenject.FromBinder.SubFinalizer*"></a>
+  
+  <h4 id="Zenject_FromBinder_SubFinalizer" data-uid="Zenject.FromBinder.SubFinalizer"><a href="#collapsible-Zenject_FromBinder_SubFinalizer" class="expander" data-toggle="collapse">SubFinalizer</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_SubFinalizer" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IBindingFinalizer SubFinalizer { set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.IBindingFinalizer.html">IBindingFinalizer</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Zenject_FromBinder_FromComponentInNewPrefab_" data-uid="Zenject.FromBinder.FromComponentInNewPrefab*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromComponentInNewPrefab_UnityEngine_Object_" data-uid="Zenject.FromBinder.FromComponentInNewPrefab(UnityEngine.Object)"><a href="#collapsible-Zenject_FromBinder_FromComponentInNewPrefab_UnityEngine_Object_" class="expander" data-toggle="collapse">FromComponentInNewPrefab(UnityEngine.Object)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromComponentInNewPrefab_UnityEngine_Object_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder FromComponentInNewPrefab(UnityEngine.Object prefab)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">UnityEngine.Object</span></span>
+        <span class="parametername">prefab</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder.html">NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromComponentInNewPrefabResource_" data-uid="Zenject.FromBinder.FromComponentInNewPrefabResource*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromComponentInNewPrefabResource_System_String_" data-uid="Zenject.FromBinder.FromComponentInNewPrefabResource(System.String)"><a href="#collapsible-Zenject_FromBinder_FromComponentInNewPrefabResource_System_String_" class="expander" data-toggle="collapse">FromComponentInNewPrefabResource(String)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromComponentInNewPrefabResource_System_String_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder FromComponentInNewPrefabResource(string resourcePath)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">resourcePath</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder.html">NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromComponentOn_" data-uid="Zenject.FromBinder.FromComponentOn*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromComponentOn_GameObject_" data-uid="Zenject.FromBinder.FromComponentOn(GameObject)"><a href="#collapsible-Zenject_FromBinder_FromComponentOn_GameObject_" class="expander" data-toggle="collapse">FromComponentOn(GameObject)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromComponentOn_GameObject_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScopeConcreteIdArgConditionCopyNonLazyBinder FromComponentOn(GameObject gameObject)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">GameObject</span></span>
+        <span class="parametername">gameObject</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder.html">ScopeConcreteIdArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromComponentOn_" data-uid="Zenject.FromBinder.FromComponentOn*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromComponentOn_System_Func_Zenject_InjectContext_GameObject__" data-uid="Zenject.FromBinder.FromComponentOn(System.Func{Zenject.InjectContext,GameObject})"><a href="#collapsible-Zenject_FromBinder_FromComponentOn_System_Func_Zenject_InjectContext_GameObject__" class="expander" data-toggle="collapse">FromComponentOn(Func&lt;InjectContext, GameObject&gt;)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromComponentOn_System_Func_Zenject_InjectContext_GameObject__" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScopeConcreteIdArgConditionCopyNonLazyBinder FromComponentOn(Func&lt;InjectContext, GameObject&gt; gameObjectGetter)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Func</span>&lt;<a class="xref" href="Zenject.InjectContext.html">InjectContext</a>, <span class="xref">GameObject</span>&gt;</span>
+        <span class="parametername">gameObjectGetter</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder.html">ScopeConcreteIdArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromComponentOnRoot_" data-uid="Zenject.FromBinder.FromComponentOnRoot*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromComponentOnRoot" data-uid="Zenject.FromBinder.FromComponentOnRoot"><a href="#collapsible-Zenject_FromBinder_FromComponentOnRoot" class="expander" data-toggle="collapse">FromComponentOnRoot()</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromComponentOnRoot" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScopeConcreteIdArgConditionCopyNonLazyBinder FromComponentOnRoot()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder.html">ScopeConcreteIdArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromComponentsInNewPrefab_" data-uid="Zenject.FromBinder.FromComponentsInNewPrefab*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromComponentsInNewPrefab_UnityEngine_Object_" data-uid="Zenject.FromBinder.FromComponentsInNewPrefab(UnityEngine.Object)"><a href="#collapsible-Zenject_FromBinder_FromComponentsInNewPrefab_UnityEngine_Object_" class="expander" data-toggle="collapse">FromComponentsInNewPrefab(UnityEngine.Object)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromComponentsInNewPrefab_UnityEngine_Object_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder FromComponentsInNewPrefab(UnityEngine.Object prefab)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">UnityEngine.Object</span></span>
+        <span class="parametername">prefab</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder.html">NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromComponentsInNewPrefabResource_" data-uid="Zenject.FromBinder.FromComponentsInNewPrefabResource*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromComponentsInNewPrefabResource_System_String_" data-uid="Zenject.FromBinder.FromComponentsInNewPrefabResource(System.String)"><a href="#collapsible-Zenject_FromBinder_FromComponentsInNewPrefabResource_System_String_" class="expander" data-toggle="collapse">FromComponentsInNewPrefabResource(String)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromComponentsInNewPrefabResource_System_String_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder FromComponentsInNewPrefabResource(string resourcePath)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">resourcePath</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder.html">NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromComponentsOn_" data-uid="Zenject.FromBinder.FromComponentsOn*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromComponentsOn_GameObject_" data-uid="Zenject.FromBinder.FromComponentsOn(GameObject)"><a href="#collapsible-Zenject_FromBinder_FromComponentsOn_GameObject_" class="expander" data-toggle="collapse">FromComponentsOn(GameObject)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromComponentsOn_GameObject_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScopeConcreteIdArgConditionCopyNonLazyBinder FromComponentsOn(GameObject gameObject)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">GameObject</span></span>
+        <span class="parametername">gameObject</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder.html">ScopeConcreteIdArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromComponentsOn_" data-uid="Zenject.FromBinder.FromComponentsOn*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromComponentsOn_System_Func_Zenject_InjectContext_GameObject__" data-uid="Zenject.FromBinder.FromComponentsOn(System.Func{Zenject.InjectContext,GameObject})"><a href="#collapsible-Zenject_FromBinder_FromComponentsOn_System_Func_Zenject_InjectContext_GameObject__" class="expander" data-toggle="collapse">FromComponentsOn(Func&lt;InjectContext, GameObject&gt;)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromComponentsOn_System_Func_Zenject_InjectContext_GameObject__" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScopeConcreteIdArgConditionCopyNonLazyBinder FromComponentsOn(Func&lt;InjectContext, GameObject&gt; gameObjectGetter)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Func</span>&lt;<a class="xref" href="Zenject.InjectContext.html">InjectContext</a>, <span class="xref">GameObject</span>&gt;</span>
+        <span class="parametername">gameObjectGetter</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder.html">ScopeConcreteIdArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromComponentsOnRoot_" data-uid="Zenject.FromBinder.FromComponentsOnRoot*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromComponentsOnRoot" data-uid="Zenject.FromBinder.FromComponentsOnRoot"><a href="#collapsible-Zenject_FromBinder_FromComponentsOnRoot" class="expander" data-toggle="collapse">FromComponentsOnRoot()</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromComponentsOnRoot" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScopeConcreteIdArgConditionCopyNonLazyBinder FromComponentsOnRoot()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder.html">ScopeConcreteIdArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromIFactoryBase_" data-uid="Zenject.FromBinder.FromIFactoryBase*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromIFactoryBase__1_System_Action_Zenject_ConcreteBinderGeneric_Zenject_IFactory___0____" data-uid="Zenject.FromBinder.FromIFactoryBase``1(System.Action{Zenject.ConcreteBinderGeneric{Zenject.IFactory{``0}}})"><a href="#collapsible-Zenject_FromBinder_FromIFactoryBase__1_System_Action_Zenject_ConcreteBinderGeneric_Zenject_IFactory___0____" class="expander" data-toggle="collapse">FromIFactoryBase&lt;TContract&gt;(Action&lt;ConcreteBinderGeneric&lt;IFactory&lt;TContract&gt;&gt;&gt;)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromIFactoryBase__1_System_Action_Zenject_ConcreteBinderGeneric_Zenject_IFactory___0____" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ScopeConcreteIdArgConditionCopyNonLazyBinder FromIFactoryBase&lt;TContract&gt;(Action&lt;ConcreteBinderGeneric&lt;IFactory&lt;TContract&gt;&gt;&gt; factoryBindGenerator)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Action</span>&lt;<a class="xref" href="Zenject.ConcreteBinderGeneric-1.html">ConcreteBinderGeneric</a>&lt;<a class="xref" href="Zenject.IFactory-1.html">IFactory</a>&lt;TContract&gt;&gt;&gt;</span>
+        <span class="parametername">factoryBindGenerator</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder.html">ScopeConcreteIdArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">TContract</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromInstanceBase_" data-uid="Zenject.FromBinder.FromInstanceBase*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromInstanceBase_System_Object_" data-uid="Zenject.FromBinder.FromInstanceBase(System.Object)"><a href="#collapsible-Zenject_FromBinder_FromInstanceBase_System_Object_" class="expander" data-toggle="collapse">FromInstanceBase(Object)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromInstanceBase_System_Object_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ScopeConditionCopyNonLazyBinder FromInstanceBase(object instance)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Object</span></span>
+        <span class="parametername">instance</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConditionCopyNonLazyBinder.html">ScopeConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromMethodBase_" data-uid="Zenject.FromBinder.FromMethodBase*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromMethodBase__1_System_Func_Zenject_InjectContext___0__" data-uid="Zenject.FromBinder.FromMethodBase``1(System.Func{Zenject.InjectContext,``0})"><a href="#collapsible-Zenject_FromBinder_FromMethodBase__1_System_Func_Zenject_InjectContext___0__" class="expander" data-toggle="collapse">FromMethodBase&lt;TConcrete&gt;(Func&lt;InjectContext, TConcrete&gt;)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromMethodBase__1_System_Func_Zenject_InjectContext___0__" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ScopeConcreteIdArgConditionCopyNonLazyBinder FromMethodBase&lt;TConcrete&gt;(Func&lt;InjectContext, TConcrete&gt; method)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Func</span>&lt;<a class="xref" href="Zenject.InjectContext.html">InjectContext</a>, TConcrete&gt;</span>
+        <span class="parametername">method</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder.html">ScopeConcreteIdArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">TConcrete</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromMethodMultipleBase_" data-uid="Zenject.FromBinder.FromMethodMultipleBase*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromMethodMultipleBase__1_System_Func_Zenject_InjectContext_System_Collections_Generic_IEnumerable___0___" data-uid="Zenject.FromBinder.FromMethodMultipleBase``1(System.Func{Zenject.InjectContext,System.Collections.Generic.IEnumerable{``0}})"><a href="#collapsible-Zenject_FromBinder_FromMethodMultipleBase__1_System_Func_Zenject_InjectContext_System_Collections_Generic_IEnumerable___0___" class="expander" data-toggle="collapse">FromMethodMultipleBase&lt;TConcrete&gt;(Func&lt;InjectContext, IEnumerable&lt;TConcrete&gt;&gt;)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromMethodMultipleBase__1_System_Func_Zenject_InjectContext_System_Collections_Generic_IEnumerable___0___" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ScopeConcreteIdArgConditionCopyNonLazyBinder FromMethodMultipleBase&lt;TConcrete&gt;(Func&lt;InjectContext, IEnumerable&lt;TConcrete&gt;&gt; method)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Func</span>&lt;<a class="xref" href="Zenject.InjectContext.html">InjectContext</a>, <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TConcrete&gt;&gt;</span>
+        <span class="parametername">method</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder.html">ScopeConcreteIdArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">TConcrete</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromMethodMultipleUntyped_" data-uid="Zenject.FromBinder.FromMethodMultipleUntyped*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromMethodMultipleUntyped_System_Func_Zenject_InjectContext_System_Collections_Generic_IEnumerable_System_Object___" data-uid="Zenject.FromBinder.FromMethodMultipleUntyped(System.Func{Zenject.InjectContext,System.Collections.Generic.IEnumerable{System.Object}})"><a href="#collapsible-Zenject_FromBinder_FromMethodMultipleUntyped_System_Func_Zenject_InjectContext_System_Collections_Generic_IEnumerable_System_Object___" class="expander" data-toggle="collapse">FromMethodMultipleUntyped(Func&lt;InjectContext, IEnumerable&lt;Object&gt;&gt;)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromMethodMultipleUntyped_System_Func_Zenject_InjectContext_System_Collections_Generic_IEnumerable_System_Object___" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScopeConcreteIdArgConditionCopyNonLazyBinder FromMethodMultipleUntyped(Func&lt;InjectContext, IEnumerable&lt;object&gt;&gt; method)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Func</span>&lt;<a class="xref" href="Zenject.InjectContext.html">InjectContext</a>, <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</span>
+        <span class="parametername">method</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder.html">ScopeConcreteIdArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromMethodUntyped_" data-uid="Zenject.FromBinder.FromMethodUntyped*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromMethodUntyped_System_Func_Zenject_InjectContext_System_Object__" data-uid="Zenject.FromBinder.FromMethodUntyped(System.Func{Zenject.InjectContext,System.Object})"><a href="#collapsible-Zenject_FromBinder_FromMethodUntyped_System_Func_Zenject_InjectContext_System_Object__" class="expander" data-toggle="collapse">FromMethodUntyped(Func&lt;InjectContext, Object&gt;)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromMethodUntyped_System_Func_Zenject_InjectContext_System_Object__" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScopeConcreteIdArgConditionCopyNonLazyBinder FromMethodUntyped(Func&lt;InjectContext, object&gt; method)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Func</span>&lt;<a class="xref" href="Zenject.InjectContext.html">InjectContext</a>, <span class="xref">System.Object</span>&gt;</span>
+        <span class="parametername">method</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder.html">ScopeConcreteIdArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromNew_" data-uid="Zenject.FromBinder.FromNew*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromNew" data-uid="Zenject.FromBinder.FromNew"><a href="#collapsible-Zenject_FromBinder_FromNew" class="expander" data-toggle="collapse">FromNew()</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromNew" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScopeConcreteIdArgConditionCopyNonLazyBinder FromNew()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder.html">ScopeConcreteIdArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromNewComponentOn_" data-uid="Zenject.FromBinder.FromNewComponentOn*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromNewComponentOn_GameObject_" data-uid="Zenject.FromBinder.FromNewComponentOn(GameObject)"><a href="#collapsible-Zenject_FromBinder_FromNewComponentOn_GameObject_" class="expander" data-toggle="collapse">FromNewComponentOn(GameObject)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromNewComponentOn_GameObject_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScopeConcreteIdArgConditionCopyNonLazyBinder FromNewComponentOn(GameObject gameObject)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">GameObject</span></span>
+        <span class="parametername">gameObject</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder.html">ScopeConcreteIdArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromNewComponentOn_" data-uid="Zenject.FromBinder.FromNewComponentOn*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromNewComponentOn_System_Func_Zenject_InjectContext_GameObject__" data-uid="Zenject.FromBinder.FromNewComponentOn(System.Func{Zenject.InjectContext,GameObject})"><a href="#collapsible-Zenject_FromBinder_FromNewComponentOn_System_Func_Zenject_InjectContext_GameObject__" class="expander" data-toggle="collapse">FromNewComponentOn(Func&lt;InjectContext, GameObject&gt;)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromNewComponentOn_System_Func_Zenject_InjectContext_GameObject__" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScopeConcreteIdArgConditionCopyNonLazyBinder FromNewComponentOn(Func&lt;InjectContext, GameObject&gt; gameObjectGetter)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Func</span>&lt;<a class="xref" href="Zenject.InjectContext.html">InjectContext</a>, <span class="xref">GameObject</span>&gt;</span>
+        <span class="parametername">gameObjectGetter</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder.html">ScopeConcreteIdArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromNewComponentOnNewGameObject_" data-uid="Zenject.FromBinder.FromNewComponentOnNewGameObject*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromNewComponentOnNewGameObject" data-uid="Zenject.FromBinder.FromNewComponentOnNewGameObject"><a href="#collapsible-Zenject_FromBinder_FromNewComponentOnNewGameObject" class="expander" data-toggle="collapse">FromNewComponentOnNewGameObject()</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromNewComponentOnNewGameObject" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder FromNewComponentOnNewGameObject()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder.html">NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromNewComponentOnNewPrefab_" data-uid="Zenject.FromBinder.FromNewComponentOnNewPrefab*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromNewComponentOnNewPrefab_UnityEngine_Object_" data-uid="Zenject.FromBinder.FromNewComponentOnNewPrefab(UnityEngine.Object)"><a href="#collapsible-Zenject_FromBinder_FromNewComponentOnNewPrefab_UnityEngine_Object_" class="expander" data-toggle="collapse">FromNewComponentOnNewPrefab(UnityEngine.Object)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromNewComponentOnNewPrefab_UnityEngine_Object_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder FromNewComponentOnNewPrefab(UnityEngine.Object prefab)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">UnityEngine.Object</span></span>
+        <span class="parametername">prefab</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder.html">NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromNewComponentOnNewPrefabResource_" data-uid="Zenject.FromBinder.FromNewComponentOnNewPrefabResource*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromNewComponentOnNewPrefabResource_System_String_" data-uid="Zenject.FromBinder.FromNewComponentOnNewPrefabResource(System.String)"><a href="#collapsible-Zenject_FromBinder_FromNewComponentOnNewPrefabResource_System_String_" class="expander" data-toggle="collapse">FromNewComponentOnNewPrefabResource(String)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromNewComponentOnNewPrefabResource_System_String_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder FromNewComponentOnNewPrefabResource(string resourcePath)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">resourcePath</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder.html">NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromNewComponentOnRoot_" data-uid="Zenject.FromBinder.FromNewComponentOnRoot*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromNewComponentOnRoot" data-uid="Zenject.FromBinder.FromNewComponentOnRoot"><a href="#collapsible-Zenject_FromBinder_FromNewComponentOnRoot" class="expander" data-toggle="collapse">FromNewComponentOnRoot()</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromNewComponentOnRoot" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScopeConcreteIdArgConditionCopyNonLazyBinder FromNewComponentOnRoot()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder.html">ScopeConcreteIdArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromNewComponentSibling_" data-uid="Zenject.FromBinder.FromNewComponentSibling*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromNewComponentSibling" data-uid="Zenject.FromBinder.FromNewComponentSibling"><a href="#collapsible-Zenject_FromBinder_FromNewComponentSibling" class="expander" data-toggle="collapse">FromNewComponentSibling()</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromNewComponentSibling" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ArgConditionCopyNonLazyBinder FromNewComponentSibling()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ArgConditionCopyNonLazyBinder.html">ArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromNewScriptableObjectResource_" data-uid="Zenject.FromBinder.FromNewScriptableObjectResource*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromNewScriptableObjectResource_System_String_" data-uid="Zenject.FromBinder.FromNewScriptableObjectResource(System.String)"><a href="#collapsible-Zenject_FromBinder_FromNewScriptableObjectResource_System_String_" class="expander" data-toggle="collapse">FromNewScriptableObjectResource(String)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromNewScriptableObjectResource_System_String_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScopeConcreteIdArgConditionCopyNonLazyBinder FromNewScriptableObjectResource(string resourcePath)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">resourcePath</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder.html">ScopeConcreteIdArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromResolve_" data-uid="Zenject.FromBinder.FromResolve*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromResolve" data-uid="Zenject.FromBinder.FromResolve"><a href="#collapsible-Zenject_FromBinder_FromResolve" class="expander" data-toggle="collapse">FromResolve()</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromResolve" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScopeConditionCopyNonLazyBinder FromResolve()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConditionCopyNonLazyBinder.html">ScopeConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromResolve_" data-uid="Zenject.FromBinder.FromResolve*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromResolve_System_Object_" data-uid="Zenject.FromBinder.FromResolve(System.Object)"><a href="#collapsible-Zenject_FromBinder_FromResolve_System_Object_" class="expander" data-toggle="collapse">FromResolve(Object)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromResolve_System_Object_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScopeConditionCopyNonLazyBinder FromResolve(object subIdentifier)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Object</span></span>
+        <span class="parametername">subIdentifier</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConditionCopyNonLazyBinder.html">ScopeConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromResolve_" data-uid="Zenject.FromBinder.FromResolve*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromResolve_System_Object_InjectSources_" data-uid="Zenject.FromBinder.FromResolve(System.Object,InjectSources)"><a href="#collapsible-Zenject_FromBinder_FromResolve_System_Object_InjectSources_" class="expander" data-toggle="collapse">FromResolve(Object, InjectSources)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromResolve_System_Object_InjectSources_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScopeConditionCopyNonLazyBinder FromResolve(object subIdentifier, InjectSources source)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Object</span></span>
+        <span class="parametername">subIdentifier</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">InjectSources</span></span>
+        <span class="parametername">source</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConditionCopyNonLazyBinder.html">ScopeConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromResolveAll_" data-uid="Zenject.FromBinder.FromResolveAll*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromResolveAll" data-uid="Zenject.FromBinder.FromResolveAll"><a href="#collapsible-Zenject_FromBinder_FromResolveAll" class="expander" data-toggle="collapse">FromResolveAll()</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromResolveAll" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScopeConditionCopyNonLazyBinder FromResolveAll()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConditionCopyNonLazyBinder.html">ScopeConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromResolveAll_" data-uid="Zenject.FromBinder.FromResolveAll*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromResolveAll_System_Object_" data-uid="Zenject.FromBinder.FromResolveAll(System.Object)"><a href="#collapsible-Zenject_FromBinder_FromResolveAll_System_Object_" class="expander" data-toggle="collapse">FromResolveAll(Object)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromResolveAll_System_Object_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScopeConditionCopyNonLazyBinder FromResolveAll(object subIdentifier)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Object</span></span>
+        <span class="parametername">subIdentifier</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConditionCopyNonLazyBinder.html">ScopeConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromResolveAll_" data-uid="Zenject.FromBinder.FromResolveAll*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromResolveAll_System_Object_InjectSources_" data-uid="Zenject.FromBinder.FromResolveAll(System.Object,InjectSources)"><a href="#collapsible-Zenject_FromBinder_FromResolveAll_System_Object_InjectSources_" class="expander" data-toggle="collapse">FromResolveAll(Object, InjectSources)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromResolveAll_System_Object_InjectSources_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScopeConditionCopyNonLazyBinder FromResolveAll(object subIdentifier, InjectSources source)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Object</span></span>
+        <span class="parametername">subIdentifier</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">InjectSources</span></span>
+        <span class="parametername">source</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConditionCopyNonLazyBinder.html">ScopeConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromResolveGetterBase_" data-uid="Zenject.FromBinder.FromResolveGetterBase*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromResolveGetterBase__2_System_Object_System_Func___0___1__InjectSources_System_Boolean_" data-uid="Zenject.FromBinder.FromResolveGetterBase``2(System.Object,System.Func{``0,``1},InjectSources,System.Boolean)"><a href="#collapsible-Zenject_FromBinder_FromResolveGetterBase__2_System_Object_System_Func___0___1__InjectSources_System_Boolean_" class="expander" data-toggle="collapse">FromResolveGetterBase&lt;TObj, TResult&gt;(Object, Func&lt;TObj, TResult&gt;, InjectSources, Boolean)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromResolveGetterBase__2_System_Object_System_Func___0___1__InjectSources_System_Boolean_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ScopeConditionCopyNonLazyBinder FromResolveGetterBase&lt;TObj, TResult&gt;(object identifier, Func&lt;TObj, TResult&gt; method, InjectSources source, bool matchMultiple)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Object</span></span>
+        <span class="parametername">identifier</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Func</span>&lt;TObj, TResult&gt;</span>
+        <span class="parametername">method</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">InjectSources</span></span>
+        <span class="parametername">source</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Boolean</span></span>
+        <span class="parametername">matchMultiple</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConditionCopyNonLazyBinder.html">ScopeConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">TObj</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="parametername">TResult</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromResource_" data-uid="Zenject.FromBinder.FromResource*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromResource_System_String_" data-uid="Zenject.FromBinder.FromResource(System.String)"><a href="#collapsible-Zenject_FromBinder_FromResource_System_String_" class="expander" data-toggle="collapse">FromResource(String)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromResource_System_String_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScopeConditionCopyNonLazyBinder FromResource(string resourcePath)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">resourcePath</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConditionCopyNonLazyBinder.html">ScopeConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromResources_" data-uid="Zenject.FromBinder.FromResources*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromResources_System_String_" data-uid="Zenject.FromBinder.FromResources(System.String)"><a href="#collapsible-Zenject_FromBinder_FromResources_System_String_" class="expander" data-toggle="collapse">FromResources(String)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromResources_System_String_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScopeConditionCopyNonLazyBinder FromResources(string resourcePath)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">resourcePath</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConditionCopyNonLazyBinder.html">ScopeConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromScriptableObjectResource_" data-uid="Zenject.FromBinder.FromScriptableObjectResource*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromScriptableObjectResource_System_String_" data-uid="Zenject.FromBinder.FromScriptableObjectResource(System.String)"><a href="#collapsible-Zenject_FromBinder_FromScriptableObjectResource_System_String_" class="expander" data-toggle="collapse">FromScriptableObjectResource(String)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromScriptableObjectResource_System_String_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScopeConcreteIdArgConditionCopyNonLazyBinder FromScriptableObjectResource(string resourcePath)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">resourcePath</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder.html">ScopeConcreteIdArgConditionCopyNonLazyBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromSubContainerResolve_" data-uid="Zenject.FromBinder.FromSubContainerResolve*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromSubContainerResolve" data-uid="Zenject.FromBinder.FromSubContainerResolve"><a href="#collapsible-Zenject_FromBinder_FromSubContainerResolve" class="expander" data-toggle="collapse">FromSubContainerResolve()</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromSubContainerResolve" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SubContainerBinder FromSubContainerResolve()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.SubContainerBinder.html">SubContainerBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromSubContainerResolve_" data-uid="Zenject.FromBinder.FromSubContainerResolve*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromSubContainerResolve_System_Object_" data-uid="Zenject.FromBinder.FromSubContainerResolve(System.Object)"><a href="#collapsible-Zenject_FromBinder_FromSubContainerResolve_System_Object_" class="expander" data-toggle="collapse">FromSubContainerResolve(Object)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromSubContainerResolve_System_Object_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SubContainerBinder FromSubContainerResolve(object subIdentifier)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Object</span></span>
+        <span class="parametername">subIdentifier</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.SubContainerBinder.html">SubContainerBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromSubContainerResolveAll_" data-uid="Zenject.FromBinder.FromSubContainerResolveAll*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromSubContainerResolveAll" data-uid="Zenject.FromBinder.FromSubContainerResolveAll"><a href="#collapsible-Zenject_FromBinder_FromSubContainerResolveAll" class="expander" data-toggle="collapse">FromSubContainerResolveAll()</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromSubContainerResolveAll" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SubContainerBinder FromSubContainerResolveAll()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.SubContainerBinder.html">SubContainerBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_FromBinder_FromSubContainerResolveAll_" data-uid="Zenject.FromBinder.FromSubContainerResolveAll*"></a>
+  
+  <h4 id="Zenject_FromBinder_FromSubContainerResolveAll_System_Object_" data-uid="Zenject.FromBinder.FromSubContainerResolveAll(System.Object)"><a href="#collapsible-Zenject_FromBinder_FromSubContainerResolveAll_System_Object_" class="expander" data-toggle="collapse">FromSubContainerResolveAll(Object)</a></h4>
+  
+  <div id="collapsible-Zenject_FromBinder_FromSubContainerResolveAll_System_Object_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SubContainerBinder FromSubContainerResolveAll(object subIdentifier)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Object</span></span>
+        <span class="parametername">subIdentifier</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.SubContainerBinder.html">SubContainerBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+</article>
+          </div>
+          <div class="contribution-panel mobile-hide">
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-left">Generated by <strong>DocFX</strong></span>
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>
+                      <span class="far fa-copyright"></span>
+                      2018, Affective & Cognitive Institute</span>
+                      <a href="https://affective-lab.org" class="fas fa-home"></a>
+                      <a href="https://www.researchgate.net/lab/Affective-and-Cognitive-Institute-Affective-Lab-Oliver-Korn" class="fab fa-researchgate"></a>
+                      <a href="https://www.linkedin.com/company/affective-cognitive-institute/" class="fab fa-linkedin"></a>
+                      <a href="https://www.youtube.com/channel/UCYetO2MEXJ0KMVWyxLXMS1g" class="fab fa-youtube"></a>
+                      <a href="https://github.com/AffectiveCognitiveInstitute" class="fab fa-github"></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

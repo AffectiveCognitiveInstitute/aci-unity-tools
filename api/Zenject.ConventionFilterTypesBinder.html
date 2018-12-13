@@ -1,0 +1,1077 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ConventionFilterTypesBinder
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ConventionFilterTypesBinder
+   ">
+    <meta name="generator" content="docfx 2.40.2.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Zenject.ConventionFilterTypesBinder">
+  <h1 id="Zenject_ConventionFilterTypesBinder" data-uid="Zenject.ConventionFilterTypesBinder">Class ConventionFilterTypesBinder
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Zenject.ConventionAssemblySelectionBinder.html">ConventionAssemblySelectionBinder</a></div>
+    <div class="level2"><span class="xref">ConventionFilterTypesBinder</span></div>
+  </div>
+  
+  
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Zenject.ConventionAssemblySelectionBinder.html#Zenject_ConventionAssemblySelectionBinder_BindInfo">ConventionAssemblySelectionBinder.BindInfo</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ConventionAssemblySelectionBinder.html#Zenject_ConventionAssemblySelectionBinder_FromAllAssemblies">ConventionAssemblySelectionBinder.FromAllAssemblies()</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ConventionAssemblySelectionBinder.html#Zenject_ConventionAssemblySelectionBinder_FromAssemblyContaining__1">ConventionAssemblySelectionBinder.FromAssemblyContaining&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ConventionAssemblySelectionBinder.html#Zenject_ConventionAssemblySelectionBinder_FromAssembliesContaining_System_Type___">ConventionAssemblySelectionBinder.FromAssembliesContaining(Type[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ConventionAssemblySelectionBinder.html#Zenject_ConventionAssemblySelectionBinder_FromAssembliesContaining_System_Collections_Generic_IEnumerable_System_Type__">ConventionAssemblySelectionBinder.FromAssembliesContaining(IEnumerable&lt;Type&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ConventionAssemblySelectionBinder.html#Zenject_ConventionAssemblySelectionBinder_FromThisAssembly">ConventionAssemblySelectionBinder.FromThisAssembly()</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ConventionAssemblySelectionBinder.html#Zenject_ConventionAssemblySelectionBinder_FromAssembly_Assembly_">ConventionAssemblySelectionBinder.FromAssembly(Assembly)</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ConventionAssemblySelectionBinder.html#Zenject_ConventionAssemblySelectionBinder_FromAssemblies_Assembly___">ConventionAssemblySelectionBinder.FromAssemblies(Assembly[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ConventionAssemblySelectionBinder.html#Zenject_ConventionAssemblySelectionBinder_FromAssemblies_System_Collections_Generic_IEnumerable_Assembly__">ConventionAssemblySelectionBinder.FromAssemblies(IEnumerable&lt;Assembly&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.ConventionAssemblySelectionBinder.html#Zenject_ConventionAssemblySelectionBinder_FromAssembliesWhere_System_Func_Assembly_System_Boolean__">ConventionAssemblySelectionBinder.FromAssembliesWhere(Func&lt;Assembly, Boolean&gt;)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  
+  <h5 id="Zenject_ConventionFilterTypesBinder_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ConventionFilterTypesBinder : ConventionAssemblySelectionBinder</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Zenject_ConventionFilterTypesBinder__ctor_" data-uid="Zenject.ConventionFilterTypesBinder.#ctor*"></a>
+  
+  <h4 id="Zenject_ConventionFilterTypesBinder__ctor_Zenject_ConventionBindInfo_" data-uid="Zenject.ConventionFilterTypesBinder.#ctor(Zenject.ConventionBindInfo)"><a href="#collapsible-Zenject_ConventionFilterTypesBinder__ctor_Zenject_ConventionBindInfo_" class="expander" data-toggle="collapse">ConventionFilterTypesBinder(ConventionBindInfo)</a></h4>
+  
+  <div id="collapsible-Zenject_ConventionFilterTypesBinder__ctor_Zenject_ConventionBindInfo_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConventionFilterTypesBinder(ConventionBindInfo bindInfo)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="Zenject.ConventionBindInfo.html">ConventionBindInfo</a></span>
+        <span class="parametername">bindInfo</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Zenject_ConventionFilterTypesBinder_DerivingFrom_" data-uid="Zenject.ConventionFilterTypesBinder.DerivingFrom*"></a>
+  
+  <h4 id="Zenject_ConventionFilterTypesBinder_DerivingFrom_System_Type_" data-uid="Zenject.ConventionFilterTypesBinder.DerivingFrom(System.Type)"><a href="#collapsible-Zenject_ConventionFilterTypesBinder_DerivingFrom_System_Type_" class="expander" data-toggle="collapse">DerivingFrom(Type)</a></h4>
+  
+  <div id="collapsible-Zenject_ConventionFilterTypesBinder_DerivingFrom_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConventionFilterTypesBinder DerivingFrom(Type parentType)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">parentType</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ConventionFilterTypesBinder.html">ConventionFilterTypesBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_ConventionFilterTypesBinder_DerivingFrom_" data-uid="Zenject.ConventionFilterTypesBinder.DerivingFrom*"></a>
+  
+  <h4 id="Zenject_ConventionFilterTypesBinder_DerivingFrom__1" data-uid="Zenject.ConventionFilterTypesBinder.DerivingFrom``1"><a href="#collapsible-Zenject_ConventionFilterTypesBinder_DerivingFrom__1" class="expander" data-toggle="collapse">DerivingFrom&lt;T&gt;()</a></h4>
+  
+  <div id="collapsible-Zenject_ConventionFilterTypesBinder_DerivingFrom__1" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConventionFilterTypesBinder DerivingFrom&lt;T&gt;()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ConventionFilterTypesBinder.html">ConventionFilterTypesBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">T</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_ConventionFilterTypesBinder_DerivingFromOrEqual_" data-uid="Zenject.ConventionFilterTypesBinder.DerivingFromOrEqual*"></a>
+  
+  <h4 id="Zenject_ConventionFilterTypesBinder_DerivingFromOrEqual_System_Type_" data-uid="Zenject.ConventionFilterTypesBinder.DerivingFromOrEqual(System.Type)"><a href="#collapsible-Zenject_ConventionFilterTypesBinder_DerivingFromOrEqual_System_Type_" class="expander" data-toggle="collapse">DerivingFromOrEqual(Type)</a></h4>
+  
+  <div id="collapsible-Zenject_ConventionFilterTypesBinder_DerivingFromOrEqual_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConventionFilterTypesBinder DerivingFromOrEqual(Type parentType)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">parentType</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ConventionFilterTypesBinder.html">ConventionFilterTypesBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_ConventionFilterTypesBinder_DerivingFromOrEqual_" data-uid="Zenject.ConventionFilterTypesBinder.DerivingFromOrEqual*"></a>
+  
+  <h4 id="Zenject_ConventionFilterTypesBinder_DerivingFromOrEqual__1" data-uid="Zenject.ConventionFilterTypesBinder.DerivingFromOrEqual``1"><a href="#collapsible-Zenject_ConventionFilterTypesBinder_DerivingFromOrEqual__1" class="expander" data-toggle="collapse">DerivingFromOrEqual&lt;T&gt;()</a></h4>
+  
+  <div id="collapsible-Zenject_ConventionFilterTypesBinder_DerivingFromOrEqual__1" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConventionFilterTypesBinder DerivingFromOrEqual&lt;T&gt;()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ConventionFilterTypesBinder.html">ConventionFilterTypesBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">T</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_ConventionFilterTypesBinder_InNamespace_" data-uid="Zenject.ConventionFilterTypesBinder.InNamespace*"></a>
+  
+  <h4 id="Zenject_ConventionFilterTypesBinder_InNamespace_System_String_" data-uid="Zenject.ConventionFilterTypesBinder.InNamespace(System.String)"><a href="#collapsible-Zenject_ConventionFilterTypesBinder_InNamespace_System_String_" class="expander" data-toggle="collapse">InNamespace(String)</a></h4>
+  
+  <div id="collapsible-Zenject_ConventionFilterTypesBinder_InNamespace_System_String_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConventionFilterTypesBinder InNamespace(string ns)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">ns</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ConventionFilterTypesBinder.html">ConventionFilterTypesBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_ConventionFilterTypesBinder_InNamespaces_" data-uid="Zenject.ConventionFilterTypesBinder.InNamespaces*"></a>
+  
+  <h4 id="Zenject_ConventionFilterTypesBinder_InNamespaces_System_Collections_Generic_IEnumerable_System_String__" data-uid="Zenject.ConventionFilterTypesBinder.InNamespaces(System.Collections.Generic.IEnumerable{System.String})"><a href="#collapsible-Zenject_ConventionFilterTypesBinder_InNamespaces_System_Collections_Generic_IEnumerable_System_String__" class="expander" data-toggle="collapse">InNamespaces(IEnumerable&lt;String&gt;)</a></h4>
+  
+  <div id="collapsible-Zenject_ConventionFilterTypesBinder_InNamespaces_System_Collections_Generic_IEnumerable_System_String__" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConventionFilterTypesBinder InNamespaces(IEnumerable&lt;string&gt; namespaces)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</span>
+        <span class="parametername">namespaces</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ConventionFilterTypesBinder.html">ConventionFilterTypesBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_ConventionFilterTypesBinder_InNamespaces_" data-uid="Zenject.ConventionFilterTypesBinder.InNamespaces*"></a>
+  
+  <h4 id="Zenject_ConventionFilterTypesBinder_InNamespaces_System_String___" data-uid="Zenject.ConventionFilterTypesBinder.InNamespaces(System.String[])"><a href="#collapsible-Zenject_ConventionFilterTypesBinder_InNamespaces_System_String___" class="expander" data-toggle="collapse">InNamespaces(String[])</a></h4>
+  
+  <div id="collapsible-Zenject_ConventionFilterTypesBinder_InNamespaces_System_String___" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConventionFilterTypesBinder InNamespaces(params string[] namespaces)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span>[]</span>
+        <span class="parametername">namespaces</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ConventionFilterTypesBinder.html">ConventionFilterTypesBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_ConventionFilterTypesBinder_MatchingRegex_" data-uid="Zenject.ConventionFilterTypesBinder.MatchingRegex*"></a>
+  
+  <h4 id="Zenject_ConventionFilterTypesBinder_MatchingRegex_Regex_" data-uid="Zenject.ConventionFilterTypesBinder.MatchingRegex(Regex)"><a href="#collapsible-Zenject_ConventionFilterTypesBinder_MatchingRegex_Regex_" class="expander" data-toggle="collapse">MatchingRegex(Regex)</a></h4>
+  
+  <div id="collapsible-Zenject_ConventionFilterTypesBinder_MatchingRegex_Regex_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConventionFilterTypesBinder MatchingRegex(Regex regex)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">Regex</span></span>
+        <span class="parametername">regex</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ConventionFilterTypesBinder.html">ConventionFilterTypesBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_ConventionFilterTypesBinder_MatchingRegex_" data-uid="Zenject.ConventionFilterTypesBinder.MatchingRegex*"></a>
+  
+  <h4 id="Zenject_ConventionFilterTypesBinder_MatchingRegex_System_String_" data-uid="Zenject.ConventionFilterTypesBinder.MatchingRegex(System.String)"><a href="#collapsible-Zenject_ConventionFilterTypesBinder_MatchingRegex_System_String_" class="expander" data-toggle="collapse">MatchingRegex(String)</a></h4>
+  
+  <div id="collapsible-Zenject_ConventionFilterTypesBinder_MatchingRegex_System_String_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConventionFilterTypesBinder MatchingRegex(string pattern)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">pattern</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ConventionFilterTypesBinder.html">ConventionFilterTypesBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_ConventionFilterTypesBinder_MatchingRegex_" data-uid="Zenject.ConventionFilterTypesBinder.MatchingRegex*"></a>
+  
+  <h4 id="Zenject_ConventionFilterTypesBinder_MatchingRegex_System_String_RegexOptions_" data-uid="Zenject.ConventionFilterTypesBinder.MatchingRegex(System.String,RegexOptions)"><a href="#collapsible-Zenject_ConventionFilterTypesBinder_MatchingRegex_System_String_RegexOptions_" class="expander" data-toggle="collapse">MatchingRegex(String, RegexOptions)</a></h4>
+  
+  <div id="collapsible-Zenject_ConventionFilterTypesBinder_MatchingRegex_System_String_RegexOptions_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConventionFilterTypesBinder MatchingRegex(string pattern, RegexOptions options)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">pattern</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">RegexOptions</span></span>
+        <span class="parametername">options</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ConventionFilterTypesBinder.html">ConventionFilterTypesBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_ConventionFilterTypesBinder_Where_" data-uid="Zenject.ConventionFilterTypesBinder.Where*"></a>
+  
+  <h4 id="Zenject_ConventionFilterTypesBinder_Where_System_Func_System_Type_System_Boolean__" data-uid="Zenject.ConventionFilterTypesBinder.Where(System.Func{System.Type,System.Boolean})"><a href="#collapsible-Zenject_ConventionFilterTypesBinder_Where_System_Func_System_Type_System_Boolean__" class="expander" data-toggle="collapse">Where(Func&lt;Type, Boolean&gt;)</a></h4>
+  
+  <div id="collapsible-Zenject_ConventionFilterTypesBinder_Where_System_Func_System_Type_System_Boolean__" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConventionFilterTypesBinder Where(Func&lt;Type, bool&gt; predicate)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Func</span>&lt;<span class="xref">System.Type</span>, <span class="xref">System.Boolean</span>&gt;</span>
+        <span class="parametername">predicate</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ConventionFilterTypesBinder.html">ConventionFilterTypesBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_ConventionFilterTypesBinder_WithAttribute_" data-uid="Zenject.ConventionFilterTypesBinder.WithAttribute*"></a>
+  
+  <h4 id="Zenject_ConventionFilterTypesBinder_WithAttribute_System_Type_" data-uid="Zenject.ConventionFilterTypesBinder.WithAttribute(System.Type)"><a href="#collapsible-Zenject_ConventionFilterTypesBinder_WithAttribute_System_Type_" class="expander" data-toggle="collapse">WithAttribute(Type)</a></h4>
+  
+  <div id="collapsible-Zenject_ConventionFilterTypesBinder_WithAttribute_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConventionFilterTypesBinder WithAttribute(Type attribute)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">attribute</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ConventionFilterTypesBinder.html">ConventionFilterTypesBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_ConventionFilterTypesBinder_WithAttribute_" data-uid="Zenject.ConventionFilterTypesBinder.WithAttribute*"></a>
+  
+  <h4 id="Zenject_ConventionFilterTypesBinder_WithAttribute__1" data-uid="Zenject.ConventionFilterTypesBinder.WithAttribute``1"><a href="#collapsible-Zenject_ConventionFilterTypesBinder_WithAttribute__1" class="expander" data-toggle="collapse">WithAttribute&lt;T&gt;()</a></h4>
+  
+  <div id="collapsible-Zenject_ConventionFilterTypesBinder_WithAttribute__1" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConventionFilterTypesBinder WithAttribute&lt;T&gt;()
+    where T : Attribute</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ConventionFilterTypesBinder.html">ConventionFilterTypesBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">T</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_ConventionFilterTypesBinder_WithAttributeWhere_" data-uid="Zenject.ConventionFilterTypesBinder.WithAttributeWhere*"></a>
+  
+  <h4 id="Zenject_ConventionFilterTypesBinder_WithAttributeWhere__1_System_Func___0_System_Boolean__" data-uid="Zenject.ConventionFilterTypesBinder.WithAttributeWhere``1(System.Func{``0,System.Boolean})"><a href="#collapsible-Zenject_ConventionFilterTypesBinder_WithAttributeWhere__1_System_Func___0_System_Boolean__" class="expander" data-toggle="collapse">WithAttributeWhere&lt;T&gt;(Func&lt;T, Boolean&gt;)</a></h4>
+  
+  <div id="collapsible-Zenject_ConventionFilterTypesBinder_WithAttributeWhere__1_System_Func___0_System_Boolean__" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConventionFilterTypesBinder WithAttributeWhere&lt;T&gt;(Func&lt;T, bool&gt; predicate)
+    where T : Attribute</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Func</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</span>
+        <span class="parametername">predicate</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ConventionFilterTypesBinder.html">ConventionFilterTypesBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">T</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_ConventionFilterTypesBinder_WithoutAttribute_" data-uid="Zenject.ConventionFilterTypesBinder.WithoutAttribute*"></a>
+  
+  <h4 id="Zenject_ConventionFilterTypesBinder_WithoutAttribute_System_Type_" data-uid="Zenject.ConventionFilterTypesBinder.WithoutAttribute(System.Type)"><a href="#collapsible-Zenject_ConventionFilterTypesBinder_WithoutAttribute_System_Type_" class="expander" data-toggle="collapse">WithoutAttribute(Type)</a></h4>
+  
+  <div id="collapsible-Zenject_ConventionFilterTypesBinder_WithoutAttribute_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConventionFilterTypesBinder WithoutAttribute(Type attribute)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">attribute</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ConventionFilterTypesBinder.html">ConventionFilterTypesBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_ConventionFilterTypesBinder_WithoutAttribute_" data-uid="Zenject.ConventionFilterTypesBinder.WithoutAttribute*"></a>
+  
+  <h4 id="Zenject_ConventionFilterTypesBinder_WithoutAttribute__1" data-uid="Zenject.ConventionFilterTypesBinder.WithoutAttribute``1"><a href="#collapsible-Zenject_ConventionFilterTypesBinder_WithoutAttribute__1" class="expander" data-toggle="collapse">WithoutAttribute&lt;T&gt;()</a></h4>
+  
+  <div id="collapsible-Zenject_ConventionFilterTypesBinder_WithoutAttribute__1" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConventionFilterTypesBinder WithoutAttribute&lt;T&gt;()
+    where T : Attribute</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ConventionFilterTypesBinder.html">ConventionFilterTypesBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">T</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_ConventionFilterTypesBinder_WithPrefix_" data-uid="Zenject.ConventionFilterTypesBinder.WithPrefix*"></a>
+  
+  <h4 id="Zenject_ConventionFilterTypesBinder_WithPrefix_System_String_" data-uid="Zenject.ConventionFilterTypesBinder.WithPrefix(System.String)"><a href="#collapsible-Zenject_ConventionFilterTypesBinder_WithPrefix_System_String_" class="expander" data-toggle="collapse">WithPrefix(String)</a></h4>
+  
+  <div id="collapsible-Zenject_ConventionFilterTypesBinder_WithPrefix_System_String_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConventionFilterTypesBinder WithPrefix(string prefix)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">prefix</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ConventionFilterTypesBinder.html">ConventionFilterTypesBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_ConventionFilterTypesBinder_WithSuffix_" data-uid="Zenject.ConventionFilterTypesBinder.WithSuffix*"></a>
+  
+  <h4 id="Zenject_ConventionFilterTypesBinder_WithSuffix_System_String_" data-uid="Zenject.ConventionFilterTypesBinder.WithSuffix(System.String)"><a href="#collapsible-Zenject_ConventionFilterTypesBinder_WithSuffix_System_String_" class="expander" data-toggle="collapse">WithSuffix(String)</a></h4>
+  
+  <div id="collapsible-Zenject_ConventionFilterTypesBinder_WithSuffix_System_String_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConventionFilterTypesBinder WithSuffix(string suffix)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">suffix</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.ConventionFilterTypesBinder.html">ConventionFilterTypesBinder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+</article>
+          </div>
+          <div class="contribution-panel mobile-hide">
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-left">Generated by <strong>DocFX</strong></span>
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>
+                      <span class="far fa-copyright"></span>
+                      2018, Affective & Cognitive Institute</span>
+                      <a href="https://affective-lab.org" class="fas fa-home"></a>
+                      <a href="https://www.researchgate.net/lab/Affective-and-Cognitive-Institute-Affective-Lab-Oliver-Korn" class="fab fa-researchgate"></a>
+                      <a href="https://www.linkedin.com/company/affective-cognitive-institute/" class="fab fa-linkedin"></a>
+                      <a href="https://www.youtube.com/channel/UCYetO2MEXJ0KMVWyxLXMS1g" class="fab fa-youtube"></a>
+                      <a href="https://github.com/AffectiveCognitiveInstitute" class="fab fa-github"></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

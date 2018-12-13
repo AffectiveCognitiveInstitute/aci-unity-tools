@@ -1,0 +1,2085 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class TypeExtensions
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class TypeExtensions
+   ">
+    <meta name="generator" content="docfx 2.40.2.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ModestTree.TypeExtensions">
+  <h1 id="ModestTree_TypeExtensions" data-uid="ModestTree.TypeExtensions">Class TypeExtensions
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">TypeExtensions</span></div>
+  </div>
+  
+  
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  
+  <h5 id="ModestTree_TypeExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class TypeExtensions</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="ModestTree_TypeExtensions_AllAttributes_" data-uid="ModestTree.TypeExtensions.AllAttributes*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_AllAttributes_MemberInfo_System_Type___" data-uid="ModestTree.TypeExtensions.AllAttributes(MemberInfo,System.Type[])"><a href="#collapsible-ModestTree_TypeExtensions_AllAttributes_MemberInfo_System_Type___" class="expander" data-toggle="collapse">AllAttributes(MemberInfo, Type[])</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_AllAttributes_MemberInfo_System_Type___" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Attribute&gt; AllAttributes(this MemberInfo provider, params Type[] attributeTypes)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">MemberInfo</span></span>
+        <span class="parametername">provider</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span>[]</span>
+        <span class="parametername">attributeTypes</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Attribute</span>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_AllAttributes_" data-uid="ModestTree.TypeExtensions.AllAttributes*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_AllAttributes_ParameterInfo_System_Type___" data-uid="ModestTree.TypeExtensions.AllAttributes(ParameterInfo,System.Type[])"><a href="#collapsible-ModestTree_TypeExtensions_AllAttributes_ParameterInfo_System_Type___" class="expander" data-toggle="collapse">AllAttributes(ParameterInfo, Type[])</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_AllAttributes_ParameterInfo_System_Type___" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Attribute&gt; AllAttributes(this ParameterInfo provider, params Type[] attributeTypes)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">ParameterInfo</span></span>
+        <span class="parametername">provider</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span>[]</span>
+        <span class="parametername">attributeTypes</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Attribute</span>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_AllAttributes_" data-uid="ModestTree.TypeExtensions.AllAttributes*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_AllAttributes__1_MemberInfo_" data-uid="ModestTree.TypeExtensions.AllAttributes``1(MemberInfo)"><a href="#collapsible-ModestTree_TypeExtensions_AllAttributes__1_MemberInfo_" class="expander" data-toggle="collapse">AllAttributes&lt;T&gt;(MemberInfo)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_AllAttributes__1_MemberInfo_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; AllAttributes&lt;T&gt;(this MemberInfo provider)
+    where T : Attribute</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">MemberInfo</span></span>
+        <span class="parametername">provider</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">T</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_AllAttributes_" data-uid="ModestTree.TypeExtensions.AllAttributes*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_AllAttributes__1_ParameterInfo_" data-uid="ModestTree.TypeExtensions.AllAttributes``1(ParameterInfo)"><a href="#collapsible-ModestTree_TypeExtensions_AllAttributes__1_ParameterInfo_" class="expander" data-toggle="collapse">AllAttributes&lt;T&gt;(ParameterInfo)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_AllAttributes__1_ParameterInfo_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; AllAttributes&lt;T&gt;(this ParameterInfo provider)
+    where T : Attribute</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">ParameterInfo</span></span>
+        <span class="parametername">provider</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">T</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_BaseType_" data-uid="ModestTree.TypeExtensions.BaseType*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_BaseType_System_Type_" data-uid="ModestTree.TypeExtensions.BaseType(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_BaseType_System_Type_" class="expander" data-toggle="collapse">BaseType(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_BaseType_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Type BaseType(this Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Type</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_Constructors_" data-uid="ModestTree.TypeExtensions.Constructors*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_Constructors_System_Type_" data-uid="ModestTree.TypeExtensions.Constructors(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_Constructors_System_Type_" class="expander" data-toggle="collapse">Constructors(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_Constructors_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ConstructorInfo[] Constructors(this Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">ConstructorInfo</span>[]
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_DeclaredInstanceFields_" data-uid="ModestTree.TypeExtensions.DeclaredInstanceFields*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_DeclaredInstanceFields_System_Type_" data-uid="ModestTree.TypeExtensions.DeclaredInstanceFields(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_DeclaredInstanceFields_System_Type_" class="expander" data-toggle="collapse">DeclaredInstanceFields(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_DeclaredInstanceFields_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FieldInfo[] DeclaredInstanceFields(this Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">FieldInfo</span>[]
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_DeclaredInstanceMethods_" data-uid="ModestTree.TypeExtensions.DeclaredInstanceMethods*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_DeclaredInstanceMethods_System_Type_" data-uid="ModestTree.TypeExtensions.DeclaredInstanceMethods(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_DeclaredInstanceMethods_System_Type_" class="expander" data-toggle="collapse">DeclaredInstanceMethods(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_DeclaredInstanceMethods_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MethodInfo[] DeclaredInstanceMethods(this Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">MethodInfo</span>[]
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_DeclaredInstanceProperties_" data-uid="ModestTree.TypeExtensions.DeclaredInstanceProperties*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_DeclaredInstanceProperties_System_Type_" data-uid="ModestTree.TypeExtensions.DeclaredInstanceProperties(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_DeclaredInstanceProperties_System_Type_" class="expander" data-toggle="collapse">DeclaredInstanceProperties(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_DeclaredInstanceProperties_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PropertyInfo[] DeclaredInstanceProperties(this Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">PropertyInfo</span>[]
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_DerivesFrom_" data-uid="ModestTree.TypeExtensions.DerivesFrom*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_DerivesFrom_System_Type_System_Type_" data-uid="ModestTree.TypeExtensions.DerivesFrom(System.Type,System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_DerivesFrom_System_Type_System_Type_" class="expander" data-toggle="collapse">DerivesFrom(Type, Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_DerivesFrom_System_Type_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool DerivesFrom(this Type a, Type b)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">a</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">b</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_DerivesFrom_" data-uid="ModestTree.TypeExtensions.DerivesFrom*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_DerivesFrom__1_System_Type_" data-uid="ModestTree.TypeExtensions.DerivesFrom``1(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_DerivesFrom__1_System_Type_" class="expander" data-toggle="collapse">DerivesFrom&lt;T&gt;(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_DerivesFrom__1_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool DerivesFrom&lt;T&gt;(this Type a)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">a</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">T</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_DerivesFromOrEqual_" data-uid="ModestTree.TypeExtensions.DerivesFromOrEqual*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_DerivesFromOrEqual_System_Type_System_Type_" data-uid="ModestTree.TypeExtensions.DerivesFromOrEqual(System.Type,System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_DerivesFromOrEqual_System_Type_System_Type_" class="expander" data-toggle="collapse">DerivesFromOrEqual(Type, Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_DerivesFromOrEqual_System_Type_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool DerivesFromOrEqual(this Type a, Type b)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">a</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">b</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_DerivesFromOrEqual_" data-uid="ModestTree.TypeExtensions.DerivesFromOrEqual*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_DerivesFromOrEqual__1_System_Type_" data-uid="ModestTree.TypeExtensions.DerivesFromOrEqual``1(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_DerivesFromOrEqual__1_System_Type_" class="expander" data-toggle="collapse">DerivesFromOrEqual&lt;T&gt;(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_DerivesFromOrEqual__1_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool DerivesFromOrEqual&lt;T&gt;(this Type a)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">a</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">T</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_GenericArguments_" data-uid="ModestTree.TypeExtensions.GenericArguments*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_GenericArguments_System_Type_" data-uid="ModestTree.TypeExtensions.GenericArguments(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_GenericArguments_System_Type_" class="expander" data-toggle="collapse">GenericArguments(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_GenericArguments_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Type[] GenericArguments(this Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Type</span>[]
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_GetAllInstanceFields_" data-uid="ModestTree.TypeExtensions.GetAllInstanceFields*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_GetAllInstanceFields_System_Type_" data-uid="ModestTree.TypeExtensions.GetAllInstanceFields(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_GetAllInstanceFields_System_Type_" class="expander" data-toggle="collapse">GetAllInstanceFields(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_GetAllInstanceFields_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;FieldInfo&gt; GetAllInstanceFields(this Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">FieldInfo</span>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_GetAllInstanceMethods_" data-uid="ModestTree.TypeExtensions.GetAllInstanceMethods*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_GetAllInstanceMethods_System_Type_" data-uid="ModestTree.TypeExtensions.GetAllInstanceMethods(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_GetAllInstanceMethods_System_Type_" class="expander" data-toggle="collapse">GetAllInstanceMethods(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_GetAllInstanceMethods_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;MethodInfo&gt; GetAllInstanceMethods(this Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">MethodInfo</span>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_GetAllInstanceProperties_" data-uid="ModestTree.TypeExtensions.GetAllInstanceProperties*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_GetAllInstanceProperties_System_Type_" data-uid="ModestTree.TypeExtensions.GetAllInstanceProperties(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_GetAllInstanceProperties_System_Type_" class="expander" data-toggle="collapse">GetAllInstanceProperties(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_GetAllInstanceProperties_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;PropertyInfo&gt; GetAllInstanceProperties(this Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">PropertyInfo</span>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_GetAttribute_" data-uid="ModestTree.TypeExtensions.GetAttribute*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_GetAttribute__1_MemberInfo_" data-uid="ModestTree.TypeExtensions.GetAttribute``1(MemberInfo)"><a href="#collapsible-ModestTree_TypeExtensions_GetAttribute__1_MemberInfo_" class="expander" data-toggle="collapse">GetAttribute&lt;T&gt;(MemberInfo)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_GetAttribute__1_MemberInfo_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T GetAttribute&lt;T&gt;(this MemberInfo provider)
+    where T : Attribute</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">MemberInfo</span></span>
+        <span class="parametername">provider</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">T</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">T</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_GetDefaultValue_" data-uid="ModestTree.TypeExtensions.GetDefaultValue*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_GetDefaultValue_System_Type_" data-uid="ModestTree.TypeExtensions.GetDefaultValue(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_GetDefaultValue_System_Type_" class="expander" data-toggle="collapse">GetDefaultValue(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_GetDefaultValue_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object GetDefaultValue(this Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Object</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_GetParentTypes_" data-uid="ModestTree.TypeExtensions.GetParentTypes*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_GetParentTypes_System_Type_" data-uid="ModestTree.TypeExtensions.GetParentTypes(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_GetParentTypes_System_Type_" class="expander" data-toggle="collapse">GetParentTypes(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_GetParentTypes_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Type&gt; GetParentTypes(this Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Type</span>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_GetSimpleName_" data-uid="ModestTree.TypeExtensions.GetSimpleName*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_GetSimpleName_System_Type_" data-uid="ModestTree.TypeExtensions.GetSimpleName(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_GetSimpleName_System_Type_" class="expander" data-toggle="collapse">GetSimpleName(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_GetSimpleName_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetSimpleName(this Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.String</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_HasAttribute_" data-uid="ModestTree.TypeExtensions.HasAttribute*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_HasAttribute_MemberInfo_System_Type___" data-uid="ModestTree.TypeExtensions.HasAttribute(MemberInfo,System.Type[])"><a href="#collapsible-ModestTree_TypeExtensions_HasAttribute_MemberInfo_System_Type___" class="expander" data-toggle="collapse">HasAttribute(MemberInfo, Type[])</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_HasAttribute_MemberInfo_System_Type___" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasAttribute(this MemberInfo provider, params Type[] attributeTypes)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">MemberInfo</span></span>
+        <span class="parametername">provider</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span>[]</span>
+        <span class="parametername">attributeTypes</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_HasAttribute_" data-uid="ModestTree.TypeExtensions.HasAttribute*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_HasAttribute_ParameterInfo_System_Type___" data-uid="ModestTree.TypeExtensions.HasAttribute(ParameterInfo,System.Type[])"><a href="#collapsible-ModestTree_TypeExtensions_HasAttribute_ParameterInfo_System_Type___" class="expander" data-toggle="collapse">HasAttribute(ParameterInfo, Type[])</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_HasAttribute_ParameterInfo_System_Type___" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasAttribute(this ParameterInfo provider, params Type[] attributeTypes)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">ParameterInfo</span></span>
+        <span class="parametername">provider</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span>[]</span>
+        <span class="parametername">attributeTypes</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_HasAttribute_" data-uid="ModestTree.TypeExtensions.HasAttribute*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_HasAttribute__1_MemberInfo_" data-uid="ModestTree.TypeExtensions.HasAttribute``1(MemberInfo)"><a href="#collapsible-ModestTree_TypeExtensions_HasAttribute__1_MemberInfo_" class="expander" data-toggle="collapse">HasAttribute&lt;T&gt;(MemberInfo)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_HasAttribute__1_MemberInfo_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasAttribute&lt;T&gt;(this MemberInfo provider)
+    where T : Attribute</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">MemberInfo</span></span>
+        <span class="parametername">provider</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">T</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_HasAttribute_" data-uid="ModestTree.TypeExtensions.HasAttribute*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_HasAttribute__1_ParameterInfo_" data-uid="ModestTree.TypeExtensions.HasAttribute``1(ParameterInfo)"><a href="#collapsible-ModestTree_TypeExtensions_HasAttribute__1_ParameterInfo_" class="expander" data-toggle="collapse">HasAttribute&lt;T&gt;(ParameterInfo)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_HasAttribute__1_ParameterInfo_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasAttribute&lt;T&gt;(this ParameterInfo provider)
+    where T : Attribute</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">ParameterInfo</span></span>
+        <span class="parametername">provider</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">T</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_Interfaces_" data-uid="ModestTree.TypeExtensions.Interfaces*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_Interfaces_System_Type_" data-uid="ModestTree.TypeExtensions.Interfaces(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_Interfaces_System_Type_" class="expander" data-toggle="collapse">Interfaces(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_Interfaces_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Type[] Interfaces(this Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Type</span>[]
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_IsAbstract_" data-uid="ModestTree.TypeExtensions.IsAbstract*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_IsAbstract_System_Type_" data-uid="ModestTree.TypeExtensions.IsAbstract(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_IsAbstract_System_Type_" class="expander" data-toggle="collapse">IsAbstract(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_IsAbstract_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsAbstract(this Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_IsAssignableToGenericType_" data-uid="ModestTree.TypeExtensions.IsAssignableToGenericType*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_IsAssignableToGenericType_System_Type_System_Type_" data-uid="ModestTree.TypeExtensions.IsAssignableToGenericType(System.Type,System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_IsAssignableToGenericType_System_Type_System_Type_" class="expander" data-toggle="collapse">IsAssignableToGenericType(Type, Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_IsAssignableToGenericType_System_Type_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsAssignableToGenericType(Type givenType, Type genericType)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">givenType</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">genericType</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_IsClosedGenericType_" data-uid="ModestTree.TypeExtensions.IsClosedGenericType*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_IsClosedGenericType_System_Type_" data-uid="ModestTree.TypeExtensions.IsClosedGenericType(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_IsClosedGenericType_System_Type_" class="expander" data-toggle="collapse">IsClosedGenericType(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_IsClosedGenericType_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsClosedGenericType(this Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_IsEnum_" data-uid="ModestTree.TypeExtensions.IsEnum*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_IsEnum_System_Type_" data-uid="ModestTree.TypeExtensions.IsEnum(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_IsEnum_System_Type_" class="expander" data-toggle="collapse">IsEnum(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_IsEnum_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsEnum(this Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_IsGenericType_" data-uid="ModestTree.TypeExtensions.IsGenericType*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_IsGenericType_System_Type_" data-uid="ModestTree.TypeExtensions.IsGenericType(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_IsGenericType_System_Type_" class="expander" data-toggle="collapse">IsGenericType(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_IsGenericType_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsGenericType(this Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_IsGenericTypeDefinition_" data-uid="ModestTree.TypeExtensions.IsGenericTypeDefinition*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_IsGenericTypeDefinition_System_Type_" data-uid="ModestTree.TypeExtensions.IsGenericTypeDefinition(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_IsGenericTypeDefinition_System_Type_" class="expander" data-toggle="collapse">IsGenericTypeDefinition(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_IsGenericTypeDefinition_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsGenericTypeDefinition(this Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_IsInterface_" data-uid="ModestTree.TypeExtensions.IsInterface*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_IsInterface_System_Type_" data-uid="ModestTree.TypeExtensions.IsInterface(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_IsInterface_System_Type_" class="expander" data-toggle="collapse">IsInterface(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_IsInterface_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsInterface(this Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_IsOpenGenericType_" data-uid="ModestTree.TypeExtensions.IsOpenGenericType*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_IsOpenGenericType_System_Type_" data-uid="ModestTree.TypeExtensions.IsOpenGenericType(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_IsOpenGenericType_System_Type_" class="expander" data-toggle="collapse">IsOpenGenericType(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_IsOpenGenericType_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsOpenGenericType(this Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_IsPrimitive_" data-uid="ModestTree.TypeExtensions.IsPrimitive*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_IsPrimitive_System_Type_" data-uid="ModestTree.TypeExtensions.IsPrimitive(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_IsPrimitive_System_Type_" class="expander" data-toggle="collapse">IsPrimitive(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_IsPrimitive_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsPrimitive(this Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_IsValueType_" data-uid="ModestTree.TypeExtensions.IsValueType*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_IsValueType_System_Type_" data-uid="ModestTree.TypeExtensions.IsValueType(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_IsValueType_System_Type_" class="expander" data-toggle="collapse">IsValueType(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_IsValueType_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsValueType(this Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_Method_" data-uid="ModestTree.TypeExtensions.Method*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_Method_System_Delegate_" data-uid="ModestTree.TypeExtensions.Method(System.Delegate)"><a href="#collapsible-ModestTree_TypeExtensions_Method_System_Delegate_" class="expander" data-toggle="collapse">Method(Delegate)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_Method_System_Delegate_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MethodInfo Method(this Delegate del)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Delegate</span></span>
+        <span class="parametername">del</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">MethodInfo</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_PrettyName_" data-uid="ModestTree.TypeExtensions.PrettyName*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_PrettyName_System_Type_" data-uid="ModestTree.TypeExtensions.PrettyName(System.Type)"><a href="#collapsible-ModestTree_TypeExtensions_PrettyName_System_Type_" class="expander" data-toggle="collapse">PrettyName(Type)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_PrettyName_System_Type_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string PrettyName(this Type type)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Type</span></span>
+        <span class="parametername">type</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.String</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="ModestTree_TypeExtensions_TryGetAttribute_" data-uid="ModestTree.TypeExtensions.TryGetAttribute*"></a>
+  
+  <h4 id="ModestTree_TypeExtensions_TryGetAttribute__1_MemberInfo_" data-uid="ModestTree.TypeExtensions.TryGetAttribute``1(MemberInfo)"><a href="#collapsible-ModestTree_TypeExtensions_TryGetAttribute__1_MemberInfo_" class="expander" data-toggle="collapse">TryGetAttribute&lt;T&gt;(MemberInfo)</a></h4>
+  
+  <div id="collapsible-ModestTree_TypeExtensions_TryGetAttribute__1_MemberInfo_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T TryGetAttribute&lt;T&gt;(this MemberInfo provider)
+    where T : Attribute</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">MemberInfo</span></span>
+        <span class="parametername">provider</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">T</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">T</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+</article>
+          </div>
+          <div class="contribution-panel mobile-hide">
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-left">Generated by <strong>DocFX</strong></span>
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>
+                      <span class="far fa-copyright"></span>
+                      2018, Affective & Cognitive Institute</span>
+                      <a href="https://affective-lab.org" class="fas fa-home"></a>
+                      <a href="https://www.researchgate.net/lab/Affective-and-Cognitive-Institute-Affective-Lab-Oliver-Korn" class="fab fa-researchgate"></a>
+                      <a href="https://www.linkedin.com/company/affective-cognitive-institute/" class="fab fa-linkedin"></a>
+                      <a href="https://www.youtube.com/channel/UCYetO2MEXJ0KMVWyxLXMS1g" class="fab fa-youtube"></a>
+                      <a href="https://github.com/AffectiveCognitiveInstitute" class="fab fa-github"></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

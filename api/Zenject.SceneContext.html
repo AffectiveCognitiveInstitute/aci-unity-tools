@@ -1,0 +1,915 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SceneContext
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SceneContext
+   ">
+    <meta name="generator" content="docfx 2.40.2.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Zenject.SceneContext">
+  <h1 id="Zenject_SceneContext" data-uid="Zenject.SceneContext">Class SceneContext
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Zenject.Context.html">Context</a></div>
+    <div class="level2"><a class="xref" href="Zenject.RunnableContext.html">RunnableContext</a></div>
+    <div class="level3"><span class="xref">SceneContext</span></div>
+  </div>
+  
+  
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Zenject.RunnableContext.html#Zenject_RunnableContext_Initialized">RunnableContext.Initialized</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.RunnableContext.html#Zenject_RunnableContext_Initialize">RunnableContext.Initialize()</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.RunnableContext.html#Zenject_RunnableContext_Run">RunnableContext.Run()</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.RunnableContext.html#Zenject_RunnableContext_CreateComponent__1_GameObject_">RunnableContext.CreateComponent&lt;T&gt;(GameObject)</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.Context.html#Zenject_Context_Installers">Context.Installers</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.Context.html#Zenject_Context_InstallerPrefabs">Context.InstallerPrefabs</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.Context.html#Zenject_Context_ScriptableObjectInstallers">Context.ScriptableObjectInstallers</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.Context.html#Zenject_Context_NormalInstallerTypes">Context.NormalInstallerTypes</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.Context.html#Zenject_Context_NormalInstallers">Context.NormalInstallers</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.Context.html#Zenject_Context_AddNormalInstallerType_System_Type_">Context.AddNormalInstallerType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.Context.html#Zenject_Context_AddNormalInstaller_Zenject_InstallerBase_">Context.AddNormalInstaller(InstallerBase)</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.Context.html#Zenject_Context_InstallInstallers">Context.InstallInstallers()</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.Context.html#Zenject_Context_InstallInstallers_System_Collections_Generic_List_Zenject_InstallerBase__System_Collections_Generic_List_System_Type__System_Collections_Generic_List_Zenject_ScriptableObjectInstaller__System_Collections_Generic_List_Zenject_MonoInstaller__System_Collections_Generic_List_Zenject_MonoInstaller__">Context.InstallInstallers(List&lt;InstallerBase&gt;, List&lt;Type&gt;, List&lt;ScriptableObjectInstaller&gt;, List&lt;MonoInstaller&gt;, List&lt;MonoInstaller&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Zenject.Context.html#Zenject_Context_InstallSceneBindings_System_Collections_Generic_List_MonoBehaviour__">Context.InstallSceneBindings(List&lt;MonoBehaviour&gt;)</a>
+    </div>
+  </div>
+  
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  
+  <h5 id="Zenject_SceneContext_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SceneContext : RunnableContext</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  
+  <h4 id="Zenject_SceneContext_ExtraBindingsInstallMethod" data-uid="Zenject.SceneContext.ExtraBindingsInstallMethod"><a href="#collapsible-Zenject_SceneContext_ExtraBindingsInstallMethod" class="expander" data-toggle="collapse">ExtraBindingsInstallMethod</a></h4>
+  
+  <div id="collapsible-Zenject_SceneContext_ExtraBindingsInstallMethod" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;DiContainer&gt; ExtraBindingsInstallMethod</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Action</span>&lt;<a class="xref" href="Zenject.DiContainer.html">DiContainer</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="Zenject_SceneContext_ExtraBindingsLateInstallMethod" data-uid="Zenject.SceneContext.ExtraBindingsLateInstallMethod"><a href="#collapsible-Zenject_SceneContext_ExtraBindingsLateInstallMethod" class="expander" data-toggle="collapse">ExtraBindingsLateInstallMethod</a></h4>
+  
+  <div id="collapsible-Zenject_SceneContext_ExtraBindingsLateInstallMethod" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;DiContainer&gt; ExtraBindingsLateInstallMethod</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Action</span>&lt;<a class="xref" href="Zenject.DiContainer.html">DiContainer</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="Zenject_SceneContext_ParentContainers" data-uid="Zenject.SceneContext.ParentContainers"><a href="#collapsible-Zenject_SceneContext_ParentContainers" class="expander" data-toggle="collapse">ParentContainers</a></h4>
+  
+  <div id="collapsible-Zenject_SceneContext_ParentContainers" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;DiContainer&gt; ParentContainers</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Zenject.DiContainer.html">DiContainer</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Zenject_SceneContext_Container_" data-uid="Zenject.SceneContext.Container*"></a>
+  
+  <h4 id="Zenject_SceneContext_Container" data-uid="Zenject.SceneContext.Container"><a href="#collapsible-Zenject_SceneContext_Container" class="expander" data-toggle="collapse">Container</a></h4>
+  
+  <div id="collapsible-Zenject_SceneContext_Container" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override DiContainer Container { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.DiContainer.html">DiContainer</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Zenject.Context.html#Zenject_Context_Container">Context.Container</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_SceneContext_ContractNames_" data-uid="Zenject.SceneContext.ContractNames*"></a>
+  
+  <h4 id="Zenject_SceneContext_ContractNames" data-uid="Zenject.SceneContext.ContractNames"><a href="#collapsible-Zenject_SceneContext_ContractNames" class="expander" data-toggle="collapse">ContractNames</a></h4>
+  
+  <div id="collapsible-Zenject_SceneContext_ContractNames" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;string&gt; ContractNames { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_SceneContext_HasInstalled_" data-uid="Zenject.SceneContext.HasInstalled*"></a>
+  
+  <h4 id="Zenject_SceneContext_HasInstalled" data-uid="Zenject.SceneContext.HasInstalled"><a href="#collapsible-Zenject_SceneContext_HasInstalled" class="expander" data-toggle="collapse">HasInstalled</a></h4>
+  
+  <div id="collapsible-Zenject_SceneContext_HasInstalled" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasInstalled { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_SceneContext_HasResolved_" data-uid="Zenject.SceneContext.HasResolved*"></a>
+  
+  <h4 id="Zenject_SceneContext_HasResolved" data-uid="Zenject.SceneContext.HasResolved"><a href="#collapsible-Zenject_SceneContext_HasResolved" class="expander" data-toggle="collapse">HasResolved</a></h4>
+  
+  <div id="collapsible-Zenject_SceneContext_HasResolved" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasResolved { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_SceneContext_IsValidating_" data-uid="Zenject.SceneContext.IsValidating*"></a>
+  
+  <h4 id="Zenject_SceneContext_IsValidating" data-uid="Zenject.SceneContext.IsValidating"><a href="#collapsible-Zenject_SceneContext_IsValidating" class="expander" data-toggle="collapse">IsValidating</a></h4>
+  
+  <div id="collapsible-Zenject_SceneContext_IsValidating" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidating { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_SceneContext_ParentContractNames_" data-uid="Zenject.SceneContext.ParentContractNames*"></a>
+  
+  <h4 id="Zenject_SceneContext_ParentContractNames" data-uid="Zenject.SceneContext.ParentContractNames"><a href="#collapsible-Zenject_SceneContext_ParentContractNames" class="expander" data-toggle="collapse">ParentContractNames</a></h4>
+  
+  <div id="collapsible-Zenject_SceneContext_ParentContractNames" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;string&gt; ParentContractNames { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_SceneContext_ParentNewObjectsUnderRoot_" data-uid="Zenject.SceneContext.ParentNewObjectsUnderRoot*"></a>
+  
+  <h4 id="Zenject_SceneContext_ParentNewObjectsUnderRoot" data-uid="Zenject.SceneContext.ParentNewObjectsUnderRoot"><a href="#collapsible-Zenject_SceneContext_ParentNewObjectsUnderRoot" class="expander" data-toggle="collapse">ParentNewObjectsUnderRoot</a></h4>
+  
+  <div id="collapsible-Zenject_SceneContext_ParentNewObjectsUnderRoot" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ParentNewObjectsUnderRoot { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Zenject_SceneContext_Awake_" data-uid="Zenject.SceneContext.Awake*"></a>
+  
+  <h4 id="Zenject_SceneContext_Awake" data-uid="Zenject.SceneContext.Awake"><a href="#collapsible-Zenject_SceneContext_Awake" class="expander" data-toggle="collapse">Awake()</a></h4>
+  
+  <div id="collapsible-Zenject_SceneContext_Awake" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Awake()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_SceneContext_Create_" data-uid="Zenject.SceneContext.Create*"></a>
+  
+  <h4 id="Zenject_SceneContext_Create" data-uid="Zenject.SceneContext.Create"><a href="#collapsible-Zenject_SceneContext_Create" class="expander" data-toggle="collapse">Create()</a></h4>
+  
+  <div id="collapsible-Zenject_SceneContext_Create" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SceneContext Create()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="Zenject.SceneContext.html">SceneContext</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_SceneContext_GetInjectableMonoBehaviours_" data-uid="Zenject.SceneContext.GetInjectableMonoBehaviours*"></a>
+  
+  <h4 id="Zenject_SceneContext_GetInjectableMonoBehaviours_System_Collections_Generic_List_MonoBehaviour__" data-uid="Zenject.SceneContext.GetInjectableMonoBehaviours(System.Collections.Generic.List{MonoBehaviour})"><a href="#collapsible-Zenject_SceneContext_GetInjectableMonoBehaviours_System_Collections_Generic_List_MonoBehaviour__" class="expander" data-toggle="collapse">GetInjectableMonoBehaviours(List&lt;MonoBehaviour&gt;)</a></h4>
+  
+  <div id="collapsible-Zenject_SceneContext_GetInjectableMonoBehaviours_System_Collections_Generic_List_MonoBehaviour__" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void GetInjectableMonoBehaviours(List&lt;MonoBehaviour&gt; monoBehaviours)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">MonoBehaviour</span>&gt;</span>
+        <span class="parametername">monoBehaviours</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Zenject.Context.html#Zenject_Context_GetInjectableMonoBehaviours_System_Collections_Generic_List_MonoBehaviour__">Context.GetInjectableMonoBehaviours(List&lt;MonoBehaviour&gt;)</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_SceneContext_GetRootGameObjects_" data-uid="Zenject.SceneContext.GetRootGameObjects*"></a>
+  
+  <h4 id="Zenject_SceneContext_GetRootGameObjects" data-uid="Zenject.SceneContext.GetRootGameObjects"><a href="#collapsible-Zenject_SceneContext_GetRootGameObjects" class="expander" data-toggle="collapse">GetRootGameObjects()</a></h4>
+  
+  <div id="collapsible-Zenject_SceneContext_GetRootGameObjects" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IEnumerable&lt;GameObject&gt; GetRootGameObjects()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">GameObject</span>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Zenject.Context.html#Zenject_Context_GetRootGameObjects">Context.GetRootGameObjects()</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_SceneContext_Install_" data-uid="Zenject.SceneContext.Install*"></a>
+  
+  <h4 id="Zenject_SceneContext_Install" data-uid="Zenject.SceneContext.Install"><a href="#collapsible-Zenject_SceneContext_Install" class="expander" data-toggle="collapse">Install()</a></h4>
+  
+  <div id="collapsible-Zenject_SceneContext_Install" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Install()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_SceneContext_Resolve_" data-uid="Zenject.SceneContext.Resolve*"></a>
+  
+  <h4 id="Zenject_SceneContext_Resolve" data-uid="Zenject.SceneContext.Resolve"><a href="#collapsible-Zenject_SceneContext_Resolve" class="expander" data-toggle="collapse">Resolve()</a></h4>
+  
+  <div id="collapsible-Zenject_SceneContext_Resolve" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Resolve()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Zenject_SceneContext_RunInternal_" data-uid="Zenject.SceneContext.RunInternal*"></a>
+  
+  <h4 id="Zenject_SceneContext_RunInternal" data-uid="Zenject.SceneContext.RunInternal"><a href="#collapsible-Zenject_SceneContext_RunInternal" class="expander" data-toggle="collapse">RunInternal()</a></h4>
+  
+  <div id="collapsible-Zenject_SceneContext_RunInternal" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void RunInternal()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Zenject.RunnableContext.html#Zenject_RunnableContext_RunInternal">RunnableContext.RunInternal()</a></div>
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  
+  <h4 id="Zenject_SceneContext_PostInstall" data-uid="Zenject.SceneContext.PostInstall"><a href="#collapsible-Zenject_SceneContext_PostInstall" class="expander" data-toggle="collapse">PostInstall</a></h4>
+  
+  <div id="collapsible-Zenject_SceneContext_PostInstall" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action PostInstall</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  <h5 class="eventType">Event Type</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Action</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="Zenject_SceneContext_PostResolve" data-uid="Zenject.SceneContext.PostResolve"><a href="#collapsible-Zenject_SceneContext_PostResolve" class="expander" data-toggle="collapse">PostResolve</a></h4>
+  
+  <div id="collapsible-Zenject_SceneContext_PostResolve" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action PostResolve</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  <h5 class="eventType">Event Type</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Action</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="Zenject_SceneContext_PreInstall" data-uid="Zenject.SceneContext.PreInstall"><a href="#collapsible-Zenject_SceneContext_PreInstall" class="expander" data-toggle="collapse">PreInstall</a></h4>
+  
+  <div id="collapsible-Zenject_SceneContext_PreInstall" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action PreInstall</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  <h5 class="eventType">Event Type</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Action</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="Zenject_SceneContext_PreResolve" data-uid="Zenject.SceneContext.PreResolve"><a href="#collapsible-Zenject_SceneContext_PreResolve" class="expander" data-toggle="collapse">PreResolve</a></h4>
+  
+  <div id="collapsible-Zenject_SceneContext_PreResolve" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action PreResolve</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  <h5 class="eventType">Event Type</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Action</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+</article>
+          </div>
+          <div class="contribution-panel mobile-hide">
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-left">Generated by <strong>DocFX</strong></span>
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>
+                      <span class="far fa-copyright"></span>
+                      2018, Affective & Cognitive Institute</span>
+                      <a href="https://affective-lab.org" class="fas fa-home"></a>
+                      <a href="https://www.researchgate.net/lab/Affective-and-Cognitive-Institute-Affective-Lab-Oliver-Korn" class="fab fa-researchgate"></a>
+                      <a href="https://www.linkedin.com/company/affective-cognitive-institute/" class="fab fa-linkedin"></a>
+                      <a href="https://www.youtube.com/channel/UCYetO2MEXJ0KMVWyxLXMS1g" class="fab fa-youtube"></a>
+                      <a href="https://github.com/AffectiveCognitiveInstitute" class="fab fa-github"></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
