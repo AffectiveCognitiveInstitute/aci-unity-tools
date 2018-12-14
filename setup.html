@@ -35,7 +35,7 @@
               </button>
               
               <a class="navbar-brand" href="index.html">
-                <img id="logo" class="svg" src="images/logo.svg" alt="">
+                <img id="logo" class="svg" src="images/logo_aci.png" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -62,7 +62,38 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="setup">Setup</h1>
 
-<p>Here you should explain how to set the project up for use.</p>
+<h2 id="dependencies">Dependencies</h2>
+<p>ACI Unity Tools has several dependencies you need to add to your project.</p>
+<ol>
+<li>Zenject</li>
+</ol>
+<ul>
+<li>IOC Framework, ACI Tools is highly dependent on this.</li>
+<li>Unity Asset Store entry: <a href="https://assetstore.unity.com/packages/tools/integration/zenject-dependency-injection-ioc-17758">https://assetstore.unity.com/packages/tools/integration/zenject-dependency-injection-ioc-17758</a></li>
+<li>Official GitHub repository: <a href="https://github.com/svermeulen/Zenject">https://github.com/svermeulen/Zenject</a></li>
+<li>see Zenject documentation how to setup Zenject for your project</li>
+</ul>
+<ol start="2">
+<li>Json.NET</li>
+</ol>
+<ul>
+<li>extensive C# JSON framework</li>
+<li><a href="https://www.newtonsoft.com/json">https://www.newtonsoft.com/json</a></li>
+<li>just copy the binary into your project folder</li>
+</ul>
+<ol start="3">
+<li>Async Await Support</li>
+</ol>
+<ul>
+<li>Enables the usage of async/await for unity coroutines</li>
+<li>Unity Asset Store entry: <a href="https://assetstore.unity.com/packages/tools/integration/async-await-support-101056">https://assetstore.unity.com/packages/tools/integration/async-await-support-101056</a></li>
+<li>Official GitHub repository: <a href="https://github.com/svermeulen/Unity3dAsyncAwaitUtil">https://github.com/svermeulen/Unity3dAsyncAwaitUtil</a></li>
+<li>There is no special setup needed, just install the .unitypackage</li>
+</ul>
+<h2 id="project-setup">Project Setup</h2>
+<p>Incorporating the ACI Unity Tools into your project is fairly simple. Just copy the repository contents into your project. If you installed the dependencies you should be good to go.</p>
+<p>Internally we use git submodules to add the tools to our projecets. It's a fairly easy process and eliminates the need to check the same files into multiple repositories.</p>
+<p>We currently do not provide a .unitypackage. This might change at a later date, but at the moment there are no plans to do so. If you want to use a unitypackage you will have to build it yourself.</p>
 </article>
           </div>
           <div class="contribution-panel mobile-hide">
