@@ -1,2 +1,3 @@
-# manuals
-Here you sould explain how to use the project.
+# Manual
+
+Here you will find information on how to use the ACI Unity Tools. Currently how-to articles are under construction, check back at a later date.
