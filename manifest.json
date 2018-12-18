@@ -453,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Network.INetworkPublisher.html",
-          "hash": "ZlZYUppLcJkx0CFqYMEBhQ=="
+          "hash": "XICNP/8f7LUk3c6bc2nG3A=="
         }
       },
       "is_incremental": false,
@@ -477,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-1.html",
-          "hash": "j1bD7WNjraK0nx3aK1GqaQ=="
+          "hash": "Z/N2YkiycHFwr7HDHtR1/A=="
         }
       },
       "is_incremental": false,
@@ -561,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Network.NetworkPublisher.html",
-          "hash": "8vnD2Gu2jH/GVfRtwGBlyQ=="
+          "hash": "JJ1G3++mgKGSgntI3RSheA=="
         }
       },
       "is_incremental": false,
@@ -581,11 +581,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Network.PingHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Network.PingHandler.html",
+          "hash": "H4Ows3cXKPkQzP+0lMApIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Network.PingPackage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Network.PingPackage.html",
+          "hash": "0yZAs4h9HU8nvVqj5OWDug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Aci.Unity.Network.yml",
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Network.html",
-          "hash": "HEAxgH3+XR7gzKMC0J+vPA=="
+          "hash": "6ingeViFy7rG1BE47Df2oA=="
         }
       },
       "is_incremental": false,
@@ -1473,7 +1497,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "k3h7hUF18FfIVRh4tMCMbw=="
+          "hash": "T7XCo1Qr9jqmwPVY6sEMDw=="
         }
       },
       "is_incremental": false,

@@ -873,6 +873,12 @@ references:
   commentId: M:Aci.Unity.Network.INetworkPublisher.Send(Aci.Unity.Network.INetworkPackage)
   fullName: Aci.Unity.Network.INetworkPublisher.Send(Aci.Unity.Network.INetworkPackage)
   nameWithType: INetworkPublisher.Send(INetworkPackage)
+- uid: Aci.Unity.Network.INetworkPublisher.Send(Aci.Unity.Network.INetworkPackage,System.Int32)
+  name: Send(INetworkPackage, Int32)
+  href: api/Aci.Unity.Network.INetworkPublisher.html#Aci_Unity_Network_INetworkPublisher_Send_Aci_Unity_Network_INetworkPackage_System_Int32_
+  commentId: M:Aci.Unity.Network.INetworkPublisher.Send(Aci.Unity.Network.INetworkPackage,System.Int32)
+  fullName: Aci.Unity.Network.INetworkPublisher.Send(Aci.Unity.Network.INetworkPackage, System.Int32)
+  nameWithType: INetworkPublisher.Send(INetworkPackage, Int32)
 - uid: Aci.Unity.Network.INetworkPublisher.Send*
   name: Send
   href: api/Aci.Unity.Network.INetworkPublisher.html#Aci_Unity_Network_INetworkPublisher_Send_
@@ -1463,6 +1469,12 @@ references:
   commentId: M:Aci.Unity.Network.NetworkPublisher.Send(Aci.Unity.Network.INetworkPackage)
   fullName: Aci.Unity.Network.NetworkPublisher.Send(Aci.Unity.Network.INetworkPackage)
   nameWithType: NetworkPublisher.Send(INetworkPackage)
+- uid: Aci.Unity.Network.NetworkPublisher.Send(Aci.Unity.Network.INetworkPackage,System.Int32)
+  name: Send(INetworkPackage, Int32)
+  href: api/Aci.Unity.Network.NetworkPublisher.html#Aci_Unity_Network_NetworkPublisher_Send_Aci_Unity_Network_INetworkPackage_System_Int32_
+  commentId: M:Aci.Unity.Network.NetworkPublisher.Send(Aci.Unity.Network.INetworkPackage,System.Int32)
+  fullName: Aci.Unity.Network.NetworkPublisher.Send(Aci.Unity.Network.INetworkPackage, System.Int32)
+  nameWithType: NetworkPublisher.Send(INetworkPackage, Int32)
 - uid: Aci.Unity.Network.NetworkPublisher.Send*
   name: Send
   href: api/Aci.Unity.Network.NetworkPublisher.html#Aci_Unity_Network_NetworkPublisher_Send_
@@ -1495,6 +1507,82 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.Network.NetworkSubscriber.WasPinged
   nameWithType: NetworkSubscriber.WasPinged
+- uid: Aci.Unity.Network.PingHandler
+  name: PingHandler
+  href: api/Aci.Unity.Network.PingHandler.html
+  commentId: T:Aci.Unity.Network.PingHandler
+  fullName: Aci.Unity.Network.PingHandler
+  nameWithType: PingHandler
+- uid: Aci.Unity.Network.PingHandler.Construct(Aci.Unity.Network.INetworkPublisher,Aci.Unity.Network.NetworkSubscriber)
+  name: Construct(INetworkPublisher, NetworkSubscriber)
+  href: api/Aci.Unity.Network.PingHandler.html#Aci_Unity_Network_PingHandler_Construct_Aci_Unity_Network_INetworkPublisher_Aci_Unity_Network_NetworkSubscriber_
+  commentId: M:Aci.Unity.Network.PingHandler.Construct(Aci.Unity.Network.INetworkPublisher,Aci.Unity.Network.NetworkSubscriber)
+  fullName: Aci.Unity.Network.PingHandler.Construct(Aci.Unity.Network.INetworkPublisher, Aci.Unity.Network.NetworkSubscriber)
+  nameWithType: PingHandler.Construct(INetworkPublisher, NetworkSubscriber)
+- uid: Aci.Unity.Network.PingHandler.Construct*
+  name: Construct
+  href: api/Aci.Unity.Network.PingHandler.html#Aci_Unity_Network_PingHandler_Construct_
+  commentId: Overload:Aci.Unity.Network.PingHandler.Construct
+  isSpec: "True"
+  fullName: Aci.Unity.Network.PingHandler.Construct
+  nameWithType: PingHandler.Construct
+- uid: Aci.Unity.Network.PingHandler.Handle(Aci.Unity.Network.PingPackage)
+  name: Handle(PingPackage)
+  href: api/Aci.Unity.Network.PingHandler.html#Aci_Unity_Network_PingHandler_Handle_Aci_Unity_Network_PingPackage_
+  commentId: M:Aci.Unity.Network.PingHandler.Handle(Aci.Unity.Network.PingPackage)
+  fullName: Aci.Unity.Network.PingHandler.Handle(Aci.Unity.Network.PingPackage)
+  nameWithType: PingHandler.Handle(PingPackage)
+- uid: Aci.Unity.Network.PingHandler.Handle*
+  name: Handle
+  href: api/Aci.Unity.Network.PingHandler.html#Aci_Unity_Network_PingHandler_Handle_
+  commentId: Overload:Aci.Unity.Network.PingHandler.Handle
+  isSpec: "True"
+  fullName: Aci.Unity.Network.PingHandler.Handle
+  nameWithType: PingHandler.Handle
+- uid: Aci.Unity.Network.PingHandler.WaitForPing(System.Int32,System.Int32,System.Single,System.Single)
+  name: WaitForPing(Int32, Int32, Single, Single)
+  href: api/Aci.Unity.Network.PingHandler.html#Aci_Unity_Network_PingHandler_WaitForPing_System_Int32_System_Int32_System_Single_System_Single_
+  commentId: M:Aci.Unity.Network.PingHandler.WaitForPing(System.Int32,System.Int32,System.Single,System.Single)
+  fullName: Aci.Unity.Network.PingHandler.WaitForPing(System.Int32, System.Int32, System.Single, System.Single)
+  nameWithType: PingHandler.WaitForPing(Int32, Int32, Single, Single)
+- uid: Aci.Unity.Network.PingHandler.WaitForPing*
+  name: WaitForPing
+  href: api/Aci.Unity.Network.PingHandler.html#Aci_Unity_Network_PingHandler_WaitForPing_
+  commentId: Overload:Aci.Unity.Network.PingHandler.WaitForPing
+  isSpec: "True"
+  fullName: Aci.Unity.Network.PingHandler.WaitForPing
+  nameWithType: PingHandler.WaitForPing
+- uid: Aci.Unity.Network.PingPackage
+  name: PingPackage
+  href: api/Aci.Unity.Network.PingPackage.html
+  commentId: T:Aci.Unity.Network.PingPackage
+  fullName: Aci.Unity.Network.PingPackage
+  nameWithType: PingPackage
+- uid: Aci.Unity.Network.PingPackage.call
+  name: call
+  href: api/Aci.Unity.Network.PingPackage.html#Aci_Unity_Network_PingPackage_call
+  commentId: P:Aci.Unity.Network.PingPackage.call
+  fullName: Aci.Unity.Network.PingPackage.call
+  nameWithType: PingPackage.call
+- uid: Aci.Unity.Network.PingPackage.call*
+  name: call
+  href: api/Aci.Unity.Network.PingPackage.html#Aci_Unity_Network_PingPackage_call_
+  commentId: Overload:Aci.Unity.Network.PingPackage.call
+  isSpec: "True"
+  fullName: Aci.Unity.Network.PingPackage.call
+  nameWithType: PingPackage.call
+- uid: Aci.Unity.Network.PingPackage.CallType
+  name: CallType
+  href: api/Aci.Unity.Network.PingPackage.html#Aci_Unity_Network_PingPackage_CallType
+  commentId: F:Aci.Unity.Network.PingPackage.CallType
+  fullName: Aci.Unity.Network.PingPackage.CallType
+  nameWithType: PingPackage.CallType
+- uid: Aci.Unity.Network.PingPackage.id
+  name: id
+  href: api/Aci.Unity.Network.PingPackage.html#Aci_Unity_Network_PingPackage_id
+  commentId: F:Aci.Unity.Network.PingPackage.id
+  fullName: Aci.Unity.Network.PingPackage.id
+  nameWithType: PingPackage.id
 - uid: Aci.Unity.Sensor
   name: Aci.Unity.Sensor
   href: api/Aci.Unity.Sensor.html
