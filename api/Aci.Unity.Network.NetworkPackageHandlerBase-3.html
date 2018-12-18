@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class NetworkPackageHandlerBase&lt;T&gt;
+    <title>Class NetworkPackageHandlerBase&lt;T0, T1, T2&gt;
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class NetworkPackageHandlerBase&lt;T&gt;
+    <meta name="title" content="Class NetworkPackageHandlerBase&lt;T0, T1, T2&gt;
    ">
     <meta name="generator" content="docfx 2.40.4.0">
     
@@ -68,8 +68,8 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Aci.Unity.Network.NetworkPackageHandlerBase`1">
-  <h1 id="Aci_Unity_Network_NetworkPackageHandlerBase_1" data-uid="Aci.Unity.Network.NetworkPackageHandlerBase`1">Class NetworkPackageHandlerBase&lt;T&gt;
+            <article class="content wrap" id="_content" data-uid="Aci.Unity.Network.NetworkPackageHandlerBase`3">
+  <h1 id="Aci_Unity_Network_NetworkPackageHandlerBase_3" data-uid="Aci.Unity.Network.NetworkPackageHandlerBase`3">Class NetworkPackageHandlerBase&lt;T0, T1, T2&gt;
   </h1>
   <div class="markdown level0 summary"><p><see cref="!:MonoBehaviour"></see> implementation of <a class="xref" href="Aci.Unity.Network.INetworkPackageHandler.html">INetworkPackageHandler</a>.
 This is used to handle <a class="xref" href="Aci.Unity.Network.INetworkPackage.html">INetworkPackage</a> instances received via a <a class="xref" href="Aci.Unity.Network.NetworkSubscriber.html">NetworkSubscriber</a>.
@@ -80,7 +80,7 @@ A single <see cref="!:GameObject"></see> can not have multiple <a class="xref" h
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">NetworkPackageHandlerBase&lt;T&gt;</span></div>
+    <div class="level1"><span class="xref">NetworkPackageHandlerBase&lt;T0, T1, T2&gt;</span></div>
   </div>
   
   
@@ -88,9 +88,9 @@ A single <see cref="!:GameObject"></see> can not have multiple <a class="xref" h
   <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   
-  <h5 id="Aci_Unity_Network_NetworkPackageHandlerBase_1_syntax">Syntax</h5>
+  <h5 id="Aci_Unity_Network_NetworkPackageHandlerBase_3_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class NetworkPackageHandlerBase&lt;T&gt; : MonoBehaviour, INetworkPackageHandler where T : INetworkPackage</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class NetworkPackageHandlerBase&lt;T0, T1, T2&gt; : MonoBehaviour, INetworkPackageHandler where T0 : INetworkPackage where T1 : INetworkPackage where T2 : INetworkPackage</code></pre>
   </div>
 
   
@@ -99,7 +99,21 @@ A single <see cref="!:GameObject"></see> can not have multiple <a class="xref" h
   <table>
     <tr>
       <td>
-        <span class="parametername">T</span>
+        <span class="parametername">T0</span>
+        <p><p><a class="xref" href="Aci.Unity.Network.INetworkPackage.html">INetworkPackage</a> implementation that should be handled by the Handler.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="parametername">T1</span>
+        <p><p><a class="xref" href="Aci.Unity.Network.INetworkPackage.html">INetworkPackage</a> implementation that should be handled by the Handler.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="parametername">T2</span>
         <p><p><a class="xref" href="Aci.Unity.Network.INetworkPackage.html">INetworkPackage</a> implementation that should be handled by the Handler.</p>
 </p>
       </td>
@@ -111,11 +125,11 @@ A single <see cref="!:GameObject"></see> can not have multiple <a class="xref" h
   </h3>
   
   
-  <a id="Aci_Unity_Network_NetworkPackageHandlerBase_1_packageTypes_" data-uid="Aci.Unity.Network.NetworkPackageHandlerBase`1.packageTypes*"></a>
+  <a id="Aci_Unity_Network_NetworkPackageHandlerBase_3_packageTypes_" data-uid="Aci.Unity.Network.NetworkPackageHandlerBase`3.packageTypes*"></a>
   
-  <h4 id="Aci_Unity_Network_NetworkPackageHandlerBase_1_packageTypes" data-uid="Aci.Unity.Network.NetworkPackageHandlerBase`1.packageTypes"><a href="#collapsible-Aci_Unity_Network_NetworkPackageHandlerBase_1_packageTypes" class="expander" data-toggle="collapse">packageTypes</a></h4>
+  <h4 id="Aci_Unity_Network_NetworkPackageHandlerBase_3_packageTypes" data-uid="Aci.Unity.Network.NetworkPackageHandlerBase`3.packageTypes"><a href="#collapsible-Aci_Unity_Network_NetworkPackageHandlerBase_3_packageTypes" class="expander" data-toggle="collapse">packageTypes</a></h4>
   
-  <div id="collapsible-Aci_Unity_Network_NetworkPackageHandlerBase_1_packageTypes" class="collapse in">
+  <div id="collapsible-Aci_Unity_Network_NetworkPackageHandlerBase_3_packageTypes" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -151,25 +165,103 @@ A single <see cref="!:GameObject"></see> can not have multiple <a class="xref" h
   </h3>
   
   
-  <a id="Aci_Unity_Network_NetworkPackageHandlerBase_1_Handle_" data-uid="Aci.Unity.Network.NetworkPackageHandlerBase`1.Handle*"></a>
+  <a id="Aci_Unity_Network_NetworkPackageHandlerBase_3_Handle_" data-uid="Aci.Unity.Network.NetworkPackageHandlerBase`3.Handle*"></a>
   
-  <h4 id="Aci_Unity_Network_NetworkPackageHandlerBase_1_Handle__0_" data-uid="Aci.Unity.Network.NetworkPackageHandlerBase`1.Handle(`0)"><a href="#collapsible-Aci_Unity_Network_NetworkPackageHandlerBase_1_Handle__0_" class="expander" data-toggle="collapse">Handle(T)</a></h4>
+  <h4 id="Aci_Unity_Network_NetworkPackageHandlerBase_3_Handle__0_" data-uid="Aci.Unity.Network.NetworkPackageHandlerBase`3.Handle(`0)"><a href="#collapsible-Aci_Unity_Network_NetworkPackageHandlerBase_3_Handle__0_" class="expander" data-toggle="collapse">Handle(T0)</a></h4>
   
-  <div id="collapsible-Aci_Unity_Network_NetworkPackageHandlerBase_1_Handle__0_" class="collapse in">
+  <div id="collapsible-Aci_Unity_Network_NetworkPackageHandlerBase_3_Handle__0_" class="collapse in">
   <div class="markdown level1 summary"><p>Handles a <a class="xref" href="Aci.Unity.Network.INetworkPackage.html">INetworkPackage</a> instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void Handle(T package)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract void Handle(T0 package)</code></pre>
   </div>
 
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
       <td>
-        <span class="pull-right"><span class="xref">T</span></span>
+        <span class="pull-right"><span class="xref">T0</span></span>
+        <span class="parametername">package</span>
+        <p><p>Target <a class="xref" href="Aci.Unity.Network.INetworkPackage.html">INetworkPackage</a> instance.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Aci_Unity_Network_NetworkPackageHandlerBase_3_Handle_" data-uid="Aci.Unity.Network.NetworkPackageHandlerBase`3.Handle*"></a>
+  
+  <h4 id="Aci_Unity_Network_NetworkPackageHandlerBase_3_Handle__1_" data-uid="Aci.Unity.Network.NetworkPackageHandlerBase`3.Handle(`1)"><a href="#collapsible-Aci_Unity_Network_NetworkPackageHandlerBase_3_Handle__1_" class="expander" data-toggle="collapse">Handle(T1)</a></h4>
+  
+  <div id="collapsible-Aci_Unity_Network_NetworkPackageHandlerBase_3_Handle__1_" class="collapse in">
+  <div class="markdown level1 summary"><p>Handles a <a class="xref" href="Aci.Unity.Network.INetworkPackage.html">INetworkPackage</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Handle(T1 package)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">T1</span></span>
+        <span class="parametername">package</span>
+        <p><p>Target <a class="xref" href="Aci.Unity.Network.INetworkPackage.html">INetworkPackage</a> instance.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Aci_Unity_Network_NetworkPackageHandlerBase_3_Handle_" data-uid="Aci.Unity.Network.NetworkPackageHandlerBase`3.Handle*"></a>
+  
+  <h4 id="Aci_Unity_Network_NetworkPackageHandlerBase_3_Handle__2_" data-uid="Aci.Unity.Network.NetworkPackageHandlerBase`3.Handle(`2)"><a href="#collapsible-Aci_Unity_Network_NetworkPackageHandlerBase_3_Handle__2_" class="expander" data-toggle="collapse">Handle(T2)</a></h4>
+  
+  <div id="collapsible-Aci_Unity_Network_NetworkPackageHandlerBase_3_Handle__2_" class="collapse in">
+  <div class="markdown level1 summary"><p>Handles a <a class="xref" href="Aci.Unity.Network.INetworkPackage.html">INetworkPackage</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Handle(T2 package)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">T2</span></span>
         <span class="parametername">package</span>
         <p><p>Target <a class="xref" href="Aci.Unity.Network.INetworkPackage.html">INetworkPackage</a> instance.</p>
 </p>
@@ -192,11 +284,11 @@ A single <see cref="!:GameObject"></see> can not have multiple <a class="xref" h
   </h3>
   
   
-  <a id="Aci_Unity_Network_NetworkPackageHandlerBase_1_Aci_Unity_Network_INetworkPackageHandler_Handle_" data-uid="Aci.Unity.Network.NetworkPackageHandlerBase`1.Aci#Unity#Network#INetworkPackageHandler#Handle*"></a>
+  <a id="Aci_Unity_Network_NetworkPackageHandlerBase_3_Aci_Unity_Network_INetworkPackageHandler_Handle_" data-uid="Aci.Unity.Network.NetworkPackageHandlerBase`3.Aci#Unity#Network#INetworkPackageHandler#Handle*"></a>
   
-  <h4 id="Aci_Unity_Network_NetworkPackageHandlerBase_1_Aci_Unity_Network_INetworkPackageHandler_Handle_Aci_Unity_Network_INetworkPackage_" data-uid="Aci.Unity.Network.NetworkPackageHandlerBase`1.Aci#Unity#Network#INetworkPackageHandler#Handle(Aci.Unity.Network.INetworkPackage)"><a href="#collapsible-Aci_Unity_Network_NetworkPackageHandlerBase_1_Aci_Unity_Network_INetworkPackageHandler_Handle_Aci_Unity_Network_INetworkPackage_" class="expander" data-toggle="collapse">INetworkPackageHandler.Handle(INetworkPackage)</a></h4>
+  <h4 id="Aci_Unity_Network_NetworkPackageHandlerBase_3_Aci_Unity_Network_INetworkPackageHandler_Handle_Aci_Unity_Network_INetworkPackage_" data-uid="Aci.Unity.Network.NetworkPackageHandlerBase`3.Aci#Unity#Network#INetworkPackageHandler#Handle(Aci.Unity.Network.INetworkPackage)"><a href="#collapsible-Aci_Unity_Network_NetworkPackageHandlerBase_3_Aci_Unity_Network_INetworkPackageHandler_Handle_Aci_Unity_Network_INetworkPackage_" class="expander" data-toggle="collapse">INetworkPackageHandler.Handle(INetworkPackage)</a></h4>
   
-  <div id="collapsible-Aci_Unity_Network_NetworkPackageHandlerBase_1_Aci_Unity_Network_INetworkPackageHandler_Handle_Aci_Unity_Network_INetworkPackage_" class="collapse in">
+  <div id="collapsible-Aci_Unity_Network_NetworkPackageHandlerBase_3_Aci_Unity_Network_INetworkPackageHandler_Handle_Aci_Unity_Network_INetworkPackage_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

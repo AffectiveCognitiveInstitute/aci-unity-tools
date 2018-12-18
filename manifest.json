@@ -441,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Network.INetworkPackageHandler.html",
-          "hash": "1cHq1A5LSZcEmvC2DyT3Ig=="
+          "hash": "7ri6YohGZSbDLM7TIZOoQw=="
         }
       },
       "is_incremental": false,
@@ -477,7 +477,67 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-1.html",
-          "hash": "J+kmxfEtwAg0OLd2IYyTTg=="
+          "hash": "j1bD7WNjraK0nx3aK1GqaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-2.html",
+          "hash": "7e/28kCl2jS077DEM5nDbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-3.html",
+          "hash": "bA4ksZuXi5i329+NeUxT/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-4.html",
+          "hash": "gqrpf+j0QkMoDiZ1uOECzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-5.html",
+          "hash": "Z5bNXesMS4jzkS2PGOcRKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-6.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-6.html",
+          "hash": "Kwo6meo2eLbXtpQawzZ6ew=="
         }
       },
       "is_incremental": false,
@@ -489,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerRegistry.html",
-          "hash": "JU6eehlLOCR9kTRSjIwg1w=="
+          "hash": "ZO837Fe3kz0fZknftLeHCQ=="
         }
       },
       "is_incremental": false,
@@ -525,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Network.html",
-          "hash": "DW5FM9vten7zymDe6bmqfQ=="
+          "hash": "HEAxgH3+XR7gzKMC0J+vPA=="
         }
       },
       "is_incremental": false,
@@ -1413,7 +1473,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "iFRhlak00zpYwNSlRU/8Pw=="
+          "hash": "k3h7hUF18FfIVRh4tMCMbw=="
         }
       },
       "is_incremental": false,

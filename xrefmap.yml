@@ -848,19 +848,19 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.Network.INetworkPackageHandler.Handle
   nameWithType: INetworkPackageHandler.Handle
-- uid: Aci.Unity.Network.INetworkPackageHandler.packageType
-  name: packageType
-  href: api/Aci.Unity.Network.INetworkPackageHandler.html#Aci_Unity_Network_INetworkPackageHandler_packageType
-  commentId: P:Aci.Unity.Network.INetworkPackageHandler.packageType
-  fullName: Aci.Unity.Network.INetworkPackageHandler.packageType
-  nameWithType: INetworkPackageHandler.packageType
-- uid: Aci.Unity.Network.INetworkPackageHandler.packageType*
-  name: packageType
-  href: api/Aci.Unity.Network.INetworkPackageHandler.html#Aci_Unity_Network_INetworkPackageHandler_packageType_
-  commentId: Overload:Aci.Unity.Network.INetworkPackageHandler.packageType
+- uid: Aci.Unity.Network.INetworkPackageHandler.packageTypes
+  name: packageTypes
+  href: api/Aci.Unity.Network.INetworkPackageHandler.html#Aci_Unity_Network_INetworkPackageHandler_packageTypes
+  commentId: P:Aci.Unity.Network.INetworkPackageHandler.packageTypes
+  fullName: Aci.Unity.Network.INetworkPackageHandler.packageTypes
+  nameWithType: INetworkPackageHandler.packageTypes
+- uid: Aci.Unity.Network.INetworkPackageHandler.packageTypes*
+  name: packageTypes
+  href: api/Aci.Unity.Network.INetworkPackageHandler.html#Aci_Unity_Network_INetworkPackageHandler_packageTypes_
+  commentId: Overload:Aci.Unity.Network.INetworkPackageHandler.packageTypes
   isSpec: "True"
-  fullName: Aci.Unity.Network.INetworkPackageHandler.packageType
-  nameWithType: INetworkPackageHandler.packageType
+  fullName: Aci.Unity.Network.INetworkPackageHandler.packageTypes
+  nameWithType: INetworkPackageHandler.packageTypes
 - uid: Aci.Unity.Network.INetworkPublisher
   name: INetworkPublisher
   href: api/Aci.Unity.Network.INetworkPublisher.html
@@ -944,23 +944,453 @@ references:
   fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T).Handle
   nameWithType: NetworkPackageHandlerBase<T>.Handle
   nameWithType.vb: NetworkPackageHandlerBase(Of T).Handle
-- uid: Aci.Unity.Network.NetworkPackageHandlerBase`1.packageType
-  name: packageType
-  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-1.html#Aci_Unity_Network_NetworkPackageHandlerBase_1_packageType
-  commentId: P:Aci.Unity.Network.NetworkPackageHandlerBase`1.packageType
-  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T>.packageType
-  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T).packageType
-  nameWithType: NetworkPackageHandlerBase<T>.packageType
-  nameWithType.vb: NetworkPackageHandlerBase(Of T).packageType
-- uid: Aci.Unity.Network.NetworkPackageHandlerBase`1.packageType*
-  name: packageType
-  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-1.html#Aci_Unity_Network_NetworkPackageHandlerBase_1_packageType_
-  commentId: Overload:Aci.Unity.Network.NetworkPackageHandlerBase`1.packageType
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`1.packageTypes
+  name: packageTypes
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-1.html#Aci_Unity_Network_NetworkPackageHandlerBase_1_packageTypes
+  commentId: P:Aci.Unity.Network.NetworkPackageHandlerBase`1.packageTypes
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T>.packageTypes
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T).packageTypes
+  nameWithType: NetworkPackageHandlerBase<T>.packageTypes
+  nameWithType.vb: NetworkPackageHandlerBase(Of T).packageTypes
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`1.packageTypes*
+  name: packageTypes
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-1.html#Aci_Unity_Network_NetworkPackageHandlerBase_1_packageTypes_
+  commentId: Overload:Aci.Unity.Network.NetworkPackageHandlerBase`1.packageTypes
   isSpec: "True"
-  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T>.packageType
-  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T).packageType
-  nameWithType: NetworkPackageHandlerBase<T>.packageType
-  nameWithType.vb: NetworkPackageHandlerBase(Of T).packageType
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T>.packageTypes
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T).packageTypes
+  nameWithType: NetworkPackageHandlerBase<T>.packageTypes
+  nameWithType.vb: NetworkPackageHandlerBase(Of T).packageTypes
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`2
+  name: NetworkPackageHandlerBase<T0, T1>
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-2.html
+  commentId: T:Aci.Unity.Network.NetworkPackageHandlerBase`2
+  name.vb: NetworkPackageHandlerBase(Of T0, T1)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1>
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1)
+  nameWithType: NetworkPackageHandlerBase<T0, T1>
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`2.Aci#Unity#Network#INetworkPackageHandler#Handle(Aci.Unity.Network.INetworkPackage)
+  name: INetworkPackageHandler.Handle(INetworkPackage)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-2.html#Aci_Unity_Network_NetworkPackageHandlerBase_2_Aci_Unity_Network_INetworkPackageHandler_Handle_Aci_Unity_Network_INetworkPackage_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`2.Aci#Unity#Network#INetworkPackageHandler#Handle(Aci.Unity.Network.INetworkPackage)
+  name.vb: Aci.Unity.Network.INetworkPackageHandler.Handle(INetworkPackage)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1>.Aci.Unity.Network.INetworkPackageHandler.Handle(Aci.Unity.Network.INetworkPackage)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1).Aci.Unity.Network.INetworkPackageHandler.Handle(Aci.Unity.Network.INetworkPackage)
+  nameWithType: NetworkPackageHandlerBase<T0, T1>.INetworkPackageHandler.Handle(INetworkPackage)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1).Aci.Unity.Network.INetworkPackageHandler.Handle(INetworkPackage)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`2.Aci#Unity#Network#INetworkPackageHandler#Handle*
+  name: INetworkPackageHandler.Handle
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-2.html#Aci_Unity_Network_NetworkPackageHandlerBase_2_Aci_Unity_Network_INetworkPackageHandler_Handle_
+  commentId: Overload:Aci.Unity.Network.NetworkPackageHandlerBase`2.Aci#Unity#Network#INetworkPackageHandler#Handle
+  isSpec: "True"
+  name.vb: Aci.Unity.Network.INetworkPackageHandler.Handle
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1>.Aci.Unity.Network.INetworkPackageHandler.Handle
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1).Aci.Unity.Network.INetworkPackageHandler.Handle
+  nameWithType: NetworkPackageHandlerBase<T0, T1>.INetworkPackageHandler.Handle
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1).Aci.Unity.Network.INetworkPackageHandler.Handle
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`2.Handle(`0)
+  name: Handle(T0)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-2.html#Aci_Unity_Network_NetworkPackageHandlerBase_2_Handle__0_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`2.Handle(`0)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1>.Handle(T0)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1).Handle(T0)
+  nameWithType: NetworkPackageHandlerBase<T0, T1>.Handle(T0)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1).Handle(T0)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`2.Handle(`1)
+  name: Handle(T1)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-2.html#Aci_Unity_Network_NetworkPackageHandlerBase_2_Handle__1_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`2.Handle(`1)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1>.Handle(T1)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1).Handle(T1)
+  nameWithType: NetworkPackageHandlerBase<T0, T1>.Handle(T1)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1).Handle(T1)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`2.Handle*
+  name: Handle
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-2.html#Aci_Unity_Network_NetworkPackageHandlerBase_2_Handle_
+  commentId: Overload:Aci.Unity.Network.NetworkPackageHandlerBase`2.Handle
+  isSpec: "True"
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1>.Handle
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1).Handle
+  nameWithType: NetworkPackageHandlerBase<T0, T1>.Handle
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1).Handle
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`2.packageTypes
+  name: packageTypes
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-2.html#Aci_Unity_Network_NetworkPackageHandlerBase_2_packageTypes
+  commentId: P:Aci.Unity.Network.NetworkPackageHandlerBase`2.packageTypes
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1>.packageTypes
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1).packageTypes
+  nameWithType: NetworkPackageHandlerBase<T0, T1>.packageTypes
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1).packageTypes
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`2.packageTypes*
+  name: packageTypes
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-2.html#Aci_Unity_Network_NetworkPackageHandlerBase_2_packageTypes_
+  commentId: Overload:Aci.Unity.Network.NetworkPackageHandlerBase`2.packageTypes
+  isSpec: "True"
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1>.packageTypes
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1).packageTypes
+  nameWithType: NetworkPackageHandlerBase<T0, T1>.packageTypes
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1).packageTypes
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`3
+  name: NetworkPackageHandlerBase<T0, T1, T2>
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-3.html
+  commentId: T:Aci.Unity.Network.NetworkPackageHandlerBase`3
+  name.vb: NetworkPackageHandlerBase(Of T0, T1, T2)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2>
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2>
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`3.Aci#Unity#Network#INetworkPackageHandler#Handle(Aci.Unity.Network.INetworkPackage)
+  name: INetworkPackageHandler.Handle(INetworkPackage)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-3.html#Aci_Unity_Network_NetworkPackageHandlerBase_3_Aci_Unity_Network_INetworkPackageHandler_Handle_Aci_Unity_Network_INetworkPackage_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`3.Aci#Unity#Network#INetworkPackageHandler#Handle(Aci.Unity.Network.INetworkPackage)
+  name.vb: Aci.Unity.Network.INetworkPackageHandler.Handle(INetworkPackage)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2>.Aci.Unity.Network.INetworkPackageHandler.Handle(Aci.Unity.Network.INetworkPackage)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2).Aci.Unity.Network.INetworkPackageHandler.Handle(Aci.Unity.Network.INetworkPackage)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2>.INetworkPackageHandler.Handle(INetworkPackage)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2).Aci.Unity.Network.INetworkPackageHandler.Handle(INetworkPackage)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`3.Aci#Unity#Network#INetworkPackageHandler#Handle*
+  name: INetworkPackageHandler.Handle
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-3.html#Aci_Unity_Network_NetworkPackageHandlerBase_3_Aci_Unity_Network_INetworkPackageHandler_Handle_
+  commentId: Overload:Aci.Unity.Network.NetworkPackageHandlerBase`3.Aci#Unity#Network#INetworkPackageHandler#Handle
+  isSpec: "True"
+  name.vb: Aci.Unity.Network.INetworkPackageHandler.Handle
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2>.Aci.Unity.Network.INetworkPackageHandler.Handle
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2).Aci.Unity.Network.INetworkPackageHandler.Handle
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2>.INetworkPackageHandler.Handle
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2).Aci.Unity.Network.INetworkPackageHandler.Handle
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`3.Handle(`0)
+  name: Handle(T0)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-3.html#Aci_Unity_Network_NetworkPackageHandlerBase_3_Handle__0_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`3.Handle(`0)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2>.Handle(T0)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2).Handle(T0)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2>.Handle(T0)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2).Handle(T0)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`3.Handle(`1)
+  name: Handle(T1)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-3.html#Aci_Unity_Network_NetworkPackageHandlerBase_3_Handle__1_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`3.Handle(`1)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2>.Handle(T1)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2).Handle(T1)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2>.Handle(T1)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2).Handle(T1)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`3.Handle(`2)
+  name: Handle(T2)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-3.html#Aci_Unity_Network_NetworkPackageHandlerBase_3_Handle__2_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`3.Handle(`2)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2>.Handle(T2)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2).Handle(T2)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2>.Handle(T2)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2).Handle(T2)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`3.Handle*
+  name: Handle
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-3.html#Aci_Unity_Network_NetworkPackageHandlerBase_3_Handle_
+  commentId: Overload:Aci.Unity.Network.NetworkPackageHandlerBase`3.Handle
+  isSpec: "True"
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2>.Handle
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2).Handle
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2>.Handle
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2).Handle
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`3.packageTypes
+  name: packageTypes
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-3.html#Aci_Unity_Network_NetworkPackageHandlerBase_3_packageTypes
+  commentId: P:Aci.Unity.Network.NetworkPackageHandlerBase`3.packageTypes
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2>.packageTypes
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2).packageTypes
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2>.packageTypes
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2).packageTypes
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`3.packageTypes*
+  name: packageTypes
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-3.html#Aci_Unity_Network_NetworkPackageHandlerBase_3_packageTypes_
+  commentId: Overload:Aci.Unity.Network.NetworkPackageHandlerBase`3.packageTypes
+  isSpec: "True"
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2>.packageTypes
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2).packageTypes
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2>.packageTypes
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2).packageTypes
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`4
+  name: NetworkPackageHandlerBase<T0, T1, T2, T3>
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-4.html
+  commentId: T:Aci.Unity.Network.NetworkPackageHandlerBase`4
+  name.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3>
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3>
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`4.Aci#Unity#Network#INetworkPackageHandler#Handle(Aci.Unity.Network.INetworkPackage)
+  name: INetworkPackageHandler.Handle(INetworkPackage)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-4.html#Aci_Unity_Network_NetworkPackageHandlerBase_4_Aci_Unity_Network_INetworkPackageHandler_Handle_Aci_Unity_Network_INetworkPackage_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`4.Aci#Unity#Network#INetworkPackageHandler#Handle(Aci.Unity.Network.INetworkPackage)
+  name.vb: Aci.Unity.Network.INetworkPackageHandler.Handle(INetworkPackage)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3>.Aci.Unity.Network.INetworkPackageHandler.Handle(Aci.Unity.Network.INetworkPackage)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3).Aci.Unity.Network.INetworkPackageHandler.Handle(Aci.Unity.Network.INetworkPackage)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3>.INetworkPackageHandler.Handle(INetworkPackage)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3).Aci.Unity.Network.INetworkPackageHandler.Handle(INetworkPackage)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`4.Aci#Unity#Network#INetworkPackageHandler#Handle*
+  name: INetworkPackageHandler.Handle
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-4.html#Aci_Unity_Network_NetworkPackageHandlerBase_4_Aci_Unity_Network_INetworkPackageHandler_Handle_
+  commentId: Overload:Aci.Unity.Network.NetworkPackageHandlerBase`4.Aci#Unity#Network#INetworkPackageHandler#Handle
+  isSpec: "True"
+  name.vb: Aci.Unity.Network.INetworkPackageHandler.Handle
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3>.Aci.Unity.Network.INetworkPackageHandler.Handle
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3).Aci.Unity.Network.INetworkPackageHandler.Handle
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3>.INetworkPackageHandler.Handle
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3).Aci.Unity.Network.INetworkPackageHandler.Handle
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`4.Handle(`0)
+  name: Handle(T0)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-4.html#Aci_Unity_Network_NetworkPackageHandlerBase_4_Handle__0_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`4.Handle(`0)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3>.Handle(T0)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3).Handle(T0)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3>.Handle(T0)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3).Handle(T0)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`4.Handle(`1)
+  name: Handle(T1)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-4.html#Aci_Unity_Network_NetworkPackageHandlerBase_4_Handle__1_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`4.Handle(`1)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3>.Handle(T1)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3).Handle(T1)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3>.Handle(T1)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3).Handle(T1)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`4.Handle(`2)
+  name: Handle(T2)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-4.html#Aci_Unity_Network_NetworkPackageHandlerBase_4_Handle__2_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`4.Handle(`2)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3>.Handle(T2)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3).Handle(T2)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3>.Handle(T2)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3).Handle(T2)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`4.Handle(`3)
+  name: Handle(T3)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-4.html#Aci_Unity_Network_NetworkPackageHandlerBase_4_Handle__3_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`4.Handle(`3)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3>.Handle(T3)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3).Handle(T3)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3>.Handle(T3)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3).Handle(T3)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`4.Handle*
+  name: Handle
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-4.html#Aci_Unity_Network_NetworkPackageHandlerBase_4_Handle_
+  commentId: Overload:Aci.Unity.Network.NetworkPackageHandlerBase`4.Handle
+  isSpec: "True"
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3>.Handle
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3).Handle
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3>.Handle
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3).Handle
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`4.packageTypes
+  name: packageTypes
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-4.html#Aci_Unity_Network_NetworkPackageHandlerBase_4_packageTypes
+  commentId: P:Aci.Unity.Network.NetworkPackageHandlerBase`4.packageTypes
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3>.packageTypes
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3).packageTypes
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3>.packageTypes
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3).packageTypes
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`4.packageTypes*
+  name: packageTypes
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-4.html#Aci_Unity_Network_NetworkPackageHandlerBase_4_packageTypes_
+  commentId: Overload:Aci.Unity.Network.NetworkPackageHandlerBase`4.packageTypes
+  isSpec: "True"
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3>.packageTypes
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3).packageTypes
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3>.packageTypes
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3).packageTypes
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`5
+  name: NetworkPackageHandlerBase<T0, T1, T2, T3, T4>
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-5.html
+  commentId: T:Aci.Unity.Network.NetworkPackageHandlerBase`5
+  name.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3, T4>
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3, T4>
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`5.Aci#Unity#Network#INetworkPackageHandler#Handle(Aci.Unity.Network.INetworkPackage)
+  name: INetworkPackageHandler.Handle(INetworkPackage)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-5.html#Aci_Unity_Network_NetworkPackageHandlerBase_5_Aci_Unity_Network_INetworkPackageHandler_Handle_Aci_Unity_Network_INetworkPackage_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`5.Aci#Unity#Network#INetworkPackageHandler#Handle(Aci.Unity.Network.INetworkPackage)
+  name.vb: Aci.Unity.Network.INetworkPackageHandler.Handle(INetworkPackage)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3, T4>.Aci.Unity.Network.INetworkPackageHandler.Handle(Aci.Unity.Network.INetworkPackage)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4).Aci.Unity.Network.INetworkPackageHandler.Handle(Aci.Unity.Network.INetworkPackage)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3, T4>.INetworkPackageHandler.Handle(INetworkPackage)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4).Aci.Unity.Network.INetworkPackageHandler.Handle(INetworkPackage)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`5.Aci#Unity#Network#INetworkPackageHandler#Handle*
+  name: INetworkPackageHandler.Handle
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-5.html#Aci_Unity_Network_NetworkPackageHandlerBase_5_Aci_Unity_Network_INetworkPackageHandler_Handle_
+  commentId: Overload:Aci.Unity.Network.NetworkPackageHandlerBase`5.Aci#Unity#Network#INetworkPackageHandler#Handle
+  isSpec: "True"
+  name.vb: Aci.Unity.Network.INetworkPackageHandler.Handle
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3, T4>.Aci.Unity.Network.INetworkPackageHandler.Handle
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4).Aci.Unity.Network.INetworkPackageHandler.Handle
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3, T4>.INetworkPackageHandler.Handle
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4).Aci.Unity.Network.INetworkPackageHandler.Handle
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`5.Handle(`0)
+  name: Handle(T0)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-5.html#Aci_Unity_Network_NetworkPackageHandlerBase_5_Handle__0_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`5.Handle(`0)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3, T4>.Handle(T0)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4).Handle(T0)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3, T4>.Handle(T0)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4).Handle(T0)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`5.Handle(`1)
+  name: Handle(T1)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-5.html#Aci_Unity_Network_NetworkPackageHandlerBase_5_Handle__1_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`5.Handle(`1)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3, T4>.Handle(T1)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4).Handle(T1)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3, T4>.Handle(T1)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4).Handle(T1)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`5.Handle(`2)
+  name: Handle(T2)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-5.html#Aci_Unity_Network_NetworkPackageHandlerBase_5_Handle__2_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`5.Handle(`2)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3, T4>.Handle(T2)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4).Handle(T2)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3, T4>.Handle(T2)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4).Handle(T2)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`5.Handle(`3)
+  name: Handle(T3)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-5.html#Aci_Unity_Network_NetworkPackageHandlerBase_5_Handle__3_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`5.Handle(`3)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3, T4>.Handle(T3)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4).Handle(T3)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3, T4>.Handle(T3)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4).Handle(T3)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`5.Handle(`4)
+  name: Handle(T4)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-5.html#Aci_Unity_Network_NetworkPackageHandlerBase_5_Handle__4_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`5.Handle(`4)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3, T4>.Handle(T4)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4).Handle(T4)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3, T4>.Handle(T4)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4).Handle(T4)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`5.Handle*
+  name: Handle
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-5.html#Aci_Unity_Network_NetworkPackageHandlerBase_5_Handle_
+  commentId: Overload:Aci.Unity.Network.NetworkPackageHandlerBase`5.Handle
+  isSpec: "True"
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3, T4>.Handle
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4).Handle
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3, T4>.Handle
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4).Handle
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`5.packageTypes
+  name: packageTypes
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-5.html#Aci_Unity_Network_NetworkPackageHandlerBase_5_packageTypes
+  commentId: P:Aci.Unity.Network.NetworkPackageHandlerBase`5.packageTypes
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3, T4>.packageTypes
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4).packageTypes
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3, T4>.packageTypes
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4).packageTypes
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`5.packageTypes*
+  name: packageTypes
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-5.html#Aci_Unity_Network_NetworkPackageHandlerBase_5_packageTypes_
+  commentId: Overload:Aci.Unity.Network.NetworkPackageHandlerBase`5.packageTypes
+  isSpec: "True"
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3, T4>.packageTypes
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4).packageTypes
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3, T4>.packageTypes
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4).packageTypes
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`6
+  name: NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-6.html
+  commentId: T:Aci.Unity.Network.NetworkPackageHandlerBase`6
+  name.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`6.Aci#Unity#Network#INetworkPackageHandler#Handle(Aci.Unity.Network.INetworkPackage)
+  name: INetworkPackageHandler.Handle(INetworkPackage)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-6.html#Aci_Unity_Network_NetworkPackageHandlerBase_6_Aci_Unity_Network_INetworkPackageHandler_Handle_Aci_Unity_Network_INetworkPackage_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`6.Aci#Unity#Network#INetworkPackageHandler#Handle(Aci.Unity.Network.INetworkPackage)
+  name.vb: Aci.Unity.Network.INetworkPackageHandler.Handle(INetworkPackage)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>.Aci.Unity.Network.INetworkPackageHandler.Handle(Aci.Unity.Network.INetworkPackage)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5).Aci.Unity.Network.INetworkPackageHandler.Handle(Aci.Unity.Network.INetworkPackage)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>.INetworkPackageHandler.Handle(INetworkPackage)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5).Aci.Unity.Network.INetworkPackageHandler.Handle(INetworkPackage)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`6.Aci#Unity#Network#INetworkPackageHandler#Handle*
+  name: INetworkPackageHandler.Handle
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-6.html#Aci_Unity_Network_NetworkPackageHandlerBase_6_Aci_Unity_Network_INetworkPackageHandler_Handle_
+  commentId: Overload:Aci.Unity.Network.NetworkPackageHandlerBase`6.Aci#Unity#Network#INetworkPackageHandler#Handle
+  isSpec: "True"
+  name.vb: Aci.Unity.Network.INetworkPackageHandler.Handle
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>.Aci.Unity.Network.INetworkPackageHandler.Handle
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5).Aci.Unity.Network.INetworkPackageHandler.Handle
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>.INetworkPackageHandler.Handle
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5).Aci.Unity.Network.INetworkPackageHandler.Handle
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`6.Handle(`0)
+  name: Handle(T0)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-6.html#Aci_Unity_Network_NetworkPackageHandlerBase_6_Handle__0_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`6.Handle(`0)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>.Handle(T0)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5).Handle(T0)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>.Handle(T0)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5).Handle(T0)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`6.Handle(`1)
+  name: Handle(T1)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-6.html#Aci_Unity_Network_NetworkPackageHandlerBase_6_Handle__1_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`6.Handle(`1)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>.Handle(T1)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5).Handle(T1)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>.Handle(T1)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5).Handle(T1)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`6.Handle(`2)
+  name: Handle(T2)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-6.html#Aci_Unity_Network_NetworkPackageHandlerBase_6_Handle__2_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`6.Handle(`2)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>.Handle(T2)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5).Handle(T2)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>.Handle(T2)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5).Handle(T2)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`6.Handle(`3)
+  name: Handle(T3)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-6.html#Aci_Unity_Network_NetworkPackageHandlerBase_6_Handle__3_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`6.Handle(`3)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>.Handle(T3)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5).Handle(T3)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>.Handle(T3)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5).Handle(T3)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`6.Handle(`4)
+  name: Handle(T4)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-6.html#Aci_Unity_Network_NetworkPackageHandlerBase_6_Handle__4_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`6.Handle(`4)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>.Handle(T4)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5).Handle(T4)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>.Handle(T4)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5).Handle(T4)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`6.Handle(`5)
+  name: Handle(T5)
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-6.html#Aci_Unity_Network_NetworkPackageHandlerBase_6_Handle__5_
+  commentId: M:Aci.Unity.Network.NetworkPackageHandlerBase`6.Handle(`5)
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>.Handle(T5)
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5).Handle(T5)
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>.Handle(T5)
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5).Handle(T5)
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`6.Handle*
+  name: Handle
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-6.html#Aci_Unity_Network_NetworkPackageHandlerBase_6_Handle_
+  commentId: Overload:Aci.Unity.Network.NetworkPackageHandlerBase`6.Handle
+  isSpec: "True"
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>.Handle
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5).Handle
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>.Handle
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5).Handle
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`6.packageTypes
+  name: packageTypes
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-6.html#Aci_Unity_Network_NetworkPackageHandlerBase_6_packageTypes
+  commentId: P:Aci.Unity.Network.NetworkPackageHandlerBase`6.packageTypes
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>.packageTypes
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5).packageTypes
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>.packageTypes
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5).packageTypes
+- uid: Aci.Unity.Network.NetworkPackageHandlerBase`6.packageTypes*
+  name: packageTypes
+  href: api/Aci.Unity.Network.NetworkPackageHandlerBase-6.html#Aci_Unity_Network_NetworkPackageHandlerBase_6_packageTypes_
+  commentId: Overload:Aci.Unity.Network.NetworkPackageHandlerBase`6.packageTypes
+  isSpec: "True"
+  fullName: Aci.Unity.Network.NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>.packageTypes
+  fullName.vb: Aci.Unity.Network.NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5).packageTypes
+  nameWithType: NetworkPackageHandlerBase<T0, T1, T2, T3, T4, T5>.packageTypes
+  nameWithType.vb: NetworkPackageHandlerBase(Of T0, T1, T2, T3, T4, T5).packageTypes
 - uid: Aci.Unity.Network.NetworkPackageHandlerRegistry
   name: NetworkPackageHandlerRegistry
   href: api/Aci.Unity.Network.NetworkPackageHandlerRegistry.html
