@@ -1,0 +1,12 @@
+{
+    "name": "Aci.Unity.Editor",
+    "references": [
+        "Aci.Unity"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

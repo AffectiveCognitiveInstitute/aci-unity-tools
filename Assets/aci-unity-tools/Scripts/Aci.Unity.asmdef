@@ -1,0 +1,12 @@
+{
+    "name": "Aci.Unity",
+    "references": [
+        "Zenject",
+        "Unity.TextMeshPro",
+        "AsyncAwaitUtil"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
