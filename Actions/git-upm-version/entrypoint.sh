@@ -14,7 +14,7 @@ git remote add origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB
 
 # copy upm files to temporary location
 mkdir -p /temp
-cp ${UPM_FOLDER}/* /temp
+cp -a ${UPM_FOLDER}/. /temp
 rm -r /temp/.git
 
 # checkout & clean upm
@@ -24,7 +24,7 @@ git rm -rf .
 # add changed files
 echo "Copying back files"
 echo $(ls -a)
-cp /temp/* .
+cp -a /temp/. .
 git add -f .
 
 # get most recent tag
