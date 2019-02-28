@@ -15,6 +15,7 @@ git remote add origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB
 # copy upm files to temporary location
 mkdir -p /temp
 cp ${UPM_FOLDER}/* /temp
+rm -r /temp/.git
 
 # checkout & clean upm
 git checkout origin/upm -b upm
@@ -38,7 +39,7 @@ patch=${semver_parts[2]}
 storedVersion=$(jq '.version' package.json)
 
 # set version number
-if[[ $version == $latest ]] ; then
+if[[ ${version} == ${latest} ]]; then
   version=${major}.$((minor)).$((patch+1))
 else
   version=$storedVersion
