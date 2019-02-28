@@ -24,9 +24,7 @@ git checkout origin/upm -b upm
 git rm -rf .
 
 # add changed files
-echo "Copying back files"
 cp -a /temp/. .
-echo $(ls -a)
 git add . --force
 
 # get most recent tag
@@ -42,12 +40,18 @@ patch=${semver_parts[2]}
 # get version number from package.json
 storedVersion=$(jq '.version' package.json | sed "s/\"//g")
 
+# get semantic version
+read -a semver_parts2 <<< ${storedVersion//./ }
+storedMajor=${semver_parts2[0]}
+storedMinor=${semver_parts2[1]}
+storedPatch=${semver_parts2[2]}
+
 # set version number
 version=""
-if [ "$storedVersion" == "$latest" ] ; then
-  version=${major}.$((minor)).$((patch+1))
-else
+if [ "$storedMajor" -lt "$major" ] || [ "$storedMinor" -lt "$minor" ]  ; then
   version=$storedVersion
+else
+  version=${major}.$((minor)).$((patch+1))
 fi
 
 message="Automated release for UnityPackageManager with version ${version}"
