@@ -23,9 +23,9 @@ git rm -rf .
 
 # add changed files
 echo "Copying back files"
-echo $(ls -a)
 cp -a /temp/. .
-git add -f .
+echo $(ls -a)
+git add . --force
 
 # get most recent tag
 latest=$(git tag -l --sort='-*authordate' | head -n1)
