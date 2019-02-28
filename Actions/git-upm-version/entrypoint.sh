@@ -43,6 +43,7 @@ patch=${semver_parts[2]}
 storedVersion=$(jq '.version' package.json)
 
 # set version number
+version=""
 if [ "$version" == "$latest" ] ; then
   version=${major}.$((minor)).$((patch+1))
 else
@@ -52,7 +53,7 @@ fi
 message="Automated release for UnityPackageManager with version ${version}"
 
 # update version number in package.json
-jq '.version = ${version}' package.json|sponge package.json
+jq '.version = "${version}"' package.json|sponge package.json
 
 # commit
 git commit -a -m "${message}"
