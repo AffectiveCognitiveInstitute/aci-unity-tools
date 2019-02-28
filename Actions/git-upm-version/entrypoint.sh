@@ -22,6 +22,8 @@ git checkout origin/upm -b upm
 git rm -rf .
 
 # add changed files
+echo "Copying back files"
+echo $(ls -a)
 cp /temp/* .
 git add -f .
 
@@ -39,7 +41,7 @@ patch=${semver_parts[2]}
 storedVersion=$(jq '.version' package.json)
 
 # set version number
-if[[ ${version} == ${latest} ]]; then
+if[ "$version" == "$latest" ]; then
   version=${major}.$((minor)).$((patch+1))
 else
   version=$storedVersion
