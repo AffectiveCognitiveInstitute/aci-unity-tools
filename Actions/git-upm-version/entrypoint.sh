@@ -11,6 +11,8 @@ git config --global user.email "$GH_EMAIL"
 git config --global user.name "$GH_USER"
 git remote rm origin
 git remote add origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+git remote update
+git fetch
 
 # copy upm files to temporary location
 mkdir -p /temp
@@ -41,7 +43,7 @@ patch=${semver_parts[2]}
 storedVersion=$(jq '.version' package.json)
 
 # set version number
-if[ "$version" == "$latest" ]; then
+if [ "$version" == "$latest" ] ; then
   version=${major}.$((minor)).$((patch+1))
 else
   version=$storedVersion
