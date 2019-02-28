@@ -1,25 +1,24 @@
 {
-    "name": "com.aci.unitytools",
-    "displayName": "ACI Unity tools",
-    "version": "1.0.0",
-    "unity": "2018.1",
-    "description": "This is a collection of tools used for Unity development by the ACI for internal projects.",
-    "author": "James Gay <@JJarvis89>",
-    "contributors":
-    [
-        {
-            "name": "James Gay",
-            "email": "james.gay@hs-offenburg.de"
-        },
-        {
-            "name": "Moritz Umfahrer",
-            "email": "moritz.umfahrer@hs-offenburg.de"
-        }
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/AffectiveCognitiveInstitute/aci-unity-tools.git"
+  "name": "com.aci.unitytools",
+  "displayName": "ACI Unity tools",
+  "version": "${version}",
+  "unity": "2018.1",
+  "description": "This is a collection of tools used for Unity development by the ACI for internal projects.",
+  "author": "James Gay <@JJarvis89>",
+  "contributors": [
+    {
+      "name": "James Gay",
+      "email": "james.gay@hs-offenburg.de"
     },
-    "src": "Scripts/",
-    "license": "MIT"
+    {
+      "name": "Moritz Umfahrer",
+      "email": "moritz.umfahrer@hs-offenburg.de"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AffectiveCognitiveInstitute/aci-unity-tools.git"
+  },
+  "src": "Scripts/",
+  "license": "MIT"
 }
