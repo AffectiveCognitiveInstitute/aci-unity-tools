@@ -1,7 +1,7 @@
 FROM debian:9.5-slim
 
-LABEL "com.github.actions.name"="Git tag"
-LABEL "com.github.actions.description"="Creates a tag with semantic versioning scheme."
+LABEL "com.github.actions.name"="Git UPM version"
+LABEL "com.github.actions.description"="Creates a commit in an separate upm branch based on the current branch and creates a semantic versioning tag."
 LABEL "com.github.actions.icon"="git-commit"
 LABEL "com.github.actions.color"="blue"
 
