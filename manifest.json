@@ -4,12 +4,1560 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.AciEventInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.AciEventInstaller.html",
+          "hash": "tlCOre/qBDl2J3VvQ8pjAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.AciEventManager.EventDelegate-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.AciEventManager.EventDelegate-1.html",
+          "hash": "Uv0u+q+N21mKohBghKmRTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.AciEventManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.AciEventManager.html",
+          "hash": "5VCVn93fFvC+ZQOkDGY1Qg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.DbRemoveArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.DbRemoveArgs.html",
+          "hash": "W42VqD/QriAo5NHL7TYxwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.DbUpdateArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.DbUpdateArgs.html",
+          "hash": "m5sF0s96MSh9KSBqmw2L4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.IAciEventHandler-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.IAciEventHandler-1.html",
+          "hash": "SO/KeIxfx7TfWaUtvPqZSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.IAciEventManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.IAciEventManager.html",
+          "hash": "seRApoO5N0mW7Cha44E/iA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.LocalizationChangedArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.LocalizationChangedArgs.html",
+          "hash": "AU2uXKWWhcUl+oFn+1ygcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.UserLoginArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.UserLoginArgs.html",
+          "hash": "aQv9KPr1KU+s/fjgHR3l8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.UserLogoutArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.UserLogoutArgs.html",
+          "hash": "+JJgqTKG/NQ5+AXuVhnpzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.UserRegisterArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.UserRegisterArgs.html",
+          "hash": "VQADCAwFUi+JV1KngJPoHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.UserUpdateArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.UserUpdateArgs.html",
+          "hash": "AlP0Q0tl1Cus3343HRpljQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.WebcamStatusChangedArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.WebcamStatusChangedArgs.html",
+          "hash": "vrmI53/llikQ9EMnj9EvHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.AciEventBroker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.deprecated.AciEventBroker.html",
+          "hash": "KVG8CRq6Z6j41yoznJD3fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.DbRemoveEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.deprecated.DbRemoveEvent.html",
+          "hash": "z9BeUvT7aY1swnzZdsoJDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.DbUpdateEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.deprecated.DbUpdateEvent.html",
+          "hash": "P3H6aFJRbgdePrkQaQbt3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.IAciEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.deprecated.IAciEventHandler.html",
+          "hash": "/BKkYn3vYjd0j7kZF4uxjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.IDbRemoveHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.deprecated.IDbRemoveHandler.html",
+          "hash": "nShDHaqLL6BalODO/JDDeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.IDbUpdateHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.deprecated.IDbUpdateHandler.html",
+          "hash": "cQngNZNojOD4UAM1fMDvmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.ILocalizationChangedHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.deprecated.ILocalizationChangedHandler.html",
+          "hash": "on1lZu5q4YLpPI981c/MRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.ILoginHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.deprecated.ILoginHandler.html",
+          "hash": "ZMd4oKZ4Jj4x4FwCOQgSCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.ILogoutHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.deprecated.ILogoutHandler.html",
+          "hash": "d0iRpKxLExgrTMET14tNEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.IUpdateHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.deprecated.IUpdateHandler.html",
+          "hash": "AGpJJX5RzoalmfGtOPGCGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.LocalizationChangedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.deprecated.LocalizationChangedEvent.html",
+          "hash": "mXl1Y1He6kwhMaRmNvc43w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.UserLoginEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.deprecated.UserLoginEvent.html",
+          "hash": "6/86K2uk7dmwm3HNnnSQeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.UserLogoutEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.deprecated.UserLogoutEvent.html",
+          "hash": "j/jTogYm9j5CkFVAgH6QrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.UserRegisterEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.deprecated.UserRegisterEvent.html",
+          "hash": "XYamJOtjeOeUYNTnSHYDYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.UserRegisterHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.deprecated.UserRegisterHandler.html",
+          "hash": "G/reMkJ5MuMSkLd5UXVisg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.UserUpdateEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.deprecated.UserUpdateEvent.html",
+          "hash": "nq4VTm5QovuFlYbRybkvew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.deprecated.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.deprecated.html",
+          "hash": "yAr1O4HFnfg6bZeM/OXKhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Events.html",
+          "hash": "B+kK1PmYf853G2UBR+eYvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Logging.AciLog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Logging.AciLog.html",
+          "hash": "Fx+1dWGfuiWD6fSxnBZpUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Logging.LoggingInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Logging.LoggingInstaller.html",
+          "hash": "Qa+Rh51I7SxTrCeilQGO/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Logging.LoggingPackage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Logging.LoggingPackage.html",
+          "hash": "QS77qlrtdYPf8MmRA5n0Ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Logging.html",
+          "hash": "hKvAA8qItn44Ok8ZloqWUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Network.INetworkPackage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Network.INetworkPackage.html",
+          "hash": "gxERle2icuNESpcWc0thkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Network.INetworkPackageHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Network.INetworkPackageHandler.html",
+          "hash": "7ri6YohGZSbDLM7TIZOoQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Network.INetworkPublisher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Network.INetworkPublisher.html",
+          "hash": "XICNP/8f7LUk3c6bc2nG3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Network.NetworkInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Network.NetworkInstaller.html",
+          "hash": "Lb/ZbCIWVn2aobfYw5RppQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-1.html",
+          "hash": "Z/N2YkiycHFwr7HDHtR1/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-2.html",
+          "hash": "7e/28kCl2jS077DEM5nDbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-3.html",
+          "hash": "bA4ksZuXi5i329+NeUxT/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-4.html",
+          "hash": "gqrpf+j0QkMoDiZ1uOECzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-5.html",
+          "hash": "Z5bNXesMS4jzkS2PGOcRKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-6.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-6.html",
+          "hash": "Kwo6meo2eLbXtpQawzZ6ew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-7.html",
+          "hash": "RTUXJvFykLYBmT4nG7atfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerRegistry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerRegistry.html",
+          "hash": "ZO837Fe3kz0fZknftLeHCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Network.NetworkPublisher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Network.NetworkPublisher.html",
+          "hash": "JJ1G3++mgKGSgntI3RSheA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Network.NetworkSubscriber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Network.NetworkSubscriber.html",
+          "hash": "1J1qa7JV+PnTNYZVKWrr/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Network.PingHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Network.PingHandler.html",
+          "hash": "H4Ows3cXKPkQzP+0lMApIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Network.PingPackage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Network.PingPackage.html",
+          "hash": "0yZAs4h9HU8nvVqj5OWDug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Network.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Network.html",
+          "hash": "hUVcWoUa2EqWPY/JdOWfvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Sensor.WebcamProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Sensor.WebcamProvider.html",
+          "hash": "HK7HsXM5OX8+K9CM3UHDcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Sensor.WebcamProviderEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Sensor.WebcamProviderEditor.html",
+          "hash": "OMHADolije9BVrokHTnU1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Sensor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Sensor.html",
+          "hash": "Uvb/DIwRc1ABTHofDDj+UQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Services.ICachedResourceProvider-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Services.ICachedResourceProvider-2.html",
+          "hash": "yIWV1gy0XePJoo2nd5V0iA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Services.InMemoryCachedImageProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Services.InMemoryCachedImageProvider.html",
+          "hash": "uJUAyOe5nQ8Z7NwU5M++Vw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Services.html",
+          "hash": "mfhOsPPbSlYAiXkURr/efw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.AciButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.AciButton.html",
+          "hash": "KVbDqpivlHfTfBLvJKJodg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.CachedImageComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.CachedImageComponent.html",
+          "hash": "mJkEdQ5rYvPA6Ro9NLeefA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.ActivityIndicatorDialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Dialog.ActivityIndicatorDialog.html",
+          "hash": "F75CZelqglRve/BGqN9h3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.ActivityIndicatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Dialog.ActivityIndicatorFactory.html",
+          "hash": "fh7B0zFRzH7U2k2qGDYi0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.AlertDialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Dialog.AlertDialog.html",
+          "hash": "GXZCoiQuOEnCr2eouJ9Usg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.AlertDialogFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Dialog.AlertDialogFactory.html",
+          "hash": "4FeTmypt5fc0OYRLREXxiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.DialogBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Dialog.DialogBase.html",
+          "hash": "6ybGtdiDbN1HVDChoHFOaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.DialogService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Dialog.DialogService.html",
+          "hash": "CsCRQ9AyUfdaO/0V6S0K9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.IActivityIndicatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Dialog.IActivityIndicatorFactory.html",
+          "hash": "gkIlIg4Dduu6OYwoGRhS1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.IAlertDialogFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Dialog.IAlertDialogFactory.html",
+          "hash": "DSWDYXM06PFLfxHRtEdBnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.IDialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Dialog.IDialog.html",
+          "hash": "aZnlevC0CYqXjkg5mjzUBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.IDialogService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Dialog.IDialogService.html",
+          "hash": "9JQLqvaMXYAwRgmI55qLqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Dialog.html",
+          "hash": "ZhC5qdCAbdYxyU1IqHt0Fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Localization.ILocalizationManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Localization.ILocalizationManager.html",
+          "hash": "+XseQJdgUeFx8fxQwEG8ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Localization.LocalizationData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Localization.LocalizationData.html",
+          "hash": "qC/t5HwjM+6Pi4D9VIpqpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Localization.LocalizationDataEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Localization.LocalizationDataEditor.html",
+          "hash": "vdYVxa1o8Pzl7S1kEO7Cow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Localization.LocalizationDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Localization.LocalizationDictionary.html",
+          "hash": "bq+XbnVuz/KaOofObk1qQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Localization.LocalizationManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Localization.LocalizationManager.html",
+          "hash": "EAohidj1uKbogbqqA4vJ/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Localization.LocalizedString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Localization.LocalizedString.html",
+          "hash": "WE0gL26oYlUGorkcYmZREQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Localization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Localization.html",
+          "hash": "JLA1Z7thO+tMqXOnVkPI9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.IDestructible.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.IDestructible.html",
+          "hash": "yqKCSdS+A3E7G4YI1Dzhwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.INavigatedAware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.INavigatedAware.html",
+          "hash": "6wKhvpGpXWzPjPkUh6AyiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.INavigatedAwayAware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.INavigatedAwayAware.html",
+          "hash": "4R6UUDoBWuPYub/XwQIA8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.INavigatedBackAware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.INavigatedBackAware.html",
+          "hash": "j3sX6T/r3HBdtrK6Yasutw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.INavigatedToAware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.INavigatedToAware.html",
+          "hash": "b3M+nhCTeEfznPymy184Vw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.INavigatingAware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.INavigatingAware.html",
+          "hash": "C0yFd/r+r2wey0AeHGkprg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.INavigationAware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.INavigationAware.html",
+          "hash": "5CwcJ/nOAO6XluxmiZI3rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.INavigationEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.INavigationEvent.html",
+          "hash": "6fuY+I4RMldDYgEkDTIDPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.INavigationParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.INavigationParameters.html",
+          "hash": "oFD38M6Zugs+yrunD6he6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.INavigationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.INavigationService.html",
+          "hash": "JUmtV3HMJonnweerwfOThQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.IPageContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.IPageContainer.html",
+          "hash": "xEPbwZSZVOBXBcd46DaA4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.IPageContainerRegistry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.IPageContainerRegistry.html",
+          "hash": "9SIS7TnXJb89Lgl6uABTmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.IPageTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.IPageTransition.html",
+          "hash": "TTfxYdTKsjlGX6WW90U6Pw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.NavigationParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.NavigationParameters.html",
+          "hash": "fJfEBf0W4+zjzNDnXYrJIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.NavigationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.NavigationService.html",
+          "hash": "9djg5HdGIkJQ3zTiW3zdwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.PageContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.PageContainer.html",
+          "hash": "h7l861nvtdqukyONL9UTEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.PageContainerRegistry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.PageContainerRegistry.html",
+          "hash": "YXd55jS2mUaIl+S9ygim9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.PageNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.PageNotFoundException.html",
+          "hash": "jv4VjeJtBBC8e1OZnII1Ew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.html",
+          "hash": "L705/PMauGp768uwa08q6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.ReplaceEmojiInText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.ReplaceEmojiInText.html",
+          "hash": "7iEF2MSRPXEXkAnAuNvCrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.AlphaTweener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Tweening.AlphaTweener.html",
+          "hash": "mpkaEJjzv+WbYoVr9hSM3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.AnchorTweener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Tweening.AnchorTweener.html",
+          "hash": "WWTY2iNxjiJPf2Q6PTw+og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.ColorTweener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Tweening.ColorTweener.html",
+          "hash": "OEb/J8W4ZLN5mUTvJW9UTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.Editor.TweenerDirectorEditor.Style.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Tweening.Editor.TweenerDirectorEditor.Style.html",
+          "hash": "+/I/mnZSc9I56gPt/J+0NA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.Editor.TweenerDirectorEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Tweening.Editor.TweenerDirectorEditor.html",
+          "hash": "hnt3ccUbs89gDSlKMwGVeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.Editor.TweenerEditor.Style.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Tweening.Editor.TweenerEditor.Style.html",
+          "hash": "BVEWbTdY0WbuW/aSssKPNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.Editor.TweenerEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Tweening.Editor.TweenerEditor.html",
+          "hash": "TienFIr5D19s/NdpAM5xmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Tweening.Editor.html",
+          "hash": "mo/W2uwDTJRFeRYGSl9U3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.RectTransformAnchor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Tweening.RectTransformAnchor.html",
+          "hash": "ejCiko4s2KRUO/c/g3FVYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.RectTransformRotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Tweening.RectTransformRotation.html",
+          "hash": "tPnKLoBqOB9ofBohg4KENQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.RotationTweener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Tweening.RotationTweener.html",
+          "hash": "vcRmSShDcflsXkCuqDghWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.ScaleTweener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Tweening.ScaleTweener.html",
+          "hash": "uAzJAuayWcdNaX465pifXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.Tweener-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Tweening.Tweener-1.html",
+          "hash": "n4h0wF7w1C80WxULD05Qkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.Tweener-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Tweening.Tweener-2.html",
+          "hash": "ILnsACRrwxSvPse+CAEQ6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.Tweener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Tweening.Tweener.html",
+          "hash": "DUDi2YV8OBggDaKFp2zHwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.TweenerDirector.PlayTweenEventType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Tweening.TweenerDirector.PlayTweenEventType.html",
+          "hash": "YzzerCzo4sPkTqQkOyyEpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.TweenerDirector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Tweening.TweenerDirector.html",
+          "hash": "ToGFzPYmoQ8jfDoUOd3AoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Tweening.html",
+          "hash": "E27iRPbqKTAkiPEj6TdaWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.ViewControllers.CameraFeedViewController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.ViewControllers.CameraFeedViewController.html",
+          "hash": "ikAdrZbybWPKBxtnc8PrBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.ViewControllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.ViewControllers.html",
+          "hash": "QbLzcNyDLJ31Z3/+cl4y7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.html",
+          "hash": "8EZ1CxgeC2EgotOMAodx8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Util.AsyncTimeProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Util.AsyncTimeProvider.html",
+          "hash": "p+xInmiKDGzI86c7EL/tqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Util.HidePropertyIfAttribute.Visibility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Util.HidePropertyIfAttribute.Visibility.html",
+          "hash": "KP5RMKBn002PsUZJaA50qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Util.HidePropertyIfAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Util.HidePropertyIfAttribute.html",
+          "hash": "wcdRt3tBC+95S/ZCXPXPaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Util.HidePropertyIfDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Util.HidePropertyIfDrawer.html",
+          "hash": "OhmXV4Ly+dgfDfLoh+DTVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Util.ITimeProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Util.ITimeProvider.html",
+          "hash": "kCf87IiXDafl8Q9Oaajr9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Util.SerializableDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Util.SerializableDictionary-2.html",
+          "hash": "WFkbHkHrwcWdWlaJ3Za7ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Util.Texture2DHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Util.Texture2DHelper.html",
+          "hash": "1AI0etdaHK63E6o2lxSE3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Util.UnityMainThreadDispatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Util.UnityMainThreadDispatcher.html",
+          "hash": "o6/f7TGvHA6cIkJSsaFygw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Util.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Util.html",
+          "hash": "bVaAOi9AJbG3E2zy1cYv2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "0JocfmjXE7Ku+fHnABJN4Q=="
+          "hash": "/0zqbwUjgj0+OUlhG2fWSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "MRbf6uQt2B3aQVKcnSQWmA=="
         }
       },
       "is_incremental": false,
@@ -103,7 +1651,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "Vb9GJakYGM6ZNWg4A2Zdsw=="
+          "hash": "1TTPLusmxKsd+mC/Ji4ajA=="
         }
       },
       "is_incremental": false,
@@ -119,6 +1667,10 @@
       },
       "processors": {
         "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
         },
