@@ -105,7 +105,13 @@ namespace Aci.Unity.Util
                 now = DateTime.Now;
                 _elapsedTotal = now.Subtract(_startTime);
                 _elapsed = now.Subtract(_subStartTime);
-                await Task.Delay(40, ct);
+                try
+                {
+                    await Task.Delay(40, ct);
+                }
+                catch(TaskCancelledException e) {
+                    //this is fine
+                }
             }
         }
     }
