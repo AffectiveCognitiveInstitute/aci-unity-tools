@@ -109,7 +109,7 @@ namespace Aci.Unity.Util
                 {
                     await Task.Delay(40, ct);
                 }
-                catch(TaskCancelledException e) {
+                catch(TaskCanceledException e) {
                     //this is fine
                 }
             }
