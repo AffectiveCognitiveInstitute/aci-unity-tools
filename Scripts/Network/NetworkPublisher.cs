@@ -92,7 +92,7 @@ namespace Aci.Unity.Network
             if (_client == null)
             {
                 // Do NOT call AciLog here to prevent looped method call
-                Debug.unityLogger.LogError(GetType().Name,"Not properly initialized. Please call the Initialize() method before sending data.");
+                Debug.unityLogger.LogWarning(GetType().Name,"Not properly initialized. Please call the Initialize() method before sending data.");
                 return;
             }
 
