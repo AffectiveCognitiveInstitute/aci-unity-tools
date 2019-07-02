@@ -897,7 +897,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Localization.LocalizationDictionary.html",
-          "hash": "bq+XbnVuz/KaOofObk1qQw=="
+          "hash": "l3zvsqGtdYH04dwoJ46fwA=="
         }
       },
       "is_incremental": false,
@@ -1445,6 +1445,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Util.ConfigInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Util.ConfigInstaller.html",
+          "hash": "Pf0TAKTxIRpuAqGiczrU+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Util.ConfigValueAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Util.ConfigValueAttribute.html",
+          "hash": "CnX3V1C8DTjByJI1e9UrVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Aci.Unity.Util.HidePropertyIfAttribute.Visibility.yml",
       "output": {
         ".html": {
@@ -1481,6 +1505,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Util.IConfigProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Util.IConfigProvider.html",
+          "hash": "KCWD6JwvvabzEh/fSO3duQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Aci.Unity.Util.ITimeProvider.yml",
       "output": {
         ".html": {
@@ -1493,11 +1529,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Util.JsonConfigProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Util.JsonConfigProvider.html",
+          "hash": "a5MJVrJs0xoXTNl29zDniQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Aci.Unity.Util.SerializableDictionary-2.yml",
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Util.SerializableDictionary-2.html",
-          "hash": "WFkbHkHrwcWdWlaJ3Za7ng=="
+          "hash": "60enlcn9T9TA6lw7SCcQ+w=="
         }
       },
       "is_incremental": false,
@@ -1533,7 +1581,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Util.html",
-          "hash": "bVaAOi9AJbG3E2zy1cYv2g=="
+          "hash": "1QGiyGwNmQJm7eYZ4BWaoQ=="
         }
       },
       "is_incremental": false,
@@ -1557,7 +1605,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "MRbf6uQt2B3aQVKcnSQWmA=="
+          "hash": "hBLJIqpbXiJcr+TPBaEEPQ=="
         }
       },
       "is_incremental": false,
