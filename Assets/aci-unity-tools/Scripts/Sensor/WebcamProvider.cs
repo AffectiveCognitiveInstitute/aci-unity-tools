@@ -22,7 +22,10 @@
 // <patent information/>
 // <date>11/19/2018 08:49</date>
 
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading;
+using System.Xml.Linq;
 using Aci.Unity.Events;
 using Aci.Unity.Util;
 using UnityEngine;
@@ -174,6 +177,14 @@ namespace Aci.Unity.Sensor
                 m_CamTex.Stop();
             }
             m_CamTex.deviceName = m_WebcamDevice;
+            // if our preferred device is not avaiable fall back to default device webcam
+            if (WebCamTexture.devices.Length == 0)
+            {
+                Logging.AciLog.LogError("WebcamProvider", "No webcam available. Please check if reserved by other application or connected at all.");
+                return;
+            }
+            if(WebCamTexture.devices.All(x => x.name != m_WebcamDevice))
+                m_CamTex.deviceName = WebCamTexture.devices[0].name;
             m_CamTex.requestedWidth = m_ResolutionWidth;
             m_CamTex.requestedHeight = m_ResolutionHeight;
             m_CamTex.requestedFPS = m_Fps;
