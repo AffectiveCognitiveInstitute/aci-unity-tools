@@ -22,6 +22,7 @@
 // <patent information/>
 // <date>11/19/2018 10:34</date>
 
+using Aci.Unity.Util;
 using UnityEditor;
 using UnityEngine;
 
@@ -34,12 +35,28 @@ namespace Aci.Unity.Sensor
         {
             WebcamProvider target = (WebcamProvider)this.target;
             target.webcamDevice = (deviceName as string);
+
+            if (!Application.isPlaying)
+            {
+                // ugly, but this is the only way i can think of to get this without zenject in edit mode
+                IConfigProvider provider = GameObject.FindObjectOfType<JsonConfigProvider>();
+                provider?.RegisterClient(target);
+                provider?.ClientDirty(target);
+            }
         }
 
         private void OnFpsChanged(object fps)
         {
             WebcamProvider target = (WebcamProvider)this.target;
             target.fps = (int)fps;
+
+            if (!Application.isPlaying)
+            {
+                // ugly, but this is the only way i can think of to get this without zenject in edit mode
+                IConfigProvider provider = GameObject.FindObjectOfType<JsonConfigProvider>();
+                provider?.RegisterClient(target);
+                provider?.ClientDirty(target);
+            }
         }
 
         private void OnResolutionChanged(object resolution)
@@ -48,6 +65,14 @@ namespace Aci.Unity.Sensor
             string[] dimensions = (resolution as string).Split('x');
             target.resolutionWidth = int.Parse(dimensions[0]);
             target.resolutionHeight = int.Parse(dimensions[1]);
+
+            if (!Application.isPlaying)
+            {
+                // ugly, but this is the only way i can think of to get this without zenject in edit mode
+                IConfigProvider provider = GameObject.FindObjectOfType<JsonConfigProvider>();
+                provider?.RegisterClient(target);
+                provider?.ClientDirty(target);
+            }
         }
 
         public override void OnInspectorGUI()
