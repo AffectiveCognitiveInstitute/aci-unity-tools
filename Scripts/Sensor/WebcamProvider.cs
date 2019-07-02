@@ -24,6 +24,7 @@
 
 using System.Threading;
 using Aci.Unity.Events;
+using Aci.Unity.Util;
 using UnityEngine;
 using Zenject;
 
@@ -35,9 +36,8 @@ namespace Aci.Unity.Sensor
     public class WebcamProvider : MonoBehaviour
     {
         private WebCamTexture m_CamTex;
-
-        [Inject]
         private IAciEventManager m_EventBroker;
+        private IConfigProvider m_ConfigProvider;
 
         private CancellationTokenSource m_Cts = new CancellationTokenSource();
 
@@ -57,15 +57,20 @@ namespace Aci.Unity.Sensor
         /// <summary>
         ///     Selected webcam device identifier.
         /// </summary>
+        [ConfigValue]
         public string webcamDevice
         {
             get { return m_WebcamDevice; }
             set
             {
+                if (webcamDevice == value)
+                    return;
                 m_WebcamDevice = value;
 #if UNITY_EDITOR
-                return;
+                if (!Application.isPlaying)
+                    return;
 #endif
+                m_ConfigProvider?.ClientDirty(this);
                 StartOrRefreshCamera();
             }
         }
@@ -76,15 +81,20 @@ namespace Aci.Unity.Sensor
         /// <summary>
         ///     Requested frame width;
         /// </summary>
+        [ConfigValue]
         public int resolutionWidth
         {
             get { return m_ResolutionWidth; }
             set
             {
+                if (m_ResolutionWidth == value)
+                    return;
                 m_ResolutionWidth = value;
 #if UNITY_EDITOR
-                return;
+                if (!Application.isPlaying)
+                    return;
 #endif
+                m_ConfigProvider?.ClientDirty(this);
                 StartOrRefreshCamera();
             }
         }
@@ -95,15 +105,20 @@ namespace Aci.Unity.Sensor
         /// <summary>
         ///     Requested frame height.
         /// </summary>
+        [ConfigValue]
         public int resolutionHeight
         {
             get { return m_ResolutionHeight; }
             set
             {
+                if (m_ResolutionHeight == value)
+                    return;
                 m_ResolutionHeight = value;
 #if UNITY_EDITOR
-                return;
+                if (!Application.isPlaying)
+                    return;
 #endif
+                m_ConfigProvider?.ClientDirty(this);
                 StartOrRefreshCamera();
             }
         }
@@ -114,17 +129,35 @@ namespace Aci.Unity.Sensor
         /// <summary>
         ///     Requested frames per second.
         /// </summary>
+        [ConfigValue]
         public int fps
         {
             get { return m_Fps; }
             set
             {
+                if (m_Fps == value)
+                    return;
                 m_Fps = value;
 #if UNITY_EDITOR
-                return;
+                if (!Application.isPlaying)
+                    return;
 #endif
+                m_ConfigProvider?.ClientDirty(this);
                 StartOrRefreshCamera();
             }
+        }
+
+        [Zenject.Inject]
+        private void Construct([InjectOptional]IConfigProvider config, IAciEventManager broker)
+        {
+            m_EventBroker = broker;
+            m_ConfigProvider = config;
+            m_ConfigProvider?.RegisterClient(this);
+        }
+
+        private void OnDestroy()
+        {
+            m_ConfigProvider?.UnregisterClient(this);
         }
 
         void Start()
@@ -149,7 +182,7 @@ namespace Aci.Unity.Sensor
             m_CamTex.requestedHeight = m_ResolutionHeight;
             m_CamTex.requestedFPS = m_Fps;
             m_CamTex.Play();
-            m_EventBroker.Invoke(new WebcamStatusChangedArgs());
+            m_EventBroker?.Invoke(new WebcamStatusChangedArgs());
         }
     }
 }
