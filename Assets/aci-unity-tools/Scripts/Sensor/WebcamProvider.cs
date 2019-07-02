@@ -70,7 +70,6 @@ namespace Aci.Unity.Sensor
                 if (!Application.isPlaying)
                     return;
 #endif
-                m_ConfigProvider?.ClientDirty(this);
                 StartOrRefreshCamera();
             }
         }
@@ -94,7 +93,6 @@ namespace Aci.Unity.Sensor
                 if (!Application.isPlaying)
                     return;
 #endif
-                m_ConfigProvider?.ClientDirty(this);
                 StartOrRefreshCamera();
             }
         }
@@ -118,7 +116,6 @@ namespace Aci.Unity.Sensor
                 if (!Application.isPlaying)
                     return;
 #endif
-                m_ConfigProvider?.ClientDirty(this);
                 StartOrRefreshCamera();
             }
         }
@@ -142,7 +139,6 @@ namespace Aci.Unity.Sensor
                 if (!Application.isPlaying)
                     return;
 #endif
-                m_ConfigProvider?.ClientDirty(this);
                 StartOrRefreshCamera();
             }
         }
