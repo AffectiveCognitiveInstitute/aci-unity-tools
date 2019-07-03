@@ -91,7 +91,10 @@ namespace Aci.Unity.Util
         public async void SaveConfig()
         {
             if (!File.Exists("./" + m_Filename))
-                File.Create("./" + m_Filename);
+            {
+                FileStream fs = File.Create("./" + m_Filename);
+                fs.Close();
+            }
             File.WriteAllText("./" + m_Filename, m_Data.ToString(Formatting.Indented), Encoding.UTF8);
         }
 
