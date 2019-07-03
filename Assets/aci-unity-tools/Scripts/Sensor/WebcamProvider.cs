@@ -152,6 +152,8 @@ namespace Aci.Unity.Sensor
             m_EventBroker = broker;
             m_ConfigProvider = config;
             m_ConfigProvider?.RegisterClient(this);
+            // to write default values set the client dirty
+            m_ConfigProvider?.ClientDirty(this);
         }
 
         private void OnDestroy()

@@ -125,12 +125,7 @@ namespace Aci.Unity.Util
 
             foreach (FieldInfo info in fInfos)
             {
-                ConfigValueAttribute attr = (ConfigValueAttribute) info
-                                                                   .GetCustomAttributes()
-                                                                   .FirstOrDefault(
-                                                                       x => x.GetType() ==
-                                                                            typeof(ConfigValueAttribute));
-                if (attr == null)
+                if (!TryGetAttribute(info, out ConfigValueAttribute attr))
                     continue;
                 JToken value = m_Data.GetValue(attr.identifier == null ? info.Name : attr.identifier);
                 if (value == null)
@@ -140,12 +135,7 @@ namespace Aci.Unity.Util
 
             foreach (PropertyInfo info in pInfos)
             {
-                ConfigValueAttribute attr = (ConfigValueAttribute) info
-                                                                   .GetCustomAttributes()
-                                                                   .FirstOrDefault(
-                                                                       x => x.GetType() ==
-                                                                            typeof(ConfigValueAttribute));
-                if (attr == null)
+                if (!TryGetAttribute(info, out ConfigValueAttribute attr))
                     continue;
                 JToken value = m_Data.GetValue(attr.identifier == null ? info.Name : attr.identifier);
                 if (value == null)
@@ -161,32 +151,28 @@ namespace Aci.Unity.Util
 
             foreach (FieldInfo info in fInfos)
             {
-                ConfigValueAttribute attr = (ConfigValueAttribute) info
-                                                                   .GetCustomAttributes()
-                                                                   .FirstOrDefault(
-                                                                       x => x.GetType() ==
-                                                                            typeof(ConfigValueAttribute));
-                if (attr == null)
+                if (!TryGetAttribute(info, out ConfigValueAttribute attr))
                     continue;
                 object value = info.GetValue(client);
                 JToken token = value == null ? JValue.CreateNull() : JToken.FromObject(value);
                 m_Data[attr.identifier == null ? info.Name : attr.identifier] = token;
             }
-
 
             foreach (PropertyInfo info in pInfos)
             {
-                ConfigValueAttribute attr = (ConfigValueAttribute) info
-                                                                   .GetCustomAttributes()
-                                                                   .FirstOrDefault(
-                                                                       x => x.GetType() ==
-                                                                            typeof(ConfigValueAttribute));
-                if (attr == null)
+                if (!TryGetAttribute(info, out ConfigValueAttribute attr))
                     continue;
                 object value = info.GetValue(client);
                 JToken token = value == null ? JValue.CreateNull() : JToken.FromObject(value);
                 m_Data[attr.identifier == null ? info.Name : attr.identifier] = token;
             }
+        }
+
+        private bool TryGetAttribute(MemberInfo info, out ConfigValueAttribute attribute)
+        {
+            attribute = (ConfigValueAttribute) info.GetCustomAttributes()
+                                                   .FirstOrDefault(x => x.GetType() == typeof(ConfigValueAttribute));
+            return attribute != null;
         }
 
         private void OnValidate()
