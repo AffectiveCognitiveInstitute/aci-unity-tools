@@ -41,7 +41,7 @@ namespace Aci.Unity.Util
     {
         private List<object> m_Clients = new List<object>();
 
-        private JObject m_Data = null;
+        private JObject m_Data = new JObject();
 
         [SerializeField]
         private string m_Filename;
@@ -133,7 +133,7 @@ namespace Aci.Unity.Util
                 if (attr == null)
                     continue;
                 JToken value = m_Data.GetValue(attr.identifier == null ? info.Name : attr.identifier);
-                if (!value.HasValues)
+                if (value == null)
                     continue;
                 info.SetValue(client, value.ToObject(info.FieldType));
             }
@@ -168,8 +168,9 @@ namespace Aci.Unity.Util
                                                                             typeof(ConfigValueAttribute));
                 if (attr == null)
                     continue;
-                JToken value = JToken.FromObject(info.GetValue(client));
-                m_Data[attr.identifier == null ? info.Name : attr.identifier] = value;
+                object value = info.GetValue(client);
+                JToken token = value == null ? JValue.CreateNull() : JToken.FromObject(value);
+                m_Data[attr.identifier == null ? info.Name : attr.identifier] = token;
             }
 
 
@@ -182,14 +183,15 @@ namespace Aci.Unity.Util
                                                                             typeof(ConfigValueAttribute));
                 if (attr == null)
                     continue;
-                JToken value = JToken.FromObject(info.GetValue(client));
-                m_Data[attr.identifier == null ? info.Name : attr.identifier] = value;
+                object value = info.GetValue(client);
+                JToken token = value == null ? JValue.CreateNull() : JToken.FromObject(value);
+                m_Data[attr.identifier == null ? info.Name : attr.identifier] = token;
             }
         }
 
         private void OnValidate()
         {
-            m_Data = null;
+            m_Data = new JObject();
             LoadConfig();
             SaveConfig();
         }
