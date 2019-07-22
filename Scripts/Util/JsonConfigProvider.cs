@@ -67,8 +67,12 @@ namespace Aci.Unity.Util
             if (m_Clients.Contains(client))
                 return;
             m_Clients.Add(client);
-            if (m_Data == null)
-                return;
+            if (m_Data == null || !m_Data.HasValues)
+            {
+                LoadConfig();
+                if (m_Data == null || !m_Data.HasValues)
+                    return;
+            }
             WriteToClient(client);
         }
 
