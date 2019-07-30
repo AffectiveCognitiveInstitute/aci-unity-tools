@@ -48,7 +48,7 @@ namespace Aci.Unity.UI.Tweening
     {
         [SerializeField] private Vector3 m_euler;
 
-        public Vector2 euler
+        public Vector3 euler
         {
             get { return m_euler; }
             set { m_euler = value; }
