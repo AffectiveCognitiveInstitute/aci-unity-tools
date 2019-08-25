@@ -47,6 +47,8 @@ namespace Aci.Unity.UI.ViewControllers
         [Tooltip("Crops and centers the camera feed image to preserve the aspect ratio.")]
         public bool preserveAspect;
 
+        public Sprite placeholder;
+
         [Inject]
         public WebcamProvider provider;
 
@@ -98,7 +100,10 @@ namespace Aci.Unity.UI.ViewControllers
             running = true;
             _rawImage.texture = provider?.textureBuffer;
             if (_rawImage.texture == null)
+            {
+                _rawImage.texture = placeholder.texture;
                 return;
+            }
             UpdateAspectRatio();
         }
 
@@ -130,7 +135,10 @@ namespace Aci.Unity.UI.ViewControllers
                 return;
             _rawImage.texture = provider?.textureBuffer;
             if (_rawImage.texture == null)
+            {
+                _rawImage.texture = placeholder.texture;
                 return;
+            }
             UpdateAspectRatio();
         }
     }
