@@ -44,7 +44,7 @@ namespace Aci.Unity.UI
 
         private int GetIndexFromUnicode(string value)
         {
-            int unicode = int.Parse(value.Substring(2, value.Length-2), System.Globalization.NumberStyles.HexNumber);
+            uint unicode = (uint)int.Parse(value.Substring(2, value.Length-2), System.Globalization.NumberStyles.HexNumber);
             int index = -1;
 
             TMPro.TMP_SpriteAsset.SearchForSpriteByUnicode(m_Text.spriteAsset, unicode, true, out index);
