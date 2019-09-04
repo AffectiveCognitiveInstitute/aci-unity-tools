@@ -13,9 +13,21 @@ public class DialogExample : MonoBehaviour
         m_DialogFacade = dialogFacade;
     }
 
-    public void ShowAlertDialog()
+    public void ShowLowPriorityAlertDialog()
     {
-        m_DialogFacade.DisplayAlert("Example Alert", "This is an example of the alert dialog with two buttons.", "Cancel", "OK",
+        m_DialogFacade.DisplayAlert(DialogPriority.Low, "Example Alert", "This is an example of a low priority alert dialog.", "Cancel", "OK",
+            () => Debug.Log("Clicked Confirm"), () => Debug.Log("Clicked Cancel"));
+    }
+
+    public void ShowMediumPriorityAlertDialog()
+    {
+        m_DialogFacade.DisplayAlert(DialogPriority.Medium, "Example Alert", "This is an example of a medium priority alert dialog.", "Cancel", "OK",
+            () => Debug.Log("Clicked Confirm"), () => Debug.Log("Clicked Cancel"));
+    }
+
+    public void ShowHighPriorityAlertDialog()
+    {
+        m_DialogFacade.DisplayAlert(DialogPriority.High, "Example Alert", "This is an example of a high priority alert dialog.", "Cancel", "OK",
             () => Debug.Log("Clicked Confirm"), () => Debug.Log("Clicked Cancel"));
     }
 

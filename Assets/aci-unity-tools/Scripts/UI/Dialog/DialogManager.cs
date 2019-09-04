@@ -37,6 +37,7 @@ namespace Aci.Unity.UI.Dialog
                 else
                 {
                     m_Requests.Push(request);
+                    request.dialog.Hide();
                 }
             }
         }
