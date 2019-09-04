@@ -1,51 +1,66 @@
-﻿using System;
+﻿using System.Threading.Tasks;
 
 namespace Aci.Unity.UI.Navigation
 {
     /// <summary>
-    /// Interface for navigating within an application
+    /// Service which exposes methods for navigating within application
     /// </summary>
-    public interface INavigationService 
+    public interface INavigationService
     {
         /// <summary>
-        /// Event triggered when navigation has occurred
+        /// Can a Navigation Pop command be executed?
         /// </summary>
-        event Action Navigated;
+        /// <returns>Returns true or false</returns>
+        bool CanPop();
 
         /// <summary>
-        /// The number of items on the navigation stack
+        /// Switch to a screen
         /// </summary>
-        int StackCount { get; }
+        /// <param name="screen">The identifier of the screen to be pushes</param>
+        /// <param name="animationOptions">Animation options for the possible screen being hidden and for the screen being pushed</param>
+        /// <param name="addToHistory">Should the previous screen be added onto the navigation stack?</param>
+        /// <returns>Returns an awaitable Task. The Task completes when the animation has completed</returns>
+        Task PushAsync(string screen, AnimationOptions animationOptions, bool addToHistory = true);
 
         /// <summary>
-        /// ops a page from the navigation stack. Returns to a previous page
+        /// Switch to a screen
         /// </summary>
-        /// <param name="callback">A callback when any animation has completed</param>
-        void Pop(Action callback = null);
+        /// <param name="screen">The identifier of the screen to be pushes</param>
+        /// <param name="parameters">Any parameters that should be passed to next screen.</param>
+        /// <param name="animationOptions">Animation options for the possible screen being hidden and for the screen being pushed</param>
+        /// <param name="addToHistory">Should the previous screen be added onto the navigation stack?</param>
+        /// <returns>Returns an awaitable Task. The Task completes when the animation has completed</returns>
+        Task PushAsync(string screen, INavigationParameters parameters, AnimationOptions animationOptions, bool addToHistory = true);
 
         /// <summary>
-        /// Pops a page from the navigation stack. Returns to a previous page
+        /// Exits the current screen. Goes back to the previous screen
         /// </summary>
-        /// <param name="parameters">Parameters passed to the previous page</param>
-        /// <param name="navigationCompleted">Callback when navigation has completed, i.e. animation has completed</param>
-        void Pop(INavigationParameters parameters, Action navigationCompleted = null);
+        /// <param name="animationOptions">Animation options for the screen being popped and for the screen that reappears</param>
+        /// <returns>Returns an awaitable Task. The Task completes when the animation has completed</returns>
+        Task PopAsync(AnimationOptions animationOptions);
 
         /// <summary>
-        /// Pushes a page onto the navigation stack. Opens a new page
+        /// Exits the current screen. Goes back to the previous screen
         /// </summary>
-        /// <param name="page">The identifier of the page. See <see cref="IPageContainer"/></param>
-        /// <param name="addToStack">Should the page be added to the stack, when pushing another page afterwards?</param>
-        /// <param name="navigationCompleted">Callback when navigation has completed, i.e. animation has completed</param>
-        void Push(string page, bool addToStack = true, Action navigationCompleted = null);
+        /// <param name="parameters">Any values that should be passed back to the previous screen.</param>
+        /// <param name="animationOptions">Animation options for the screen being popped and for the screen that reappears</param>
+        /// <returns>Returns an awaitable Task. The Task completes when the animation has completed</returns>
+        Task PopAsync(INavigationParameters parameters, AnimationOptions animationOptions);
 
         /// <summary>
-        /// Pushes a page onto the navigation stack. Opens a new page
+        /// Pops to the first screen
         /// </summary>
-        /// <param name="page">The identifier of the page. See <see cref="IPageContainer"/></param>
-        /// <param name="parameters">Parameters passed to the page</param>
-        /// <param name="addToStack">Should the page be added to the stack, when pushing another page afterwards?</param>
-        /// <param name="navigationCompleted">Callback when navigation has completed, i.e. animation has completed</param>
-        void Push(string page, INavigationParameters parameters, bool addToStack = true, Action navigationCompleted = null);
+        /// <param name="animationOptions">Animation options for the screen being popped and for the screen that reappears</param>
+        /// <returns>Returns an awaitable Task</returns>
+        Task PopToRootAsync(AnimationOptions animationOptions);
+
+
+        /// <summary>
+        /// Pops to the first screen
+        /// </summary>
+        /// <param name="parameters">Any values that should be passed back to the root screen.</param>
+        /// <param name="animationOptions">Animation options for the screen being popped and for the screen that reappears</param>
+        /// <returns>Returns an awaitable Task</returns>
+        Task PopToRootAsync(INavigationParameters parameters, AnimationOptions animationOptions);
     }
 }
-

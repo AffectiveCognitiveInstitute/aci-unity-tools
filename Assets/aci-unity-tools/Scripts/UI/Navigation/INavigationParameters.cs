@@ -1,47 +1,39 @@
-﻿using System.Collections.Generic;
-
-namespace Aci.Unity.UI.Navigation
+﻿namespace Aci.Unity.UI.Navigation
 {
     /// <summary>
-    /// Used for passing data between pages
+    ///     Key-Value pairing which is used to pass parameters from screen to screen.
     /// </summary>
-    public interface INavigationParameters : IEnumerable<KeyValuePair<string, object>>
+    public interface INavigationParameters
     {
         /// <summary>
-        /// Adds a parameter 
+        ///     Adds a key-value pair to the navigation parameters.
         /// </summary>
-        /// <param name="key">The key of the parameter</param>
-        /// <param name="value">The parameter value</param>
-        void Add(string key, object value);
+        /// <typeparam name="T">The type of the value.</typeparam>
+        /// <param name="key">The name of the key.</param>
+        /// <param name="value">The value.</param>
+        /// <returns>Returns the instance implementing <see cref="INavigationParameters"/>.</returns>
+        INavigationParameters Add<T>(string key, T value);
 
         /// <summary>
-        /// Checks if a key is contained in this collection
+        ///     Retrieves a value from the <see cref="INavigationParameters"/>.
         /// </summary>
-        /// <param name="key">The key to be checked</param>
-        /// <returns>Returns true if this contains the given key</returns>
-        bool ContainsKey(string key);
-
-        /// <summary>
-        /// Returns the number of parameters
-        /// </summary>
-        int Count { get; }
-
-        /// <summary>
-        /// Gets a value by key
-        /// </summary>
-        /// <typeparam name="T">The type expected</typeparam>
-        /// <param name="key">The key of the parameter</param>
-        /// <returns></returns>
+        /// <typeparam name="T">The type of the value.</typeparam>
+        /// <param name="key">The name of the value.</param>
+        /// <returns>Returns the value.</returns>
         T GetValue<T>(string key);
 
         /// <summary>
-        /// Tries to get a value by key
+        ///     Tries to get the value by its key.
         /// </summary>
-        /// <typeparam name="T">The type of key expected</typeparam>
-        /// <param name="key">The key of the parameter</param>
-        /// <param name="value">The value if the key is found</param>
-        /// <returns>Returns true if the value can be found</returns>
-        bool TryGetValue<T>(string key, out T value);     
+        /// <typeparam name="T">The type of the value.</typeparam>
+        /// <param name="key">The name of the key.</param>
+        /// <param name="value">The value retrieved, if successful.</param>
+        /// <returns>Returns <see langword="true"/> if successful, else <see langword="false"/>.</returns>
+        bool TryGetValue<T>(string key, out T value);
+
+        /// <summary>
+        ///     Clears the navigation parameters.
+        /// </summary>
+        void Clear();
     }
 }
-

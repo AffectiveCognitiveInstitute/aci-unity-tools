@@ -1,63 +1,51 @@
-﻿using System.Collections;
+﻿using System;
 using System.Collections.Generic;
 
 namespace Aci.Unity.UI.Navigation
 {
-    /// <summary>
-    /// Implementation of <see cref="INavigationParameters"/>
-    /// </summary>
-    public class NavigationParameters : INavigationParameters, IEnumerable<KeyValuePair<string, object>>
+    public class NavigationParameters : INavigationParameters
     {
-        private Dictionary<string, object> m_InternalDict = new Dictionary<string, object>();
+        private readonly Dictionary<string, object> m_Parameters = new Dictionary<string, object>();
 
         /// <inheritdoc />
-        public int Count
+        public INavigationParameters Add<T>(string key, T value)
         {
-            get { return m_InternalDict.Count; }
-        } 
+            if (string.IsNullOrEmpty(key))
+                throw new ArgumentNullException(nameof(key));
 
-        /// <inheritdoc />
-        public void Add(string key, object value)
-        {
-            m_InternalDict.Add(key, value);
+            if (value == null)
+                throw new ArgumentNullException(nameof(value));
+
+            m_Parameters.Add(key, value);
+
+            return this;
         }
 
         /// <inheritdoc />
-        public bool ContainsKey(string key)
+        public void Clear()
         {
-            return m_InternalDict.ContainsKey(key);
-        }
-
-        /// <inheritdoc />
-        public IEnumerator<KeyValuePair<string, object>> GetEnumerator()
-        {
-            return m_InternalDict.GetEnumerator();
+            m_Parameters.Clear();
         }
 
         /// <inheritdoc />
         public T GetValue<T>(string key)
         {
-            return (T) m_InternalDict[key];
+            return (T) m_Parameters[key];
         }
 
         /// <inheritdoc />
         public bool TryGetValue<T>(string key, out T value)
         {
-            value = default(T);
-            object internalVal = null;
-            if(m_InternalDict.TryGetValue(key, out internalVal))
+            object v = null;
+
+           if(m_Parameters.TryGetValue(key, out v))
             {
-                value = (T)internalVal;
+                value = (T)v;
                 return true;
             }
 
+            value = default(T);
             return false;
-        }
-
-        /// <inheritdoc />
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return GetEnumerator();
         }
     }
 }
