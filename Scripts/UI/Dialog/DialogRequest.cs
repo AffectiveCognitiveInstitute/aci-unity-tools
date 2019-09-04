@@ -5,7 +5,7 @@ namespace Aci.Unity.UI.Dialog
 {
     public class DialogRequest : IComparable<DialogRequest>, IDisposable
     {
-        private static Pool<DialogRequest> m_RequestPool;
+        private static Pool<DialogRequest> m_RequestPool; // TODO: Replace with Zenject implementation?
 
         public int priority { get; private set; }
         public IDialog dialog { get; private set; }
