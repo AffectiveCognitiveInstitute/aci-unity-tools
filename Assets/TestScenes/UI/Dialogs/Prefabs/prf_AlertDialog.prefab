@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 1580107414595751347}
   - component: {fileID: 4257568561946157403}
   - component: {fileID: 8973055299508134368}
+  - component: {fileID: 1333419622352695834}
+  - component: {fileID: 669196281456136537}
   m_Layer: 5
   m_Name: prf_AlertDialog
   m_TagString: Untagged
@@ -69,6 +71,39 @@ MonoBehaviour:
   m_ConfirmText: {fileID: 3638616102436774260}
   m_ConfirmButton: {fileID: 6698729786207369467}
   m_CancelButton: {fileID: 9037522013031042122}
+--- !u!114 &1333419622352695834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275434321714620244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edac7102f111dc4dabcc2ab2a64e611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EnterGroup:
+    playReverse: 0
+    director: {fileID: 669196281456136537}
+  m_ExitGroup:
+    playReverse: 1
+    director: {fileID: 669196281456136537}
+--- !u!114 &669196281456136537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275434321714620244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 594944aa34385b643ae2312ea21c1c8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventType: 3
+  m_Tweeners:
+  - {fileID: 1044938881657130807}
 --- !u!1 &1457048138428253663
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,6 +808,8 @@ GameObject:
   - component: {fileID: 6782610247883561595}
   - component: {fileID: 5655775273192592598}
   - component: {fileID: 1786459186169578774}
+  - component: {fileID: 1292482447594949009}
+  - component: {fileID: 1044938881657130807}
   m_Layer: 5
   m_Name: Window
   m_TagString: Untagged
@@ -855,8 +892,8 @@ MonoBehaviour:
   m_Padding:
     m_Left: 0
     m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
+    m_Top: 10
+    m_Bottom: 10
   m_ChildAlignment: 4
   m_Spacing: 10
   m_ChildForceExpandWidth: 1
@@ -879,6 +916,71 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!225 &1292482447594949009
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4846505380348130963}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &1044938881657130807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4846505380348130963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6efbf07bef588540b775c2d1fe6857d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DelayTime: 0
+  m_Duration: 0.5
+  m_IgnoreTimeScale: 0
+  m_PlayOnAwake: 0
+  m_TweenEnded:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_TweenStarted:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_FromValue: 0
+  m_ToValue: 1
+  m_Transition:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_Target: {fileID: 1292482447594949009}
 --- !u!1 &6698729786207369467
 GameObject:
   m_ObjectHideFlags: 0
