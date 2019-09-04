@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class DialogBase
+    <title>Class DialogManager
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class DialogBase
+    <meta name="title" content="Class DialogManager
    ">
     <meta name="generator" content="docfx 2.40.4.0">
     
@@ -68,28 +68,51 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Aci.Unity.UI.Dialog.DialogBase">
-  <h1 id="Aci_Unity_UI_Dialog_DialogBase" data-uid="Aci.Unity.UI.Dialog.DialogBase">Class DialogBase
+            <article class="content wrap" id="_content" data-uid="Aci.Unity.UI.Dialog.DialogManager">
+  <h1 id="Aci_Unity_UI_Dialog_DialogManager" data-uid="Aci.Unity.UI.Dialog.DialogManager">Class DialogManager
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Manages instances of <a class="xref" href="Aci.Unity.UI.Dialog.DialogRequest.html">DialogRequest</a>.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
 
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">DialogBase</span></div>
+    <div class="level1"><span class="xref">DialogManager</span></div>
   </div>
   
-      <div class="level2"><a class="xref" href="Aci.Unity.UI.Dialog.ActivityIndicatorDialog.html">ActivityIndicatorDialog</a></div>
-      <div class="level2"><a class="xref" href="Aci.Unity.UI.Dialog.AlertDialog.html">AlertDialog</a></div>
   
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
   
   <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   
-  <h5 id="Aci_Unity_UI_Dialog_DialogBase_syntax">Syntax</h5>
+  <h5 id="Aci_Unity_UI_Dialog_DialogManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DialogBase : MonoBehaviour, IDialog</code></pre>
+    <pre><code class="lang-csharp hljs">public class DialogManager : IDialogRequestReceiver, IDialogDestroyer, IDisposable</code></pre>
   </div>
 
   
@@ -100,44 +123,18 @@
   </h3>
   
   
-  <a id="Aci_Unity_UI_Dialog_DialogBase_Awake_" data-uid="Aci.Unity.UI.Dialog.DialogBase.Awake*"></a>
+  <a id="Aci_Unity_UI_Dialog_DialogManager_Clear_" data-uid="Aci.Unity.UI.Dialog.DialogManager.Clear*"></a>
   
-  <h4 id="Aci_Unity_UI_Dialog_DialogBase_Awake" data-uid="Aci.Unity.UI.Dialog.DialogBase.Awake"><a href="#collapsible-Aci_Unity_UI_Dialog_DialogBase_Awake" class="expander" data-toggle="collapse">Awake()</a></h4>
+  <h4 id="Aci_Unity_UI_Dialog_DialogManager_Clear" data-uid="Aci.Unity.UI.Dialog.DialogManager.Clear"><a href="#collapsible-Aci_Unity_UI_Dialog_DialogManager_Clear" class="expander" data-toggle="collapse">Clear()</a></h4>
   
-  <div id="collapsible-Aci_Unity_UI_Dialog_DialogBase_Awake" class="collapse in">
-  <div class="markdown level1 summary"></div>
+  <div id="collapsible-Aci_Unity_UI_Dialog_DialogManager_Clear" class="collapse in">
+  <div class="markdown level1 summary"><p>Destroys all dialogs.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void Awake()</code></pre>
-  </div>
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </div>
-  
-  
-  <a id="Aci_Unity_UI_Dialog_DialogBase_Dismiss_" data-uid="Aci.Unity.UI.Dialog.DialogBase.Dismiss*"></a>
-  
-  <h4 id="Aci_Unity_UI_Dialog_DialogBase_Dismiss" data-uid="Aci.Unity.UI.Dialog.DialogBase.Dismiss"><a href="#collapsible-Aci_Unity_UI_Dialog_DialogBase_Dismiss" class="expander" data-toggle="collapse">Dismiss()</a></h4>
-  
-  <div id="collapsible-Aci_Unity_UI_Dialog_DialogBase_Dismiss" class="collapse in">
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Dismiss()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
   </div>
 
   
@@ -148,7 +145,7 @@
   
   
   <h5 class="implements">Implements</h5>
-      <div><a class="xref" href="Aci.Unity.UI.Dialog.IDialog.html#Aci_Unity_UI_Dialog_IDialog_Dismiss">IDialog.Dismiss()</a></div>
+      <div><a class="xref" href="Aci.Unity.UI.Dialog.IDialogDestroyer.html#Aci_Unity_UI_Dialog_IDialogDestroyer_Clear">IDialogDestroyer.Clear()</a></div>
   
   
   
@@ -156,96 +153,109 @@
   </div>
   
   
-  <a id="Aci_Unity_UI_Dialog_DialogBase_Hide_" data-uid="Aci.Unity.UI.Dialog.DialogBase.Hide*"></a>
+  <a id="Aci_Unity_UI_Dialog_DialogManager_DestroyCurrent_" data-uid="Aci.Unity.UI.Dialog.DialogManager.DestroyCurrent*"></a>
   
-  <h4 id="Aci_Unity_UI_Dialog_DialogBase_Hide" data-uid="Aci.Unity.UI.Dialog.DialogBase.Hide"><a href="#collapsible-Aci_Unity_UI_Dialog_DialogBase_Hide" class="expander" data-toggle="collapse">Hide()</a></h4>
+  <h4 id="Aci_Unity_UI_Dialog_DialogManager_DestroyCurrent_System_Boolean_" data-uid="Aci.Unity.UI.Dialog.DialogManager.DestroyCurrent(System.Boolean)"><a href="#collapsible-Aci_Unity_UI_Dialog_DialogManager_DestroyCurrent_System_Boolean_" class="expander" data-toggle="collapse">DestroyCurrent(Boolean)</a></h4>
   
-  <div id="collapsible-Aci_Unity_UI_Dialog_DialogBase_Hide" class="collapse in">
-  <div class="markdown level1 summary"></div>
+  <div id="collapsible-Aci_Unity_UI_Dialog_DialogManager_DestroyCurrent_System_Boolean_" class="collapse in">
+  <div class="markdown level1 summary"><p>Destroys the current dialog.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Hide()</code></pre>
+    <pre><code class="lang-csharp hljs">public void DestroyCurrent(bool animate = true)</code></pre>
   </div>
 
-  
-  
-  
-  
-  
-  
-  
-  <h5 class="implements">Implements</h5>
-      <div><a class="xref" href="Aci.Unity.UI.Dialog.IDialog.html#Aci_Unity_UI_Dialog_IDialog_Hide">IDialog.Hide()</a></div>
-  
-  
-  
-  
-  </div>
-  
-  
-  <a id="Aci_Unity_UI_Dialog_DialogBase_Show_" data-uid="Aci.Unity.UI.Dialog.DialogBase.Show*"></a>
-  
-  <h4 id="Aci_Unity_UI_Dialog_DialogBase_Show" data-uid="Aci.Unity.UI.Dialog.DialogBase.Show"><a href="#collapsible-Aci_Unity_UI_Dialog_DialogBase_Show" class="expander" data-toggle="collapse">Show()</a></h4>
-  
-  <div id="collapsible-Aci_Unity_UI_Dialog_DialogBase_Show" class="collapse in">
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Show()</code></pre>
-  </div>
-
-  
-  
-  
-  
-  
-  
-  
-  <h5 class="implements">Implements</h5>
-      <div><a class="xref" href="Aci.Unity.UI.Dialog.IDialog.html#Aci_Unity_UI_Dialog_IDialog_Show">IDialog.Show()</a></div>
-  
-  
-  
-  
-  </div>
-  <h3 id="events">Events
-  </h3>
-  
-  
-  
-  <h4 id="Aci_Unity_UI_Dialog_DialogBase_Dismissed" data-uid="Aci.Unity.UI.Dialog.DialogBase.Dismissed"><a href="#collapsible-Aci_Unity_UI_Dialog_DialogBase_Dismissed" class="expander" data-toggle="collapse">Dismissed</a></h4>
-  
-  <div id="collapsible-Aci_Unity_UI_Dialog_DialogBase_Dismissed" class="collapse in">
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action&lt;IDialog&gt; Dismissed</code></pre>
-  </div>
-
-  
-  
-  
-  
-  
-  <h5 class="eventType">Event Type</h5>
+  <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
       <td>
-        <span class="xref">System.Action</span>&lt;<a class="xref" href="Aci.Unity.UI.Dialog.IDialog.html">IDialog</a>&gt;
+        <span class="pull-right"><span class="xref">System.Boolean</span></span>
+        <span class="parametername">animate</span>
         <p>
       </td>
     </tr>
   </table>
   
   
+  
+  
+  
+  
+  
   <h5 class="implements">Implements</h5>
-      <div><a class="xref" href="Aci.Unity.UI.Dialog.IDialog.html#Aci_Unity_UI_Dialog_IDialog_Dismissed">IDialog.Dismissed</a></div>
+      <div><a class="xref" href="Aci.Unity.UI.Dialog.IDialogDestroyer.html#Aci_Unity_UI_Dialog_IDialogDestroyer_DestroyCurrent_System_Boolean_">IDialogDestroyer.DestroyCurrent(Boolean)</a></div>
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Aci_Unity_UI_Dialog_DialogManager_Dispose_" data-uid="Aci.Unity.UI.Dialog.DialogManager.Dispose*"></a>
+  
+  <h4 id="Aci_Unity_UI_Dialog_DialogManager_Dispose" data-uid="Aci.Unity.UI.Dialog.DialogManager.Dispose"><a href="#collapsible-Aci_Unity_UI_Dialog_DialogManager_Dispose" class="expander" data-toggle="collapse">Dispose()</a></h4>
+  
+  <div id="collapsible-Aci_Unity_UI_Dialog_DialogManager_Dispose" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  <h5 class="implements">Implements</h5>
+      <div><span class="xref">System.IDisposable.Dispose()</span></div>
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Aci_Unity_UI_Dialog_DialogManager_ReceiveRequest_" data-uid="Aci.Unity.UI.Dialog.DialogManager.ReceiveRequest*"></a>
+  
+  <h4 id="Aci_Unity_UI_Dialog_DialogManager_ReceiveRequest_Aci_Unity_UI_Dialog_DialogRequest_" data-uid="Aci.Unity.UI.Dialog.DialogManager.ReceiveRequest(Aci.Unity.UI.Dialog.DialogRequest)"><a href="#collapsible-Aci_Unity_UI_Dialog_DialogManager_ReceiveRequest_Aci_Unity_UI_Dialog_DialogRequest_" class="expander" data-toggle="collapse">ReceiveRequest(DialogRequest)</a></h4>
+  
+  <div id="collapsible-Aci_Unity_UI_Dialog_DialogManager_ReceiveRequest_Aci_Unity_UI_Dialog_DialogRequest_" class="collapse in">
+  <div class="markdown level1 summary"><p>Receives a dialog request.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReceiveRequest(DialogRequest request)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="Aci.Unity.UI.Dialog.DialogRequest.html">DialogRequest</a></span>
+        <span class="parametername">request</span>
+        <p><p>The request to be received.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h5 class="implements">Implements</h5>
+      <div><a class="xref" href="Aci.Unity.UI.Dialog.IDialogRequestReceiver.html#Aci_Unity_UI_Dialog_IDialogRequestReceiver_ReceiveRequest_Aci_Unity_UI_Dialog_DialogRequest_">IDialogRequestReceiver.ReceiveRequest(DialogRequest)</a></div>
   
   
   

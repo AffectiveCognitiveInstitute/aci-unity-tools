@@ -71,36 +71,64 @@
             <article class="content wrap" id="_content" data-uid="Aci.Unity.UI.Navigation.INavigatedAware">
   <h1 id="Aci_Unity_UI_Navigation_INavigatedAware" data-uid="Aci.Unity.UI.Navigation.INavigatedAware">Interface INavigatedAware
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Called on GameObject that has been navigated to. Called after animation has completd.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
 
   
   
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Aci.Unity.UI.Navigation.INavigatedBackAware.html#Aci_Unity_UI_Navigation_INavigatedBackAware_OnNavigatedBack_Aci_Unity_UI_Navigation_INavigationParameters_">INavigatedBackAware.OnNavigatedBack(INavigationParameters)</a>
-    </div>
-    <div>
-      <a class="xref" href="Aci.Unity.UI.Navigation.INavigatedToAware.html#Aci_Unity_UI_Navigation_INavigatedToAware_OnNavigatedTo_Aci_Unity_UI_Navigation_INavigationParameters_">INavigatedToAware.OnNavigatedTo(INavigationParameters)</a>
-    </div>
-    <div>
-      <a class="xref" href="Aci.Unity.UI.Navigation.INavigatedAwayAware.html#Aci_Unity_UI_Navigation_INavigatedAwayAware_OnNavigatedAway_Aci_Unity_UI_Navigation_INavigationParameters_">INavigatedAwayAware.OnNavigatedAway(INavigationParameters)</a>
-    </div>
-  </div>
   
   <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   
   <h5 id="Aci_Unity_UI_Navigation_INavigatedAware_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface INavigatedAware : INavigatedBackAware, INavigatedToAware, INavigatedAwayAware, INavigationEvent</code></pre>
+    <pre><code class="lang-csharp hljs">public interface INavigatedAware : INavigationEventHandler</code></pre>
   </div>
 
   
   
   
   
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Aci_Unity_UI_Navigation_INavigatedAware_OnNavigatedTo_" data-uid="Aci.Unity.UI.Navigation.INavigatedAware.OnNavigatedTo*"></a>
+  
+  <h4 id="Aci_Unity_UI_Navigation_INavigatedAware_OnNavigatedTo_Aci_Unity_UI_Navigation_INavigationParameters_" data-uid="Aci.Unity.UI.Navigation.INavigatedAware.OnNavigatedTo(Aci.Unity.UI.Navigation.INavigationParameters)"><a href="#collapsible-Aci_Unity_UI_Navigation_INavigatedAware_OnNavigatedTo_Aci_Unity_UI_Navigation_INavigationParameters_" class="expander" data-toggle="collapse">OnNavigatedTo(INavigationParameters)</a></h4>
+  
+  <div id="collapsible-Aci_Unity_UI_Navigation_INavigatedAware_OnNavigatedTo_Aci_Unity_UI_Navigation_INavigationParameters_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnNavigatedTo(INavigationParameters navigationParameters)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="Aci.Unity.UI.Navigation.INavigationParameters.html">INavigationParameters</a></span>
+        <span class="parametername">navigationParameters</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
 </article>

@@ -71,7 +71,7 @@
             <article class="content wrap" id="_content" data-uid="Aci.Unity.UI.Navigation.INavigationParameters">
   <h1 id="Aci_Unity_UI_Navigation_INavigationParameters" data-uid="Aci.Unity.UI.Navigation.INavigationParameters">Interface INavigationParameters
   </h1>
-  <div class="markdown level0 summary"><p>Used for passing data between pages</p>
+  <div class="markdown level0 summary"><p>Key-Value pairing which is used to pass parameters from screen to screen.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
 
@@ -83,68 +83,29 @@
   
   <h5 id="Aci_Unity_UI_Navigation_INavigationParameters_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface INavigationParameters : IEnumerable&lt;KeyValuePair&lt;string, object&gt;&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public interface INavigationParameters</code></pre>
   </div>
 
   
   
   
   
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="Aci_Unity_UI_Navigation_INavigationParameters_Count_" data-uid="Aci.Unity.UI.Navigation.INavigationParameters.Count*"></a>
-  
-  <h4 id="Aci_Unity_UI_Navigation_INavigationParameters_Count" data-uid="Aci.Unity.UI.Navigation.INavigationParameters.Count"><a href="#collapsible-Aci_Unity_UI_Navigation_INavigationParameters_Count" class="expander" data-toggle="collapse">Count</a></h4>
-  
-  <div id="collapsible-Aci_Unity_UI_Navigation_INavigationParameters_Count" class="collapse in">
-  <div class="markdown level1 summary"><p>Returns the number of parameters</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int Count { get; }</code></pre>
-  </div>
-
-  
-  
-  
-  
-  <h5 class="propertyValue">Property Value</h5>
-  <table>
-    <tr>
-      <td>
-        <span class="xref">System.Int32</span>
-        <p>
-      </td>
-    </tr>
-  </table>
-  
-  
-  
-  
-  
-  
-  
-  </div>
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="Aci_Unity_UI_Navigation_INavigationParameters_Add_" data-uid="Aci.Unity.UI.Navigation.INavigationParameters.Add*"></a>
   
-  <h4 id="Aci_Unity_UI_Navigation_INavigationParameters_Add_System_String_System_Object_" data-uid="Aci.Unity.UI.Navigation.INavigationParameters.Add(System.String,System.Object)"><a href="#collapsible-Aci_Unity_UI_Navigation_INavigationParameters_Add_System_String_System_Object_" class="expander" data-toggle="collapse">Add(String, Object)</a></h4>
+  <h4 id="Aci_Unity_UI_Navigation_INavigationParameters_Add__1_System_String___0_" data-uid="Aci.Unity.UI.Navigation.INavigationParameters.Add``1(System.String,``0)"><a href="#collapsible-Aci_Unity_UI_Navigation_INavigationParameters_Add__1_System_String___0_" class="expander" data-toggle="collapse">Add&lt;T&gt;(String, T)</a></h4>
   
-  <div id="collapsible-Aci_Unity_UI_Navigation_INavigationParameters_Add_System_String_System_Object_" class="collapse in">
-  <div class="markdown level1 summary"><p>Adds a parameter</p>
+  <div id="collapsible-Aci_Unity_UI_Navigation_INavigationParameters_Add__1_System_String___0_" class="collapse in">
+  <div class="markdown level1 summary"><p>Adds a key-value pair to the navigation parameters.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Add(string key, object value)</code></pre>
+    <pre><code class="lang-csharp hljs">INavigationParameters Add&lt;T&gt;(string key, T value)</code></pre>
   </div>
 
   <h5 class="parameters">Parameters</h5>
@@ -153,54 +114,15 @@
       <td>
         <span class="pull-right"><span class="xref">System.String</span></span>
         <span class="parametername">key</span>
-        <p><p>The key of the parameter</p>
+        <p><p>The name of the key.</p>
 </p>
       </td>
     </tr>
     <tr>
       <td>
-        <span class="pull-right"><span class="xref">System.Object</span></span>
+        <span class="pull-right"><span class="xref">T</span></span>
         <span class="parametername">value</span>
-        <p><p>The parameter value</p>
-</p>
-      </td>
-    </tr>
-  </table>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </div>
-  
-  
-  <a id="Aci_Unity_UI_Navigation_INavigationParameters_ContainsKey_" data-uid="Aci.Unity.UI.Navigation.INavigationParameters.ContainsKey*"></a>
-  
-  <h4 id="Aci_Unity_UI_Navigation_INavigationParameters_ContainsKey_System_String_" data-uid="Aci.Unity.UI.Navigation.INavigationParameters.ContainsKey(System.String)"><a href="#collapsible-Aci_Unity_UI_Navigation_INavigationParameters_ContainsKey_System_String_" class="expander" data-toggle="collapse">ContainsKey(String)</a></h4>
-  
-  <div id="collapsible-Aci_Unity_UI_Navigation_INavigationParameters_ContainsKey_System_String_" class="collapse in">
-  <div class="markdown level1 summary"><p>Checks if a key is contained in this collection</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool ContainsKey(string key)</code></pre>
-  </div>
-
-  <h5 class="parameters">Parameters</h5>
-  <table>
-    <tr>
-      <td>
-        <span class="pull-right"><span class="xref">System.String</span></span>
-        <span class="parametername">key</span>
-        <p><p>The key to be checked</p>
+        <p><p>The value.</p>
 </p>
       </td>
     </tr>
@@ -210,12 +132,50 @@
   <table>
     <tr>
       <td>
-        <span class="xref">System.Boolean</span>
-        <p><p>Returns true if this contains the given key</p>
+        <a class="xref" href="Aci.Unity.UI.Navigation.INavigationParameters.html">INavigationParameters</a>
+        <p><p>Returns the instance implementing <a class="xref" href="Aci.Unity.UI.Navigation.INavigationParameters.html">INavigationParameters</a>.</p>
 </p>
       </td>
     </tr>
   </table>
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">T</span>
+        <p><p>The type of the value.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Aci_Unity_UI_Navigation_INavigationParameters_Clear_" data-uid="Aci.Unity.UI.Navigation.INavigationParameters.Clear*"></a>
+  
+  <h4 id="Aci_Unity_UI_Navigation_INavigationParameters_Clear" data-uid="Aci.Unity.UI.Navigation.INavigationParameters.Clear"><a href="#collapsible-Aci_Unity_UI_Navigation_INavigationParameters_Clear" class="expander" data-toggle="collapse">Clear()</a></h4>
+  
+  <div id="collapsible-Aci_Unity_UI_Navigation_INavigationParameters_Clear" class="collapse in">
+  <div class="markdown level1 summary"><p>Clears the navigation parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Clear()</code></pre>
+  </div>
+
+  
   
   
   
@@ -234,7 +194,7 @@
   <h4 id="Aci_Unity_UI_Navigation_INavigationParameters_GetValue__1_System_String_" data-uid="Aci.Unity.UI.Navigation.INavigationParameters.GetValue``1(System.String)"><a href="#collapsible-Aci_Unity_UI_Navigation_INavigationParameters_GetValue__1_System_String_" class="expander" data-toggle="collapse">GetValue&lt;T&gt;(String)</a></h4>
   
   <div id="collapsible-Aci_Unity_UI_Navigation_INavigationParameters_GetValue__1_System_String_" class="collapse in">
-  <div class="markdown level1 summary"><p>Gets a value by key</p>
+  <div class="markdown level1 summary"><p>Retrieves a value from the <a class="xref" href="Aci.Unity.UI.Navigation.INavigationParameters.html">INavigationParameters</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -249,7 +209,7 @@
       <td>
         <span class="pull-right"><span class="xref">System.String</span></span>
         <span class="parametername">key</span>
-        <p><p>The key of the parameter</p>
+        <p><p>The name of the value.</p>
 </p>
       </td>
     </tr>
@@ -260,7 +220,8 @@
     <tr>
       <td>
         <span class="xref">T</span>
-        <p>
+        <p><p>Returns the value.</p>
+</p>
       </td>
     </tr>
   </table>
@@ -270,7 +231,7 @@
     <tr>
       <td>
         <span class="parametername">T</span>
-        <p><p>The type expected</p>
+        <p><p>The type of the value.</p>
 </p>
       </td>
     </tr>
@@ -292,7 +253,7 @@
   <h4 id="Aci_Unity_UI_Navigation_INavigationParameters_TryGetValue__1_System_String___0__" data-uid="Aci.Unity.UI.Navigation.INavigationParameters.TryGetValue``1(System.String,``0@)"><a href="#collapsible-Aci_Unity_UI_Navigation_INavigationParameters_TryGetValue__1_System_String___0__" class="expander" data-toggle="collapse">TryGetValue&lt;T&gt;(String, out T)</a></h4>
   
   <div id="collapsible-Aci_Unity_UI_Navigation_INavigationParameters_TryGetValue__1_System_String___0__" class="collapse in">
-  <div class="markdown level1 summary"><p>Tries to get a value by key</p>
+  <div class="markdown level1 summary"><p>Tries to get the value by its key.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -307,7 +268,7 @@
       <td>
         <span class="pull-right"><span class="xref">System.String</span></span>
         <span class="parametername">key</span>
-        <p><p>The key of the parameter</p>
+        <p><p>The name of the key.</p>
 </p>
       </td>
     </tr>
@@ -315,7 +276,7 @@
       <td>
         <span class="pull-right"><span class="xref">T</span></span>
         <span class="parametername">value</span>
-        <p><p>The value if the key is found</p>
+        <p><p>The value retrieved, if successful.</p>
 </p>
       </td>
     </tr>
@@ -326,7 +287,7 @@
     <tr>
       <td>
         <span class="xref">System.Boolean</span>
-        <p><p>Returns true if the value can be found</p>
+        <p><p>Returns <span class="xref">true</span> if successful, else <span class="xref">false</span>.</p>
 </p>
       </td>
     </tr>
@@ -337,7 +298,7 @@
     <tr>
       <td>
         <span class="parametername">T</span>
-        <p><p>The type of key expected</p>
+        <p><p>The type of the value.</p>
 </p>
       </td>
     </tr>

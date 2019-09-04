@@ -79,36 +79,48 @@
     <table>
       <tr>
         <td>
+          <p><a class="xref" href="Aci.Unity.UI.Navigation.ExecuteNavigationEvent.html">ExecuteNavigationEvent</a></p>
+          <p>
+        </td>
+      </tr>
+      <tr>
+        <td>
           <p><a class="xref" href="Aci.Unity.UI.Navigation.NavigationParameters.html">NavigationParameters</a></p>
-          <p><p>Implementation of <a class="xref" href="Aci.Unity.UI.Navigation.INavigationParameters.html">INavigationParameters</a></p>
-</p>
+          <p>
         </td>
       </tr>
       <tr>
         <td>
           <p><a class="xref" href="Aci.Unity.UI.Navigation.NavigationService.html">NavigationService</a></p>
-          <p><p>Implementation of <a class="xref" href="Aci.Unity.UI.Navigation.INavigationService.html">INavigationService</a></p>
-</p>
+          <p>
         </td>
       </tr>
       <tr>
         <td>
-          <p><a class="xref" href="Aci.Unity.UI.Navigation.PageContainer.html">PageContainer</a></p>
-          <p><p>Implementation of <a class="xref" href="Aci.Unity.UI.Navigation.IPageContainer.html">IPageContainer</a> specifically for UGUI</p>
-</p>
+          <p><a class="xref" href="Aci.Unity.UI.Navigation.ScreenRegistry.html">ScreenRegistry</a></p>
+          <p>
+        </td>
+      </tr>
+    </table>
+    <h3 id="structs">Structs
+  </h3>
+    <table>
+      <tr>
+        <td>
+          <p><a class="xref" href="Aci.Unity.UI.Navigation.AnimationOptions.html">AnimationOptions</a></p>
+          <p>
         </td>
       </tr>
       <tr>
         <td>
-          <p><a class="xref" href="Aci.Unity.UI.Navigation.PageContainerRegistry.html">PageContainerRegistry</a></p>
-          <p><p>Implementation of <a class="xref" href="Aci.Unity.UI.Navigation.IPageContainerRegistry.html">IPageContainerRegistry</a>. Contains a mapping of page id to <a class="xref" href="Aci.Unity.UI.Navigation.IPageContainer.html">IPageContainer</a></p>
-</p>
+          <p><a class="xref" href="Aci.Unity.UI.Navigation.NavigationCompletedEvent.html">NavigationCompletedEvent</a></p>
+          <p>
         </td>
       </tr>
       <tr>
         <td>
-          <p><a class="xref" href="Aci.Unity.UI.Navigation.PageNotFoundException.html">PageNotFoundException</a></p>
-          <p><p>Exception thrown when a page could be found.</p>
+          <p><a class="xref" href="Aci.Unity.UI.Navigation.NavigationModeChangedEvent.html">NavigationModeChangedEvent</a></p>
+          <p><p>Global event called when a change in navigation was made.</p>
 </p>
         </td>
       </tr>
@@ -118,86 +130,112 @@
     <table>
       <tr>
         <td>
-          <p><a class="xref" href="Aci.Unity.UI.Navigation.IDestructible.html">IDestructible</a></p>
-          <p>
+          <p><a class="xref" href="Aci.Unity.UI.Navigation.IDestructibleAware.html">IDestructibleAware</a></p>
+          <p><p>Called on GameObject which is about to be destroyed. Called before animation begins.</p>
+</p>
         </td>
       </tr>
       <tr>
         <td>
           <p><a class="xref" href="Aci.Unity.UI.Navigation.INavigatedAware.html">INavigatedAware</a></p>
-          <p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p><a class="xref" href="Aci.Unity.UI.Navigation.INavigatedAwayAware.html">INavigatedAwayAware</a></p>
-          <p>
+          <p><p>Called on GameObject that has been navigated to. Called after animation has completd.</p>
+</p>
         </td>
       </tr>
       <tr>
         <td>
           <p><a class="xref" href="Aci.Unity.UI.Navigation.INavigatedBackAware.html">INavigatedBackAware</a></p>
-          <p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p><a class="xref" href="Aci.Unity.UI.Navigation.INavigatedToAware.html">INavigatedToAware</a></p>
-          <p>
+          <p><p>Called on GameObject that is returned to. Called after animation completes.</p>
+</p>
         </td>
       </tr>
       <tr>
         <td>
           <p><a class="xref" href="Aci.Unity.UI.Navigation.INavigatingAware.html">INavigatingAware</a></p>
-          <p>
+          <p><p>Called on GameObject that is being navigated to. Called before animation begins.</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="Aci.Unity.UI.Navigation.INavigatingAwayAware.html">INavigatingAwayAware</a></p>
+          <p><p>Called on GameObject that is being navigated away from. Called before animation begins.</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="Aci.Unity.UI.Navigation.INavigatingBackAware.html">INavigatingBackAware</a></p>
+          <p><p>Called on GameObject that is being returned to. Called before animation begins.</p>
+</p>
         </td>
       </tr>
       <tr>
         <td>
           <p><a class="xref" href="Aci.Unity.UI.Navigation.INavigationAware.html">INavigationAware</a></p>
-          <p><p>Combines both interfaces into one for easier use</p>
+          <p><p>Interface which combines all navigation events</p>
 </p>
         </td>
       </tr>
       <tr>
         <td>
-          <p><a class="xref" href="Aci.Unity.UI.Navigation.INavigationEvent.html">INavigationEvent</a></p>
-          <p><p>Base interface for navigation events</p>
-</p>
+          <p><a class="xref" href="Aci.Unity.UI.Navigation.INavigationEventHandler.html">INavigationEventHandler</a></p>
+          <p>
         </td>
       </tr>
       <tr>
         <td>
           <p><a class="xref" href="Aci.Unity.UI.Navigation.INavigationParameters.html">INavigationParameters</a></p>
-          <p><p>Used for passing data between pages</p>
+          <p><p>Key-Value pairing which is used to pass parameters from screen to screen.</p>
 </p>
         </td>
       </tr>
       <tr>
         <td>
           <p><a class="xref" href="Aci.Unity.UI.Navigation.INavigationService.html">INavigationService</a></p>
-          <p><p>Interface for navigating within an application</p>
+          <p><p>Service which exposes methods for navigating within application</p>
 </p>
         </td>
       </tr>
       <tr>
         <td>
-          <p><a class="xref" href="Aci.Unity.UI.Navigation.IPageContainer.html">IPageContainer</a></p>
+          <p><a class="xref" href="Aci.Unity.UI.Navigation.IScreenController.html">IScreenController</a></p>
+          <p><p>Controls visibility of screen.</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="Aci.Unity.UI.Navigation.IScreenRegistry.html">IScreenRegistry</a></p>
+          <p><p>Registry for <a class="xref" href="Aci.Unity.UI.Navigation.IScreenController.html">IScreenController</a>.</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="Aci.Unity.UI.Navigation.IScreenTransition.html">IScreenTransition</a></p>
+          <p><p>Interface for screen transitions.</p>
+</p>
+        </td>
+      </tr>
+    </table>
+    <h3 id="enums">Enums
+  </h3>
+    <table>
+      <tr>
+        <td>
+          <p><a class="xref" href="Aci.Unity.UI.Navigation.NavigationMode.html">NavigationMode</a></p>
           <p>
         </td>
       </tr>
+    </table>
+    <h3 id="delegates">Delegates
+  </h3>
+    <table>
       <tr>
         <td>
-          <p><a class="xref" href="Aci.Unity.UI.Navigation.IPageContainerRegistry.html">IPageContainerRegistry</a></p>
-          <p><p>Registry for <a class="xref" href="Aci.Unity.UI.Navigation.IPageContainer.html">IPageContainer</a></p>
-</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p><a class="xref" href="Aci.Unity.UI.Navigation.IPageTransition.html">IPageTransition</a></p>
-          <p><p>Interface for transitions</p>
-</p>
+          <p><a class="xref" href="Aci.Unity.UI.Navigation.ExecuteNavigationEvent.EventFunction-1.html">ExecuteNavigationEvent.EventFunction&lt;THandler&gt;</a></p>
+          <p>
         </td>
       </tr>
     </table>

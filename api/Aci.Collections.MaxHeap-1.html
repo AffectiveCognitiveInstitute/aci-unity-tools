@@ -1,0 +1,377 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MaxHeap&lt;TItem&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MaxHeap&lt;TItem&gt;
+   ">
+    <meta name="generator" content="docfx 2.40.4.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo_aci.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Aci.Collections.MaxHeap`1">
+  <h1 id="Aci_Collections_MaxHeap_1" data-uid="Aci.Collections.MaxHeap`1">Class MaxHeap&lt;TItem&gt;
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Aci.Collections.Heap-1.html">Heap</a>&lt;TItem&gt;</div>
+    <div class="level2"><span class="xref">MaxHeap&lt;TItem&gt;</span></div>
+  </div>
+  
+  
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_m_Items">Heap&lt;TItem&gt;.m_Items</a>
+    </div>
+    <div>
+      <a class="xref" href="Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Count">Heap&lt;TItem&gt;.Count</a>
+    </div>
+    <div>
+      <a class="xref" href="Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_IsReadOnly">Heap&lt;TItem&gt;.IsReadOnly</a>
+    </div>
+    <div>
+      <a class="xref" href="Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_m_Size">Heap&lt;TItem&gt;.m_Size</a>
+    </div>
+    <div>
+      <a class="xref" href="Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Clear">Heap&lt;TItem&gt;.Clear()</a>
+    </div>
+    <div>
+      <a class="xref" href="Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Contains__0_">Heap&lt;TItem&gt;.Contains(TItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_GetEnumerator">Heap&lt;TItem&gt;.GetEnumerator()</a>
+    </div>
+    <div>
+      <a class="xref" href="Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Remove__0_">Heap&lt;TItem&gt;.Remove(TItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Remove_System_Int32_">Heap&lt;TItem&gt;.Remove(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_EnsureCapacity_System_Int32_">Heap&lt;TItem&gt;.EnsureCapacity(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_GetParentIndex_System_Int32_">Heap&lt;TItem&gt;.GetParentIndex(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_GetLeftChildIndex_System_Int32_">Heap&lt;TItem&gt;.GetLeftChildIndex(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_GetRightChildIndex_System_Int32_">Heap&lt;TItem&gt;.GetRightChildIndex(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Push__0_">Heap&lt;TItem&gt;.Push(TItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Peek">Heap&lt;TItem&gt;.Peek()</a>
+    </div>
+    <div>
+      <a class="xref" href="Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Pop">Heap&lt;TItem&gt;.Pop()</a>
+    </div>
+    <div>
+      <a class="xref" href="Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Swap_System_Int32_System_Int32_">Heap&lt;TItem&gt;.Swap(Int32, Int32)</a>
+    </div>
+  </div>
+  
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  
+  <h5 id="Aci_Collections_MaxHeap_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class MaxHeap&lt;TItem&gt; : Heap&lt;TItem&gt;, IReadOnlyCollection&lt;TItem&gt; where TItem : IComparable&lt;TItem&gt;</code></pre>
+  </div>
+
+  
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">TItem</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Aci_Collections_MaxHeap_1__ctor_" data-uid="Aci.Collections.MaxHeap`1.#ctor*"></a>
+  
+  <h4 id="Aci_Collections_MaxHeap_1__ctor" data-uid="Aci.Collections.MaxHeap`1.#ctor"><a href="#collapsible-Aci_Collections_MaxHeap_1__ctor" class="expander" data-toggle="collapse">MaxHeap()</a></h4>
+  
+  <div id="collapsible-Aci_Collections_MaxHeap_1__ctor" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MaxHeap()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Aci_Collections_MaxHeap_1__ctor_" data-uid="Aci.Collections.MaxHeap`1.#ctor*"></a>
+  
+  <h4 id="Aci_Collections_MaxHeap_1__ctor_System_Int32_" data-uid="Aci.Collections.MaxHeap`1.#ctor(System.Int32)"><a href="#collapsible-Aci_Collections_MaxHeap_1__ctor_System_Int32_" class="expander" data-toggle="collapse">MaxHeap(Int32)</a></h4>
+  
+  <div id="collapsible-Aci_Collections_MaxHeap_1__ctor_System_Int32_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MaxHeap(int capacity)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Int32</span></span>
+        <span class="parametername">capacity</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Aci_Collections_MaxHeap_1_Build_" data-uid="Aci.Collections.MaxHeap`1.Build*"></a>
+  
+  <h4 id="Aci_Collections_MaxHeap_1_Build" data-uid="Aci.Collections.MaxHeap`1.Build"><a href="#collapsible-Aci_Collections_MaxHeap_1_Build" class="expander" data-toggle="collapse">Build()</a></h4>
+  
+  <div id="collapsible-Aci_Collections_MaxHeap_1_Build" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Build()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Aci.Collections.Heap&lt;TItem&gt;.Build()</span></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Aci_Collections_MaxHeap_1_HeapifyDown_" data-uid="Aci.Collections.MaxHeap`1.HeapifyDown*"></a>
+  
+  <h4 id="Aci_Collections_MaxHeap_1_HeapifyDown_System_Int32_" data-uid="Aci.Collections.MaxHeap`1.HeapifyDown(System.Int32)"><a href="#collapsible-Aci_Collections_MaxHeap_1_HeapifyDown_System_Int32_" class="expander" data-toggle="collapse">HeapifyDown(Int32)</a></h4>
+  
+  <div id="collapsible-Aci_Collections_MaxHeap_1_HeapifyDown_System_Int32_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void HeapifyDown(int index)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Int32</span></span>
+        <span class="parametername">index</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Aci.Collections.Heap&lt;TItem&gt;.HeapifyDown(System.Int32)</span></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Aci_Collections_MaxHeap_1_HeapifyUp_" data-uid="Aci.Collections.MaxHeap`1.HeapifyUp*"></a>
+  
+  <h4 id="Aci_Collections_MaxHeap_1_HeapifyUp_System_Int32_" data-uid="Aci.Collections.MaxHeap`1.HeapifyUp(System.Int32)"><a href="#collapsible-Aci_Collections_MaxHeap_1_HeapifyUp_System_Int32_" class="expander" data-toggle="collapse">HeapifyUp(Int32)</a></h4>
+  
+  <div id="collapsible-Aci_Collections_MaxHeap_1_HeapifyUp_System_Int32_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void HeapifyUp(int index)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Int32</span></span>
+        <span class="parametername">index</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Aci.Collections.Heap&lt;TItem&gt;.HeapifyUp(System.Int32)</span></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+</article>
+          </div>
+          <div class="contribution-panel mobile-hide">
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-left">Generated by <strong>DocFX</strong></span>
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>
+                      <span class="far fa-copyright"></span>
+                      2018, Affective & Cognitive Institute</span>
+                      <a href="https://affective-lab.org" class="fas fa-home"></a>
+                      <a href="https://www.researchgate.net/lab/Affective-and-Cognitive-Institute-Affective-Lab-Oliver-Korn" class="fab fa-researchgate"></a>
+                      <a href="https://www.linkedin.com/company/affective-cognitive-institute/" class="fab fa-linkedin"></a>
+                      <a href="https://www.youtube.com/channel/UCYetO2MEXJ0KMVWyxLXMS1g" class="fab fa-youtube"></a>
+                      <a href="https://github.com/AffectiveCognitiveInstitute" class="fab fa-github"></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

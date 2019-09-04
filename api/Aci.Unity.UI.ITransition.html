@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class PageNotFoundException
+    <title>Interface ITransition
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class PageNotFoundException
+    <meta name="title" content="Interface ITransition
    ">
     <meta name="generator" content="docfx 2.40.4.0">
     
@@ -68,119 +68,97 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Aci.Unity.UI.Navigation.PageNotFoundException">
-  <h1 id="Aci_Unity_UI_Navigation_PageNotFoundException" data-uid="Aci.Unity.UI.Navigation.PageNotFoundException">Class PageNotFoundException
+            <article class="content wrap" id="_content" data-uid="Aci.Unity.UI.ITransition">
+  <h1 id="Aci_Unity_UI_ITransition" data-uid="Aci.Unity.UI.ITransition">Interface ITransition
   </h1>
-  <div class="markdown level0 summary"><p>Exception thrown when a page could be found.</p>
+  <div class="markdown level0 summary"><p>Represents an UI Transition.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
 
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">System.Exception</span></div>
-    <div class="level2"><span class="xref">PageNotFoundException</span></div>
-  </div>
   
   
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Exception.GetBaseException()</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.Message</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.Data</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.InnerException</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.TargetSite</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.StackTrace</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.HelpLink</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.Source</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.HResult</span>
-    </div>
-    <div>
-      <span class="xref">System.Exception.SerializeObjectState</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-  </div>
   
   <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   
-  <h5 id="Aci_Unity_UI_Navigation_PageNotFoundException_syntax">Syntax</h5>
+  <h5 id="Aci_Unity_UI_ITransition_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PageNotFoundException : Exception, ISerializable, _Exception</code></pre>
+    <pre><code class="lang-csharp hljs">public interface ITransition</code></pre>
   </div>
 
   
   
   
   
-  <h3 id="constructors">Constructors
+  <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Aci_Unity_UI_Navigation_PageNotFoundException__ctor_" data-uid="Aci.Unity.UI.Navigation.PageNotFoundException.#ctor*"></a>
+  <a id="Aci_Unity_UI_ITransition_EnterAsync_" data-uid="Aci.Unity.UI.ITransition.EnterAsync*"></a>
   
-  <h4 id="Aci_Unity_UI_Navigation_PageNotFoundException__ctor_System_String_" data-uid="Aci.Unity.UI.Navigation.PageNotFoundException.#ctor(System.String)"><a href="#collapsible-Aci_Unity_UI_Navigation_PageNotFoundException__ctor_System_String_" class="expander" data-toggle="collapse">PageNotFoundException(String)</a></h4>
+  <h4 id="Aci_Unity_UI_ITransition_EnterAsync" data-uid="Aci.Unity.UI.ITransition.EnterAsync"><a href="#collapsible-Aci_Unity_UI_ITransition_EnterAsync" class="expander" data-toggle="collapse">EnterAsync()</a></h4>
   
-  <div id="collapsible-Aci_Unity_UI_Navigation_PageNotFoundException__ctor_System_String_" class="collapse in">
-  <div class="markdown level1 summary"></div>
+  <div id="collapsible-Aci_Unity_UI_ITransition_EnterAsync" class="collapse in">
+  <div class="markdown level1 summary"><p>Starts the enter transition.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PageNotFoundException(string page)</code></pre>
+    <pre><code class="lang-csharp hljs">Task EnterAsync()</code></pre>
   </div>
 
-  <h5 class="parameters">Parameters</h5>
+  
+  <h5 class="returns">Returns</h5>
   <table>
     <tr>
       <td>
-        <span class="pull-right"><span class="xref">System.String</span></span>
-        <span class="parametername">page</span>
-        <p>
+        <span class="xref">Task</span>
+        <p><p>Returns an awaitable <see cref="!:Task"></see> which completes when the enter
+transition has completed.</p>
+</p>
       </td>
     </tr>
   </table>
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Aci_Unity_UI_ITransition_ExitAsync_" data-uid="Aci.Unity.UI.ITransition.ExitAsync*"></a>
+  
+  <h4 id="Aci_Unity_UI_ITransition_ExitAsync" data-uid="Aci.Unity.UI.ITransition.ExitAsync"><a href="#collapsible-Aci_Unity_UI_ITransition_ExitAsync" class="expander" data-toggle="collapse">ExitAsync()</a></h4>
+  
+  <div id="collapsible-Aci_Unity_UI_ITransition_ExitAsync" class="collapse in">
+  <div class="markdown level1 summary"><p>Starts the exit transition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task ExitAsync()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">Task</span>
+        <p><p>Returns an awaitable <see cref="!:Task"></see> which completes when the exit
+transition has completed.</p>
+</p>
+      </td>
+    </tr>
+  </table>
   
   
   

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IAlertDialogFactory
+    <title>Enum NavigationMode
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IAlertDialogFactory
+    <meta name="title" content="Enum NavigationMode
    ">
     <meta name="generator" content="docfx 2.40.4.0">
     
@@ -68,8 +68,8 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Aci.Unity.UI.Dialog.IAlertDialogFactory">
-  <h1 id="Aci_Unity_UI_Dialog_IAlertDialogFactory" data-uid="Aci.Unity.UI.Dialog.IAlertDialogFactory">Interface IAlertDialogFactory
+            <article class="content wrap" id="_content" data-uid="Aci.Unity.UI.Navigation.NavigationMode">
+  <h1 id="Aci_Unity_UI_Navigation_NavigationMode" data-uid="Aci.Unity.UI.Navigation.NavigationMode">Enum NavigationMode
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
@@ -80,99 +80,39 @@
   <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   
-  <h5 id="Aci_Unity_UI_Dialog_IAlertDialogFactory_syntax">Syntax</h5>
+  <h5 id="Aci_Unity_UI_Navigation_NavigationMode_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IAlertDialogFactory</code></pre>
+    <pre><code class="lang-csharp hljs">public enum NavigationMode</code></pre>
   </div>
 
   
   
   
   
-  <h3 id="methods">Methods
-  </h3>
+      <h4 id="Aci_Unity_UI_Navigation_NavigationMode_Entering"><a href="#collapsible-Aci_Unity_UI_Navigation_NavigationMode_Entering" class="expander" data-toggle="collapse">Entering</a></h4>
   
+      <div id="collapsible-Aci_Unity_UI_Navigation_NavigationMode_Entering" class="collapse in">
+        <p><p>When a new page is pushed onto the stack</p>
+</p>
+      </div>
+      <h4 id="Aci_Unity_UI_Navigation_NavigationMode_Leaving"><a href="#collapsible-Aci_Unity_UI_Navigation_NavigationMode_Leaving" class="expander" data-toggle="collapse">Leaving</a></h4>
   
-  <a id="Aci_Unity_UI_Dialog_IAlertDialogFactory_Create_" data-uid="Aci.Unity.UI.Dialog.IAlertDialogFactory.Create*"></a>
+      <div id="collapsible-Aci_Unity_UI_Navigation_NavigationMode_Leaving" class="collapse in">
+        <p><p>A new page was pushed, the page is being left</p>
+</p>
+      </div>
+      <h4 id="Aci_Unity_UI_Navigation_NavigationMode_Removed"><a href="#collapsible-Aci_Unity_UI_Navigation_NavigationMode_Removed" class="expander" data-toggle="collapse">Removed</a></h4>
   
-  <h4 id="Aci_Unity_UI_Dialog_IAlertDialogFactory_Create_System_String_System_String_System_String_System_String_System_Action_System_Action_" data-uid="Aci.Unity.UI.Dialog.IAlertDialogFactory.Create(System.String,System.String,System.String,System.String,System.Action,System.Action)"><a href="#collapsible-Aci_Unity_UI_Dialog_IAlertDialogFactory_Create_System_String_System_String_System_String_System_String_System_Action_System_Action_" class="expander" data-toggle="collapse">Create(String, String, String, String, Action, Action)</a></h4>
+      <div id="collapsible-Aci_Unity_UI_Navigation_NavigationMode_Removed" class="collapse in">
+        <p><p>The page was popped</p>
+</p>
+      </div>
+      <h4 id="Aci_Unity_UI_Navigation_NavigationMode_Returning"><a href="#collapsible-Aci_Unity_UI_Navigation_NavigationMode_Returning" class="expander" data-toggle="collapse">Returning</a></h4>
   
-  <div id="collapsible-Aci_Unity_UI_Dialog_IAlertDialogFactory_Create_System_String_System_String_System_String_System_String_System_Action_System_Action_" class="collapse in">
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">AlertDialog Create(string title, string message, string cancel, string confirm, Action onConfirm = null, Action onCancel = null)</code></pre>
-  </div>
-
-  <h5 class="parameters">Parameters</h5>
-  <table>
-    <tr>
-      <td>
-        <span class="pull-right"><span class="xref">System.String</span></span>
-        <span class="parametername">title</span>
-        <p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="pull-right"><span class="xref">System.String</span></span>
-        <span class="parametername">message</span>
-        <p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="pull-right"><span class="xref">System.String</span></span>
-        <span class="parametername">cancel</span>
-        <p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="pull-right"><span class="xref">System.String</span></span>
-        <span class="parametername">confirm</span>
-        <p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="pull-right"><span class="xref">System.Action</span></span>
-        <span class="parametername">onConfirm</span>
-        <p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="pull-right"><span class="xref">System.Action</span></span>
-        <span class="parametername">onCancel</span>
-        <p>
-      </td>
-    </tr>
-  </table>
-  
-  <h5 class="returns">Returns</h5>
-  <table>
-    <tr>
-      <td>
-        <a class="xref" href="Aci.Unity.UI.Dialog.AlertDialog.html">AlertDialog</a>
-        <p>
-      </td>
-    </tr>
-  </table>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </div>
-  
+      <div id="collapsible-Aci_Unity_UI_Navigation_NavigationMode_Returning" class="collapse in">
+        <p><p>Page was popped, now we're returning to the page</p>
+</p>
+      </div>
   
 </article>
           </div>

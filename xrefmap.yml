@@ -1,6 +1,597 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: Aci.Collections
+  name: Aci.Collections
+  href: api/Aci.Collections.html
+  commentId: N:Aci.Collections
+  fullName: Aci.Collections
+  nameWithType: Aci.Collections
+- uid: Aci.Collections.Heap`1
+  name: Heap<TItem>
+  href: api/Aci.Collections.Heap-1.html
+  commentId: T:Aci.Collections.Heap`1
+  name.vb: Heap(Of TItem)
+  fullName: Aci.Collections.Heap<TItem>
+  fullName.vb: Aci.Collections.Heap(Of TItem)
+  nameWithType: Heap<TItem>
+  nameWithType.vb: Heap(Of TItem)
+- uid: Aci.Collections.Heap`1.#ctor
+  name: Heap()
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1__ctor
+  commentId: M:Aci.Collections.Heap`1.#ctor
+  fullName: Aci.Collections.Heap<TItem>.Heap()
+  fullName.vb: Aci.Collections.Heap(Of TItem).Heap()
+  nameWithType: Heap<TItem>.Heap()
+  nameWithType.vb: Heap(Of TItem).Heap()
+- uid: Aci.Collections.Heap`1.#ctor(System.Int32)
+  name: Heap(Int32)
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1__ctor_System_Int32_
+  commentId: M:Aci.Collections.Heap`1.#ctor(System.Int32)
+  fullName: Aci.Collections.Heap<TItem>.Heap(System.Int32)
+  fullName.vb: Aci.Collections.Heap(Of TItem).Heap(System.Int32)
+  nameWithType: Heap<TItem>.Heap(Int32)
+  nameWithType.vb: Heap(Of TItem).Heap(Int32)
+- uid: Aci.Collections.Heap`1.#ctor*
+  name: Heap
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1__ctor_
+  commentId: Overload:Aci.Collections.Heap`1.#ctor
+  isSpec: "True"
+  fullName: Aci.Collections.Heap<TItem>.Heap
+  fullName.vb: Aci.Collections.Heap(Of TItem).Heap
+  nameWithType: Heap<TItem>.Heap
+  nameWithType.vb: Heap(Of TItem).Heap
+- uid: Aci.Collections.Heap`1.Build
+  name: Build()
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Build
+  commentId: M:Aci.Collections.Heap`1.Build
+  fullName: Aci.Collections.Heap<TItem>.Build()
+  fullName.vb: Aci.Collections.Heap(Of TItem).Build()
+  nameWithType: Heap<TItem>.Build()
+  nameWithType.vb: Heap(Of TItem).Build()
+- uid: Aci.Collections.Heap`1.Build*
+  name: Build
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Build_
+  commentId: Overload:Aci.Collections.Heap`1.Build
+  isSpec: "True"
+  fullName: Aci.Collections.Heap<TItem>.Build
+  fullName.vb: Aci.Collections.Heap(Of TItem).Build
+  nameWithType: Heap<TItem>.Build
+  nameWithType.vb: Heap(Of TItem).Build
+- uid: Aci.Collections.Heap`1.Clear
+  name: Clear()
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Clear
+  commentId: M:Aci.Collections.Heap`1.Clear
+  fullName: Aci.Collections.Heap<TItem>.Clear()
+  fullName.vb: Aci.Collections.Heap(Of TItem).Clear()
+  nameWithType: Heap<TItem>.Clear()
+  nameWithType.vb: Heap(Of TItem).Clear()
+- uid: Aci.Collections.Heap`1.Clear*
+  name: Clear
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Clear_
+  commentId: Overload:Aci.Collections.Heap`1.Clear
+  isSpec: "True"
+  fullName: Aci.Collections.Heap<TItem>.Clear
+  fullName.vb: Aci.Collections.Heap(Of TItem).Clear
+  nameWithType: Heap<TItem>.Clear
+  nameWithType.vb: Heap(Of TItem).Clear
+- uid: Aci.Collections.Heap`1.Contains(`0)
+  name: Contains(TItem)
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Contains__0_
+  commentId: M:Aci.Collections.Heap`1.Contains(`0)
+  fullName: Aci.Collections.Heap<TItem>.Contains(TItem)
+  fullName.vb: Aci.Collections.Heap(Of TItem).Contains(TItem)
+  nameWithType: Heap<TItem>.Contains(TItem)
+  nameWithType.vb: Heap(Of TItem).Contains(TItem)
+- uid: Aci.Collections.Heap`1.Contains*
+  name: Contains
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Contains_
+  commentId: Overload:Aci.Collections.Heap`1.Contains
+  isSpec: "True"
+  fullName: Aci.Collections.Heap<TItem>.Contains
+  fullName.vb: Aci.Collections.Heap(Of TItem).Contains
+  nameWithType: Heap<TItem>.Contains
+  nameWithType.vb: Heap(Of TItem).Contains
+- uid: Aci.Collections.Heap`1.Count
+  name: Count
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Count
+  commentId: P:Aci.Collections.Heap`1.Count
+  fullName: Aci.Collections.Heap<TItem>.Count
+  fullName.vb: Aci.Collections.Heap(Of TItem).Count
+  nameWithType: Heap<TItem>.Count
+  nameWithType.vb: Heap(Of TItem).Count
+- uid: Aci.Collections.Heap`1.Count*
+  name: Count
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Count_
+  commentId: Overload:Aci.Collections.Heap`1.Count
+  isSpec: "True"
+  fullName: Aci.Collections.Heap<TItem>.Count
+  fullName.vb: Aci.Collections.Heap(Of TItem).Count
+  nameWithType: Heap<TItem>.Count
+  nameWithType.vb: Heap(Of TItem).Count
+- uid: Aci.Collections.Heap`1.EnsureCapacity(System.Int32)
+  name: EnsureCapacity(Int32)
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_EnsureCapacity_System_Int32_
+  commentId: M:Aci.Collections.Heap`1.EnsureCapacity(System.Int32)
+  fullName: Aci.Collections.Heap<TItem>.EnsureCapacity(System.Int32)
+  fullName.vb: Aci.Collections.Heap(Of TItem).EnsureCapacity(System.Int32)
+  nameWithType: Heap<TItem>.EnsureCapacity(Int32)
+  nameWithType.vb: Heap(Of TItem).EnsureCapacity(Int32)
+- uid: Aci.Collections.Heap`1.EnsureCapacity*
+  name: EnsureCapacity
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_EnsureCapacity_
+  commentId: Overload:Aci.Collections.Heap`1.EnsureCapacity
+  isSpec: "True"
+  fullName: Aci.Collections.Heap<TItem>.EnsureCapacity
+  fullName.vb: Aci.Collections.Heap(Of TItem).EnsureCapacity
+  nameWithType: Heap<TItem>.EnsureCapacity
+  nameWithType.vb: Heap(Of TItem).EnsureCapacity
+- uid: Aci.Collections.Heap`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_GetEnumerator
+  commentId: M:Aci.Collections.Heap`1.GetEnumerator
+  fullName: Aci.Collections.Heap<TItem>.GetEnumerator()
+  fullName.vb: Aci.Collections.Heap(Of TItem).GetEnumerator()
+  nameWithType: Heap<TItem>.GetEnumerator()
+  nameWithType.vb: Heap(Of TItem).GetEnumerator()
+- uid: Aci.Collections.Heap`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_GetEnumerator_
+  commentId: Overload:Aci.Collections.Heap`1.GetEnumerator
+  isSpec: "True"
+  fullName: Aci.Collections.Heap<TItem>.GetEnumerator
+  fullName.vb: Aci.Collections.Heap(Of TItem).GetEnumerator
+  nameWithType: Heap<TItem>.GetEnumerator
+  nameWithType.vb: Heap(Of TItem).GetEnumerator
+- uid: Aci.Collections.Heap`1.GetLeftChildIndex(System.Int32)
+  name: GetLeftChildIndex(Int32)
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_GetLeftChildIndex_System_Int32_
+  commentId: M:Aci.Collections.Heap`1.GetLeftChildIndex(System.Int32)
+  fullName: Aci.Collections.Heap<TItem>.GetLeftChildIndex(System.Int32)
+  fullName.vb: Aci.Collections.Heap(Of TItem).GetLeftChildIndex(System.Int32)
+  nameWithType: Heap<TItem>.GetLeftChildIndex(Int32)
+  nameWithType.vb: Heap(Of TItem).GetLeftChildIndex(Int32)
+- uid: Aci.Collections.Heap`1.GetLeftChildIndex*
+  name: GetLeftChildIndex
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_GetLeftChildIndex_
+  commentId: Overload:Aci.Collections.Heap`1.GetLeftChildIndex
+  isSpec: "True"
+  fullName: Aci.Collections.Heap<TItem>.GetLeftChildIndex
+  fullName.vb: Aci.Collections.Heap(Of TItem).GetLeftChildIndex
+  nameWithType: Heap<TItem>.GetLeftChildIndex
+  nameWithType.vb: Heap(Of TItem).GetLeftChildIndex
+- uid: Aci.Collections.Heap`1.GetParentIndex(System.Int32)
+  name: GetParentIndex(Int32)
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_GetParentIndex_System_Int32_
+  commentId: M:Aci.Collections.Heap`1.GetParentIndex(System.Int32)
+  fullName: Aci.Collections.Heap<TItem>.GetParentIndex(System.Int32)
+  fullName.vb: Aci.Collections.Heap(Of TItem).GetParentIndex(System.Int32)
+  nameWithType: Heap<TItem>.GetParentIndex(Int32)
+  nameWithType.vb: Heap(Of TItem).GetParentIndex(Int32)
+- uid: Aci.Collections.Heap`1.GetParentIndex*
+  name: GetParentIndex
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_GetParentIndex_
+  commentId: Overload:Aci.Collections.Heap`1.GetParentIndex
+  isSpec: "True"
+  fullName: Aci.Collections.Heap<TItem>.GetParentIndex
+  fullName.vb: Aci.Collections.Heap(Of TItem).GetParentIndex
+  nameWithType: Heap<TItem>.GetParentIndex
+  nameWithType.vb: Heap(Of TItem).GetParentIndex
+- uid: Aci.Collections.Heap`1.GetRightChildIndex(System.Int32)
+  name: GetRightChildIndex(Int32)
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_GetRightChildIndex_System_Int32_
+  commentId: M:Aci.Collections.Heap`1.GetRightChildIndex(System.Int32)
+  fullName: Aci.Collections.Heap<TItem>.GetRightChildIndex(System.Int32)
+  fullName.vb: Aci.Collections.Heap(Of TItem).GetRightChildIndex(System.Int32)
+  nameWithType: Heap<TItem>.GetRightChildIndex(Int32)
+  nameWithType.vb: Heap(Of TItem).GetRightChildIndex(Int32)
+- uid: Aci.Collections.Heap`1.GetRightChildIndex*
+  name: GetRightChildIndex
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_GetRightChildIndex_
+  commentId: Overload:Aci.Collections.Heap`1.GetRightChildIndex
+  isSpec: "True"
+  fullName: Aci.Collections.Heap<TItem>.GetRightChildIndex
+  fullName.vb: Aci.Collections.Heap(Of TItem).GetRightChildIndex
+  nameWithType: Heap<TItem>.GetRightChildIndex
+  nameWithType.vb: Heap(Of TItem).GetRightChildIndex
+- uid: Aci.Collections.Heap`1.HeapifyDown(System.Int32)
+  name: HeapifyDown(Int32)
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_HeapifyDown_System_Int32_
+  commentId: M:Aci.Collections.Heap`1.HeapifyDown(System.Int32)
+  fullName: Aci.Collections.Heap<TItem>.HeapifyDown(System.Int32)
+  fullName.vb: Aci.Collections.Heap(Of TItem).HeapifyDown(System.Int32)
+  nameWithType: Heap<TItem>.HeapifyDown(Int32)
+  nameWithType.vb: Heap(Of TItem).HeapifyDown(Int32)
+- uid: Aci.Collections.Heap`1.HeapifyDown*
+  name: HeapifyDown
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_HeapifyDown_
+  commentId: Overload:Aci.Collections.Heap`1.HeapifyDown
+  isSpec: "True"
+  fullName: Aci.Collections.Heap<TItem>.HeapifyDown
+  fullName.vb: Aci.Collections.Heap(Of TItem).HeapifyDown
+  nameWithType: Heap<TItem>.HeapifyDown
+  nameWithType.vb: Heap(Of TItem).HeapifyDown
+- uid: Aci.Collections.Heap`1.HeapifyUp(System.Int32)
+  name: HeapifyUp(Int32)
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_HeapifyUp_System_Int32_
+  commentId: M:Aci.Collections.Heap`1.HeapifyUp(System.Int32)
+  fullName: Aci.Collections.Heap<TItem>.HeapifyUp(System.Int32)
+  fullName.vb: Aci.Collections.Heap(Of TItem).HeapifyUp(System.Int32)
+  nameWithType: Heap<TItem>.HeapifyUp(Int32)
+  nameWithType.vb: Heap(Of TItem).HeapifyUp(Int32)
+- uid: Aci.Collections.Heap`1.HeapifyUp*
+  name: HeapifyUp
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_HeapifyUp_
+  commentId: Overload:Aci.Collections.Heap`1.HeapifyUp
+  isSpec: "True"
+  fullName: Aci.Collections.Heap<TItem>.HeapifyUp
+  fullName.vb: Aci.Collections.Heap(Of TItem).HeapifyUp
+  nameWithType: Heap<TItem>.HeapifyUp
+  nameWithType.vb: Heap(Of TItem).HeapifyUp
+- uid: Aci.Collections.Heap`1.IsReadOnly
+  name: IsReadOnly
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_IsReadOnly
+  commentId: P:Aci.Collections.Heap`1.IsReadOnly
+  fullName: Aci.Collections.Heap<TItem>.IsReadOnly
+  fullName.vb: Aci.Collections.Heap(Of TItem).IsReadOnly
+  nameWithType: Heap<TItem>.IsReadOnly
+  nameWithType.vb: Heap(Of TItem).IsReadOnly
+- uid: Aci.Collections.Heap`1.IsReadOnly*
+  name: IsReadOnly
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_IsReadOnly_
+  commentId: Overload:Aci.Collections.Heap`1.IsReadOnly
+  isSpec: "True"
+  fullName: Aci.Collections.Heap<TItem>.IsReadOnly
+  fullName.vb: Aci.Collections.Heap(Of TItem).IsReadOnly
+  nameWithType: Heap<TItem>.IsReadOnly
+  nameWithType.vb: Heap(Of TItem).IsReadOnly
+- uid: Aci.Collections.Heap`1.m_Items
+  name: m_Items
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_m_Items
+  commentId: F:Aci.Collections.Heap`1.m_Items
+  fullName: Aci.Collections.Heap<TItem>.m_Items
+  fullName.vb: Aci.Collections.Heap(Of TItem).m_Items
+  nameWithType: Heap<TItem>.m_Items
+  nameWithType.vb: Heap(Of TItem).m_Items
+- uid: Aci.Collections.Heap`1.m_Size
+  name: m_Size
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_m_Size
+  commentId: F:Aci.Collections.Heap`1.m_Size
+  fullName: Aci.Collections.Heap<TItem>.m_Size
+  fullName.vb: Aci.Collections.Heap(Of TItem).m_Size
+  nameWithType: Heap<TItem>.m_Size
+  nameWithType.vb: Heap(Of TItem).m_Size
+- uid: Aci.Collections.Heap`1.Peek
+  name: Peek()
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Peek
+  commentId: M:Aci.Collections.Heap`1.Peek
+  fullName: Aci.Collections.Heap<TItem>.Peek()
+  fullName.vb: Aci.Collections.Heap(Of TItem).Peek()
+  nameWithType: Heap<TItem>.Peek()
+  nameWithType.vb: Heap(Of TItem).Peek()
+- uid: Aci.Collections.Heap`1.Peek*
+  name: Peek
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Peek_
+  commentId: Overload:Aci.Collections.Heap`1.Peek
+  isSpec: "True"
+  fullName: Aci.Collections.Heap<TItem>.Peek
+  fullName.vb: Aci.Collections.Heap(Of TItem).Peek
+  nameWithType: Heap<TItem>.Peek
+  nameWithType.vb: Heap(Of TItem).Peek
+- uid: Aci.Collections.Heap`1.Pop
+  name: Pop()
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Pop
+  commentId: M:Aci.Collections.Heap`1.Pop
+  fullName: Aci.Collections.Heap<TItem>.Pop()
+  fullName.vb: Aci.Collections.Heap(Of TItem).Pop()
+  nameWithType: Heap<TItem>.Pop()
+  nameWithType.vb: Heap(Of TItem).Pop()
+- uid: Aci.Collections.Heap`1.Pop*
+  name: Pop
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Pop_
+  commentId: Overload:Aci.Collections.Heap`1.Pop
+  isSpec: "True"
+  fullName: Aci.Collections.Heap<TItem>.Pop
+  fullName.vb: Aci.Collections.Heap(Of TItem).Pop
+  nameWithType: Heap<TItem>.Pop
+  nameWithType.vb: Heap(Of TItem).Pop
+- uid: Aci.Collections.Heap`1.Push(`0)
+  name: Push(TItem)
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Push__0_
+  commentId: M:Aci.Collections.Heap`1.Push(`0)
+  fullName: Aci.Collections.Heap<TItem>.Push(TItem)
+  fullName.vb: Aci.Collections.Heap(Of TItem).Push(TItem)
+  nameWithType: Heap<TItem>.Push(TItem)
+  nameWithType.vb: Heap(Of TItem).Push(TItem)
+- uid: Aci.Collections.Heap`1.Push*
+  name: Push
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Push_
+  commentId: Overload:Aci.Collections.Heap`1.Push
+  isSpec: "True"
+  fullName: Aci.Collections.Heap<TItem>.Push
+  fullName.vb: Aci.Collections.Heap(Of TItem).Push
+  nameWithType: Heap<TItem>.Push
+  nameWithType.vb: Heap(Of TItem).Push
+- uid: Aci.Collections.Heap`1.Remove(`0)
+  name: Remove(TItem)
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Remove__0_
+  commentId: M:Aci.Collections.Heap`1.Remove(`0)
+  fullName: Aci.Collections.Heap<TItem>.Remove(TItem)
+  fullName.vb: Aci.Collections.Heap(Of TItem).Remove(TItem)
+  nameWithType: Heap<TItem>.Remove(TItem)
+  nameWithType.vb: Heap(Of TItem).Remove(TItem)
+- uid: Aci.Collections.Heap`1.Remove(System.Int32)
+  name: Remove(Int32)
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Remove_System_Int32_
+  commentId: M:Aci.Collections.Heap`1.Remove(System.Int32)
+  fullName: Aci.Collections.Heap<TItem>.Remove(System.Int32)
+  fullName.vb: Aci.Collections.Heap(Of TItem).Remove(System.Int32)
+  nameWithType: Heap<TItem>.Remove(Int32)
+  nameWithType.vb: Heap(Of TItem).Remove(Int32)
+- uid: Aci.Collections.Heap`1.Remove*
+  name: Remove
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Remove_
+  commentId: Overload:Aci.Collections.Heap`1.Remove
+  isSpec: "True"
+  fullName: Aci.Collections.Heap<TItem>.Remove
+  fullName.vb: Aci.Collections.Heap(Of TItem).Remove
+  nameWithType: Heap<TItem>.Remove
+  nameWithType.vb: Heap(Of TItem).Remove
+- uid: Aci.Collections.Heap`1.Swap(System.Int32,System.Int32)
+  name: Swap(Int32, Int32)
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Swap_System_Int32_System_Int32_
+  commentId: M:Aci.Collections.Heap`1.Swap(System.Int32,System.Int32)
+  fullName: Aci.Collections.Heap<TItem>.Swap(System.Int32, System.Int32)
+  fullName.vb: Aci.Collections.Heap(Of TItem).Swap(System.Int32, System.Int32)
+  nameWithType: Heap<TItem>.Swap(Int32, Int32)
+  nameWithType.vb: Heap(Of TItem).Swap(Int32, Int32)
+- uid: Aci.Collections.Heap`1.Swap*
+  name: Swap
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_Swap_
+  commentId: Overload:Aci.Collections.Heap`1.Swap
+  isSpec: "True"
+  fullName: Aci.Collections.Heap<TItem>.Swap
+  fullName.vb: Aci.Collections.Heap(Of TItem).Swap
+  nameWithType: Heap<TItem>.Swap
+  nameWithType.vb: Heap(Of TItem).Swap
+- uid: Aci.Collections.MaxHeap`1
+  name: MaxHeap<TItem>
+  href: api/Aci.Collections.MaxHeap-1.html
+  commentId: T:Aci.Collections.MaxHeap`1
+  name.vb: MaxHeap(Of TItem)
+  fullName: Aci.Collections.MaxHeap<TItem>
+  fullName.vb: Aci.Collections.MaxHeap(Of TItem)
+  nameWithType: MaxHeap<TItem>
+  nameWithType.vb: MaxHeap(Of TItem)
+- uid: Aci.Collections.MaxHeap`1.#ctor
+  name: MaxHeap()
+  href: api/Aci.Collections.MaxHeap-1.html#Aci_Collections_MaxHeap_1__ctor
+  commentId: M:Aci.Collections.MaxHeap`1.#ctor
+  fullName: Aci.Collections.MaxHeap<TItem>.MaxHeap()
+  fullName.vb: Aci.Collections.MaxHeap(Of TItem).MaxHeap()
+  nameWithType: MaxHeap<TItem>.MaxHeap()
+  nameWithType.vb: MaxHeap(Of TItem).MaxHeap()
+- uid: Aci.Collections.MaxHeap`1.#ctor(System.Int32)
+  name: MaxHeap(Int32)
+  href: api/Aci.Collections.MaxHeap-1.html#Aci_Collections_MaxHeap_1__ctor_System_Int32_
+  commentId: M:Aci.Collections.MaxHeap`1.#ctor(System.Int32)
+  fullName: Aci.Collections.MaxHeap<TItem>.MaxHeap(System.Int32)
+  fullName.vb: Aci.Collections.MaxHeap(Of TItem).MaxHeap(System.Int32)
+  nameWithType: MaxHeap<TItem>.MaxHeap(Int32)
+  nameWithType.vb: MaxHeap(Of TItem).MaxHeap(Int32)
+- uid: Aci.Collections.MaxHeap`1.#ctor*
+  name: MaxHeap
+  href: api/Aci.Collections.MaxHeap-1.html#Aci_Collections_MaxHeap_1__ctor_
+  commentId: Overload:Aci.Collections.MaxHeap`1.#ctor
+  isSpec: "True"
+  fullName: Aci.Collections.MaxHeap<TItem>.MaxHeap
+  fullName.vb: Aci.Collections.MaxHeap(Of TItem).MaxHeap
+  nameWithType: MaxHeap<TItem>.MaxHeap
+  nameWithType.vb: MaxHeap(Of TItem).MaxHeap
+- uid: Aci.Collections.MaxHeap`1.Build
+  name: Build()
+  href: api/Aci.Collections.MaxHeap-1.html#Aci_Collections_MaxHeap_1_Build
+  commentId: M:Aci.Collections.MaxHeap`1.Build
+  fullName: Aci.Collections.MaxHeap<TItem>.Build()
+  fullName.vb: Aci.Collections.MaxHeap(Of TItem).Build()
+  nameWithType: MaxHeap<TItem>.Build()
+  nameWithType.vb: MaxHeap(Of TItem).Build()
+- uid: Aci.Collections.MaxHeap`1.Build*
+  name: Build
+  href: api/Aci.Collections.MaxHeap-1.html#Aci_Collections_MaxHeap_1_Build_
+  commentId: Overload:Aci.Collections.MaxHeap`1.Build
+  isSpec: "True"
+  fullName: Aci.Collections.MaxHeap<TItem>.Build
+  fullName.vb: Aci.Collections.MaxHeap(Of TItem).Build
+  nameWithType: MaxHeap<TItem>.Build
+  nameWithType.vb: MaxHeap(Of TItem).Build
+- uid: Aci.Collections.MaxHeap`1.HeapifyDown(System.Int32)
+  name: HeapifyDown(Int32)
+  href: api/Aci.Collections.MaxHeap-1.html#Aci_Collections_MaxHeap_1_HeapifyDown_System_Int32_
+  commentId: M:Aci.Collections.MaxHeap`1.HeapifyDown(System.Int32)
+  fullName: Aci.Collections.MaxHeap<TItem>.HeapifyDown(System.Int32)
+  fullName.vb: Aci.Collections.MaxHeap(Of TItem).HeapifyDown(System.Int32)
+  nameWithType: MaxHeap<TItem>.HeapifyDown(Int32)
+  nameWithType.vb: MaxHeap(Of TItem).HeapifyDown(Int32)
+- uid: Aci.Collections.MaxHeap`1.HeapifyDown*
+  name: HeapifyDown
+  href: api/Aci.Collections.MaxHeap-1.html#Aci_Collections_MaxHeap_1_HeapifyDown_
+  commentId: Overload:Aci.Collections.MaxHeap`1.HeapifyDown
+  isSpec: "True"
+  fullName: Aci.Collections.MaxHeap<TItem>.HeapifyDown
+  fullName.vb: Aci.Collections.MaxHeap(Of TItem).HeapifyDown
+  nameWithType: MaxHeap<TItem>.HeapifyDown
+  nameWithType.vb: MaxHeap(Of TItem).HeapifyDown
+- uid: Aci.Collections.MaxHeap`1.HeapifyUp(System.Int32)
+  name: HeapifyUp(Int32)
+  href: api/Aci.Collections.MaxHeap-1.html#Aci_Collections_MaxHeap_1_HeapifyUp_System_Int32_
+  commentId: M:Aci.Collections.MaxHeap`1.HeapifyUp(System.Int32)
+  fullName: Aci.Collections.MaxHeap<TItem>.HeapifyUp(System.Int32)
+  fullName.vb: Aci.Collections.MaxHeap(Of TItem).HeapifyUp(System.Int32)
+  nameWithType: MaxHeap<TItem>.HeapifyUp(Int32)
+  nameWithType.vb: MaxHeap(Of TItem).HeapifyUp(Int32)
+- uid: Aci.Collections.MaxHeap`1.HeapifyUp*
+  name: HeapifyUp
+  href: api/Aci.Collections.MaxHeap-1.html#Aci_Collections_MaxHeap_1_HeapifyUp_
+  commentId: Overload:Aci.Collections.MaxHeap`1.HeapifyUp
+  isSpec: "True"
+  fullName: Aci.Collections.MaxHeap<TItem>.HeapifyUp
+  fullName.vb: Aci.Collections.MaxHeap(Of TItem).HeapifyUp
+  nameWithType: MaxHeap<TItem>.HeapifyUp
+  nameWithType.vb: MaxHeap(Of TItem).HeapifyUp
+- uid: Aci.Collections.SerializedDictionary`2
+  name: SerializedDictionary<TKey, TValue>
+  href: api/Aci.Collections.SerializedDictionary-2.html
+  commentId: T:Aci.Collections.SerializedDictionary`2
+  name.vb: SerializedDictionary(Of TKey, TValue)
+  fullName: Aci.Collections.SerializedDictionary<TKey, TValue>
+  fullName.vb: Aci.Collections.SerializedDictionary(Of TKey, TValue)
+  nameWithType: SerializedDictionary<TKey, TValue>
+  nameWithType.vb: SerializedDictionary(Of TKey, TValue)
+- uid: Aci.Collections.SerializedDictionary`2.dictionary
+  name: dictionary
+  href: api/Aci.Collections.SerializedDictionary-2.html#Aci_Collections_SerializedDictionary_2_dictionary
+  commentId: P:Aci.Collections.SerializedDictionary`2.dictionary
+  fullName: Aci.Collections.SerializedDictionary<TKey, TValue>.dictionary
+  fullName.vb: Aci.Collections.SerializedDictionary(Of TKey, TValue).dictionary
+  nameWithType: SerializedDictionary<TKey, TValue>.dictionary
+  nameWithType.vb: SerializedDictionary(Of TKey, TValue).dictionary
+- uid: Aci.Collections.SerializedDictionary`2.dictionary*
+  name: dictionary
+  href: api/Aci.Collections.SerializedDictionary-2.html#Aci_Collections_SerializedDictionary_2_dictionary_
+  commentId: Overload:Aci.Collections.SerializedDictionary`2.dictionary
+  isSpec: "True"
+  fullName: Aci.Collections.SerializedDictionary<TKey, TValue>.dictionary
+  fullName.vb: Aci.Collections.SerializedDictionary(Of TKey, TValue).dictionary
+  nameWithType: SerializedDictionary<TKey, TValue>.dictionary
+  nameWithType.vb: SerializedDictionary(Of TKey, TValue).dictionary
+- uid: Aci.Collections.SerializedDictionary`2.OnAfterDeserialize
+  name: OnAfterDeserialize()
+  href: api/Aci.Collections.SerializedDictionary-2.html#Aci_Collections_SerializedDictionary_2_OnAfterDeserialize
+  commentId: M:Aci.Collections.SerializedDictionary`2.OnAfterDeserialize
+  fullName: Aci.Collections.SerializedDictionary<TKey, TValue>.OnAfterDeserialize()
+  fullName.vb: Aci.Collections.SerializedDictionary(Of TKey, TValue).OnAfterDeserialize()
+  nameWithType: SerializedDictionary<TKey, TValue>.OnAfterDeserialize()
+  nameWithType.vb: SerializedDictionary(Of TKey, TValue).OnAfterDeserialize()
+- uid: Aci.Collections.SerializedDictionary`2.OnAfterDeserialize*
+  name: OnAfterDeserialize
+  href: api/Aci.Collections.SerializedDictionary-2.html#Aci_Collections_SerializedDictionary_2_OnAfterDeserialize_
+  commentId: Overload:Aci.Collections.SerializedDictionary`2.OnAfterDeserialize
+  isSpec: "True"
+  fullName: Aci.Collections.SerializedDictionary<TKey, TValue>.OnAfterDeserialize
+  fullName.vb: Aci.Collections.SerializedDictionary(Of TKey, TValue).OnAfterDeserialize
+  nameWithType: SerializedDictionary<TKey, TValue>.OnAfterDeserialize
+  nameWithType.vb: SerializedDictionary(Of TKey, TValue).OnAfterDeserialize
+- uid: Aci.Collections.SerializedDictionary`2.OnBeforeSerialize
+  name: OnBeforeSerialize()
+  href: api/Aci.Collections.SerializedDictionary-2.html#Aci_Collections_SerializedDictionary_2_OnBeforeSerialize
+  commentId: M:Aci.Collections.SerializedDictionary`2.OnBeforeSerialize
+  fullName: Aci.Collections.SerializedDictionary<TKey, TValue>.OnBeforeSerialize()
+  fullName.vb: Aci.Collections.SerializedDictionary(Of TKey, TValue).OnBeforeSerialize()
+  nameWithType: SerializedDictionary<TKey, TValue>.OnBeforeSerialize()
+  nameWithType.vb: SerializedDictionary(Of TKey, TValue).OnBeforeSerialize()
+- uid: Aci.Collections.SerializedDictionary`2.OnBeforeSerialize*
+  name: OnBeforeSerialize
+  href: api/Aci.Collections.SerializedDictionary-2.html#Aci_Collections_SerializedDictionary_2_OnBeforeSerialize_
+  commentId: Overload:Aci.Collections.SerializedDictionary`2.OnBeforeSerialize
+  isSpec: "True"
+  fullName: Aci.Collections.SerializedDictionary<TKey, TValue>.OnBeforeSerialize
+  fullName.vb: Aci.Collections.SerializedDictionary(Of TKey, TValue).OnBeforeSerialize
+  nameWithType: SerializedDictionary<TKey, TValue>.OnBeforeSerialize
+  nameWithType.vb: SerializedDictionary(Of TKey, TValue).OnBeforeSerialize
+- uid: Aci.UI.Collections
+  name: Aci.UI.Collections
+  href: api/Aci.UI.Collections.html
+  commentId: N:Aci.UI.Collections
+  fullName: Aci.UI.Collections
+  nameWithType: Aci.UI.Collections
+- uid: Aci.UI.Collections.Pool`1
+  name: Pool<T>
+  href: api/Aci.UI.Collections.Pool-1.html
+  commentId: T:Aci.UI.Collections.Pool`1
+  name.vb: Pool(Of T)
+  fullName: Aci.UI.Collections.Pool<T>
+  fullName.vb: Aci.UI.Collections.Pool(Of T)
+  nameWithType: Pool<T>
+  nameWithType.vb: Pool(Of T)
+- uid: Aci.UI.Collections.Pool`1.#ctor(System.Func{`0})
+  name: Pool(Func<T>)
+  href: api/Aci.UI.Collections.Pool-1.html#Aci_UI_Collections_Pool_1__ctor_System_Func__0__
+  commentId: M:Aci.UI.Collections.Pool`1.#ctor(System.Func{`0})
+  name.vb: Pool(Func(Of T))
+  fullName: Aci.UI.Collections.Pool<T>.Pool(System.Func<T>)
+  fullName.vb: Aci.UI.Collections.Pool(Of T).Pool(System.Func(Of T))
+  nameWithType: Pool<T>.Pool(Func<T>)
+  nameWithType.vb: Pool(Of T).Pool(Func(Of T))
+- uid: Aci.UI.Collections.Pool`1.#ctor(System.Func{`0},System.Int32)
+  name: Pool(Func<T>, Int32)
+  href: api/Aci.UI.Collections.Pool-1.html#Aci_UI_Collections_Pool_1__ctor_System_Func__0__System_Int32_
+  commentId: M:Aci.UI.Collections.Pool`1.#ctor(System.Func{`0},System.Int32)
+  name.vb: Pool(Func(Of T), Int32)
+  fullName: Aci.UI.Collections.Pool<T>.Pool(System.Func<T>, System.Int32)
+  fullName.vb: Aci.UI.Collections.Pool(Of T).Pool(System.Func(Of T), System.Int32)
+  nameWithType: Pool<T>.Pool(Func<T>, Int32)
+  nameWithType.vb: Pool(Of T).Pool(Func(Of T), Int32)
+- uid: Aci.UI.Collections.Pool`1.#ctor*
+  name: Pool
+  href: api/Aci.UI.Collections.Pool-1.html#Aci_UI_Collections_Pool_1__ctor_
+  commentId: Overload:Aci.UI.Collections.Pool`1.#ctor
+  isSpec: "True"
+  fullName: Aci.UI.Collections.Pool<T>.Pool
+  fullName.vb: Aci.UI.Collections.Pool(Of T).Pool
+  nameWithType: Pool<T>.Pool
+  nameWithType.vb: Pool(Of T).Pool
+- uid: Aci.UI.Collections.Pool`1.Clear
+  name: Clear()
+  href: api/Aci.UI.Collections.Pool-1.html#Aci_UI_Collections_Pool_1_Clear
+  commentId: M:Aci.UI.Collections.Pool`1.Clear
+  fullName: Aci.UI.Collections.Pool<T>.Clear()
+  fullName.vb: Aci.UI.Collections.Pool(Of T).Clear()
+  nameWithType: Pool<T>.Clear()
+  nameWithType.vb: Pool(Of T).Clear()
+- uid: Aci.UI.Collections.Pool`1.Clear*
+  name: Clear
+  href: api/Aci.UI.Collections.Pool-1.html#Aci_UI_Collections_Pool_1_Clear_
+  commentId: Overload:Aci.UI.Collections.Pool`1.Clear
+  isSpec: "True"
+  fullName: Aci.UI.Collections.Pool<T>.Clear
+  fullName.vb: Aci.UI.Collections.Pool(Of T).Clear
+  nameWithType: Pool<T>.Clear
+  nameWithType.vb: Pool(Of T).Clear
+- uid: Aci.UI.Collections.Pool`1.Get
+  name: Get()
+  href: api/Aci.UI.Collections.Pool-1.html#Aci_UI_Collections_Pool_1_Get
+  commentId: M:Aci.UI.Collections.Pool`1.Get
+  fullName: Aci.UI.Collections.Pool<T>.Get()
+  fullName.vb: Aci.UI.Collections.Pool(Of T).Get()
+  nameWithType: Pool<T>.Get()
+  nameWithType.vb: Pool(Of T).Get()
+- uid: Aci.UI.Collections.Pool`1.Get*
+  name: Get
+  href: api/Aci.UI.Collections.Pool-1.html#Aci_UI_Collections_Pool_1_Get_
+  commentId: Overload:Aci.UI.Collections.Pool`1.Get
+  isSpec: "True"
+  fullName: Aci.UI.Collections.Pool<T>.Get
+  fullName.vb: Aci.UI.Collections.Pool(Of T).Get
+  nameWithType: Pool<T>.Get
+  nameWithType.vb: Pool(Of T).Get
+- uid: Aci.UI.Collections.Pool`1.Return(`0)
+  name: Return(T)
+  href: api/Aci.UI.Collections.Pool-1.html#Aci_UI_Collections_Pool_1_Return__0_
+  commentId: M:Aci.UI.Collections.Pool`1.Return(`0)
+  fullName: Aci.UI.Collections.Pool<T>.Return(T)
+  fullName.vb: Aci.UI.Collections.Pool(Of T).Return(T)
+  nameWithType: Pool<T>.Return(T)
+  nameWithType.vb: Pool(Of T).Return(T)
+- uid: Aci.UI.Collections.Pool`1.Return*
+  name: Return
+  href: api/Aci.UI.Collections.Pool-1.html#Aci_UI_Collections_Pool_1_Return_
+  commentId: Overload:Aci.UI.Collections.Pool`1.Return
+  isSpec: "True"
+  fullName: Aci.UI.Collections.Pool<T>.Return
+  fullName.vb: Aci.UI.Collections.Pool(Of T).Return
+  nameWithType: Pool<T>.Return
+  nameWithType.vb: Pool(Of T).Return
 - uid: Aci.Unity.Events
   name: Aci.Unity.Events
   href: api/Aci.Unity.Events.html
@@ -2025,260 +2616,304 @@ references:
   commentId: N:Aci.Unity.UI.Dialog
   fullName: Aci.Unity.UI.Dialog
   nameWithType: Aci.Unity.UI.Dialog
-- uid: Aci.Unity.UI.Dialog.ActivityIndicatorDialog
-  name: ActivityIndicatorDialog
-  href: api/Aci.Unity.UI.Dialog.ActivityIndicatorDialog.html
-  commentId: T:Aci.Unity.UI.Dialog.ActivityIndicatorDialog
-  fullName: Aci.Unity.UI.Dialog.ActivityIndicatorDialog
-  nameWithType: ActivityIndicatorDialog
-- uid: Aci.Unity.UI.Dialog.ActivityIndicatorDialog.Initialize(System.String)
-  name: Initialize(String)
-  href: api/Aci.Unity.UI.Dialog.ActivityIndicatorDialog.html#Aci_Unity_UI_Dialog_ActivityIndicatorDialog_Initialize_System_String_
-  commentId: M:Aci.Unity.UI.Dialog.ActivityIndicatorDialog.Initialize(System.String)
-  fullName: Aci.Unity.UI.Dialog.ActivityIndicatorDialog.Initialize(System.String)
-  nameWithType: ActivityIndicatorDialog.Initialize(String)
-- uid: Aci.Unity.UI.Dialog.ActivityIndicatorDialog.Initialize*
-  name: Initialize
-  href: api/Aci.Unity.UI.Dialog.ActivityIndicatorDialog.html#Aci_Unity_UI_Dialog_ActivityIndicatorDialog_Initialize_
-  commentId: Overload:Aci.Unity.UI.Dialog.ActivityIndicatorDialog.Initialize
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Dialog.ActivityIndicatorDialog.Initialize
-  nameWithType: ActivityIndicatorDialog.Initialize
-- uid: Aci.Unity.UI.Dialog.ActivityIndicatorFactory
-  name: ActivityIndicatorFactory
-  href: api/Aci.Unity.UI.Dialog.ActivityIndicatorFactory.html
-  commentId: T:Aci.Unity.UI.Dialog.ActivityIndicatorFactory
-  fullName: Aci.Unity.UI.Dialog.ActivityIndicatorFactory
-  nameWithType: ActivityIndicatorFactory
-- uid: Aci.Unity.UI.Dialog.ActivityIndicatorFactory.Create(System.String)
-  name: Create(String)
-  href: api/Aci.Unity.UI.Dialog.ActivityIndicatorFactory.html#Aci_Unity_UI_Dialog_ActivityIndicatorFactory_Create_System_String_
-  commentId: M:Aci.Unity.UI.Dialog.ActivityIndicatorFactory.Create(System.String)
-  fullName: Aci.Unity.UI.Dialog.ActivityIndicatorFactory.Create(System.String)
-  nameWithType: ActivityIndicatorFactory.Create(String)
-- uid: Aci.Unity.UI.Dialog.ActivityIndicatorFactory.Create*
-  name: Create
-  href: api/Aci.Unity.UI.Dialog.ActivityIndicatorFactory.html#Aci_Unity_UI_Dialog_ActivityIndicatorFactory_Create_
-  commentId: Overload:Aci.Unity.UI.Dialog.ActivityIndicatorFactory.Create
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Dialog.ActivityIndicatorFactory.Create
-  nameWithType: ActivityIndicatorFactory.Create
-- uid: Aci.Unity.UI.Dialog.ActivityIndicatorFactory.m_Prefab
-  name: m_Prefab
-  href: api/Aci.Unity.UI.Dialog.ActivityIndicatorFactory.html#Aci_Unity_UI_Dialog_ActivityIndicatorFactory_m_Prefab
-  commentId: F:Aci.Unity.UI.Dialog.ActivityIndicatorFactory.m_Prefab
-  fullName: Aci.Unity.UI.Dialog.ActivityIndicatorFactory.m_Prefab
-  nameWithType: ActivityIndicatorFactory.m_Prefab
-- uid: Aci.Unity.UI.Dialog.AlertDialog
-  name: AlertDialog
-  href: api/Aci.Unity.UI.Dialog.AlertDialog.html
-  commentId: T:Aci.Unity.UI.Dialog.AlertDialog
-  fullName: Aci.Unity.UI.Dialog.AlertDialog
-  nameWithType: AlertDialog
-- uid: Aci.Unity.UI.Dialog.AlertDialog.Initialize(System.String,System.String,System.String,System.String,System.Action,System.Action)
-  name: Initialize(String, String, String, String, Action, Action)
-  href: api/Aci.Unity.UI.Dialog.AlertDialog.html#Aci_Unity_UI_Dialog_AlertDialog_Initialize_System_String_System_String_System_String_System_String_System_Action_System_Action_
-  commentId: M:Aci.Unity.UI.Dialog.AlertDialog.Initialize(System.String,System.String,System.String,System.String,System.Action,System.Action)
-  fullName: Aci.Unity.UI.Dialog.AlertDialog.Initialize(System.String, System.String, System.String, System.String, System.Action, System.Action)
-  nameWithType: AlertDialog.Initialize(String, String, String, String, Action, Action)
-- uid: Aci.Unity.UI.Dialog.AlertDialog.Initialize*
-  name: Initialize
-  href: api/Aci.Unity.UI.Dialog.AlertDialog.html#Aci_Unity_UI_Dialog_AlertDialog_Initialize_
-  commentId: Overload:Aci.Unity.UI.Dialog.AlertDialog.Initialize
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Dialog.AlertDialog.Initialize
-  nameWithType: AlertDialog.Initialize
-- uid: Aci.Unity.UI.Dialog.AlertDialog.OnCancel
-  name: OnCancel()
-  href: api/Aci.Unity.UI.Dialog.AlertDialog.html#Aci_Unity_UI_Dialog_AlertDialog_OnCancel
-  commentId: M:Aci.Unity.UI.Dialog.AlertDialog.OnCancel
-  fullName: Aci.Unity.UI.Dialog.AlertDialog.OnCancel()
-  nameWithType: AlertDialog.OnCancel()
-- uid: Aci.Unity.UI.Dialog.AlertDialog.OnCancel*
-  name: OnCancel
-  href: api/Aci.Unity.UI.Dialog.AlertDialog.html#Aci_Unity_UI_Dialog_AlertDialog_OnCancel_
-  commentId: Overload:Aci.Unity.UI.Dialog.AlertDialog.OnCancel
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Dialog.AlertDialog.OnCancel
-  nameWithType: AlertDialog.OnCancel
-- uid: Aci.Unity.UI.Dialog.AlertDialog.OnConfirm
-  name: OnConfirm()
-  href: api/Aci.Unity.UI.Dialog.AlertDialog.html#Aci_Unity_UI_Dialog_AlertDialog_OnConfirm
-  commentId: M:Aci.Unity.UI.Dialog.AlertDialog.OnConfirm
-  fullName: Aci.Unity.UI.Dialog.AlertDialog.OnConfirm()
-  nameWithType: AlertDialog.OnConfirm()
-- uid: Aci.Unity.UI.Dialog.AlertDialog.OnConfirm*
-  name: OnConfirm
-  href: api/Aci.Unity.UI.Dialog.AlertDialog.html#Aci_Unity_UI_Dialog_AlertDialog_OnConfirm_
-  commentId: Overload:Aci.Unity.UI.Dialog.AlertDialog.OnConfirm
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Dialog.AlertDialog.OnConfirm
-  nameWithType: AlertDialog.OnConfirm
-- uid: Aci.Unity.UI.Dialog.AlertDialogFactory
-  name: AlertDialogFactory
-  href: api/Aci.Unity.UI.Dialog.AlertDialogFactory.html
-  commentId: T:Aci.Unity.UI.Dialog.AlertDialogFactory
-  fullName: Aci.Unity.UI.Dialog.AlertDialogFactory
-  nameWithType: AlertDialogFactory
-- uid: Aci.Unity.UI.Dialog.AlertDialogFactory.Create(System.String,System.String,System.String,System.String,System.Action,System.Action)
-  name: Create(String, String, String, String, Action, Action)
-  href: api/Aci.Unity.UI.Dialog.AlertDialogFactory.html#Aci_Unity_UI_Dialog_AlertDialogFactory_Create_System_String_System_String_System_String_System_String_System_Action_System_Action_
-  commentId: M:Aci.Unity.UI.Dialog.AlertDialogFactory.Create(System.String,System.String,System.String,System.String,System.Action,System.Action)
-  fullName: Aci.Unity.UI.Dialog.AlertDialogFactory.Create(System.String, System.String, System.String, System.String, System.Action, System.Action)
-  nameWithType: AlertDialogFactory.Create(String, String, String, String, Action, Action)
-- uid: Aci.Unity.UI.Dialog.AlertDialogFactory.Create*
-  name: Create
-  href: api/Aci.Unity.UI.Dialog.AlertDialogFactory.html#Aci_Unity_UI_Dialog_AlertDialogFactory_Create_
-  commentId: Overload:Aci.Unity.UI.Dialog.AlertDialogFactory.Create
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Dialog.AlertDialogFactory.Create
-  nameWithType: AlertDialogFactory.Create
-- uid: Aci.Unity.UI.Dialog.DialogBase
-  name: DialogBase
-  href: api/Aci.Unity.UI.Dialog.DialogBase.html
-  commentId: T:Aci.Unity.UI.Dialog.DialogBase
-  fullName: Aci.Unity.UI.Dialog.DialogBase
-  nameWithType: DialogBase
-- uid: Aci.Unity.UI.Dialog.DialogBase.Awake
-  name: Awake()
-  href: api/Aci.Unity.UI.Dialog.DialogBase.html#Aci_Unity_UI_Dialog_DialogBase_Awake
-  commentId: M:Aci.Unity.UI.Dialog.DialogBase.Awake
-  fullName: Aci.Unity.UI.Dialog.DialogBase.Awake()
-  nameWithType: DialogBase.Awake()
-- uid: Aci.Unity.UI.Dialog.DialogBase.Awake*
-  name: Awake
-  href: api/Aci.Unity.UI.Dialog.DialogBase.html#Aci_Unity_UI_Dialog_DialogBase_Awake_
-  commentId: Overload:Aci.Unity.UI.Dialog.DialogBase.Awake
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Dialog.DialogBase.Awake
-  nameWithType: DialogBase.Awake
-- uid: Aci.Unity.UI.Dialog.DialogBase.Dismiss
-  name: Dismiss()
-  href: api/Aci.Unity.UI.Dialog.DialogBase.html#Aci_Unity_UI_Dialog_DialogBase_Dismiss
-  commentId: M:Aci.Unity.UI.Dialog.DialogBase.Dismiss
-  fullName: Aci.Unity.UI.Dialog.DialogBase.Dismiss()
-  nameWithType: DialogBase.Dismiss()
-- uid: Aci.Unity.UI.Dialog.DialogBase.Dismiss*
+- uid: Aci.Unity.UI.Dialog.DialogComponent
+  name: DialogComponent
+  href: api/Aci.Unity.UI.Dialog.DialogComponent.html
+  commentId: T:Aci.Unity.UI.Dialog.DialogComponent
+  fullName: Aci.Unity.UI.Dialog.DialogComponent
+  nameWithType: DialogComponent
+- uid: Aci.Unity.UI.Dialog.DialogComponent.Dismiss(System.Boolean)
+  name: Dismiss(Boolean)
+  href: api/Aci.Unity.UI.Dialog.DialogComponent.html#Aci_Unity_UI_Dialog_DialogComponent_Dismiss_System_Boolean_
+  commentId: M:Aci.Unity.UI.Dialog.DialogComponent.Dismiss(System.Boolean)
+  fullName: Aci.Unity.UI.Dialog.DialogComponent.Dismiss(System.Boolean)
+  nameWithType: DialogComponent.Dismiss(Boolean)
+- uid: Aci.Unity.UI.Dialog.DialogComponent.Dismiss*
   name: Dismiss
-  href: api/Aci.Unity.UI.Dialog.DialogBase.html#Aci_Unity_UI_Dialog_DialogBase_Dismiss_
-  commentId: Overload:Aci.Unity.UI.Dialog.DialogBase.Dismiss
+  href: api/Aci.Unity.UI.Dialog.DialogComponent.html#Aci_Unity_UI_Dialog_DialogComponent_Dismiss_
+  commentId: Overload:Aci.Unity.UI.Dialog.DialogComponent.Dismiss
   isSpec: "True"
-  fullName: Aci.Unity.UI.Dialog.DialogBase.Dismiss
-  nameWithType: DialogBase.Dismiss
-- uid: Aci.Unity.UI.Dialog.DialogBase.Dismissed
-  name: Dismissed
-  href: api/Aci.Unity.UI.Dialog.DialogBase.html#Aci_Unity_UI_Dialog_DialogBase_Dismissed
-  commentId: E:Aci.Unity.UI.Dialog.DialogBase.Dismissed
-  fullName: Aci.Unity.UI.Dialog.DialogBase.Dismissed
-  nameWithType: DialogBase.Dismissed
-- uid: Aci.Unity.UI.Dialog.DialogBase.Hide
+  fullName: Aci.Unity.UI.Dialog.DialogComponent.Dismiss
+  nameWithType: DialogComponent.Dismiss
+- uid: Aci.Unity.UI.Dialog.DialogComponent.dismissed
+  name: dismissed
+  href: api/Aci.Unity.UI.Dialog.DialogComponent.html#Aci_Unity_UI_Dialog_DialogComponent_dismissed
+  commentId: E:Aci.Unity.UI.Dialog.DialogComponent.dismissed
+  fullName: Aci.Unity.UI.Dialog.DialogComponent.dismissed
+  nameWithType: DialogComponent.dismissed
+- uid: Aci.Unity.UI.Dialog.DialogComponent.Hide
   name: Hide()
-  href: api/Aci.Unity.UI.Dialog.DialogBase.html#Aci_Unity_UI_Dialog_DialogBase_Hide
-  commentId: M:Aci.Unity.UI.Dialog.DialogBase.Hide
-  fullName: Aci.Unity.UI.Dialog.DialogBase.Hide()
-  nameWithType: DialogBase.Hide()
-- uid: Aci.Unity.UI.Dialog.DialogBase.Hide*
+  href: api/Aci.Unity.UI.Dialog.DialogComponent.html#Aci_Unity_UI_Dialog_DialogComponent_Hide
+  commentId: M:Aci.Unity.UI.Dialog.DialogComponent.Hide
+  fullName: Aci.Unity.UI.Dialog.DialogComponent.Hide()
+  nameWithType: DialogComponent.Hide()
+- uid: Aci.Unity.UI.Dialog.DialogComponent.Hide*
   name: Hide
-  href: api/Aci.Unity.UI.Dialog.DialogBase.html#Aci_Unity_UI_Dialog_DialogBase_Hide_
-  commentId: Overload:Aci.Unity.UI.Dialog.DialogBase.Hide
+  href: api/Aci.Unity.UI.Dialog.DialogComponent.html#Aci_Unity_UI_Dialog_DialogComponent_Hide_
+  commentId: Overload:Aci.Unity.UI.Dialog.DialogComponent.Hide
   isSpec: "True"
-  fullName: Aci.Unity.UI.Dialog.DialogBase.Hide
-  nameWithType: DialogBase.Hide
-- uid: Aci.Unity.UI.Dialog.DialogBase.Show
-  name: Show()
-  href: api/Aci.Unity.UI.Dialog.DialogBase.html#Aci_Unity_UI_Dialog_DialogBase_Show
-  commentId: M:Aci.Unity.UI.Dialog.DialogBase.Show
-  fullName: Aci.Unity.UI.Dialog.DialogBase.Show()
-  nameWithType: DialogBase.Show()
-- uid: Aci.Unity.UI.Dialog.DialogBase.Show*
+  fullName: Aci.Unity.UI.Dialog.DialogComponent.Hide
+  nameWithType: DialogComponent.Hide
+- uid: Aci.Unity.UI.Dialog.DialogComponent.Show(System.Boolean)
+  name: Show(Boolean)
+  href: api/Aci.Unity.UI.Dialog.DialogComponent.html#Aci_Unity_UI_Dialog_DialogComponent_Show_System_Boolean_
+  commentId: M:Aci.Unity.UI.Dialog.DialogComponent.Show(System.Boolean)
+  fullName: Aci.Unity.UI.Dialog.DialogComponent.Show(System.Boolean)
+  nameWithType: DialogComponent.Show(Boolean)
+- uid: Aci.Unity.UI.Dialog.DialogComponent.Show*
   name: Show
-  href: api/Aci.Unity.UI.Dialog.DialogBase.html#Aci_Unity_UI_Dialog_DialogBase_Show_
-  commentId: Overload:Aci.Unity.UI.Dialog.DialogBase.Show
+  href: api/Aci.Unity.UI.Dialog.DialogComponent.html#Aci_Unity_UI_Dialog_DialogComponent_Show_
+  commentId: Overload:Aci.Unity.UI.Dialog.DialogComponent.Show
   isSpec: "True"
-  fullName: Aci.Unity.UI.Dialog.DialogBase.Show
-  nameWithType: DialogBase.Show
+  fullName: Aci.Unity.UI.Dialog.DialogComponent.Show
+  nameWithType: DialogComponent.Show
+- uid: Aci.Unity.UI.Dialog.DialogDismissedDelegate
+  name: DialogDismissedDelegate
+  href: api/Aci.Unity.UI.Dialog.DialogDismissedDelegate.html
+  commentId: T:Aci.Unity.UI.Dialog.DialogDismissedDelegate
+  fullName: Aci.Unity.UI.Dialog.DialogDismissedDelegate
+  nameWithType: DialogDismissedDelegate
+- uid: Aci.Unity.UI.Dialog.DialogManager
+  name: DialogManager
+  href: api/Aci.Unity.UI.Dialog.DialogManager.html
+  commentId: T:Aci.Unity.UI.Dialog.DialogManager
+  fullName: Aci.Unity.UI.Dialog.DialogManager
+  nameWithType: DialogManager
+- uid: Aci.Unity.UI.Dialog.DialogManager.Clear
+  name: Clear()
+  href: api/Aci.Unity.UI.Dialog.DialogManager.html#Aci_Unity_UI_Dialog_DialogManager_Clear
+  commentId: M:Aci.Unity.UI.Dialog.DialogManager.Clear
+  fullName: Aci.Unity.UI.Dialog.DialogManager.Clear()
+  nameWithType: DialogManager.Clear()
+- uid: Aci.Unity.UI.Dialog.DialogManager.Clear*
+  name: Clear
+  href: api/Aci.Unity.UI.Dialog.DialogManager.html#Aci_Unity_UI_Dialog_DialogManager_Clear_
+  commentId: Overload:Aci.Unity.UI.Dialog.DialogManager.Clear
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Dialog.DialogManager.Clear
+  nameWithType: DialogManager.Clear
+- uid: Aci.Unity.UI.Dialog.DialogManager.DestroyCurrent(System.Boolean)
+  name: DestroyCurrent(Boolean)
+  href: api/Aci.Unity.UI.Dialog.DialogManager.html#Aci_Unity_UI_Dialog_DialogManager_DestroyCurrent_System_Boolean_
+  commentId: M:Aci.Unity.UI.Dialog.DialogManager.DestroyCurrent(System.Boolean)
+  fullName: Aci.Unity.UI.Dialog.DialogManager.DestroyCurrent(System.Boolean)
+  nameWithType: DialogManager.DestroyCurrent(Boolean)
+- uid: Aci.Unity.UI.Dialog.DialogManager.DestroyCurrent*
+  name: DestroyCurrent
+  href: api/Aci.Unity.UI.Dialog.DialogManager.html#Aci_Unity_UI_Dialog_DialogManager_DestroyCurrent_
+  commentId: Overload:Aci.Unity.UI.Dialog.DialogManager.DestroyCurrent
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Dialog.DialogManager.DestroyCurrent
+  nameWithType: DialogManager.DestroyCurrent
+- uid: Aci.Unity.UI.Dialog.DialogManager.Dispose
+  name: Dispose()
+  href: api/Aci.Unity.UI.Dialog.DialogManager.html#Aci_Unity_UI_Dialog_DialogManager_Dispose
+  commentId: M:Aci.Unity.UI.Dialog.DialogManager.Dispose
+  fullName: Aci.Unity.UI.Dialog.DialogManager.Dispose()
+  nameWithType: DialogManager.Dispose()
+- uid: Aci.Unity.UI.Dialog.DialogManager.Dispose*
+  name: Dispose
+  href: api/Aci.Unity.UI.Dialog.DialogManager.html#Aci_Unity_UI_Dialog_DialogManager_Dispose_
+  commentId: Overload:Aci.Unity.UI.Dialog.DialogManager.Dispose
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Dialog.DialogManager.Dispose
+  nameWithType: DialogManager.Dispose
+- uid: Aci.Unity.UI.Dialog.DialogManager.ReceiveRequest(Aci.Unity.UI.Dialog.DialogRequest)
+  name: ReceiveRequest(DialogRequest)
+  href: api/Aci.Unity.UI.Dialog.DialogManager.html#Aci_Unity_UI_Dialog_DialogManager_ReceiveRequest_Aci_Unity_UI_Dialog_DialogRequest_
+  commentId: M:Aci.Unity.UI.Dialog.DialogManager.ReceiveRequest(Aci.Unity.UI.Dialog.DialogRequest)
+  fullName: Aci.Unity.UI.Dialog.DialogManager.ReceiveRequest(Aci.Unity.UI.Dialog.DialogRequest)
+  nameWithType: DialogManager.ReceiveRequest(DialogRequest)
+- uid: Aci.Unity.UI.Dialog.DialogManager.ReceiveRequest*
+  name: ReceiveRequest
+  href: api/Aci.Unity.UI.Dialog.DialogManager.html#Aci_Unity_UI_Dialog_DialogManager_ReceiveRequest_
+  commentId: Overload:Aci.Unity.UI.Dialog.DialogManager.ReceiveRequest
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Dialog.DialogManager.ReceiveRequest
+  nameWithType: DialogManager.ReceiveRequest
+- uid: Aci.Unity.UI.Dialog.DialogPriority
+  name: DialogPriority
+  href: api/Aci.Unity.UI.Dialog.DialogPriority.html
+  commentId: T:Aci.Unity.UI.Dialog.DialogPriority
+  fullName: Aci.Unity.UI.Dialog.DialogPriority
+  nameWithType: DialogPriority
+- uid: Aci.Unity.UI.Dialog.DialogPriority.Critical
+  name: Critical
+  href: api/Aci.Unity.UI.Dialog.DialogPriority.html#Aci_Unity_UI_Dialog_DialogPriority_Critical
+  commentId: F:Aci.Unity.UI.Dialog.DialogPriority.Critical
+  fullName: Aci.Unity.UI.Dialog.DialogPriority.Critical
+  nameWithType: DialogPriority.Critical
+- uid: Aci.Unity.UI.Dialog.DialogPriority.High
+  name: High
+  href: api/Aci.Unity.UI.Dialog.DialogPriority.html#Aci_Unity_UI_Dialog_DialogPriority_High
+  commentId: F:Aci.Unity.UI.Dialog.DialogPriority.High
+  fullName: Aci.Unity.UI.Dialog.DialogPriority.High
+  nameWithType: DialogPriority.High
+- uid: Aci.Unity.UI.Dialog.DialogPriority.Low
+  name: Low
+  href: api/Aci.Unity.UI.Dialog.DialogPriority.html#Aci_Unity_UI_Dialog_DialogPriority_Low
+  commentId: F:Aci.Unity.UI.Dialog.DialogPriority.Low
+  fullName: Aci.Unity.UI.Dialog.DialogPriority.Low
+  nameWithType: DialogPriority.Low
+- uid: Aci.Unity.UI.Dialog.DialogPriority.Medium
+  name: Medium
+  href: api/Aci.Unity.UI.Dialog.DialogPriority.html#Aci_Unity_UI_Dialog_DialogPriority_Medium
+  commentId: F:Aci.Unity.UI.Dialog.DialogPriority.Medium
+  fullName: Aci.Unity.UI.Dialog.DialogPriority.Medium
+  nameWithType: DialogPriority.Medium
+- uid: Aci.Unity.UI.Dialog.DialogRequest
+  name: DialogRequest
+  href: api/Aci.Unity.UI.Dialog.DialogRequest.html
+  commentId: T:Aci.Unity.UI.Dialog.DialogRequest
+  fullName: Aci.Unity.UI.Dialog.DialogRequest
+  nameWithType: DialogRequest
+- uid: Aci.Unity.UI.Dialog.DialogRequest.#ctor
+  name: DialogRequest()
+  href: api/Aci.Unity.UI.Dialog.DialogRequest.html#Aci_Unity_UI_Dialog_DialogRequest__ctor
+  commentId: M:Aci.Unity.UI.Dialog.DialogRequest.#ctor
+  fullName: Aci.Unity.UI.Dialog.DialogRequest.DialogRequest()
+  nameWithType: DialogRequest.DialogRequest()
+- uid: Aci.Unity.UI.Dialog.DialogRequest.#ctor*
+  name: DialogRequest
+  href: api/Aci.Unity.UI.Dialog.DialogRequest.html#Aci_Unity_UI_Dialog_DialogRequest__ctor_
+  commentId: Overload:Aci.Unity.UI.Dialog.DialogRequest.#ctor
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Dialog.DialogRequest.DialogRequest
+  nameWithType: DialogRequest.DialogRequest
+- uid: Aci.Unity.UI.Dialog.DialogRequest.CompareTo(Aci.Unity.UI.Dialog.DialogRequest)
+  name: CompareTo(DialogRequest)
+  href: api/Aci.Unity.UI.Dialog.DialogRequest.html#Aci_Unity_UI_Dialog_DialogRequest_CompareTo_Aci_Unity_UI_Dialog_DialogRequest_
+  commentId: M:Aci.Unity.UI.Dialog.DialogRequest.CompareTo(Aci.Unity.UI.Dialog.DialogRequest)
+  fullName: Aci.Unity.UI.Dialog.DialogRequest.CompareTo(Aci.Unity.UI.Dialog.DialogRequest)
+  nameWithType: DialogRequest.CompareTo(DialogRequest)
+- uid: Aci.Unity.UI.Dialog.DialogRequest.CompareTo*
+  name: CompareTo
+  href: api/Aci.Unity.UI.Dialog.DialogRequest.html#Aci_Unity_UI_Dialog_DialogRequest_CompareTo_
+  commentId: Overload:Aci.Unity.UI.Dialog.DialogRequest.CompareTo
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Dialog.DialogRequest.CompareTo
+  nameWithType: DialogRequest.CompareTo
+- uid: Aci.Unity.UI.Dialog.DialogRequest.Create(Aci.Unity.UI.Dialog.IDialog,Aci.Unity.UI.Dialog.DialogPriority)
+  name: Create(IDialog, DialogPriority)
+  href: api/Aci.Unity.UI.Dialog.DialogRequest.html#Aci_Unity_UI_Dialog_DialogRequest_Create_Aci_Unity_UI_Dialog_IDialog_Aci_Unity_UI_Dialog_DialogPriority_
+  commentId: M:Aci.Unity.UI.Dialog.DialogRequest.Create(Aci.Unity.UI.Dialog.IDialog,Aci.Unity.UI.Dialog.DialogPriority)
+  fullName: Aci.Unity.UI.Dialog.DialogRequest.Create(Aci.Unity.UI.Dialog.IDialog, Aci.Unity.UI.Dialog.DialogPriority)
+  nameWithType: DialogRequest.Create(IDialog, DialogPriority)
+- uid: Aci.Unity.UI.Dialog.DialogRequest.Create(Aci.Unity.UI.Dialog.IDialog,System.Int32)
+  name: Create(IDialog, Int32)
+  href: api/Aci.Unity.UI.Dialog.DialogRequest.html#Aci_Unity_UI_Dialog_DialogRequest_Create_Aci_Unity_UI_Dialog_IDialog_System_Int32_
+  commentId: M:Aci.Unity.UI.Dialog.DialogRequest.Create(Aci.Unity.UI.Dialog.IDialog,System.Int32)
+  fullName: Aci.Unity.UI.Dialog.DialogRequest.Create(Aci.Unity.UI.Dialog.IDialog, System.Int32)
+  nameWithType: DialogRequest.Create(IDialog, Int32)
+- uid: Aci.Unity.UI.Dialog.DialogRequest.Create*
+  name: Create
+  href: api/Aci.Unity.UI.Dialog.DialogRequest.html#Aci_Unity_UI_Dialog_DialogRequest_Create_
+  commentId: Overload:Aci.Unity.UI.Dialog.DialogRequest.Create
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Dialog.DialogRequest.Create
+  nameWithType: DialogRequest.Create
+- uid: Aci.Unity.UI.Dialog.DialogRequest.dialog
+  name: dialog
+  href: api/Aci.Unity.UI.Dialog.DialogRequest.html#Aci_Unity_UI_Dialog_DialogRequest_dialog
+  commentId: P:Aci.Unity.UI.Dialog.DialogRequest.dialog
+  fullName: Aci.Unity.UI.Dialog.DialogRequest.dialog
+  nameWithType: DialogRequest.dialog
+- uid: Aci.Unity.UI.Dialog.DialogRequest.dialog*
+  name: dialog
+  href: api/Aci.Unity.UI.Dialog.DialogRequest.html#Aci_Unity_UI_Dialog_DialogRequest_dialog_
+  commentId: Overload:Aci.Unity.UI.Dialog.DialogRequest.dialog
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Dialog.DialogRequest.dialog
+  nameWithType: DialogRequest.dialog
+- uid: Aci.Unity.UI.Dialog.DialogRequest.Dispose
+  name: Dispose()
+  href: api/Aci.Unity.UI.Dialog.DialogRequest.html#Aci_Unity_UI_Dialog_DialogRequest_Dispose
+  commentId: M:Aci.Unity.UI.Dialog.DialogRequest.Dispose
+  fullName: Aci.Unity.UI.Dialog.DialogRequest.Dispose()
+  nameWithType: DialogRequest.Dispose()
+- uid: Aci.Unity.UI.Dialog.DialogRequest.Dispose*
+  name: Dispose
+  href: api/Aci.Unity.UI.Dialog.DialogRequest.html#Aci_Unity_UI_Dialog_DialogRequest_Dispose_
+  commentId: Overload:Aci.Unity.UI.Dialog.DialogRequest.Dispose
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Dialog.DialogRequest.Dispose
+  nameWithType: DialogRequest.Dispose
+- uid: Aci.Unity.UI.Dialog.DialogRequest.disposed
+  name: disposed
+  href: api/Aci.Unity.UI.Dialog.DialogRequest.html#Aci_Unity_UI_Dialog_DialogRequest_disposed
+  commentId: E:Aci.Unity.UI.Dialog.DialogRequest.disposed
+  fullName: Aci.Unity.UI.Dialog.DialogRequest.disposed
+  nameWithType: DialogRequest.disposed
+- uid: Aci.Unity.UI.Dialog.DialogRequest.Finalize
+  name: Finalize()
+  href: api/Aci.Unity.UI.Dialog.DialogRequest.html#Aci_Unity_UI_Dialog_DialogRequest_Finalize
+  commentId: M:Aci.Unity.UI.Dialog.DialogRequest.Finalize
+  fullName: Aci.Unity.UI.Dialog.DialogRequest.Finalize()
+  nameWithType: DialogRequest.Finalize()
+- uid: Aci.Unity.UI.Dialog.DialogRequest.Finalize*
+  name: Finalize
+  href: api/Aci.Unity.UI.Dialog.DialogRequest.html#Aci_Unity_UI_Dialog_DialogRequest_Finalize_
+  commentId: Overload:Aci.Unity.UI.Dialog.DialogRequest.Finalize
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Dialog.DialogRequest.Finalize
+  nameWithType: DialogRequest.Finalize
+- uid: Aci.Unity.UI.Dialog.DialogRequest.priority
+  name: priority
+  href: api/Aci.Unity.UI.Dialog.DialogRequest.html#Aci_Unity_UI_Dialog_DialogRequest_priority
+  commentId: P:Aci.Unity.UI.Dialog.DialogRequest.priority
+  fullName: Aci.Unity.UI.Dialog.DialogRequest.priority
+  nameWithType: DialogRequest.priority
+- uid: Aci.Unity.UI.Dialog.DialogRequest.priority*
+  name: priority
+  href: api/Aci.Unity.UI.Dialog.DialogRequest.html#Aci_Unity_UI_Dialog_DialogRequest_priority_
+  commentId: Overload:Aci.Unity.UI.Dialog.DialogRequest.priority
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Dialog.DialogRequest.priority
+  nameWithType: DialogRequest.priority
 - uid: Aci.Unity.UI.Dialog.DialogService
   name: DialogService
   href: api/Aci.Unity.UI.Dialog.DialogService.html
   commentId: T:Aci.Unity.UI.Dialog.DialogService
   fullName: Aci.Unity.UI.Dialog.DialogService
   nameWithType: DialogService
-- uid: Aci.Unity.UI.Dialog.DialogService.ClearAll
-  name: ClearAll()
-  href: api/Aci.Unity.UI.Dialog.DialogService.html#Aci_Unity_UI_Dialog_DialogService_ClearAll
-  commentId: M:Aci.Unity.UI.Dialog.DialogService.ClearAll
-  fullName: Aci.Unity.UI.Dialog.DialogService.ClearAll()
-  nameWithType: DialogService.ClearAll()
-- uid: Aci.Unity.UI.Dialog.DialogService.ClearAll*
-  name: ClearAll
-  href: api/Aci.Unity.UI.Dialog.DialogService.html#Aci_Unity_UI_Dialog_DialogService_ClearAll_
-  commentId: Overload:Aci.Unity.UI.Dialog.DialogService.ClearAll
+- uid: Aci.Unity.UI.Dialog.DialogService.#ctor(Aci.Unity.UI.Dialog.IDialogRequestReceiver)
+  name: DialogService(IDialogRequestReceiver)
+  href: api/Aci.Unity.UI.Dialog.DialogService.html#Aci_Unity_UI_Dialog_DialogService__ctor_Aci_Unity_UI_Dialog_IDialogRequestReceiver_
+  commentId: M:Aci.Unity.UI.Dialog.DialogService.#ctor(Aci.Unity.UI.Dialog.IDialogRequestReceiver)
+  fullName: Aci.Unity.UI.Dialog.DialogService.DialogService(Aci.Unity.UI.Dialog.IDialogRequestReceiver)
+  nameWithType: DialogService.DialogService(IDialogRequestReceiver)
+- uid: Aci.Unity.UI.Dialog.DialogService.#ctor*
+  name: DialogService
+  href: api/Aci.Unity.UI.Dialog.DialogService.html#Aci_Unity_UI_Dialog_DialogService__ctor_
+  commentId: Overload:Aci.Unity.UI.Dialog.DialogService.#ctor
   isSpec: "True"
-  fullName: Aci.Unity.UI.Dialog.DialogService.ClearAll
-  nameWithType: DialogService.ClearAll
-- uid: Aci.Unity.UI.Dialog.DialogService.ShowDialog(Aci.Unity.UI.Dialog.IDialog)
-  name: ShowDialog(IDialog)
-  href: api/Aci.Unity.UI.Dialog.DialogService.html#Aci_Unity_UI_Dialog_DialogService_ShowDialog_Aci_Unity_UI_Dialog_IDialog_
-  commentId: M:Aci.Unity.UI.Dialog.DialogService.ShowDialog(Aci.Unity.UI.Dialog.IDialog)
-  fullName: Aci.Unity.UI.Dialog.DialogService.ShowDialog(Aci.Unity.UI.Dialog.IDialog)
-  nameWithType: DialogService.ShowDialog(IDialog)
-- uid: Aci.Unity.UI.Dialog.DialogService.ShowDialog*
-  name: ShowDialog
-  href: api/Aci.Unity.UI.Dialog.DialogService.html#Aci_Unity_UI_Dialog_DialogService_ShowDialog_
-  commentId: Overload:Aci.Unity.UI.Dialog.DialogService.ShowDialog
+  fullName: Aci.Unity.UI.Dialog.DialogService.DialogService
+  nameWithType: DialogService.DialogService
+- uid: Aci.Unity.UI.Dialog.DialogService.SendRequest(Aci.Unity.UI.Dialog.DialogRequest)
+  name: SendRequest(DialogRequest)
+  href: api/Aci.Unity.UI.Dialog.DialogService.html#Aci_Unity_UI_Dialog_DialogService_SendRequest_Aci_Unity_UI_Dialog_DialogRequest_
+  commentId: M:Aci.Unity.UI.Dialog.DialogService.SendRequest(Aci.Unity.UI.Dialog.DialogRequest)
+  fullName: Aci.Unity.UI.Dialog.DialogService.SendRequest(Aci.Unity.UI.Dialog.DialogRequest)
+  nameWithType: DialogService.SendRequest(DialogRequest)
+- uid: Aci.Unity.UI.Dialog.DialogService.SendRequest*
+  name: SendRequest
+  href: api/Aci.Unity.UI.Dialog.DialogService.html#Aci_Unity_UI_Dialog_DialogService_SendRequest_
+  commentId: Overload:Aci.Unity.UI.Dialog.DialogService.SendRequest
   isSpec: "True"
-  fullName: Aci.Unity.UI.Dialog.DialogService.ShowDialog
-  nameWithType: DialogService.ShowDialog
-- uid: Aci.Unity.UI.Dialog.IActivityIndicatorFactory
-  name: IActivityIndicatorFactory
-  href: api/Aci.Unity.UI.Dialog.IActivityIndicatorFactory.html
-  commentId: T:Aci.Unity.UI.Dialog.IActivityIndicatorFactory
-  fullName: Aci.Unity.UI.Dialog.IActivityIndicatorFactory
-  nameWithType: IActivityIndicatorFactory
-- uid: Aci.Unity.UI.Dialog.IActivityIndicatorFactory.Create(System.String)
-  name: Create(String)
-  href: api/Aci.Unity.UI.Dialog.IActivityIndicatorFactory.html#Aci_Unity_UI_Dialog_IActivityIndicatorFactory_Create_System_String_
-  commentId: M:Aci.Unity.UI.Dialog.IActivityIndicatorFactory.Create(System.String)
-  fullName: Aci.Unity.UI.Dialog.IActivityIndicatorFactory.Create(System.String)
-  nameWithType: IActivityIndicatorFactory.Create(String)
-- uid: Aci.Unity.UI.Dialog.IActivityIndicatorFactory.Create*
-  name: Create
-  href: api/Aci.Unity.UI.Dialog.IActivityIndicatorFactory.html#Aci_Unity_UI_Dialog_IActivityIndicatorFactory_Create_
-  commentId: Overload:Aci.Unity.UI.Dialog.IActivityIndicatorFactory.Create
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Dialog.IActivityIndicatorFactory.Create
-  nameWithType: IActivityIndicatorFactory.Create
-- uid: Aci.Unity.UI.Dialog.IAlertDialogFactory
-  name: IAlertDialogFactory
-  href: api/Aci.Unity.UI.Dialog.IAlertDialogFactory.html
-  commentId: T:Aci.Unity.UI.Dialog.IAlertDialogFactory
-  fullName: Aci.Unity.UI.Dialog.IAlertDialogFactory
-  nameWithType: IAlertDialogFactory
-- uid: Aci.Unity.UI.Dialog.IAlertDialogFactory.Create(System.String,System.String,System.String,System.String,System.Action,System.Action)
-  name: Create(String, String, String, String, Action, Action)
-  href: api/Aci.Unity.UI.Dialog.IAlertDialogFactory.html#Aci_Unity_UI_Dialog_IAlertDialogFactory_Create_System_String_System_String_System_String_System_String_System_Action_System_Action_
-  commentId: M:Aci.Unity.UI.Dialog.IAlertDialogFactory.Create(System.String,System.String,System.String,System.String,System.Action,System.Action)
-  fullName: Aci.Unity.UI.Dialog.IAlertDialogFactory.Create(System.String, System.String, System.String, System.String, System.Action, System.Action)
-  nameWithType: IAlertDialogFactory.Create(String, String, String, String, Action, Action)
-- uid: Aci.Unity.UI.Dialog.IAlertDialogFactory.Create*
-  name: Create
-  href: api/Aci.Unity.UI.Dialog.IAlertDialogFactory.html#Aci_Unity_UI_Dialog_IAlertDialogFactory_Create_
-  commentId: Overload:Aci.Unity.UI.Dialog.IAlertDialogFactory.Create
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Dialog.IAlertDialogFactory.Create
-  nameWithType: IAlertDialogFactory.Create
+  fullName: Aci.Unity.UI.Dialog.DialogService.SendRequest
+  nameWithType: DialogService.SendRequest
 - uid: Aci.Unity.UI.Dialog.IDialog
   name: IDialog
   href: api/Aci.Unity.UI.Dialog.IDialog.html
   commentId: T:Aci.Unity.UI.Dialog.IDialog
   fullName: Aci.Unity.UI.Dialog.IDialog
   nameWithType: IDialog
-- uid: Aci.Unity.UI.Dialog.IDialog.Dismiss
-  name: Dismiss()
-  href: api/Aci.Unity.UI.Dialog.IDialog.html#Aci_Unity_UI_Dialog_IDialog_Dismiss
-  commentId: M:Aci.Unity.UI.Dialog.IDialog.Dismiss
-  fullName: Aci.Unity.UI.Dialog.IDialog.Dismiss()
-  nameWithType: IDialog.Dismiss()
+- uid: Aci.Unity.UI.Dialog.IDialog.Dismiss(System.Boolean)
+  name: Dismiss(Boolean)
+  href: api/Aci.Unity.UI.Dialog.IDialog.html#Aci_Unity_UI_Dialog_IDialog_Dismiss_System_Boolean_
+  commentId: M:Aci.Unity.UI.Dialog.IDialog.Dismiss(System.Boolean)
+  fullName: Aci.Unity.UI.Dialog.IDialog.Dismiss(System.Boolean)
+  nameWithType: IDialog.Dismiss(Boolean)
 - uid: Aci.Unity.UI.Dialog.IDialog.Dismiss*
   name: Dismiss
   href: api/Aci.Unity.UI.Dialog.IDialog.html#Aci_Unity_UI_Dialog_IDialog_Dismiss_
@@ -2286,12 +2921,12 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Dialog.IDialog.Dismiss
   nameWithType: IDialog.Dismiss
-- uid: Aci.Unity.UI.Dialog.IDialog.Dismissed
-  name: Dismissed
-  href: api/Aci.Unity.UI.Dialog.IDialog.html#Aci_Unity_UI_Dialog_IDialog_Dismissed
-  commentId: E:Aci.Unity.UI.Dialog.IDialog.Dismissed
-  fullName: Aci.Unity.UI.Dialog.IDialog.Dismissed
-  nameWithType: IDialog.Dismissed
+- uid: Aci.Unity.UI.Dialog.IDialog.dismissed
+  name: dismissed
+  href: api/Aci.Unity.UI.Dialog.IDialog.html#Aci_Unity_UI_Dialog_IDialog_dismissed
+  commentId: E:Aci.Unity.UI.Dialog.IDialog.dismissed
+  fullName: Aci.Unity.UI.Dialog.IDialog.dismissed
+  nameWithType: IDialog.dismissed
 - uid: Aci.Unity.UI.Dialog.IDialog.gameObject
   name: gameObject
   href: api/Aci.Unity.UI.Dialog.IDialog.html#Aci_Unity_UI_Dialog_IDialog_gameObject
@@ -2318,12 +2953,12 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Dialog.IDialog.Hide
   nameWithType: IDialog.Hide
-- uid: Aci.Unity.UI.Dialog.IDialog.Show
-  name: Show()
-  href: api/Aci.Unity.UI.Dialog.IDialog.html#Aci_Unity_UI_Dialog_IDialog_Show
-  commentId: M:Aci.Unity.UI.Dialog.IDialog.Show
-  fullName: Aci.Unity.UI.Dialog.IDialog.Show()
-  nameWithType: IDialog.Show()
+- uid: Aci.Unity.UI.Dialog.IDialog.Show(System.Boolean)
+  name: Show(Boolean)
+  href: api/Aci.Unity.UI.Dialog.IDialog.html#Aci_Unity_UI_Dialog_IDialog_Show_System_Boolean_
+  commentId: M:Aci.Unity.UI.Dialog.IDialog.Show(System.Boolean)
+  fullName: Aci.Unity.UI.Dialog.IDialog.Show(System.Boolean)
+  nameWithType: IDialog.Show(Boolean)
 - uid: Aci.Unity.UI.Dialog.IDialog.Show*
   name: Show
   href: api/Aci.Unity.UI.Dialog.IDialog.html#Aci_Unity_UI_Dialog_IDialog_Show_
@@ -2331,38 +2966,108 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Dialog.IDialog.Show
   nameWithType: IDialog.Show
+- uid: Aci.Unity.UI.Dialog.IDialogDestroyer
+  name: IDialogDestroyer
+  href: api/Aci.Unity.UI.Dialog.IDialogDestroyer.html
+  commentId: T:Aci.Unity.UI.Dialog.IDialogDestroyer
+  fullName: Aci.Unity.UI.Dialog.IDialogDestroyer
+  nameWithType: IDialogDestroyer
+- uid: Aci.Unity.UI.Dialog.IDialogDestroyer.Clear
+  name: Clear()
+  href: api/Aci.Unity.UI.Dialog.IDialogDestroyer.html#Aci_Unity_UI_Dialog_IDialogDestroyer_Clear
+  commentId: M:Aci.Unity.UI.Dialog.IDialogDestroyer.Clear
+  fullName: Aci.Unity.UI.Dialog.IDialogDestroyer.Clear()
+  nameWithType: IDialogDestroyer.Clear()
+- uid: Aci.Unity.UI.Dialog.IDialogDestroyer.Clear*
+  name: Clear
+  href: api/Aci.Unity.UI.Dialog.IDialogDestroyer.html#Aci_Unity_UI_Dialog_IDialogDestroyer_Clear_
+  commentId: Overload:Aci.Unity.UI.Dialog.IDialogDestroyer.Clear
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Dialog.IDialogDestroyer.Clear
+  nameWithType: IDialogDestroyer.Clear
+- uid: Aci.Unity.UI.Dialog.IDialogDestroyer.DestroyCurrent(System.Boolean)
+  name: DestroyCurrent(Boolean)
+  href: api/Aci.Unity.UI.Dialog.IDialogDestroyer.html#Aci_Unity_UI_Dialog_IDialogDestroyer_DestroyCurrent_System_Boolean_
+  commentId: M:Aci.Unity.UI.Dialog.IDialogDestroyer.DestroyCurrent(System.Boolean)
+  fullName: Aci.Unity.UI.Dialog.IDialogDestroyer.DestroyCurrent(System.Boolean)
+  nameWithType: IDialogDestroyer.DestroyCurrent(Boolean)
+- uid: Aci.Unity.UI.Dialog.IDialogDestroyer.DestroyCurrent*
+  name: DestroyCurrent
+  href: api/Aci.Unity.UI.Dialog.IDialogDestroyer.html#Aci_Unity_UI_Dialog_IDialogDestroyer_DestroyCurrent_
+  commentId: Overload:Aci.Unity.UI.Dialog.IDialogDestroyer.DestroyCurrent
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Dialog.IDialogDestroyer.DestroyCurrent
+  nameWithType: IDialogDestroyer.DestroyCurrent
+- uid: Aci.Unity.UI.Dialog.IDialogRequestReceiver
+  name: IDialogRequestReceiver
+  href: api/Aci.Unity.UI.Dialog.IDialogRequestReceiver.html
+  commentId: T:Aci.Unity.UI.Dialog.IDialogRequestReceiver
+  fullName: Aci.Unity.UI.Dialog.IDialogRequestReceiver
+  nameWithType: IDialogRequestReceiver
+- uid: Aci.Unity.UI.Dialog.IDialogRequestReceiver.ReceiveRequest(Aci.Unity.UI.Dialog.DialogRequest)
+  name: ReceiveRequest(DialogRequest)
+  href: api/Aci.Unity.UI.Dialog.IDialogRequestReceiver.html#Aci_Unity_UI_Dialog_IDialogRequestReceiver_ReceiveRequest_Aci_Unity_UI_Dialog_DialogRequest_
+  commentId: M:Aci.Unity.UI.Dialog.IDialogRequestReceiver.ReceiveRequest(Aci.Unity.UI.Dialog.DialogRequest)
+  fullName: Aci.Unity.UI.Dialog.IDialogRequestReceiver.ReceiveRequest(Aci.Unity.UI.Dialog.DialogRequest)
+  nameWithType: IDialogRequestReceiver.ReceiveRequest(DialogRequest)
+- uid: Aci.Unity.UI.Dialog.IDialogRequestReceiver.ReceiveRequest*
+  name: ReceiveRequest
+  href: api/Aci.Unity.UI.Dialog.IDialogRequestReceiver.html#Aci_Unity_UI_Dialog_IDialogRequestReceiver_ReceiveRequest_
+  commentId: Overload:Aci.Unity.UI.Dialog.IDialogRequestReceiver.ReceiveRequest
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Dialog.IDialogRequestReceiver.ReceiveRequest
+  nameWithType: IDialogRequestReceiver.ReceiveRequest
 - uid: Aci.Unity.UI.Dialog.IDialogService
   name: IDialogService
   href: api/Aci.Unity.UI.Dialog.IDialogService.html
   commentId: T:Aci.Unity.UI.Dialog.IDialogService
   fullName: Aci.Unity.UI.Dialog.IDialogService
   nameWithType: IDialogService
-- uid: Aci.Unity.UI.Dialog.IDialogService.ClearAll
-  name: ClearAll()
-  href: api/Aci.Unity.UI.Dialog.IDialogService.html#Aci_Unity_UI_Dialog_IDialogService_ClearAll
-  commentId: M:Aci.Unity.UI.Dialog.IDialogService.ClearAll
-  fullName: Aci.Unity.UI.Dialog.IDialogService.ClearAll()
-  nameWithType: IDialogService.ClearAll()
-- uid: Aci.Unity.UI.Dialog.IDialogService.ClearAll*
-  name: ClearAll
-  href: api/Aci.Unity.UI.Dialog.IDialogService.html#Aci_Unity_UI_Dialog_IDialogService_ClearAll_
-  commentId: Overload:Aci.Unity.UI.Dialog.IDialogService.ClearAll
+- uid: Aci.Unity.UI.Dialog.IDialogService.SendRequest(Aci.Unity.UI.Dialog.DialogRequest)
+  name: SendRequest(DialogRequest)
+  href: api/Aci.Unity.UI.Dialog.IDialogService.html#Aci_Unity_UI_Dialog_IDialogService_SendRequest_Aci_Unity_UI_Dialog_DialogRequest_
+  commentId: M:Aci.Unity.UI.Dialog.IDialogService.SendRequest(Aci.Unity.UI.Dialog.DialogRequest)
+  fullName: Aci.Unity.UI.Dialog.IDialogService.SendRequest(Aci.Unity.UI.Dialog.DialogRequest)
+  nameWithType: IDialogService.SendRequest(DialogRequest)
+- uid: Aci.Unity.UI.Dialog.IDialogService.SendRequest*
+  name: SendRequest
+  href: api/Aci.Unity.UI.Dialog.IDialogService.html#Aci_Unity_UI_Dialog_IDialogService_SendRequest_
+  commentId: Overload:Aci.Unity.UI.Dialog.IDialogService.SendRequest
   isSpec: "True"
-  fullName: Aci.Unity.UI.Dialog.IDialogService.ClearAll
-  nameWithType: IDialogService.ClearAll
-- uid: Aci.Unity.UI.Dialog.IDialogService.ShowDialog(Aci.Unity.UI.Dialog.IDialog)
-  name: ShowDialog(IDialog)
-  href: api/Aci.Unity.UI.Dialog.IDialogService.html#Aci_Unity_UI_Dialog_IDialogService_ShowDialog_Aci_Unity_UI_Dialog_IDialog_
-  commentId: M:Aci.Unity.UI.Dialog.IDialogService.ShowDialog(Aci.Unity.UI.Dialog.IDialog)
-  fullName: Aci.Unity.UI.Dialog.IDialogService.ShowDialog(Aci.Unity.UI.Dialog.IDialog)
-  nameWithType: IDialogService.ShowDialog(IDialog)
-- uid: Aci.Unity.UI.Dialog.IDialogService.ShowDialog*
-  name: ShowDialog
-  href: api/Aci.Unity.UI.Dialog.IDialogService.html#Aci_Unity_UI_Dialog_IDialogService_ShowDialog_
-  commentId: Overload:Aci.Unity.UI.Dialog.IDialogService.ShowDialog
+  fullName: Aci.Unity.UI.Dialog.IDialogService.SendRequest
+  nameWithType: IDialogService.SendRequest
+- uid: Aci.Unity.UI.ITransition
+  name: ITransition
+  href: api/Aci.Unity.UI.ITransition.html
+  commentId: T:Aci.Unity.UI.ITransition
+  fullName: Aci.Unity.UI.ITransition
+  nameWithType: ITransition
+- uid: Aci.Unity.UI.ITransition.EnterAsync
+  name: EnterAsync()
+  href: api/Aci.Unity.UI.ITransition.html#Aci_Unity_UI_ITransition_EnterAsync
+  commentId: M:Aci.Unity.UI.ITransition.EnterAsync
+  fullName: Aci.Unity.UI.ITransition.EnterAsync()
+  nameWithType: ITransition.EnterAsync()
+- uid: Aci.Unity.UI.ITransition.EnterAsync*
+  name: EnterAsync
+  href: api/Aci.Unity.UI.ITransition.html#Aci_Unity_UI_ITransition_EnterAsync_
+  commentId: Overload:Aci.Unity.UI.ITransition.EnterAsync
   isSpec: "True"
-  fullName: Aci.Unity.UI.Dialog.IDialogService.ShowDialog
-  nameWithType: IDialogService.ShowDialog
+  fullName: Aci.Unity.UI.ITransition.EnterAsync
+  nameWithType: ITransition.EnterAsync
+- uid: Aci.Unity.UI.ITransition.ExitAsync
+  name: ExitAsync()
+  href: api/Aci.Unity.UI.ITransition.html#Aci_Unity_UI_ITransition_ExitAsync
+  commentId: M:Aci.Unity.UI.ITransition.ExitAsync
+  fullName: Aci.Unity.UI.ITransition.ExitAsync()
+  nameWithType: ITransition.ExitAsync()
+- uid: Aci.Unity.UI.ITransition.ExitAsync*
+  name: ExitAsync
+  href: api/Aci.Unity.UI.ITransition.html#Aci_Unity_UI_ITransition_ExitAsync_
+  commentId: Overload:Aci.Unity.UI.ITransition.ExitAsync
+  isSpec: "True"
+  fullName: Aci.Unity.UI.ITransition.ExitAsync
+  nameWithType: ITransition.ExitAsync
 - uid: Aci.Unity.UI.Localization
   name: Aci.Unity.UI.Localization
   href: api/Aci.Unity.UI.Localization.html
@@ -2812,50 +3517,203 @@ references:
   commentId: N:Aci.Unity.UI.Navigation
   fullName: Aci.Unity.UI.Navigation
   nameWithType: Aci.Unity.UI.Navigation
-- uid: Aci.Unity.UI.Navigation.IDestructible
-  name: IDestructible
-  href: api/Aci.Unity.UI.Navigation.IDestructible.html
-  commentId: T:Aci.Unity.UI.Navigation.IDestructible
-  fullName: Aci.Unity.UI.Navigation.IDestructible
-  nameWithType: IDestructible
-- uid: Aci.Unity.UI.Navigation.IDestructible.OnPageDestroyed
-  name: OnPageDestroyed()
-  href: api/Aci.Unity.UI.Navigation.IDestructible.html#Aci_Unity_UI_Navigation_IDestructible_OnPageDestroyed
-  commentId: M:Aci.Unity.UI.Navigation.IDestructible.OnPageDestroyed
-  fullName: Aci.Unity.UI.Navigation.IDestructible.OnPageDestroyed()
-  nameWithType: IDestructible.OnPageDestroyed()
-- uid: Aci.Unity.UI.Navigation.IDestructible.OnPageDestroyed*
-  name: OnPageDestroyed
-  href: api/Aci.Unity.UI.Navigation.IDestructible.html#Aci_Unity_UI_Navigation_IDestructible_OnPageDestroyed_
-  commentId: Overload:Aci.Unity.UI.Navigation.IDestructible.OnPageDestroyed
+- uid: Aci.Unity.UI.Navigation.AnimationOptions
+  name: AnimationOptions
+  href: api/Aci.Unity.UI.Navigation.AnimationOptions.html
+  commentId: T:Aci.Unity.UI.Navigation.AnimationOptions
+  fullName: Aci.Unity.UI.Navigation.AnimationOptions
+  nameWithType: AnimationOptions
+- uid: Aci.Unity.UI.Navigation.AnimationOptions.Asynchronous
+  name: Asynchronous
+  href: api/Aci.Unity.UI.Navigation.AnimationOptions.html#Aci_Unity_UI_Navigation_AnimationOptions_Asynchronous
+  commentId: F:Aci.Unity.UI.Navigation.AnimationOptions.Asynchronous
+  fullName: Aci.Unity.UI.Navigation.AnimationOptions.Asynchronous
+  nameWithType: AnimationOptions.Asynchronous
+- uid: Aci.Unity.UI.Navigation.AnimationOptions.enabled
+  name: enabled
+  href: api/Aci.Unity.UI.Navigation.AnimationOptions.html#Aci_Unity_UI_Navigation_AnimationOptions_enabled
+  commentId: P:Aci.Unity.UI.Navigation.AnimationOptions.enabled
+  fullName: Aci.Unity.UI.Navigation.AnimationOptions.enabled
+  nameWithType: AnimationOptions.enabled
+- uid: Aci.Unity.UI.Navigation.AnimationOptions.enabled*
+  name: enabled
+  href: api/Aci.Unity.UI.Navigation.AnimationOptions.html#Aci_Unity_UI_Navigation_AnimationOptions_enabled_
+  commentId: Overload:Aci.Unity.UI.Navigation.AnimationOptions.enabled
   isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.IDestructible.OnPageDestroyed
-  nameWithType: IDestructible.OnPageDestroyed
+  fullName: Aci.Unity.UI.Navigation.AnimationOptions.enabled
+  nameWithType: AnimationOptions.enabled
+- uid: Aci.Unity.UI.Navigation.AnimationOptions.None
+  name: None
+  href: api/Aci.Unity.UI.Navigation.AnimationOptions.html#Aci_Unity_UI_Navigation_AnimationOptions_None
+  commentId: F:Aci.Unity.UI.Navigation.AnimationOptions.None
+  fullName: Aci.Unity.UI.Navigation.AnimationOptions.None
+  nameWithType: AnimationOptions.None
+- uid: Aci.Unity.UI.Navigation.AnimationOptions.playSynchronously
+  name: playSynchronously
+  href: api/Aci.Unity.UI.Navigation.AnimationOptions.html#Aci_Unity_UI_Navigation_AnimationOptions_playSynchronously
+  commentId: P:Aci.Unity.UI.Navigation.AnimationOptions.playSynchronously
+  fullName: Aci.Unity.UI.Navigation.AnimationOptions.playSynchronously
+  nameWithType: AnimationOptions.playSynchronously
+- uid: Aci.Unity.UI.Navigation.AnimationOptions.playSynchronously*
+  name: playSynchronously
+  href: api/Aci.Unity.UI.Navigation.AnimationOptions.html#Aci_Unity_UI_Navigation_AnimationOptions_playSynchronously_
+  commentId: Overload:Aci.Unity.UI.Navigation.AnimationOptions.playSynchronously
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Navigation.AnimationOptions.playSynchronously
+  nameWithType: AnimationOptions.playSynchronously
+- uid: Aci.Unity.UI.Navigation.AnimationOptions.Synchronous
+  name: Synchronous
+  href: api/Aci.Unity.UI.Navigation.AnimationOptions.html#Aci_Unity_UI_Navigation_AnimationOptions_Synchronous
+  commentId: F:Aci.Unity.UI.Navigation.AnimationOptions.Synchronous
+  fullName: Aci.Unity.UI.Navigation.AnimationOptions.Synchronous
+  nameWithType: AnimationOptions.Synchronous
+- uid: Aci.Unity.UI.Navigation.ExecuteNavigationEvent
+  name: ExecuteNavigationEvent
+  href: api/Aci.Unity.UI.Navigation.ExecuteNavigationEvent.html
+  commentId: T:Aci.Unity.UI.Navigation.ExecuteNavigationEvent
+  fullName: Aci.Unity.UI.Navigation.ExecuteNavigationEvent
+  nameWithType: ExecuteNavigationEvent
+- uid: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.destroyed
+  name: destroyed
+  href: api/Aci.Unity.UI.Navigation.ExecuteNavigationEvent.html#Aci_Unity_UI_Navigation_ExecuteNavigationEvent_destroyed
+  commentId: P:Aci.Unity.UI.Navigation.ExecuteNavigationEvent.destroyed
+  fullName: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.destroyed
+  nameWithType: ExecuteNavigationEvent.destroyed
+- uid: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.destroyed*
+  name: destroyed
+  href: api/Aci.Unity.UI.Navigation.ExecuteNavigationEvent.html#Aci_Unity_UI_Navigation_ExecuteNavigationEvent_destroyed_
+  commentId: Overload:Aci.Unity.UI.Navigation.ExecuteNavigationEvent.destroyed
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.destroyed
+  nameWithType: ExecuteNavigationEvent.destroyed
+- uid: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.EventFunction`1
+  name: ExecuteNavigationEvent.EventFunction<THandler>
+  href: api/Aci.Unity.UI.Navigation.ExecuteNavigationEvent.EventFunction-1.html
+  commentId: T:Aci.Unity.UI.Navigation.ExecuteNavigationEvent.EventFunction`1
+  name.vb: ExecuteNavigationEvent.EventFunction(Of THandler)
+  fullName: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.EventFunction<THandler>
+  fullName.vb: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.EventFunction(Of THandler)
+  nameWithType: ExecuteNavigationEvent.EventFunction<THandler>
+  nameWithType.vb: ExecuteNavigationEvent.EventFunction(Of THandler)
+- uid: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.Execute*
+  name: Execute
+  href: api/Aci.Unity.UI.Navigation.ExecuteNavigationEvent.html#Aci_Unity_UI_Navigation_ExecuteNavigationEvent_Execute_
+  commentId: Overload:Aci.Unity.UI.Navigation.ExecuteNavigationEvent.Execute
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.Execute
+  nameWithType: ExecuteNavigationEvent.Execute
+- uid: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.Execute``1(GameObject,Aci.Unity.UI.Navigation.ExecuteNavigationEvent.EventFunction{``0},Aci.Unity.UI.Navigation.INavigationParameters)
+  name: Execute<THandler>(GameObject, ExecuteNavigationEvent.EventFunction<THandler>, INavigationParameters)
+  href: api/Aci.Unity.UI.Navigation.ExecuteNavigationEvent.html#Aci_Unity_UI_Navigation_ExecuteNavigationEvent_Execute__1_GameObject_Aci_Unity_UI_Navigation_ExecuteNavigationEvent_EventFunction___0__Aci_Unity_UI_Navigation_INavigationParameters_
+  commentId: M:Aci.Unity.UI.Navigation.ExecuteNavigationEvent.Execute``1(GameObject,Aci.Unity.UI.Navigation.ExecuteNavigationEvent.EventFunction{``0},Aci.Unity.UI.Navigation.INavigationParameters)
+  name.vb: Execute(Of THandler)(GameObject, ExecuteNavigationEvent.EventFunction(Of THandler), INavigationParameters)
+  fullName: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.Execute<THandler>(GameObject, Aci.Unity.UI.Navigation.ExecuteNavigationEvent.EventFunction<THandler>, Aci.Unity.UI.Navigation.INavigationParameters)
+  fullName.vb: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.Execute(Of THandler)(GameObject, Aci.Unity.UI.Navigation.ExecuteNavigationEvent.EventFunction(Of THandler), Aci.Unity.UI.Navigation.INavigationParameters)
+  nameWithType: ExecuteNavigationEvent.Execute<THandler>(GameObject, ExecuteNavigationEvent.EventFunction<THandler>, INavigationParameters)
+  nameWithType.vb: ExecuteNavigationEvent.Execute(Of THandler)(GameObject, ExecuteNavigationEvent.EventFunction(Of THandler), INavigationParameters)
+- uid: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatedBack
+  name: navigatedBack
+  href: api/Aci.Unity.UI.Navigation.ExecuteNavigationEvent.html#Aci_Unity_UI_Navigation_ExecuteNavigationEvent_navigatedBack
+  commentId: P:Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatedBack
+  fullName: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatedBack
+  nameWithType: ExecuteNavigationEvent.navigatedBack
+- uid: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatedBack*
+  name: navigatedBack
+  href: api/Aci.Unity.UI.Navigation.ExecuteNavigationEvent.html#Aci_Unity_UI_Navigation_ExecuteNavigationEvent_navigatedBack_
+  commentId: Overload:Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatedBack
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatedBack
+  nameWithType: ExecuteNavigationEvent.navigatedBack
+- uid: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatedTo
+  name: navigatedTo
+  href: api/Aci.Unity.UI.Navigation.ExecuteNavigationEvent.html#Aci_Unity_UI_Navigation_ExecuteNavigationEvent_navigatedTo
+  commentId: P:Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatedTo
+  fullName: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatedTo
+  nameWithType: ExecuteNavigationEvent.navigatedTo
+- uid: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatedTo*
+  name: navigatedTo
+  href: api/Aci.Unity.UI.Navigation.ExecuteNavigationEvent.html#Aci_Unity_UI_Navigation_ExecuteNavigationEvent_navigatedTo_
+  commentId: Overload:Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatedTo
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatedTo
+  nameWithType: ExecuteNavigationEvent.navigatedTo
+- uid: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatingAway
+  name: navigatingAway
+  href: api/Aci.Unity.UI.Navigation.ExecuteNavigationEvent.html#Aci_Unity_UI_Navigation_ExecuteNavigationEvent_navigatingAway
+  commentId: P:Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatingAway
+  fullName: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatingAway
+  nameWithType: ExecuteNavigationEvent.navigatingAway
+- uid: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatingAway*
+  name: navigatingAway
+  href: api/Aci.Unity.UI.Navigation.ExecuteNavigationEvent.html#Aci_Unity_UI_Navigation_ExecuteNavigationEvent_navigatingAway_
+  commentId: Overload:Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatingAway
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatingAway
+  nameWithType: ExecuteNavigationEvent.navigatingAway
+- uid: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatingBack
+  name: navigatingBack
+  href: api/Aci.Unity.UI.Navigation.ExecuteNavigationEvent.html#Aci_Unity_UI_Navigation_ExecuteNavigationEvent_navigatingBack
+  commentId: P:Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatingBack
+  fullName: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatingBack
+  nameWithType: ExecuteNavigationEvent.navigatingBack
+- uid: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatingBack*
+  name: navigatingBack
+  href: api/Aci.Unity.UI.Navigation.ExecuteNavigationEvent.html#Aci_Unity_UI_Navigation_ExecuteNavigationEvent_navigatingBack_
+  commentId: Overload:Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatingBack
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatingBack
+  nameWithType: ExecuteNavigationEvent.navigatingBack
+- uid: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatingTo
+  name: navigatingTo
+  href: api/Aci.Unity.UI.Navigation.ExecuteNavigationEvent.html#Aci_Unity_UI_Navigation_ExecuteNavigationEvent_navigatingTo
+  commentId: P:Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatingTo
+  fullName: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatingTo
+  nameWithType: ExecuteNavigationEvent.navigatingTo
+- uid: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatingTo*
+  name: navigatingTo
+  href: api/Aci.Unity.UI.Navigation.ExecuteNavigationEvent.html#Aci_Unity_UI_Navigation_ExecuteNavigationEvent_navigatingTo_
+  commentId: Overload:Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatingTo
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Navigation.ExecuteNavigationEvent.navigatingTo
+  nameWithType: ExecuteNavigationEvent.navigatingTo
+- uid: Aci.Unity.UI.Navigation.IDestructibleAware
+  name: IDestructibleAware
+  href: api/Aci.Unity.UI.Navigation.IDestructibleAware.html
+  commentId: T:Aci.Unity.UI.Navigation.IDestructibleAware
+  fullName: Aci.Unity.UI.Navigation.IDestructibleAware
+  nameWithType: IDestructibleAware
+- uid: Aci.Unity.UI.Navigation.IDestructibleAware.OnScreenDestroyed(Aci.Unity.UI.Navigation.INavigationParameters)
+  name: OnScreenDestroyed(INavigationParameters)
+  href: api/Aci.Unity.UI.Navigation.IDestructibleAware.html#Aci_Unity_UI_Navigation_IDestructibleAware_OnScreenDestroyed_Aci_Unity_UI_Navigation_INavigationParameters_
+  commentId: M:Aci.Unity.UI.Navigation.IDestructibleAware.OnScreenDestroyed(Aci.Unity.UI.Navigation.INavigationParameters)
+  fullName: Aci.Unity.UI.Navigation.IDestructibleAware.OnScreenDestroyed(Aci.Unity.UI.Navigation.INavigationParameters)
+  nameWithType: IDestructibleAware.OnScreenDestroyed(INavigationParameters)
+- uid: Aci.Unity.UI.Navigation.IDestructibleAware.OnScreenDestroyed*
+  name: OnScreenDestroyed
+  href: api/Aci.Unity.UI.Navigation.IDestructibleAware.html#Aci_Unity_UI_Navigation_IDestructibleAware_OnScreenDestroyed_
+  commentId: Overload:Aci.Unity.UI.Navigation.IDestructibleAware.OnScreenDestroyed
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Navigation.IDestructibleAware.OnScreenDestroyed
+  nameWithType: IDestructibleAware.OnScreenDestroyed
 - uid: Aci.Unity.UI.Navigation.INavigatedAware
   name: INavigatedAware
   href: api/Aci.Unity.UI.Navigation.INavigatedAware.html
   commentId: T:Aci.Unity.UI.Navigation.INavigatedAware
   fullName: Aci.Unity.UI.Navigation.INavigatedAware
   nameWithType: INavigatedAware
-- uid: Aci.Unity.UI.Navigation.INavigatedAwayAware
-  name: INavigatedAwayAware
-  href: api/Aci.Unity.UI.Navigation.INavigatedAwayAware.html
-  commentId: T:Aci.Unity.UI.Navigation.INavigatedAwayAware
-  fullName: Aci.Unity.UI.Navigation.INavigatedAwayAware
-  nameWithType: INavigatedAwayAware
-- uid: Aci.Unity.UI.Navigation.INavigatedAwayAware.OnNavigatedAway(Aci.Unity.UI.Navigation.INavigationParameters)
-  name: OnNavigatedAway(INavigationParameters)
-  href: api/Aci.Unity.UI.Navigation.INavigatedAwayAware.html#Aci_Unity_UI_Navigation_INavigatedAwayAware_OnNavigatedAway_Aci_Unity_UI_Navigation_INavigationParameters_
-  commentId: M:Aci.Unity.UI.Navigation.INavigatedAwayAware.OnNavigatedAway(Aci.Unity.UI.Navigation.INavigationParameters)
-  fullName: Aci.Unity.UI.Navigation.INavigatedAwayAware.OnNavigatedAway(Aci.Unity.UI.Navigation.INavigationParameters)
-  nameWithType: INavigatedAwayAware.OnNavigatedAway(INavigationParameters)
-- uid: Aci.Unity.UI.Navigation.INavigatedAwayAware.OnNavigatedAway*
-  name: OnNavigatedAway
-  href: api/Aci.Unity.UI.Navigation.INavigatedAwayAware.html#Aci_Unity_UI_Navigation_INavigatedAwayAware_OnNavigatedAway_
-  commentId: Overload:Aci.Unity.UI.Navigation.INavigatedAwayAware.OnNavigatedAway
+- uid: Aci.Unity.UI.Navigation.INavigatedAware.OnNavigatedTo(Aci.Unity.UI.Navigation.INavigationParameters)
+  name: OnNavigatedTo(INavigationParameters)
+  href: api/Aci.Unity.UI.Navigation.INavigatedAware.html#Aci_Unity_UI_Navigation_INavigatedAware_OnNavigatedTo_Aci_Unity_UI_Navigation_INavigationParameters_
+  commentId: M:Aci.Unity.UI.Navigation.INavigatedAware.OnNavigatedTo(Aci.Unity.UI.Navigation.INavigationParameters)
+  fullName: Aci.Unity.UI.Navigation.INavigatedAware.OnNavigatedTo(Aci.Unity.UI.Navigation.INavigationParameters)
+  nameWithType: INavigatedAware.OnNavigatedTo(INavigationParameters)
+- uid: Aci.Unity.UI.Navigation.INavigatedAware.OnNavigatedTo*
+  name: OnNavigatedTo
+  href: api/Aci.Unity.UI.Navigation.INavigatedAware.html#Aci_Unity_UI_Navigation_INavigatedAware_OnNavigatedTo_
+  commentId: Overload:Aci.Unity.UI.Navigation.INavigatedAware.OnNavigatedTo
   isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.INavigatedAwayAware.OnNavigatedAway
-  nameWithType: INavigatedAwayAware.OnNavigatedAway
+  fullName: Aci.Unity.UI.Navigation.INavigatedAware.OnNavigatedTo
+  nameWithType: INavigatedAware.OnNavigatedTo
 - uid: Aci.Unity.UI.Navigation.INavigatedBackAware
   name: INavigatedBackAware
   href: api/Aci.Unity.UI.Navigation.INavigatedBackAware.html
@@ -2875,25 +3733,6 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Navigation.INavigatedBackAware.OnNavigatedBack
   nameWithType: INavigatedBackAware.OnNavigatedBack
-- uid: Aci.Unity.UI.Navigation.INavigatedToAware
-  name: INavigatedToAware
-  href: api/Aci.Unity.UI.Navigation.INavigatedToAware.html
-  commentId: T:Aci.Unity.UI.Navigation.INavigatedToAware
-  fullName: Aci.Unity.UI.Navigation.INavigatedToAware
-  nameWithType: INavigatedToAware
-- uid: Aci.Unity.UI.Navigation.INavigatedToAware.OnNavigatedTo(Aci.Unity.UI.Navigation.INavigationParameters)
-  name: OnNavigatedTo(INavigationParameters)
-  href: api/Aci.Unity.UI.Navigation.INavigatedToAware.html#Aci_Unity_UI_Navigation_INavigatedToAware_OnNavigatedTo_Aci_Unity_UI_Navigation_INavigationParameters_
-  commentId: M:Aci.Unity.UI.Navigation.INavigatedToAware.OnNavigatedTo(Aci.Unity.UI.Navigation.INavigationParameters)
-  fullName: Aci.Unity.UI.Navigation.INavigatedToAware.OnNavigatedTo(Aci.Unity.UI.Navigation.INavigationParameters)
-  nameWithType: INavigatedToAware.OnNavigatedTo(INavigationParameters)
-- uid: Aci.Unity.UI.Navigation.INavigatedToAware.OnNavigatedTo*
-  name: OnNavigatedTo
-  href: api/Aci.Unity.UI.Navigation.INavigatedToAware.html#Aci_Unity_UI_Navigation_INavigatedToAware_OnNavigatedTo_
-  commentId: Overload:Aci.Unity.UI.Navigation.INavigatedToAware.OnNavigatedTo
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.INavigatedToAware.OnNavigatedTo
-  nameWithType: INavigatedToAware.OnNavigatedTo
 - uid: Aci.Unity.UI.Navigation.INavigatingAware
   name: INavigatingAware
   href: api/Aci.Unity.UI.Navigation.INavigatingAware.html
@@ -2913,30 +3752,62 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Navigation.INavigatingAware.OnNavigatingTo
   nameWithType: INavigatingAware.OnNavigatingTo
+- uid: Aci.Unity.UI.Navigation.INavigatingAwayAware
+  name: INavigatingAwayAware
+  href: api/Aci.Unity.UI.Navigation.INavigatingAwayAware.html
+  commentId: T:Aci.Unity.UI.Navigation.INavigatingAwayAware
+  fullName: Aci.Unity.UI.Navigation.INavigatingAwayAware
+  nameWithType: INavigatingAwayAware
+- uid: Aci.Unity.UI.Navigation.INavigatingAwayAware.OnNavigatingAway(Aci.Unity.UI.Navigation.INavigationParameters)
+  name: OnNavigatingAway(INavigationParameters)
+  href: api/Aci.Unity.UI.Navigation.INavigatingAwayAware.html#Aci_Unity_UI_Navigation_INavigatingAwayAware_OnNavigatingAway_Aci_Unity_UI_Navigation_INavigationParameters_
+  commentId: M:Aci.Unity.UI.Navigation.INavigatingAwayAware.OnNavigatingAway(Aci.Unity.UI.Navigation.INavigationParameters)
+  fullName: Aci.Unity.UI.Navigation.INavigatingAwayAware.OnNavigatingAway(Aci.Unity.UI.Navigation.INavigationParameters)
+  nameWithType: INavigatingAwayAware.OnNavigatingAway(INavigationParameters)
+- uid: Aci.Unity.UI.Navigation.INavigatingAwayAware.OnNavigatingAway*
+  name: OnNavigatingAway
+  href: api/Aci.Unity.UI.Navigation.INavigatingAwayAware.html#Aci_Unity_UI_Navigation_INavigatingAwayAware_OnNavigatingAway_
+  commentId: Overload:Aci.Unity.UI.Navigation.INavigatingAwayAware.OnNavigatingAway
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Navigation.INavigatingAwayAware.OnNavigatingAway
+  nameWithType: INavigatingAwayAware.OnNavigatingAway
+- uid: Aci.Unity.UI.Navigation.INavigatingBackAware
+  name: INavigatingBackAware
+  href: api/Aci.Unity.UI.Navigation.INavigatingBackAware.html
+  commentId: T:Aci.Unity.UI.Navigation.INavigatingBackAware
+  fullName: Aci.Unity.UI.Navigation.INavigatingBackAware
+  nameWithType: INavigatingBackAware
+- uid: Aci.Unity.UI.Navigation.INavigatingBackAware.OnNavigatingBack(Aci.Unity.UI.Navigation.INavigationParameters)
+  name: OnNavigatingBack(INavigationParameters)
+  href: api/Aci.Unity.UI.Navigation.INavigatingBackAware.html#Aci_Unity_UI_Navigation_INavigatingBackAware_OnNavigatingBack_Aci_Unity_UI_Navigation_INavigationParameters_
+  commentId: M:Aci.Unity.UI.Navigation.INavigatingBackAware.OnNavigatingBack(Aci.Unity.UI.Navigation.INavigationParameters)
+  fullName: Aci.Unity.UI.Navigation.INavigatingBackAware.OnNavigatingBack(Aci.Unity.UI.Navigation.INavigationParameters)
+  nameWithType: INavigatingBackAware.OnNavigatingBack(INavigationParameters)
+- uid: Aci.Unity.UI.Navigation.INavigatingBackAware.OnNavigatingBack*
+  name: OnNavigatingBack
+  href: api/Aci.Unity.UI.Navigation.INavigatingBackAware.html#Aci_Unity_UI_Navigation_INavigatingBackAware_OnNavigatingBack_
+  commentId: Overload:Aci.Unity.UI.Navigation.INavigatingBackAware.OnNavigatingBack
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Navigation.INavigatingBackAware.OnNavigatingBack
+  nameWithType: INavigatingBackAware.OnNavigatingBack
 - uid: Aci.Unity.UI.Navigation.INavigationAware
   name: INavigationAware
   href: api/Aci.Unity.UI.Navigation.INavigationAware.html
   commentId: T:Aci.Unity.UI.Navigation.INavigationAware
   fullName: Aci.Unity.UI.Navigation.INavigationAware
   nameWithType: INavigationAware
-- uid: Aci.Unity.UI.Navigation.INavigationEvent
-  name: INavigationEvent
-  href: api/Aci.Unity.UI.Navigation.INavigationEvent.html
-  commentId: T:Aci.Unity.UI.Navigation.INavigationEvent
-  fullName: Aci.Unity.UI.Navigation.INavigationEvent
-  nameWithType: INavigationEvent
+- uid: Aci.Unity.UI.Navigation.INavigationEventHandler
+  name: INavigationEventHandler
+  href: api/Aci.Unity.UI.Navigation.INavigationEventHandler.html
+  commentId: T:Aci.Unity.UI.Navigation.INavigationEventHandler
+  fullName: Aci.Unity.UI.Navigation.INavigationEventHandler
+  nameWithType: INavigationEventHandler
 - uid: Aci.Unity.UI.Navigation.INavigationParameters
   name: INavigationParameters
   href: api/Aci.Unity.UI.Navigation.INavigationParameters.html
   commentId: T:Aci.Unity.UI.Navigation.INavigationParameters
   fullName: Aci.Unity.UI.Navigation.INavigationParameters
   nameWithType: INavigationParameters
-- uid: Aci.Unity.UI.Navigation.INavigationParameters.Add(System.String,System.Object)
-  name: Add(String, Object)
-  href: api/Aci.Unity.UI.Navigation.INavigationParameters.html#Aci_Unity_UI_Navigation_INavigationParameters_Add_System_String_System_Object_
-  commentId: M:Aci.Unity.UI.Navigation.INavigationParameters.Add(System.String,System.Object)
-  fullName: Aci.Unity.UI.Navigation.INavigationParameters.Add(System.String, System.Object)
-  nameWithType: INavigationParameters.Add(String, Object)
 - uid: Aci.Unity.UI.Navigation.INavigationParameters.Add*
   name: Add
   href: api/Aci.Unity.UI.Navigation.INavigationParameters.html#Aci_Unity_UI_Navigation_INavigationParameters_Add_
@@ -2944,32 +3815,28 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Navigation.INavigationParameters.Add
   nameWithType: INavigationParameters.Add
-- uid: Aci.Unity.UI.Navigation.INavigationParameters.ContainsKey(System.String)
-  name: ContainsKey(String)
-  href: api/Aci.Unity.UI.Navigation.INavigationParameters.html#Aci_Unity_UI_Navigation_INavigationParameters_ContainsKey_System_String_
-  commentId: M:Aci.Unity.UI.Navigation.INavigationParameters.ContainsKey(System.String)
-  fullName: Aci.Unity.UI.Navigation.INavigationParameters.ContainsKey(System.String)
-  nameWithType: INavigationParameters.ContainsKey(String)
-- uid: Aci.Unity.UI.Navigation.INavigationParameters.ContainsKey*
-  name: ContainsKey
-  href: api/Aci.Unity.UI.Navigation.INavigationParameters.html#Aci_Unity_UI_Navigation_INavigationParameters_ContainsKey_
-  commentId: Overload:Aci.Unity.UI.Navigation.INavigationParameters.ContainsKey
+- uid: Aci.Unity.UI.Navigation.INavigationParameters.Add``1(System.String,``0)
+  name: Add<T>(String, T)
+  href: api/Aci.Unity.UI.Navigation.INavigationParameters.html#Aci_Unity_UI_Navigation_INavigationParameters_Add__1_System_String___0_
+  commentId: M:Aci.Unity.UI.Navigation.INavigationParameters.Add``1(System.String,``0)
+  name.vb: Add(Of T)(String, T)
+  fullName: Aci.Unity.UI.Navigation.INavigationParameters.Add<T>(System.String, T)
+  fullName.vb: Aci.Unity.UI.Navigation.INavigationParameters.Add(Of T)(System.String, T)
+  nameWithType: INavigationParameters.Add<T>(String, T)
+  nameWithType.vb: INavigationParameters.Add(Of T)(String, T)
+- uid: Aci.Unity.UI.Navigation.INavigationParameters.Clear
+  name: Clear()
+  href: api/Aci.Unity.UI.Navigation.INavigationParameters.html#Aci_Unity_UI_Navigation_INavigationParameters_Clear
+  commentId: M:Aci.Unity.UI.Navigation.INavigationParameters.Clear
+  fullName: Aci.Unity.UI.Navigation.INavigationParameters.Clear()
+  nameWithType: INavigationParameters.Clear()
+- uid: Aci.Unity.UI.Navigation.INavigationParameters.Clear*
+  name: Clear
+  href: api/Aci.Unity.UI.Navigation.INavigationParameters.html#Aci_Unity_UI_Navigation_INavigationParameters_Clear_
+  commentId: Overload:Aci.Unity.UI.Navigation.INavigationParameters.Clear
   isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.INavigationParameters.ContainsKey
-  nameWithType: INavigationParameters.ContainsKey
-- uid: Aci.Unity.UI.Navigation.INavigationParameters.Count
-  name: Count
-  href: api/Aci.Unity.UI.Navigation.INavigationParameters.html#Aci_Unity_UI_Navigation_INavigationParameters_Count
-  commentId: P:Aci.Unity.UI.Navigation.INavigationParameters.Count
-  fullName: Aci.Unity.UI.Navigation.INavigationParameters.Count
-  nameWithType: INavigationParameters.Count
-- uid: Aci.Unity.UI.Navigation.INavigationParameters.Count*
-  name: Count
-  href: api/Aci.Unity.UI.Navigation.INavigationParameters.html#Aci_Unity_UI_Navigation_INavigationParameters_Count_
-  commentId: Overload:Aci.Unity.UI.Navigation.INavigationParameters.Count
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.INavigationParameters.Count
-  nameWithType: INavigationParameters.Count
+  fullName: Aci.Unity.UI.Navigation.INavigationParameters.Clear
+  nameWithType: INavigationParameters.Clear
 - uid: Aci.Unity.UI.Navigation.INavigationParameters.GetValue*
   name: GetValue
   href: api/Aci.Unity.UI.Navigation.INavigationParameters.html#Aci_Unity_UI_Navigation_INavigationParameters_GetValue_
@@ -3008,239 +3875,330 @@ references:
   commentId: T:Aci.Unity.UI.Navigation.INavigationService
   fullName: Aci.Unity.UI.Navigation.INavigationService
   nameWithType: INavigationService
-- uid: Aci.Unity.UI.Navigation.INavigationService.Navigated
-  name: Navigated
-  href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_Navigated
-  commentId: E:Aci.Unity.UI.Navigation.INavigationService.Navigated
-  fullName: Aci.Unity.UI.Navigation.INavigationService.Navigated
-  nameWithType: INavigationService.Navigated
-- uid: Aci.Unity.UI.Navigation.INavigationService.Pop(Aci.Unity.UI.Navigation.INavigationParameters,System.Action)
-  name: Pop(INavigationParameters, Action)
-  href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_Pop_Aci_Unity_UI_Navigation_INavigationParameters_System_Action_
-  commentId: M:Aci.Unity.UI.Navigation.INavigationService.Pop(Aci.Unity.UI.Navigation.INavigationParameters,System.Action)
-  fullName: Aci.Unity.UI.Navigation.INavigationService.Pop(Aci.Unity.UI.Navigation.INavigationParameters, System.Action)
-  nameWithType: INavigationService.Pop(INavigationParameters, Action)
-- uid: Aci.Unity.UI.Navigation.INavigationService.Pop(System.Action)
-  name: Pop(Action)
-  href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_Pop_System_Action_
-  commentId: M:Aci.Unity.UI.Navigation.INavigationService.Pop(System.Action)
-  fullName: Aci.Unity.UI.Navigation.INavigationService.Pop(System.Action)
-  nameWithType: INavigationService.Pop(Action)
-- uid: Aci.Unity.UI.Navigation.INavigationService.Pop*
-  name: Pop
-  href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_Pop_
-  commentId: Overload:Aci.Unity.UI.Navigation.INavigationService.Pop
+- uid: Aci.Unity.UI.Navigation.INavigationService.CanPop
+  name: CanPop()
+  href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_CanPop
+  commentId: M:Aci.Unity.UI.Navigation.INavigationService.CanPop
+  fullName: Aci.Unity.UI.Navigation.INavigationService.CanPop()
+  nameWithType: INavigationService.CanPop()
+- uid: Aci.Unity.UI.Navigation.INavigationService.CanPop*
+  name: CanPop
+  href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_CanPop_
+  commentId: Overload:Aci.Unity.UI.Navigation.INavigationService.CanPop
   isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.INavigationService.Pop
-  nameWithType: INavigationService.Pop
-- uid: Aci.Unity.UI.Navigation.INavigationService.Push(System.String,Aci.Unity.UI.Navigation.INavigationParameters,System.Boolean,System.Action)
-  name: Push(String, INavigationParameters, Boolean, Action)
-  href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_Push_System_String_Aci_Unity_UI_Navigation_INavigationParameters_System_Boolean_System_Action_
-  commentId: M:Aci.Unity.UI.Navigation.INavigationService.Push(System.String,Aci.Unity.UI.Navigation.INavigationParameters,System.Boolean,System.Action)
-  fullName: Aci.Unity.UI.Navigation.INavigationService.Push(System.String, Aci.Unity.UI.Navigation.INavigationParameters, System.Boolean, System.Action)
-  nameWithType: INavigationService.Push(String, INavigationParameters, Boolean, Action)
-- uid: Aci.Unity.UI.Navigation.INavigationService.Push(System.String,System.Boolean,System.Action)
-  name: Push(String, Boolean, Action)
-  href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_Push_System_String_System_Boolean_System_Action_
-  commentId: M:Aci.Unity.UI.Navigation.INavigationService.Push(System.String,System.Boolean,System.Action)
-  fullName: Aci.Unity.UI.Navigation.INavigationService.Push(System.String, System.Boolean, System.Action)
-  nameWithType: INavigationService.Push(String, Boolean, Action)
-- uid: Aci.Unity.UI.Navigation.INavigationService.Push*
-  name: Push
-  href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_Push_
-  commentId: Overload:Aci.Unity.UI.Navigation.INavigationService.Push
+  fullName: Aci.Unity.UI.Navigation.INavigationService.CanPop
+  nameWithType: INavigationService.CanPop
+- uid: Aci.Unity.UI.Navigation.INavigationService.PopAsync(Aci.Unity.UI.Navigation.AnimationOptions)
+  name: PopAsync(AnimationOptions)
+  href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_PopAsync_Aci_Unity_UI_Navigation_AnimationOptions_
+  commentId: M:Aci.Unity.UI.Navigation.INavigationService.PopAsync(Aci.Unity.UI.Navigation.AnimationOptions)
+  fullName: Aci.Unity.UI.Navigation.INavigationService.PopAsync(Aci.Unity.UI.Navigation.AnimationOptions)
+  nameWithType: INavigationService.PopAsync(AnimationOptions)
+- uid: Aci.Unity.UI.Navigation.INavigationService.PopAsync(Aci.Unity.UI.Navigation.INavigationParameters,Aci.Unity.UI.Navigation.AnimationOptions)
+  name: PopAsync(INavigationParameters, AnimationOptions)
+  href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_PopAsync_Aci_Unity_UI_Navigation_INavigationParameters_Aci_Unity_UI_Navigation_AnimationOptions_
+  commentId: M:Aci.Unity.UI.Navigation.INavigationService.PopAsync(Aci.Unity.UI.Navigation.INavigationParameters,Aci.Unity.UI.Navigation.AnimationOptions)
+  fullName: Aci.Unity.UI.Navigation.INavigationService.PopAsync(Aci.Unity.UI.Navigation.INavigationParameters, Aci.Unity.UI.Navigation.AnimationOptions)
+  nameWithType: INavigationService.PopAsync(INavigationParameters, AnimationOptions)
+- uid: Aci.Unity.UI.Navigation.INavigationService.PopAsync*
+  name: PopAsync
+  href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_PopAsync_
+  commentId: Overload:Aci.Unity.UI.Navigation.INavigationService.PopAsync
   isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.INavigationService.Push
-  nameWithType: INavigationService.Push
-- uid: Aci.Unity.UI.Navigation.INavigationService.StackCount
-  name: StackCount
-  href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_StackCount
-  commentId: P:Aci.Unity.UI.Navigation.INavigationService.StackCount
-  fullName: Aci.Unity.UI.Navigation.INavigationService.StackCount
-  nameWithType: INavigationService.StackCount
-- uid: Aci.Unity.UI.Navigation.INavigationService.StackCount*
-  name: StackCount
-  href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_StackCount_
-  commentId: Overload:Aci.Unity.UI.Navigation.INavigationService.StackCount
+  fullName: Aci.Unity.UI.Navigation.INavigationService.PopAsync
+  nameWithType: INavigationService.PopAsync
+- uid: Aci.Unity.UI.Navigation.INavigationService.PopToRootAsync(Aci.Unity.UI.Navigation.AnimationOptions)
+  name: PopToRootAsync(AnimationOptions)
+  href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_PopToRootAsync_Aci_Unity_UI_Navigation_AnimationOptions_
+  commentId: M:Aci.Unity.UI.Navigation.INavigationService.PopToRootAsync(Aci.Unity.UI.Navigation.AnimationOptions)
+  fullName: Aci.Unity.UI.Navigation.INavigationService.PopToRootAsync(Aci.Unity.UI.Navigation.AnimationOptions)
+  nameWithType: INavigationService.PopToRootAsync(AnimationOptions)
+- uid: Aci.Unity.UI.Navigation.INavigationService.PopToRootAsync(Aci.Unity.UI.Navigation.INavigationParameters,Aci.Unity.UI.Navigation.AnimationOptions)
+  name: PopToRootAsync(INavigationParameters, AnimationOptions)
+  href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_PopToRootAsync_Aci_Unity_UI_Navigation_INavigationParameters_Aci_Unity_UI_Navigation_AnimationOptions_
+  commentId: M:Aci.Unity.UI.Navigation.INavigationService.PopToRootAsync(Aci.Unity.UI.Navigation.INavigationParameters,Aci.Unity.UI.Navigation.AnimationOptions)
+  fullName: Aci.Unity.UI.Navigation.INavigationService.PopToRootAsync(Aci.Unity.UI.Navigation.INavigationParameters, Aci.Unity.UI.Navigation.AnimationOptions)
+  nameWithType: INavigationService.PopToRootAsync(INavigationParameters, AnimationOptions)
+- uid: Aci.Unity.UI.Navigation.INavigationService.PopToRootAsync*
+  name: PopToRootAsync
+  href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_PopToRootAsync_
+  commentId: Overload:Aci.Unity.UI.Navigation.INavigationService.PopToRootAsync
   isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.INavigationService.StackCount
-  nameWithType: INavigationService.StackCount
-- uid: Aci.Unity.UI.Navigation.IPageContainer
-  name: IPageContainer
-  href: api/Aci.Unity.UI.Navigation.IPageContainer.html
-  commentId: T:Aci.Unity.UI.Navigation.IPageContainer
-  fullName: Aci.Unity.UI.Navigation.IPageContainer
-  nameWithType: IPageContainer
-- uid: Aci.Unity.UI.Navigation.IPageContainer.Destroy
-  name: Destroy()
-  href: api/Aci.Unity.UI.Navigation.IPageContainer.html#Aci_Unity_UI_Navigation_IPageContainer_Destroy
-  commentId: M:Aci.Unity.UI.Navigation.IPageContainer.Destroy
-  fullName: Aci.Unity.UI.Navigation.IPageContainer.Destroy()
-  nameWithType: IPageContainer.Destroy()
-- uid: Aci.Unity.UI.Navigation.IPageContainer.Destroy*
-  name: Destroy
-  href: api/Aci.Unity.UI.Navigation.IPageContainer.html#Aci_Unity_UI_Navigation_IPageContainer_Destroy_
-  commentId: Overload:Aci.Unity.UI.Navigation.IPageContainer.Destroy
+  fullName: Aci.Unity.UI.Navigation.INavigationService.PopToRootAsync
+  nameWithType: INavigationService.PopToRootAsync
+- uid: Aci.Unity.UI.Navigation.INavigationService.PushAsync(System.String,Aci.Unity.UI.Navigation.AnimationOptions,System.Boolean)
+  name: PushAsync(String, AnimationOptions, Boolean)
+  href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_PushAsync_System_String_Aci_Unity_UI_Navigation_AnimationOptions_System_Boolean_
+  commentId: M:Aci.Unity.UI.Navigation.INavigationService.PushAsync(System.String,Aci.Unity.UI.Navigation.AnimationOptions,System.Boolean)
+  fullName: Aci.Unity.UI.Navigation.INavigationService.PushAsync(System.String, Aci.Unity.UI.Navigation.AnimationOptions, System.Boolean)
+  nameWithType: INavigationService.PushAsync(String, AnimationOptions, Boolean)
+- uid: Aci.Unity.UI.Navigation.INavigationService.PushAsync(System.String,Aci.Unity.UI.Navigation.INavigationParameters,Aci.Unity.UI.Navigation.AnimationOptions,System.Boolean)
+  name: PushAsync(String, INavigationParameters, AnimationOptions, Boolean)
+  href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_PushAsync_System_String_Aci_Unity_UI_Navigation_INavigationParameters_Aci_Unity_UI_Navigation_AnimationOptions_System_Boolean_
+  commentId: M:Aci.Unity.UI.Navigation.INavigationService.PushAsync(System.String,Aci.Unity.UI.Navigation.INavigationParameters,Aci.Unity.UI.Navigation.AnimationOptions,System.Boolean)
+  fullName: Aci.Unity.UI.Navigation.INavigationService.PushAsync(System.String, Aci.Unity.UI.Navigation.INavigationParameters, Aci.Unity.UI.Navigation.AnimationOptions, System.Boolean)
+  nameWithType: INavigationService.PushAsync(String, INavigationParameters, AnimationOptions, Boolean)
+- uid: Aci.Unity.UI.Navigation.INavigationService.PushAsync*
+  name: PushAsync
+  href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_PushAsync_
+  commentId: Overload:Aci.Unity.UI.Navigation.INavigationService.PushAsync
   isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.IPageContainer.Destroy
-  nameWithType: IPageContainer.Destroy
-- uid: Aci.Unity.UI.Navigation.IPageContainer.Display(System.Action)
-  name: Display(Action)
-  href: api/Aci.Unity.UI.Navigation.IPageContainer.html#Aci_Unity_UI_Navigation_IPageContainer_Display_System_Action_
-  commentId: M:Aci.Unity.UI.Navigation.IPageContainer.Display(System.Action)
-  fullName: Aci.Unity.UI.Navigation.IPageContainer.Display(System.Action)
-  nameWithType: IPageContainer.Display(Action)
-- uid: Aci.Unity.UI.Navigation.IPageContainer.Display*
-  name: Display
-  href: api/Aci.Unity.UI.Navigation.IPageContainer.html#Aci_Unity_UI_Navigation_IPageContainer_Display_
-  commentId: Overload:Aci.Unity.UI.Navigation.IPageContainer.Display
+  fullName: Aci.Unity.UI.Navigation.INavigationService.PushAsync
+  nameWithType: INavigationService.PushAsync
+- uid: Aci.Unity.UI.Navigation.IScreenController
+  name: IScreenController
+  href: api/Aci.Unity.UI.Navigation.IScreenController.html
+  commentId: T:Aci.Unity.UI.Navigation.IScreenController
+  fullName: Aci.Unity.UI.Navigation.IScreenController
+  nameWithType: IScreenController
+- uid: Aci.Unity.UI.Navigation.IScreenController.id
+  name: id
+  href: api/Aci.Unity.UI.Navigation.IScreenController.html#Aci_Unity_UI_Navigation_IScreenController_id
+  commentId: P:Aci.Unity.UI.Navigation.IScreenController.id
+  fullName: Aci.Unity.UI.Navigation.IScreenController.id
+  nameWithType: IScreenController.id
+- uid: Aci.Unity.UI.Navigation.IScreenController.id*
+  name: id
+  href: api/Aci.Unity.UI.Navigation.IScreenController.html#Aci_Unity_UI_Navigation_IScreenController_id_
+  commentId: Overload:Aci.Unity.UI.Navigation.IScreenController.id
   isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.IPageContainer.Display
-  nameWithType: IPageContainer.Display
-- uid: Aci.Unity.UI.Navigation.IPageContainer.Hide(System.String,System.Action)
-  name: Hide(String, Action)
-  href: api/Aci.Unity.UI.Navigation.IPageContainer.html#Aci_Unity_UI_Navigation_IPageContainer_Hide_System_String_System_Action_
-  commentId: M:Aci.Unity.UI.Navigation.IPageContainer.Hide(System.String,System.Action)
-  fullName: Aci.Unity.UI.Navigation.IPageContainer.Hide(System.String, System.Action)
-  nameWithType: IPageContainer.Hide(String, Action)
-- uid: Aci.Unity.UI.Navigation.IPageContainer.Hide*
-  name: Hide
-  href: api/Aci.Unity.UI.Navigation.IPageContainer.html#Aci_Unity_UI_Navigation_IPageContainer_Hide_
-  commentId: Overload:Aci.Unity.UI.Navigation.IPageContainer.Hide
+  fullName: Aci.Unity.UI.Navigation.IScreenController.id
+  nameWithType: IScreenController.id
+- uid: Aci.Unity.UI.Navigation.IScreenController.Prepare
+  name: Prepare()
+  href: api/Aci.Unity.UI.Navigation.IScreenController.html#Aci_Unity_UI_Navigation_IScreenController_Prepare
+  commentId: M:Aci.Unity.UI.Navigation.IScreenController.Prepare
+  fullName: Aci.Unity.UI.Navigation.IScreenController.Prepare()
+  nameWithType: IScreenController.Prepare()
+- uid: Aci.Unity.UI.Navigation.IScreenController.Prepare*
+  name: Prepare
+  href: api/Aci.Unity.UI.Navigation.IScreenController.html#Aci_Unity_UI_Navigation_IScreenController_Prepare_
+  commentId: Overload:Aci.Unity.UI.Navigation.IScreenController.Prepare
   isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.IPageContainer.Hide
-  nameWithType: IPageContainer.Hide
-- uid: Aci.Unity.UI.Navigation.IPageContainer.Id
-  name: Id
-  href: api/Aci.Unity.UI.Navigation.IPageContainer.html#Aci_Unity_UI_Navigation_IPageContainer_Id
-  commentId: P:Aci.Unity.UI.Navigation.IPageContainer.Id
-  fullName: Aci.Unity.UI.Navigation.IPageContainer.Id
-  nameWithType: IPageContainer.Id
-- uid: Aci.Unity.UI.Navigation.IPageContainer.Id*
-  name: Id
-  href: api/Aci.Unity.UI.Navigation.IPageContainer.html#Aci_Unity_UI_Navigation_IPageContainer_Id_
-  commentId: Overload:Aci.Unity.UI.Navigation.IPageContainer.Id
+  fullName: Aci.Unity.UI.Navigation.IScreenController.Prepare
+  nameWithType: IScreenController.Prepare
+- uid: Aci.Unity.UI.Navigation.IScreenController.UpdateDisplayAsync(Aci.Unity.UI.Navigation.NavigationMode,System.Boolean)
+  name: UpdateDisplayAsync(NavigationMode, Boolean)
+  href: api/Aci.Unity.UI.Navigation.IScreenController.html#Aci_Unity_UI_Navigation_IScreenController_UpdateDisplayAsync_Aci_Unity_UI_Navigation_NavigationMode_System_Boolean_
+  commentId: M:Aci.Unity.UI.Navigation.IScreenController.UpdateDisplayAsync(Aci.Unity.UI.Navigation.NavigationMode,System.Boolean)
+  fullName: Aci.Unity.UI.Navigation.IScreenController.UpdateDisplayAsync(Aci.Unity.UI.Navigation.NavigationMode, System.Boolean)
+  nameWithType: IScreenController.UpdateDisplayAsync(NavigationMode, Boolean)
+- uid: Aci.Unity.UI.Navigation.IScreenController.UpdateDisplayAsync*
+  name: UpdateDisplayAsync
+  href: api/Aci.Unity.UI.Navigation.IScreenController.html#Aci_Unity_UI_Navigation_IScreenController_UpdateDisplayAsync_
+  commentId: Overload:Aci.Unity.UI.Navigation.IScreenController.UpdateDisplayAsync
   isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.IPageContainer.Id
-  nameWithType: IPageContainer.Id
-- uid: Aci.Unity.UI.Navigation.IPageContainer.PrepareDisplay
-  name: PrepareDisplay()
-  href: api/Aci.Unity.UI.Navigation.IPageContainer.html#Aci_Unity_UI_Navigation_IPageContainer_PrepareDisplay
-  commentId: M:Aci.Unity.UI.Navigation.IPageContainer.PrepareDisplay
-  fullName: Aci.Unity.UI.Navigation.IPageContainer.PrepareDisplay()
-  nameWithType: IPageContainer.PrepareDisplay()
-- uid: Aci.Unity.UI.Navigation.IPageContainer.PrepareDisplay*
-  name: PrepareDisplay
-  href: api/Aci.Unity.UI.Navigation.IPageContainer.html#Aci_Unity_UI_Navigation_IPageContainer_PrepareDisplay_
-  commentId: Overload:Aci.Unity.UI.Navigation.IPageContainer.PrepareDisplay
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.IPageContainer.PrepareDisplay
-  nameWithType: IPageContainer.PrepareDisplay
-- uid: Aci.Unity.UI.Navigation.IPageContainerRegistry
-  name: IPageContainerRegistry
-  href: api/Aci.Unity.UI.Navigation.IPageContainerRegistry.html
-  commentId: T:Aci.Unity.UI.Navigation.IPageContainerRegistry
-  fullName: Aci.Unity.UI.Navigation.IPageContainerRegistry
-  nameWithType: IPageContainerRegistry
-- uid: Aci.Unity.UI.Navigation.IPageContainerRegistry.GetContainer(System.String)
-  name: GetContainer(String)
-  href: api/Aci.Unity.UI.Navigation.IPageContainerRegistry.html#Aci_Unity_UI_Navigation_IPageContainerRegistry_GetContainer_System_String_
-  commentId: M:Aci.Unity.UI.Navigation.IPageContainerRegistry.GetContainer(System.String)
-  fullName: Aci.Unity.UI.Navigation.IPageContainerRegistry.GetContainer(System.String)
-  nameWithType: IPageContainerRegistry.GetContainer(String)
-- uid: Aci.Unity.UI.Navigation.IPageContainerRegistry.GetContainer*
-  name: GetContainer
-  href: api/Aci.Unity.UI.Navigation.IPageContainerRegistry.html#Aci_Unity_UI_Navigation_IPageContainerRegistry_GetContainer_
-  commentId: Overload:Aci.Unity.UI.Navigation.IPageContainerRegistry.GetContainer
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.IPageContainerRegistry.GetContainer
-  nameWithType: IPageContainerRegistry.GetContainer
-- uid: Aci.Unity.UI.Navigation.IPageContainerRegistry.Register(Aci.Unity.UI.Navigation.IPageContainer)
-  name: Register(IPageContainer)
-  href: api/Aci.Unity.UI.Navigation.IPageContainerRegistry.html#Aci_Unity_UI_Navigation_IPageContainerRegistry_Register_Aci_Unity_UI_Navigation_IPageContainer_
-  commentId: M:Aci.Unity.UI.Navigation.IPageContainerRegistry.Register(Aci.Unity.UI.Navigation.IPageContainer)
-  fullName: Aci.Unity.UI.Navigation.IPageContainerRegistry.Register(Aci.Unity.UI.Navigation.IPageContainer)
-  nameWithType: IPageContainerRegistry.Register(IPageContainer)
-- uid: Aci.Unity.UI.Navigation.IPageContainerRegistry.Register*
+  fullName: Aci.Unity.UI.Navigation.IScreenController.UpdateDisplayAsync
+  nameWithType: IScreenController.UpdateDisplayAsync
+- uid: Aci.Unity.UI.Navigation.IScreenRegistry
+  name: IScreenRegistry
+  href: api/Aci.Unity.UI.Navigation.IScreenRegistry.html
+  commentId: T:Aci.Unity.UI.Navigation.IScreenRegistry
+  fullName: Aci.Unity.UI.Navigation.IScreenRegistry
+  nameWithType: IScreenRegistry
+- uid: Aci.Unity.UI.Navigation.IScreenRegistry.Register(Aci.Unity.UI.Navigation.IScreenController)
+  name: Register(IScreenController)
+  href: api/Aci.Unity.UI.Navigation.IScreenRegistry.html#Aci_Unity_UI_Navigation_IScreenRegistry_Register_Aci_Unity_UI_Navigation_IScreenController_
+  commentId: M:Aci.Unity.UI.Navigation.IScreenRegistry.Register(Aci.Unity.UI.Navigation.IScreenController)
+  fullName: Aci.Unity.UI.Navigation.IScreenRegistry.Register(Aci.Unity.UI.Navigation.IScreenController)
+  nameWithType: IScreenRegistry.Register(IScreenController)
+- uid: Aci.Unity.UI.Navigation.IScreenRegistry.Register*
   name: Register
-  href: api/Aci.Unity.UI.Navigation.IPageContainerRegistry.html#Aci_Unity_UI_Navigation_IPageContainerRegistry_Register_
-  commentId: Overload:Aci.Unity.UI.Navigation.IPageContainerRegistry.Register
+  href: api/Aci.Unity.UI.Navigation.IScreenRegistry.html#Aci_Unity_UI_Navigation_IScreenRegistry_Register_
+  commentId: Overload:Aci.Unity.UI.Navigation.IScreenRegistry.Register
   isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.IPageContainerRegistry.Register
-  nameWithType: IPageContainerRegistry.Register
-- uid: Aci.Unity.UI.Navigation.IPageContainerRegistry.TryGetContainer(System.String,Aci.Unity.UI.Navigation.IPageContainer@)
-  name: TryGetContainer(String, out IPageContainer)
-  href: api/Aci.Unity.UI.Navigation.IPageContainerRegistry.html#Aci_Unity_UI_Navigation_IPageContainerRegistry_TryGetContainer_System_String_Aci_Unity_UI_Navigation_IPageContainer__
-  commentId: M:Aci.Unity.UI.Navigation.IPageContainerRegistry.TryGetContainer(System.String,Aci.Unity.UI.Navigation.IPageContainer@)
-  name.vb: TryGetContainer(String, ByRef IPageContainer)
-  fullName: Aci.Unity.UI.Navigation.IPageContainerRegistry.TryGetContainer(System.String, out Aci.Unity.UI.Navigation.IPageContainer)
-  fullName.vb: Aci.Unity.UI.Navigation.IPageContainerRegistry.TryGetContainer(System.String, ByRef Aci.Unity.UI.Navigation.IPageContainer)
-  nameWithType: IPageContainerRegistry.TryGetContainer(String, out IPageContainer)
-  nameWithType.vb: IPageContainerRegistry.TryGetContainer(String, ByRef IPageContainer)
-- uid: Aci.Unity.UI.Navigation.IPageContainerRegistry.TryGetContainer*
-  name: TryGetContainer
-  href: api/Aci.Unity.UI.Navigation.IPageContainerRegistry.html#Aci_Unity_UI_Navigation_IPageContainerRegistry_TryGetContainer_
-  commentId: Overload:Aci.Unity.UI.Navigation.IPageContainerRegistry.TryGetContainer
+  fullName: Aci.Unity.UI.Navigation.IScreenRegistry.Register
+  nameWithType: IScreenRegistry.Register
+- uid: Aci.Unity.UI.Navigation.IScreenRegistry.TryGetScreen(System.String,Aci.Unity.UI.Navigation.IScreenController@)
+  name: TryGetScreen(String, out IScreenController)
+  href: api/Aci.Unity.UI.Navigation.IScreenRegistry.html#Aci_Unity_UI_Navigation_IScreenRegistry_TryGetScreen_System_String_Aci_Unity_UI_Navigation_IScreenController__
+  commentId: M:Aci.Unity.UI.Navigation.IScreenRegistry.TryGetScreen(System.String,Aci.Unity.UI.Navigation.IScreenController@)
+  name.vb: TryGetScreen(String, ByRef IScreenController)
+  fullName: Aci.Unity.UI.Navigation.IScreenRegistry.TryGetScreen(System.String, out Aci.Unity.UI.Navigation.IScreenController)
+  fullName.vb: Aci.Unity.UI.Navigation.IScreenRegistry.TryGetScreen(System.String, ByRef Aci.Unity.UI.Navigation.IScreenController)
+  nameWithType: IScreenRegistry.TryGetScreen(String, out IScreenController)
+  nameWithType.vb: IScreenRegistry.TryGetScreen(String, ByRef IScreenController)
+- uid: Aci.Unity.UI.Navigation.IScreenRegistry.TryGetScreen*
+  name: TryGetScreen
+  href: api/Aci.Unity.UI.Navigation.IScreenRegistry.html#Aci_Unity_UI_Navigation_IScreenRegistry_TryGetScreen_
+  commentId: Overload:Aci.Unity.UI.Navigation.IScreenRegistry.TryGetScreen
   isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.IPageContainerRegistry.TryGetContainer
-  nameWithType: IPageContainerRegistry.TryGetContainer
-- uid: Aci.Unity.UI.Navigation.IPageContainerRegistry.Unregister(System.String)
-  name: Unregister(String)
-  href: api/Aci.Unity.UI.Navigation.IPageContainerRegistry.html#Aci_Unity_UI_Navigation_IPageContainerRegistry_Unregister_System_String_
-  commentId: M:Aci.Unity.UI.Navigation.IPageContainerRegistry.Unregister(System.String)
-  fullName: Aci.Unity.UI.Navigation.IPageContainerRegistry.Unregister(System.String)
-  nameWithType: IPageContainerRegistry.Unregister(String)
-- uid: Aci.Unity.UI.Navigation.IPageContainerRegistry.Unregister*
+  fullName: Aci.Unity.UI.Navigation.IScreenRegistry.TryGetScreen
+  nameWithType: IScreenRegistry.TryGetScreen
+- uid: Aci.Unity.UI.Navigation.IScreenRegistry.Unregister(Aci.Unity.UI.Navigation.IScreenController)
+  name: Unregister(IScreenController)
+  href: api/Aci.Unity.UI.Navigation.IScreenRegistry.html#Aci_Unity_UI_Navigation_IScreenRegistry_Unregister_Aci_Unity_UI_Navigation_IScreenController_
+  commentId: M:Aci.Unity.UI.Navigation.IScreenRegistry.Unregister(Aci.Unity.UI.Navigation.IScreenController)
+  fullName: Aci.Unity.UI.Navigation.IScreenRegistry.Unregister(Aci.Unity.UI.Navigation.IScreenController)
+  nameWithType: IScreenRegistry.Unregister(IScreenController)
+- uid: Aci.Unity.UI.Navigation.IScreenRegistry.Unregister*
   name: Unregister
-  href: api/Aci.Unity.UI.Navigation.IPageContainerRegistry.html#Aci_Unity_UI_Navigation_IPageContainerRegistry_Unregister_
-  commentId: Overload:Aci.Unity.UI.Navigation.IPageContainerRegistry.Unregister
+  href: api/Aci.Unity.UI.Navigation.IScreenRegistry.html#Aci_Unity_UI_Navigation_IScreenRegistry_Unregister_
+  commentId: Overload:Aci.Unity.UI.Navigation.IScreenRegistry.Unregister
   isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.IPageContainerRegistry.Unregister
-  nameWithType: IPageContainerRegistry.Unregister
-- uid: Aci.Unity.UI.Navigation.IPageTransition
-  name: IPageTransition
-  href: api/Aci.Unity.UI.Navigation.IPageTransition.html
-  commentId: T:Aci.Unity.UI.Navigation.IPageTransition
-  fullName: Aci.Unity.UI.Navigation.IPageTransition
-  nameWithType: IPageTransition
-- uid: Aci.Unity.UI.Navigation.IPageTransition.OnPagePopped(System.Action)
-  name: OnPagePopped(Action)
-  href: api/Aci.Unity.UI.Navigation.IPageTransition.html#Aci_Unity_UI_Navigation_IPageTransition_OnPagePopped_System_Action_
-  commentId: M:Aci.Unity.UI.Navigation.IPageTransition.OnPagePopped(System.Action)
-  fullName: Aci.Unity.UI.Navigation.IPageTransition.OnPagePopped(System.Action)
-  nameWithType: IPageTransition.OnPagePopped(Action)
-- uid: Aci.Unity.UI.Navigation.IPageTransition.OnPagePopped*
-  name: OnPagePopped
-  href: api/Aci.Unity.UI.Navigation.IPageTransition.html#Aci_Unity_UI_Navigation_IPageTransition_OnPagePopped_
-  commentId: Overload:Aci.Unity.UI.Navigation.IPageTransition.OnPagePopped
+  fullName: Aci.Unity.UI.Navigation.IScreenRegistry.Unregister
+  nameWithType: IScreenRegistry.Unregister
+- uid: Aci.Unity.UI.Navigation.IScreenTransition
+  name: IScreenTransition
+  href: api/Aci.Unity.UI.Navigation.IScreenTransition.html
+  commentId: T:Aci.Unity.UI.Navigation.IScreenTransition
+  fullName: Aci.Unity.UI.Navigation.IScreenTransition
+  nameWithType: IScreenTransition
+- uid: Aci.Unity.UI.Navigation.IScreenTransition.DisplayImmediately
+  name: DisplayImmediately()
+  href: api/Aci.Unity.UI.Navigation.IScreenTransition.html#Aci_Unity_UI_Navigation_IScreenTransition_DisplayImmediately
+  commentId: M:Aci.Unity.UI.Navigation.IScreenTransition.DisplayImmediately
+  fullName: Aci.Unity.UI.Navigation.IScreenTransition.DisplayImmediately()
+  nameWithType: IScreenTransition.DisplayImmediately()
+- uid: Aci.Unity.UI.Navigation.IScreenTransition.DisplayImmediately*
+  name: DisplayImmediately
+  href: api/Aci.Unity.UI.Navigation.IScreenTransition.html#Aci_Unity_UI_Navigation_IScreenTransition_DisplayImmediately_
+  commentId: Overload:Aci.Unity.UI.Navigation.IScreenTransition.DisplayImmediately
   isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.IPageTransition.OnPagePopped
-  nameWithType: IPageTransition.OnPagePopped
-- uid: Aci.Unity.UI.Navigation.IPageTransition.OnPagePushed(System.Action)
-  name: OnPagePushed(Action)
-  href: api/Aci.Unity.UI.Navigation.IPageTransition.html#Aci_Unity_UI_Navigation_IPageTransition_OnPagePushed_System_Action_
-  commentId: M:Aci.Unity.UI.Navigation.IPageTransition.OnPagePushed(System.Action)
-  fullName: Aci.Unity.UI.Navigation.IPageTransition.OnPagePushed(System.Action)
-  nameWithType: IPageTransition.OnPagePushed(Action)
-- uid: Aci.Unity.UI.Navigation.IPageTransition.OnPagePushed*
-  name: OnPagePushed
-  href: api/Aci.Unity.UI.Navigation.IPageTransition.html#Aci_Unity_UI_Navigation_IPageTransition_OnPagePushed_
-  commentId: Overload:Aci.Unity.UI.Navigation.IPageTransition.OnPagePushed
+  fullName: Aci.Unity.UI.Navigation.IScreenTransition.DisplayImmediately
+  nameWithType: IScreenTransition.DisplayImmediately
+- uid: Aci.Unity.UI.Navigation.IScreenTransition.MakeTransitionAsync(Aci.Unity.UI.Navigation.NavigationMode)
+  name: MakeTransitionAsync(NavigationMode)
+  href: api/Aci.Unity.UI.Navigation.IScreenTransition.html#Aci_Unity_UI_Navigation_IScreenTransition_MakeTransitionAsync_Aci_Unity_UI_Navigation_NavigationMode_
+  commentId: M:Aci.Unity.UI.Navigation.IScreenTransition.MakeTransitionAsync(Aci.Unity.UI.Navigation.NavigationMode)
+  fullName: Aci.Unity.UI.Navigation.IScreenTransition.MakeTransitionAsync(Aci.Unity.UI.Navigation.NavigationMode)
+  nameWithType: IScreenTransition.MakeTransitionAsync(NavigationMode)
+- uid: Aci.Unity.UI.Navigation.IScreenTransition.MakeTransitionAsync*
+  name: MakeTransitionAsync
+  href: api/Aci.Unity.UI.Navigation.IScreenTransition.html#Aci_Unity_UI_Navigation_IScreenTransition_MakeTransitionAsync_
+  commentId: Overload:Aci.Unity.UI.Navigation.IScreenTransition.MakeTransitionAsync
   isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.IPageTransition.OnPagePushed
-  nameWithType: IPageTransition.OnPagePushed
+  fullName: Aci.Unity.UI.Navigation.IScreenTransition.MakeTransitionAsync
+  nameWithType: IScreenTransition.MakeTransitionAsync
+- uid: Aci.Unity.UI.Navigation.NavigationCompletedEvent
+  name: NavigationCompletedEvent
+  href: api/Aci.Unity.UI.Navigation.NavigationCompletedEvent.html
+  commentId: T:Aci.Unity.UI.Navigation.NavigationCompletedEvent
+  fullName: Aci.Unity.UI.Navigation.NavigationCompletedEvent
+  nameWithType: NavigationCompletedEvent
+- uid: Aci.Unity.UI.Navigation.NavigationCompletedEvent.#ctor(System.String,IReadOnlyCollection{Aci.Unity.UI.Navigation.IScreenController})
+  name: NavigationCompletedEvent(String, IReadOnlyCollection<IScreenController>)
+  href: api/Aci.Unity.UI.Navigation.NavigationCompletedEvent.html#Aci_Unity_UI_Navigation_NavigationCompletedEvent__ctor_System_String_IReadOnlyCollection_Aci_Unity_UI_Navigation_IScreenController__
+  commentId: M:Aci.Unity.UI.Navigation.NavigationCompletedEvent.#ctor(System.String,IReadOnlyCollection{Aci.Unity.UI.Navigation.IScreenController})
+  name.vb: NavigationCompletedEvent(String, IReadOnlyCollection(Of IScreenController))
+  fullName: Aci.Unity.UI.Navigation.NavigationCompletedEvent.NavigationCompletedEvent(System.String, IReadOnlyCollection<Aci.Unity.UI.Navigation.IScreenController>)
+  fullName.vb: Aci.Unity.UI.Navigation.NavigationCompletedEvent.NavigationCompletedEvent(System.String, IReadOnlyCollection(Of Aci.Unity.UI.Navigation.IScreenController))
+  nameWithType: NavigationCompletedEvent.NavigationCompletedEvent(String, IReadOnlyCollection<IScreenController>)
+  nameWithType.vb: NavigationCompletedEvent.NavigationCompletedEvent(String, IReadOnlyCollection(Of IScreenController))
+- uid: Aci.Unity.UI.Navigation.NavigationCompletedEvent.#ctor*
+  name: NavigationCompletedEvent
+  href: api/Aci.Unity.UI.Navigation.NavigationCompletedEvent.html#Aci_Unity_UI_Navigation_NavigationCompletedEvent__ctor_
+  commentId: Overload:Aci.Unity.UI.Navigation.NavigationCompletedEvent.#ctor
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Navigation.NavigationCompletedEvent.NavigationCompletedEvent
+  nameWithType: NavigationCompletedEvent.NavigationCompletedEvent
+- uid: Aci.Unity.UI.Navigation.NavigationCompletedEvent.current
+  name: current
+  href: api/Aci.Unity.UI.Navigation.NavigationCompletedEvent.html#Aci_Unity_UI_Navigation_NavigationCompletedEvent_current
+  commentId: P:Aci.Unity.UI.Navigation.NavigationCompletedEvent.current
+  fullName: Aci.Unity.UI.Navigation.NavigationCompletedEvent.current
+  nameWithType: NavigationCompletedEvent.current
+- uid: Aci.Unity.UI.Navigation.NavigationCompletedEvent.current*
+  name: current
+  href: api/Aci.Unity.UI.Navigation.NavigationCompletedEvent.html#Aci_Unity_UI_Navigation_NavigationCompletedEvent_current_
+  commentId: Overload:Aci.Unity.UI.Navigation.NavigationCompletedEvent.current
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Navigation.NavigationCompletedEvent.current
+  nameWithType: NavigationCompletedEvent.current
+- uid: Aci.Unity.UI.Navigation.NavigationCompletedEvent.navigationStack
+  name: navigationStack
+  href: api/Aci.Unity.UI.Navigation.NavigationCompletedEvent.html#Aci_Unity_UI_Navigation_NavigationCompletedEvent_navigationStack
+  commentId: P:Aci.Unity.UI.Navigation.NavigationCompletedEvent.navigationStack
+  fullName: Aci.Unity.UI.Navigation.NavigationCompletedEvent.navigationStack
+  nameWithType: NavigationCompletedEvent.navigationStack
+- uid: Aci.Unity.UI.Navigation.NavigationCompletedEvent.navigationStack*
+  name: navigationStack
+  href: api/Aci.Unity.UI.Navigation.NavigationCompletedEvent.html#Aci_Unity_UI_Navigation_NavigationCompletedEvent_navigationStack_
+  commentId: Overload:Aci.Unity.UI.Navigation.NavigationCompletedEvent.navigationStack
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Navigation.NavigationCompletedEvent.navigationStack
+  nameWithType: NavigationCompletedEvent.navigationStack
+- uid: Aci.Unity.UI.Navigation.NavigationMode
+  name: NavigationMode
+  href: api/Aci.Unity.UI.Navigation.NavigationMode.html
+  commentId: T:Aci.Unity.UI.Navigation.NavigationMode
+  fullName: Aci.Unity.UI.Navigation.NavigationMode
+  nameWithType: NavigationMode
+- uid: Aci.Unity.UI.Navigation.NavigationMode.Entering
+  name: Entering
+  href: api/Aci.Unity.UI.Navigation.NavigationMode.html#Aci_Unity_UI_Navigation_NavigationMode_Entering
+  commentId: F:Aci.Unity.UI.Navigation.NavigationMode.Entering
+  fullName: Aci.Unity.UI.Navigation.NavigationMode.Entering
+  nameWithType: NavigationMode.Entering
+- uid: Aci.Unity.UI.Navigation.NavigationMode.Leaving
+  name: Leaving
+  href: api/Aci.Unity.UI.Navigation.NavigationMode.html#Aci_Unity_UI_Navigation_NavigationMode_Leaving
+  commentId: F:Aci.Unity.UI.Navigation.NavigationMode.Leaving
+  fullName: Aci.Unity.UI.Navigation.NavigationMode.Leaving
+  nameWithType: NavigationMode.Leaving
+- uid: Aci.Unity.UI.Navigation.NavigationMode.Removed
+  name: Removed
+  href: api/Aci.Unity.UI.Navigation.NavigationMode.html#Aci_Unity_UI_Navigation_NavigationMode_Removed
+  commentId: F:Aci.Unity.UI.Navigation.NavigationMode.Removed
+  fullName: Aci.Unity.UI.Navigation.NavigationMode.Removed
+  nameWithType: NavigationMode.Removed
+- uid: Aci.Unity.UI.Navigation.NavigationMode.Returning
+  name: Returning
+  href: api/Aci.Unity.UI.Navigation.NavigationMode.html#Aci_Unity_UI_Navigation_NavigationMode_Returning
+  commentId: F:Aci.Unity.UI.Navigation.NavigationMode.Returning
+  fullName: Aci.Unity.UI.Navigation.NavigationMode.Returning
+  nameWithType: NavigationMode.Returning
+- uid: Aci.Unity.UI.Navigation.NavigationModeChangedEvent
+  name: NavigationModeChangedEvent
+  href: api/Aci.Unity.UI.Navigation.NavigationModeChangedEvent.html
+  commentId: T:Aci.Unity.UI.Navigation.NavigationModeChangedEvent
+  fullName: Aci.Unity.UI.Navigation.NavigationModeChangedEvent
+  nameWithType: NavigationModeChangedEvent
+- uid: Aci.Unity.UI.Navigation.NavigationModeChangedEvent.#ctor(System.String,Aci.Unity.UI.Navigation.NavigationMode)
+  name: NavigationModeChangedEvent(String, NavigationMode)
+  href: api/Aci.Unity.UI.Navigation.NavigationModeChangedEvent.html#Aci_Unity_UI_Navigation_NavigationModeChangedEvent__ctor_System_String_Aci_Unity_UI_Navigation_NavigationMode_
+  commentId: M:Aci.Unity.UI.Navigation.NavigationModeChangedEvent.#ctor(System.String,Aci.Unity.UI.Navigation.NavigationMode)
+  fullName: Aci.Unity.UI.Navigation.NavigationModeChangedEvent.NavigationModeChangedEvent(System.String, Aci.Unity.UI.Navigation.NavigationMode)
+  nameWithType: NavigationModeChangedEvent.NavigationModeChangedEvent(String, NavigationMode)
+- uid: Aci.Unity.UI.Navigation.NavigationModeChangedEvent.#ctor*
+  name: NavigationModeChangedEvent
+  href: api/Aci.Unity.UI.Navigation.NavigationModeChangedEvent.html#Aci_Unity_UI_Navigation_NavigationModeChangedEvent__ctor_
+  commentId: Overload:Aci.Unity.UI.Navigation.NavigationModeChangedEvent.#ctor
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Navigation.NavigationModeChangedEvent.NavigationModeChangedEvent
+  nameWithType: NavigationModeChangedEvent.NavigationModeChangedEvent
+- uid: Aci.Unity.UI.Navigation.NavigationModeChangedEvent.navigationMode
+  name: navigationMode
+  href: api/Aci.Unity.UI.Navigation.NavigationModeChangedEvent.html#Aci_Unity_UI_Navigation_NavigationModeChangedEvent_navigationMode
+  commentId: P:Aci.Unity.UI.Navigation.NavigationModeChangedEvent.navigationMode
+  fullName: Aci.Unity.UI.Navigation.NavigationModeChangedEvent.navigationMode
+  nameWithType: NavigationModeChangedEvent.navigationMode
+- uid: Aci.Unity.UI.Navigation.NavigationModeChangedEvent.navigationMode*
+  name: navigationMode
+  href: api/Aci.Unity.UI.Navigation.NavigationModeChangedEvent.html#Aci_Unity_UI_Navigation_NavigationModeChangedEvent_navigationMode_
+  commentId: Overload:Aci.Unity.UI.Navigation.NavigationModeChangedEvent.navigationMode
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Navigation.NavigationModeChangedEvent.navigationMode
+  nameWithType: NavigationModeChangedEvent.navigationMode
+- uid: Aci.Unity.UI.Navigation.NavigationModeChangedEvent.screenId
+  name: screenId
+  href: api/Aci.Unity.UI.Navigation.NavigationModeChangedEvent.html#Aci_Unity_UI_Navigation_NavigationModeChangedEvent_screenId
+  commentId: P:Aci.Unity.UI.Navigation.NavigationModeChangedEvent.screenId
+  fullName: Aci.Unity.UI.Navigation.NavigationModeChangedEvent.screenId
+  nameWithType: NavigationModeChangedEvent.screenId
+- uid: Aci.Unity.UI.Navigation.NavigationModeChangedEvent.screenId*
+  name: screenId
+  href: api/Aci.Unity.UI.Navigation.NavigationModeChangedEvent.html#Aci_Unity_UI_Navigation_NavigationModeChangedEvent_screenId_
+  commentId: Overload:Aci.Unity.UI.Navigation.NavigationModeChangedEvent.screenId
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Navigation.NavigationModeChangedEvent.screenId
+  nameWithType: NavigationModeChangedEvent.screenId
 - uid: Aci.Unity.UI.Navigation.NavigationParameters
   name: NavigationParameters
   href: api/Aci.Unity.UI.Navigation.NavigationParameters.html
   commentId: T:Aci.Unity.UI.Navigation.NavigationParameters
   fullName: Aci.Unity.UI.Navigation.NavigationParameters
   nameWithType: NavigationParameters
-- uid: Aci.Unity.UI.Navigation.NavigationParameters.Add(System.String,System.Object)
-  name: Add(String, Object)
-  href: api/Aci.Unity.UI.Navigation.NavigationParameters.html#Aci_Unity_UI_Navigation_NavigationParameters_Add_System_String_System_Object_
-  commentId: M:Aci.Unity.UI.Navigation.NavigationParameters.Add(System.String,System.Object)
-  fullName: Aci.Unity.UI.Navigation.NavigationParameters.Add(System.String, System.Object)
-  nameWithType: NavigationParameters.Add(String, Object)
 - uid: Aci.Unity.UI.Navigation.NavigationParameters.Add*
   name: Add
   href: api/Aci.Unity.UI.Navigation.NavigationParameters.html#Aci_Unity_UI_Navigation_NavigationParameters_Add_
@@ -3248,45 +4206,28 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Navigation.NavigationParameters.Add
   nameWithType: NavigationParameters.Add
-- uid: Aci.Unity.UI.Navigation.NavigationParameters.ContainsKey(System.String)
-  name: ContainsKey(String)
-  href: api/Aci.Unity.UI.Navigation.NavigationParameters.html#Aci_Unity_UI_Navigation_NavigationParameters_ContainsKey_System_String_
-  commentId: M:Aci.Unity.UI.Navigation.NavigationParameters.ContainsKey(System.String)
-  fullName: Aci.Unity.UI.Navigation.NavigationParameters.ContainsKey(System.String)
-  nameWithType: NavigationParameters.ContainsKey(String)
-- uid: Aci.Unity.UI.Navigation.NavigationParameters.ContainsKey*
-  name: ContainsKey
-  href: api/Aci.Unity.UI.Navigation.NavigationParameters.html#Aci_Unity_UI_Navigation_NavigationParameters_ContainsKey_
-  commentId: Overload:Aci.Unity.UI.Navigation.NavigationParameters.ContainsKey
+- uid: Aci.Unity.UI.Navigation.NavigationParameters.Add``1(System.String,``0)
+  name: Add<T>(String, T)
+  href: api/Aci.Unity.UI.Navigation.NavigationParameters.html#Aci_Unity_UI_Navigation_NavigationParameters_Add__1_System_String___0_
+  commentId: M:Aci.Unity.UI.Navigation.NavigationParameters.Add``1(System.String,``0)
+  name.vb: Add(Of T)(String, T)
+  fullName: Aci.Unity.UI.Navigation.NavigationParameters.Add<T>(System.String, T)
+  fullName.vb: Aci.Unity.UI.Navigation.NavigationParameters.Add(Of T)(System.String, T)
+  nameWithType: NavigationParameters.Add<T>(String, T)
+  nameWithType.vb: NavigationParameters.Add(Of T)(String, T)
+- uid: Aci.Unity.UI.Navigation.NavigationParameters.Clear
+  name: Clear()
+  href: api/Aci.Unity.UI.Navigation.NavigationParameters.html#Aci_Unity_UI_Navigation_NavigationParameters_Clear
+  commentId: M:Aci.Unity.UI.Navigation.NavigationParameters.Clear
+  fullName: Aci.Unity.UI.Navigation.NavigationParameters.Clear()
+  nameWithType: NavigationParameters.Clear()
+- uid: Aci.Unity.UI.Navigation.NavigationParameters.Clear*
+  name: Clear
+  href: api/Aci.Unity.UI.Navigation.NavigationParameters.html#Aci_Unity_UI_Navigation_NavigationParameters_Clear_
+  commentId: Overload:Aci.Unity.UI.Navigation.NavigationParameters.Clear
   isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.NavigationParameters.ContainsKey
-  nameWithType: NavigationParameters.ContainsKey
-- uid: Aci.Unity.UI.Navigation.NavigationParameters.Count
-  name: Count
-  href: api/Aci.Unity.UI.Navigation.NavigationParameters.html#Aci_Unity_UI_Navigation_NavigationParameters_Count
-  commentId: P:Aci.Unity.UI.Navigation.NavigationParameters.Count
-  fullName: Aci.Unity.UI.Navigation.NavigationParameters.Count
-  nameWithType: NavigationParameters.Count
-- uid: Aci.Unity.UI.Navigation.NavigationParameters.Count*
-  name: Count
-  href: api/Aci.Unity.UI.Navigation.NavigationParameters.html#Aci_Unity_UI_Navigation_NavigationParameters_Count_
-  commentId: Overload:Aci.Unity.UI.Navigation.NavigationParameters.Count
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.NavigationParameters.Count
-  nameWithType: NavigationParameters.Count
-- uid: Aci.Unity.UI.Navigation.NavigationParameters.GetEnumerator
-  name: GetEnumerator()
-  href: api/Aci.Unity.UI.Navigation.NavigationParameters.html#Aci_Unity_UI_Navigation_NavigationParameters_GetEnumerator
-  commentId: M:Aci.Unity.UI.Navigation.NavigationParameters.GetEnumerator
-  fullName: Aci.Unity.UI.Navigation.NavigationParameters.GetEnumerator()
-  nameWithType: NavigationParameters.GetEnumerator()
-- uid: Aci.Unity.UI.Navigation.NavigationParameters.GetEnumerator*
-  name: GetEnumerator
-  href: api/Aci.Unity.UI.Navigation.NavigationParameters.html#Aci_Unity_UI_Navigation_NavigationParameters_GetEnumerator_
-  commentId: Overload:Aci.Unity.UI.Navigation.NavigationParameters.GetEnumerator
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.NavigationParameters.GetEnumerator
-  nameWithType: NavigationParameters.GetEnumerator
+  fullName: Aci.Unity.UI.Navigation.NavigationParameters.Clear
+  nameWithType: NavigationParameters.Clear
 - uid: Aci.Unity.UI.Navigation.NavigationParameters.GetValue*
   name: GetValue
   href: api/Aci.Unity.UI.Navigation.NavigationParameters.html#Aci_Unity_UI_Navigation_NavigationParameters_GetValue_
@@ -3325,12 +4266,12 @@ references:
   commentId: T:Aci.Unity.UI.Navigation.NavigationService
   fullName: Aci.Unity.UI.Navigation.NavigationService
   nameWithType: NavigationService
-- uid: Aci.Unity.UI.Navigation.NavigationService.#ctor(Aci.Unity.UI.Navigation.IPageContainerRegistry)
-  name: NavigationService(IPageContainerRegistry)
-  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService__ctor_Aci_Unity_UI_Navigation_IPageContainerRegistry_
-  commentId: M:Aci.Unity.UI.Navigation.NavigationService.#ctor(Aci.Unity.UI.Navigation.IPageContainerRegistry)
-  fullName: Aci.Unity.UI.Navigation.NavigationService.NavigationService(Aci.Unity.UI.Navigation.IPageContainerRegistry)
-  nameWithType: NavigationService.NavigationService(IPageContainerRegistry)
+- uid: Aci.Unity.UI.Navigation.NavigationService.#ctor(Aci.Unity.UI.Navigation.IScreenRegistry,IAciEventManager)
+  name: NavigationService(IScreenRegistry, IAciEventManager)
+  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService__ctor_Aci_Unity_UI_Navigation_IScreenRegistry_IAciEventManager_
+  commentId: M:Aci.Unity.UI.Navigation.NavigationService.#ctor(Aci.Unity.UI.Navigation.IScreenRegistry,IAciEventManager)
+  fullName: Aci.Unity.UI.Navigation.NavigationService.NavigationService(Aci.Unity.UI.Navigation.IScreenRegistry, IAciEventManager)
+  nameWithType: NavigationService.NavigationService(IScreenRegistry, IAciEventManager)
 - uid: Aci.Unity.UI.Navigation.NavigationService.#ctor*
   name: NavigationService
   href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService__ctor_
@@ -3338,292 +4279,124 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Navigation.NavigationService.NavigationService
   nameWithType: NavigationService.NavigationService
-- uid: Aci.Unity.UI.Navigation.NavigationService.Navigated
-  name: Navigated
-  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_Navigated
-  commentId: E:Aci.Unity.UI.Navigation.NavigationService.Navigated
-  fullName: Aci.Unity.UI.Navigation.NavigationService.Navigated
-  nameWithType: NavigationService.Navigated
-- uid: Aci.Unity.UI.Navigation.NavigationService.Pop(Aci.Unity.UI.Navigation.INavigationParameters,System.Action)
-  name: Pop(INavigationParameters, Action)
-  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_Pop_Aci_Unity_UI_Navigation_INavigationParameters_System_Action_
-  commentId: M:Aci.Unity.UI.Navigation.NavigationService.Pop(Aci.Unity.UI.Navigation.INavigationParameters,System.Action)
-  fullName: Aci.Unity.UI.Navigation.NavigationService.Pop(Aci.Unity.UI.Navigation.INavigationParameters, System.Action)
-  nameWithType: NavigationService.Pop(INavigationParameters, Action)
-- uid: Aci.Unity.UI.Navigation.NavigationService.Pop(System.Action)
-  name: Pop(Action)
-  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_Pop_System_Action_
-  commentId: M:Aci.Unity.UI.Navigation.NavigationService.Pop(System.Action)
-  fullName: Aci.Unity.UI.Navigation.NavigationService.Pop(System.Action)
-  nameWithType: NavigationService.Pop(Action)
-- uid: Aci.Unity.UI.Navigation.NavigationService.Pop*
-  name: Pop
-  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_Pop_
-  commentId: Overload:Aci.Unity.UI.Navigation.NavigationService.Pop
+- uid: Aci.Unity.UI.Navigation.NavigationService.CanPop
+  name: CanPop()
+  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_CanPop
+  commentId: M:Aci.Unity.UI.Navigation.NavigationService.CanPop
+  fullName: Aci.Unity.UI.Navigation.NavigationService.CanPop()
+  nameWithType: NavigationService.CanPop()
+- uid: Aci.Unity.UI.Navigation.NavigationService.CanPop*
+  name: CanPop
+  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_CanPop_
+  commentId: Overload:Aci.Unity.UI.Navigation.NavigationService.CanPop
   isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.NavigationService.Pop
-  nameWithType: NavigationService.Pop
-- uid: Aci.Unity.UI.Navigation.NavigationService.Push(System.String,Aci.Unity.UI.Navigation.INavigationParameters,System.Boolean,System.Action)
-  name: Push(String, INavigationParameters, Boolean, Action)
-  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_Push_System_String_Aci_Unity_UI_Navigation_INavigationParameters_System_Boolean_System_Action_
-  commentId: M:Aci.Unity.UI.Navigation.NavigationService.Push(System.String,Aci.Unity.UI.Navigation.INavigationParameters,System.Boolean,System.Action)
-  fullName: Aci.Unity.UI.Navigation.NavigationService.Push(System.String, Aci.Unity.UI.Navigation.INavigationParameters, System.Boolean, System.Action)
-  nameWithType: NavigationService.Push(String, INavigationParameters, Boolean, Action)
-- uid: Aci.Unity.UI.Navigation.NavigationService.Push(System.String,System.Boolean,System.Action)
-  name: Push(String, Boolean, Action)
-  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_Push_System_String_System_Boolean_System_Action_
-  commentId: M:Aci.Unity.UI.Navigation.NavigationService.Push(System.String,System.Boolean,System.Action)
-  fullName: Aci.Unity.UI.Navigation.NavigationService.Push(System.String, System.Boolean, System.Action)
-  nameWithType: NavigationService.Push(String, Boolean, Action)
-- uid: Aci.Unity.UI.Navigation.NavigationService.Push*
-  name: Push
-  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_Push_
-  commentId: Overload:Aci.Unity.UI.Navigation.NavigationService.Push
+  fullName: Aci.Unity.UI.Navigation.NavigationService.CanPop
+  nameWithType: NavigationService.CanPop
+- uid: Aci.Unity.UI.Navigation.NavigationService.PopAsync(Aci.Unity.UI.Navigation.AnimationOptions)
+  name: PopAsync(AnimationOptions)
+  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_PopAsync_Aci_Unity_UI_Navigation_AnimationOptions_
+  commentId: M:Aci.Unity.UI.Navigation.NavigationService.PopAsync(Aci.Unity.UI.Navigation.AnimationOptions)
+  fullName: Aci.Unity.UI.Navigation.NavigationService.PopAsync(Aci.Unity.UI.Navigation.AnimationOptions)
+  nameWithType: NavigationService.PopAsync(AnimationOptions)
+- uid: Aci.Unity.UI.Navigation.NavigationService.PopAsync(Aci.Unity.UI.Navigation.INavigationParameters,Aci.Unity.UI.Navigation.AnimationOptions)
+  name: PopAsync(INavigationParameters, AnimationOptions)
+  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_PopAsync_Aci_Unity_UI_Navigation_INavigationParameters_Aci_Unity_UI_Navigation_AnimationOptions_
+  commentId: M:Aci.Unity.UI.Navigation.NavigationService.PopAsync(Aci.Unity.UI.Navigation.INavigationParameters,Aci.Unity.UI.Navigation.AnimationOptions)
+  fullName: Aci.Unity.UI.Navigation.NavigationService.PopAsync(Aci.Unity.UI.Navigation.INavigationParameters, Aci.Unity.UI.Navigation.AnimationOptions)
+  nameWithType: NavigationService.PopAsync(INavigationParameters, AnimationOptions)
+- uid: Aci.Unity.UI.Navigation.NavigationService.PopAsync*
+  name: PopAsync
+  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_PopAsync_
+  commentId: Overload:Aci.Unity.UI.Navigation.NavigationService.PopAsync
   isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.NavigationService.Push
-  nameWithType: NavigationService.Push
-- uid: Aci.Unity.UI.Navigation.NavigationService.StackCount
-  name: StackCount
-  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_StackCount
-  commentId: P:Aci.Unity.UI.Navigation.NavigationService.StackCount
-  fullName: Aci.Unity.UI.Navigation.NavigationService.StackCount
-  nameWithType: NavigationService.StackCount
-- uid: Aci.Unity.UI.Navigation.NavigationService.StackCount*
-  name: StackCount
-  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_StackCount_
-  commentId: Overload:Aci.Unity.UI.Navigation.NavigationService.StackCount
+  fullName: Aci.Unity.UI.Navigation.NavigationService.PopAsync
+  nameWithType: NavigationService.PopAsync
+- uid: Aci.Unity.UI.Navigation.NavigationService.PopToRootAsync(Aci.Unity.UI.Navigation.AnimationOptions)
+  name: PopToRootAsync(AnimationOptions)
+  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_PopToRootAsync_Aci_Unity_UI_Navigation_AnimationOptions_
+  commentId: M:Aci.Unity.UI.Navigation.NavigationService.PopToRootAsync(Aci.Unity.UI.Navigation.AnimationOptions)
+  fullName: Aci.Unity.UI.Navigation.NavigationService.PopToRootAsync(Aci.Unity.UI.Navigation.AnimationOptions)
+  nameWithType: NavigationService.PopToRootAsync(AnimationOptions)
+- uid: Aci.Unity.UI.Navigation.NavigationService.PopToRootAsync(Aci.Unity.UI.Navigation.INavigationParameters,Aci.Unity.UI.Navigation.AnimationOptions)
+  name: PopToRootAsync(INavigationParameters, AnimationOptions)
+  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_PopToRootAsync_Aci_Unity_UI_Navigation_INavigationParameters_Aci_Unity_UI_Navigation_AnimationOptions_
+  commentId: M:Aci.Unity.UI.Navigation.NavigationService.PopToRootAsync(Aci.Unity.UI.Navigation.INavigationParameters,Aci.Unity.UI.Navigation.AnimationOptions)
+  fullName: Aci.Unity.UI.Navigation.NavigationService.PopToRootAsync(Aci.Unity.UI.Navigation.INavigationParameters, Aci.Unity.UI.Navigation.AnimationOptions)
+  nameWithType: NavigationService.PopToRootAsync(INavigationParameters, AnimationOptions)
+- uid: Aci.Unity.UI.Navigation.NavigationService.PopToRootAsync*
+  name: PopToRootAsync
+  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_PopToRootAsync_
+  commentId: Overload:Aci.Unity.UI.Navigation.NavigationService.PopToRootAsync
   isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.NavigationService.StackCount
-  nameWithType: NavigationService.StackCount
-- uid: Aci.Unity.UI.Navigation.PageContainer
-  name: PageContainer
-  href: api/Aci.Unity.UI.Navigation.PageContainer.html
-  commentId: T:Aci.Unity.UI.Navigation.PageContainer
-  fullName: Aci.Unity.UI.Navigation.PageContainer
-  nameWithType: PageContainer
-- uid: Aci.Unity.UI.Navigation.PageContainer.Awake
-  name: Awake()
-  href: api/Aci.Unity.UI.Navigation.PageContainer.html#Aci_Unity_UI_Navigation_PageContainer_Awake
-  commentId: M:Aci.Unity.UI.Navigation.PageContainer.Awake
-  fullName: Aci.Unity.UI.Navigation.PageContainer.Awake()
-  nameWithType: PageContainer.Awake()
-- uid: Aci.Unity.UI.Navigation.PageContainer.Awake*
-  name: Awake
-  href: api/Aci.Unity.UI.Navigation.PageContainer.html#Aci_Unity_UI_Navigation_PageContainer_Awake_
-  commentId: Overload:Aci.Unity.UI.Navigation.PageContainer.Awake
+  fullName: Aci.Unity.UI.Navigation.NavigationService.PopToRootAsync
+  nameWithType: NavigationService.PopToRootAsync
+- uid: Aci.Unity.UI.Navigation.NavigationService.PushAsync(System.String,Aci.Unity.UI.Navigation.AnimationOptions,System.Boolean)
+  name: PushAsync(String, AnimationOptions, Boolean)
+  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_PushAsync_System_String_Aci_Unity_UI_Navigation_AnimationOptions_System_Boolean_
+  commentId: M:Aci.Unity.UI.Navigation.NavigationService.PushAsync(System.String,Aci.Unity.UI.Navigation.AnimationOptions,System.Boolean)
+  fullName: Aci.Unity.UI.Navigation.NavigationService.PushAsync(System.String, Aci.Unity.UI.Navigation.AnimationOptions, System.Boolean)
+  nameWithType: NavigationService.PushAsync(String, AnimationOptions, Boolean)
+- uid: Aci.Unity.UI.Navigation.NavigationService.PushAsync(System.String,Aci.Unity.UI.Navigation.INavigationParameters,Aci.Unity.UI.Navigation.AnimationOptions,System.Boolean)
+  name: PushAsync(String, INavigationParameters, AnimationOptions, Boolean)
+  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_PushAsync_System_String_Aci_Unity_UI_Navigation_INavigationParameters_Aci_Unity_UI_Navigation_AnimationOptions_System_Boolean_
+  commentId: M:Aci.Unity.UI.Navigation.NavigationService.PushAsync(System.String,Aci.Unity.UI.Navigation.INavigationParameters,Aci.Unity.UI.Navigation.AnimationOptions,System.Boolean)
+  fullName: Aci.Unity.UI.Navigation.NavigationService.PushAsync(System.String, Aci.Unity.UI.Navigation.INavigationParameters, Aci.Unity.UI.Navigation.AnimationOptions, System.Boolean)
+  nameWithType: NavigationService.PushAsync(String, INavigationParameters, AnimationOptions, Boolean)
+- uid: Aci.Unity.UI.Navigation.NavigationService.PushAsync*
+  name: PushAsync
+  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_PushAsync_
+  commentId: Overload:Aci.Unity.UI.Navigation.NavigationService.PushAsync
   isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.PageContainer.Awake
-  nameWithType: PageContainer.Awake
-- uid: Aci.Unity.UI.Navigation.PageContainer.Construct(Aci.Unity.UI.Navigation.IPageContainerRegistry)
-  name: Construct(IPageContainerRegistry)
-  href: api/Aci.Unity.UI.Navigation.PageContainer.html#Aci_Unity_UI_Navigation_PageContainer_Construct_Aci_Unity_UI_Navigation_IPageContainerRegistry_
-  commentId: M:Aci.Unity.UI.Navigation.PageContainer.Construct(Aci.Unity.UI.Navigation.IPageContainerRegistry)
-  fullName: Aci.Unity.UI.Navigation.PageContainer.Construct(Aci.Unity.UI.Navigation.IPageContainerRegistry)
-  nameWithType: PageContainer.Construct(IPageContainerRegistry)
-- uid: Aci.Unity.UI.Navigation.PageContainer.Construct*
-  name: Construct
-  href: api/Aci.Unity.UI.Navigation.PageContainer.html#Aci_Unity_UI_Navigation_PageContainer_Construct_
-  commentId: Overload:Aci.Unity.UI.Navigation.PageContainer.Construct
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.PageContainer.Construct
-  nameWithType: PageContainer.Construct
-- uid: Aci.Unity.UI.Navigation.PageContainer.Destroy
-  name: Destroy()
-  href: api/Aci.Unity.UI.Navigation.PageContainer.html#Aci_Unity_UI_Navigation_PageContainer_Destroy
-  commentId: M:Aci.Unity.UI.Navigation.PageContainer.Destroy
-  fullName: Aci.Unity.UI.Navigation.PageContainer.Destroy()
-  nameWithType: PageContainer.Destroy()
-- uid: Aci.Unity.UI.Navigation.PageContainer.Destroy*
-  name: Destroy
-  href: api/Aci.Unity.UI.Navigation.PageContainer.html#Aci_Unity_UI_Navigation_PageContainer_Destroy_
-  commentId: Overload:Aci.Unity.UI.Navigation.PageContainer.Destroy
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.PageContainer.Destroy
-  nameWithType: PageContainer.Destroy
-- uid: Aci.Unity.UI.Navigation.PageContainer.Display(System.Action)
-  name: Display(Action)
-  href: api/Aci.Unity.UI.Navigation.PageContainer.html#Aci_Unity_UI_Navigation_PageContainer_Display_System_Action_
-  commentId: M:Aci.Unity.UI.Navigation.PageContainer.Display(System.Action)
-  fullName: Aci.Unity.UI.Navigation.PageContainer.Display(System.Action)
-  nameWithType: PageContainer.Display(Action)
-- uid: Aci.Unity.UI.Navigation.PageContainer.Display*
-  name: Display
-  href: api/Aci.Unity.UI.Navigation.PageContainer.html#Aci_Unity_UI_Navigation_PageContainer_Display_
-  commentId: Overload:Aci.Unity.UI.Navigation.PageContainer.Display
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.PageContainer.Display
-  nameWithType: PageContainer.Display
-- uid: Aci.Unity.UI.Navigation.PageContainer.Hide(System.String,System.Action)
-  name: Hide(String, Action)
-  href: api/Aci.Unity.UI.Navigation.PageContainer.html#Aci_Unity_UI_Navigation_PageContainer_Hide_System_String_System_Action_
-  commentId: M:Aci.Unity.UI.Navigation.PageContainer.Hide(System.String,System.Action)
-  fullName: Aci.Unity.UI.Navigation.PageContainer.Hide(System.String, System.Action)
-  nameWithType: PageContainer.Hide(String, Action)
-- uid: Aci.Unity.UI.Navigation.PageContainer.Hide*
-  name: Hide
-  href: api/Aci.Unity.UI.Navigation.PageContainer.html#Aci_Unity_UI_Navigation_PageContainer_Hide_
-  commentId: Overload:Aci.Unity.UI.Navigation.PageContainer.Hide
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.PageContainer.Hide
-  nameWithType: PageContainer.Hide
-- uid: Aci.Unity.UI.Navigation.PageContainer.Id
-  name: Id
-  href: api/Aci.Unity.UI.Navigation.PageContainer.html#Aci_Unity_UI_Navigation_PageContainer_Id
-  commentId: P:Aci.Unity.UI.Navigation.PageContainer.Id
-  fullName: Aci.Unity.UI.Navigation.PageContainer.Id
-  nameWithType: PageContainer.Id
-- uid: Aci.Unity.UI.Navigation.PageContainer.Id*
-  name: Id
-  href: api/Aci.Unity.UI.Navigation.PageContainer.html#Aci_Unity_UI_Navigation_PageContainer_Id_
-  commentId: Overload:Aci.Unity.UI.Navigation.PageContainer.Id
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.PageContainer.Id
-  nameWithType: PageContainer.Id
-- uid: Aci.Unity.UI.Navigation.PageContainer.OnNavigatedAway(Aci.Unity.UI.Navigation.INavigationParameters)
-  name: OnNavigatedAway(INavigationParameters)
-  href: api/Aci.Unity.UI.Navigation.PageContainer.html#Aci_Unity_UI_Navigation_PageContainer_OnNavigatedAway_Aci_Unity_UI_Navigation_INavigationParameters_
-  commentId: M:Aci.Unity.UI.Navigation.PageContainer.OnNavigatedAway(Aci.Unity.UI.Navigation.INavigationParameters)
-  fullName: Aci.Unity.UI.Navigation.PageContainer.OnNavigatedAway(Aci.Unity.UI.Navigation.INavigationParameters)
-  nameWithType: PageContainer.OnNavigatedAway(INavigationParameters)
-- uid: Aci.Unity.UI.Navigation.PageContainer.OnNavigatedAway*
-  name: OnNavigatedAway
-  href: api/Aci.Unity.UI.Navigation.PageContainer.html#Aci_Unity_UI_Navigation_PageContainer_OnNavigatedAway_
-  commentId: Overload:Aci.Unity.UI.Navigation.PageContainer.OnNavigatedAway
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.PageContainer.OnNavigatedAway
-  nameWithType: PageContainer.OnNavigatedAway
-- uid: Aci.Unity.UI.Navigation.PageContainer.OnNavigatedBack(Aci.Unity.UI.Navigation.INavigationParameters)
-  name: OnNavigatedBack(INavigationParameters)
-  href: api/Aci.Unity.UI.Navigation.PageContainer.html#Aci_Unity_UI_Navigation_PageContainer_OnNavigatedBack_Aci_Unity_UI_Navigation_INavigationParameters_
-  commentId: M:Aci.Unity.UI.Navigation.PageContainer.OnNavigatedBack(Aci.Unity.UI.Navigation.INavigationParameters)
-  fullName: Aci.Unity.UI.Navigation.PageContainer.OnNavigatedBack(Aci.Unity.UI.Navigation.INavigationParameters)
-  nameWithType: PageContainer.OnNavigatedBack(INavigationParameters)
-- uid: Aci.Unity.UI.Navigation.PageContainer.OnNavigatedBack*
-  name: OnNavigatedBack
-  href: api/Aci.Unity.UI.Navigation.PageContainer.html#Aci_Unity_UI_Navigation_PageContainer_OnNavigatedBack_
-  commentId: Overload:Aci.Unity.UI.Navigation.PageContainer.OnNavigatedBack
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.PageContainer.OnNavigatedBack
-  nameWithType: PageContainer.OnNavigatedBack
-- uid: Aci.Unity.UI.Navigation.PageContainer.OnNavigatedTo(Aci.Unity.UI.Navigation.INavigationParameters)
-  name: OnNavigatedTo(INavigationParameters)
-  href: api/Aci.Unity.UI.Navigation.PageContainer.html#Aci_Unity_UI_Navigation_PageContainer_OnNavigatedTo_Aci_Unity_UI_Navigation_INavigationParameters_
-  commentId: M:Aci.Unity.UI.Navigation.PageContainer.OnNavigatedTo(Aci.Unity.UI.Navigation.INavigationParameters)
-  fullName: Aci.Unity.UI.Navigation.PageContainer.OnNavigatedTo(Aci.Unity.UI.Navigation.INavigationParameters)
-  nameWithType: PageContainer.OnNavigatedTo(INavigationParameters)
-- uid: Aci.Unity.UI.Navigation.PageContainer.OnNavigatedTo*
-  name: OnNavigatedTo
-  href: api/Aci.Unity.UI.Navigation.PageContainer.html#Aci_Unity_UI_Navigation_PageContainer_OnNavigatedTo_
-  commentId: Overload:Aci.Unity.UI.Navigation.PageContainer.OnNavigatedTo
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.PageContainer.OnNavigatedTo
-  nameWithType: PageContainer.OnNavigatedTo
-- uid: Aci.Unity.UI.Navigation.PageContainer.OnNavigatingTo(Aci.Unity.UI.Navigation.INavigationParameters)
-  name: OnNavigatingTo(INavigationParameters)
-  href: api/Aci.Unity.UI.Navigation.PageContainer.html#Aci_Unity_UI_Navigation_PageContainer_OnNavigatingTo_Aci_Unity_UI_Navigation_INavigationParameters_
-  commentId: M:Aci.Unity.UI.Navigation.PageContainer.OnNavigatingTo(Aci.Unity.UI.Navigation.INavigationParameters)
-  fullName: Aci.Unity.UI.Navigation.PageContainer.OnNavigatingTo(Aci.Unity.UI.Navigation.INavigationParameters)
-  nameWithType: PageContainer.OnNavigatingTo(INavigationParameters)
-- uid: Aci.Unity.UI.Navigation.PageContainer.OnNavigatingTo*
-  name: OnNavigatingTo
-  href: api/Aci.Unity.UI.Navigation.PageContainer.html#Aci_Unity_UI_Navigation_PageContainer_OnNavigatingTo_
-  commentId: Overload:Aci.Unity.UI.Navigation.PageContainer.OnNavigatingTo
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.PageContainer.OnNavigatingTo
-  nameWithType: PageContainer.OnNavigatingTo
-- uid: Aci.Unity.UI.Navigation.PageContainer.PrepareDisplay
-  name: PrepareDisplay()
-  href: api/Aci.Unity.UI.Navigation.PageContainer.html#Aci_Unity_UI_Navigation_PageContainer_PrepareDisplay
-  commentId: M:Aci.Unity.UI.Navigation.PageContainer.PrepareDisplay
-  fullName: Aci.Unity.UI.Navigation.PageContainer.PrepareDisplay()
-  nameWithType: PageContainer.PrepareDisplay()
-- uid: Aci.Unity.UI.Navigation.PageContainer.PrepareDisplay*
-  name: PrepareDisplay
-  href: api/Aci.Unity.UI.Navigation.PageContainer.html#Aci_Unity_UI_Navigation_PageContainer_PrepareDisplay_
-  commentId: Overload:Aci.Unity.UI.Navigation.PageContainer.PrepareDisplay
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.PageContainer.PrepareDisplay
-  nameWithType: PageContainer.PrepareDisplay
-- uid: Aci.Unity.UI.Navigation.PageContainerRegistry
-  name: PageContainerRegistry
-  href: api/Aci.Unity.UI.Navigation.PageContainerRegistry.html
-  commentId: T:Aci.Unity.UI.Navigation.PageContainerRegistry
-  fullName: Aci.Unity.UI.Navigation.PageContainerRegistry
-  nameWithType: PageContainerRegistry
-- uid: Aci.Unity.UI.Navigation.PageContainerRegistry.GetContainer(System.String)
-  name: GetContainer(String)
-  href: api/Aci.Unity.UI.Navigation.PageContainerRegistry.html#Aci_Unity_UI_Navigation_PageContainerRegistry_GetContainer_System_String_
-  commentId: M:Aci.Unity.UI.Navigation.PageContainerRegistry.GetContainer(System.String)
-  fullName: Aci.Unity.UI.Navigation.PageContainerRegistry.GetContainer(System.String)
-  nameWithType: PageContainerRegistry.GetContainer(String)
-- uid: Aci.Unity.UI.Navigation.PageContainerRegistry.GetContainer*
-  name: GetContainer
-  href: api/Aci.Unity.UI.Navigation.PageContainerRegistry.html#Aci_Unity_UI_Navigation_PageContainerRegistry_GetContainer_
-  commentId: Overload:Aci.Unity.UI.Navigation.PageContainerRegistry.GetContainer
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.PageContainerRegistry.GetContainer
-  nameWithType: PageContainerRegistry.GetContainer
-- uid: Aci.Unity.UI.Navigation.PageContainerRegistry.Register(Aci.Unity.UI.Navigation.IPageContainer)
-  name: Register(IPageContainer)
-  href: api/Aci.Unity.UI.Navigation.PageContainerRegistry.html#Aci_Unity_UI_Navigation_PageContainerRegistry_Register_Aci_Unity_UI_Navigation_IPageContainer_
-  commentId: M:Aci.Unity.UI.Navigation.PageContainerRegistry.Register(Aci.Unity.UI.Navigation.IPageContainer)
-  fullName: Aci.Unity.UI.Navigation.PageContainerRegistry.Register(Aci.Unity.UI.Navigation.IPageContainer)
-  nameWithType: PageContainerRegistry.Register(IPageContainer)
-- uid: Aci.Unity.UI.Navigation.PageContainerRegistry.Register*
+  fullName: Aci.Unity.UI.Navigation.NavigationService.PushAsync
+  nameWithType: NavigationService.PushAsync
+- uid: Aci.Unity.UI.Navigation.ScreenRegistry
+  name: ScreenRegistry
+  href: api/Aci.Unity.UI.Navigation.ScreenRegistry.html
+  commentId: T:Aci.Unity.UI.Navigation.ScreenRegistry
+  fullName: Aci.Unity.UI.Navigation.ScreenRegistry
+  nameWithType: ScreenRegistry
+- uid: Aci.Unity.UI.Navigation.ScreenRegistry.Register(Aci.Unity.UI.Navigation.IScreenController)
+  name: Register(IScreenController)
+  href: api/Aci.Unity.UI.Navigation.ScreenRegistry.html#Aci_Unity_UI_Navigation_ScreenRegistry_Register_Aci_Unity_UI_Navigation_IScreenController_
+  commentId: M:Aci.Unity.UI.Navigation.ScreenRegistry.Register(Aci.Unity.UI.Navigation.IScreenController)
+  fullName: Aci.Unity.UI.Navigation.ScreenRegistry.Register(Aci.Unity.UI.Navigation.IScreenController)
+  nameWithType: ScreenRegistry.Register(IScreenController)
+- uid: Aci.Unity.UI.Navigation.ScreenRegistry.Register*
   name: Register
-  href: api/Aci.Unity.UI.Navigation.PageContainerRegistry.html#Aci_Unity_UI_Navigation_PageContainerRegistry_Register_
-  commentId: Overload:Aci.Unity.UI.Navigation.PageContainerRegistry.Register
+  href: api/Aci.Unity.UI.Navigation.ScreenRegistry.html#Aci_Unity_UI_Navigation_ScreenRegistry_Register_
+  commentId: Overload:Aci.Unity.UI.Navigation.ScreenRegistry.Register
   isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.PageContainerRegistry.Register
-  nameWithType: PageContainerRegistry.Register
-- uid: Aci.Unity.UI.Navigation.PageContainerRegistry.TryGetContainer(System.String,Aci.Unity.UI.Navigation.IPageContainer@)
-  name: TryGetContainer(String, out IPageContainer)
-  href: api/Aci.Unity.UI.Navigation.PageContainerRegistry.html#Aci_Unity_UI_Navigation_PageContainerRegistry_TryGetContainer_System_String_Aci_Unity_UI_Navigation_IPageContainer__
-  commentId: M:Aci.Unity.UI.Navigation.PageContainerRegistry.TryGetContainer(System.String,Aci.Unity.UI.Navigation.IPageContainer@)
-  name.vb: TryGetContainer(String, ByRef IPageContainer)
-  fullName: Aci.Unity.UI.Navigation.PageContainerRegistry.TryGetContainer(System.String, out Aci.Unity.UI.Navigation.IPageContainer)
-  fullName.vb: Aci.Unity.UI.Navigation.PageContainerRegistry.TryGetContainer(System.String, ByRef Aci.Unity.UI.Navigation.IPageContainer)
-  nameWithType: PageContainerRegistry.TryGetContainer(String, out IPageContainer)
-  nameWithType.vb: PageContainerRegistry.TryGetContainer(String, ByRef IPageContainer)
-- uid: Aci.Unity.UI.Navigation.PageContainerRegistry.TryGetContainer*
-  name: TryGetContainer
-  href: api/Aci.Unity.UI.Navigation.PageContainerRegistry.html#Aci_Unity_UI_Navigation_PageContainerRegistry_TryGetContainer_
-  commentId: Overload:Aci.Unity.UI.Navigation.PageContainerRegistry.TryGetContainer
+  fullName: Aci.Unity.UI.Navigation.ScreenRegistry.Register
+  nameWithType: ScreenRegistry.Register
+- uid: Aci.Unity.UI.Navigation.ScreenRegistry.TryGetScreen(System.String,Aci.Unity.UI.Navigation.IScreenController@)
+  name: TryGetScreen(String, out IScreenController)
+  href: api/Aci.Unity.UI.Navigation.ScreenRegistry.html#Aci_Unity_UI_Navigation_ScreenRegistry_TryGetScreen_System_String_Aci_Unity_UI_Navigation_IScreenController__
+  commentId: M:Aci.Unity.UI.Navigation.ScreenRegistry.TryGetScreen(System.String,Aci.Unity.UI.Navigation.IScreenController@)
+  name.vb: TryGetScreen(String, ByRef IScreenController)
+  fullName: Aci.Unity.UI.Navigation.ScreenRegistry.TryGetScreen(System.String, out Aci.Unity.UI.Navigation.IScreenController)
+  fullName.vb: Aci.Unity.UI.Navigation.ScreenRegistry.TryGetScreen(System.String, ByRef Aci.Unity.UI.Navigation.IScreenController)
+  nameWithType: ScreenRegistry.TryGetScreen(String, out IScreenController)
+  nameWithType.vb: ScreenRegistry.TryGetScreen(String, ByRef IScreenController)
+- uid: Aci.Unity.UI.Navigation.ScreenRegistry.TryGetScreen*
+  name: TryGetScreen
+  href: api/Aci.Unity.UI.Navigation.ScreenRegistry.html#Aci_Unity_UI_Navigation_ScreenRegistry_TryGetScreen_
+  commentId: Overload:Aci.Unity.UI.Navigation.ScreenRegistry.TryGetScreen
   isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.PageContainerRegistry.TryGetContainer
-  nameWithType: PageContainerRegistry.TryGetContainer
-- uid: Aci.Unity.UI.Navigation.PageContainerRegistry.Unregister(System.String)
-  name: Unregister(String)
-  href: api/Aci.Unity.UI.Navigation.PageContainerRegistry.html#Aci_Unity_UI_Navigation_PageContainerRegistry_Unregister_System_String_
-  commentId: M:Aci.Unity.UI.Navigation.PageContainerRegistry.Unregister(System.String)
-  fullName: Aci.Unity.UI.Navigation.PageContainerRegistry.Unregister(System.String)
-  nameWithType: PageContainerRegistry.Unregister(String)
-- uid: Aci.Unity.UI.Navigation.PageContainerRegistry.Unregister*
+  fullName: Aci.Unity.UI.Navigation.ScreenRegistry.TryGetScreen
+  nameWithType: ScreenRegistry.TryGetScreen
+- uid: Aci.Unity.UI.Navigation.ScreenRegistry.Unregister(Aci.Unity.UI.Navigation.IScreenController)
+  name: Unregister(IScreenController)
+  href: api/Aci.Unity.UI.Navigation.ScreenRegistry.html#Aci_Unity_UI_Navigation_ScreenRegistry_Unregister_Aci_Unity_UI_Navigation_IScreenController_
+  commentId: M:Aci.Unity.UI.Navigation.ScreenRegistry.Unregister(Aci.Unity.UI.Navigation.IScreenController)
+  fullName: Aci.Unity.UI.Navigation.ScreenRegistry.Unregister(Aci.Unity.UI.Navigation.IScreenController)
+  nameWithType: ScreenRegistry.Unregister(IScreenController)
+- uid: Aci.Unity.UI.Navigation.ScreenRegistry.Unregister*
   name: Unregister
-  href: api/Aci.Unity.UI.Navigation.PageContainerRegistry.html#Aci_Unity_UI_Navigation_PageContainerRegistry_Unregister_
-  commentId: Overload:Aci.Unity.UI.Navigation.PageContainerRegistry.Unregister
+  href: api/Aci.Unity.UI.Navigation.ScreenRegistry.html#Aci_Unity_UI_Navigation_ScreenRegistry_Unregister_
+  commentId: Overload:Aci.Unity.UI.Navigation.ScreenRegistry.Unregister
   isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.PageContainerRegistry.Unregister
-  nameWithType: PageContainerRegistry.Unregister
-- uid: Aci.Unity.UI.Navigation.PageNotFoundException
-  name: PageNotFoundException
-  href: api/Aci.Unity.UI.Navigation.PageNotFoundException.html
-  commentId: T:Aci.Unity.UI.Navigation.PageNotFoundException
-  fullName: Aci.Unity.UI.Navigation.PageNotFoundException
-  nameWithType: PageNotFoundException
-- uid: Aci.Unity.UI.Navigation.PageNotFoundException.#ctor(System.String)
-  name: PageNotFoundException(String)
-  href: api/Aci.Unity.UI.Navigation.PageNotFoundException.html#Aci_Unity_UI_Navigation_PageNotFoundException__ctor_System_String_
-  commentId: M:Aci.Unity.UI.Navigation.PageNotFoundException.#ctor(System.String)
-  fullName: Aci.Unity.UI.Navigation.PageNotFoundException.PageNotFoundException(System.String)
-  nameWithType: PageNotFoundException.PageNotFoundException(String)
-- uid: Aci.Unity.UI.Navigation.PageNotFoundException.#ctor*
-  name: PageNotFoundException
-  href: api/Aci.Unity.UI.Navigation.PageNotFoundException.html#Aci_Unity_UI_Navigation_PageNotFoundException__ctor_
-  commentId: Overload:Aci.Unity.UI.Navigation.PageNotFoundException.#ctor
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Navigation.PageNotFoundException.PageNotFoundException
-  nameWithType: PageNotFoundException.PageNotFoundException
+  fullName: Aci.Unity.UI.Navigation.ScreenRegistry.Unregister
+  nameWithType: ScreenRegistry.Unregister
 - uid: Aci.Unity.UI.ReplaceEmojiInText
   name: ReplaceEmojiInText
   href: api/Aci.Unity.UI.ReplaceEmojiInText.html

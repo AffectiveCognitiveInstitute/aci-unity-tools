@@ -71,7 +71,7 @@
             <article class="content wrap" id="_content" data-uid="Aci.Unity.UI.Navigation.INavigationAware">
   <h1 id="Aci_Unity_UI_Navigation_INavigationAware" data-uid="Aci.Unity.UI.Navigation.INavigationAware">Interface INavigationAware
   </h1>
-  <div class="markdown level0 summary"><p>Combines both interfaces into one for easier use</p>
+  <div class="markdown level0 summary"><p>Interface which combines all navigation events</p>
 </div>
   <div class="markdown level0 conceptual"></div>
 
@@ -80,16 +80,22 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Aci.Unity.UI.Navigation.INavigatedBackAware.html#Aci_Unity_UI_Navigation_INavigatedBackAware_OnNavigatedBack_Aci_Unity_UI_Navigation_INavigationParameters_">INavigatedBackAware.OnNavigatedBack(INavigationParameters)</a>
-    </div>
-    <div>
-      <a class="xref" href="Aci.Unity.UI.Navigation.INavigatedToAware.html#Aci_Unity_UI_Navigation_INavigatedToAware_OnNavigatedTo_Aci_Unity_UI_Navigation_INavigationParameters_">INavigatedToAware.OnNavigatedTo(INavigationParameters)</a>
-    </div>
-    <div>
-      <a class="xref" href="Aci.Unity.UI.Navigation.INavigatedAwayAware.html#Aci_Unity_UI_Navigation_INavigatedAwayAware_OnNavigatedAway_Aci_Unity_UI_Navigation_INavigationParameters_">INavigatedAwayAware.OnNavigatedAway(INavigationParameters)</a>
+      <a class="xref" href="Aci.Unity.UI.Navigation.INavigatedAware.html#Aci_Unity_UI_Navigation_INavigatedAware_OnNavigatedTo_Aci_Unity_UI_Navigation_INavigationParameters_">INavigatedAware.OnNavigatedTo(INavigationParameters)</a>
     </div>
     <div>
       <a class="xref" href="Aci.Unity.UI.Navigation.INavigatingAware.html#Aci_Unity_UI_Navigation_INavigatingAware_OnNavigatingTo_Aci_Unity_UI_Navigation_INavigationParameters_">INavigatingAware.OnNavigatingTo(INavigationParameters)</a>
+    </div>
+    <div>
+      <a class="xref" href="Aci.Unity.UI.Navigation.INavigatingBackAware.html#Aci_Unity_UI_Navigation_INavigatingBackAware_OnNavigatingBack_Aci_Unity_UI_Navigation_INavigationParameters_">INavigatingBackAware.OnNavigatingBack(INavigationParameters)</a>
+    </div>
+    <div>
+      <a class="xref" href="Aci.Unity.UI.Navigation.INavigatingAwayAware.html#Aci_Unity_UI_Navigation_INavigatingAwayAware_OnNavigatingAway_Aci_Unity_UI_Navigation_INavigationParameters_">INavigatingAwayAware.OnNavigatingAway(INavigationParameters)</a>
+    </div>
+    <div>
+      <a class="xref" href="Aci.Unity.UI.Navigation.IDestructibleAware.html#Aci_Unity_UI_Navigation_IDestructibleAware_OnScreenDestroyed_Aci_Unity_UI_Navigation_INavigationParameters_">IDestructibleAware.OnScreenDestroyed(INavigationParameters)</a>
+    </div>
+    <div>
+      <a class="xref" href="Aci.Unity.UI.Navigation.INavigatedBackAware.html#Aci_Unity_UI_Navigation_INavigatedBackAware_OnNavigatedBack_Aci_Unity_UI_Navigation_INavigationParameters_">INavigatedBackAware.OnNavigatedBack(INavigationParameters)</a>
     </div>
   </div>
   
@@ -98,7 +104,7 @@
   
   <h5 id="Aci_Unity_UI_Navigation_INavigationAware_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface INavigationAware : INavigatedAware, INavigatedBackAware, INavigatedToAware, INavigatedAwayAware, INavigatingAware, INavigationEvent</code></pre>
+    <pre><code class="lang-csharp hljs">public interface INavigationAware : INavigatedAware, INavigatingAware, INavigatingBackAware, INavigatingAwayAware, IDestructibleAware, INavigatedBackAware, INavigationEventHandler</code></pre>
   </div>
 
   

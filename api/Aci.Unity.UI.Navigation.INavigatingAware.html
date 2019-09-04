@@ -71,7 +71,8 @@
             <article class="content wrap" id="_content" data-uid="Aci.Unity.UI.Navigation.INavigatingAware">
   <h1 id="Aci_Unity_UI_Navigation_INavigatingAware" data-uid="Aci.Unity.UI.Navigation.INavigatingAware">Interface INavigatingAware
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Called on GameObject that is being navigated to. Called before animation begins.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
 
   
@@ -82,7 +83,7 @@
   
   <h5 id="Aci_Unity_UI_Navigation_INavigatingAware_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface INavigatingAware : INavigationEvent</code></pre>
+    <pre><code class="lang-csharp hljs">public interface INavigatingAware : INavigationEventHandler</code></pre>
   </div>
 
   
@@ -98,13 +99,12 @@
   <h4 id="Aci_Unity_UI_Navigation_INavigatingAware_OnNavigatingTo_Aci_Unity_UI_Navigation_INavigationParameters_" data-uid="Aci.Unity.UI.Navigation.INavigatingAware.OnNavigatingTo(Aci.Unity.UI.Navigation.INavigationParameters)"><a href="#collapsible-Aci_Unity_UI_Navigation_INavigatingAware_OnNavigatingTo_Aci_Unity_UI_Navigation_INavigationParameters_" class="expander" data-toggle="collapse">OnNavigatingTo(INavigationParameters)</a></h4>
   
   <div id="collapsible-Aci_Unity_UI_Navigation_INavigatingAware_OnNavigatingTo_Aci_Unity_UI_Navigation_INavigationParameters_" class="collapse in">
-  <div class="markdown level1 summary"><p>Called while navigating to the page. Called before any animation takes place.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void OnNavigatingTo(INavigationParameters parameters)</code></pre>
+    <pre><code class="lang-csharp hljs">void OnNavigatingTo(INavigationParameters navigationParameters)</code></pre>
   </div>
 
   <h5 class="parameters">Parameters</h5>
@@ -112,7 +112,7 @@
     <tr>
       <td>
         <span class="pull-right"><a class="xref" href="Aci.Unity.UI.Navigation.INavigationParameters.html">INavigationParameters</a></span>
-        <span class="parametername">parameters</span>
+        <span class="parametername">navigationParameters</span>
         <p>
       </td>
     </tr>

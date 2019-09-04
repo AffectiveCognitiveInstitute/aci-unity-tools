@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IActivityIndicatorFactory
+    <title>Class SerializedDictionary&lt;TKey, TValue&gt;
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IActivityIndicatorFactory
+    <meta name="title" content="Class SerializedDictionary&lt;TKey, TValue&gt;
    ">
     <meta name="generator" content="docfx 2.40.4.0">
     
@@ -68,64 +68,131 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Aci.Unity.UI.Dialog.IActivityIndicatorFactory">
-  <h1 id="Aci_Unity_UI_Dialog_IActivityIndicatorFactory" data-uid="Aci.Unity.UI.Dialog.IActivityIndicatorFactory">Interface IActivityIndicatorFactory
+            <article class="content wrap" id="_content" data-uid="Aci.Collections.SerializedDictionary`2">
+  <h1 id="Aci_Collections_SerializedDictionary_2" data-uid="Aci.Collections.SerializedDictionary`2">Class SerializedDictionary&lt;TKey, TValue&gt;
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
 
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">SerializedDictionary&lt;TKey, TValue&gt;</span></div>
+  </div>
   
   
   
   <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   
-  <h5 id="Aci_Unity_UI_Dialog_IActivityIndicatorFactory_syntax">Syntax</h5>
+  <h5 id="Aci_Collections_SerializedDictionary_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IActivityIndicatorFactory</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class SerializedDictionary&lt;TKey, TValue&gt; : ISerializationCallbackReceiver</code></pre>
   </div>
 
   
   
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">TKey</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="parametername">TValue</span>
+        <p>
+      </td>
+    </tr>
+  </table>
   
   
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Aci_Unity_UI_Dialog_IActivityIndicatorFactory_Create_" data-uid="Aci.Unity.UI.Dialog.IActivityIndicatorFactory.Create*"></a>
+  <a id="Aci_Collections_SerializedDictionary_2_dictionary_" data-uid="Aci.Collections.SerializedDictionary`2.dictionary*"></a>
   
-  <h4 id="Aci_Unity_UI_Dialog_IActivityIndicatorFactory_Create_System_String_" data-uid="Aci.Unity.UI.Dialog.IActivityIndicatorFactory.Create(System.String)"><a href="#collapsible-Aci_Unity_UI_Dialog_IActivityIndicatorFactory_Create_System_String_" class="expander" data-toggle="collapse">Create(String)</a></h4>
+  <h4 id="Aci_Collections_SerializedDictionary_2_dictionary" data-uid="Aci.Collections.SerializedDictionary`2.dictionary"><a href="#collapsible-Aci_Collections_SerializedDictionary_2_dictionary" class="expander" data-toggle="collapse">dictionary</a></h4>
   
-  <div id="collapsible-Aci_Unity_UI_Dialog_IActivityIndicatorFactory_Create_System_String_" class="collapse in">
+  <div id="collapsible-Aci_Collections_SerializedDictionary_2_dictionary" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ActivityIndicatorDialog Create(string message)</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;TKey, TValue&gt; dictionary { get; }</code></pre>
   </div>
 
-  <h5 class="parameters">Parameters</h5>
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
   <table>
     <tr>
       <td>
-        <span class="pull-right"><span class="xref">System.String</span></span>
-        <span class="parametername">message</span>
+        <span class="xref">Dictionary</span>&lt;TKey, TValue&gt;
         <p>
       </td>
     </tr>
   </table>
   
-  <h5 class="returns">Returns</h5>
-  <table>
-    <tr>
-      <td>
-        <a class="xref" href="Aci.Unity.UI.Dialog.ActivityIndicatorDialog.html">ActivityIndicatorDialog</a>
-        <p>
-      </td>
-    </tr>
-  </table>
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Aci_Collections_SerializedDictionary_2_OnAfterDeserialize_" data-uid="Aci.Collections.SerializedDictionary`2.OnAfterDeserialize*"></a>
+  
+  <h4 id="Aci_Collections_SerializedDictionary_2_OnAfterDeserialize" data-uid="Aci.Collections.SerializedDictionary`2.OnAfterDeserialize"><a href="#collapsible-Aci_Collections_SerializedDictionary_2_OnAfterDeserialize" class="expander" data-toggle="collapse">OnAfterDeserialize()</a></h4>
+  
+  <div id="collapsible-Aci_Collections_SerializedDictionary_2_OnAfterDeserialize" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnAfterDeserialize()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Aci_Collections_SerializedDictionary_2_OnBeforeSerialize_" data-uid="Aci.Collections.SerializedDictionary`2.OnBeforeSerialize*"></a>
+  
+  <h4 id="Aci_Collections_SerializedDictionary_2_OnBeforeSerialize" data-uid="Aci.Collections.SerializedDictionary`2.OnBeforeSerialize"><a href="#collapsible-Aci_Collections_SerializedDictionary_2_OnBeforeSerialize" class="expander" data-toggle="collapse">OnBeforeSerialize()</a></h4>
+  
+  <div id="collapsible-Aci_Collections_SerializedDictionary_2_OnBeforeSerialize" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnBeforeSerialize()</code></pre>
+  </div>
+
+  
   
   
   

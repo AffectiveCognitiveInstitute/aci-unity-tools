@@ -71,7 +71,7 @@
             <article class="content wrap" id="_content" data-uid="Aci.Unity.UI.Navigation.INavigationService">
   <h1 id="Aci_Unity_UI_Navigation_INavigationService" data-uid="Aci.Unity.UI.Navigation.INavigationService">Interface INavigationService
   </h1>
-  <div class="markdown level0 summary"><p>Interface for navigating within an application</p>
+  <div class="markdown level0 summary"><p>Service which exposes methods for navigating within application</p>
 </div>
   <div class="markdown level0 conceptual"></div>
 
@@ -90,61 +90,109 @@
   
   
   
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="Aci_Unity_UI_Navigation_INavigationService_StackCount_" data-uid="Aci.Unity.UI.Navigation.INavigationService.StackCount*"></a>
-  
-  <h4 id="Aci_Unity_UI_Navigation_INavigationService_StackCount" data-uid="Aci.Unity.UI.Navigation.INavigationService.StackCount"><a href="#collapsible-Aci_Unity_UI_Navigation_INavigationService_StackCount" class="expander" data-toggle="collapse">StackCount</a></h4>
-  
-  <div id="collapsible-Aci_Unity_UI_Navigation_INavigationService_StackCount" class="collapse in">
-  <div class="markdown level1 summary"><p>The number of items on the navigation stack</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int StackCount { get; }</code></pre>
-  </div>
-
-  
-  
-  
-  
-  <h5 class="propertyValue">Property Value</h5>
-  <table>
-    <tr>
-      <td>
-        <span class="xref">System.Int32</span>
-        <p>
-      </td>
-    </tr>
-  </table>
-  
-  
-  
-  
-  
-  
-  
-  </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Aci_Unity_UI_Navigation_INavigationService_Pop_" data-uid="Aci.Unity.UI.Navigation.INavigationService.Pop*"></a>
+  <a id="Aci_Unity_UI_Navigation_INavigationService_CanPop_" data-uid="Aci.Unity.UI.Navigation.INavigationService.CanPop*"></a>
   
-  <h4 id="Aci_Unity_UI_Navigation_INavigationService_Pop_Aci_Unity_UI_Navigation_INavigationParameters_System_Action_" data-uid="Aci.Unity.UI.Navigation.INavigationService.Pop(Aci.Unity.UI.Navigation.INavigationParameters,System.Action)"><a href="#collapsible-Aci_Unity_UI_Navigation_INavigationService_Pop_Aci_Unity_UI_Navigation_INavigationParameters_System_Action_" class="expander" data-toggle="collapse">Pop(INavigationParameters, Action)</a></h4>
+  <h4 id="Aci_Unity_UI_Navigation_INavigationService_CanPop" data-uid="Aci.Unity.UI.Navigation.INavigationService.CanPop"><a href="#collapsible-Aci_Unity_UI_Navigation_INavigationService_CanPop" class="expander" data-toggle="collapse">CanPop()</a></h4>
   
-  <div id="collapsible-Aci_Unity_UI_Navigation_INavigationService_Pop_Aci_Unity_UI_Navigation_INavigationParameters_System_Action_" class="collapse in">
-  <div class="markdown level1 summary"><p>Pops a page from the navigation stack. Returns to a previous page</p>
+  <div id="collapsible-Aci_Unity_UI_Navigation_INavigationService_CanPop" class="collapse in">
+  <div class="markdown level1 summary"><p>Can a Navigation Pop command be executed?</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Pop(INavigationParameters parameters, Action navigationCompleted = null)</code></pre>
+    <pre><code class="lang-csharp hljs">bool CanPop()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p><p>Returns true or false</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Aci_Unity_UI_Navigation_INavigationService_PopAsync_" data-uid="Aci.Unity.UI.Navigation.INavigationService.PopAsync*"></a>
+  
+  <h4 id="Aci_Unity_UI_Navigation_INavigationService_PopAsync_Aci_Unity_UI_Navigation_AnimationOptions_" data-uid="Aci.Unity.UI.Navigation.INavigationService.PopAsync(Aci.Unity.UI.Navigation.AnimationOptions)"><a href="#collapsible-Aci_Unity_UI_Navigation_INavigationService_PopAsync_Aci_Unity_UI_Navigation_AnimationOptions_" class="expander" data-toggle="collapse">PopAsync(AnimationOptions)</a></h4>
+  
+  <div id="collapsible-Aci_Unity_UI_Navigation_INavigationService_PopAsync_Aci_Unity_UI_Navigation_AnimationOptions_" class="collapse in">
+  <div class="markdown level1 summary"><p>Exits the current screen. Goes back to the previous screen</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task PopAsync(AnimationOptions animationOptions)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="Aci.Unity.UI.Navigation.AnimationOptions.html">AnimationOptions</a></span>
+        <span class="parametername">animationOptions</span>
+        <p><p>Animation options for the screen being popped and for the screen that reappears</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">Task</span>
+        <p><p>Returns an awaitable Task. The Task completes when the animation has completed</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Aci_Unity_UI_Navigation_INavigationService_PopAsync_" data-uid="Aci.Unity.UI.Navigation.INavigationService.PopAsync*"></a>
+  
+  <h4 id="Aci_Unity_UI_Navigation_INavigationService_PopAsync_Aci_Unity_UI_Navigation_INavigationParameters_Aci_Unity_UI_Navigation_AnimationOptions_" data-uid="Aci.Unity.UI.Navigation.INavigationService.PopAsync(Aci.Unity.UI.Navigation.INavigationParameters,Aci.Unity.UI.Navigation.AnimationOptions)"><a href="#collapsible-Aci_Unity_UI_Navigation_INavigationService_PopAsync_Aci_Unity_UI_Navigation_INavigationParameters_Aci_Unity_UI_Navigation_AnimationOptions_" class="expander" data-toggle="collapse">PopAsync(INavigationParameters, AnimationOptions)</a></h4>
+  
+  <div id="collapsible-Aci_Unity_UI_Navigation_INavigationService_PopAsync_Aci_Unity_UI_Navigation_INavigationParameters_Aci_Unity_UI_Navigation_AnimationOptions_" class="collapse in">
+  <div class="markdown level1 summary"><p>Exits the current screen. Goes back to the previous screen</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task PopAsync(INavigationParameters parameters, AnimationOptions animationOptions)</code></pre>
   </div>
 
   <h5 class="parameters">Parameters</h5>
@@ -153,15 +201,26 @@
       <td>
         <span class="pull-right"><a class="xref" href="Aci.Unity.UI.Navigation.INavigationParameters.html">INavigationParameters</a></span>
         <span class="parametername">parameters</span>
-        <p><p>Parameters passed to the previous page</p>
+        <p><p>Any values that should be passed back to the previous screen.</p>
 </p>
       </td>
     </tr>
     <tr>
       <td>
-        <span class="pull-right"><span class="xref">System.Action</span></span>
-        <span class="parametername">navigationCompleted</span>
-        <p><p>Callback when navigation has completed, i.e. animation has completed</p>
+        <span class="pull-right"><a class="xref" href="Aci.Unity.UI.Navigation.AnimationOptions.html">AnimationOptions</a></span>
+        <span class="parametername">animationOptions</span>
+        <p><p>Animation options for the screen being popped and for the screen that reappears</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">Task</span>
+        <p><p>Returns an awaitable Task. The Task completes when the animation has completed</p>
 </p>
       </td>
     </tr>
@@ -176,31 +235,41 @@
   
   
   
-  
   </div>
   
   
-  <a id="Aci_Unity_UI_Navigation_INavigationService_Pop_" data-uid="Aci.Unity.UI.Navigation.INavigationService.Pop*"></a>
+  <a id="Aci_Unity_UI_Navigation_INavigationService_PopToRootAsync_" data-uid="Aci.Unity.UI.Navigation.INavigationService.PopToRootAsync*"></a>
   
-  <h4 id="Aci_Unity_UI_Navigation_INavigationService_Pop_System_Action_" data-uid="Aci.Unity.UI.Navigation.INavigationService.Pop(System.Action)"><a href="#collapsible-Aci_Unity_UI_Navigation_INavigationService_Pop_System_Action_" class="expander" data-toggle="collapse">Pop(Action)</a></h4>
+  <h4 id="Aci_Unity_UI_Navigation_INavigationService_PopToRootAsync_Aci_Unity_UI_Navigation_AnimationOptions_" data-uid="Aci.Unity.UI.Navigation.INavigationService.PopToRootAsync(Aci.Unity.UI.Navigation.AnimationOptions)"><a href="#collapsible-Aci_Unity_UI_Navigation_INavigationService_PopToRootAsync_Aci_Unity_UI_Navigation_AnimationOptions_" class="expander" data-toggle="collapse">PopToRootAsync(AnimationOptions)</a></h4>
   
-  <div id="collapsible-Aci_Unity_UI_Navigation_INavigationService_Pop_System_Action_" class="collapse in">
-  <div class="markdown level1 summary"><p>ops a page from the navigation stack. Returns to a previous page</p>
+  <div id="collapsible-Aci_Unity_UI_Navigation_INavigationService_PopToRootAsync_Aci_Unity_UI_Navigation_AnimationOptions_" class="collapse in">
+  <div class="markdown level1 summary"><p>Pops to the first screen</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Pop(Action callback = null)</code></pre>
+    <pre><code class="lang-csharp hljs">Task PopToRootAsync(AnimationOptions animationOptions)</code></pre>
   </div>
 
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
       <td>
-        <span class="pull-right"><span class="xref">System.Action</span></span>
-        <span class="parametername">callback</span>
-        <p><p>A callback when any animation has completed</p>
+        <span class="pull-right"><a class="xref" href="Aci.Unity.UI.Navigation.AnimationOptions.html">AnimationOptions</a></span>
+        <span class="parametername">animationOptions</span>
+        <p><p>Animation options for the screen being popped and for the screen that reappears</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">Task</span>
+        <p><p>Returns an awaitable Task</p>
 </p>
       </td>
     </tr>
@@ -215,22 +284,78 @@
   
   
   
-  
   </div>
   
   
-  <a id="Aci_Unity_UI_Navigation_INavigationService_Push_" data-uid="Aci.Unity.UI.Navigation.INavigationService.Push*"></a>
+  <a id="Aci_Unity_UI_Navigation_INavigationService_PopToRootAsync_" data-uid="Aci.Unity.UI.Navigation.INavigationService.PopToRootAsync*"></a>
   
-  <h4 id="Aci_Unity_UI_Navigation_INavigationService_Push_System_String_Aci_Unity_UI_Navigation_INavigationParameters_System_Boolean_System_Action_" data-uid="Aci.Unity.UI.Navigation.INavigationService.Push(System.String,Aci.Unity.UI.Navigation.INavigationParameters,System.Boolean,System.Action)"><a href="#collapsible-Aci_Unity_UI_Navigation_INavigationService_Push_System_String_Aci_Unity_UI_Navigation_INavigationParameters_System_Boolean_System_Action_" class="expander" data-toggle="collapse">Push(String, INavigationParameters, Boolean, Action)</a></h4>
+  <h4 id="Aci_Unity_UI_Navigation_INavigationService_PopToRootAsync_Aci_Unity_UI_Navigation_INavigationParameters_Aci_Unity_UI_Navigation_AnimationOptions_" data-uid="Aci.Unity.UI.Navigation.INavigationService.PopToRootAsync(Aci.Unity.UI.Navigation.INavigationParameters,Aci.Unity.UI.Navigation.AnimationOptions)"><a href="#collapsible-Aci_Unity_UI_Navigation_INavigationService_PopToRootAsync_Aci_Unity_UI_Navigation_INavigationParameters_Aci_Unity_UI_Navigation_AnimationOptions_" class="expander" data-toggle="collapse">PopToRootAsync(INavigationParameters, AnimationOptions)</a></h4>
   
-  <div id="collapsible-Aci_Unity_UI_Navigation_INavigationService_Push_System_String_Aci_Unity_UI_Navigation_INavigationParameters_System_Boolean_System_Action_" class="collapse in">
-  <div class="markdown level1 summary"><p>Pushes a page onto the navigation stack. Opens a new page</p>
+  <div id="collapsible-Aci_Unity_UI_Navigation_INavigationService_PopToRootAsync_Aci_Unity_UI_Navigation_INavigationParameters_Aci_Unity_UI_Navigation_AnimationOptions_" class="collapse in">
+  <div class="markdown level1 summary"><p>Pops to the first screen</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Push(string page, INavigationParameters parameters, bool addToStack = true, Action navigationCompleted = null)</code></pre>
+    <pre><code class="lang-csharp hljs">Task PopToRootAsync(INavigationParameters parameters, AnimationOptions animationOptions)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="Aci.Unity.UI.Navigation.INavigationParameters.html">INavigationParameters</a></span>
+        <span class="parametername">parameters</span>
+        <p><p>Any values that should be passed back to the root screen.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="Aci.Unity.UI.Navigation.AnimationOptions.html">AnimationOptions</a></span>
+        <span class="parametername">animationOptions</span>
+        <p><p>Animation options for the screen being popped and for the screen that reappears</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">Task</span>
+        <p><p>Returns an awaitable Task</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Aci_Unity_UI_Navigation_INavigationService_PushAsync_" data-uid="Aci.Unity.UI.Navigation.INavigationService.PushAsync*"></a>
+  
+  <h4 id="Aci_Unity_UI_Navigation_INavigationService_PushAsync_System_String_Aci_Unity_UI_Navigation_AnimationOptions_System_Boolean_" data-uid="Aci.Unity.UI.Navigation.INavigationService.PushAsync(System.String,Aci.Unity.UI.Navigation.AnimationOptions,System.Boolean)"><a href="#collapsible-Aci_Unity_UI_Navigation_INavigationService_PushAsync_System_String_Aci_Unity_UI_Navigation_AnimationOptions_System_Boolean_" class="expander" data-toggle="collapse">PushAsync(String, AnimationOptions, Boolean)</a></h4>
+  
+  <div id="collapsible-Aci_Unity_UI_Navigation_INavigationService_PushAsync_System_String_Aci_Unity_UI_Navigation_AnimationOptions_System_Boolean_" class="collapse in">
+  <div class="markdown level1 summary"><p>Switch to a screen</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task PushAsync(string screen, AnimationOptions animationOptions, bool addToHistory = true)</code></pre>
   </div>
 
   <h5 class="parameters">Parameters</h5>
@@ -238,8 +363,73 @@
     <tr>
       <td>
         <span class="pull-right"><span class="xref">System.String</span></span>
-        <span class="parametername">page</span>
-        <p><p>The identifier of the page. See <a class="xref" href="Aci.Unity.UI.Navigation.IPageContainer.html">IPageContainer</a></p>
+        <span class="parametername">screen</span>
+        <p><p>The identifier of the screen to be pushes</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="Aci.Unity.UI.Navigation.AnimationOptions.html">AnimationOptions</a></span>
+        <span class="parametername">animationOptions</span>
+        <p><p>Animation options for the possible screen being hidden and for the screen being pushed</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Boolean</span></span>
+        <span class="parametername">addToHistory</span>
+        <p><p>Should the previous screen be added onto the navigation stack?</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">Task</span>
+        <p><p>Returns an awaitable Task. The Task completes when the animation has completed</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Aci_Unity_UI_Navigation_INavigationService_PushAsync_" data-uid="Aci.Unity.UI.Navigation.INavigationService.PushAsync*"></a>
+  
+  <h4 id="Aci_Unity_UI_Navigation_INavigationService_PushAsync_System_String_Aci_Unity_UI_Navigation_INavigationParameters_Aci_Unity_UI_Navigation_AnimationOptions_System_Boolean_" data-uid="Aci.Unity.UI.Navigation.INavigationService.PushAsync(System.String,Aci.Unity.UI.Navigation.INavigationParameters,Aci.Unity.UI.Navigation.AnimationOptions,System.Boolean)"><a href="#collapsible-Aci_Unity_UI_Navigation_INavigationService_PushAsync_System_String_Aci_Unity_UI_Navigation_INavigationParameters_Aci_Unity_UI_Navigation_AnimationOptions_System_Boolean_" class="expander" data-toggle="collapse">PushAsync(String, INavigationParameters, AnimationOptions, Boolean)</a></h4>
+  
+  <div id="collapsible-Aci_Unity_UI_Navigation_INavigationService_PushAsync_System_String_Aci_Unity_UI_Navigation_INavigationParameters_Aci_Unity_UI_Navigation_AnimationOptions_System_Boolean_" class="collapse in">
+  <div class="markdown level1 summary"><p>Switch to a screen</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task PushAsync(string screen, INavigationParameters parameters, AnimationOptions animationOptions, bool addToHistory = true)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">screen</span>
+        <p><p>The identifier of the screen to be pushes</p>
 </p>
       </td>
     </tr>
@@ -247,78 +437,34 @@
       <td>
         <span class="pull-right"><a class="xref" href="Aci.Unity.UI.Navigation.INavigationParameters.html">INavigationParameters</a></span>
         <span class="parametername">parameters</span>
-        <p><p>Parameters passed to the page</p>
+        <p><p>Any parameters that should be passed to next screen.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="Aci.Unity.UI.Navigation.AnimationOptions.html">AnimationOptions</a></span>
+        <span class="parametername">animationOptions</span>
+        <p><p>Animation options for the possible screen being hidden and for the screen being pushed</p>
 </p>
       </td>
     </tr>
     <tr>
       <td>
         <span class="pull-right"><span class="xref">System.Boolean</span></span>
-        <span class="parametername">addToStack</span>
-        <p><p>Should the page be added to the stack, when pushing another page afterwards?</p>
-</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="pull-right"><span class="xref">System.Action</span></span>
-        <span class="parametername">navigationCompleted</span>
-        <p><p>Callback when navigation has completed, i.e. animation has completed</p>
+        <span class="parametername">addToHistory</span>
+        <p><p>Should the previous screen be added onto the navigation stack?</p>
 </p>
       </td>
     </tr>
   </table>
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </div>
-  
-  
-  <a id="Aci_Unity_UI_Navigation_INavigationService_Push_" data-uid="Aci.Unity.UI.Navigation.INavigationService.Push*"></a>
-  
-  <h4 id="Aci_Unity_UI_Navigation_INavigationService_Push_System_String_System_Boolean_System_Action_" data-uid="Aci.Unity.UI.Navigation.INavigationService.Push(System.String,System.Boolean,System.Action)"><a href="#collapsible-Aci_Unity_UI_Navigation_INavigationService_Push_System_String_System_Boolean_System_Action_" class="expander" data-toggle="collapse">Push(String, Boolean, Action)</a></h4>
-  
-  <div id="collapsible-Aci_Unity_UI_Navigation_INavigationService_Push_System_String_System_Boolean_System_Action_" class="collapse in">
-  <div class="markdown level1 summary"><p>Pushes a page onto the navigation stack. Opens a new page</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Push(string page, bool addToStack = true, Action navigationCompleted = null)</code></pre>
-  </div>
-
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table>
     <tr>
       <td>
-        <span class="pull-right"><span class="xref">System.String</span></span>
-        <span class="parametername">page</span>
-        <p><p>The identifier of the page. See <a class="xref" href="Aci.Unity.UI.Navigation.IPageContainer.html">IPageContainer</a></p>
-</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="pull-right"><span class="xref">System.Boolean</span></span>
-        <span class="parametername">addToStack</span>
-        <p><p>Should the page be added to the stack, when pushing another page afterwards?</p>
-</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="pull-right"><span class="xref">System.Action</span></span>
-        <span class="parametername">navigationCompleted</span>
-        <p><p>Callback when navigation has completed, i.e. animation has completed</p>
+        <span class="xref">Task</span>
+        <p><p>Returns an awaitable Task. The Task completes when the animation has completed</p>
 </p>
       </td>
     </tr>
@@ -327,45 +473,6 @@
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  </div>
-  <h3 id="events">Events
-  </h3>
-  
-  
-  
-  <h4 id="Aci_Unity_UI_Navigation_INavigationService_Navigated" data-uid="Aci.Unity.UI.Navigation.INavigationService.Navigated"><a href="#collapsible-Aci_Unity_UI_Navigation_INavigationService_Navigated" class="expander" data-toggle="collapse">Navigated</a></h4>
-  
-  <div id="collapsible-Aci_Unity_UI_Navigation_INavigationService_Navigated" class="collapse in">
-  <div class="markdown level1 summary"><p>Event triggered when navigation has occurred</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event Action Navigated</code></pre>
-  </div>
-
-  
-  
-  
-  
-  
-  <h5 class="eventType">Event Type</h5>
-  <table>
-    <tr>
-      <td>
-        <span class="xref">System.Action</span>
-        <p>
-      </td>
-    </tr>
-  </table>
   
   
   

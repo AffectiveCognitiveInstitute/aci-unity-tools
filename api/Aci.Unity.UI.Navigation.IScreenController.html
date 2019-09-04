@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IPageContainer
+    <title>Interface IScreenController
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IPageContainer
+    <meta name="title" content="Interface IScreenController
    ">
     <meta name="generator" content="docfx 2.40.4.0">
     
@@ -68,10 +68,11 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Aci.Unity.UI.Navigation.IPageContainer">
-  <h1 id="Aci_Unity_UI_Navigation_IPageContainer" data-uid="Aci.Unity.UI.Navigation.IPageContainer">Interface IPageContainer
+            <article class="content wrap" id="_content" data-uid="Aci.Unity.UI.Navigation.IScreenController">
+  <h1 id="Aci_Unity_UI_Navigation_IScreenController" data-uid="Aci.Unity.UI.Navigation.IScreenController">Interface IScreenController
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Controls visibility of screen.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
 
   
@@ -79,25 +80,34 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Aci.Unity.UI.Navigation.INavigatedBackAware.html#Aci_Unity_UI_Navigation_INavigatedBackAware_OnNavigatedBack_Aci_Unity_UI_Navigation_INavigationParameters_">INavigatedBackAware.OnNavigatedBack(INavigationParameters)</a>
+      <span class="xref">System.IEquatable&lt;Aci.Unity.UI.Navigation.IScreenController&gt;.Equals(Aci.Unity.UI.Navigation.IScreenController)</span>
     </div>
     <div>
-      <a class="xref" href="Aci.Unity.UI.Navigation.INavigatedToAware.html#Aci_Unity_UI_Navigation_INavigatedToAware_OnNavigatedTo_Aci_Unity_UI_Navigation_INavigationParameters_">INavigatedToAware.OnNavigatedTo(INavigationParameters)</a>
-    </div>
-    <div>
-      <a class="xref" href="Aci.Unity.UI.Navigation.INavigatedAwayAware.html#Aci_Unity_UI_Navigation_INavigatedAwayAware_OnNavigatedAway_Aci_Unity_UI_Navigation_INavigationParameters_">INavigatedAwayAware.OnNavigatedAway(INavigationParameters)</a>
+      <a class="xref" href="Aci.Unity.UI.Navigation.INavigatedAware.html#Aci_Unity_UI_Navigation_INavigatedAware_OnNavigatedTo_Aci_Unity_UI_Navigation_INavigationParameters_">INavigatedAware.OnNavigatedTo(INavigationParameters)</a>
     </div>
     <div>
       <a class="xref" href="Aci.Unity.UI.Navigation.INavigatingAware.html#Aci_Unity_UI_Navigation_INavigatingAware_OnNavigatingTo_Aci_Unity_UI_Navigation_INavigationParameters_">INavigatingAware.OnNavigatingTo(INavigationParameters)</a>
+    </div>
+    <div>
+      <a class="xref" href="Aci.Unity.UI.Navigation.INavigatingBackAware.html#Aci_Unity_UI_Navigation_INavigatingBackAware_OnNavigatingBack_Aci_Unity_UI_Navigation_INavigationParameters_">INavigatingBackAware.OnNavigatingBack(INavigationParameters)</a>
+    </div>
+    <div>
+      <a class="xref" href="Aci.Unity.UI.Navigation.INavigatingAwayAware.html#Aci_Unity_UI_Navigation_INavigatingAwayAware_OnNavigatingAway_Aci_Unity_UI_Navigation_INavigationParameters_">INavigatingAwayAware.OnNavigatingAway(INavigationParameters)</a>
+    </div>
+    <div>
+      <a class="xref" href="Aci.Unity.UI.Navigation.IDestructibleAware.html#Aci_Unity_UI_Navigation_IDestructibleAware_OnScreenDestroyed_Aci_Unity_UI_Navigation_INavigationParameters_">IDestructibleAware.OnScreenDestroyed(INavigationParameters)</a>
+    </div>
+    <div>
+      <a class="xref" href="Aci.Unity.UI.Navigation.INavigatedBackAware.html#Aci_Unity_UI_Navigation_INavigatedBackAware_OnNavigatedBack_Aci_Unity_UI_Navigation_INavigationParameters_">INavigatedBackAware.OnNavigatedBack(INavigationParameters)</a>
     </div>
   </div>
   
   <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   
-  <h5 id="Aci_Unity_UI_Navigation_IPageContainer_syntax">Syntax</h5>
+  <h5 id="Aci_Unity_UI_Navigation_IScreenController_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IPageContainer : INavigationAware, INavigatedAware, INavigatedBackAware, INavigatedToAware, INavigatedAwayAware, INavigatingAware, INavigationEvent</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IScreenController : IEquatable&lt;IScreenController&gt;, INavigationAware, INavigatedAware, INavigatingAware, INavigatingBackAware, INavigatingAwayAware, IDestructibleAware, INavigatedBackAware, INavigationEventHandler</code></pre>
   </div>
 
   
@@ -108,17 +118,18 @@
   </h3>
   
   
-  <a id="Aci_Unity_UI_Navigation_IPageContainer_Id_" data-uid="Aci.Unity.UI.Navigation.IPageContainer.Id*"></a>
+  <a id="Aci_Unity_UI_Navigation_IScreenController_id_" data-uid="Aci.Unity.UI.Navigation.IScreenController.id*"></a>
   
-  <h4 id="Aci_Unity_UI_Navigation_IPageContainer_Id" data-uid="Aci.Unity.UI.Navigation.IPageContainer.Id"><a href="#collapsible-Aci_Unity_UI_Navigation_IPageContainer_Id" class="expander" data-toggle="collapse">Id</a></h4>
+  <h4 id="Aci_Unity_UI_Navigation_IScreenController_id" data-uid="Aci.Unity.UI.Navigation.IScreenController.id"><a href="#collapsible-Aci_Unity_UI_Navigation_IScreenController_id" class="expander" data-toggle="collapse">id</a></h4>
   
-  <div id="collapsible-Aci_Unity_UI_Navigation_IPageContainer_Id" class="collapse in">
-  <div class="markdown level1 summary"></div>
+  <div id="collapsible-Aci_Unity_UI_Navigation_IScreenController_id" class="collapse in">
+  <div class="markdown level1 summary"><p>The id of the screen.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string Id { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">string id { get; }</code></pre>
   </div>
 
   
@@ -146,17 +157,18 @@
   </h3>
   
   
-  <a id="Aci_Unity_UI_Navigation_IPageContainer_Destroy_" data-uid="Aci.Unity.UI.Navigation.IPageContainer.Destroy*"></a>
+  <a id="Aci_Unity_UI_Navigation_IScreenController_Prepare_" data-uid="Aci.Unity.UI.Navigation.IScreenController.Prepare*"></a>
   
-  <h4 id="Aci_Unity_UI_Navigation_IPageContainer_Destroy" data-uid="Aci.Unity.UI.Navigation.IPageContainer.Destroy"><a href="#collapsible-Aci_Unity_UI_Navigation_IPageContainer_Destroy" class="expander" data-toggle="collapse">Destroy()</a></h4>
+  <h4 id="Aci_Unity_UI_Navigation_IScreenController_Prepare" data-uid="Aci.Unity.UI.Navigation.IScreenController.Prepare"><a href="#collapsible-Aci_Unity_UI_Navigation_IScreenController_Prepare" class="expander" data-toggle="collapse">Prepare()</a></h4>
   
-  <div id="collapsible-Aci_Unity_UI_Navigation_IPageContainer_Destroy" class="collapse in">
-  <div class="markdown level1 summary"></div>
+  <div id="collapsible-Aci_Unity_UI_Navigation_IScreenController_Prepare" class="collapse in">
+  <div class="markdown level1 summary"><p>Prepares the screen for navigation.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Destroy()</code></pre>
+    <pre><code class="lang-csharp hljs">void Prepare()</code></pre>
   </div>
 
   
@@ -173,101 +185,50 @@
   </div>
   
   
-  <a id="Aci_Unity_UI_Navigation_IPageContainer_Display_" data-uid="Aci.Unity.UI.Navigation.IPageContainer.Display*"></a>
+  <a id="Aci_Unity_UI_Navigation_IScreenController_UpdateDisplayAsync_" data-uid="Aci.Unity.UI.Navigation.IScreenController.UpdateDisplayAsync*"></a>
   
-  <h4 id="Aci_Unity_UI_Navigation_IPageContainer_Display_System_Action_" data-uid="Aci.Unity.UI.Navigation.IPageContainer.Display(System.Action)"><a href="#collapsible-Aci_Unity_UI_Navigation_IPageContainer_Display_System_Action_" class="expander" data-toggle="collapse">Display(Action)</a></h4>
+  <h4 id="Aci_Unity_UI_Navigation_IScreenController_UpdateDisplayAsync_Aci_Unity_UI_Navigation_NavigationMode_System_Boolean_" data-uid="Aci.Unity.UI.Navigation.IScreenController.UpdateDisplayAsync(Aci.Unity.UI.Navigation.NavigationMode,System.Boolean)"><a href="#collapsible-Aci_Unity_UI_Navigation_IScreenController_UpdateDisplayAsync_Aci_Unity_UI_Navigation_NavigationMode_System_Boolean_" class="expander" data-toggle="collapse">UpdateDisplayAsync(NavigationMode, Boolean)</a></h4>
   
-  <div id="collapsible-Aci_Unity_UI_Navigation_IPageContainer_Display_System_Action_" class="collapse in">
-  <div class="markdown level1 summary"></div>
+  <div id="collapsible-Aci_Unity_UI_Navigation_IScreenController_UpdateDisplayAsync_Aci_Unity_UI_Navigation_NavigationMode_System_Boolean_" class="collapse in">
+  <div class="markdown level1 summary"><p>Updates the screen based on the navigation mode.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Display(Action callback = null)</code></pre>
+    <pre><code class="lang-csharp hljs">Task UpdateDisplayAsync(NavigationMode navigationMode, bool animated = true)</code></pre>
   </div>
 
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
       <td>
-        <span class="pull-right"><span class="xref">System.Action</span></span>
-        <span class="parametername">callback</span>
-        <p>
+        <span class="pull-right"><a class="xref" href="Aci.Unity.UI.Navigation.NavigationMode.html">NavigationMode</a></span>
+        <span class="parametername">navigationMode</span>
+        <p><p>The <a class="xref" href="Aci.Unity.UI.Navigation.NavigationMode.html">NavigationMode</a>.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Boolean</span></span>
+        <span class="parametername">animated</span>
+        <p><p>Should the transition be animated?</p>
+</p>
       </td>
     </tr>
   </table>
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </div>
-  
-  
-  <a id="Aci_Unity_UI_Navigation_IPageContainer_Hide_" data-uid="Aci.Unity.UI.Navigation.IPageContainer.Hide*"></a>
-  
-  <h4 id="Aci_Unity_UI_Navigation_IPageContainer_Hide_System_String_System_Action_" data-uid="Aci.Unity.UI.Navigation.IPageContainer.Hide(System.String,System.Action)"><a href="#collapsible-Aci_Unity_UI_Navigation_IPageContainer_Hide_System_String_System_Action_" class="expander" data-toggle="collapse">Hide(String, Action)</a></h4>
-  
-  <div id="collapsible-Aci_Unity_UI_Navigation_IPageContainer_Hide_System_String_System_Action_" class="collapse in">
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Hide(string newPageId, Action callback = null)</code></pre>
-  </div>
-
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table>
     <tr>
       <td>
-        <span class="pull-right"><span class="xref">System.String</span></span>
-        <span class="parametername">newPageId</span>
-        <p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="pull-right"><span class="xref">System.Action</span></span>
-        <span class="parametername">callback</span>
-        <p>
+        <span class="xref">Task</span>
+        <p><p>Returns an awaitable <see cref="!:Task"></see>.</p>
+</p>
       </td>
     </tr>
   </table>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </div>
-  
-  
-  <a id="Aci_Unity_UI_Navigation_IPageContainer_PrepareDisplay_" data-uid="Aci.Unity.UI.Navigation.IPageContainer.PrepareDisplay*"></a>
-  
-  <h4 id="Aci_Unity_UI_Navigation_IPageContainer_PrepareDisplay" data-uid="Aci.Unity.UI.Navigation.IPageContainer.PrepareDisplay"><a href="#collapsible-Aci_Unity_UI_Navigation_IPageContainer_PrepareDisplay" class="expander" data-toggle="collapse">PrepareDisplay()</a></h4>
-  
-  <div id="collapsible-Aci_Unity_UI_Navigation_IPageContainer_PrepareDisplay" class="collapse in">
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void PrepareDisplay()</code></pre>
-  </div>
-
-  
   
   
   

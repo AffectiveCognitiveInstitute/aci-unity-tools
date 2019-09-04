@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IDialog
+    <title>Interface IScreenRegistry
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IDialog
+    <meta name="title" content="Interface IScreenRegistry
    ">
     <meta name="generator" content="docfx 2.40.4.0">
     
@@ -68,10 +68,10 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Aci.Unity.UI.Dialog.IDialog">
-  <h1 id="Aci_Unity_UI_Dialog_IDialog" data-uid="Aci.Unity.UI.Dialog.IDialog">Interface IDialog
+            <article class="content wrap" id="_content" data-uid="Aci.Unity.UI.Navigation.IScreenRegistry">
+  <h1 id="Aci_Unity_UI_Navigation_IScreenRegistry" data-uid="Aci.Unity.UI.Navigation.IScreenRegistry">Interface IScreenRegistry
   </h1>
-  <div class="markdown level0 summary"><p>Interface for dialogs/popups.</p>
+  <div class="markdown level0 summary"><p>Registry for <a class="xref" href="Aci.Unity.UI.Navigation.IScreenController.html">IScreenController</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
 
@@ -81,79 +81,40 @@
   <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   
-  <h5 id="Aci_Unity_UI_Dialog_IDialog_syntax">Syntax</h5>
+  <h5 id="Aci_Unity_UI_Navigation_IScreenRegistry_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IDialog</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IScreenRegistry</code></pre>
   </div>
 
   
   
   
   
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="Aci_Unity_UI_Dialog_IDialog_gameObject_" data-uid="Aci.Unity.UI.Dialog.IDialog.gameObject*"></a>
-  
-  <h4 id="Aci_Unity_UI_Dialog_IDialog_gameObject" data-uid="Aci.Unity.UI.Dialog.IDialog.gameObject"><a href="#collapsible-Aci_Unity_UI_Dialog_IDialog_gameObject" class="expander" data-toggle="collapse">gameObject</a></h4>
-  
-  <div id="collapsible-Aci_Unity_UI_Dialog_IDialog_gameObject" class="collapse in">
-  <div class="markdown level1 summary"><p>The <see cref="!:GameObject"></see> representing the dialog.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">GameObject gameObject { get; }</code></pre>
-  </div>
-
-  
-  
-  
-  
-  <h5 class="propertyValue">Property Value</h5>
-  <table>
-    <tr>
-      <td>
-        <span class="xref">GameObject</span>
-        <p>
-      </td>
-    </tr>
-  </table>
-  
-  
-  
-  
-  
-  
-  
-  </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Aci_Unity_UI_Dialog_IDialog_Dismiss_" data-uid="Aci.Unity.UI.Dialog.IDialog.Dismiss*"></a>
+  <a id="Aci_Unity_UI_Navigation_IScreenRegistry_Register_" data-uid="Aci.Unity.UI.Navigation.IScreenRegistry.Register*"></a>
   
-  <h4 id="Aci_Unity_UI_Dialog_IDialog_Dismiss_System_Boolean_" data-uid="Aci.Unity.UI.Dialog.IDialog.Dismiss(System.Boolean)"><a href="#collapsible-Aci_Unity_UI_Dialog_IDialog_Dismiss_System_Boolean_" class="expander" data-toggle="collapse">Dismiss(Boolean)</a></h4>
+  <h4 id="Aci_Unity_UI_Navigation_IScreenRegistry_Register_Aci_Unity_UI_Navigation_IScreenController_" data-uid="Aci.Unity.UI.Navigation.IScreenRegistry.Register(Aci.Unity.UI.Navigation.IScreenController)"><a href="#collapsible-Aci_Unity_UI_Navigation_IScreenRegistry_Register_Aci_Unity_UI_Navigation_IScreenController_" class="expander" data-toggle="collapse">Register(IScreenController)</a></h4>
   
-  <div id="collapsible-Aci_Unity_UI_Dialog_IDialog_Dismiss_System_Boolean_" class="collapse in">
-  <div class="markdown level1 summary"><p>Dismisses the dialog.</p>
+  <div id="collapsible-Aci_Unity_UI_Navigation_IScreenRegistry_Register_Aci_Unity_UI_Navigation_IScreenController_" class="collapse in">
+  <div class="markdown level1 summary"><p>Registers an <a class="xref" href="Aci.Unity.UI.Navigation.IScreenController.html">IScreenController</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Dismiss(bool animated = true)</code></pre>
+    <pre><code class="lang-csharp hljs">void Register(IScreenController screen)</code></pre>
   </div>
 
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
       <td>
-        <span class="pull-right"><span class="xref">System.Boolean</span></span>
-        <span class="parametername">animated</span>
-        <p><p>Should its dismissal be animated?</p>
+        <span class="pull-right"><a class="xref" href="Aci.Unity.UI.Navigation.IScreenController.html">IScreenController</a></span>
+        <span class="parametername">screen</span>
+        <p><p>The <a class="xref" href="Aci.Unity.UI.Navigation.IScreenController.html">IScreenController</a> to register.</p>
 </p>
       </td>
     </tr>
@@ -172,55 +133,46 @@
   </div>
   
   
-  <a id="Aci_Unity_UI_Dialog_IDialog_Hide_" data-uid="Aci.Unity.UI.Dialog.IDialog.Hide*"></a>
+  <a id="Aci_Unity_UI_Navigation_IScreenRegistry_TryGetScreen_" data-uid="Aci.Unity.UI.Navigation.IScreenRegistry.TryGetScreen*"></a>
   
-  <h4 id="Aci_Unity_UI_Dialog_IDialog_Hide" data-uid="Aci.Unity.UI.Dialog.IDialog.Hide"><a href="#collapsible-Aci_Unity_UI_Dialog_IDialog_Hide" class="expander" data-toggle="collapse">Hide()</a></h4>
+  <h4 id="Aci_Unity_UI_Navigation_IScreenRegistry_TryGetScreen_System_String_Aci_Unity_UI_Navigation_IScreenController__" data-uid="Aci.Unity.UI.Navigation.IScreenRegistry.TryGetScreen(System.String,Aci.Unity.UI.Navigation.IScreenController@)"><a href="#collapsible-Aci_Unity_UI_Navigation_IScreenRegistry_TryGetScreen_System_String_Aci_Unity_UI_Navigation_IScreenController__" class="expander" data-toggle="collapse">TryGetScreen(String, out IScreenController)</a></h4>
   
-  <div id="collapsible-Aci_Unity_UI_Dialog_IDialog_Hide" class="collapse in">
-  <div class="markdown level1 summary"><p>Hides the dialog.</p>
+  <div id="collapsible-Aci_Unity_UI_Navigation_IScreenRegistry_TryGetScreen_System_String_Aci_Unity_UI_Navigation_IScreenController__" class="collapse in">
+  <div class="markdown level1 summary"><p>Tries to get an <a class="xref" href="Aci.Unity.UI.Navigation.IScreenController.html">IScreenController</a> by its id.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Hide()</code></pre>
-  </div>
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </div>
-  
-  
-  <a id="Aci_Unity_UI_Dialog_IDialog_Show_" data-uid="Aci.Unity.UI.Dialog.IDialog.Show*"></a>
-  
-  <h4 id="Aci_Unity_UI_Dialog_IDialog_Show_System_Boolean_" data-uid="Aci.Unity.UI.Dialog.IDialog.Show(System.Boolean)"><a href="#collapsible-Aci_Unity_UI_Dialog_IDialog_Show_System_Boolean_" class="expander" data-toggle="collapse">Show(Boolean)</a></h4>
-  
-  <div id="collapsible-Aci_Unity_UI_Dialog_IDialog_Show_System_Boolean_" class="collapse in">
-  <div class="markdown level1 summary"><p>Displays the dialog.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Show(bool animated = true)</code></pre>
+    <pre><code class="lang-csharp hljs">bool TryGetScreen(string screenId, out IScreenController screen)</code></pre>
   </div>
 
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
       <td>
-        <span class="pull-right"><span class="xref">System.Boolean</span></span>
-        <span class="parametername">animated</span>
-        <p><p>Should it be animated?</p>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">screenId</span>
+        <p><p>The id of the <a class="xref" href="Aci.Unity.UI.Navigation.IScreenController.html">IScreenController</a>.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="Aci.Unity.UI.Navigation.IScreenController.html">IScreenController</a></span>
+        <span class="parametername">screen</span>
+        <p><p>The retrieved <a class="xref" href="Aci.Unity.UI.Navigation.IScreenController.html">IScreenController</a>.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p><p>Returns <span class="xref">true</span> if successful, else <span class="xref">false</span>.</p>
 </p>
       </td>
     </tr>
@@ -235,39 +187,39 @@
   
   
   
-  
   </div>
-  <h3 id="events">Events
-  </h3>
   
   
+  <a id="Aci_Unity_UI_Navigation_IScreenRegistry_Unregister_" data-uid="Aci.Unity.UI.Navigation.IScreenRegistry.Unregister*"></a>
   
-  <h4 id="Aci_Unity_UI_Dialog_IDialog_dismissed" data-uid="Aci.Unity.UI.Dialog.IDialog.dismissed"><a href="#collapsible-Aci_Unity_UI_Dialog_IDialog_dismissed" class="expander" data-toggle="collapse">dismissed</a></h4>
+  <h4 id="Aci_Unity_UI_Navigation_IScreenRegistry_Unregister_Aci_Unity_UI_Navigation_IScreenController_" data-uid="Aci.Unity.UI.Navigation.IScreenRegistry.Unregister(Aci.Unity.UI.Navigation.IScreenController)"><a href="#collapsible-Aci_Unity_UI_Navigation_IScreenRegistry_Unregister_Aci_Unity_UI_Navigation_IScreenController_" class="expander" data-toggle="collapse">Unregister(IScreenController)</a></h4>
   
-  <div id="collapsible-Aci_Unity_UI_Dialog_IDialog_dismissed" class="collapse in">
-  <div class="markdown level1 summary"><p>Invoked when the dialog was dismissed.</p>
+  <div id="collapsible-Aci_Unity_UI_Navigation_IScreenRegistry_Unregister_Aci_Unity_UI_Navigation_IScreenController_" class="collapse in">
+  <div class="markdown level1 summary"><p>Unregisters an <a class="xref" href="Aci.Unity.UI.Navigation.IScreenController.html">IScreenController</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">event DialogDismissedDelegate dismissed</code></pre>
+    <pre><code class="lang-csharp hljs">void Unregister(IScreenController screen)</code></pre>
   </div>
 
-  
-  
-  
-  
-  
-  <h5 class="eventType">Event Type</h5>
+  <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
       <td>
-        <a class="xref" href="Aci.Unity.UI.Dialog.DialogDismissedDelegate.html">DialogDismissedDelegate</a>
-        <p>
+        <span class="pull-right"><a class="xref" href="Aci.Unity.UI.Navigation.IScreenController.html">IScreenController</a></span>
+        <span class="parametername">screen</span>
+        <p><p>The <a class="xref" href="Aci.Unity.UI.Navigation.IScreenController.html">IScreenController</a> to unregister.</p>
+</p>
       </td>
     </tr>
   </table>
+  
+  
+  
+  
+  
   
   
   

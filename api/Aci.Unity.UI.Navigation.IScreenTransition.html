@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface INavigationEvent
+    <title>Interface IScreenTransition
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface INavigationEvent
+    <meta name="title" content="Interface IScreenTransition
    ">
     <meta name="generator" content="docfx 2.40.4.0">
     
@@ -68,10 +68,10 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Aci.Unity.UI.Navigation.INavigationEvent">
-  <h1 id="Aci_Unity_UI_Navigation_INavigationEvent" data-uid="Aci.Unity.UI.Navigation.INavigationEvent">Interface INavigationEvent
+            <article class="content wrap" id="_content" data-uid="Aci.Unity.UI.Navigation.IScreenTransition">
+  <h1 id="Aci_Unity_UI_Navigation_IScreenTransition" data-uid="Aci.Unity.UI.Navigation.IScreenTransition">Interface IScreenTransition
   </h1>
-  <div class="markdown level0 summary"><p>Base interface for navigation events</p>
+  <div class="markdown level0 summary"><p>Interface for screen transitions.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
 
@@ -81,15 +81,94 @@
   <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   
-  <h5 id="Aci_Unity_UI_Navigation_INavigationEvent_syntax">Syntax</h5>
+  <h5 id="Aci_Unity_UI_Navigation_IScreenTransition_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface INavigationEvent</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IScreenTransition</code></pre>
   </div>
 
   
   
   
   
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Aci_Unity_UI_Navigation_IScreenTransition_DisplayImmediately_" data-uid="Aci.Unity.UI.Navigation.IScreenTransition.DisplayImmediately*"></a>
+  
+  <h4 id="Aci_Unity_UI_Navigation_IScreenTransition_DisplayImmediately" data-uid="Aci.Unity.UI.Navigation.IScreenTransition.DisplayImmediately"><a href="#collapsible-Aci_Unity_UI_Navigation_IScreenTransition_DisplayImmediately" class="expander" data-toggle="collapse">DisplayImmediately()</a></h4>
+  
+  <div id="collapsible-Aci_Unity_UI_Navigation_IScreenTransition_DisplayImmediately" class="collapse in">
+  <div class="markdown level1 summary"><p>Transition instantly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DisplayImmediately()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Aci_Unity_UI_Navigation_IScreenTransition_MakeTransitionAsync_" data-uid="Aci.Unity.UI.Navigation.IScreenTransition.MakeTransitionAsync*"></a>
+  
+  <h4 id="Aci_Unity_UI_Navigation_IScreenTransition_MakeTransitionAsync_Aci_Unity_UI_Navigation_NavigationMode_" data-uid="Aci.Unity.UI.Navigation.IScreenTransition.MakeTransitionAsync(Aci.Unity.UI.Navigation.NavigationMode)"><a href="#collapsible-Aci_Unity_UI_Navigation_IScreenTransition_MakeTransitionAsync_Aci_Unity_UI_Navigation_NavigationMode_" class="expander" data-toggle="collapse">MakeTransitionAsync(NavigationMode)</a></h4>
+  
+  <div id="collapsible-Aci_Unity_UI_Navigation_IScreenTransition_MakeTransitionAsync_Aci_Unity_UI_Navigation_NavigationMode_" class="collapse in">
+  <div class="markdown level1 summary"><p>Makes a transition based on the <a class="xref" href="Aci.Unity.UI.Navigation.NavigationMode.html">NavigationMode</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task MakeTransitionAsync(NavigationMode navigationMode)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="Aci.Unity.UI.Navigation.NavigationMode.html">NavigationMode</a></span>
+        <span class="parametername">navigationMode</span>
+        <p><p>The type of <a class="xref" href="Aci.Unity.UI.Navigation.NavigationMode.html">NavigationMode</a>.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">Task</span>
+        <p><p>Returns an awaitable <see cref="!:Task"></see>.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
 </article>

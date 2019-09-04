@@ -5,6 +5,78 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Collections.Heap-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Collections.Heap-1.html",
+          "hash": "g0LZPhnnyMGP3S92KFoR5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Collections.MaxHeap-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Collections.MaxHeap-1.html",
+          "hash": "+iAu94FpUOKCWJ22UK5GkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Collections.SerializedDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Collections.SerializedDictionary-2.html",
+          "hash": "w2Nd5vr5ZcQy00fpVhGaOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Collections.html",
+          "hash": "4FBMejZOTFx//dxtWNdy/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.UI.Collections.Pool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.UI.Collections.Pool-1.html",
+          "hash": "ImQ/IAUbSNSf+WQA/cRiIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.UI.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.UI.Collections.html",
+          "hash": "JgISBieKxSfa7BSvZX3xGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Aci.Unity.Events.AciEventInstaller.yml",
       "output": {
         ".html": {
@@ -725,11 +797,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Aci.Unity.UI.Dialog.ActivityIndicatorDialog.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.DialogComponent.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Aci.Unity.UI.Dialog.ActivityIndicatorDialog.html",
-          "hash": "F75CZelqglRve/BGqN9h3A=="
+          "relative_path": "api/Aci.Unity.UI.Dialog.DialogComponent.html",
+          "hash": "oSgQ0LlG9QE7TFlJsnY4bQ=="
         }
       },
       "is_incremental": false,
@@ -737,11 +809,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Aci.Unity.UI.Dialog.ActivityIndicatorFactory.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.DialogDismissedDelegate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Aci.Unity.UI.Dialog.ActivityIndicatorFactory.html",
-          "hash": "fh7B0zFRzH7U2k2qGDYi0Q=="
+          "relative_path": "api/Aci.Unity.UI.Dialog.DialogDismissedDelegate.html",
+          "hash": "wnYivQ0IJwB5NFNXvjg1jg=="
         }
       },
       "is_incremental": false,
@@ -749,11 +821,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Aci.Unity.UI.Dialog.AlertDialog.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.DialogManager.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Aci.Unity.UI.Dialog.AlertDialog.html",
-          "hash": "7/rflYPuY3p8MoL5+Cx17A=="
+          "relative_path": "api/Aci.Unity.UI.Dialog.DialogManager.html",
+          "hash": "2maxcWeEQwqRuOqACJicVw=="
         }
       },
       "is_incremental": false,
@@ -761,11 +833,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Aci.Unity.UI.Dialog.AlertDialogFactory.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.DialogPriority.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Aci.Unity.UI.Dialog.AlertDialogFactory.html",
-          "hash": "IL9umBUjuqPOncCpnklUog=="
+          "relative_path": "api/Aci.Unity.UI.Dialog.DialogPriority.html",
+          "hash": "KQBsmbTKraBi6zvUKTAIsw=="
         }
       },
       "is_incremental": false,
@@ -773,11 +845,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Aci.Unity.UI.Dialog.DialogBase.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.DialogRequest.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Aci.Unity.UI.Dialog.DialogBase.html",
-          "hash": "ZeRcAdbzjVMuKphhsxDP6Q=="
+          "relative_path": "api/Aci.Unity.UI.Dialog.DialogRequest.html",
+          "hash": "MoxJilF+/2if8g5/Ud8pHw=="
         }
       },
       "is_incremental": false,
@@ -789,31 +861,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Dialog.DialogService.html",
-          "hash": "CsCRQ9AyUfdaO/0V6S0K9g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Aci.Unity.UI.Dialog.IActivityIndicatorFactory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Aci.Unity.UI.Dialog.IActivityIndicatorFactory.html",
-          "hash": "gkIlIg4Dduu6OYwoGRhS1g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Aci.Unity.UI.Dialog.IAlertDialogFactory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Aci.Unity.UI.Dialog.IAlertDialogFactory.html",
-          "hash": "YVBmrV66H2obUNz0/i/omw=="
+          "hash": "f0Hqk5GFgE8lWZq9t8oKdg=="
         }
       },
       "is_incremental": false,
@@ -825,7 +873,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Dialog.IDialog.html",
-          "hash": "QajAGBDC5NApcMFktA2cjA=="
+          "hash": "Zc0d6ZuGTb4hw9PG+b3maQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.IDialogDestroyer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Dialog.IDialogDestroyer.html",
+          "hash": "txmShGS1Y5AnPWNgiM7JTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.IDialogRequestReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Dialog.IDialogRequestReceiver.html",
+          "hash": "0xPIJmN7Qizz0JynqrB1MQ=="
         }
       },
       "is_incremental": false,
@@ -837,7 +909,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Dialog.IDialogService.html",
-          "hash": "9JQLqvaMXYAwRgmI55qLqw=="
+          "hash": "1CCQ61ZyrQvephI1Fw2mwQ=="
         }
       },
       "is_incremental": false,
@@ -849,7 +921,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Dialog.html",
-          "hash": "ZhC5qdCAbdYxyU1IqHt0Fg=="
+          "hash": "8auufbLCTKjiDR4dWOsmrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.ITransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.ITransition.html",
+          "hash": "HEt3In1883iHA/xH5VNp9g=="
         }
       },
       "is_incremental": false,
@@ -941,11 +1025,47 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Aci.Unity.UI.Navigation.IDestructible.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.AnimationOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Aci.Unity.UI.Navigation.IDestructible.html",
-          "hash": "yqKCSdS+A3E7G4YI1Dzhwg=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.AnimationOptions.html",
+          "hash": "2qXwS9XgFaR0ouEx5V1JJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.ExecuteNavigationEvent.EventFunction-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.ExecuteNavigationEvent.EventFunction-1.html",
+          "hash": "QHjASCFaSRUPoi5qEzdNJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.ExecuteNavigationEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.ExecuteNavigationEvent.html",
+          "hash": "R+19EmHrxvu0nkgbahuveA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.IDestructibleAware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.IDestructibleAware.html",
+          "hash": "vx0aSwmHyjtpjxmqXTk7Pw=="
         }
       },
       "is_incremental": false,
@@ -957,19 +1077,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Navigation.INavigatedAware.html",
-          "hash": "6wKhvpGpXWzPjPkUh6AyiA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Aci.Unity.UI.Navigation.INavigatedAwayAware.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Aci.Unity.UI.Navigation.INavigatedAwayAware.html",
-          "hash": "4R6UUDoBWuPYub/XwQIA8A=="
+          "hash": "1JiTzBfZtpGsfZqvx95Svw=="
         }
       },
       "is_incremental": false,
@@ -981,19 +1089,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Navigation.INavigatedBackAware.html",
-          "hash": "j3sX6T/r3HBdtrK6Yasutw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Aci.Unity.UI.Navigation.INavigatedToAware.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Aci.Unity.UI.Navigation.INavigatedToAware.html",
-          "hash": "b3M+nhCTeEfznPymy184Vw=="
+          "hash": "X3SsKuOlgi99FTHGO0co0A=="
         }
       },
       "is_incremental": false,
@@ -1005,7 +1101,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Navigation.INavigatingAware.html",
-          "hash": "C0yFd/r+r2wey0AeHGkprg=="
+          "hash": "8w1CFKtyHnkI2PsG7Ds0iQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.INavigatingAwayAware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.INavigatingAwayAware.html",
+          "hash": "ZHuxtNad0irjdsKqyYVssw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.INavigatingBackAware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.INavigatingBackAware.html",
+          "hash": "676cPSdX0HEj9RNz/3qXxg=="
         }
       },
       "is_incremental": false,
@@ -1017,7 +1137,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Navigation.INavigationAware.html",
-          "hash": "5CwcJ/nOAO6XluxmiZI3rg=="
+          "hash": "bgw/wvETpOucAWW/+EtAew=="
         }
       },
       "is_incremental": false,
@@ -1025,11 +1145,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Aci.Unity.UI.Navigation.INavigationEvent.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.INavigationEventHandler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Aci.Unity.UI.Navigation.INavigationEvent.html",
-          "hash": "6fuY+I4RMldDYgEkDTIDPw=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.INavigationEventHandler.html",
+          "hash": "ZVOx0iLnh7ljgwmUv91QqA=="
         }
       },
       "is_incremental": false,
@@ -1041,7 +1161,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Navigation.INavigationParameters.html",
-          "hash": "oFD38M6Zugs+yrunD6he6Q=="
+          "hash": "yYVl8Vb4YNr3/0e++7PoYA=="
         }
       },
       "is_incremental": false,
@@ -1053,7 +1173,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Navigation.INavigationService.html",
-          "hash": "Q36NxXT6Xuz651Q7IKDmbw=="
+          "hash": "D6uSldDQxa/52tFkbKhFfQ=="
         }
       },
       "is_incremental": false,
@@ -1061,11 +1181,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Aci.Unity.UI.Navigation.IPageContainer.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.IScreenController.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Aci.Unity.UI.Navigation.IPageContainer.html",
-          "hash": "80ktJy4te9j5uknLgIaziA=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.IScreenController.html",
+          "hash": "Ey9EH+v7lANE3Wz7mMLSMQ=="
         }
       },
       "is_incremental": false,
@@ -1073,11 +1193,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Aci.Unity.UI.Navigation.IPageContainerRegistry.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.IScreenRegistry.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Aci.Unity.UI.Navigation.IPageContainerRegistry.html",
-          "hash": "9SIS7TnXJb89Lgl6uABTmw=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.IScreenRegistry.html",
+          "hash": "/GAuiV0gSIIoKoCogRzNLw=="
         }
       },
       "is_incremental": false,
@@ -1085,11 +1205,47 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Aci.Unity.UI.Navigation.IPageTransition.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.IScreenTransition.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Aci.Unity.UI.Navigation.IPageTransition.html",
-          "hash": "PFpI8dSc7oVVnGucQrDbAg=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.IScreenTransition.html",
+          "hash": "U76D4QuyGtqfF7eAKu5VeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.NavigationCompletedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.NavigationCompletedEvent.html",
+          "hash": "xcR/j4uvnDZz39GkTOycdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.NavigationMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.NavigationMode.html",
+          "hash": "1FWIPjiuerU7IiMgghACtA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.NavigationModeChangedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.NavigationModeChangedEvent.html",
+          "hash": "gVk/Tooc8EhjV7/fBclKXQ=="
         }
       },
       "is_incremental": false,
@@ -1101,7 +1257,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Navigation.NavigationParameters.html",
-          "hash": "fJfEBf0W4+zjzNDnXYrJIQ=="
+          "hash": "424EoUAzsgauUfKYMnVQMQ=="
         }
       },
       "is_incremental": false,
@@ -1113,7 +1269,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Navigation.NavigationService.html",
-          "hash": "Zqcyz9fcUiT5Xlgp2M/rEg=="
+          "hash": "MxUeut5uj9wCAJzyslDl+g=="
         }
       },
       "is_incremental": false,
@@ -1121,35 +1277,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Aci.Unity.UI.Navigation.PageContainer.yml",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.ScreenRegistry.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Aci.Unity.UI.Navigation.PageContainer.html",
-          "hash": "wkOws4PA6OFJmFVlLvrAoQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Aci.Unity.UI.Navigation.PageContainerRegistry.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Aci.Unity.UI.Navigation.PageContainerRegistry.html",
-          "hash": "YXd55jS2mUaIl+S9ygim9g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Aci.Unity.UI.Navigation.PageNotFoundException.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Aci.Unity.UI.Navigation.PageNotFoundException.html",
-          "hash": "WqXsBQb8GNfzEazrND+maA=="
+          "relative_path": "api/Aci.Unity.UI.Navigation.ScreenRegistry.html",
+          "hash": "+jvlWLrbbWbLuScjwg+wfg=="
         }
       },
       "is_incremental": false,
@@ -1161,7 +1293,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Navigation.html",
-          "hash": "L705/PMauGp768uwa08q6g=="
+          "hash": "79gdbEc+4CQFnPJC+nRqHg=="
         }
       },
       "is_incremental": false,
@@ -1425,7 +1557,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.html",
-          "hash": "8EZ1CxgeC2EgotOMAodx8g=="
+          "hash": "KrbN6iKOplCFy48nPkJAlQ=="
         }
       },
       "is_incremental": false,
@@ -1605,7 +1737,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "hBLJIqpbXiJcr+TPBaEEPQ=="
+          "hash": "dMKPA/geknrdha/R7UoDgg=="
         }
       },
       "is_incremental": false,

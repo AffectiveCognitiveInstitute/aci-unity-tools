@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ActivityIndicatorFactory
+    <title>Interface IDestructibleAware
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ActivityIndicatorFactory
+    <meta name="title" content="Interface IDestructibleAware
    ">
     <meta name="generator" content="docfx 2.40.4.0">
     
@@ -68,102 +68,51 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Aci.Unity.UI.Dialog.ActivityIndicatorFactory">
-  <h1 id="Aci_Unity_UI_Dialog_ActivityIndicatorFactory" data-uid="Aci.Unity.UI.Dialog.ActivityIndicatorFactory">Class ActivityIndicatorFactory
+            <article class="content wrap" id="_content" data-uid="Aci.Unity.UI.Navigation.IDestructibleAware">
+  <h1 id="Aci_Unity_UI_Navigation_IDestructibleAware" data-uid="Aci.Unity.UI.Navigation.IDestructibleAware">Interface IDestructibleAware
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Called on GameObject which is about to be destroyed. Called before animation begins.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
 
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ActivityIndicatorFactory</span></div>
-  </div>
   
   
   
   <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   
-  <h5 id="Aci_Unity_UI_Dialog_ActivityIndicatorFactory_syntax">Syntax</h5>
+  <h5 id="Aci_Unity_UI_Navigation_IDestructibleAware_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ActivityIndicatorFactory : MonoBehaviour, IActivityIndicatorFactory</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IDestructibleAware : INavigationEventHandler</code></pre>
   </div>
 
   
   
   
   
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  
-  <h4 id="Aci_Unity_UI_Dialog_ActivityIndicatorFactory_m_Prefab" data-uid="Aci.Unity.UI.Dialog.ActivityIndicatorFactory.m_Prefab"><a href="#collapsible-Aci_Unity_UI_Dialog_ActivityIndicatorFactory_m_Prefab" class="expander" data-toggle="collapse">m_Prefab</a></h4>
-  
-  <div id="collapsible-Aci_Unity_UI_Dialog_ActivityIndicatorFactory_m_Prefab" class="collapse in">
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameObject m_Prefab</code></pre>
-  </div>
-
-  
-  
-  
-  <h5 class="fieldValue">Field Value</h5>
-  <table>
-    <tr>
-      <td>
-        <span class="xref">GameObject</span>
-        <p>
-      </td>
-    </tr>
-  </table>
-  
-  
-  
-  
-  
-  
-  
-  
-  </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Aci_Unity_UI_Dialog_ActivityIndicatorFactory_Create_" data-uid="Aci.Unity.UI.Dialog.ActivityIndicatorFactory.Create*"></a>
+  <a id="Aci_Unity_UI_Navigation_IDestructibleAware_OnScreenDestroyed_" data-uid="Aci.Unity.UI.Navigation.IDestructibleAware.OnScreenDestroyed*"></a>
   
-  <h4 id="Aci_Unity_UI_Dialog_ActivityIndicatorFactory_Create_System_String_" data-uid="Aci.Unity.UI.Dialog.ActivityIndicatorFactory.Create(System.String)"><a href="#collapsible-Aci_Unity_UI_Dialog_ActivityIndicatorFactory_Create_System_String_" class="expander" data-toggle="collapse">Create(String)</a></h4>
+  <h4 id="Aci_Unity_UI_Navigation_IDestructibleAware_OnScreenDestroyed_Aci_Unity_UI_Navigation_INavigationParameters_" data-uid="Aci.Unity.UI.Navigation.IDestructibleAware.OnScreenDestroyed(Aci.Unity.UI.Navigation.INavigationParameters)"><a href="#collapsible-Aci_Unity_UI_Navigation_IDestructibleAware_OnScreenDestroyed_Aci_Unity_UI_Navigation_INavigationParameters_" class="expander" data-toggle="collapse">OnScreenDestroyed(INavigationParameters)</a></h4>
   
-  <div id="collapsible-Aci_Unity_UI_Dialog_ActivityIndicatorFactory_Create_System_String_" class="collapse in">
+  <div id="collapsible-Aci_Unity_UI_Navigation_IDestructibleAware_OnScreenDestroyed_Aci_Unity_UI_Navigation_INavigationParameters_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ActivityIndicatorDialog Create(string message)</code></pre>
+    <pre><code class="lang-csharp hljs">void OnScreenDestroyed(INavigationParameters navigationParameters)</code></pre>
   </div>
 
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
       <td>
-        <span class="pull-right"><span class="xref">System.String</span></span>
-        <span class="parametername">message</span>
-        <p>
-      </td>
-    </tr>
-  </table>
-  
-  <h5 class="returns">Returns</h5>
-  <table>
-    <tr>
-      <td>
-        <a class="xref" href="Aci.Unity.UI.Dialog.ActivityIndicatorDialog.html">ActivityIndicatorDialog</a>
+        <span class="pull-right"><a class="xref" href="Aci.Unity.UI.Navigation.INavigationParameters.html">INavigationParameters</a></span>
+        <span class="parametername">navigationParameters</span>
         <p>
       </td>
     </tr>
@@ -174,8 +123,7 @@
   
   
   
-  <h5 class="implements">Implements</h5>
-      <div><a class="xref" href="Aci.Unity.UI.Dialog.IActivityIndicatorFactory.html#Aci_Unity_UI_Dialog_IActivityIndicatorFactory_Create_System_String_">IActivityIndicatorFactory.Create(String)</a></div>
+  
   
   
   
