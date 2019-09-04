@@ -6,24 +6,17 @@ namespace Aci.Unity.UI.Navigation
 {
     public class TweenerScreenTransition : ScreenTransition
     {
-        [System.Serializable]
-        public class TweenerDirectorWrapper
-        {
-            public bool playReverse;
-            public TweenerDirector director;
-        }
-
         [SerializeField]
         private bool m_UseSameTweenForReturnAndDestroy = true;
 
         [SerializeField]
-        private TweenerDirectorWrapper m_EnterTween;
+        private TweenerDirectorDecorator m_EnterTween;
         [SerializeField]
-        private TweenerDirectorWrapper m_ReturnTween;
+        private TweenerDirectorDecorator m_ReturnTween;
         [SerializeField]
-        private TweenerDirectorWrapper m_LeavingTween;
+        private TweenerDirectorDecorator m_LeavingTween;
         [SerializeField]
-        private TweenerDirectorWrapper m_DestroyedTween;
+        private TweenerDirectorDecorator m_DestroyedTween;
 
         public override void DisplayImmediately()
         {
@@ -51,7 +44,7 @@ namespace Aci.Unity.UI.Navigation
             return m_UseSameTweenForReturnAndDestroy ? ExecuteTween(m_EnterTween) : ExecuteTween(m_ReturnTween);
         }
 
-        private Task ExecuteTween(TweenerDirectorWrapper tweener)
+        private Task ExecuteTween(TweenerDirectorDecorator tweener)
         {
             return !tweener.playReverse? tweener.director.PlayForwardsAsync() : tweener.director.PlayReverseAsync();
         }
