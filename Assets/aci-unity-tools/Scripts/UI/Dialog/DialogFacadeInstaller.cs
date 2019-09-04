@@ -24,7 +24,7 @@ namespace Aci.Unity.UI.Dialog
                       FromMonoPoolableMemoryPool(x => x.FromComponentInNewPrefab(m_ActivityDialogPrefab).UnderTransform(m_DialogParentTransform));
 
             Container.BindFactory<string, string, string, string, Action, Action, AlertDialogViewController, AlertDialogViewController.Factory>().
-                      FromMonoPoolableMemoryPool(x => x.FromComponentInNewPrefab(m_AlertDialogPrefab).UnderTransform(m_DialogParentTransform));
+                      FromMonoPoolableMemoryPool(x => x.WithInitialSize(3).FromComponentInNewPrefab(m_AlertDialogPrefab).UnderTransform(m_DialogParentTransform));
         }
     }
 }
