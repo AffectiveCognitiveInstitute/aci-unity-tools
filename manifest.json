@@ -1445,11 +1445,59 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.ScreenTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.ScreenTransition.html",
+          "hash": "5X5/jDiNse+79L3/R86PYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.TweenerScreenTransition.TweenerDirectorWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.TweenerScreenTransition.TweenerDirectorWrapper.html",
+          "hash": "JymKS1lykkEHhFvBEqhtfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.TweenerScreenTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.TweenerScreenTransition.html",
+          "hash": "mcF9HtfJEatoXuOnxYFZFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.TweenerScreenTransitionEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.TweenerScreenTransitionEditor.html",
+          "hash": "1AeDwumOj2Q5SuoAxzbh8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Aci.Unity.UI.Navigation.yml",
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Navigation.html",
-          "hash": "bVYStibBlYFi9/AKArKofw=="
+          "hash": "8L0JphvFX7k7iL3NZMVrCg=="
         }
       },
       "is_incremental": false,
@@ -1941,7 +1989,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "0JK8dpjUcO52WekCqx+UMg=="
+          "hash": "J3K5YCU7mpVDzCsffZRJrQ=="
         }
       },
       "is_incremental": false,
