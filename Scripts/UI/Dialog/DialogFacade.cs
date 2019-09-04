@@ -22,7 +22,7 @@ namespace Aci.Unity.UI.Dialog
         /// <inheritdoc />
         public IDialog DisplayActivity(string message)
         {
-            return DisplayActivity(DialogPriority.High, message);
+            return DisplayActivity(DialogPriority.Medium, message);
         }
 
         /// <inheritdoc />
