@@ -1457,18 +1457,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Aci.Unity.UI.Navigation.TweenerScreenTransition.TweenerDirectorWrapper.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Aci.Unity.UI.Navigation.TweenerScreenTransition.TweenerDirectorWrapper.html",
-          "hash": "JymKS1lykkEHhFvBEqhtfg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Aci.Unity.UI.Navigation.TweenerScreenTransition.yml",
       "output": {
         ".html": {
@@ -1497,7 +1485,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Navigation.html",
-          "hash": "8L0JphvFX7k7iL3NZMVrCg=="
+          "hash": "tVTyDzo2VWF3U+h/4ZjTNw=="
         }
       },
       "is_incremental": false,
@@ -1510,6 +1498,30 @@
         ".html": {
           "relative_path": "api/Aci.Unity.UI.ReplaceEmojiInText.html",
           "hash": "7iEF2MSRPXEXkAnAuNvCrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.TweenerDirectorDecorator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.TweenerDirectorDecorator.html",
+          "hash": "YR14D4pK0YAMx+ZrBzg6kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.TweenerTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.TweenerTransition.html",
+          "hash": "tpEz6xkc/AMMp+MvO+t5+g=="
         }
       },
       "is_incremental": false,
@@ -1809,7 +1821,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.html",
-          "hash": "KrbN6iKOplCFy48nPkJAlQ=="
+          "hash": "0o0bynF+f7IWVBSZICTAJA=="
         }
       },
       "is_incremental": false,
@@ -1989,7 +2001,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "J3K5YCU7mpVDzCsffZRJrQ=="
+          "hash": "pvvytpPfKBkB1jxe8i/PwA=="
         }
       },
       "is_incremental": false,

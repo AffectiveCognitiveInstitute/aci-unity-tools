@@ -5109,24 +5109,6 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Navigation.TweenerScreenTransition.OnScreenReturning
   nameWithType: TweenerScreenTransition.OnScreenReturning
-- uid: Aci.Unity.UI.Navigation.TweenerScreenTransition.TweenerDirectorWrapper
-  name: TweenerScreenTransition.TweenerDirectorWrapper
-  href: api/Aci.Unity.UI.Navigation.TweenerScreenTransition.TweenerDirectorWrapper.html
-  commentId: T:Aci.Unity.UI.Navigation.TweenerScreenTransition.TweenerDirectorWrapper
-  fullName: Aci.Unity.UI.Navigation.TweenerScreenTransition.TweenerDirectorWrapper
-  nameWithType: TweenerScreenTransition.TweenerDirectorWrapper
-- uid: Aci.Unity.UI.Navigation.TweenerScreenTransition.TweenerDirectorWrapper.director
-  name: director
-  href: api/Aci.Unity.UI.Navigation.TweenerScreenTransition.TweenerDirectorWrapper.html#Aci_Unity_UI_Navigation_TweenerScreenTransition_TweenerDirectorWrapper_director
-  commentId: F:Aci.Unity.UI.Navigation.TweenerScreenTransition.TweenerDirectorWrapper.director
-  fullName: Aci.Unity.UI.Navigation.TweenerScreenTransition.TweenerDirectorWrapper.director
-  nameWithType: TweenerScreenTransition.TweenerDirectorWrapper.director
-- uid: Aci.Unity.UI.Navigation.TweenerScreenTransition.TweenerDirectorWrapper.playReverse
-  name: playReverse
-  href: api/Aci.Unity.UI.Navigation.TweenerScreenTransition.TweenerDirectorWrapper.html#Aci_Unity_UI_Navigation_TweenerScreenTransition_TweenerDirectorWrapper_playReverse
-  commentId: F:Aci.Unity.UI.Navigation.TweenerScreenTransition.TweenerDirectorWrapper.playReverse
-  fullName: Aci.Unity.UI.Navigation.TweenerScreenTransition.TweenerDirectorWrapper.playReverse
-  nameWithType: TweenerScreenTransition.TweenerDirectorWrapper.playReverse
 - uid: Aci.Unity.UI.Navigation.TweenerScreenTransitionEditor
   name: TweenerScreenTransitionEditor
   href: api/Aci.Unity.UI.Navigation.TweenerScreenTransitionEditor.html
@@ -5165,6 +5147,56 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.ReplaceEmojiInText.text
   nameWithType: ReplaceEmojiInText.text
+- uid: Aci.Unity.UI.TweenerDirectorDecorator
+  name: TweenerDirectorDecorator
+  href: api/Aci.Unity.UI.TweenerDirectorDecorator.html
+  commentId: T:Aci.Unity.UI.TweenerDirectorDecorator
+  fullName: Aci.Unity.UI.TweenerDirectorDecorator
+  nameWithType: TweenerDirectorDecorator
+- uid: Aci.Unity.UI.TweenerDirectorDecorator.director
+  name: director
+  href: api/Aci.Unity.UI.TweenerDirectorDecorator.html#Aci_Unity_UI_TweenerDirectorDecorator_director
+  commentId: F:Aci.Unity.UI.TweenerDirectorDecorator.director
+  fullName: Aci.Unity.UI.TweenerDirectorDecorator.director
+  nameWithType: TweenerDirectorDecorator.director
+- uid: Aci.Unity.UI.TweenerDirectorDecorator.playReverse
+  name: playReverse
+  href: api/Aci.Unity.UI.TweenerDirectorDecorator.html#Aci_Unity_UI_TweenerDirectorDecorator_playReverse
+  commentId: F:Aci.Unity.UI.TweenerDirectorDecorator.playReverse
+  fullName: Aci.Unity.UI.TweenerDirectorDecorator.playReverse
+  nameWithType: TweenerDirectorDecorator.playReverse
+- uid: Aci.Unity.UI.TweenerTransition
+  name: TweenerTransition
+  href: api/Aci.Unity.UI.TweenerTransition.html
+  commentId: T:Aci.Unity.UI.TweenerTransition
+  fullName: Aci.Unity.UI.TweenerTransition
+  nameWithType: TweenerTransition
+- uid: Aci.Unity.UI.TweenerTransition.EnterAsync
+  name: EnterAsync()
+  href: api/Aci.Unity.UI.TweenerTransition.html#Aci_Unity_UI_TweenerTransition_EnterAsync
+  commentId: M:Aci.Unity.UI.TweenerTransition.EnterAsync
+  fullName: Aci.Unity.UI.TweenerTransition.EnterAsync()
+  nameWithType: TweenerTransition.EnterAsync()
+- uid: Aci.Unity.UI.TweenerTransition.EnterAsync*
+  name: EnterAsync
+  href: api/Aci.Unity.UI.TweenerTransition.html#Aci_Unity_UI_TweenerTransition_EnterAsync_
+  commentId: Overload:Aci.Unity.UI.TweenerTransition.EnterAsync
+  isSpec: "True"
+  fullName: Aci.Unity.UI.TweenerTransition.EnterAsync
+  nameWithType: TweenerTransition.EnterAsync
+- uid: Aci.Unity.UI.TweenerTransition.ExitAsync
+  name: ExitAsync()
+  href: api/Aci.Unity.UI.TweenerTransition.html#Aci_Unity_UI_TweenerTransition_ExitAsync
+  commentId: M:Aci.Unity.UI.TweenerTransition.ExitAsync
+  fullName: Aci.Unity.UI.TweenerTransition.ExitAsync()
+  nameWithType: TweenerTransition.ExitAsync()
+- uid: Aci.Unity.UI.TweenerTransition.ExitAsync*
+  name: ExitAsync
+  href: api/Aci.Unity.UI.TweenerTransition.html#Aci_Unity_UI_TweenerTransition_ExitAsync_
+  commentId: Overload:Aci.Unity.UI.TweenerTransition.ExitAsync
+  isSpec: "True"
+  fullName: Aci.Unity.UI.TweenerTransition.ExitAsync
+  nameWithType: TweenerTransition.ExitAsync
 - uid: Aci.Unity.UI.Tweening
   name: Aci.Unity.UI.Tweening
   href: api/Aci.Unity.UI.Tweening.html
