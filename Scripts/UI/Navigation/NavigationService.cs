@@ -1,185 +1,235 @@
-﻿using System;
+﻿using Aci.Unity.Events;
+using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
+using UnityEngine;
 
 namespace Aci.Unity.UI.Navigation
 {
-    /// <summary>
-    /// Implementation of <see cref="INavigationService"/>
-    /// </summary>
-    public class NavigationService : INavigationService
+    public sealed class NavigationService : INavigationService
     {
-        private IPageContainerRegistry m_Registry;
-        private Stack<IPageContainer> m_NavigationStack = new Stack<IPageContainer>();
+        private static readonly NavigationParameters s_DefaultParams = new NavigationParameters();
 
-        private IPageContainer m_Current;
+        private readonly Stack<IScreenController> m_NavigationStack = new Stack<IScreenController>(25);
+        private readonly IScreenRegistry m_ScreenRegistry;
+        private readonly IAciEventManager m_EventManager;
+        private readonly List<Task> m_ParallelTasks = new List<Task>();
 
-        /// <summary>
-        /// Creates an instance of <see cref="NavigationService"/>
-        /// </summary>
-        /// <param name="registry">The registry for <see cref="IPageContainer"/></param>
-        public NavigationService(IPageContainerRegistry registry)
+        private IScreenController m_Current;
+        private bool m_IsBusy;
+
+        public NavigationService(IScreenRegistry screenRegistry, IAciEventManager aciEventHandler)
         {
-            if (registry == null)
-                throw new ArgumentNullException("registry");
-
-            m_Registry = registry;
+            m_ScreenRegistry = screenRegistry;
+            m_EventManager = aciEventHandler;
         }
 
         /// <inheritdoc />
-        public int StackCount => m_NavigationStack.Count;
-
-        /// <inheritdoc />
-        public event Action Navigated;
-
-        /// <inheritdoc />
-        public void Pop(Action callback = null)
+        public bool CanPop()
         {
-            if (m_NavigationStack.Count == 0)
-            {
-                if (callback != null)
-                    callback();
-            }
-
-            IPageContainer newContainer = m_NavigationStack.Pop();
-            m_Current.OnNavigatedAway(null);
-            m_Current.Hide(newContainer.Id, () =>
-            {
-                m_Current.Destroy();
-                m_Current = newContainer;
-                m_Current.Display(() =>
-                {
-                    m_Current.OnNavigatedBack(null);
-                    if (callback != null)
-                        callback();
-                });
-
-                Navigated?.Invoke();
-            });
+            return m_NavigationStack.Count > 0;
         }
 
         /// <inheritdoc />
-        public void Pop(INavigationParameters parameters, Action navigationCompleted = null)
+        public Task PopAsync(AnimationOptions animationOptions)
         {
-            if (m_NavigationStack.Count == 0)
-            {
-                if (navigationCompleted != null)
-                    navigationCompleted();
+            s_DefaultParams.Clear();
+            return PopAsync(s_DefaultParams, animationOptions);
+        }
 
+        /// <inheritdoc />
+        public async Task PopAsync(INavigationParameters parameters, AnimationOptions animationOptions)
+        {
+            if (m_IsBusy)
                 return;
+
+            if (m_Current == null)
+                throw new InvalidOperationException("Cannot pop if there is no screen current being displayed!");
+
+            IScreenController previousScreen = null;
+            if (m_NavigationStack.Count != 0)
+                previousScreen = m_NavigationStack.Pop();
+
+            try
+            {
+                m_IsBusy = true;
+
+                if (!animationOptions.enabled)
+                {
+                    m_Current.OnScreenDestroyed(parameters);
+                    await m_Current.UpdateDisplayAsync(NavigationMode.Removed, false);
+
+                    if (previousScreen != null)
+                    {
+                        m_Current = previousScreen;
+                        m_Current.OnNavigatingBack(parameters);
+                        await m_Current.UpdateDisplayAsync(NavigationMode.Returning, false);
+                        m_Current.OnNavigatedBack(parameters);
+                    }
+                    else
+                    {
+                        m_Current = null;
+                    }
+                }
+                else
+                {
+                    if (animationOptions.playSynchronously)
+                    {
+                        m_Current.OnScreenDestroyed(parameters);
+                        m_ParallelTasks.Clear();
+                        m_ParallelTasks.Add(m_Current.UpdateDisplayAsync(NavigationMode.Removed));
+                        if (previousScreen != null)
+                        {
+                            previousScreen.OnNavigatingBack(parameters);
+                            m_ParallelTasks.Add(previousScreen.UpdateDisplayAsync(NavigationMode.Returning));
+                        }
+
+                        await Task.WhenAll(m_ParallelTasks);
+
+                        if (previousScreen != null)
+                        {
+                            m_Current = previousScreen;
+                            m_Current.OnNavigatedBack(parameters);
+                        }
+                        else
+                        {
+                            m_Current = null;
+                        }
+
+                    }
+                    else
+                    {
+                        m_Current.OnScreenDestroyed(parameters);
+                        await m_Current.UpdateDisplayAsync(NavigationMode.Removed);
+                        m_Current = previousScreen;
+                        m_Current.OnNavigatingBack(parameters);
+                        await m_Current.UpdateDisplayAsync(NavigationMode.Returning);
+                        m_Current.OnNavigatedBack(parameters);
+                    }
+
+                    m_EventManager.Invoke(new NavigationCompletedEvent(m_Current.id, m_NavigationStack));
+                }
+            }
+            catch(Exception e)
+            {
+                Debug.LogException(e);
+            }
+            finally
+            {
+                m_IsBusy = false;
             }
 
-            IPageContainer newContainer = m_NavigationStack.Pop();
-            m_Current.OnNavigatedAway(parameters);
-            m_Current.Hide(newContainer.Id, () =>
-            {
-                m_Current.Destroy();
-                m_Current = newContainer;
-                m_Current.OnNavigatedBack(parameters);
-                if (navigationCompleted != null)
-                    navigationCompleted();
+        }
 
-                Navigated?.Invoke();
-            });
+        public Task PopToRootAsync(AnimationOptions animationOptions)
+        {
+            s_DefaultParams.Clear();
+            return PopToRootAsync(s_DefaultParams, animationOptions);
+        }
+
+        public async Task PopToRootAsync(INavigationParameters parameters, AnimationOptions animationOptions)
+        {
+            if (m_NavigationStack.Count == 0)
+                return;
+
+            s_DefaultParams.Clear();
+            // Destroy all screens in between
+            while (m_NavigationStack.Count > 1)
+            {
+                var screen = m_NavigationStack.Pop();
+                screen.OnScreenDestroyed(s_DefaultParams);
+#pragma warning disable CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
+                screen.UpdateDisplayAsync(NavigationMode.Removed, false);
+#pragma warning restore CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
+            }
+
+            await PopAsync(parameters, animationOptions);
         }
 
         /// <inheritdoc />
-        public void Push(string page,
-                         bool addToStack = true,
-                         Action navigationCompleted = null)
+        public Task PushAsync(string screen, AnimationOptions animationOptions, bool addToHistory = true)
         {
-            if (string.IsNullOrEmpty(page))
-                throw new ArgumentNullException("page");
-
-            IPageContainer container = null;
-            if (!m_Registry.TryGetContainer(page, out container))
-                throw new PageNotFoundException("page");
-
-            if (addToStack)
-                m_NavigationStack.Push(m_Current);
-
-            if (m_Current != null)
-            {
-                container.PrepareDisplay();
-                container.OnNavigatingTo(null);
-                m_Current.OnNavigatedAway(null);
-                m_Current.Hide(page, () =>
-                {
-                    container.Display(() =>
-                    {
-                        container.OnNavigatedTo(null);
-                        if (navigationCompleted != null)
-                            navigationCompleted();
-
-                        Navigated?.Invoke();
-                    });
-                });
-            }
-            else
-            {
-                container.PrepareDisplay();
-                container.OnNavigatingTo(null);
-                container.Display(() =>
-                {
-                    container.OnNavigatedTo(null);
-                    if (navigationCompleted != null)
-                        navigationCompleted();
-
-                    Navigated?.Invoke();
-                });
-                
-            }
-
-            m_Current = container;
+            s_DefaultParams.Clear();
+            return PushAsync(screen, s_DefaultParams, animationOptions, addToHistory);
         }
 
         /// <inheritdoc />
-        public void Push(string page,
-                         INavigationParameters parameters,
-                         bool addToStack = true,
-                         Action navigationCompleted = null)
+        public async Task PushAsync(string screen, INavigationParameters parameters, AnimationOptions animationOptions, bool addToHistory = true)
         {
-            if (string.IsNullOrEmpty(page))
-                throw new ArgumentNullException("page");
+            if (m_IsBusy)
+                return;
 
-            IPageContainer container = null;
-            if (!m_Registry.TryGetContainer(page, out container))
-                throw new PageNotFoundException("page");
+            if (string.IsNullOrEmpty(screen))
+                throw new ArgumentNullException(nameof(screen));
 
-            if (addToStack)
+            IScreenController nextScreen = null;
+            if (!m_ScreenRegistry.TryGetScreen(screen, out nextScreen))
+                throw new ArgumentNullException(nameof(screen), $"Screen with id {screen} does not exist!");
+
+            if(m_Current != null && addToHistory)
                 m_NavigationStack.Push(m_Current);
 
-            if (m_Current != null)
+            try
             {
-                container.PrepareDisplay();
-                m_Current.OnNavigatedAway(parameters);
-                m_Current.Hide(page, () =>
+                m_IsBusy = true;
+
+                if (!animationOptions.enabled)
                 {
-                    container.OnNavigatingTo(parameters);
-                    container.Display(() =>
+                    if (m_Current != null)
                     {
-                        container.OnNavigatedTo(parameters);
-                        if (navigationCompleted != null)
-                            navigationCompleted.Invoke();
-
-                        Navigated?.Invoke();
-                    });
-                });
-            }
-            else
-            {
-                container.PrepareDisplay();
-                container.OnNavigatingTo(parameters);
-                container.Display(()=>
+                        m_Current.OnNavigatingAway(parameters);
+                        await m_Current.UpdateDisplayAsync(NavigationMode.Leaving, false);
+                    }
+                    m_Current = nextScreen;
+                    m_Current.Prepare();
+                    m_Current.OnNavigatingTo(parameters);
+                    await m_Current.UpdateDisplayAsync(NavigationMode.Entering, false);
+                    m_Current.OnNavigatedTo(parameters);
+                }
+                else
                 {
-                    container.OnNavigatedTo(parameters);
-                    if (navigationCompleted != null)
-                        navigationCompleted.Invoke();
+                    if (animationOptions.playSynchronously)
+                    {
+                        m_ParallelTasks.Clear();
 
-                    Navigated?.Invoke();
-                });
+                        if (m_Current != null)
+                        {
+                            m_Current.OnNavigatingAway(parameters);
+                            m_ParallelTasks.Add(m_Current.UpdateDisplayAsync(NavigationMode.Leaving));
+                        }
+                        nextScreen.Prepare();
+                        nextScreen.OnNavigatingTo(parameters);
+                        m_ParallelTasks.Add(nextScreen.UpdateDisplayAsync(NavigationMode.Entering));
+                        await Task.WhenAll(m_ParallelTasks);
+                        m_Current = nextScreen;
+                        m_Current.OnNavigatedTo(parameters);
+                    }
+                    else
+                    {
+                        if (m_Current != null)
+                        {
+                            m_Current.OnNavigatingAway(parameters);
+                            await m_Current.UpdateDisplayAsync(NavigationMode.Leaving);
+                        }
+
+                        m_Current = nextScreen;
+                        m_Current.Prepare();
+                        m_Current.OnNavigatingTo(parameters);
+                        await m_Current.UpdateDisplayAsync(NavigationMode.Entering);
+                        m_Current.OnNavigatedTo(parameters);
+                    }
+                }
+
+                m_EventManager.Invoke(new NavigationCompletedEvent(m_Current.id, m_NavigationStack));
             }
-
-            m_Current = container;
+            catch (Exception e)
+            {
+                Debug.LogException(e);
+            }
+            finally
+            {
+                m_IsBusy = false;
+            }
         }
     }
 }
