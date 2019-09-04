@@ -1,26 +1,21 @@
 ﻿using Aci.Collections;
-using UnityEngine;
+using System;
 
 namespace Aci.Unity.UI.Dialog
 {
-    public class DialogManager : MonoBehaviour, 
-                                 IDialogRequestReceiver,
-                                 IDialogDestroyer
+    /// <summary>
+    ///     Manages instances of <see cref="DialogRequest"/>.
+    /// </summary>
+    public class DialogManager : IDialogRequestReceiver,
+                                 IDialogDestroyer,
+                                 IDisposable
     {
-        private MaxHeap<DialogRequest> m_Requests = new MaxHeap<DialogRequest>(10);
-        private DialogRequest m_Current;
-        private Transform m_Transform;
+        // Sorts dialog requests by their priority.
+        private readonly MaxHeap<DialogRequest> m_Requests = new MaxHeap<DialogRequest>(10);
 
-        private void Awake()
-        {
-            m_Transform = GetComponent<Transform>();
-        }
+        private DialogRequest m_Current; // The current request being processed.
 
-        private void OnDestroy()
-        {
-            Clear();
-        }
-
+        /// <inheritdoc />
         public void ReceiveRequest(DialogRequest request)
         {
             request.disposed += OnRequestDisposed;
@@ -70,6 +65,7 @@ namespace Aci.Unity.UI.Dialog
             m_Current.dialog.Show();
         }
 
+        /// <inheritdoc />
         public void Clear()
         {
             if(m_Current != null)
@@ -88,10 +84,17 @@ namespace Aci.Unity.UI.Dialog
             }
         }
 
+        /// <inheritdoc />
         public void DestroyCurrent(bool animate = true)
         {
             if (m_Current != null)
                 m_Current.dialog.Dismiss(animate);
+        }
+
+        /// <inheritdoc />
+        public void Dispose()
+        {
+            Clear();
         }
     }
 }

@@ -46,7 +46,5 @@ namespace Aci.Collections
                 HeapifyUp(parentIndex);
             }
         }
-
-
     }
 }

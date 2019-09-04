@@ -14,6 +14,7 @@ namespace Aci.Unity.UI.Dialog
             m_RequestReceiver = requestReceiver;
         }
 
+        /// <inheritdoc />
         public void SendRequest(DialogRequest request)
         {
             m_RequestReceiver.ReceiveRequest(request);

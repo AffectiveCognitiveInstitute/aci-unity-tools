@@ -3,12 +3,12 @@
     public interface IDialogDestroyer
     {
         /// <summary>
-        /// Destroys all dialogs
+        ///     Destroys all dialogs.
         /// </summary>
         void Clear();
 
         /// <summary>
-        /// Destroys the current dialog
+        ///     Destroys the current dialog.
         /// </summary>
         void DestroyCurrent(bool animate = true);
     }

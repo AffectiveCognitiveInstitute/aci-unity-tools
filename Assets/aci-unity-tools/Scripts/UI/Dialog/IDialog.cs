@@ -9,7 +9,7 @@ namespace Aci.Unity.UI.Dialog
     public delegate void DialogDismissedDelegate(IDialog dialog); 
 
     /// <summary>
-    ///     Interface dialogs/popups.
+    ///     Interface for dialogs/popups.
     /// </summary>
     public interface IDialog
     {

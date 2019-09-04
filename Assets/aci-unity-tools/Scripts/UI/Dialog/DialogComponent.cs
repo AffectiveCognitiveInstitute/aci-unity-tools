@@ -2,6 +2,9 @@
 
 namespace Aci.Unity.UI.Dialog
 {
+    /// <summary>
+    ///     Add this component to GameObjects that represent a Dialog or Popup.
+    /// </summary>
     public class DialogComponent : MonoBehaviour, IDialog
     {
         private ITransition m_Transition;
