@@ -1073,6 +1073,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.AnimationMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.AnimationMode.html",
+          "hash": "Pv8JJqgbmVtwInPcSqORew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Aci.Unity.UI.Navigation.AnimationOptions.yml",
       "output": {
         ".html": {
@@ -1265,6 +1277,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.NavigationCommandComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.NavigationCommandComponent.html",
+          "hash": "iaJAYCSshwwuSnx8MQ7S8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Aci.Unity.UI.Navigation.NavigationCompletedEvent.yml",
       "output": {
         ".html": {
@@ -1337,6 +1361,42 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.NavigationTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.NavigationTrigger.html",
+          "hash": "apR7/mpTCJGo4GYuBwEAyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.PopScreenComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.PopScreenComponent.html",
+          "hash": "OkilUcoJeAv1oMEMhyFuAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.PushScreenComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.PushScreenComponent.html",
+          "hash": "3GReI5IdkkbQFwPyk7NmMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Aci.Unity.UI.Navigation.ScreenController.PrefabLoadingStrategy.yml",
       "output": {
         ".html": {
@@ -1389,7 +1449,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Navigation.html",
-          "hash": "AvkwzmRKQ8Zv0WlSR3xFRg=="
+          "hash": "bVYStibBlYFi9/AKArKofw=="
         }
       },
       "is_incremental": false,
@@ -1881,7 +1941,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Ddkv0sK38tlR8QhdEM1Jgg=="
+          "hash": "0JK8dpjUcO52WekCqx+UMg=="
         }
       },
       "is_incremental": false,
