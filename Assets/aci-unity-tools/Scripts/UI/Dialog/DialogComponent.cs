@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Threading.Tasks;
+using UnityEngine;
 
 namespace Aci.Unity.UI.Dialog
 {
@@ -8,52 +9,56 @@ namespace Aci.Unity.UI.Dialog
     public class DialogComponent : MonoBehaviour, IDialog
     {
         private ITransition m_Transition;
-        private bool m_IsDestroyed;
-        private GameObject m_CachedGameObject;
-
+        private bool m_IsBusy = false;
         /// <inheritdoc />
         public event DialogDismissedDelegate dismissed;
 
         private void Awake()
         {
-            m_CachedGameObject = gameObject;
             m_Transition = GetComponent<ITransition>();
         }
 
         /// <inheritdoc />
         public async void Dismiss(bool animated = true)
         {
-            if (m_IsDestroyed)
+            if (m_IsBusy)
                 return;
 
-            if (!animated || m_Transition == null || !gameObject.activeSelf)
-            {
-                Destroy(gameObject);
-            }
-            else
-            {
-                if(m_Transition != null)
-                {
-                    try
-                    {
-                        await m_Transition.ExitAsync();
-                        
-                        object goAsObj = m_CachedGameObject;
+            m_IsBusy = true;
 
-                        if(goAsObj != null && m_CachedGameObject != null)
-                            Destroy(m_CachedGameObject);
-                    }
-                    catch(System.Exception e)
+            try
+            {
+                if (!animated || m_Transition == null || !gameObject.activeSelf)
+                {
+                    dismissed?.Invoke(this);
+                }
+                else
+                {
+                    if (m_Transition != null)
                     {
+                        try
+                        {
+                            await m_Transition.ExitAsync();
+                            dismissed?.Invoke(this);
+                        }
+                        catch (System.Exception e)
+                        {
 #if UNITY_EDITOR
-                        if (!UnityEditor.EditorApplication.isPlaying)
-                            return;
+                            if (!UnityEditor.EditorApplication.isPlaying)
+                                return;
 #else
                         Debug.LogException(e);
 #endif
-                    }
+                        }
 
+                    }
                 }
+
+                await Task.Delay(200);
+            }
+            finally
+            {
+                m_IsBusy = false;
             }
         }
 
@@ -70,17 +75,6 @@ namespace Aci.Unity.UI.Dialog
 
             if (animated && m_Transition != null)
                 await m_Transition.EnterAsync();
-        }
-
-        private void OnApplicationQuit()
-        {
-            m_IsDestroyed = true;
-        }
-
-        private void OnDestroy()
-        {
-            dismissed?.Invoke(this);
-            m_IsDestroyed = true;
         }
     }
 }
