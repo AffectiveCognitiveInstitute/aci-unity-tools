@@ -821,6 +821,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.DialogFacade.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Dialog.DialogFacade.html",
+          "hash": "uUX3/J+XZyU5LY06OWlEbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.DialogFacadeInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Dialog.DialogFacadeInstaller.html",
+          "hash": "ht/z2eU6y+wen/vLuy52Sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Aci.Unity.UI.Dialog.DialogInstaller.yml",
       "output": {
         ".html": {
@@ -905,6 +929,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.IDialogFacade.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Dialog.IDialogFacade.html",
+          "hash": "lZDrlHcynbo/9td60cmIVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Aci.Unity.UI.Dialog.IDialogRequestReceiver.yml",
       "output": {
         ".html": {
@@ -933,7 +969,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Dialog.html",
-          "hash": "v//ysx/vy/wnvJhlOQD4mg=="
+          "hash": "lUrRl4ndF5lK3urnzz1QJA=="
         }
       },
       "is_incremental": false,
@@ -1553,6 +1589,54 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.Factory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.Factory.html",
+          "hash": "3WMmfPiknkmPzQf4/ZjFrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.html",
+          "hash": "i1p1tC5UIO1F/5kcz0uvrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.Factory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.Factory.html",
+          "hash": "8uZwlS6m97ksPXQ79UFNZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.html",
+          "hash": "o/JToCeR6ovxgrAJIxKrAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Aci.Unity.UI.ViewControllers.CameraFeedViewController.yml",
       "output": {
         ".html": {
@@ -1569,7 +1653,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.ViewControllers.html",
-          "hash": "QbLzcNyDLJ31Z3/+cl4y7A=="
+          "hash": "oo/3AubPPI0gc5uuEf/DUg=="
         }
       },
       "is_incremental": false,
@@ -1761,7 +1845,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "QYjm3jp/LcS/2YuSDIsTzA=="
+          "hash": "TbMtC++6ox90Jmf/UgvaiQ=="
         }
       },
       "is_incremental": false,

@@ -2673,6 +2673,82 @@ references:
   commentId: T:Aci.Unity.UI.Dialog.DialogDismissedDelegate
   fullName: Aci.Unity.UI.Dialog.DialogDismissedDelegate
   nameWithType: DialogDismissedDelegate
+- uid: Aci.Unity.UI.Dialog.DialogFacade
+  name: DialogFacade
+  href: api/Aci.Unity.UI.Dialog.DialogFacade.html
+  commentId: T:Aci.Unity.UI.Dialog.DialogFacade
+  fullName: Aci.Unity.UI.Dialog.DialogFacade
+  nameWithType: DialogFacade
+- uid: Aci.Unity.UI.Dialog.DialogFacade.#ctor(Aci.Unity.UI.Dialog.IDialogService,AlertDialogViewController.Factory,ActivityIndicatorViewController.Factory)
+  name: DialogFacade(IDialogService, AlertDialogViewController.Factory, ActivityIndicatorViewController.Factory)
+  href: api/Aci.Unity.UI.Dialog.DialogFacade.html#Aci_Unity_UI_Dialog_DialogFacade__ctor_Aci_Unity_UI_Dialog_IDialogService_AlertDialogViewController_Factory_ActivityIndicatorViewController_Factory_
+  commentId: M:Aci.Unity.UI.Dialog.DialogFacade.#ctor(Aci.Unity.UI.Dialog.IDialogService,AlertDialogViewController.Factory,ActivityIndicatorViewController.Factory)
+  fullName: Aci.Unity.UI.Dialog.DialogFacade.DialogFacade(Aci.Unity.UI.Dialog.IDialogService, AlertDialogViewController.Factory, ActivityIndicatorViewController.Factory)
+  nameWithType: DialogFacade.DialogFacade(IDialogService, AlertDialogViewController.Factory, ActivityIndicatorViewController.Factory)
+- uid: Aci.Unity.UI.Dialog.DialogFacade.#ctor*
+  name: DialogFacade
+  href: api/Aci.Unity.UI.Dialog.DialogFacade.html#Aci_Unity_UI_Dialog_DialogFacade__ctor_
+  commentId: Overload:Aci.Unity.UI.Dialog.DialogFacade.#ctor
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Dialog.DialogFacade.DialogFacade
+  nameWithType: DialogFacade.DialogFacade
+- uid: Aci.Unity.UI.Dialog.DialogFacade.DisplayActivity(Aci.Unity.UI.Dialog.DialogPriority,System.String)
+  name: DisplayActivity(DialogPriority, String)
+  href: api/Aci.Unity.UI.Dialog.DialogFacade.html#Aci_Unity_UI_Dialog_DialogFacade_DisplayActivity_Aci_Unity_UI_Dialog_DialogPriority_System_String_
+  commentId: M:Aci.Unity.UI.Dialog.DialogFacade.DisplayActivity(Aci.Unity.UI.Dialog.DialogPriority,System.String)
+  fullName: Aci.Unity.UI.Dialog.DialogFacade.DisplayActivity(Aci.Unity.UI.Dialog.DialogPriority, System.String)
+  nameWithType: DialogFacade.DisplayActivity(DialogPriority, String)
+- uid: Aci.Unity.UI.Dialog.DialogFacade.DisplayActivity(System.String)
+  name: DisplayActivity(String)
+  href: api/Aci.Unity.UI.Dialog.DialogFacade.html#Aci_Unity_UI_Dialog_DialogFacade_DisplayActivity_System_String_
+  commentId: M:Aci.Unity.UI.Dialog.DialogFacade.DisplayActivity(System.String)
+  fullName: Aci.Unity.UI.Dialog.DialogFacade.DisplayActivity(System.String)
+  nameWithType: DialogFacade.DisplayActivity(String)
+- uid: Aci.Unity.UI.Dialog.DialogFacade.DisplayActivity*
+  name: DisplayActivity
+  href: api/Aci.Unity.UI.Dialog.DialogFacade.html#Aci_Unity_UI_Dialog_DialogFacade_DisplayActivity_
+  commentId: Overload:Aci.Unity.UI.Dialog.DialogFacade.DisplayActivity
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Dialog.DialogFacade.DisplayActivity
+  nameWithType: DialogFacade.DisplayActivity
+- uid: Aci.Unity.UI.Dialog.DialogFacade.DisplayAlert(Aci.Unity.UI.Dialog.DialogPriority,System.String,System.String,System.String,System.String,System.Action,System.Action)
+  name: DisplayAlert(DialogPriority, String, String, String, String, Action, Action)
+  href: api/Aci.Unity.UI.Dialog.DialogFacade.html#Aci_Unity_UI_Dialog_DialogFacade_DisplayAlert_Aci_Unity_UI_Dialog_DialogPriority_System_String_System_String_System_String_System_String_System_Action_System_Action_
+  commentId: M:Aci.Unity.UI.Dialog.DialogFacade.DisplayAlert(Aci.Unity.UI.Dialog.DialogPriority,System.String,System.String,System.String,System.String,System.Action,System.Action)
+  fullName: Aci.Unity.UI.Dialog.DialogFacade.DisplayAlert(Aci.Unity.UI.Dialog.DialogPriority, System.String, System.String, System.String, System.String, System.Action, System.Action)
+  nameWithType: DialogFacade.DisplayAlert(DialogPriority, String, String, String, String, Action, Action)
+- uid: Aci.Unity.UI.Dialog.DialogFacade.DisplayAlert(System.String,System.String,System.String,System.String,System.Action,System.Action)
+  name: DisplayAlert(String, String, String, String, Action, Action)
+  href: api/Aci.Unity.UI.Dialog.DialogFacade.html#Aci_Unity_UI_Dialog_DialogFacade_DisplayAlert_System_String_System_String_System_String_System_String_System_Action_System_Action_
+  commentId: M:Aci.Unity.UI.Dialog.DialogFacade.DisplayAlert(System.String,System.String,System.String,System.String,System.Action,System.Action)
+  fullName: Aci.Unity.UI.Dialog.DialogFacade.DisplayAlert(System.String, System.String, System.String, System.String, System.Action, System.Action)
+  nameWithType: DialogFacade.DisplayAlert(String, String, String, String, Action, Action)
+- uid: Aci.Unity.UI.Dialog.DialogFacade.DisplayAlert*
+  name: DisplayAlert
+  href: api/Aci.Unity.UI.Dialog.DialogFacade.html#Aci_Unity_UI_Dialog_DialogFacade_DisplayAlert_
+  commentId: Overload:Aci.Unity.UI.Dialog.DialogFacade.DisplayAlert
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Dialog.DialogFacade.DisplayAlert
+  nameWithType: DialogFacade.DisplayAlert
+- uid: Aci.Unity.UI.Dialog.DialogFacadeInstaller
+  name: DialogFacadeInstaller
+  href: api/Aci.Unity.UI.Dialog.DialogFacadeInstaller.html
+  commentId: T:Aci.Unity.UI.Dialog.DialogFacadeInstaller
+  fullName: Aci.Unity.UI.Dialog.DialogFacadeInstaller
+  nameWithType: DialogFacadeInstaller
+- uid: Aci.Unity.UI.Dialog.DialogFacadeInstaller.InstallBindings
+  name: InstallBindings()
+  href: api/Aci.Unity.UI.Dialog.DialogFacadeInstaller.html#Aci_Unity_UI_Dialog_DialogFacadeInstaller_InstallBindings
+  commentId: M:Aci.Unity.UI.Dialog.DialogFacadeInstaller.InstallBindings
+  fullName: Aci.Unity.UI.Dialog.DialogFacadeInstaller.InstallBindings()
+  nameWithType: DialogFacadeInstaller.InstallBindings()
+- uid: Aci.Unity.UI.Dialog.DialogFacadeInstaller.InstallBindings*
+  name: InstallBindings
+  href: api/Aci.Unity.UI.Dialog.DialogFacadeInstaller.html#Aci_Unity_UI_Dialog_DialogFacadeInstaller_InstallBindings_
+  commentId: Overload:Aci.Unity.UI.Dialog.DialogFacadeInstaller.InstallBindings
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Dialog.DialogFacadeInstaller.InstallBindings
+  nameWithType: DialogFacadeInstaller.InstallBindings
 - uid: Aci.Unity.UI.Dialog.DialogInstaller
   name: DialogInstaller
   href: api/Aci.Unity.UI.Dialog.DialogInstaller.html
@@ -3017,6 +3093,50 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Dialog.IDialogDestroyer.DestroyCurrent
   nameWithType: IDialogDestroyer.DestroyCurrent
+- uid: Aci.Unity.UI.Dialog.IDialogFacade
+  name: IDialogFacade
+  href: api/Aci.Unity.UI.Dialog.IDialogFacade.html
+  commentId: T:Aci.Unity.UI.Dialog.IDialogFacade
+  fullName: Aci.Unity.UI.Dialog.IDialogFacade
+  nameWithType: IDialogFacade
+- uid: Aci.Unity.UI.Dialog.IDialogFacade.DisplayActivity(Aci.Unity.UI.Dialog.DialogPriority,System.String)
+  name: DisplayActivity(DialogPriority, String)
+  href: api/Aci.Unity.UI.Dialog.IDialogFacade.html#Aci_Unity_UI_Dialog_IDialogFacade_DisplayActivity_Aci_Unity_UI_Dialog_DialogPriority_System_String_
+  commentId: M:Aci.Unity.UI.Dialog.IDialogFacade.DisplayActivity(Aci.Unity.UI.Dialog.DialogPriority,System.String)
+  fullName: Aci.Unity.UI.Dialog.IDialogFacade.DisplayActivity(Aci.Unity.UI.Dialog.DialogPriority, System.String)
+  nameWithType: IDialogFacade.DisplayActivity(DialogPriority, String)
+- uid: Aci.Unity.UI.Dialog.IDialogFacade.DisplayActivity(System.String)
+  name: DisplayActivity(String)
+  href: api/Aci.Unity.UI.Dialog.IDialogFacade.html#Aci_Unity_UI_Dialog_IDialogFacade_DisplayActivity_System_String_
+  commentId: M:Aci.Unity.UI.Dialog.IDialogFacade.DisplayActivity(System.String)
+  fullName: Aci.Unity.UI.Dialog.IDialogFacade.DisplayActivity(System.String)
+  nameWithType: IDialogFacade.DisplayActivity(String)
+- uid: Aci.Unity.UI.Dialog.IDialogFacade.DisplayActivity*
+  name: DisplayActivity
+  href: api/Aci.Unity.UI.Dialog.IDialogFacade.html#Aci_Unity_UI_Dialog_IDialogFacade_DisplayActivity_
+  commentId: Overload:Aci.Unity.UI.Dialog.IDialogFacade.DisplayActivity
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Dialog.IDialogFacade.DisplayActivity
+  nameWithType: IDialogFacade.DisplayActivity
+- uid: Aci.Unity.UI.Dialog.IDialogFacade.DisplayAlert(Aci.Unity.UI.Dialog.DialogPriority,System.String,System.String,System.String,System.String,System.Action,System.Action)
+  name: DisplayAlert(DialogPriority, String, String, String, String, Action, Action)
+  href: api/Aci.Unity.UI.Dialog.IDialogFacade.html#Aci_Unity_UI_Dialog_IDialogFacade_DisplayAlert_Aci_Unity_UI_Dialog_DialogPriority_System_String_System_String_System_String_System_String_System_Action_System_Action_
+  commentId: M:Aci.Unity.UI.Dialog.IDialogFacade.DisplayAlert(Aci.Unity.UI.Dialog.DialogPriority,System.String,System.String,System.String,System.String,System.Action,System.Action)
+  fullName: Aci.Unity.UI.Dialog.IDialogFacade.DisplayAlert(Aci.Unity.UI.Dialog.DialogPriority, System.String, System.String, System.String, System.String, System.Action, System.Action)
+  nameWithType: IDialogFacade.DisplayAlert(DialogPriority, String, String, String, String, Action, Action)
+- uid: Aci.Unity.UI.Dialog.IDialogFacade.DisplayAlert(System.String,System.String,System.String,System.String,System.Action,System.Action)
+  name: DisplayAlert(String, String, String, String, Action, Action)
+  href: api/Aci.Unity.UI.Dialog.IDialogFacade.html#Aci_Unity_UI_Dialog_IDialogFacade_DisplayAlert_System_String_System_String_System_String_System_String_System_Action_System_Action_
+  commentId: M:Aci.Unity.UI.Dialog.IDialogFacade.DisplayAlert(System.String,System.String,System.String,System.String,System.Action,System.Action)
+  fullName: Aci.Unity.UI.Dialog.IDialogFacade.DisplayAlert(System.String, System.String, System.String, System.String, System.Action, System.Action)
+  nameWithType: IDialogFacade.DisplayAlert(String, String, String, String, Action, Action)
+- uid: Aci.Unity.UI.Dialog.IDialogFacade.DisplayAlert*
+  name: DisplayAlert
+  href: api/Aci.Unity.UI.Dialog.IDialogFacade.html#Aci_Unity_UI_Dialog_IDialogFacade_DisplayAlert_
+  commentId: Overload:Aci.Unity.UI.Dialog.IDialogFacade.DisplayAlert
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Dialog.IDialogFacade.DisplayAlert
+  nameWithType: IDialogFacade.DisplayAlert
 - uid: Aci.Unity.UI.Dialog.IDialogRequestReceiver
   name: IDialogRequestReceiver
   href: api/Aci.Unity.UI.Dialog.IDialogRequestReceiver.html
@@ -5363,6 +5483,198 @@ references:
   commentId: N:Aci.Unity.UI.ViewControllers
   fullName: Aci.Unity.UI.ViewControllers
   nameWithType: Aci.Unity.UI.ViewControllers
+- uid: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController
+  name: ActivityIndicatorViewController
+  href: api/Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.html
+  commentId: T:Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController
+  fullName: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController
+  nameWithType: ActivityIndicatorViewController
+- uid: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.Dispose
+  name: Dispose()
+  href: api/Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.html#Aci_Unity_UI_ViewControllers_ActivityIndicatorViewController_Dispose
+  commentId: M:Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.Dispose
+  fullName: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.Dispose()
+  nameWithType: ActivityIndicatorViewController.Dispose()
+- uid: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.Dispose*
+  name: Dispose
+  href: api/Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.html#Aci_Unity_UI_ViewControllers_ActivityIndicatorViewController_Dispose_
+  commentId: Overload:Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.Dispose
+  isSpec: "True"
+  fullName: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.Dispose
+  nameWithType: ActivityIndicatorViewController.Dispose
+- uid: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.Factory
+  name: ActivityIndicatorViewController.Factory
+  href: api/Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.Factory.html
+  commentId: T:Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.Factory
+  fullName: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.Factory
+  nameWithType: ActivityIndicatorViewController.Factory
+- uid: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.Initialize(System.String)
+  name: Initialize(String)
+  href: api/Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.html#Aci_Unity_UI_ViewControllers_ActivityIndicatorViewController_Initialize_System_String_
+  commentId: M:Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.Initialize(System.String)
+  fullName: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.Initialize(System.String)
+  nameWithType: ActivityIndicatorViewController.Initialize(String)
+- uid: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.Initialize*
+  name: Initialize
+  href: api/Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.html#Aci_Unity_UI_ViewControllers_ActivityIndicatorViewController_Initialize_
+  commentId: Overload:Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.Initialize
+  isSpec: "True"
+  fullName: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.Initialize
+  nameWithType: ActivityIndicatorViewController.Initialize
+- uid: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.OnDespawned
+  name: OnDespawned()
+  href: api/Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.html#Aci_Unity_UI_ViewControllers_ActivityIndicatorViewController_OnDespawned
+  commentId: M:Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.OnDespawned
+  fullName: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.OnDespawned()
+  nameWithType: ActivityIndicatorViewController.OnDespawned()
+- uid: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.OnDespawned*
+  name: OnDespawned
+  href: api/Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.html#Aci_Unity_UI_ViewControllers_ActivityIndicatorViewController_OnDespawned_
+  commentId: Overload:Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.OnDespawned
+  isSpec: "True"
+  fullName: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.OnDespawned
+  nameWithType: ActivityIndicatorViewController.OnDespawned
+- uid: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.OnSpawned(System.String,IMemoryPool)
+  name: OnSpawned(String, IMemoryPool)
+  href: api/Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.html#Aci_Unity_UI_ViewControllers_ActivityIndicatorViewController_OnSpawned_System_String_IMemoryPool_
+  commentId: M:Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.OnSpawned(System.String,IMemoryPool)
+  fullName: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.OnSpawned(System.String, IMemoryPool)
+  nameWithType: ActivityIndicatorViewController.OnSpawned(String, IMemoryPool)
+- uid: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.OnSpawned*
+  name: OnSpawned
+  href: api/Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.html#Aci_Unity_UI_ViewControllers_ActivityIndicatorViewController_OnSpawned_
+  commentId: Overload:Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.OnSpawned
+  isSpec: "True"
+  fullName: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.OnSpawned
+  nameWithType: ActivityIndicatorViewController.OnSpawned
+- uid: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.op_Implicit(Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController)~DialogComponent
+  name: Implicit(ActivityIndicatorViewController to DialogComponent)
+  href: api/Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.html#Aci_Unity_UI_ViewControllers_ActivityIndicatorViewController_op_Implicit_Aci_Unity_UI_ViewControllers_ActivityIndicatorViewController__DialogComponent
+  commentId: M:Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.op_Implicit(Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController)~DialogComponent
+  name.vb: Widening(ActivityIndicatorViewController to DialogComponent)
+  fullName: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.Implicit(Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController to DialogComponent)
+  fullName.vb: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.Widening(Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController to DialogComponent)
+  nameWithType: ActivityIndicatorViewController.Implicit(ActivityIndicatorViewController to DialogComponent)
+  nameWithType.vb: ActivityIndicatorViewController.Widening(ActivityIndicatorViewController to DialogComponent)
+- uid: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.op_Implicit*
+  name: Implicit
+  href: api/Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.html#Aci_Unity_UI_ViewControllers_ActivityIndicatorViewController_op_Implicit_
+  commentId: Overload:Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.Implicit
+  fullName.vb: Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.Widening
+  nameWithType: ActivityIndicatorViewController.Implicit
+  nameWithType.vb: ActivityIndicatorViewController.Widening
+- uid: Aci.Unity.UI.ViewControllers.AlertDialogViewController
+  name: AlertDialogViewController
+  href: api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.html
+  commentId: T:Aci.Unity.UI.ViewControllers.AlertDialogViewController
+  fullName: Aci.Unity.UI.ViewControllers.AlertDialogViewController
+  nameWithType: AlertDialogViewController
+- uid: Aci.Unity.UI.ViewControllers.AlertDialogViewController.Dispose
+  name: Dispose()
+  href: api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.html#Aci_Unity_UI_ViewControllers_AlertDialogViewController_Dispose
+  commentId: M:Aci.Unity.UI.ViewControllers.AlertDialogViewController.Dispose
+  fullName: Aci.Unity.UI.ViewControllers.AlertDialogViewController.Dispose()
+  nameWithType: AlertDialogViewController.Dispose()
+- uid: Aci.Unity.UI.ViewControllers.AlertDialogViewController.Dispose*
+  name: Dispose
+  href: api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.html#Aci_Unity_UI_ViewControllers_AlertDialogViewController_Dispose_
+  commentId: Overload:Aci.Unity.UI.ViewControllers.AlertDialogViewController.Dispose
+  isSpec: "True"
+  fullName: Aci.Unity.UI.ViewControllers.AlertDialogViewController.Dispose
+  nameWithType: AlertDialogViewController.Dispose
+- uid: Aci.Unity.UI.ViewControllers.AlertDialogViewController.Factory
+  name: AlertDialogViewController.Factory
+  href: api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.Factory.html
+  commentId: T:Aci.Unity.UI.ViewControllers.AlertDialogViewController.Factory
+  fullName: Aci.Unity.UI.ViewControllers.AlertDialogViewController.Factory
+  nameWithType: AlertDialogViewController.Factory
+- uid: Aci.Unity.UI.ViewControllers.AlertDialogViewController.Initialize(System.String,System.String,System.String,System.String,System.Action,System.Action)
+  name: Initialize(String, String, String, String, Action, Action)
+  href: api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.html#Aci_Unity_UI_ViewControllers_AlertDialogViewController_Initialize_System_String_System_String_System_String_System_String_System_Action_System_Action_
+  commentId: M:Aci.Unity.UI.ViewControllers.AlertDialogViewController.Initialize(System.String,System.String,System.String,System.String,System.Action,System.Action)
+  fullName: Aci.Unity.UI.ViewControllers.AlertDialogViewController.Initialize(System.String, System.String, System.String, System.String, System.Action, System.Action)
+  nameWithType: AlertDialogViewController.Initialize(String, String, String, String, Action, Action)
+- uid: Aci.Unity.UI.ViewControllers.AlertDialogViewController.Initialize*
+  name: Initialize
+  href: api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.html#Aci_Unity_UI_ViewControllers_AlertDialogViewController_Initialize_
+  commentId: Overload:Aci.Unity.UI.ViewControllers.AlertDialogViewController.Initialize
+  isSpec: "True"
+  fullName: Aci.Unity.UI.ViewControllers.AlertDialogViewController.Initialize
+  nameWithType: AlertDialogViewController.Initialize
+- uid: Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnCancelButtonClicked
+  name: OnCancelButtonClicked()
+  href: api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.html#Aci_Unity_UI_ViewControllers_AlertDialogViewController_OnCancelButtonClicked
+  commentId: M:Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnCancelButtonClicked
+  fullName: Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnCancelButtonClicked()
+  nameWithType: AlertDialogViewController.OnCancelButtonClicked()
+- uid: Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnCancelButtonClicked*
+  name: OnCancelButtonClicked
+  href: api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.html#Aci_Unity_UI_ViewControllers_AlertDialogViewController_OnCancelButtonClicked_
+  commentId: Overload:Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnCancelButtonClicked
+  isSpec: "True"
+  fullName: Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnCancelButtonClicked
+  nameWithType: AlertDialogViewController.OnCancelButtonClicked
+- uid: Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnConfirmButtonClicked
+  name: OnConfirmButtonClicked()
+  href: api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.html#Aci_Unity_UI_ViewControllers_AlertDialogViewController_OnConfirmButtonClicked
+  commentId: M:Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnConfirmButtonClicked
+  fullName: Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnConfirmButtonClicked()
+  nameWithType: AlertDialogViewController.OnConfirmButtonClicked()
+- uid: Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnConfirmButtonClicked*
+  name: OnConfirmButtonClicked
+  href: api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.html#Aci_Unity_UI_ViewControllers_AlertDialogViewController_OnConfirmButtonClicked_
+  commentId: Overload:Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnConfirmButtonClicked
+  isSpec: "True"
+  fullName: Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnConfirmButtonClicked
+  nameWithType: AlertDialogViewController.OnConfirmButtonClicked
+- uid: Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnDespawned
+  name: OnDespawned()
+  href: api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.html#Aci_Unity_UI_ViewControllers_AlertDialogViewController_OnDespawned
+  commentId: M:Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnDespawned
+  fullName: Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnDespawned()
+  nameWithType: AlertDialogViewController.OnDespawned()
+- uid: Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnDespawned*
+  name: OnDespawned
+  href: api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.html#Aci_Unity_UI_ViewControllers_AlertDialogViewController_OnDespawned_
+  commentId: Overload:Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnDespawned
+  isSpec: "True"
+  fullName: Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnDespawned
+  nameWithType: AlertDialogViewController.OnDespawned
+- uid: Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnSpawned(System.String,System.String,System.String,System.String,System.Action,System.Action,IMemoryPool)
+  name: OnSpawned(String, String, String, String, Action, Action, IMemoryPool)
+  href: api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.html#Aci_Unity_UI_ViewControllers_AlertDialogViewController_OnSpawned_System_String_System_String_System_String_System_String_System_Action_System_Action_IMemoryPool_
+  commentId: M:Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnSpawned(System.String,System.String,System.String,System.String,System.Action,System.Action,IMemoryPool)
+  fullName: Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnSpawned(System.String, System.String, System.String, System.String, System.Action, System.Action, IMemoryPool)
+  nameWithType: AlertDialogViewController.OnSpawned(String, String, String, String, Action, Action, IMemoryPool)
+- uid: Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnSpawned*
+  name: OnSpawned
+  href: api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.html#Aci_Unity_UI_ViewControllers_AlertDialogViewController_OnSpawned_
+  commentId: Overload:Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnSpawned
+  isSpec: "True"
+  fullName: Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnSpawned
+  nameWithType: AlertDialogViewController.OnSpawned
+- uid: Aci.Unity.UI.ViewControllers.AlertDialogViewController.op_Implicit(Aci.Unity.UI.ViewControllers.AlertDialogViewController)~DialogComponent
+  name: Implicit(AlertDialogViewController to DialogComponent)
+  href: api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.html#Aci_Unity_UI_ViewControllers_AlertDialogViewController_op_Implicit_Aci_Unity_UI_ViewControllers_AlertDialogViewController__DialogComponent
+  commentId: M:Aci.Unity.UI.ViewControllers.AlertDialogViewController.op_Implicit(Aci.Unity.UI.ViewControllers.AlertDialogViewController)~DialogComponent
+  name.vb: Widening(AlertDialogViewController to DialogComponent)
+  fullName: Aci.Unity.UI.ViewControllers.AlertDialogViewController.Implicit(Aci.Unity.UI.ViewControllers.AlertDialogViewController to DialogComponent)
+  fullName.vb: Aci.Unity.UI.ViewControllers.AlertDialogViewController.Widening(Aci.Unity.UI.ViewControllers.AlertDialogViewController to DialogComponent)
+  nameWithType: AlertDialogViewController.Implicit(AlertDialogViewController to DialogComponent)
+  nameWithType.vb: AlertDialogViewController.Widening(AlertDialogViewController to DialogComponent)
+- uid: Aci.Unity.UI.ViewControllers.AlertDialogViewController.op_Implicit*
+  name: Implicit
+  href: api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.html#Aci_Unity_UI_ViewControllers_AlertDialogViewController_op_Implicit_
+  commentId: Overload:Aci.Unity.UI.ViewControllers.AlertDialogViewController.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Aci.Unity.UI.ViewControllers.AlertDialogViewController.Implicit
+  fullName.vb: Aci.Unity.UI.ViewControllers.AlertDialogViewController.Widening
+  nameWithType: AlertDialogViewController.Implicit
+  nameWithType.vb: AlertDialogViewController.Widening
 - uid: Aci.Unity.UI.ViewControllers.CameraFeedViewController
   name: CameraFeedViewController
   href: api/Aci.Unity.UI.ViewControllers.CameraFeedViewController.html
