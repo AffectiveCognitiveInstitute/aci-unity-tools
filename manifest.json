@@ -821,6 +821,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.DialogInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Dialog.DialogInstaller.html",
+          "hash": "bI5fxiKlcCMZ6tgIYjmbMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Aci.Unity.UI.Dialog.DialogManager.yml",
       "output": {
         ".html": {
@@ -921,7 +933,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Dialog.html",
-          "hash": "8auufbLCTKjiDR4dWOsmrQ=="
+          "hash": "v//ysx/vy/wnvJhlOQD4mg=="
         }
       },
       "is_incremental": false,
@@ -1229,6 +1241,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.NavigationInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.NavigationInstaller.html",
+          "hash": "/Egfa7eXAfjVY1WpL/LMlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Aci.Unity.UI.Navigation.NavigationMode.yml",
       "output": {
         ".html": {
@@ -1293,7 +1317,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Navigation.html",
-          "hash": "79gdbEc+4CQFnPJC+nRqHg=="
+          "hash": "sEF8C4hEB/5ukpD7qLq9Uw=="
         }
       },
       "is_incremental": false,
@@ -1737,7 +1761,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "dMKPA/geknrdha/R7UoDgg=="
+          "hash": "QYjm3jp/LcS/2YuSDIsTzA=="
         }
       },
       "is_incremental": false,

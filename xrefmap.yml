@@ -2673,6 +2673,25 @@ references:
   commentId: T:Aci.Unity.UI.Dialog.DialogDismissedDelegate
   fullName: Aci.Unity.UI.Dialog.DialogDismissedDelegate
   nameWithType: DialogDismissedDelegate
+- uid: Aci.Unity.UI.Dialog.DialogInstaller
+  name: DialogInstaller
+  href: api/Aci.Unity.UI.Dialog.DialogInstaller.html
+  commentId: T:Aci.Unity.UI.Dialog.DialogInstaller
+  fullName: Aci.Unity.UI.Dialog.DialogInstaller
+  nameWithType: DialogInstaller
+- uid: Aci.Unity.UI.Dialog.DialogInstaller.InstallBindings
+  name: InstallBindings()
+  href: api/Aci.Unity.UI.Dialog.DialogInstaller.html#Aci_Unity_UI_Dialog_DialogInstaller_InstallBindings
+  commentId: M:Aci.Unity.UI.Dialog.DialogInstaller.InstallBindings
+  fullName: Aci.Unity.UI.Dialog.DialogInstaller.InstallBindings()
+  nameWithType: DialogInstaller.InstallBindings()
+- uid: Aci.Unity.UI.Dialog.DialogInstaller.InstallBindings*
+  name: InstallBindings
+  href: api/Aci.Unity.UI.Dialog.DialogInstaller.html#Aci_Unity_UI_Dialog_DialogInstaller_InstallBindings_
+  commentId: Overload:Aci.Unity.UI.Dialog.DialogInstaller.InstallBindings
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Dialog.DialogInstaller.InstallBindings
+  nameWithType: DialogInstaller.InstallBindings
 - uid: Aci.Unity.UI.Dialog.DialogManager
   name: DialogManager
   href: api/Aci.Unity.UI.Dialog.DialogManager.html
@@ -4118,6 +4137,25 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Navigation.NavigationCompletedEvent.navigationStack
   nameWithType: NavigationCompletedEvent.navigationStack
+- uid: Aci.Unity.UI.Navigation.NavigationInstaller
+  name: NavigationInstaller
+  href: api/Aci.Unity.UI.Navigation.NavigationInstaller.html
+  commentId: T:Aci.Unity.UI.Navigation.NavigationInstaller
+  fullName: Aci.Unity.UI.Navigation.NavigationInstaller
+  nameWithType: NavigationInstaller
+- uid: Aci.Unity.UI.Navigation.NavigationInstaller.InstallBindings
+  name: InstallBindings()
+  href: api/Aci.Unity.UI.Navigation.NavigationInstaller.html#Aci_Unity_UI_Navigation_NavigationInstaller_InstallBindings
+  commentId: M:Aci.Unity.UI.Navigation.NavigationInstaller.InstallBindings
+  fullName: Aci.Unity.UI.Navigation.NavigationInstaller.InstallBindings()
+  nameWithType: NavigationInstaller.InstallBindings()
+- uid: Aci.Unity.UI.Navigation.NavigationInstaller.InstallBindings*
+  name: InstallBindings
+  href: api/Aci.Unity.UI.Navigation.NavigationInstaller.html#Aci_Unity_UI_Navigation_NavigationInstaller_InstallBindings_
+  commentId: Overload:Aci.Unity.UI.Navigation.NavigationInstaller.InstallBindings
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Navigation.NavigationInstaller.InstallBindings
+  nameWithType: NavigationInstaller.InstallBindings
 - uid: Aci.Unity.UI.Navigation.NavigationMode
   name: NavigationMode
   href: api/Aci.Unity.UI.Navigation.NavigationMode.html
