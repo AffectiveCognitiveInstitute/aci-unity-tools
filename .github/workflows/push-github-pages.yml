@@ -8,6 +8,8 @@ jobs:
     name: DocFX
     runs-on: ubuntu-latest
     steps:
+    - name: checkout master
+      uses: actions/checkout@master
     - name: DocFX
       uses: ./Actions/docfx
     - name: Publish
