@@ -97,6 +97,14 @@ namespace Aci.Unity.Util
                 _startTime = DateTime.Now;
         }
 
+        /// <inheritdoc />
+        public void Add(TimeSpan timeSpan, bool total = false)
+        {
+            _subStartTime.Subtract(timeSpan);
+            if (total)
+                _startTime.Subtract(timeSpan);
+        }
+
         private async void UpdateTrackedTime(CancellationToken ct)
         {
             DateTime now;
