@@ -1,0 +1,17 @@
+on: push
+name: GitHub Pages
+jobs:
+  docFX:
+    name: DocFX
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: DocFX
+      uses: ./Actions/docfx
+    - name: Publish
+      uses: ./Actions/publish-gh-pages
+      env:
+        CONTENT: docs/_site
+        GH_EMAIL: moritz.umfahrer@hs-offenburg.de
+        GH_USER: Moritz Umfahrer
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
