@@ -1,4 +1,4 @@
-﻿// <copyright file=ITimeProvider.cs/>
+// <copyright file=ITimeProvider.cs/>
 // <copyright>
 //   Copyright (c) 2018, Affective & Cognitive Institute
 //   
@@ -38,7 +38,7 @@ namespace Aci.Unity.Util
         DateTime startTime { get; }
 
         /// <summary>
-        /// Time this tracker strted tracking the current subTime.
+        /// Time this tracker started tracking the current subTime.
         /// </summary>
         DateTime subStartTime { get; }
 
@@ -60,6 +60,14 @@ namespace Aci.Unity.Util
         /// <summary>
         /// Resets the timer start time.
         /// </summary>
+        /// <param name="total">False if only elapsed time should be reset, True if total time should be reset.</param>
         void Reset(bool total = false);
+
+        /// <summary>
+        /// Adds a timespan to the current timer value.
+        /// </summary>
+        /// <param name="timeSpan">Timespawn to add.</param>
+        /// <param name="total">False if only elapsed time should be added, True if total time should be added.</param>
+        void Add(TimeSpan timeSpan, bool total = false);
     }
 }
