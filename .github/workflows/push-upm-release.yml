@@ -1,15 +1,13 @@
-on: push
+on:
+  push:
+    branches:
+      - master
 name: UPM-release
 jobs:
   filters:
     name: Filters
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: Filters
-      uses: actions/bin/filter@712ea355b0921dd7aea27d81e247c48d0db24ee4
-      with:
-        args: branch master
     - name: UPM-version
       uses: ./Actions/git-upm-version
       env:
