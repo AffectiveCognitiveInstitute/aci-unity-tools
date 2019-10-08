@@ -71,7 +71,7 @@
             <article class="content wrap" id="_content" data-uid="Aci.Unity.Logging.AciLog">
   <h1 id="Aci_Unity_Logging_AciLog" data-uid="Aci.Unity.Logging.AciLog">Class AciLog
   </h1>
-  <div class="markdown level0 summary"><p>Contains static logging methods that also send logs via a <see cref="!:INetworkPublisher"></see>. Capabilities are set at
+  <div class="markdown level0 summary"><p>Contains static logging methods that also send logs via a <a class="xref" href="Aci.Unity.Network.INetworkPublisher.html">INetworkPublisher</a>. Capabilities are set at
 stratup via Injection.
 The <a class="xref" href="Aci.Unity.Logging.AciLog.html">AciLog</a> class is not static to enable injection. The static methods access the singleton-instance
 of the logging class.</p>
@@ -128,9 +128,9 @@ of the logging class.</p>
   
   <a id="Aci_Unity_Logging_AciLog_Construct_" data-uid="Aci.Unity.Logging.AciLog.Construct*"></a>
   
-  <h4 id="Aci_Unity_Logging_AciLog_Construct_INetworkPublisher_ILogger_" data-uid="Aci.Unity.Logging.AciLog.Construct(INetworkPublisher,ILogger)"><a href="#collapsible-Aci_Unity_Logging_AciLog_Construct_INetworkPublisher_ILogger_" class="expander" data-toggle="collapse">Construct(INetworkPublisher, ILogger)</a></h4>
+  <h4 id="Aci_Unity_Logging_AciLog_Construct_Aci_Unity_Network_INetworkPublisher_ILogger_" data-uid="Aci.Unity.Logging.AciLog.Construct(Aci.Unity.Network.INetworkPublisher,ILogger)"><a href="#collapsible-Aci_Unity_Logging_AciLog_Construct_Aci_Unity_Network_INetworkPublisher_ILogger_" class="expander" data-toggle="collapse">Construct(INetworkPublisher, ILogger)</a></h4>
   
-  <div id="collapsible-Aci_Unity_Logging_AciLog_Construct_INetworkPublisher_ILogger_" class="collapse in">
+  <div id="collapsible-Aci_Unity_Logging_AciLog_Construct_Aci_Unity_Network_INetworkPublisher_ILogger_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -143,7 +143,7 @@ of the logging class.</p>
   <table>
     <tr>
       <td>
-        <span class="pull-right"><span class="xref">INetworkPublisher</span></span>
+        <span class="pull-right"><a class="xref" href="Aci.Unity.Network.INetworkPublisher.html">INetworkPublisher</a></span>
         <span class="parametername">publisher</span>
         <p>
       </td>
@@ -219,16 +219,16 @@ of the logging class.</p>
   
   <a id="Aci_Unity_Logging_AciLog_Log_" data-uid="Aci.Unity.Logging.AciLog.Log*"></a>
   
-  <h4 id="Aci_Unity_Logging_AciLog_Log_System_String_System_Object_System_Object_" data-uid="Aci.Unity.Logging.AciLog.Log(System.String,System.Object,System.Object)"><a href="#collapsible-Aci_Unity_Logging_AciLog_Log_System_String_System_Object_System_Object_" class="expander" data-toggle="collapse">Log(String, Object, Object)</a></h4>
+  <h4 id="Aci_Unity_Logging_AciLog_Log_System_String_System_Object_UnityEngine_Object_" data-uid="Aci.Unity.Logging.AciLog.Log(System.String,System.Object,UnityEngine.Object)"><a href="#collapsible-Aci_Unity_Logging_AciLog_Log_System_String_System_Object_UnityEngine_Object_" class="expander" data-toggle="collapse">Log(String, Object, UnityEngine.Object)</a></h4>
   
-  <div id="collapsible-Aci_Unity_Logging_AciLog_Log_System_String_System_Object_System_Object_" class="collapse in">
+  <div id="collapsible-Aci_Unity_Logging_AciLog_Log_System_String_System_Object_UnityEngine_Object_" class="collapse in">
   <div class="markdown level1 summary"><p>Logs a message, a tag and an object context.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Log(string tag, object message, object context)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Log(string tag, object message, UnityEngine.Object context)</code></pre>
   </div>
 
   <h5 class="parameters">Parameters</h5>
@@ -251,7 +251,7 @@ of the logging class.</p>
     </tr>
     <tr>
       <td>
-        <span class="pull-right"><span class="xref">System.Object</span></span>
+        <span class="pull-right"><span class="xref">UnityEngine.Object</span></span>
         <span class="parametername">context</span>
         <p><p>Object context.</p>
 </p>
@@ -321,16 +321,16 @@ of the logging class.</p>
   
   <a id="Aci_Unity_Logging_AciLog_LogError_" data-uid="Aci.Unity.Logging.AciLog.LogError*"></a>
   
-  <h4 id="Aci_Unity_Logging_AciLog_LogError_System_String_System_Object_System_Object_" data-uid="Aci.Unity.Logging.AciLog.LogError(System.String,System.Object,System.Object)"><a href="#collapsible-Aci_Unity_Logging_AciLog_LogError_System_String_System_Object_System_Object_" class="expander" data-toggle="collapse">LogError(String, Object, Object)</a></h4>
+  <h4 id="Aci_Unity_Logging_AciLog_LogError_System_String_System_Object_UnityEngine_Object_" data-uid="Aci.Unity.Logging.AciLog.LogError(System.String,System.Object,UnityEngine.Object)"><a href="#collapsible-Aci_Unity_Logging_AciLog_LogError_System_String_System_Object_UnityEngine_Object_" class="expander" data-toggle="collapse">LogError(String, Object, UnityEngine.Object)</a></h4>
   
-  <div id="collapsible-Aci_Unity_Logging_AciLog_LogError_System_String_System_Object_System_Object_" class="collapse in">
+  <div id="collapsible-Aci_Unity_Logging_AciLog_LogError_System_String_System_Object_UnityEngine_Object_" class="collapse in">
   <div class="markdown level1 summary"><p>Logs an error message, a tag and an object context.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void LogError(string tag, object message, object context)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void LogError(string tag, object message, UnityEngine.Object context)</code></pre>
   </div>
 
   <h5 class="parameters">Parameters</h5>
@@ -353,7 +353,7 @@ of the logging class.</p>
     </tr>
     <tr>
       <td>
-        <span class="pull-right"><span class="xref">System.Object</span></span>
+        <span class="pull-right"><span class="xref">UnityEngine.Object</span></span>
         <span class="parametername">context</span>
         <p><p>Object context.</p>
 </p>
@@ -415,16 +415,16 @@ of the logging class.</p>
   
   <a id="Aci_Unity_Logging_AciLog_LogException_" data-uid="Aci.Unity.Logging.AciLog.LogException*"></a>
   
-  <h4 id="Aci_Unity_Logging_AciLog_LogException_System_Exception_System_Object_" data-uid="Aci.Unity.Logging.AciLog.LogException(System.Exception,System.Object)"><a href="#collapsible-Aci_Unity_Logging_AciLog_LogException_System_Exception_System_Object_" class="expander" data-toggle="collapse">LogException(Exception, Object)</a></h4>
+  <h4 id="Aci_Unity_Logging_AciLog_LogException_System_Exception_UnityEngine_Object_" data-uid="Aci.Unity.Logging.AciLog.LogException(System.Exception,UnityEngine.Object)"><a href="#collapsible-Aci_Unity_Logging_AciLog_LogException_System_Exception_UnityEngine_Object_" class="expander" data-toggle="collapse">LogException(Exception, UnityEngine.Object)</a></h4>
   
-  <div id="collapsible-Aci_Unity_Logging_AciLog_LogException_System_Exception_System_Object_" class="collapse in">
+  <div id="collapsible-Aci_Unity_Logging_AciLog_LogException_System_Exception_UnityEngine_Object_" class="collapse in">
   <div class="markdown level1 summary"><p>Logs an exception.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void LogException(Exception exception, object context)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void LogException(Exception exception, UnityEngine.Object context)</code></pre>
   </div>
 
   <h5 class="parameters">Parameters</h5>
@@ -439,7 +439,7 @@ of the logging class.</p>
     </tr>
     <tr>
       <td>
-        <span class="pull-right"><span class="xref">System.Object</span></span>
+        <span class="pull-right"><span class="xref">UnityEngine.Object</span></span>
         <span class="parametername">context</span>
         <p><p>Object context.</p>
 </p>
@@ -462,16 +462,16 @@ of the logging class.</p>
   
   <a id="Aci_Unity_Logging_AciLog_LogFormat_" data-uid="Aci.Unity.Logging.AciLog.LogFormat*"></a>
   
-  <h4 id="Aci_Unity_Logging_AciLog_LogFormat_LogType_System_Object_System_String_System_String_System_Object___" data-uid="Aci.Unity.Logging.AciLog.LogFormat(LogType,System.Object,System.String,System.String,System.Object[])"><a href="#collapsible-Aci_Unity_Logging_AciLog_LogFormat_LogType_System_Object_System_String_System_String_System_Object___" class="expander" data-toggle="collapse">LogFormat(LogType, Object, String, String, Object[])</a></h4>
+  <h4 id="Aci_Unity_Logging_AciLog_LogFormat_LogType_System_String_System_String_System_Object___" data-uid="Aci.Unity.Logging.AciLog.LogFormat(LogType,System.String,System.String,System.Object[])"><a href="#collapsible-Aci_Unity_Logging_AciLog_LogFormat_LogType_System_String_System_String_System_Object___" class="expander" data-toggle="collapse">LogFormat(LogType, String, String, Object[])</a></h4>
   
-  <div id="collapsible-Aci_Unity_Logging_AciLog_LogFormat_LogType_System_Object_System_String_System_String_System_Object___" class="collapse in">
-  <div class="markdown level1 summary"><p>Logs a formatted message with a tag and object context.</p>
+  <div id="collapsible-Aci_Unity_Logging_AciLog_LogFormat_LogType_System_String_System_String_System_Object___" class="collapse in">
+  <div class="markdown level1 summary"><p>Logs a formatted message with a tag.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void LogFormat(LogType logType, object context, string tag, string format, params object[] args)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void LogFormat(LogType logType, string tag, string format, params object[] args)</code></pre>
   </div>
 
   <h5 class="parameters">Parameters</h5>
@@ -481,14 +481,6 @@ of the logging class.</p>
         <span class="pull-right"><span class="xref">LogType</span></span>
         <span class="parametername">logType</span>
         <p><p>Target Unity <see cref="!:LogType"></see>.</p>
-</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="pull-right"><span class="xref">System.Object</span></span>
-        <span class="parametername">context</span>
-        <p><p>Object context.</p>
 </p>
       </td>
     </tr>
@@ -533,16 +525,16 @@ of the logging class.</p>
   
   <a id="Aci_Unity_Logging_AciLog_LogFormat_" data-uid="Aci.Unity.Logging.AciLog.LogFormat*"></a>
   
-  <h4 id="Aci_Unity_Logging_AciLog_LogFormat_LogType_System_String_System_String_System_Object___" data-uid="Aci.Unity.Logging.AciLog.LogFormat(LogType,System.String,System.String,System.Object[])"><a href="#collapsible-Aci_Unity_Logging_AciLog_LogFormat_LogType_System_String_System_String_System_Object___" class="expander" data-toggle="collapse">LogFormat(LogType, String, String, Object[])</a></h4>
+  <h4 id="Aci_Unity_Logging_AciLog_LogFormat_LogType_UnityEngine_Object_System_String_System_String_System_Object___" data-uid="Aci.Unity.Logging.AciLog.LogFormat(LogType,UnityEngine.Object,System.String,System.String,System.Object[])"><a href="#collapsible-Aci_Unity_Logging_AciLog_LogFormat_LogType_UnityEngine_Object_System_String_System_String_System_Object___" class="expander" data-toggle="collapse">LogFormat(LogType, UnityEngine.Object, String, String, Object[])</a></h4>
   
-  <div id="collapsible-Aci_Unity_Logging_AciLog_LogFormat_LogType_System_String_System_String_System_Object___" class="collapse in">
-  <div class="markdown level1 summary"><p>Logs a formatted message with a tag.</p>
+  <div id="collapsible-Aci_Unity_Logging_AciLog_LogFormat_LogType_UnityEngine_Object_System_String_System_String_System_Object___" class="collapse in">
+  <div class="markdown level1 summary"><p>Logs a formatted message with a tag and object context.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void LogFormat(LogType logType, string tag, string format, params object[] args)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void LogFormat(LogType logType, UnityEngine.Object context, string tag, string format, params object[] args)</code></pre>
   </div>
 
   <h5 class="parameters">Parameters</h5>
@@ -552,6 +544,14 @@ of the logging class.</p>
         <span class="pull-right"><span class="xref">LogType</span></span>
         <span class="parametername">logType</span>
         <p><p>Target Unity <see cref="!:LogType"></see>.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">UnityEngine.Object</span></span>
+        <span class="parametername">context</span>
+        <p><p>Object context.</p>
 </p>
       </td>
     </tr>
@@ -643,16 +643,16 @@ of the logging class.</p>
   
   <a id="Aci_Unity_Logging_AciLog_LogWarning_" data-uid="Aci.Unity.Logging.AciLog.LogWarning*"></a>
   
-  <h4 id="Aci_Unity_Logging_AciLog_LogWarning_System_String_System_Object_System_Object_" data-uid="Aci.Unity.Logging.AciLog.LogWarning(System.String,System.Object,System.Object)"><a href="#collapsible-Aci_Unity_Logging_AciLog_LogWarning_System_String_System_Object_System_Object_" class="expander" data-toggle="collapse">LogWarning(String, Object, Object)</a></h4>
+  <h4 id="Aci_Unity_Logging_AciLog_LogWarning_System_String_System_Object_UnityEngine_Object_" data-uid="Aci.Unity.Logging.AciLog.LogWarning(System.String,System.Object,UnityEngine.Object)"><a href="#collapsible-Aci_Unity_Logging_AciLog_LogWarning_System_String_System_Object_UnityEngine_Object_" class="expander" data-toggle="collapse">LogWarning(String, Object, UnityEngine.Object)</a></h4>
   
-  <div id="collapsible-Aci_Unity_Logging_AciLog_LogWarning_System_String_System_Object_System_Object_" class="collapse in">
+  <div id="collapsible-Aci_Unity_Logging_AciLog_LogWarning_System_String_System_Object_UnityEngine_Object_" class="collapse in">
   <div class="markdown level1 summary"><p>Logs a warning mesasge, a tag and an object context.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void LogWarning(string tag, object message, object context)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void LogWarning(string tag, object message, UnityEngine.Object context)</code></pre>
   </div>
 
   <h5 class="parameters">Parameters</h5>
@@ -675,7 +675,7 @@ of the logging class.</p>
     </tr>
     <tr>
       <td>
-        <span class="pull-right"><span class="xref">System.Object</span></span>
+        <span class="pull-right"><span class="xref">UnityEngine.Object</span></span>
         <span class="parametername">context</span>
         <p><p>Object context.</p>
 </p>

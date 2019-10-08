@@ -1213,11 +1213,11 @@ references:
   commentId: T:Aci.Unity.Logging.AciLog
   fullName: Aci.Unity.Logging.AciLog
   nameWithType: AciLog
-- uid: Aci.Unity.Logging.AciLog.Construct(INetworkPublisher,ILogger)
+- uid: Aci.Unity.Logging.AciLog.Construct(Aci.Unity.Network.INetworkPublisher,ILogger)
   name: Construct(INetworkPublisher, ILogger)
-  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_Construct_INetworkPublisher_ILogger_
-  commentId: M:Aci.Unity.Logging.AciLog.Construct(INetworkPublisher,ILogger)
-  fullName: Aci.Unity.Logging.AciLog.Construct(INetworkPublisher, ILogger)
+  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_Construct_Aci_Unity_Network_INetworkPublisher_ILogger_
+  commentId: M:Aci.Unity.Logging.AciLog.Construct(Aci.Unity.Network.INetworkPublisher,ILogger)
+  fullName: Aci.Unity.Logging.AciLog.Construct(Aci.Unity.Network.INetworkPublisher, ILogger)
   nameWithType: AciLog.Construct(INetworkPublisher, ILogger)
 - uid: Aci.Unity.Logging.AciLog.Construct*
   name: Construct
@@ -1232,12 +1232,12 @@ references:
   commentId: M:Aci.Unity.Logging.AciLog.Log(System.String,System.Object)
   fullName: Aci.Unity.Logging.AciLog.Log(System.String, System.Object)
   nameWithType: AciLog.Log(String, Object)
-- uid: Aci.Unity.Logging.AciLog.Log(System.String,System.Object,System.Object)
-  name: Log(String, Object, Object)
-  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_Log_System_String_System_Object_System_Object_
-  commentId: M:Aci.Unity.Logging.AciLog.Log(System.String,System.Object,System.Object)
-  fullName: Aci.Unity.Logging.AciLog.Log(System.String, System.Object, System.Object)
-  nameWithType: AciLog.Log(String, Object, Object)
+- uid: Aci.Unity.Logging.AciLog.Log(System.String,System.Object,UnityEngine.Object)
+  name: Log(String, Object, UnityEngine.Object)
+  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_Log_System_String_System_Object_UnityEngine_Object_
+  commentId: M:Aci.Unity.Logging.AciLog.Log(System.String,System.Object,UnityEngine.Object)
+  fullName: Aci.Unity.Logging.AciLog.Log(System.String, System.Object, UnityEngine.Object)
+  nameWithType: AciLog.Log(String, Object, UnityEngine.Object)
 - uid: Aci.Unity.Logging.AciLog.Log*
   name: Log
   href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_Log_
@@ -1251,12 +1251,12 @@ references:
   commentId: M:Aci.Unity.Logging.AciLog.LogError(System.String,System.Object)
   fullName: Aci.Unity.Logging.AciLog.LogError(System.String, System.Object)
   nameWithType: AciLog.LogError(String, Object)
-- uid: Aci.Unity.Logging.AciLog.LogError(System.String,System.Object,System.Object)
-  name: LogError(String, Object, Object)
-  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogError_System_String_System_Object_System_Object_
-  commentId: M:Aci.Unity.Logging.AciLog.LogError(System.String,System.Object,System.Object)
-  fullName: Aci.Unity.Logging.AciLog.LogError(System.String, System.Object, System.Object)
-  nameWithType: AciLog.LogError(String, Object, Object)
+- uid: Aci.Unity.Logging.AciLog.LogError(System.String,System.Object,UnityEngine.Object)
+  name: LogError(String, Object, UnityEngine.Object)
+  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogError_System_String_System_Object_UnityEngine_Object_
+  commentId: M:Aci.Unity.Logging.AciLog.LogError(System.String,System.Object,UnityEngine.Object)
+  fullName: Aci.Unity.Logging.AciLog.LogError(System.String, System.Object, UnityEngine.Object)
+  nameWithType: AciLog.LogError(String, Object, UnityEngine.Object)
 - uid: Aci.Unity.Logging.AciLog.LogError*
   name: LogError
   href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogError_
@@ -1270,12 +1270,12 @@ references:
   commentId: M:Aci.Unity.Logging.AciLog.LogException(System.Exception)
   fullName: Aci.Unity.Logging.AciLog.LogException(System.Exception)
   nameWithType: AciLog.LogException(Exception)
-- uid: Aci.Unity.Logging.AciLog.LogException(System.Exception,System.Object)
-  name: LogException(Exception, Object)
-  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogException_System_Exception_System_Object_
-  commentId: M:Aci.Unity.Logging.AciLog.LogException(System.Exception,System.Object)
-  fullName: Aci.Unity.Logging.AciLog.LogException(System.Exception, System.Object)
-  nameWithType: AciLog.LogException(Exception, Object)
+- uid: Aci.Unity.Logging.AciLog.LogException(System.Exception,UnityEngine.Object)
+  name: LogException(Exception, UnityEngine.Object)
+  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogException_System_Exception_UnityEngine_Object_
+  commentId: M:Aci.Unity.Logging.AciLog.LogException(System.Exception,UnityEngine.Object)
+  fullName: Aci.Unity.Logging.AciLog.LogException(System.Exception, UnityEngine.Object)
+  nameWithType: AciLog.LogException(Exception, UnityEngine.Object)
 - uid: Aci.Unity.Logging.AciLog.LogException*
   name: LogException
   href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogException_
@@ -1283,15 +1283,6 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.Logging.AciLog.LogException
   nameWithType: AciLog.LogException
-- uid: Aci.Unity.Logging.AciLog.LogFormat(LogType,System.Object,System.String,System.String,System.Object[])
-  name: LogFormat(LogType, Object, String, String, Object[])
-  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogFormat_LogType_System_Object_System_String_System_String_System_Object___
-  commentId: M:Aci.Unity.Logging.AciLog.LogFormat(LogType,System.Object,System.String,System.String,System.Object[])
-  name.vb: LogFormat(LogType, Object, String, String, Object())
-  fullName: Aci.Unity.Logging.AciLog.LogFormat(LogType, System.Object, System.String, System.String, System.Object[])
-  fullName.vb: Aci.Unity.Logging.AciLog.LogFormat(LogType, System.Object, System.String, System.String, System.Object())
-  nameWithType: AciLog.LogFormat(LogType, Object, String, String, Object[])
-  nameWithType.vb: AciLog.LogFormat(LogType, Object, String, String, Object())
 - uid: Aci.Unity.Logging.AciLog.LogFormat(LogType,System.String,System.String,System.Object[])
   name: LogFormat(LogType, String, String, Object[])
   href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogFormat_LogType_System_String_System_String_System_Object___
@@ -1301,6 +1292,15 @@ references:
   fullName.vb: Aci.Unity.Logging.AciLog.LogFormat(LogType, System.String, System.String, System.Object())
   nameWithType: AciLog.LogFormat(LogType, String, String, Object[])
   nameWithType.vb: AciLog.LogFormat(LogType, String, String, Object())
+- uid: Aci.Unity.Logging.AciLog.LogFormat(LogType,UnityEngine.Object,System.String,System.String,System.Object[])
+  name: LogFormat(LogType, UnityEngine.Object, String, String, Object[])
+  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogFormat_LogType_UnityEngine_Object_System_String_System_String_System_Object___
+  commentId: M:Aci.Unity.Logging.AciLog.LogFormat(LogType,UnityEngine.Object,System.String,System.String,System.Object[])
+  name.vb: LogFormat(LogType, UnityEngine.Object, String, String, Object())
+  fullName: Aci.Unity.Logging.AciLog.LogFormat(LogType, UnityEngine.Object, System.String, System.String, System.Object[])
+  fullName.vb: Aci.Unity.Logging.AciLog.LogFormat(LogType, UnityEngine.Object, System.String, System.String, System.Object())
+  nameWithType: AciLog.LogFormat(LogType, UnityEngine.Object, String, String, Object[])
+  nameWithType.vb: AciLog.LogFormat(LogType, UnityEngine.Object, String, String, Object())
 - uid: Aci.Unity.Logging.AciLog.LogFormat*
   name: LogFormat
   href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogFormat_
@@ -1314,12 +1314,12 @@ references:
   commentId: M:Aci.Unity.Logging.AciLog.LogWarning(System.String,System.Object)
   fullName: Aci.Unity.Logging.AciLog.LogWarning(System.String, System.Object)
   nameWithType: AciLog.LogWarning(String, Object)
-- uid: Aci.Unity.Logging.AciLog.LogWarning(System.String,System.Object,System.Object)
-  name: LogWarning(String, Object, Object)
-  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogWarning_System_String_System_Object_System_Object_
-  commentId: M:Aci.Unity.Logging.AciLog.LogWarning(System.String,System.Object,System.Object)
-  fullName: Aci.Unity.Logging.AciLog.LogWarning(System.String, System.Object, System.Object)
-  nameWithType: AciLog.LogWarning(String, Object, Object)
+- uid: Aci.Unity.Logging.AciLog.LogWarning(System.String,System.Object,UnityEngine.Object)
+  name: LogWarning(String, Object, UnityEngine.Object)
+  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogWarning_System_String_System_Object_UnityEngine_Object_
+  commentId: M:Aci.Unity.Logging.AciLog.LogWarning(System.String,System.Object,UnityEngine.Object)
+  fullName: Aci.Unity.Logging.AciLog.LogWarning(System.String, System.Object, UnityEngine.Object)
+  nameWithType: AciLog.LogWarning(String, Object, UnityEngine.Object)
 - uid: Aci.Unity.Logging.AciLog.LogWarning*
   name: LogWarning
   href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogWarning_
@@ -6431,6 +6431,19 @@ references:
   commentId: T:Aci.Unity.Util.AsyncTimeProvider
   fullName: Aci.Unity.Util.AsyncTimeProvider
   nameWithType: AsyncTimeProvider
+- uid: Aci.Unity.Util.AsyncTimeProvider.Add(System.TimeSpan,System.Boolean)
+  name: Add(TimeSpan, Boolean)
+  href: api/Aci.Unity.Util.AsyncTimeProvider.html#Aci_Unity_Util_AsyncTimeProvider_Add_System_TimeSpan_System_Boolean_
+  commentId: M:Aci.Unity.Util.AsyncTimeProvider.Add(System.TimeSpan,System.Boolean)
+  fullName: Aci.Unity.Util.AsyncTimeProvider.Add(System.TimeSpan, System.Boolean)
+  nameWithType: AsyncTimeProvider.Add(TimeSpan, Boolean)
+- uid: Aci.Unity.Util.AsyncTimeProvider.Add*
+  name: Add
+  href: api/Aci.Unity.Util.AsyncTimeProvider.html#Aci_Unity_Util_AsyncTimeProvider_Add_
+  commentId: Overload:Aci.Unity.Util.AsyncTimeProvider.Add
+  isSpec: "True"
+  fullName: Aci.Unity.Util.AsyncTimeProvider.Add
+  nameWithType: AsyncTimeProvider.Add
 - uid: Aci.Unity.Util.AsyncTimeProvider.elapsed
   name: elapsed
   href: api/Aci.Unity.Util.AsyncTimeProvider.html#Aci_Unity_Util_AsyncTimeProvider_elapsed
@@ -6764,6 +6777,19 @@ references:
   commentId: T:Aci.Unity.Util.ITimeProvider
   fullName: Aci.Unity.Util.ITimeProvider
   nameWithType: ITimeProvider
+- uid: Aci.Unity.Util.ITimeProvider.Add(System.TimeSpan,System.Boolean)
+  name: Add(TimeSpan, Boolean)
+  href: api/Aci.Unity.Util.ITimeProvider.html#Aci_Unity_Util_ITimeProvider_Add_System_TimeSpan_System_Boolean_
+  commentId: M:Aci.Unity.Util.ITimeProvider.Add(System.TimeSpan,System.Boolean)
+  fullName: Aci.Unity.Util.ITimeProvider.Add(System.TimeSpan, System.Boolean)
+  nameWithType: ITimeProvider.Add(TimeSpan, Boolean)
+- uid: Aci.Unity.Util.ITimeProvider.Add*
+  name: Add
+  href: api/Aci.Unity.Util.ITimeProvider.html#Aci_Unity_Util_ITimeProvider_Add_
+  commentId: Overload:Aci.Unity.Util.ITimeProvider.Add
+  isSpec: "True"
+  fullName: Aci.Unity.Util.ITimeProvider.Add
+  nameWithType: ITimeProvider.Add
 - uid: Aci.Unity.Util.ITimeProvider.elapsed
   name: elapsed
   href: api/Aci.Unity.Util.ITimeProvider.html#Aci_Unity_Util_ITimeProvider_elapsed
