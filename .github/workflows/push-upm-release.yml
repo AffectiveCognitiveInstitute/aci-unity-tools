@@ -1,0 +1,17 @@
+on:
+  push:
+    branches:
+      - master
+name: UPM-release
+jobs:
+  filters:
+    name: Filters
+    runs-on: ubuntu-latest
+    steps:
+    - name: UPM-version
+      uses: ./Actions/git-upm-version
+      env:
+        GH_EMAIL: moritz.umfahrer@hs-offenburg.de
+        GH_USER: Moritz Umfahrer
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        UPM_FOLDER: Assets/aci-unity-tools
