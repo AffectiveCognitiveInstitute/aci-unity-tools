@@ -1,4 +1,4 @@
-// <copyright file=ITimeProvider.cs/>
+﻿// <copyright file=ITimeProvider.cs/>
 // <copyright>
 //   Copyright (c) 2018, Affective & Cognitive Institute
 //   

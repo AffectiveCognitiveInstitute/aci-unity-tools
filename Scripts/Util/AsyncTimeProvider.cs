@@ -1,4 +1,4 @@
-// <copyright file=AsyncTimeProvider.cs/>
+﻿// <copyright file=AsyncTimeProvider.cs/>
 // <copyright>
 //   Copyright (c) 2018, Affective & Cognitive Institute
 //   
