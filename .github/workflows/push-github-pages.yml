@@ -1,11 +1,13 @@
-on: push
+on:
+  push:
+    branches:
+      - master
 name: GitHub Pages
 jobs:
   docFX:
     name: DocFX
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
     - name: DocFX
       uses: ./Actions/docfx
     - name: Publish
