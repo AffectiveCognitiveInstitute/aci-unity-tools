@@ -24,7 +24,7 @@
 
 namespace Aci.Unity.Util
 {
-    interface ISceneService
+    public interface ISceneService
     {
         void SwitchScene(string sceneToUnload, string sceneToLoad);
     }
