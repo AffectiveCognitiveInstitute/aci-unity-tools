@@ -48,7 +48,7 @@ storedPatch=${semver_parts2[2]}
 
 # set version number
 version=""
-if [ "$storedMajor" -lt "$major" ] || [ "$storedMinor" -lt "$minor" ]  ; then
+if [[ "$storedMajor" -gt "$major" ]] || [[ "$storedMinor" -gt "$minor" ]]  ; then
   version=$storedVersion
 else
   version=${major}.$((minor)).$((patch+1))
