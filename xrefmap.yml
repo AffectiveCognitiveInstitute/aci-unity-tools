@@ -6771,6 +6771,25 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.Util.IConfigProvider.UnregisterClient
   nameWithType: IConfigProvider.UnregisterClient
+- uid: Aci.Unity.Util.ISceneService
+  name: ISceneService
+  href: api/Aci.Unity.Util.ISceneService.html
+  commentId: T:Aci.Unity.Util.ISceneService
+  fullName: Aci.Unity.Util.ISceneService
+  nameWithType: ISceneService
+- uid: Aci.Unity.Util.ISceneService.SwitchScene(System.String,System.String)
+  name: SwitchScene(String, String)
+  href: api/Aci.Unity.Util.ISceneService.html#Aci_Unity_Util_ISceneService_SwitchScene_System_String_System_String_
+  commentId: M:Aci.Unity.Util.ISceneService.SwitchScene(System.String,System.String)
+  fullName: Aci.Unity.Util.ISceneService.SwitchScene(System.String, System.String)
+  nameWithType: ISceneService.SwitchScene(String, String)
+- uid: Aci.Unity.Util.ISceneService.SwitchScene*
+  name: SwitchScene
+  href: api/Aci.Unity.Util.ISceneService.html#Aci_Unity_Util_ISceneService_SwitchScene_
+  commentId: Overload:Aci.Unity.Util.ISceneService.SwitchScene
+  isSpec: "True"
+  fullName: Aci.Unity.Util.ISceneService.SwitchScene
+  nameWithType: ISceneService.SwitchScene
 - uid: Aci.Unity.Util.ITimeProvider
   name: ITimeProvider
   href: api/Aci.Unity.Util.ITimeProvider.html
