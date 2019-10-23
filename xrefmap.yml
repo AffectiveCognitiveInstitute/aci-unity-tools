@@ -6952,6 +6952,25 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.Util.JsonConfigProvider.UnregisterClient
   nameWithType: JsonConfigProvider.UnregisterClient
+- uid: Aci.Unity.Util.SceneService
+  name: SceneService
+  href: api/Aci.Unity.Util.SceneService.html
+  commentId: T:Aci.Unity.Util.SceneService
+  fullName: Aci.Unity.Util.SceneService
+  nameWithType: SceneService
+- uid: Aci.Unity.Util.SceneService.SwitchScene(System.String,System.String)
+  name: SwitchScene(String, String)
+  href: api/Aci.Unity.Util.SceneService.html#Aci_Unity_Util_SceneService_SwitchScene_System_String_System_String_
+  commentId: M:Aci.Unity.Util.SceneService.SwitchScene(System.String,System.String)
+  fullName: Aci.Unity.Util.SceneService.SwitchScene(System.String, System.String)
+  nameWithType: SceneService.SwitchScene(String, String)
+- uid: Aci.Unity.Util.SceneService.SwitchScene*
+  name: SwitchScene
+  href: api/Aci.Unity.Util.SceneService.html#Aci_Unity_Util_SceneService_SwitchScene_
+  commentId: Overload:Aci.Unity.Util.SceneService.SwitchScene
+  isSpec: "True"
+  fullName: Aci.Unity.Util.SceneService.SwitchScene
+  nameWithType: SceneService.SwitchScene
 - uid: Aci.Unity.Util.SerializableDictionary`2
   name: SerializableDictionary<TK, TV>
   href: api/Aci.Unity.Util.SerializableDictionary-2.html

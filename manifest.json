@@ -1937,6 +1937,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.Util.SceneService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.Util.SceneService.html",
+          "hash": "IO0bR/8p6OcAhm9XT6tMEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Aci.Unity.Util.SerializableDictionary-2.yml",
       "output": {
         ".html": {
@@ -1977,7 +1989,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Util.html",
-          "hash": "1QGiyGwNmQJm7eYZ4BWaoQ=="
+          "hash": "G9A70n8aqAaz61lujeK+cw=="
         }
       },
       "is_incremental": false,
@@ -2001,7 +2013,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "pvvytpPfKBkB1jxe8i/PwA=="
+          "hash": "1fAK8RzCQSNaYk/4MFUmcQ=="
         }
       },
       "is_incremental": false,
@@ -2110,17 +2122,17 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "ManagedReferenceDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
         },
-        "ResourceDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "TocDocumentProcessor": {
