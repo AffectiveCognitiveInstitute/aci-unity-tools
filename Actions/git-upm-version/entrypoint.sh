@@ -39,7 +39,7 @@ patch=${semver_parts[2]}
 
 # get version number from package.json
 storedVersion=$(jq '.version' package.json | sed "s/\"//g")
-
+echo ${storedVersion}
 # get semantic version
 read -a semver_parts2 <<< ${storedVersion//./ }
 storedMajor=${semver_parts2[0]}
