@@ -40,7 +40,7 @@ namespace Aci.Unity.Services
             if (tex == null)
                 return null;
 
-            return Sprite.Create(tex, new Rect(0, 0, tex.width, tex.height), HalfVector);
+            return Sprite.Create(tex, new Rect(0, 0, tex.width, tex.height), HalfVector, 1f);
         }
 
         public void Clear()
