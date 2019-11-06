@@ -354,6 +354,44 @@ references:
   fullName.vb: Aci.Collections.Heap(Of TItem).Swap
   nameWithType: Heap<TItem>.Swap
   nameWithType.vb: Heap(Of TItem).Swap
+- uid: Aci.Collections.Heap`1.System#Collections#Generic#ICollection{TItem}#Add(`0)
+  name: ICollection<TItem>.Add(TItem)
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_System_Collections_Generic_ICollection_TItem__Add__0_
+  commentId: M:Aci.Collections.Heap`1.System#Collections#Generic#ICollection{TItem}#Add(`0)
+  name.vb: System.Collections.Generic.ICollection<TItem>.Add(TItem)
+  fullName: Aci.Collections.Heap<TItem>.System.Collections.Generic.ICollection<TItem>.Add(TItem)
+  fullName.vb: Aci.Collections.Heap(Of TItem).System.Collections.Generic.ICollection<TItem>.Add(TItem)
+  nameWithType: Heap<TItem>.ICollection<TItem>.Add(TItem)
+  nameWithType.vb: Heap(Of TItem).System.Collections.Generic.ICollection<TItem>.Add(TItem)
+- uid: Aci.Collections.Heap`1.System#Collections#Generic#ICollection{TItem}#Add*
+  name: ICollection<TItem>.Add
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_System_Collections_Generic_ICollection_TItem__Add_
+  commentId: Overload:Aci.Collections.Heap`1.System#Collections#Generic#ICollection{TItem}#Add
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ICollection<TItem>.Add
+  fullName: Aci.Collections.Heap<TItem>.System.Collections.Generic.ICollection<TItem>.Add
+  fullName.vb: Aci.Collections.Heap(Of TItem).System.Collections.Generic.ICollection<TItem>.Add
+  nameWithType: Heap<TItem>.ICollection<TItem>.Add
+  nameWithType.vb: Heap(Of TItem).System.Collections.Generic.ICollection<TItem>.Add
+- uid: Aci.Collections.Heap`1.System#Collections#Generic#ICollection{TItem}#CopyTo(`0[],System.Int32)
+  name: ICollection<TItem>.CopyTo(TItem[], Int32)
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_System_Collections_Generic_ICollection_TItem__CopyTo__0___System_Int32_
+  commentId: M:Aci.Collections.Heap`1.System#Collections#Generic#ICollection{TItem}#CopyTo(`0[],System.Int32)
+  name.vb: System.Collections.Generic.ICollection<TItem>.CopyTo(TItem(), Int32)
+  fullName: Aci.Collections.Heap<TItem>.System.Collections.Generic.ICollection<TItem>.CopyTo(TItem[], System.Int32)
+  fullName.vb: Aci.Collections.Heap(Of TItem).System.Collections.Generic.ICollection<TItem>.CopyTo(TItem(), System.Int32)
+  nameWithType: Heap<TItem>.ICollection<TItem>.CopyTo(TItem[], Int32)
+  nameWithType.vb: Heap(Of TItem).System.Collections.Generic.ICollection<TItem>.CopyTo(TItem(), Int32)
+- uid: Aci.Collections.Heap`1.System#Collections#Generic#ICollection{TItem}#CopyTo*
+  name: ICollection<TItem>.CopyTo
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_System_Collections_Generic_ICollection_TItem__CopyTo_
+  commentId: Overload:Aci.Collections.Heap`1.System#Collections#Generic#ICollection{TItem}#CopyTo
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ICollection<TItem>.CopyTo
+  fullName: Aci.Collections.Heap<TItem>.System.Collections.Generic.ICollection<TItem>.CopyTo
+  fullName.vb: Aci.Collections.Heap(Of TItem).System.Collections.Generic.ICollection<TItem>.CopyTo
+  nameWithType: Heap<TItem>.ICollection<TItem>.CopyTo
+  nameWithType.vb: Heap(Of TItem).System.Collections.Generic.ICollection<TItem>.CopyTo
 - uid: Aci.Collections.MaxHeap`1
   name: MaxHeap<TItem>
   href: api/Aci.Collections.MaxHeap-1.html
@@ -1213,11 +1251,11 @@ references:
   commentId: T:Aci.Unity.Logging.AciLog
   fullName: Aci.Unity.Logging.AciLog
   nameWithType: AciLog
-- uid: Aci.Unity.Logging.AciLog.Construct(Aci.Unity.Network.INetworkPublisher,ILogger)
+- uid: Aci.Unity.Logging.AciLog.Construct(INetworkPublisher,ILogger)
   name: Construct(INetworkPublisher, ILogger)
-  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_Construct_Aci_Unity_Network_INetworkPublisher_ILogger_
-  commentId: M:Aci.Unity.Logging.AciLog.Construct(Aci.Unity.Network.INetworkPublisher,ILogger)
-  fullName: Aci.Unity.Logging.AciLog.Construct(Aci.Unity.Network.INetworkPublisher, ILogger)
+  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_Construct_INetworkPublisher_ILogger_
+  commentId: M:Aci.Unity.Logging.AciLog.Construct(INetworkPublisher,ILogger)
+  fullName: Aci.Unity.Logging.AciLog.Construct(INetworkPublisher, ILogger)
   nameWithType: AciLog.Construct(INetworkPublisher, ILogger)
 - uid: Aci.Unity.Logging.AciLog.Construct*
   name: Construct
@@ -1232,12 +1270,12 @@ references:
   commentId: M:Aci.Unity.Logging.AciLog.Log(System.String,System.Object)
   fullName: Aci.Unity.Logging.AciLog.Log(System.String, System.Object)
   nameWithType: AciLog.Log(String, Object)
-- uid: Aci.Unity.Logging.AciLog.Log(System.String,System.Object,UnityEngine.Object)
-  name: Log(String, Object, UnityEngine.Object)
-  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_Log_System_String_System_Object_UnityEngine_Object_
-  commentId: M:Aci.Unity.Logging.AciLog.Log(System.String,System.Object,UnityEngine.Object)
-  fullName: Aci.Unity.Logging.AciLog.Log(System.String, System.Object, UnityEngine.Object)
-  nameWithType: AciLog.Log(String, Object, UnityEngine.Object)
+- uid: Aci.Unity.Logging.AciLog.Log(System.String,System.Object,System.Object)
+  name: Log(String, Object, Object)
+  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_Log_System_String_System_Object_System_Object_
+  commentId: M:Aci.Unity.Logging.AciLog.Log(System.String,System.Object,System.Object)
+  fullName: Aci.Unity.Logging.AciLog.Log(System.String, System.Object, System.Object)
+  nameWithType: AciLog.Log(String, Object, Object)
 - uid: Aci.Unity.Logging.AciLog.Log*
   name: Log
   href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_Log_
@@ -1251,12 +1289,12 @@ references:
   commentId: M:Aci.Unity.Logging.AciLog.LogError(System.String,System.Object)
   fullName: Aci.Unity.Logging.AciLog.LogError(System.String, System.Object)
   nameWithType: AciLog.LogError(String, Object)
-- uid: Aci.Unity.Logging.AciLog.LogError(System.String,System.Object,UnityEngine.Object)
-  name: LogError(String, Object, UnityEngine.Object)
-  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogError_System_String_System_Object_UnityEngine_Object_
-  commentId: M:Aci.Unity.Logging.AciLog.LogError(System.String,System.Object,UnityEngine.Object)
-  fullName: Aci.Unity.Logging.AciLog.LogError(System.String, System.Object, UnityEngine.Object)
-  nameWithType: AciLog.LogError(String, Object, UnityEngine.Object)
+- uid: Aci.Unity.Logging.AciLog.LogError(System.String,System.Object,System.Object)
+  name: LogError(String, Object, Object)
+  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogError_System_String_System_Object_System_Object_
+  commentId: M:Aci.Unity.Logging.AciLog.LogError(System.String,System.Object,System.Object)
+  fullName: Aci.Unity.Logging.AciLog.LogError(System.String, System.Object, System.Object)
+  nameWithType: AciLog.LogError(String, Object, Object)
 - uid: Aci.Unity.Logging.AciLog.LogError*
   name: LogError
   href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogError_
@@ -1270,12 +1308,12 @@ references:
   commentId: M:Aci.Unity.Logging.AciLog.LogException(System.Exception)
   fullName: Aci.Unity.Logging.AciLog.LogException(System.Exception)
   nameWithType: AciLog.LogException(Exception)
-- uid: Aci.Unity.Logging.AciLog.LogException(System.Exception,UnityEngine.Object)
-  name: LogException(Exception, UnityEngine.Object)
-  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogException_System_Exception_UnityEngine_Object_
-  commentId: M:Aci.Unity.Logging.AciLog.LogException(System.Exception,UnityEngine.Object)
-  fullName: Aci.Unity.Logging.AciLog.LogException(System.Exception, UnityEngine.Object)
-  nameWithType: AciLog.LogException(Exception, UnityEngine.Object)
+- uid: Aci.Unity.Logging.AciLog.LogException(System.Exception,System.Object)
+  name: LogException(Exception, Object)
+  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogException_System_Exception_System_Object_
+  commentId: M:Aci.Unity.Logging.AciLog.LogException(System.Exception,System.Object)
+  fullName: Aci.Unity.Logging.AciLog.LogException(System.Exception, System.Object)
+  nameWithType: AciLog.LogException(Exception, Object)
 - uid: Aci.Unity.Logging.AciLog.LogException*
   name: LogException
   href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogException_
@@ -1283,6 +1321,15 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.Logging.AciLog.LogException
   nameWithType: AciLog.LogException
+- uid: Aci.Unity.Logging.AciLog.LogFormat(LogType,System.Object,System.String,System.String,System.Object[])
+  name: LogFormat(LogType, Object, String, String, Object[])
+  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogFormat_LogType_System_Object_System_String_System_String_System_Object___
+  commentId: M:Aci.Unity.Logging.AciLog.LogFormat(LogType,System.Object,System.String,System.String,System.Object[])
+  name.vb: LogFormat(LogType, Object, String, String, Object())
+  fullName: Aci.Unity.Logging.AciLog.LogFormat(LogType, System.Object, System.String, System.String, System.Object[])
+  fullName.vb: Aci.Unity.Logging.AciLog.LogFormat(LogType, System.Object, System.String, System.String, System.Object())
+  nameWithType: AciLog.LogFormat(LogType, Object, String, String, Object[])
+  nameWithType.vb: AciLog.LogFormat(LogType, Object, String, String, Object())
 - uid: Aci.Unity.Logging.AciLog.LogFormat(LogType,System.String,System.String,System.Object[])
   name: LogFormat(LogType, String, String, Object[])
   href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogFormat_LogType_System_String_System_String_System_Object___
@@ -1292,15 +1339,6 @@ references:
   fullName.vb: Aci.Unity.Logging.AciLog.LogFormat(LogType, System.String, System.String, System.Object())
   nameWithType: AciLog.LogFormat(LogType, String, String, Object[])
   nameWithType.vb: AciLog.LogFormat(LogType, String, String, Object())
-- uid: Aci.Unity.Logging.AciLog.LogFormat(LogType,UnityEngine.Object,System.String,System.String,System.Object[])
-  name: LogFormat(LogType, UnityEngine.Object, String, String, Object[])
-  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogFormat_LogType_UnityEngine_Object_System_String_System_String_System_Object___
-  commentId: M:Aci.Unity.Logging.AciLog.LogFormat(LogType,UnityEngine.Object,System.String,System.String,System.Object[])
-  name.vb: LogFormat(LogType, UnityEngine.Object, String, String, Object())
-  fullName: Aci.Unity.Logging.AciLog.LogFormat(LogType, UnityEngine.Object, System.String, System.String, System.Object[])
-  fullName.vb: Aci.Unity.Logging.AciLog.LogFormat(LogType, UnityEngine.Object, System.String, System.String, System.Object())
-  nameWithType: AciLog.LogFormat(LogType, UnityEngine.Object, String, String, Object[])
-  nameWithType.vb: AciLog.LogFormat(LogType, UnityEngine.Object, String, String, Object())
 - uid: Aci.Unity.Logging.AciLog.LogFormat*
   name: LogFormat
   href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogFormat_
@@ -1314,12 +1352,12 @@ references:
   commentId: M:Aci.Unity.Logging.AciLog.LogWarning(System.String,System.Object)
   fullName: Aci.Unity.Logging.AciLog.LogWarning(System.String, System.Object)
   nameWithType: AciLog.LogWarning(String, Object)
-- uid: Aci.Unity.Logging.AciLog.LogWarning(System.String,System.Object,UnityEngine.Object)
-  name: LogWarning(String, Object, UnityEngine.Object)
-  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogWarning_System_String_System_Object_UnityEngine_Object_
-  commentId: M:Aci.Unity.Logging.AciLog.LogWarning(System.String,System.Object,UnityEngine.Object)
-  fullName: Aci.Unity.Logging.AciLog.LogWarning(System.String, System.Object, UnityEngine.Object)
-  nameWithType: AciLog.LogWarning(String, Object, UnityEngine.Object)
+- uid: Aci.Unity.Logging.AciLog.LogWarning(System.String,System.Object,System.Object)
+  name: LogWarning(String, Object, Object)
+  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogWarning_System_String_System_Object_System_Object_
+  commentId: M:Aci.Unity.Logging.AciLog.LogWarning(System.String,System.Object,System.Object)
+  fullName: Aci.Unity.Logging.AciLog.LogWarning(System.String, System.Object, System.Object)
+  nameWithType: AciLog.LogWarning(String, Object, Object)
 - uid: Aci.Unity.Logging.AciLog.LogWarning*
   name: LogWarning
   href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogWarning_
@@ -4335,13 +4373,13 @@ references:
   commentId: T:Aci.Unity.UI.Navigation.NavigationCompletedEvent
   fullName: Aci.Unity.UI.Navigation.NavigationCompletedEvent
   nameWithType: NavigationCompletedEvent
-- uid: Aci.Unity.UI.Navigation.NavigationCompletedEvent.#ctor(System.String,IReadOnlyCollection{Aci.Unity.UI.Navigation.IScreenController})
+- uid: Aci.Unity.UI.Navigation.NavigationCompletedEvent.#ctor(System.String,System.Collections.Generic.IReadOnlyCollection{Aci.Unity.UI.Navigation.IScreenController})
   name: NavigationCompletedEvent(String, IReadOnlyCollection<IScreenController>)
-  href: api/Aci.Unity.UI.Navigation.NavigationCompletedEvent.html#Aci_Unity_UI_Navigation_NavigationCompletedEvent__ctor_System_String_IReadOnlyCollection_Aci_Unity_UI_Navigation_IScreenController__
-  commentId: M:Aci.Unity.UI.Navigation.NavigationCompletedEvent.#ctor(System.String,IReadOnlyCollection{Aci.Unity.UI.Navigation.IScreenController})
+  href: api/Aci.Unity.UI.Navigation.NavigationCompletedEvent.html#Aci_Unity_UI_Navigation_NavigationCompletedEvent__ctor_System_String_System_Collections_Generic_IReadOnlyCollection_Aci_Unity_UI_Navigation_IScreenController__
+  commentId: M:Aci.Unity.UI.Navigation.NavigationCompletedEvent.#ctor(System.String,System.Collections.Generic.IReadOnlyCollection{Aci.Unity.UI.Navigation.IScreenController})
   name.vb: NavigationCompletedEvent(String, IReadOnlyCollection(Of IScreenController))
-  fullName: Aci.Unity.UI.Navigation.NavigationCompletedEvent.NavigationCompletedEvent(System.String, IReadOnlyCollection<Aci.Unity.UI.Navigation.IScreenController>)
-  fullName.vb: Aci.Unity.UI.Navigation.NavigationCompletedEvent.NavigationCompletedEvent(System.String, IReadOnlyCollection(Of Aci.Unity.UI.Navigation.IScreenController))
+  fullName: Aci.Unity.UI.Navigation.NavigationCompletedEvent.NavigationCompletedEvent(System.String, System.Collections.Generic.IReadOnlyCollection<Aci.Unity.UI.Navigation.IScreenController>)
+  fullName.vb: Aci.Unity.UI.Navigation.NavigationCompletedEvent.NavigationCompletedEvent(System.String, System.Collections.Generic.IReadOnlyCollection(Of Aci.Unity.UI.Navigation.IScreenController))
   nameWithType: NavigationCompletedEvent.NavigationCompletedEvent(String, IReadOnlyCollection<IScreenController>)
   nameWithType.vb: NavigationCompletedEvent.NavigationCompletedEvent(String, IReadOnlyCollection(Of IScreenController))
 - uid: Aci.Unity.UI.Navigation.NavigationCompletedEvent.#ctor*
@@ -7088,18 +7126,18 @@ references:
   commentId: T:Aci.Unity.Util.UnityMainThreadDispatcher
   fullName: Aci.Unity.Util.UnityMainThreadDispatcher
   nameWithType: UnityMainThreadDispatcher
-- uid: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(IEnumerator)
-  name: Enqueue(IEnumerator)
-  href: api/Aci.Unity.Util.UnityMainThreadDispatcher.html#Aci_Unity_Util_UnityMainThreadDispatcher_Enqueue_IEnumerator_
-  commentId: M:Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(IEnumerator)
-  fullName: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(IEnumerator)
-  nameWithType: UnityMainThreadDispatcher.Enqueue(IEnumerator)
 - uid: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(System.Action)
   name: Enqueue(Action)
   href: api/Aci.Unity.Util.UnityMainThreadDispatcher.html#Aci_Unity_Util_UnityMainThreadDispatcher_Enqueue_System_Action_
   commentId: M:Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(System.Action)
   fullName: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(System.Action)
   nameWithType: UnityMainThreadDispatcher.Enqueue(Action)
+- uid: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(System.Collections.Generic.IEnumerator)
+  name: Enqueue(IEnumerator)
+  href: api/Aci.Unity.Util.UnityMainThreadDispatcher.html#Aci_Unity_Util_UnityMainThreadDispatcher_Enqueue_System_Collections_Generic_IEnumerator_
+  commentId: M:Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(System.Collections.Generic.IEnumerator)
+  fullName: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(System.Collections.Generic.IEnumerator)
+  nameWithType: UnityMainThreadDispatcher.Enqueue(IEnumerator)
 - uid: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue*
   name: Enqueue
   href: api/Aci.Unity.Util.UnityMainThreadDispatcher.html#Aci_Unity_Util_UnityMainThreadDispatcher_Enqueue_
