@@ -1,7 +1,7 @@
 {
   "name": "com.aci.unitytools",
   "displayName": "ACI Unity tools",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "unity": "2018.1",
   "description": "This is a collection of tools used for Unity development by the ACI for internal projects.",
   "author": "James Gay <@JJarvis89>",

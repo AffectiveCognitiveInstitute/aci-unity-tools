@@ -93,8 +93,11 @@ namespace Aci.Unity.Util
                 sw.Reset();
             }
             _subStartTime = DateTime.Now;
-            if (total)
-                _startTime = DateTime.Now;
+            _elapsed = TimeSpan.Zero;
+            if (!total)
+                return;
+            _startTime = DateTime.Now;
+            _elapsedTotal = TimeSpan.Zero;
         }
 
         /// <inheritdoc />
