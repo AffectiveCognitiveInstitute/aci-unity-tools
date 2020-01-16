@@ -56,19 +56,29 @@ namespace Aci.Unity.UI.ViewControllers
         public IAciEventManager broker
         {
             get { return _broker; }
-            set
-            {
-                UnregisterFromEvents();
-                _broker = value;
-                RegisterForEvents();
-            }
+            set { _broker = value; }
         }
 
         private void Awake()
         {
             _rawImage = GetComponent<RawImage>();
-            if(playOnAwake)
+            if (playOnAwake)
                 StartCameraFeed();
+        }
+
+        private void OnEnable()
+        {
+            RegisterForEvents();
+        }
+
+        private void OnDisable()
+        {
+            UnregisterFromEvents();
+        }
+
+        private void OnDestroy()
+        {
+            StopCameraFeed();
         }
 
         /// <summary>
