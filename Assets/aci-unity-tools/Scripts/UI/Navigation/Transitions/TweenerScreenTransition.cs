@@ -21,7 +21,7 @@ namespace Aci.Unity.UI.Navigation
         public override void DisplayImmediately()
         {
             for (int i = 0; i < m_EnterTween.director.tweeners.Length; i++)
-                m_EnterTween.director.tweeners[i].Seek(0);
+                m_EnterTween.director.tweeners[i].Seek(m_EnterTween.playReverse? 0 : 1);
         }
 
         public override Task OnScreenBeingRemoved()
