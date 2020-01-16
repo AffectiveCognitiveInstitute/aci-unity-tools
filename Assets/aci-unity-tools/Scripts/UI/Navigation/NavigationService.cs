@@ -166,7 +166,7 @@ namespace Aci.Unity.UI.Navigation
             if (!m_ScreenRegistry.TryGetScreen(screen, out nextScreen))
                 throw new ArgumentNullException(nameof(screen), $"Screen with id {screen} does not exist!");
 
-            if(m_Current != null && addToHistory)
+            if (m_Current != null && addToHistory)
                 m_NavigationStack.Push(m_Current);
 
             try
@@ -179,7 +179,16 @@ namespace Aci.Unity.UI.Navigation
                     {
                         m_Current.OnNavigatingAway(parameters);
                         await m_Current.UpdateDisplayAsync(NavigationMode.Leaving, false);
+
+                        if (!addToHistory)
+                        {
+                            m_Current.OnScreenDestroyed(s_DefaultParams);
+#pragma warning disable CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
+                            m_Current.UpdateDisplayAsync(NavigationMode.Removed, false);
+#pragma warning restore CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
+                        }
                     }
+
                     m_Current = nextScreen;
                     m_Current.Prepare();
                     m_Current.OnNavigatingTo(parameters);
@@ -201,6 +210,15 @@ namespace Aci.Unity.UI.Navigation
                         nextScreen.OnNavigatingTo(parameters);
                         m_ParallelTasks.Add(nextScreen.UpdateDisplayAsync(NavigationMode.Entering));
                         await Task.WhenAll(m_ParallelTasks);
+
+                        if (m_Current != null && !addToHistory)
+                        {
+                            m_Current.OnScreenDestroyed(s_DefaultParams);
+#pragma warning disable CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
+                            m_Current.UpdateDisplayAsync(NavigationMode.Removed, false);
+#pragma warning restore CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
+                        }
+
                         m_Current = nextScreen;
                         m_Current.OnNavigatedTo(parameters);
                     }
@@ -210,6 +228,14 @@ namespace Aci.Unity.UI.Navigation
                         {
                             m_Current.OnNavigatingAway(parameters);
                             await m_Current.UpdateDisplayAsync(NavigationMode.Leaving);
+
+                            if (!addToHistory)
+                            {
+                                m_Current.OnScreenDestroyed(s_DefaultParams);
+#pragma warning disable CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
+                                m_Current.UpdateDisplayAsync(NavigationMode.Removed, false);
+#pragma warning restore CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
+                            }
                         }
 
                         m_Current = nextScreen;
