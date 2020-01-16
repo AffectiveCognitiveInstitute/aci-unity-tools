@@ -159,11 +159,27 @@ namespace Aci.Unity.Sensor
         private void OnDestroy()
         {
             m_ConfigProvider?.UnregisterClient(this);
+            Stop();
         }
 
         void Start()
         {
             StartOrRefreshCamera();
+        }
+
+        private void Stop()
+        {
+            if (m_CamTex.isPlaying)
+            {
+                m_Cts?.Cancel();
+                m_CamTex.Stop();
+            }
+
+            Destroy(m_CamTex);
+            m_CamTex = null;
+
+            // Make sure WebCamTexture gets cleaned up
+            Resources.UnloadUnusedAssets();
         }
 
         /// <summary>
