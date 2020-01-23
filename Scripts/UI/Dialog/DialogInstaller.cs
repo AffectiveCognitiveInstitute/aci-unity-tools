@@ -6,7 +6,7 @@ namespace Aci.Unity.UI.Dialog
     {
         public override void InstallBindings()
         {
-            Container.Bind<IDialogService>().To<DialogService>().AsSingle();
+            Container.Bind<IDialogService>().To<DialogService>().AsCached();
             Container.Bind(typeof(IDialogRequestReceiver), typeof(IDialogDestroyer)).To<DialogManager>().AsCached();
         }
     }
