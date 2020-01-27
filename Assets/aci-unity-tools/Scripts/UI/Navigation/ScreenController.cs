@@ -5,6 +5,7 @@ using Zenject;
 
 namespace Aci.Unity.UI.Navigation
 {
+    [RequireComponent(typeof(Canvas))]
     public class ScreenController : MonoBehaviour, IScreenController
     {
         public enum PrefabLoadingStrategy
@@ -30,6 +31,8 @@ namespace Aci.Unity.UI.Navigation
         private IAciEventManager m_EventManager;
         private IInstantiator m_Instantiator;
         private IScreenTransition m_ScreenTransition;
+        private Canvas m_Canvas;
+
         public string id => m_Id;
 
         [Inject]
@@ -40,6 +43,11 @@ namespace Aci.Unity.UI.Navigation
             m_ScreenRegistry = screenRegistry;
             m_EventManager = eventManager;
             m_Instantiator = instantiator;
+        }
+
+        private void Awake()
+        {
+            m_Canvas = GetComponent<Canvas>();
         }
 
         private void OnEnable()
@@ -60,7 +68,7 @@ namespace Aci.Unity.UI.Navigation
                 m_ScreenTransition = m_Instance.GetComponent<IScreenTransition>();
                 m_Instance.transform.SetParent(transform, false);
                 m_Instance.name = m_Id;
-                m_Instance.SetActive(false);
+                m_Canvas.enabled = false;
             }
         }
 
@@ -120,12 +128,12 @@ namespace Aci.Unity.UI.Navigation
                 {
                     case NavigationMode.Entering:
                     case NavigationMode.Returning:
-                        m_Instance.SetActive(true);
+                        m_Canvas.enabled = true;
                         if (m_ScreenTransition != null)
                             m_ScreenTransition.DisplayImmediately();
                         break;
                     case NavigationMode.Leaving:
-                        m_Instance.SetActive(false);
+                        m_Canvas.enabled = false;
                         break;
                     case NavigationMode.Removed:
                         Destroy(m_Instance);
@@ -136,14 +144,14 @@ namespace Aci.Unity.UI.Navigation
             else
             {
                 if (navigationMode == NavigationMode.Entering || navigationMode == NavigationMode.Returning)
-                    m_Instance.SetActive(true);
+                    m_Canvas.enabled = true;
 
                 await m_ScreenTransition.MakeTransitionAsync(navigationMode);
 
                 if (navigationMode == NavigationMode.Removed)
                     Destroy(m_Instance);
                 else if (navigationMode == NavigationMode.Leaving)
-                    m_Instance.SetActive(false);
+                    m_Canvas.enabled = false;
             }
         }
 
