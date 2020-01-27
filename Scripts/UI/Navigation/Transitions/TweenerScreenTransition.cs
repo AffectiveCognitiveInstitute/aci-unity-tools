@@ -46,6 +46,9 @@ namespace Aci.Unity.UI.Navigation
 
         private Task ExecuteTween(TweenerDirectorDecorator tweener)
         {
+            if (tweener.director == null)
+                return Task.CompletedTask;
+
             return !tweener.playReverse? tweener.director.PlayForwardsAsync() : tweener.director.PlayReverseAsync();
         }
     }
