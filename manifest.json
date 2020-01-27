@@ -53,6 +53,150 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Aci.UI.Binding.BooleanToColorConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.UI.Binding.BooleanToColorConverter.html",
+          "hash": "08hB+AyAe82SqDzvlWjF+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.UI.Binding.BooleanToStringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.UI.Binding.BooleanToStringConverter.html",
+          "hash": "klX+SSWiBGxQYNIdh3Rrtw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.UI.Binding.FloatToColorConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.UI.Binding.FloatToColorConverter.html",
+          "hash": "S1yvaOeeX4tpgU+9aRueYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.UI.Binding.INotifyPropertyChanged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.UI.Binding.INotifyPropertyChanged.html",
+          "hash": "Ez9TGiQ8tiW8Gr+KOyNhnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.UI.Binding.IValueConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.UI.Binding.IValueConverter.html",
+          "hash": "KB6/RTMBU+JC82dcs/fJaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.UI.Binding.IntegerToStringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.UI.Binding.IntegerToStringConverter.html",
+          "hash": "Q/ZCwIK0U952Vr4RoLjaxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.UI.Binding.InverseBooleanConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.UI.Binding.InverseBooleanConverter.html",
+          "hash": "DX07zNG2BXk+n+VM7hh5Cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.UI.Binding.MonoBindable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.UI.Binding.MonoBindable.html",
+          "hash": "l7kIkX8qh9mqd3JGBhDd8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.UI.Binding.PropertyBinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.UI.Binding.PropertyBinder.html",
+          "hash": "fHF4zKqZpauLTeXkCgb+Dw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.UI.Binding.PropertyChangedDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.UI.Binding.PropertyChangedDelegate.html",
+          "hash": "Yo5MAjz7j/xtYqWq3JYv2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.UI.Binding.PropertyChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.UI.Binding.PropertyChangedEventArgs.html",
+          "hash": "OX21tBpqYHs5dLuUhVJpHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.UI.Binding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.UI.Binding.html",
+          "hash": "mBo+pXUbkd2MyrCKELtEFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Aci.UI.Collections.Pool-1.yml",
       "output": {
         ".html": {
@@ -2025,7 +2169,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "6SbDs/AmriuewqbzFYSb+Q=="
+          "hash": "euXhUs5Ie2/goc3y8NsLtQ=="
         }
       },
       "is_incremental": false,
@@ -2134,17 +2278,17 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ResourceDocumentProcessor": {
