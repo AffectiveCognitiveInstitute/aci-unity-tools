@@ -756,6 +756,56 @@ references:
   commentId: T:Aci.UI.Binding.PropertyBinder
   fullName: Aci.UI.Binding.PropertyBinder
   nameWithType: PropertyBinder
+- uid: Aci.UI.Binding.PropertyBinderEditor
+  name: PropertyBinderEditor
+  href: api/Aci.UI.Binding.PropertyBinderEditor.html
+  commentId: T:Aci.UI.Binding.PropertyBinderEditor
+  fullName: Aci.UI.Binding.PropertyBinderEditor
+  nameWithType: PropertyBinderEditor
+- uid: Aci.UI.Binding.PropertyBinderEditor.Entry
+  name: PropertyBinderEditor.Entry
+  href: api/Aci.UI.Binding.PropertyBinderEditor.Entry.html
+  commentId: T:Aci.UI.Binding.PropertyBinderEditor.Entry
+  fullName: Aci.UI.Binding.PropertyBinderEditor.Entry
+  nameWithType: PropertyBinderEditor.Entry
+- uid: Aci.UI.Binding.PropertyBinderEditor.Entry.component
+  name: component
+  href: api/Aci.UI.Binding.PropertyBinderEditor.Entry.html#Aci_UI_Binding_PropertyBinderEditor_Entry_component
+  commentId: F:Aci.UI.Binding.PropertyBinderEditor.Entry.component
+  fullName: Aci.UI.Binding.PropertyBinderEditor.Entry.component
+  nameWithType: PropertyBinderEditor.Entry.component
+- uid: Aci.UI.Binding.PropertyBinderEditor.Entry.propertyName
+  name: propertyName
+  href: api/Aci.UI.Binding.PropertyBinderEditor.Entry.html#Aci_UI_Binding_PropertyBinderEditor_Entry_propertyName
+  commentId: F:Aci.UI.Binding.PropertyBinderEditor.Entry.propertyName
+  fullName: Aci.UI.Binding.PropertyBinderEditor.Entry.propertyName
+  nameWithType: PropertyBinderEditor.Entry.propertyName
+- uid: Aci.UI.Binding.PropertyBinderEditor.Entry.ToString
+  name: ToString()
+  href: api/Aci.UI.Binding.PropertyBinderEditor.Entry.html#Aci_UI_Binding_PropertyBinderEditor_Entry_ToString
+  commentId: M:Aci.UI.Binding.PropertyBinderEditor.Entry.ToString
+  fullName: Aci.UI.Binding.PropertyBinderEditor.Entry.ToString()
+  nameWithType: PropertyBinderEditor.Entry.ToString()
+- uid: Aci.UI.Binding.PropertyBinderEditor.Entry.ToString*
+  name: ToString
+  href: api/Aci.UI.Binding.PropertyBinderEditor.Entry.html#Aci_UI_Binding_PropertyBinderEditor_Entry_ToString_
+  commentId: Overload:Aci.UI.Binding.PropertyBinderEditor.Entry.ToString
+  isSpec: "True"
+  fullName: Aci.UI.Binding.PropertyBinderEditor.Entry.ToString
+  nameWithType: PropertyBinderEditor.Entry.ToString
+- uid: Aci.UI.Binding.PropertyBinderEditor.OnInspectorGUI
+  name: OnInspectorGUI()
+  href: api/Aci.UI.Binding.PropertyBinderEditor.html#Aci_UI_Binding_PropertyBinderEditor_OnInspectorGUI
+  commentId: M:Aci.UI.Binding.PropertyBinderEditor.OnInspectorGUI
+  fullName: Aci.UI.Binding.PropertyBinderEditor.OnInspectorGUI()
+  nameWithType: PropertyBinderEditor.OnInspectorGUI()
+- uid: Aci.UI.Binding.PropertyBinderEditor.OnInspectorGUI*
+  name: OnInspectorGUI
+  href: api/Aci.UI.Binding.PropertyBinderEditor.html#Aci_UI_Binding_PropertyBinderEditor_OnInspectorGUI_
+  commentId: Overload:Aci.UI.Binding.PropertyBinderEditor.OnInspectorGUI
+  isSpec: "True"
+  fullName: Aci.UI.Binding.PropertyBinderEditor.OnInspectorGUI
+  nameWithType: PropertyBinderEditor.OnInspectorGUI
 - uid: Aci.UI.Binding.PropertyChangedDelegate
   name: PropertyChangedDelegate
   href: api/Aci.UI.Binding.PropertyChangedDelegate.html
