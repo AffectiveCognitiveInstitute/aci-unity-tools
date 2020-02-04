@@ -1901,11 +1901,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.TweenerDirectorNavigationTrigger.NavigationEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Tweening.TweenerDirectorNavigationTrigger.NavigationEvents.html",
+          "hash": "3a7BYEulYpVEq25mh7RbdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.TweenerDirectorNavigationTrigger.PlaybackType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Tweening.TweenerDirectorNavigationTrigger.PlaybackType.html",
+          "hash": "cnjQrnFWidA0IXIIQy0pIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Tweening.TweenerDirectorNavigationTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Tweening.TweenerDirectorNavigationTrigger.html",
+          "hash": "2PK58sxWbjAFLlMXyMueyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Aci.Unity.UI.Tweening.yml",
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Tweening.html",
-          "hash": "E27iRPbqKTAkiPEj6TdaWw=="
+          "hash": "mgimACTuvGyFAGPhA7gNJA=="
         }
       },
       "is_incremental": false,
@@ -2193,7 +2229,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "yoGZvPTig9KrPU5ZCqCwZQ=="
+          "hash": "uJDr+UycbB4H8kuB/k7DGw=="
         }
       },
       "is_incremental": false,
@@ -2302,6 +2338,14 @@
         "incrementalPhase": "build"
       },
       "processors": {
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -2310,14 +2354,6 @@
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build"
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
           "incrementalPhase": "build"
         }
       }
