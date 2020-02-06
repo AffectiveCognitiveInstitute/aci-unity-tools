@@ -508,7 +508,7 @@
       <td>
         <span class="pull-right"><span class="xref">System.String</span></span>
         <span class="parametername">screen</span>
-        <p><p>The identifier of the screen to be pushes</p>
+        <p><p>The identifier of the screen to be pushed</p>
 </p>
       </td>
     </tr>
@@ -556,6 +556,72 @@
   
   <h5 class="implements">Implements</h5>
       <div><a class="xref" href="Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_PushAsync_System_String_Aci_Unity_UI_Navigation_INavigationParameters_Aci_Unity_UI_Navigation_AnimationOptions_System_Boolean_">INavigationService.PushAsync(String, INavigationParameters, AnimationOptions, Boolean)</a></div>
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="Aci_Unity_UI_Navigation_NavigationService_PushWithNewStackAsync_" data-uid="Aci.Unity.UI.Navigation.NavigationService.PushWithNewStackAsync*"></a>
+  
+  <h4 id="Aci_Unity_UI_Navigation_NavigationService_PushWithNewStackAsync_System_String_Aci_Unity_UI_Navigation_INavigationParameters_Aci_Unity_UI_Navigation_AnimationOptions_" data-uid="Aci.Unity.UI.Navigation.NavigationService.PushWithNewStackAsync(System.String,Aci.Unity.UI.Navigation.INavigationParameters,Aci.Unity.UI.Navigation.AnimationOptions)"><a href="#collapsible-Aci_Unity_UI_Navigation_NavigationService_PushWithNewStackAsync_System_String_Aci_Unity_UI_Navigation_INavigationParameters_Aci_Unity_UI_Navigation_AnimationOptions_" class="expander" data-toggle="collapse">PushWithNewStackAsync(String, INavigationParameters, AnimationOptions)</a></h4>
+  
+  <div id="collapsible-Aci_Unity_UI_Navigation_NavigationService_PushWithNewStackAsync_System_String_Aci_Unity_UI_Navigation_INavigationParameters_Aci_Unity_UI_Navigation_AnimationOptions_" class="collapse in">
+  <div class="markdown level1 summary"><p>Pushes a screen and starts a new navigation stack. This will destroy any screens present on the current stack.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task PushWithNewStackAsync(string screen, INavigationParameters parameters, AnimationOptions animationOptions)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">screen</span>
+        <p><p>The identifier of the screen to be pushed.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="Aci.Unity.UI.Navigation.INavigationParameters.html">INavigationParameters</a></span>
+        <span class="parametername">parameters</span>
+        <p><p>Any values that should be passed to the new new screens.</p>
+</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="Aci.Unity.UI.Navigation.AnimationOptions.html">AnimationOptions</a></span>
+        <span class="parametername">animationOptions</span>
+        <p><p>Animation options for the screen being popped and for the screen that reappears.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">Task</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="implements">Implements</h5>
+      <div><a class="xref" href="Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_PushWithNewStackAsync_System_String_Aci_Unity_UI_Navigation_INavigationParameters_Aci_Unity_UI_Navigation_AnimationOptions_">INavigationService.PushWithNewStackAsync(String, INavigationParameters, AnimationOptions)</a></div>
   
   
   
