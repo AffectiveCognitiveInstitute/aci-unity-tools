@@ -272,7 +272,7 @@ namespace Aci.Unity.UI.Navigation
             {
                 s_DefaultParams.Clear();
                 // Destroy all screens in between
-                while (m_NavigationStack.Count > 1)
+                while (m_NavigationStack.Count > 0)
                 {
                     IScreenController oldScreen = m_NavigationStack.Pop();
                     oldScreen.OnScreenDestroyed(s_DefaultParams);
@@ -283,6 +283,13 @@ namespace Aci.Unity.UI.Navigation
             }
 
             return PushAsync(screen, parameters, animationOptions, false);
+        }
+
+        /// <inheritdoc />
+        public Task PushWithNewStackAsync(string screen, AnimationOptions animationOptions)
+        {
+            s_DefaultParams.Clear();
+            return PushWithNewStackAsync(screen, s_DefaultParams, animationOptions);
         }
     }
 }

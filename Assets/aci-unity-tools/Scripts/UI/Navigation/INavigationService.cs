@@ -68,6 +68,14 @@ namespace Aci.Unity.UI.Navigation
         ///     Pushes a screen and starts a new navigation stack. This will destroy any screens present on the current stack.
         /// </summary>
         /// <param name="screen">The identifier of the screen to be pushed.</param>
+        /// <param name="animationOptions">Animation options for the screen being popped and for the screen that reappears.</param>
+        /// <returns></returns>
+        Task PushWithNewStackAsync(string screen, AnimationOptions animationOptions);
+
+        /// <summary>
+        ///     Pushes a screen and starts a new navigation stack. This will destroy any screens present on the current stack.
+        /// </summary>
+        /// <param name="screen">The identifier of the screen to be pushed.</param>
         /// <param name="parameters">Any values that should be passed to the new new screens.</param>
         /// <param name="animationOptions">Animation options for the screen being popped and for the screen that reappears.</param>
         /// <returns></returns>
