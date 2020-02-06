@@ -4453,6 +4453,12 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Navigation.INavigationService.PushAsync
   nameWithType: INavigationService.PushAsync
+- uid: Aci.Unity.UI.Navigation.INavigationService.PushWithNewStackAsync(System.String,Aci.Unity.UI.Navigation.AnimationOptions)
+  name: PushWithNewStackAsync(String, AnimationOptions)
+  href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_PushWithNewStackAsync_System_String_Aci_Unity_UI_Navigation_AnimationOptions_
+  commentId: M:Aci.Unity.UI.Navigation.INavigationService.PushWithNewStackAsync(System.String,Aci.Unity.UI.Navigation.AnimationOptions)
+  fullName: Aci.Unity.UI.Navigation.INavigationService.PushWithNewStackAsync(System.String, Aci.Unity.UI.Navigation.AnimationOptions)
+  nameWithType: INavigationService.PushWithNewStackAsync(String, AnimationOptions)
 - uid: Aci.Unity.UI.Navigation.INavigationService.PushWithNewStackAsync(System.String,Aci.Unity.UI.Navigation.INavigationParameters,Aci.Unity.UI.Navigation.AnimationOptions)
   name: PushWithNewStackAsync(String, INavigationParameters, AnimationOptions)
   href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_PushWithNewStackAsync_System_String_Aci_Unity_UI_Navigation_INavigationParameters_Aci_Unity_UI_Navigation_AnimationOptions_
@@ -4985,6 +4991,12 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Navigation.NavigationService.PushAsync
   nameWithType: NavigationService.PushAsync
+- uid: Aci.Unity.UI.Navigation.NavigationService.PushWithNewStackAsync(System.String,Aci.Unity.UI.Navigation.AnimationOptions)
+  name: PushWithNewStackAsync(String, AnimationOptions)
+  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_PushWithNewStackAsync_System_String_Aci_Unity_UI_Navigation_AnimationOptions_
+  commentId: M:Aci.Unity.UI.Navigation.NavigationService.PushWithNewStackAsync(System.String,Aci.Unity.UI.Navigation.AnimationOptions)
+  fullName: Aci.Unity.UI.Navigation.NavigationService.PushWithNewStackAsync(System.String, Aci.Unity.UI.Navigation.AnimationOptions)
+  nameWithType: NavigationService.PushWithNewStackAsync(String, AnimationOptions)
 - uid: Aci.Unity.UI.Navigation.NavigationService.PushWithNewStackAsync(System.String,Aci.Unity.UI.Navigation.INavigationParameters,Aci.Unity.UI.Navigation.AnimationOptions)
   name: PushWithNewStackAsync(String, INavigationParameters, AnimationOptions)
   href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_PushWithNewStackAsync_System_String_Aci_Unity_UI_Navigation_INavigationParameters_Aci_Unity_UI_Navigation_AnimationOptions_
