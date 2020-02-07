@@ -124,6 +124,11 @@ namespace Aci.Unity.UI.Tweening
         protected virtual void Awake()
         {
             //Seek(0f);
+            if(m_DelayTime > 0)
+            {
+                m_WaitForSecondsScaled = new WaitForSeconds(m_DelayTime);
+                m_WaitForSecondsUnscaled = new WaitForSecondsRealtime(m_DelayTime);
+            }
 
             if (m_PlayOnAwake)
                 Play(true);
