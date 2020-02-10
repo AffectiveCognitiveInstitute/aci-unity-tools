@@ -40,14 +40,14 @@ namespace Aci.UI.Binding
 
             if (m_BindingContext.objectReferenceValue != null)
             {
-                InvalidatePropertyValues(m_BindingContext.objectReferenceValue as MonoBehaviour, m_SourceEntries, ref m_BindingContextProperties, true);
+                InvalidatePropertyValues(m_BindingContext.objectReferenceValue as Component, m_SourceEntries, ref m_BindingContextProperties, true);
                 Entry e = m_SourceEntries.FirstOrDefault(x => x.component == m_BindingContext.objectReferenceValue && x.propertyName == m_SourcePropertyName.stringValue);
                 m_BindingContextPropertyIndex = m_SourceEntries.IndexOf(e);
             }
 
             if (m_TargetContext.objectReferenceValue != null)
             {
-                InvalidatePropertyValues(m_TargetContext.objectReferenceValue as MonoBehaviour, m_TargetEntries, ref m_TargetContextProperties, false);
+                InvalidatePropertyValues(m_TargetContext.objectReferenceValue as Component, m_TargetEntries, ref m_TargetContextProperties, false);
                 Entry e = m_TargetEntries.FirstOrDefault(x => x.component == m_TargetContext.objectReferenceValue && x.propertyName == m_TargetPropertyName.stringValue);
                 m_TargetContextPropertyIndex = m_TargetEntries.IndexOf(e);
             }
@@ -110,7 +110,7 @@ namespace Aci.UI.Binding
             }
         }
 
-        private void InvalidatePropertyValues(MonoBehaviour component, List<Entry> entries, ref string[] propertyNames, bool onlyWithINotifyPropertyChanged)
+        private void InvalidatePropertyValues(Component component, List<Entry> entries, ref string[] propertyNames, bool onlyWithINotifyPropertyChanged)
         {
             entries.Clear();
 
@@ -120,11 +120,11 @@ namespace Aci.UI.Binding
                 return;
             }
 
-            MonoBehaviour[] components = null;
+            Component[] components = null;
             if (onlyWithINotifyPropertyChanged)
-                components = component.GetComponents<MonoBehaviour>().Where(x => (x as INotifyPropertyChanged) != null).ToArray();
+                components = component.GetComponents<Component>().Where(x => (x as INotifyPropertyChanged) != null).ToArray();
             else
-                components = component.GetComponents<MonoBehaviour>();
+                components = component.GetComponents<Component>();
 
             for (int i = 0; i < components.Length; i++)
             {
@@ -176,7 +176,7 @@ namespace Aci.UI.Binding
 
         public struct Entry
         {
-            public MonoBehaviour component;
+            public Component component;
             public string propertyName;
 
             public override string ToString()
