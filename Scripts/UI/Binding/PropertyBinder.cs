@@ -12,7 +12,7 @@ namespace Aci.UI.Binding
         private MonoBehaviour m_BindingContext;
 
         [SerializeField]
-        private MonoBehaviour m_TargetContext;
+        private Component m_TargetContext;
 
         [SerializeField]
         private UnityEngine.Object m_ValueConverter;
