@@ -965,11 +965,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Dialog.DialogComponent.DialogAppearedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Dialog.DialogComponent.DialogAppearedEvent.html",
+          "hash": "h4JrQ5uY4+0rZu9dmHEa2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Aci.Unity.UI.Dialog.DialogComponent.yml",
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Dialog.DialogComponent.html",
-          "hash": "oSgQ0LlG9QE7TFlJsnY4bQ=="
+          "hash": "Zn+35ZyumZVBgKlpGHMUzg=="
         }
       },
       "is_incremental": false,
@@ -1137,7 +1149,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Dialog.html",
-          "hash": "lUrRl4ndF5lK3urnzz1QJA=="
+          "hash": "I9KSaBALtbrSikYIKVh6dQ=="
         }
       },
       "is_incremental": false,
@@ -2253,7 +2265,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "vgM5LoAegzHOjoYLpgodxg=="
+          "hash": "ZisftAhLMN4V7q1hXdxdIw=="
         }
       },
       "is_incremental": false,
@@ -2362,17 +2374,17 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "ManagedReferenceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
         },
-        "TocDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ResourceDocumentProcessor": {

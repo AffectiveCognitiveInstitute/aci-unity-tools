@@ -2967,6 +2967,25 @@ references:
   commentId: T:Aci.Unity.UI.Dialog.DialogComponent
   fullName: Aci.Unity.UI.Dialog.DialogComponent
   nameWithType: DialogComponent
+- uid: Aci.Unity.UI.Dialog.DialogComponent.dialogAppeared
+  name: dialogAppeared
+  href: api/Aci.Unity.UI.Dialog.DialogComponent.html#Aci_Unity_UI_Dialog_DialogComponent_dialogAppeared
+  commentId: P:Aci.Unity.UI.Dialog.DialogComponent.dialogAppeared
+  fullName: Aci.Unity.UI.Dialog.DialogComponent.dialogAppeared
+  nameWithType: DialogComponent.dialogAppeared
+- uid: Aci.Unity.UI.Dialog.DialogComponent.dialogAppeared*
+  name: dialogAppeared
+  href: api/Aci.Unity.UI.Dialog.DialogComponent.html#Aci_Unity_UI_Dialog_DialogComponent_dialogAppeared_
+  commentId: Overload:Aci.Unity.UI.Dialog.DialogComponent.dialogAppeared
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Dialog.DialogComponent.dialogAppeared
+  nameWithType: DialogComponent.dialogAppeared
+- uid: Aci.Unity.UI.Dialog.DialogComponent.DialogAppearedEvent
+  name: DialogComponent.DialogAppearedEvent
+  href: api/Aci.Unity.UI.Dialog.DialogComponent.DialogAppearedEvent.html
+  commentId: T:Aci.Unity.UI.Dialog.DialogComponent.DialogAppearedEvent
+  fullName: Aci.Unity.UI.Dialog.DialogComponent.DialogAppearedEvent
+  nameWithType: DialogComponent.DialogAppearedEvent
 - uid: Aci.Unity.UI.Dialog.DialogComponent.Dismiss(System.Boolean)
   name: Dismiss(Boolean)
   href: api/Aci.Unity.UI.Dialog.DialogComponent.html#Aci_Unity_UI_Dialog_DialogComponent_Dismiss_System_Boolean_
