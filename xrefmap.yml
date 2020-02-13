@@ -5737,6 +5737,25 @@ references:
   commentId: F:Aci.Unity.UI.Tweening.Editor.TweenerEditor.Style.time
   fullName: Aci.Unity.UI.Tweening.Editor.TweenerEditor.Style.time
   nameWithType: TweenerEditor.Style.time
+- uid: Aci.Unity.UI.Tweening.PositionTweener
+  name: PositionTweener
+  href: api/Aci.Unity.UI.Tweening.PositionTweener.html
+  commentId: T:Aci.Unity.UI.Tweening.PositionTweener
+  fullName: Aci.Unity.UI.Tweening.PositionTweener
+  nameWithType: PositionTweener
+- uid: Aci.Unity.UI.Tweening.PositionTweener.ExecuteFrame(System.Single)
+  name: ExecuteFrame(Single)
+  href: api/Aci.Unity.UI.Tweening.PositionTweener.html#Aci_Unity_UI_Tweening_PositionTweener_ExecuteFrame_System_Single_
+  commentId: M:Aci.Unity.UI.Tweening.PositionTweener.ExecuteFrame(System.Single)
+  fullName: Aci.Unity.UI.Tweening.PositionTweener.ExecuteFrame(System.Single)
+  nameWithType: PositionTweener.ExecuteFrame(Single)
+- uid: Aci.Unity.UI.Tweening.PositionTweener.ExecuteFrame*
+  name: ExecuteFrame
+  href: api/Aci.Unity.UI.Tweening.PositionTweener.html#Aci_Unity_UI_Tweening_PositionTweener_ExecuteFrame_
+  commentId: Overload:Aci.Unity.UI.Tweening.PositionTweener.ExecuteFrame
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Tweening.PositionTweener.ExecuteFrame
+  nameWithType: PositionTweener.ExecuteFrame
 - uid: Aci.Unity.UI.Tweening.RectTransformAnchor
   name: RectTransformAnchor
   href: api/Aci.Unity.UI.Tweening.RectTransformAnchor.html
