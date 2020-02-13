@@ -5618,6 +5618,25 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Tweening.AlphaTweener.Reset
   nameWithType: AlphaTweener.Reset
+- uid: Aci.Unity.UI.Tweening.AnchoredPositionTweener
+  name: AnchoredPositionTweener
+  href: api/Aci.Unity.UI.Tweening.AnchoredPositionTweener.html
+  commentId: T:Aci.Unity.UI.Tweening.AnchoredPositionTweener
+  fullName: Aci.Unity.UI.Tweening.AnchoredPositionTweener
+  nameWithType: AnchoredPositionTweener
+- uid: Aci.Unity.UI.Tweening.AnchoredPositionTweener.ExecuteFrame(System.Single)
+  name: ExecuteFrame(Single)
+  href: api/Aci.Unity.UI.Tweening.AnchoredPositionTweener.html#Aci_Unity_UI_Tweening_AnchoredPositionTweener_ExecuteFrame_System_Single_
+  commentId: M:Aci.Unity.UI.Tweening.AnchoredPositionTweener.ExecuteFrame(System.Single)
+  fullName: Aci.Unity.UI.Tweening.AnchoredPositionTweener.ExecuteFrame(System.Single)
+  nameWithType: AnchoredPositionTweener.ExecuteFrame(Single)
+- uid: Aci.Unity.UI.Tweening.AnchoredPositionTweener.ExecuteFrame*
+  name: ExecuteFrame
+  href: api/Aci.Unity.UI.Tweening.AnchoredPositionTweener.html#Aci_Unity_UI_Tweening_AnchoredPositionTweener_ExecuteFrame_
+  commentId: Overload:Aci.Unity.UI.Tweening.AnchoredPositionTweener.ExecuteFrame
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Tweening.AnchoredPositionTweener.ExecuteFrame
+  nameWithType: AnchoredPositionTweener.ExecuteFrame
 - uid: Aci.Unity.UI.Tweening.AnchorTweener
   name: AnchorTweener
   href: api/Aci.Unity.UI.Tweening.AnchorTweener.html
