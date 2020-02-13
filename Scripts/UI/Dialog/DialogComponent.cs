@@ -1,5 +1,6 @@
 ﻿using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Aci.Unity.UI.Dialog
 {
@@ -8,8 +9,17 @@ namespace Aci.Unity.UI.Dialog
     /// </summary>
     public class DialogComponent : MonoBehaviour, IDialog
     {
+        [System.Serializable]
+        public class DialogAppearedEvent : UnityEvent<DialogComponent> { }
+
         private ITransition m_Transition;
         private bool m_IsBusy = false;
+
+        [SerializeField]
+        private DialogAppearedEvent m_DialogAppeared;
+
+        public DialogAppearedEvent dialogAppeared => m_DialogAppeared;
+
         /// <inheritdoc />
         public event DialogDismissedDelegate dismissed;
 
@@ -75,6 +85,8 @@ namespace Aci.Unity.UI.Dialog
 
             if (animated && m_Transition != null)
                 await m_Transition.EnterAsync();
+
+            dialogAppeared?.Invoke(this);
         }
     }
 }
