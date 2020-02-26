@@ -25,7 +25,7 @@ namespace Aci.Unity.UI.Navigation
         /// <summary>
         /// Switch to a screen
         /// </summary>
-        /// <param name="screen">The identifier of the screen to be pushes</param>
+        /// <param name="screen">The identifier of the screen to be pushed</param>
         /// <param name="parameters">Any parameters that should be passed to next screen.</param>
         /// <param name="animationOptions">Animation options for the possible screen being hidden and for the screen being pushed</param>
         /// <param name="addToHistory">Should the previous screen be added onto the navigation stack?</param>
@@ -62,5 +62,23 @@ namespace Aci.Unity.UI.Navigation
         /// <param name="animationOptions">Animation options for the screen being popped and for the screen that reappears</param>
         /// <returns>Returns an awaitable Task</returns>
         Task PopToRootAsync(INavigationParameters parameters, AnimationOptions animationOptions);
+
+
+        /// <summary>
+        ///     Pushes a screen and starts a new navigation stack. This will destroy any screens present on the current stack.
+        /// </summary>
+        /// <param name="screen">The identifier of the screen to be pushed.</param>
+        /// <param name="animationOptions">Animation options for the screen being popped and for the screen that reappears.</param>
+        /// <returns></returns>
+        Task PushWithNewStackAsync(string screen, AnimationOptions animationOptions);
+
+        /// <summary>
+        ///     Pushes a screen and starts a new navigation stack. This will destroy any screens present on the current stack.
+        /// </summary>
+        /// <param name="screen">The identifier of the screen to be pushed.</param>
+        /// <param name="parameters">Any values that should be passed to the new new screens.</param>
+        /// <param name="animationOptions">Animation options for the screen being popped and for the screen that reappears.</param>
+        /// <returns></returns>
+        Task PushWithNewStackAsync(string screen, INavigationParameters parameters, AnimationOptions animationOptions);
     }
 }

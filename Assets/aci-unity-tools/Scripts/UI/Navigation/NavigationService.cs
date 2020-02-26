@@ -257,5 +257,39 @@ namespace Aci.Unity.UI.Navigation
                 m_IsBusy = false;
             }
         }
+
+        /// <inheritdoc />
+        public Task PushWithNewStackAsync(string screen, INavigationParameters parameters, AnimationOptions animationOptions)
+        {
+            if (m_IsBusy)
+                return Task.CompletedTask;
+
+            if (string.IsNullOrWhiteSpace(screen))
+                throw new ArgumentNullException(nameof(screen));
+
+
+            if (m_NavigationStack.Count != 0)
+            {
+                s_DefaultParams.Clear();
+                // Destroy all screens in between
+                while (m_NavigationStack.Count > 0)
+                {
+                    IScreenController oldScreen = m_NavigationStack.Pop();
+                    oldScreen.OnScreenDestroyed(s_DefaultParams);
+#pragma warning disable CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
+                    oldScreen.UpdateDisplayAsync(NavigationMode.Removed, false);
+#pragma warning restore CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
+                }
+            }
+
+            return PushAsync(screen, parameters, animationOptions, false);
+        }
+
+        /// <inheritdoc />
+        public Task PushWithNewStackAsync(string screen, AnimationOptions animationOptions)
+        {
+            s_DefaultParams.Clear();
+            return PushWithNewStackAsync(screen, s_DefaultParams, animationOptions);
+        }
     }
 }
