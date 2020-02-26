@@ -354,6 +354,44 @@ references:
   fullName.vb: Aci.Collections.Heap(Of TItem).Swap
   nameWithType: Heap<TItem>.Swap
   nameWithType.vb: Heap(Of TItem).Swap
+- uid: Aci.Collections.Heap`1.System#Collections#Generic#ICollection{TItem}#Add(`0)
+  name: ICollection<TItem>.Add(TItem)
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_System_Collections_Generic_ICollection_TItem__Add__0_
+  commentId: M:Aci.Collections.Heap`1.System#Collections#Generic#ICollection{TItem}#Add(`0)
+  name.vb: System.Collections.Generic.ICollection<TItem>.Add(TItem)
+  fullName: Aci.Collections.Heap<TItem>.System.Collections.Generic.ICollection<TItem>.Add(TItem)
+  fullName.vb: Aci.Collections.Heap(Of TItem).System.Collections.Generic.ICollection<TItem>.Add(TItem)
+  nameWithType: Heap<TItem>.ICollection<TItem>.Add(TItem)
+  nameWithType.vb: Heap(Of TItem).System.Collections.Generic.ICollection<TItem>.Add(TItem)
+- uid: Aci.Collections.Heap`1.System#Collections#Generic#ICollection{TItem}#Add*
+  name: ICollection<TItem>.Add
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_System_Collections_Generic_ICollection_TItem__Add_
+  commentId: Overload:Aci.Collections.Heap`1.System#Collections#Generic#ICollection{TItem}#Add
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ICollection<TItem>.Add
+  fullName: Aci.Collections.Heap<TItem>.System.Collections.Generic.ICollection<TItem>.Add
+  fullName.vb: Aci.Collections.Heap(Of TItem).System.Collections.Generic.ICollection<TItem>.Add
+  nameWithType: Heap<TItem>.ICollection<TItem>.Add
+  nameWithType.vb: Heap(Of TItem).System.Collections.Generic.ICollection<TItem>.Add
+- uid: Aci.Collections.Heap`1.System#Collections#Generic#ICollection{TItem}#CopyTo(`0[],System.Int32)
+  name: ICollection<TItem>.CopyTo(TItem[], Int32)
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_System_Collections_Generic_ICollection_TItem__CopyTo__0___System_Int32_
+  commentId: M:Aci.Collections.Heap`1.System#Collections#Generic#ICollection{TItem}#CopyTo(`0[],System.Int32)
+  name.vb: System.Collections.Generic.ICollection<TItem>.CopyTo(TItem(), Int32)
+  fullName: Aci.Collections.Heap<TItem>.System.Collections.Generic.ICollection<TItem>.CopyTo(TItem[], System.Int32)
+  fullName.vb: Aci.Collections.Heap(Of TItem).System.Collections.Generic.ICollection<TItem>.CopyTo(TItem(), System.Int32)
+  nameWithType: Heap<TItem>.ICollection<TItem>.CopyTo(TItem[], Int32)
+  nameWithType.vb: Heap(Of TItem).System.Collections.Generic.ICollection<TItem>.CopyTo(TItem(), Int32)
+- uid: Aci.Collections.Heap`1.System#Collections#Generic#ICollection{TItem}#CopyTo*
+  name: ICollection<TItem>.CopyTo
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_System_Collections_Generic_ICollection_TItem__CopyTo_
+  commentId: Overload:Aci.Collections.Heap`1.System#Collections#Generic#ICollection{TItem}#CopyTo
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ICollection<TItem>.CopyTo
+  fullName: Aci.Collections.Heap<TItem>.System.Collections.Generic.ICollection<TItem>.CopyTo
+  fullName.vb: Aci.Collections.Heap(Of TItem).System.Collections.Generic.ICollection<TItem>.CopyTo
+  nameWithType: Heap<TItem>.ICollection<TItem>.CopyTo
+  nameWithType.vb: Heap(Of TItem).System.Collections.Generic.ICollection<TItem>.CopyTo
 - uid: Aci.Collections.MaxHeap`1
   name: MaxHeap<TItem>
   href: api/Aci.Collections.MaxHeap-1.html
@@ -1558,11 +1596,11 @@ references:
   commentId: T:Aci.Unity.Logging.AciLog
   fullName: Aci.Unity.Logging.AciLog
   nameWithType: AciLog
-- uid: Aci.Unity.Logging.AciLog.Construct(Aci.Unity.Network.INetworkPublisher,ILogger)
+- uid: Aci.Unity.Logging.AciLog.Construct(INetworkPublisher,ILogger)
   name: Construct(INetworkPublisher, ILogger)
-  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_Construct_Aci_Unity_Network_INetworkPublisher_ILogger_
-  commentId: M:Aci.Unity.Logging.AciLog.Construct(Aci.Unity.Network.INetworkPublisher,ILogger)
-  fullName: Aci.Unity.Logging.AciLog.Construct(Aci.Unity.Network.INetworkPublisher, ILogger)
+  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_Construct_INetworkPublisher_ILogger_
+  commentId: M:Aci.Unity.Logging.AciLog.Construct(INetworkPublisher,ILogger)
+  fullName: Aci.Unity.Logging.AciLog.Construct(INetworkPublisher, ILogger)
   nameWithType: AciLog.Construct(INetworkPublisher, ILogger)
 - uid: Aci.Unity.Logging.AciLog.Construct*
   name: Construct
@@ -1577,12 +1615,12 @@ references:
   commentId: M:Aci.Unity.Logging.AciLog.Log(System.String,System.Object)
   fullName: Aci.Unity.Logging.AciLog.Log(System.String, System.Object)
   nameWithType: AciLog.Log(String, Object)
-- uid: Aci.Unity.Logging.AciLog.Log(System.String,System.Object,UnityEngine.Object)
-  name: Log(String, Object, UnityEngine.Object)
-  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_Log_System_String_System_Object_UnityEngine_Object_
-  commentId: M:Aci.Unity.Logging.AciLog.Log(System.String,System.Object,UnityEngine.Object)
-  fullName: Aci.Unity.Logging.AciLog.Log(System.String, System.Object, UnityEngine.Object)
-  nameWithType: AciLog.Log(String, Object, UnityEngine.Object)
+- uid: Aci.Unity.Logging.AciLog.Log(System.String,System.Object,System.Object)
+  name: Log(String, Object, Object)
+  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_Log_System_String_System_Object_System_Object_
+  commentId: M:Aci.Unity.Logging.AciLog.Log(System.String,System.Object,System.Object)
+  fullName: Aci.Unity.Logging.AciLog.Log(System.String, System.Object, System.Object)
+  nameWithType: AciLog.Log(String, Object, Object)
 - uid: Aci.Unity.Logging.AciLog.Log*
   name: Log
   href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_Log_
@@ -1596,12 +1634,12 @@ references:
   commentId: M:Aci.Unity.Logging.AciLog.LogError(System.String,System.Object)
   fullName: Aci.Unity.Logging.AciLog.LogError(System.String, System.Object)
   nameWithType: AciLog.LogError(String, Object)
-- uid: Aci.Unity.Logging.AciLog.LogError(System.String,System.Object,UnityEngine.Object)
-  name: LogError(String, Object, UnityEngine.Object)
-  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogError_System_String_System_Object_UnityEngine_Object_
-  commentId: M:Aci.Unity.Logging.AciLog.LogError(System.String,System.Object,UnityEngine.Object)
-  fullName: Aci.Unity.Logging.AciLog.LogError(System.String, System.Object, UnityEngine.Object)
-  nameWithType: AciLog.LogError(String, Object, UnityEngine.Object)
+- uid: Aci.Unity.Logging.AciLog.LogError(System.String,System.Object,System.Object)
+  name: LogError(String, Object, Object)
+  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogError_System_String_System_Object_System_Object_
+  commentId: M:Aci.Unity.Logging.AciLog.LogError(System.String,System.Object,System.Object)
+  fullName: Aci.Unity.Logging.AciLog.LogError(System.String, System.Object, System.Object)
+  nameWithType: AciLog.LogError(String, Object, Object)
 - uid: Aci.Unity.Logging.AciLog.LogError*
   name: LogError
   href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogError_
@@ -1615,12 +1653,12 @@ references:
   commentId: M:Aci.Unity.Logging.AciLog.LogException(System.Exception)
   fullName: Aci.Unity.Logging.AciLog.LogException(System.Exception)
   nameWithType: AciLog.LogException(Exception)
-- uid: Aci.Unity.Logging.AciLog.LogException(System.Exception,UnityEngine.Object)
-  name: LogException(Exception, UnityEngine.Object)
-  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogException_System_Exception_UnityEngine_Object_
-  commentId: M:Aci.Unity.Logging.AciLog.LogException(System.Exception,UnityEngine.Object)
-  fullName: Aci.Unity.Logging.AciLog.LogException(System.Exception, UnityEngine.Object)
-  nameWithType: AciLog.LogException(Exception, UnityEngine.Object)
+- uid: Aci.Unity.Logging.AciLog.LogException(System.Exception,System.Object)
+  name: LogException(Exception, Object)
+  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogException_System_Exception_System_Object_
+  commentId: M:Aci.Unity.Logging.AciLog.LogException(System.Exception,System.Object)
+  fullName: Aci.Unity.Logging.AciLog.LogException(System.Exception, System.Object)
+  nameWithType: AciLog.LogException(Exception, Object)
 - uid: Aci.Unity.Logging.AciLog.LogException*
   name: LogException
   href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogException_
@@ -1628,6 +1666,15 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.Logging.AciLog.LogException
   nameWithType: AciLog.LogException
+- uid: Aci.Unity.Logging.AciLog.LogFormat(LogType,System.Object,System.String,System.String,System.Object[])
+  name: LogFormat(LogType, Object, String, String, Object[])
+  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogFormat_LogType_System_Object_System_String_System_String_System_Object___
+  commentId: M:Aci.Unity.Logging.AciLog.LogFormat(LogType,System.Object,System.String,System.String,System.Object[])
+  name.vb: LogFormat(LogType, Object, String, String, Object())
+  fullName: Aci.Unity.Logging.AciLog.LogFormat(LogType, System.Object, System.String, System.String, System.Object[])
+  fullName.vb: Aci.Unity.Logging.AciLog.LogFormat(LogType, System.Object, System.String, System.String, System.Object())
+  nameWithType: AciLog.LogFormat(LogType, Object, String, String, Object[])
+  nameWithType.vb: AciLog.LogFormat(LogType, Object, String, String, Object())
 - uid: Aci.Unity.Logging.AciLog.LogFormat(LogType,System.String,System.String,System.Object[])
   name: LogFormat(LogType, String, String, Object[])
   href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogFormat_LogType_System_String_System_String_System_Object___
@@ -1637,15 +1684,6 @@ references:
   fullName.vb: Aci.Unity.Logging.AciLog.LogFormat(LogType, System.String, System.String, System.Object())
   nameWithType: AciLog.LogFormat(LogType, String, String, Object[])
   nameWithType.vb: AciLog.LogFormat(LogType, String, String, Object())
-- uid: Aci.Unity.Logging.AciLog.LogFormat(LogType,UnityEngine.Object,System.String,System.String,System.Object[])
-  name: LogFormat(LogType, UnityEngine.Object, String, String, Object[])
-  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogFormat_LogType_UnityEngine_Object_System_String_System_String_System_Object___
-  commentId: M:Aci.Unity.Logging.AciLog.LogFormat(LogType,UnityEngine.Object,System.String,System.String,System.Object[])
-  name.vb: LogFormat(LogType, UnityEngine.Object, String, String, Object())
-  fullName: Aci.Unity.Logging.AciLog.LogFormat(LogType, UnityEngine.Object, System.String, System.String, System.Object[])
-  fullName.vb: Aci.Unity.Logging.AciLog.LogFormat(LogType, UnityEngine.Object, System.String, System.String, System.Object())
-  nameWithType: AciLog.LogFormat(LogType, UnityEngine.Object, String, String, Object[])
-  nameWithType.vb: AciLog.LogFormat(LogType, UnityEngine.Object, String, String, Object())
 - uid: Aci.Unity.Logging.AciLog.LogFormat*
   name: LogFormat
   href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogFormat_
@@ -1659,12 +1697,12 @@ references:
   commentId: M:Aci.Unity.Logging.AciLog.LogWarning(System.String,System.Object)
   fullName: Aci.Unity.Logging.AciLog.LogWarning(System.String, System.Object)
   nameWithType: AciLog.LogWarning(String, Object)
-- uid: Aci.Unity.Logging.AciLog.LogWarning(System.String,System.Object,UnityEngine.Object)
-  name: LogWarning(String, Object, UnityEngine.Object)
-  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogWarning_System_String_System_Object_UnityEngine_Object_
-  commentId: M:Aci.Unity.Logging.AciLog.LogWarning(System.String,System.Object,UnityEngine.Object)
-  fullName: Aci.Unity.Logging.AciLog.LogWarning(System.String, System.Object, UnityEngine.Object)
-  nameWithType: AciLog.LogWarning(String, Object, UnityEngine.Object)
+- uid: Aci.Unity.Logging.AciLog.LogWarning(System.String,System.Object,System.Object)
+  name: LogWarning(String, Object, Object)
+  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogWarning_System_String_System_Object_System_Object_
+  commentId: M:Aci.Unity.Logging.AciLog.LogWarning(System.String,System.Object,System.Object)
+  fullName: Aci.Unity.Logging.AciLog.LogWarning(System.String, System.Object, System.Object)
+  nameWithType: AciLog.LogWarning(String, Object, Object)
 - uid: Aci.Unity.Logging.AciLog.LogWarning*
   name: LogWarning
   href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogWarning_
@@ -4718,13 +4756,13 @@ references:
   commentId: T:Aci.Unity.UI.Navigation.NavigationCompletedEvent
   fullName: Aci.Unity.UI.Navigation.NavigationCompletedEvent
   nameWithType: NavigationCompletedEvent
-- uid: Aci.Unity.UI.Navigation.NavigationCompletedEvent.#ctor(System.String,IReadOnlyCollection{Aci.Unity.UI.Navigation.IScreenController})
+- uid: Aci.Unity.UI.Navigation.NavigationCompletedEvent.#ctor(System.String,System.Collections.Generic.IReadOnlyCollection{Aci.Unity.UI.Navigation.IScreenController})
   name: NavigationCompletedEvent(String, IReadOnlyCollection<IScreenController>)
-  href: api/Aci.Unity.UI.Navigation.NavigationCompletedEvent.html#Aci_Unity_UI_Navigation_NavigationCompletedEvent__ctor_System_String_IReadOnlyCollection_Aci_Unity_UI_Navigation_IScreenController__
-  commentId: M:Aci.Unity.UI.Navigation.NavigationCompletedEvent.#ctor(System.String,IReadOnlyCollection{Aci.Unity.UI.Navigation.IScreenController})
+  href: api/Aci.Unity.UI.Navigation.NavigationCompletedEvent.html#Aci_Unity_UI_Navigation_NavigationCompletedEvent__ctor_System_String_System_Collections_Generic_IReadOnlyCollection_Aci_Unity_UI_Navigation_IScreenController__
+  commentId: M:Aci.Unity.UI.Navigation.NavigationCompletedEvent.#ctor(System.String,System.Collections.Generic.IReadOnlyCollection{Aci.Unity.UI.Navigation.IScreenController})
   name.vb: NavigationCompletedEvent(String, IReadOnlyCollection(Of IScreenController))
-  fullName: Aci.Unity.UI.Navigation.NavigationCompletedEvent.NavigationCompletedEvent(System.String, IReadOnlyCollection<Aci.Unity.UI.Navigation.IScreenController>)
-  fullName.vb: Aci.Unity.UI.Navigation.NavigationCompletedEvent.NavigationCompletedEvent(System.String, IReadOnlyCollection(Of Aci.Unity.UI.Navigation.IScreenController))
+  fullName: Aci.Unity.UI.Navigation.NavigationCompletedEvent.NavigationCompletedEvent(System.String, System.Collections.Generic.IReadOnlyCollection<Aci.Unity.UI.Navigation.IScreenController>)
+  fullName.vb: Aci.Unity.UI.Navigation.NavigationCompletedEvent.NavigationCompletedEvent(System.String, System.Collections.Generic.IReadOnlyCollection(Of Aci.Unity.UI.Navigation.IScreenController))
   nameWithType: NavigationCompletedEvent.NavigationCompletedEvent(String, IReadOnlyCollection<IScreenController>)
   nameWithType.vb: NavigationCompletedEvent.NavigationCompletedEvent(String, IReadOnlyCollection(Of IScreenController))
 - uid: Aci.Unity.UI.Navigation.NavigationCompletedEvent.#ctor*
@@ -4760,6 +4798,38 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Navigation.NavigationCompletedEvent.navigationStack
   nameWithType: NavigationCompletedEvent.navigationStack
+- uid: Aci.Unity.UI.Navigation.NavigationEventTriggerEditor
+  name: NavigationEventTriggerEditor
+  href: api/Aci.Unity.UI.Navigation.NavigationEventTriggerEditor.html
+  commentId: T:Aci.Unity.UI.Navigation.NavigationEventTriggerEditor
+  fullName: Aci.Unity.UI.Navigation.NavigationEventTriggerEditor
+  nameWithType: NavigationEventTriggerEditor
+- uid: Aci.Unity.UI.Navigation.NavigationEventTriggerEditor.OnEnable
+  name: OnEnable()
+  href: api/Aci.Unity.UI.Navigation.NavigationEventTriggerEditor.html#Aci_Unity_UI_Navigation_NavigationEventTriggerEditor_OnEnable
+  commentId: M:Aci.Unity.UI.Navigation.NavigationEventTriggerEditor.OnEnable
+  fullName: Aci.Unity.UI.Navigation.NavigationEventTriggerEditor.OnEnable()
+  nameWithType: NavigationEventTriggerEditor.OnEnable()
+- uid: Aci.Unity.UI.Navigation.NavigationEventTriggerEditor.OnEnable*
+  name: OnEnable
+  href: api/Aci.Unity.UI.Navigation.NavigationEventTriggerEditor.html#Aci_Unity_UI_Navigation_NavigationEventTriggerEditor_OnEnable_
+  commentId: Overload:Aci.Unity.UI.Navigation.NavigationEventTriggerEditor.OnEnable
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Navigation.NavigationEventTriggerEditor.OnEnable
+  nameWithType: NavigationEventTriggerEditor.OnEnable
+- uid: Aci.Unity.UI.Navigation.NavigationEventTriggerEditor.OnInspectorGUI
+  name: OnInspectorGUI()
+  href: api/Aci.Unity.UI.Navigation.NavigationEventTriggerEditor.html#Aci_Unity_UI_Navigation_NavigationEventTriggerEditor_OnInspectorGUI
+  commentId: M:Aci.Unity.UI.Navigation.NavigationEventTriggerEditor.OnInspectorGUI
+  fullName: Aci.Unity.UI.Navigation.NavigationEventTriggerEditor.OnInspectorGUI()
+  nameWithType: NavigationEventTriggerEditor.OnInspectorGUI()
+- uid: Aci.Unity.UI.Navigation.NavigationEventTriggerEditor.OnInspectorGUI*
+  name: OnInspectorGUI
+  href: api/Aci.Unity.UI.Navigation.NavigationEventTriggerEditor.html#Aci_Unity_UI_Navigation_NavigationEventTriggerEditor_OnInspectorGUI_
+  commentId: Overload:Aci.Unity.UI.Navigation.NavigationEventTriggerEditor.OnInspectorGUI
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Navigation.NavigationEventTriggerEditor.OnInspectorGUI
+  nameWithType: NavigationEventTriggerEditor.OnInspectorGUI
 - uid: Aci.Unity.UI.Navigation.NavigationInstaller
   name: NavigationInstaller
   href: api/Aci.Unity.UI.Navigation.NavigationInstaller.html
@@ -5530,6 +5600,169 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Navigation.TweenerScreenTransitionEditor.OnInspectorGUI
   nameWithType: TweenerScreenTransitionEditor.OnInspectorGUI
+- uid: Aci.Unity.UI.NavigationEventTrigger
+  name: NavigationEventTrigger
+  href: api/Aci.Unity.UI.NavigationEventTrigger.html
+  commentId: T:Aci.Unity.UI.NavigationEventTrigger
+  fullName: Aci.Unity.UI.NavigationEventTrigger
+  nameWithType: NavigationEventTrigger
+- uid: Aci.Unity.UI.NavigationEventTrigger.Entry
+  name: NavigationEventTrigger.Entry
+  href: api/Aci.Unity.UI.NavigationEventTrigger.Entry.html
+  commentId: T:Aci.Unity.UI.NavigationEventTrigger.Entry
+  fullName: Aci.Unity.UI.NavigationEventTrigger.Entry
+  nameWithType: NavigationEventTrigger.Entry
+- uid: Aci.Unity.UI.NavigationEventTrigger.Entry.eventType
+  name: eventType
+  href: api/Aci.Unity.UI.NavigationEventTrigger.Entry.html#Aci_Unity_UI_NavigationEventTrigger_Entry_eventType
+  commentId: F:Aci.Unity.UI.NavigationEventTrigger.Entry.eventType
+  fullName: Aci.Unity.UI.NavigationEventTrigger.Entry.eventType
+  nameWithType: NavigationEventTrigger.Entry.eventType
+- uid: Aci.Unity.UI.NavigationEventTrigger.Entry.navigationEvent
+  name: navigationEvent
+  href: api/Aci.Unity.UI.NavigationEventTrigger.Entry.html#Aci_Unity_UI_NavigationEventTrigger_Entry_navigationEvent
+  commentId: F:Aci.Unity.UI.NavigationEventTrigger.Entry.navigationEvent
+  fullName: Aci.Unity.UI.NavigationEventTrigger.Entry.navigationEvent
+  nameWithType: NavigationEventTrigger.Entry.navigationEvent
+- uid: Aci.Unity.UI.NavigationEventTrigger.EventType
+  name: NavigationEventTrigger.EventType
+  href: api/Aci.Unity.UI.NavigationEventTrigger.EventType.html
+  commentId: T:Aci.Unity.UI.NavigationEventTrigger.EventType
+  fullName: Aci.Unity.UI.NavigationEventTrigger.EventType
+  nameWithType: NavigationEventTrigger.EventType
+- uid: Aci.Unity.UI.NavigationEventTrigger.EventType.NavigatedBack
+  name: NavigatedBack
+  href: api/Aci.Unity.UI.NavigationEventTrigger.EventType.html#Aci_Unity_UI_NavigationEventTrigger_EventType_NavigatedBack
+  commentId: F:Aci.Unity.UI.NavigationEventTrigger.EventType.NavigatedBack
+  fullName: Aci.Unity.UI.NavigationEventTrigger.EventType.NavigatedBack
+  nameWithType: NavigationEventTrigger.EventType.NavigatedBack
+- uid: Aci.Unity.UI.NavigationEventTrigger.EventType.NavigatedTo
+  name: NavigatedTo
+  href: api/Aci.Unity.UI.NavigationEventTrigger.EventType.html#Aci_Unity_UI_NavigationEventTrigger_EventType_NavigatedTo
+  commentId: F:Aci.Unity.UI.NavigationEventTrigger.EventType.NavigatedTo
+  fullName: Aci.Unity.UI.NavigationEventTrigger.EventType.NavigatedTo
+  nameWithType: NavigationEventTrigger.EventType.NavigatedTo
+- uid: Aci.Unity.UI.NavigationEventTrigger.EventType.NavigatingAway
+  name: NavigatingAway
+  href: api/Aci.Unity.UI.NavigationEventTrigger.EventType.html#Aci_Unity_UI_NavigationEventTrigger_EventType_NavigatingAway
+  commentId: F:Aci.Unity.UI.NavigationEventTrigger.EventType.NavigatingAway
+  fullName: Aci.Unity.UI.NavigationEventTrigger.EventType.NavigatingAway
+  nameWithType: NavigationEventTrigger.EventType.NavigatingAway
+- uid: Aci.Unity.UI.NavigationEventTrigger.EventType.NavigatingBack
+  name: NavigatingBack
+  href: api/Aci.Unity.UI.NavigationEventTrigger.EventType.html#Aci_Unity_UI_NavigationEventTrigger_EventType_NavigatingBack
+  commentId: F:Aci.Unity.UI.NavigationEventTrigger.EventType.NavigatingBack
+  fullName: Aci.Unity.UI.NavigationEventTrigger.EventType.NavigatingBack
+  nameWithType: NavigationEventTrigger.EventType.NavigatingBack
+- uid: Aci.Unity.UI.NavigationEventTrigger.EventType.NavigatingTo
+  name: NavigatingTo
+  href: api/Aci.Unity.UI.NavigationEventTrigger.EventType.html#Aci_Unity_UI_NavigationEventTrigger_EventType_NavigatingTo
+  commentId: F:Aci.Unity.UI.NavigationEventTrigger.EventType.NavigatingTo
+  fullName: Aci.Unity.UI.NavigationEventTrigger.EventType.NavigatingTo
+  nameWithType: NavigationEventTrigger.EventType.NavigatingTo
+- uid: Aci.Unity.UI.NavigationEventTrigger.EventType.ScreenDestroyed
+  name: ScreenDestroyed
+  href: api/Aci.Unity.UI.NavigationEventTrigger.EventType.html#Aci_Unity_UI_NavigationEventTrigger_EventType_ScreenDestroyed
+  commentId: F:Aci.Unity.UI.NavigationEventTrigger.EventType.ScreenDestroyed
+  fullName: Aci.Unity.UI.NavigationEventTrigger.EventType.ScreenDestroyed
+  nameWithType: NavigationEventTrigger.EventType.ScreenDestroyed
+- uid: Aci.Unity.UI.NavigationEventTrigger.OnNavigatedBack(INavigationParameters)
+  name: OnNavigatedBack(INavigationParameters)
+  href: api/Aci.Unity.UI.NavigationEventTrigger.html#Aci_Unity_UI_NavigationEventTrigger_OnNavigatedBack_INavigationParameters_
+  commentId: M:Aci.Unity.UI.NavigationEventTrigger.OnNavigatedBack(INavigationParameters)
+  fullName: Aci.Unity.UI.NavigationEventTrigger.OnNavigatedBack(INavigationParameters)
+  nameWithType: NavigationEventTrigger.OnNavigatedBack(INavigationParameters)
+- uid: Aci.Unity.UI.NavigationEventTrigger.OnNavigatedBack*
+  name: OnNavigatedBack
+  href: api/Aci.Unity.UI.NavigationEventTrigger.html#Aci_Unity_UI_NavigationEventTrigger_OnNavigatedBack_
+  commentId: Overload:Aci.Unity.UI.NavigationEventTrigger.OnNavigatedBack
+  isSpec: "True"
+  fullName: Aci.Unity.UI.NavigationEventTrigger.OnNavigatedBack
+  nameWithType: NavigationEventTrigger.OnNavigatedBack
+- uid: Aci.Unity.UI.NavigationEventTrigger.OnNavigatedTo(INavigationParameters)
+  name: OnNavigatedTo(INavigationParameters)
+  href: api/Aci.Unity.UI.NavigationEventTrigger.html#Aci_Unity_UI_NavigationEventTrigger_OnNavigatedTo_INavigationParameters_
+  commentId: M:Aci.Unity.UI.NavigationEventTrigger.OnNavigatedTo(INavigationParameters)
+  fullName: Aci.Unity.UI.NavigationEventTrigger.OnNavigatedTo(INavigationParameters)
+  nameWithType: NavigationEventTrigger.OnNavigatedTo(INavigationParameters)
+- uid: Aci.Unity.UI.NavigationEventTrigger.OnNavigatedTo*
+  name: OnNavigatedTo
+  href: api/Aci.Unity.UI.NavigationEventTrigger.html#Aci_Unity_UI_NavigationEventTrigger_OnNavigatedTo_
+  commentId: Overload:Aci.Unity.UI.NavigationEventTrigger.OnNavigatedTo
+  isSpec: "True"
+  fullName: Aci.Unity.UI.NavigationEventTrigger.OnNavigatedTo
+  nameWithType: NavigationEventTrigger.OnNavigatedTo
+- uid: Aci.Unity.UI.NavigationEventTrigger.OnNavigatingAway(INavigationParameters)
+  name: OnNavigatingAway(INavigationParameters)
+  href: api/Aci.Unity.UI.NavigationEventTrigger.html#Aci_Unity_UI_NavigationEventTrigger_OnNavigatingAway_INavigationParameters_
+  commentId: M:Aci.Unity.UI.NavigationEventTrigger.OnNavigatingAway(INavigationParameters)
+  fullName: Aci.Unity.UI.NavigationEventTrigger.OnNavigatingAway(INavigationParameters)
+  nameWithType: NavigationEventTrigger.OnNavigatingAway(INavigationParameters)
+- uid: Aci.Unity.UI.NavigationEventTrigger.OnNavigatingAway*
+  name: OnNavigatingAway
+  href: api/Aci.Unity.UI.NavigationEventTrigger.html#Aci_Unity_UI_NavigationEventTrigger_OnNavigatingAway_
+  commentId: Overload:Aci.Unity.UI.NavigationEventTrigger.OnNavigatingAway
+  isSpec: "True"
+  fullName: Aci.Unity.UI.NavigationEventTrigger.OnNavigatingAway
+  nameWithType: NavigationEventTrigger.OnNavigatingAway
+- uid: Aci.Unity.UI.NavigationEventTrigger.OnNavigatingBack(INavigationParameters)
+  name: OnNavigatingBack(INavigationParameters)
+  href: api/Aci.Unity.UI.NavigationEventTrigger.html#Aci_Unity_UI_NavigationEventTrigger_OnNavigatingBack_INavigationParameters_
+  commentId: M:Aci.Unity.UI.NavigationEventTrigger.OnNavigatingBack(INavigationParameters)
+  fullName: Aci.Unity.UI.NavigationEventTrigger.OnNavigatingBack(INavigationParameters)
+  nameWithType: NavigationEventTrigger.OnNavigatingBack(INavigationParameters)
+- uid: Aci.Unity.UI.NavigationEventTrigger.OnNavigatingBack*
+  name: OnNavigatingBack
+  href: api/Aci.Unity.UI.NavigationEventTrigger.html#Aci_Unity_UI_NavigationEventTrigger_OnNavigatingBack_
+  commentId: Overload:Aci.Unity.UI.NavigationEventTrigger.OnNavigatingBack
+  isSpec: "True"
+  fullName: Aci.Unity.UI.NavigationEventTrigger.OnNavigatingBack
+  nameWithType: NavigationEventTrigger.OnNavigatingBack
+- uid: Aci.Unity.UI.NavigationEventTrigger.OnNavigatingTo(INavigationParameters)
+  name: OnNavigatingTo(INavigationParameters)
+  href: api/Aci.Unity.UI.NavigationEventTrigger.html#Aci_Unity_UI_NavigationEventTrigger_OnNavigatingTo_INavigationParameters_
+  commentId: M:Aci.Unity.UI.NavigationEventTrigger.OnNavigatingTo(INavigationParameters)
+  fullName: Aci.Unity.UI.NavigationEventTrigger.OnNavigatingTo(INavigationParameters)
+  nameWithType: NavigationEventTrigger.OnNavigatingTo(INavigationParameters)
+- uid: Aci.Unity.UI.NavigationEventTrigger.OnNavigatingTo*
+  name: OnNavigatingTo
+  href: api/Aci.Unity.UI.NavigationEventTrigger.html#Aci_Unity_UI_NavigationEventTrigger_OnNavigatingTo_
+  commentId: Overload:Aci.Unity.UI.NavigationEventTrigger.OnNavigatingTo
+  isSpec: "True"
+  fullName: Aci.Unity.UI.NavigationEventTrigger.OnNavigatingTo
+  nameWithType: NavigationEventTrigger.OnNavigatingTo
+- uid: Aci.Unity.UI.NavigationEventTrigger.OnScreenDestroyed(INavigationParameters)
+  name: OnScreenDestroyed(INavigationParameters)
+  href: api/Aci.Unity.UI.NavigationEventTrigger.html#Aci_Unity_UI_NavigationEventTrigger_OnScreenDestroyed_INavigationParameters_
+  commentId: M:Aci.Unity.UI.NavigationEventTrigger.OnScreenDestroyed(INavigationParameters)
+  fullName: Aci.Unity.UI.NavigationEventTrigger.OnScreenDestroyed(INavigationParameters)
+  nameWithType: NavigationEventTrigger.OnScreenDestroyed(INavigationParameters)
+- uid: Aci.Unity.UI.NavigationEventTrigger.OnScreenDestroyed*
+  name: OnScreenDestroyed
+  href: api/Aci.Unity.UI.NavigationEventTrigger.html#Aci_Unity_UI_NavigationEventTrigger_OnScreenDestroyed_
+  commentId: Overload:Aci.Unity.UI.NavigationEventTrigger.OnScreenDestroyed
+  isSpec: "True"
+  fullName: Aci.Unity.UI.NavigationEventTrigger.OnScreenDestroyed
+  nameWithType: NavigationEventTrigger.OnScreenDestroyed
+- uid: Aci.Unity.UI.NavigationEventTrigger.TriggerEvent
+  name: NavigationEventTrigger.TriggerEvent
+  href: api/Aci.Unity.UI.NavigationEventTrigger.TriggerEvent.html
+  commentId: T:Aci.Unity.UI.NavigationEventTrigger.TriggerEvent
+  fullName: Aci.Unity.UI.NavigationEventTrigger.TriggerEvent
+  nameWithType: NavigationEventTrigger.TriggerEvent
+- uid: Aci.Unity.UI.NavigationEventTrigger.triggers
+  name: triggers
+  href: api/Aci.Unity.UI.NavigationEventTrigger.html#Aci_Unity_UI_NavigationEventTrigger_triggers
+  commentId: P:Aci.Unity.UI.NavigationEventTrigger.triggers
+  fullName: Aci.Unity.UI.NavigationEventTrigger.triggers
+  nameWithType: NavigationEventTrigger.triggers
+- uid: Aci.Unity.UI.NavigationEventTrigger.triggers*
+  name: triggers
+  href: api/Aci.Unity.UI.NavigationEventTrigger.html#Aci_Unity_UI_NavigationEventTrigger_triggers_
+  commentId: Overload:Aci.Unity.UI.NavigationEventTrigger.triggers
+  isSpec: "True"
+  fullName: Aci.Unity.UI.NavigationEventTrigger.triggers
+  nameWithType: NavigationEventTrigger.triggers
 - uid: Aci.Unity.UI.ReplaceEmojiInText
   name: ReplaceEmojiInText
   href: api/Aci.Unity.UI.ReplaceEmojiInText.html
@@ -7678,18 +7911,18 @@ references:
   commentId: T:Aci.Unity.Util.UnityMainThreadDispatcher
   fullName: Aci.Unity.Util.UnityMainThreadDispatcher
   nameWithType: UnityMainThreadDispatcher
-- uid: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(IEnumerator)
-  name: Enqueue(IEnumerator)
-  href: api/Aci.Unity.Util.UnityMainThreadDispatcher.html#Aci_Unity_Util_UnityMainThreadDispatcher_Enqueue_IEnumerator_
-  commentId: M:Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(IEnumerator)
-  fullName: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(IEnumerator)
-  nameWithType: UnityMainThreadDispatcher.Enqueue(IEnumerator)
 - uid: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(System.Action)
   name: Enqueue(Action)
   href: api/Aci.Unity.Util.UnityMainThreadDispatcher.html#Aci_Unity_Util_UnityMainThreadDispatcher_Enqueue_System_Action_
   commentId: M:Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(System.Action)
   fullName: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(System.Action)
   nameWithType: UnityMainThreadDispatcher.Enqueue(Action)
+- uid: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(System.Collections.Generic.IEnumerator)
+  name: Enqueue(IEnumerator)
+  href: api/Aci.Unity.Util.UnityMainThreadDispatcher.html#Aci_Unity_Util_UnityMainThreadDispatcher_Enqueue_System_Collections_Generic_IEnumerator_
+  commentId: M:Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(System.Collections.Generic.IEnumerator)
+  fullName: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(System.Collections.Generic.IEnumerator)
+  nameWithType: UnityMainThreadDispatcher.Enqueue(IEnumerator)
 - uid: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue*
   name: Enqueue
   href: api/Aci.Unity.Util.UnityMainThreadDispatcher.html#Aci_Unity_Util_UnityMainThreadDispatcher_Enqueue_
