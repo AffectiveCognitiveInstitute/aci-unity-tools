@@ -6760,6 +6760,19 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Tweening.TweenerDirector.RemoveTweenersAfter
   nameWithType: TweenerDirector.RemoveTweenersAfter
+- uid: Aci.Unity.UI.Tweening.TweenerDirector.Seek(System.Single)
+  name: Seek(Single)
+  href: api/Aci.Unity.UI.Tweening.TweenerDirector.html#Aci_Unity_UI_Tweening_TweenerDirector_Seek_System_Single_
+  commentId: M:Aci.Unity.UI.Tweening.TweenerDirector.Seek(System.Single)
+  fullName: Aci.Unity.UI.Tweening.TweenerDirector.Seek(System.Single)
+  nameWithType: TweenerDirector.Seek(Single)
+- uid: Aci.Unity.UI.Tweening.TweenerDirector.Seek*
+  name: Seek
+  href: api/Aci.Unity.UI.Tweening.TweenerDirector.html#Aci_Unity_UI_Tweening_TweenerDirector_Seek_
+  commentId: Overload:Aci.Unity.UI.Tweening.TweenerDirector.Seek
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Tweening.TweenerDirector.Seek
+  nameWithType: TweenerDirector.Seek
 - uid: Aci.Unity.UI.Tweening.TweenerDirector.tweeners
   name: tweeners
   href: api/Aci.Unity.UI.Tweening.TweenerDirector.html#Aci_Unity_UI_Tweening_TweenerDirector_tweeners
