@@ -84,7 +84,6 @@ namespace Aci.Unity.UI.Tweening
             Array.Resize(ref m_Tweeners, index + 1);
         }
 
-#if UNITY_EDITOR
         public void Seek(float timeNormalized)
         {
             if (m_Tweeners == null)
@@ -94,7 +93,6 @@ namespace Aci.Unity.UI.Tweening
             for (int i = 0; i < count; i++)
                 m_Tweeners[i].Seek(timeNormalized);
         }
-#endif
 
         [ContextMenu("Play forwards")]
         public void PlayForwards(bool triggerEvents = true)

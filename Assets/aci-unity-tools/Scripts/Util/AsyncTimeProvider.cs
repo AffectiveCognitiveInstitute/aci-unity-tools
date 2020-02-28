@@ -70,11 +70,6 @@ namespace Aci.Unity.Util
                     return;
                 }
 
-                if (!sw.IsRunning)
-                {
-                    _startTime = DateTime.Now;
-                    _subStartTime = DateTime.Now;
-                }
                 sw.Stop();
                 _startTime.Add(sw.Elapsed);
                 _subStartTime.Add(sw.Elapsed);
