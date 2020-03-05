@@ -21,5 +21,9 @@
         "url": "git+https://github.com/AffectiveCognitiveInstitute/aci-unity-tools.git"
     },
     "src": "Scripts/",
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": 
+    {
+        "com.unity.nuget.newtonsoft-json": "2.0.0-preview"
+    }
 }
