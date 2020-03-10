@@ -25,6 +25,6 @@
     "dependencies": 
     {
         "com.unity.nuget.newtonsoft-json": "2.0.0-preview",
-        "com.svermeulen.asyncawaitutil": "ssh://git@github.com/umfahrem/Unity3dAsyncAwaitUtil.git"
+        "com.svermeulen.asyncawaitutil": "ssh://git@github.com/umfahrem/Unity3dAsyncAwaitUtil.git#0.1.3"
     }
 }
