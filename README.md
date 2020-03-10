@@ -6,6 +6,16 @@ ACI Unity Tools
 ======================
 This is a collection of tools used for Unity development by the ACI for internal projects.
 
+## Requirements
+The following packages need to be added to the project manifest file located in your root Unity Project folder under `Packages/manifest.json`:
+
+Under dependencies add:
+
+`
+"com.svermeulen.asyncawaitutil": "ssh://git@github.com/umfahrem/Unity3dAsyncAwaitUtil.git#0.1.3",
+"com.svermeulen.extenject": "ssh://git@github.com/umfahrem/Extenject.git#9.1.1",
+`
+
 ## Table of content
 
 - [Components](#components)
