@@ -1,7 +1,7 @@
-﻿using Aci.Unity.Events;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Aci.Unity.Events;
 using UnityEngine;
 
 namespace Aci.Unity.UI.Navigation
@@ -13,8 +13,9 @@ namespace Aci.Unity.UI.Navigation
         private readonly Stack<IScreenController> m_NavigationStack = new Stack<IScreenController>(25);
         private readonly IScreenRegistry m_ScreenRegistry;
         private readonly IAciEventManager m_EventManager;
+        private readonly List<Task> m_PushTasks = new List<Task>();
         private readonly List<Task> m_ParallelTasks = new List<Task>();
-
+        private readonly List<NavigationTask> m_NavigationTasks = new List<NavigationTask>();
         private IScreenController m_Current;
         private bool m_IsBusy;
 
@@ -159,6 +160,31 @@ namespace Aci.Unity.UI.Navigation
             if (m_IsBusy)
                 return;
 
+            ExtractTasksFromPath(screen, m_NavigationTasks);
+            m_PushTasks.Clear();
+            for (int i = 0; i < m_NavigationTasks.Count; i++)
+            {
+                NavigationTask task = m_NavigationTasks[i];
+                switch (task.operation)
+                {
+                    case Operation.Pop:
+                        m_PushTasks.Add(PopAsync(parameters, AnimationOptions.None));
+                        break;
+                    case Operation.Push:
+                        m_PushTasks.Add(PushInternalAsync(task.screen, parameters, i != m_NavigationTasks.Count - 1? AnimationOptions.None : animationOptions, addToHistory));
+                        break;
+                }
+            }
+
+            for (int i = 0; i < m_PushTasks.Count; i++)
+                await m_PushTasks[i];
+        }
+
+        private async Task PushInternalAsync(string screen, INavigationParameters parameters, AnimationOptions animationOptions, bool addToHistory = true)
+        {
+            if (m_IsBusy)
+                return;
+
             if (string.IsNullOrEmpty(screen))
                 throw new ArgumentNullException(nameof(screen));
 
@@ -290,6 +316,31 @@ namespace Aci.Unity.UI.Navigation
         {
             s_DefaultParams.Clear();
             return PushWithNewStackAsync(screen, s_DefaultParams, animationOptions);
+        }
+
+        private void ExtractTasksFromPath(string path, List<NavigationTask> navigationTasks)
+        {
+            navigationTasks.Clear();
+            string[] paths = path.Split(new[] { "/", @"\" } , StringSplitOptions.RemoveEmptyEntries);
+            for(int i = 0; i < paths.Length; i++)
+            {
+                if (paths[i] == "..")
+                    navigationTasks.Add(new NavigationTask { operation = Operation.Pop });
+                else
+                    navigationTasks.Add(new NavigationTask { operation = Operation.Push, screen = paths[i] });
+            }
+        }
+
+        private enum Operation
+        {
+            Pop,
+            Push
+        }
+
+        private struct NavigationTask
+        {
+            public Operation operation { get; set; }
+            public string screen { get; set; }
         }
     }
 }
