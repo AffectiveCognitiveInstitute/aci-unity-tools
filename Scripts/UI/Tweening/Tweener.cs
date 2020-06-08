@@ -36,13 +36,16 @@ namespace Aci.Unity.UI.Tweening
         private Coroutine m_Coroutine;
 
         [SerializeField]
+        private PlayMode m_PlayMode = PlayMode.Once;
+
+        [SerializeField]
         private float m_DelayTime;
 
         [SerializeField]
         private float m_Duration = 1f;
 
         [SerializeField]
-        private bool m_IgnoreTimeScale;
+        private bool m_IgnoreTimeScale = true;
 
         [SerializeField]
         private bool m_PlayOnAwake;
@@ -149,9 +152,21 @@ namespace Aci.Unity.UI.Tweening
             ExecuteFrame(timeNormalized);
         }
 
+        public void ResetToBeginning()
+        {
+            m_TimeElapsed = 0;
+            Seek(0);
+        }
+
+        public void ResetToEnd()
+        {
+            m_TimeElapsed = m_Duration;
+            Seek(1f);
+        }
+
         [ContextMenu("Play forwards")]
         /// <summary>
-        /// Plays the animation forwards
+        /// Plays the tween forwards from the beginning.
         /// </summary>
         public void PlayForwards(bool triggerEvents = true)
         {
@@ -163,6 +178,11 @@ namespace Aci.Unity.UI.Tweening
             Play(triggerEvents);
         }
 
+        /// <summary>
+        /// Plays the tween forwards from the beginning.
+        /// </summary>
+        /// <param name="triggerEvents">Should events be triggered?</param>
+        /// <returns>Returns an awaitable Task.</returns>
         public async Task PlayForwardsAsync(bool triggerEvents = true)
         {
             if (isPlaying)
@@ -173,10 +193,41 @@ namespace Aci.Unity.UI.Tweening
             await PlayAsync(triggerEvents);
         }
 
+        /// <summary>
+        /// Plays the tween forwards continuing from where it last stopped.
+        /// </summary>
+        /// <param name="triggerEvents">Should events be triggered?</param>
+        public void PlayForwardsContinuous(bool triggerEvents = true)
+        {
+            if (m_PlayMode == PlayMode.Once)
+                isPlayingForwards = true;
+
+            if (!isPlaying)
+                Play(triggerEvents);
+        }
+
+        /// <summary>
+        /// Plays the tween forwards continuing from where it last stopped.
+        /// </summary>
+        /// <param name="triggerEvents">Should events be triggered?</param>
+        /// <returns>Returns an awaitable Task.</returns>
+        public Task PlayForwardsContinuousAsync(bool triggerEvents = true)
+        {
+            if (m_PlayMode == PlayMode.Once)
+                isPlayingForwards = true;
+
+            if (!isPlaying)
+                return PlayAsync(triggerEvents);
+
+            return Task.CompletedTask; // TODO: Ideally, this should return a cached task.
+        }
+
+
         [ContextMenu("Play in reverse")]
         /// <summary>
-        /// Plays the animation in reverse
+        /// Plays the tween in reverse.
         /// </summary>
+        /// <param name="triggerEvents">Should events be triggered?</param>
         public void PlayReverse(bool triggerEvents = true)
         {
             if (isPlaying)
@@ -187,6 +238,11 @@ namespace Aci.Unity.UI.Tweening
             Play(triggerEvents);
         }
 
+        /// <summary>
+        /// Plays the tween in reverse.
+        /// </summary>
+        /// <param name="triggerEvents">Should events be triggered?</param>
+        /// <returns>Returns an awaitable Task.</returns>
         public async Task PlayReverseAsync(bool triggerEvents = true)
         {
             if (isPlaying)
@@ -195,6 +251,35 @@ namespace Aci.Unity.UI.Tweening
             m_TimeElapsed = m_Duration;
             isPlayingForwards = false;
             await PlayAsync(triggerEvents);
+        }
+
+        /// <summary>
+        /// Plays the tween in reverse continuing from the position the previous tween stopped.
+        /// </summary>
+        /// <param name="triggerEvents">Should events be triggered?</param>
+        public void PlayReverseContinuous(bool triggerEvents = true)
+        {
+            if (m_PlayMode == PlayMode.Once)
+                isPlayingForwards = false;
+
+            if (!isPlaying)
+                Play(triggerEvents);
+        }
+
+        /// <summary>
+        /// Plays the tween in reverse continuing from the position the previous tween stopped.
+        /// </summary>
+        /// <param name="triggerEvents">Should events be triggered?</param>
+        /// <returns>Returns an awaitable Task.</returns>
+        public Task PlayReverseContinuousAsync(bool triggerEvents = true)
+        {
+            if (m_PlayMode == PlayMode.Once)
+                isPlayingForwards = false;
+
+            if (!isPlaying)
+                return PlayAsync(triggerEvents);
+
+            return Task.CompletedTask;
         }
 
         [ContextMenu("Toggle play")]
@@ -223,7 +308,7 @@ namespace Aci.Unity.UI.Tweening
         }
 
         /// <summary>
-        ///     Stops the animation if it is running
+        ///     Stops or pauses the animation if it is running
         /// </summary>
         public void Stop()
         {
@@ -234,6 +319,8 @@ namespace Aci.Unity.UI.Tweening
             {
                 if (m_Coroutine != null)
                     StopCoroutine(m_Coroutine);
+
+                isPlaying = false;
             }
             catch (Exception e)
             {
@@ -264,21 +351,8 @@ namespace Aci.Unity.UI.Tweening
             // Run the bulk of the animation
             while (m_TimeElapsed >= 0 && m_TimeElapsed <= m_Duration)
             {
-                // Increment or decrement time according to time scale settings
-                if (m_IgnoreTimeScale)
-                {
-                    if (isPlayingForwards)
-                        m_TimeElapsed += Time.unscaledDeltaTime;
-                    else
-                        m_TimeElapsed -= Time.unscaledDeltaTime;
-                }
-                else
-                {
-                    if (isPlayingForwards)
-                        m_TimeElapsed += Time.deltaTime;
-                    else
-                        m_TimeElapsed -= Time.deltaTime;
-                }
+                // Update time depending on the type of play mode.
+                UpdateTime(m_IgnoreTimeScale? Time.unscaledDeltaTime : Time.deltaTime);
 
                 // Calculate how far along the animation is as a value between 0 and 1
                 percentage = Mathf.Clamp01(m_TimeElapsed / m_Duration);
@@ -298,6 +372,56 @@ namespace Aci.Unity.UI.Tweening
             // Fire event tween ended
             if (m_TweenEnded != null && triggerEvents)
                 m_TweenEnded.Invoke();
+        }
+
+        private void UpdateTime(float time)
+        {
+            switch (m_PlayMode)
+            {
+                case PlayMode.Once:
+                    if (isPlayingForwards)
+                        m_TimeElapsed += time;
+                    else
+                        m_TimeElapsed -= time;
+                    break;
+                case PlayMode.Loop:
+                    if(isPlayingForwards)
+                    {
+                        m_TimeElapsed += time;
+                        if (m_TimeElapsed > m_Duration)
+                            m_TimeElapsed -= m_Duration;
+                    }
+                    else
+                    {
+                        m_TimeElapsed -= time;
+                        if (m_TimeElapsed < 0)
+                            m_TimeElapsed += m_Duration;
+                    }
+                    break;
+                case PlayMode.PingPong:
+                    if(isPlayingForwards)
+                    {
+                        m_TimeElapsed += time;
+                        if(m_TimeElapsed > m_Duration)
+                        {
+                            isPlayingForwards = false;
+                            float delta = Mathf.Abs(m_Duration - m_TimeElapsed);
+                            m_TimeElapsed = (m_Duration - delta);
+                            Debug.Log(m_TimeElapsed);
+                        }
+                    }
+                    else
+                    {
+                        m_TimeElapsed -= time;
+                        if (m_TimeElapsed < 0)
+                        {
+                            isPlayingForwards = true;
+                            m_TimeElapsed = Mathf.Abs(m_TimeElapsed);
+                            Debug.Log(m_TimeElapsed);
+                        }
+                    }
+                    break;
+            }            
         }
 
         protected abstract void ExecuteFrame(float percentage);
@@ -326,6 +450,13 @@ namespace Aci.Unity.UI.Tweening
                 else
                     m_WaitForSecondsScaled = new WaitForSeconds(m_DelayTime);
             }
+        }
+
+        public enum PlayMode
+        {
+            Once,
+            Loop,
+            PingPong
         }
     }
 
