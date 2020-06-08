@@ -33,7 +33,7 @@ namespace Aci.Unity.UI.Tweening
         {
             float t = m_Transition.Evaluate(percentage);
 
-            m_Target.eulerAngles = Vector3.LerpUnclamped(m_FromValue.euler, m_ToValue.euler, t);
+            m_Target.localEulerAngles = Vector3.LerpUnclamped(m_FromValue.euler, m_ToValue.euler, t);
         }
 
         protected override void Reset()
