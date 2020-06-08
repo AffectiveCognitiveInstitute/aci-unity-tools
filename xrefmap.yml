@@ -6414,6 +6414,56 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Tweening.Tweener.PlayForwardsAsync
   nameWithType: Tweener.PlayForwardsAsync
+- uid: Aci.Unity.UI.Tweening.Tweener.PlayForwardsContinuous(System.Boolean)
+  name: PlayForwardsContinuous(Boolean)
+  href: api/Aci.Unity.UI.Tweening.Tweener.html#Aci_Unity_UI_Tweening_Tweener_PlayForwardsContinuous_System_Boolean_
+  commentId: M:Aci.Unity.UI.Tweening.Tweener.PlayForwardsContinuous(System.Boolean)
+  fullName: Aci.Unity.UI.Tweening.Tweener.PlayForwardsContinuous(System.Boolean)
+  nameWithType: Tweener.PlayForwardsContinuous(Boolean)
+- uid: Aci.Unity.UI.Tweening.Tweener.PlayForwardsContinuous*
+  name: PlayForwardsContinuous
+  href: api/Aci.Unity.UI.Tweening.Tweener.html#Aci_Unity_UI_Tweening_Tweener_PlayForwardsContinuous_
+  commentId: Overload:Aci.Unity.UI.Tweening.Tweener.PlayForwardsContinuous
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Tweening.Tweener.PlayForwardsContinuous
+  nameWithType: Tweener.PlayForwardsContinuous
+- uid: Aci.Unity.UI.Tweening.Tweener.PlayForwardsContinuousAsync(System.Boolean)
+  name: PlayForwardsContinuousAsync(Boolean)
+  href: api/Aci.Unity.UI.Tweening.Tweener.html#Aci_Unity_UI_Tweening_Tweener_PlayForwardsContinuousAsync_System_Boolean_
+  commentId: M:Aci.Unity.UI.Tweening.Tweener.PlayForwardsContinuousAsync(System.Boolean)
+  fullName: Aci.Unity.UI.Tweening.Tweener.PlayForwardsContinuousAsync(System.Boolean)
+  nameWithType: Tweener.PlayForwardsContinuousAsync(Boolean)
+- uid: Aci.Unity.UI.Tweening.Tweener.PlayForwardsContinuousAsync*
+  name: PlayForwardsContinuousAsync
+  href: api/Aci.Unity.UI.Tweening.Tweener.html#Aci_Unity_UI_Tweening_Tweener_PlayForwardsContinuousAsync_
+  commentId: Overload:Aci.Unity.UI.Tweening.Tweener.PlayForwardsContinuousAsync
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Tweening.Tweener.PlayForwardsContinuousAsync
+  nameWithType: Tweener.PlayForwardsContinuousAsync
+- uid: Aci.Unity.UI.Tweening.Tweener.PlayMode
+  name: Tweener.PlayMode
+  href: api/Aci.Unity.UI.Tweening.Tweener.PlayMode.html
+  commentId: T:Aci.Unity.UI.Tweening.Tweener.PlayMode
+  fullName: Aci.Unity.UI.Tweening.Tweener.PlayMode
+  nameWithType: Tweener.PlayMode
+- uid: Aci.Unity.UI.Tweening.Tweener.PlayMode.Loop
+  name: Loop
+  href: api/Aci.Unity.UI.Tweening.Tweener.PlayMode.html#Aci_Unity_UI_Tweening_Tweener_PlayMode_Loop
+  commentId: F:Aci.Unity.UI.Tweening.Tweener.PlayMode.Loop
+  fullName: Aci.Unity.UI.Tweening.Tweener.PlayMode.Loop
+  nameWithType: Tweener.PlayMode.Loop
+- uid: Aci.Unity.UI.Tweening.Tweener.PlayMode.Once
+  name: Once
+  href: api/Aci.Unity.UI.Tweening.Tweener.PlayMode.html#Aci_Unity_UI_Tweening_Tweener_PlayMode_Once
+  commentId: F:Aci.Unity.UI.Tweening.Tweener.PlayMode.Once
+  fullName: Aci.Unity.UI.Tweening.Tweener.PlayMode.Once
+  nameWithType: Tweener.PlayMode.Once
+- uid: Aci.Unity.UI.Tweening.Tweener.PlayMode.PingPong
+  name: PingPong
+  href: api/Aci.Unity.UI.Tweening.Tweener.PlayMode.html#Aci_Unity_UI_Tweening_Tweener_PlayMode_PingPong
+  commentId: F:Aci.Unity.UI.Tweening.Tweener.PlayMode.PingPong
+  fullName: Aci.Unity.UI.Tweening.Tweener.PlayMode.PingPong
+  nameWithType: Tweener.PlayMode.PingPong
 - uid: Aci.Unity.UI.Tweening.Tweener.PlayReverse(System.Boolean)
   name: PlayReverse(Boolean)
   href: api/Aci.Unity.UI.Tweening.Tweener.html#Aci_Unity_UI_Tweening_Tweener_PlayReverse_System_Boolean_
@@ -6440,6 +6490,32 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Tweening.Tweener.PlayReverseAsync
   nameWithType: Tweener.PlayReverseAsync
+- uid: Aci.Unity.UI.Tweening.Tweener.PlayReverseContinuous(System.Boolean)
+  name: PlayReverseContinuous(Boolean)
+  href: api/Aci.Unity.UI.Tweening.Tweener.html#Aci_Unity_UI_Tweening_Tweener_PlayReverseContinuous_System_Boolean_
+  commentId: M:Aci.Unity.UI.Tweening.Tweener.PlayReverseContinuous(System.Boolean)
+  fullName: Aci.Unity.UI.Tweening.Tweener.PlayReverseContinuous(System.Boolean)
+  nameWithType: Tweener.PlayReverseContinuous(Boolean)
+- uid: Aci.Unity.UI.Tweening.Tweener.PlayReverseContinuous*
+  name: PlayReverseContinuous
+  href: api/Aci.Unity.UI.Tweening.Tweener.html#Aci_Unity_UI_Tweening_Tweener_PlayReverseContinuous_
+  commentId: Overload:Aci.Unity.UI.Tweening.Tweener.PlayReverseContinuous
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Tweening.Tweener.PlayReverseContinuous
+  nameWithType: Tweener.PlayReverseContinuous
+- uid: Aci.Unity.UI.Tweening.Tweener.PlayReverseContinuousAsync(System.Boolean)
+  name: PlayReverseContinuousAsync(Boolean)
+  href: api/Aci.Unity.UI.Tweening.Tweener.html#Aci_Unity_UI_Tweening_Tweener_PlayReverseContinuousAsync_System_Boolean_
+  commentId: M:Aci.Unity.UI.Tweening.Tweener.PlayReverseContinuousAsync(System.Boolean)
+  fullName: Aci.Unity.UI.Tweening.Tweener.PlayReverseContinuousAsync(System.Boolean)
+  nameWithType: Tweener.PlayReverseContinuousAsync(Boolean)
+- uid: Aci.Unity.UI.Tweening.Tweener.PlayReverseContinuousAsync*
+  name: PlayReverseContinuousAsync
+  href: api/Aci.Unity.UI.Tweening.Tweener.html#Aci_Unity_UI_Tweening_Tweener_PlayReverseContinuousAsync_
+  commentId: Overload:Aci.Unity.UI.Tweening.Tweener.PlayReverseContinuousAsync
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Tweening.Tweener.PlayReverseContinuousAsync
+  nameWithType: Tweener.PlayReverseContinuousAsync
 - uid: Aci.Unity.UI.Tweening.Tweener.PlayToggled(System.Boolean)
   name: PlayToggled(Boolean)
   href: api/Aci.Unity.UI.Tweening.Tweener.html#Aci_Unity_UI_Tweening_Tweener_PlayToggled_System_Boolean_
@@ -6479,6 +6555,32 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Tweening.Tweener.Reset
   nameWithType: Tweener.Reset
+- uid: Aci.Unity.UI.Tweening.Tweener.ResetToBeginning
+  name: ResetToBeginning()
+  href: api/Aci.Unity.UI.Tweening.Tweener.html#Aci_Unity_UI_Tweening_Tweener_ResetToBeginning
+  commentId: M:Aci.Unity.UI.Tweening.Tweener.ResetToBeginning
+  fullName: Aci.Unity.UI.Tweening.Tweener.ResetToBeginning()
+  nameWithType: Tweener.ResetToBeginning()
+- uid: Aci.Unity.UI.Tweening.Tweener.ResetToBeginning*
+  name: ResetToBeginning
+  href: api/Aci.Unity.UI.Tweening.Tweener.html#Aci_Unity_UI_Tweening_Tweener_ResetToBeginning_
+  commentId: Overload:Aci.Unity.UI.Tweening.Tweener.ResetToBeginning
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Tweening.Tweener.ResetToBeginning
+  nameWithType: Tweener.ResetToBeginning
+- uid: Aci.Unity.UI.Tweening.Tweener.ResetToEnd
+  name: ResetToEnd()
+  href: api/Aci.Unity.UI.Tweening.Tweener.html#Aci_Unity_UI_Tweening_Tweener_ResetToEnd
+  commentId: M:Aci.Unity.UI.Tweening.Tweener.ResetToEnd
+  fullName: Aci.Unity.UI.Tweening.Tweener.ResetToEnd()
+  nameWithType: Tweener.ResetToEnd()
+- uid: Aci.Unity.UI.Tweening.Tweener.ResetToEnd*
+  name: ResetToEnd
+  href: api/Aci.Unity.UI.Tweening.Tweener.html#Aci_Unity_UI_Tweening_Tweener_ResetToEnd_
+  commentId: Overload:Aci.Unity.UI.Tweening.Tweener.ResetToEnd
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Tweening.Tweener.ResetToEnd
+  nameWithType: Tweener.ResetToEnd
 - uid: Aci.Unity.UI.Tweening.Tweener.Seek(System.Single)
   name: Seek(Single)
   href: api/Aci.Unity.UI.Tweening.Tweener.html#Aci_Unity_UI_Tweening_Tweener_Seek_System_Single_
