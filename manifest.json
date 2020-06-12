@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Collections.Heap-1.html",
-          "hash": "+A4SHddxTRxCvB3OjnUF5g=="
+          "hash": "6Kun85ID2WRrmddgixws+A=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Collections.MaxHeap-1.html",
-          "hash": "S+/GvjT9PRfHxHioGVK6uw=="
+          "hash": "fojnBhcCQfufsSjh83IHwg=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Collections.SerializedDictionary-2.html",
-          "hash": "G0zaJJ79drhJnk9MSBVx4A=="
+          "hash": "8dlR8+1c7Hahzky75Nx/zg=="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.UI.Binding.MonoBindable.html",
-          "hash": "NRVOaFgNOS2TMYJp3K/T1w=="
+          "hash": "l7kIkX8qh9mqd3JGBhDd8Q=="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.UI.Collections.Pool-1.html",
-          "hash": "ImQ/IAUbSNSf+WQA/cRiIw=="
+          "hash": "Y3tQ+MDiwcwKAOKlidVhwQ=="
         }
       },
       "is_incremental": false,
@@ -357,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Events.UnityEventTrigger.EventMode.html",
-          "hash": "INqDtzW6+WAi7V+HiyPCRA=="
+          "hash": "BdkMZDtI1FQr712ki21pcA=="
         }
       },
       "is_incremental": false,
@@ -441,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Events.deprecated.AciEventBroker.html",
-          "hash": "SCPXexa7apkr3rAe+ox//g=="
+          "hash": "KVG8CRq6Z6j41yoznJD3fg=="
         }
       },
       "is_incremental": false,
@@ -453,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Events.deprecated.DbRemoveEvent.html",
-          "hash": "HQIGHepe5G8YB8M06ZFqHg=="
+          "hash": "z9BeUvT7aY1swnzZdsoJDQ=="
         }
       },
       "is_incremental": false,
@@ -465,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Events.deprecated.DbUpdateEvent.html",
-          "hash": "aEh0iZHZV7uX3A2Rfdb/8g=="
+          "hash": "P3H6aFJRbgdePrkQaQbt3A=="
         }
       },
       "is_incremental": false,
@@ -477,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Events.deprecated.IAciEventHandler.html",
-          "hash": "mXvL1D2qaYXCLJ3v7C3JmQ=="
+          "hash": "/BKkYn3vYjd0j7kZF4uxjQ=="
         }
       },
       "is_incremental": false,
@@ -489,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Events.deprecated.IDbRemoveHandler.html",
-          "hash": "p89sooZlq/9HDD/Sm4CB6w=="
+          "hash": "nShDHaqLL6BalODO/JDDeg=="
         }
       },
       "is_incremental": false,
@@ -501,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Events.deprecated.IDbUpdateHandler.html",
-          "hash": "+o07iN2su8G4aczm8ZkkYA=="
+          "hash": "cQngNZNojOD4UAM1fMDvmQ=="
         }
       },
       "is_incremental": false,
@@ -513,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Events.deprecated.ILocalizationChangedHandler.html",
-          "hash": "eWaJkiV6q8BZaqWk8jS+iA=="
+          "hash": "on1lZu5q4YLpPI981c/MRA=="
         }
       },
       "is_incremental": false,
@@ -525,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Events.deprecated.ILoginHandler.html",
-          "hash": "Z5hbtLIqoXQGFMJJOYJRpw=="
+          "hash": "ZMd4oKZ4Jj4x4FwCOQgSCw=="
         }
       },
       "is_incremental": false,
@@ -537,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Events.deprecated.ILogoutHandler.html",
-          "hash": "uCBIwsp7fsXxjDeACLl9qA=="
+          "hash": "d0iRpKxLExgrTMET14tNEw=="
         }
       },
       "is_incremental": false,
@@ -549,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Events.deprecated.IUpdateHandler.html",
-          "hash": "0mERSl63GkwYl6Z9UCpyXA=="
+          "hash": "AGpJJX5RzoalmfGtOPGCGg=="
         }
       },
       "is_incremental": false,
@@ -561,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Events.deprecated.LocalizationChangedEvent.html",
-          "hash": "FaSnCd5ybCNbPWU86hR+RA=="
+          "hash": "mXl1Y1He6kwhMaRmNvc43w=="
         }
       },
       "is_incremental": false,
@@ -573,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Events.deprecated.UserLoginEvent.html",
-          "hash": "e4LkAKc0Q4GX+6i9okJCpQ=="
+          "hash": "6/86K2uk7dmwm3HNnnSQeQ=="
         }
       },
       "is_incremental": false,
@@ -585,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Events.deprecated.UserLogoutEvent.html",
-          "hash": "9VkoQT3Lq8qFzqA57XfrCg=="
+          "hash": "j/jTogYm9j5CkFVAgH6QrA=="
         }
       },
       "is_incremental": false,
@@ -597,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Events.deprecated.UserRegisterEvent.html",
-          "hash": "V0N3Sg8oW7AfxP9ykvSYQQ=="
+          "hash": "XYamJOtjeOeUYNTnSHYDYA=="
         }
       },
       "is_incremental": false,
@@ -609,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Events.deprecated.UserRegisterHandler.html",
-          "hash": "uOz6oR6JJ2Fb+YaCTpm0pg=="
+          "hash": "G/reMkJ5MuMSkLd5UXVisg=="
         }
       },
       "is_incremental": false,
@@ -621,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Events.deprecated.UserUpdateEvent.html",
-          "hash": "tf5a+zGNTa5bE4HW1prYkw=="
+          "hash": "nq4VTm5QovuFlYbRybkvew=="
         }
       },
       "is_incremental": false,
@@ -657,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Logging.AciLog.html",
-          "hash": "bmJzcwi3sgHyWyxIZK0nzg=="
+          "hash": "Fx+1dWGfuiWD6fSxnBZpUQ=="
         }
       },
       "is_incremental": false,
@@ -717,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Network.INetworkPackageHandler.html",
-          "hash": "jtf5qSE30wo7QJgDQoAXCg=="
+          "hash": "7ri6YohGZSbDLM7TIZOoQw=="
         }
       },
       "is_incremental": false,
@@ -753,7 +753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-1.html",
-          "hash": "mth7Maju9h//teGxgnprRg=="
+          "hash": "Z/N2YkiycHFwr7HDHtR1/A=="
         }
       },
       "is_incremental": false,
@@ -765,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-2.html",
-          "hash": "qppDItgGMXFWPrtffZyaKQ=="
+          "hash": "7e/28kCl2jS077DEM5nDbg=="
         }
       },
       "is_incremental": false,
@@ -777,7 +777,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-3.html",
-          "hash": "r7cyDfwwa2xxUj6Ifwc7lw=="
+          "hash": "bA4ksZuXi5i329+NeUxT/Q=="
         }
       },
       "is_incremental": false,
@@ -789,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-4.html",
-          "hash": "12kmNrIcPUNiwTgA6AGZMQ=="
+          "hash": "gqrpf+j0QkMoDiZ1uOECzA=="
         }
       },
       "is_incremental": false,
@@ -801,7 +801,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-5.html",
-          "hash": "fyPTMcIRPNwRiycjKyWCUw=="
+          "hash": "Z5bNXesMS4jzkS2PGOcRKg=="
         }
       },
       "is_incremental": false,
@@ -813,7 +813,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-6.html",
-          "hash": "oVwNES9rmNBMmsvBZyXbTQ=="
+          "hash": "Kwo6meo2eLbXtpQawzZ6ew=="
         }
       },
       "is_incremental": false,
@@ -825,7 +825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Network.NetworkPackageHandlerBase-7.html",
-          "hash": "LGnXa2AAnyFkZ9zD02O0pQ=="
+          "hash": "RTUXJvFykLYBmT4nG7atfQ=="
         }
       },
       "is_incremental": false,
@@ -993,7 +993,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.CachedImageComponent.html",
-          "hash": "phhyjFEjrLhsKyqtDWxBZQ=="
+          "hash": "mJkEdQ5rYvPA6Ro9NLeefA=="
         }
       },
       "is_incremental": false,
@@ -1041,7 +1041,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Dialog.DialogFacade.html",
-          "hash": "uUX3/J+XZyU5LY06OWlEbg=="
+          "hash": "7Er7QPxf7y/3/+ZouGtguw=="
         }
       },
       "is_incremental": false,
@@ -1077,7 +1077,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Dialog.DialogManager.html",
-          "hash": "2maxcWeEQwqRuOqACJicVw=="
+          "hash": "1rH3SZfww38wsjTOkuY2Iw=="
         }
       },
       "is_incremental": false,
@@ -1101,7 +1101,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Dialog.DialogRequest.html",
-          "hash": "MoxJilF+/2if8g5/Ud8pHw=="
+          "hash": "VRWDKAnjy/z+vi49Ad+/Fw=="
         }
       },
       "is_incremental": false,
@@ -1149,7 +1149,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Dialog.IDialogFacade.html",
-          "hash": "lZDrlHcynbo/9td60cmIVg=="
+          "hash": "L/EJo1CsR/Nqm9KZdqJchQ=="
         }
       },
       "is_incremental": false,
@@ -1221,7 +1221,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Localization.LocalizationData.html",
-          "hash": "CtZNwgDp4zjarMq7DwfQIw=="
+          "hash": "DgKPCh4OdFvUixFIQtCxTg=="
         }
       },
       "is_incremental": false,
@@ -1245,7 +1245,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Localization.LocalizationDictionary.html",
-          "hash": "ebP4u/FRP1tm02zi/Cblig=="
+          "hash": "l3zvsqGtdYH04dwoJ46fwA=="
         }
       },
       "is_incremental": false,
@@ -1269,7 +1269,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Localization.LocalizedString.html",
-          "hash": "WE0gL26oYlUGorkcYmZREQ=="
+          "hash": "5oZmsM0tQMBBUjAw01+5Pg=="
         }
       },
       "is_incremental": false,
@@ -1330,6 +1330,18 @@
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Navigation.ExecuteNavigationEvent.html",
           "hash": "R+19EmHrxvu0nkgbahuveA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aci.Unity.UI.Navigation.ICanNavigate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aci.Unity.UI.Navigation.ICanNavigate.html",
+          "hash": "CGIeNoeuLQ/wLPZPeipWBQ=="
         }
       },
       "is_incremental": false,
@@ -1449,7 +1461,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Navigation.INavigationService.html",
-          "hash": "oSVyUIAEekdAJHLiuROhgw=="
+          "hash": "QmhVfClim/MM1Nhr/uf36w=="
         }
       },
       "is_incremental": false,
@@ -1461,7 +1473,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Navigation.IScreenController.html",
-          "hash": "Ey9EH+v7lANE3Wz7mMLSMQ=="
+          "hash": "flTF+JM5bp56AUXSIH9KWQ=="
         }
       },
       "is_incremental": false,
@@ -1581,7 +1593,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Navigation.NavigationService.html",
-          "hash": "6KDJg49bKgnRgfKOiIlA9g=="
+          "hash": "VedT024sdaS/cr29Uyhg/Q=="
         }
       },
       "is_incremental": false,
@@ -1641,7 +1653,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Navigation.ScreenController.html",
-          "hash": "efjq5MHwqphNck6Eb9/51w=="
+          "hash": "VCzN6rfTNXW8WjCkq7l6Hg=="
         }
       },
       "is_incremental": false,
@@ -1713,7 +1725,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Navigation.html",
-          "hash": "xBaWJXRntCNPwBUtRpEoaw=="
+          "hash": "NNIegMn+2psL3cW3ENpGeQ=="
         }
       },
       "is_incremental": false,
@@ -1929,7 +1941,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Tweening.RectTransformAnchor.html",
-          "hash": "ox27tYbH+5Mv45BQqhdcdQ=="
+          "hash": "ejCiko4s2KRUO/c/g3FVYA=="
         }
       },
       "is_incremental": false,
@@ -1941,7 +1953,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Tweening.RectTransformRotation.html",
-          "hash": "RAmmSyA+JMeHC76hCt52Jw=="
+          "hash": "7oqH1HHrne6scOyt5ZFRXw=="
         }
       },
       "is_incremental": false,
@@ -2049,7 +2061,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.Tweening.TweenerDirectorNavigationTrigger.NavigationEvents.html",
-          "hash": "abehHlvwhlNynR53PkRY5A=="
+          "hash": "3a7BYEulYpVEq25mh7RbdA=="
         }
       },
       "is_incremental": false,
@@ -2109,7 +2121,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.ViewControllers.ActivityIndicatorViewController.html",
-          "hash": "i1p1tC5UIO1F/5kcz0uvrA=="
+          "hash": "RusjUnMS0zNfLwZIfDNMVw=="
         }
       },
       "is_incremental": false,
@@ -2133,7 +2145,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.html",
-          "hash": "o/JToCeR6ovxgrAJIxKrAQ=="
+          "hash": "7SQlzqW03LxM6/UV/eSxIA=="
         }
       },
       "is_incremental": false,
@@ -2145,7 +2157,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.UI.ViewControllers.CameraFeedViewController.html",
-          "hash": "0SxXn/AMSmMNQuYvdVa3iA=="
+          "hash": "nT0QGy4u5jf9LOLRT2THiA=="
         }
       },
       "is_incremental": false,
@@ -2181,7 +2193,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Util.AsyncTimeProvider.html",
-          "hash": "1gmbmFDVtaeauuEuILMTmw=="
+          "hash": "80JtS35EUSHxIOOtsgkuaQ=="
         }
       },
       "is_incremental": false,
@@ -2205,7 +2217,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Util.ConfigValueAttribute.html",
-          "hash": "pH++5RUBiX2LMzFWGhLIuQ=="
+          "hash": "CnX3V1C8DTjByJI1e9UrVw=="
         }
       },
       "is_incremental": false,
@@ -2229,7 +2241,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Util.HidePropertyIfAttribute.html",
-          "hash": "wvyy9oQX2vRsuES2RYrREA=="
+          "hash": "wcdRt3tBC+95S/ZCXPXPaA=="
         }
       },
       "is_incremental": false,
@@ -2277,7 +2289,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Util.ITimeProvider.html",
-          "hash": "frFON7Vbw8a9ieVLg1ijmA=="
+          "hash": "c/TbPDQtCPJ65dDnqA4Bug=="
         }
       },
       "is_incremental": false,
@@ -2313,7 +2325,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Util.SerializableDictionary-2.html",
-          "hash": "J+9INO881gfTwrL25gk5NA=="
+          "hash": "4R7vaFfEftvrZ4oLgIkGSw=="
         }
       },
       "is_incremental": false,
@@ -2337,7 +2349,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Aci.Unity.Util.UnityMainThreadDispatcher.html",
-          "hash": "0uyT5o7rZ+NwY1Cq6kzMFQ=="
+          "hash": "6fIUElbp+oBFXU3m/j94qg=="
         }
       },
       "is_incremental": false,
@@ -2373,7 +2385,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "B+DjnKhbcHqZ2o3DNYVGdA=="
+          "hash": "+nzRQQEchdKf1cn9Y+6hWg=="
         }
       },
       "is_incremental": false,
@@ -2482,9 +2494,9 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "ResourceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
@@ -2495,9 +2507,9 @@
           "can_incremental": false,
           "incrementalPhase": "build"
         },
-        "TocDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }

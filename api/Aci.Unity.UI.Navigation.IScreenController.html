@@ -80,9 +80,6 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.IEquatable&lt;Aci.Unity.UI.Navigation.IScreenController&gt;.Equals(Aci.Unity.UI.Navigation.IScreenController)</span>
-    </div>
-    <div>
       <a class="xref" href="Aci.Unity.UI.Navigation.INavigatedAware.html#Aci_Unity_UI_Navigation_INavigatedAware_OnNavigatedTo_Aci_Unity_UI_Navigation_INavigationParameters_">INavigatedAware.OnNavigatedTo(INavigationParameters)</a>
     </div>
     <div>
@@ -100,6 +97,9 @@
     <div>
       <a class="xref" href="Aci.Unity.UI.Navigation.INavigatedBackAware.html#Aci_Unity_UI_Navigation_INavigatedBackAware_OnNavigatedBack_Aci_Unity_UI_Navigation_INavigationParameters_">INavigatedBackAware.OnNavigatedBack(INavigationParameters)</a>
     </div>
+    <div>
+      <a class="xref" href="Aci.Unity.UI.Navigation.ICanNavigate.html#Aci_Unity_UI_Navigation_ICanNavigate_CanNavigate_Aci_Unity_UI_Navigation_INavigationParameters_">ICanNavigate.CanNavigate(INavigationParameters)</a>
+    </div>
   </div>
   
   <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
@@ -107,7 +107,7 @@
   
   <h5 id="Aci_Unity_UI_Navigation_IScreenController_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IScreenController : IEquatable&lt;IScreenController&gt;, INavigationAware, INavigatedAware, INavigatingAware, INavigatingBackAware, INavigatingAwayAware, IDestructibleAware, INavigatedBackAware, INavigationEventHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IScreenController : IEquatable&lt;IScreenController&gt;, INavigationAware, INavigatedAware, INavigatingAware, INavigatingBackAware, INavigatingAwayAware, IDestructibleAware, INavigatedBackAware, INavigationEventHandler, ICanNavigate</code></pre>
   </div>
 
   

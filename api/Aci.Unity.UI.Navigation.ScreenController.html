@@ -87,7 +87,7 @@
   
   <h5 id="Aci_Unity_UI_Navigation_ScreenController_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ScreenController : MonoBehaviour, IScreenController, IEquatable&lt;IScreenController&gt;, INavigationAware, INavigatedAware, INavigatingAware, INavigatingBackAware, INavigatingAwayAware, IDestructibleAware, INavigatedBackAware, INavigationEventHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public class ScreenController : MonoBehaviour, IScreenController, IEquatable&lt;IScreenController&gt;, INavigationAware, INavigatedAware, INavigatingAware, INavigatingBackAware, INavigatingAwayAware, IDestructibleAware, INavigatedBackAware, INavigationEventHandler, ICanNavigate</code></pre>
   </div>
 
   
@@ -138,11 +138,62 @@
   </h3>
   
   
+  <a id="Aci_Unity_UI_Navigation_ScreenController_CanNavigate_" data-uid="Aci.Unity.UI.Navigation.ScreenController.CanNavigate*"></a>
+  
+  <h4 id="Aci_Unity_UI_Navigation_ScreenController_CanNavigate_Aci_Unity_UI_Navigation_INavigationParameters_" data-uid="Aci.Unity.UI.Navigation.ScreenController.CanNavigate(Aci.Unity.UI.Navigation.INavigationParameters)"><a href="#collapsible-Aci_Unity_UI_Navigation_ScreenController_CanNavigate_Aci_Unity_UI_Navigation_INavigationParameters_" class="expander" data-toggle="collapse">CanNavigate(INavigationParameters)</a></h4>
+  
+  <div id="collapsible-Aci_Unity_UI_Navigation_ScreenController_CanNavigate_Aci_Unity_UI_Navigation_INavigationParameters_" class="collapse in">
+  <div class="markdown level1 summary"><p>Determines whether the instance accepts being navigated away from.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanNavigate(INavigationParameters navigationParameters)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="Aci.Unity.UI.Navigation.INavigationParameters.html">INavigationParameters</a></span>
+        <span class="parametername">navigationParameters</span>
+        <p><p>The navigation parameters.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p><p><code>True</code> if navigation can continue, <code>False</code> if it cannot.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="implements">Implements</h5>
+      <div><a class="xref" href="Aci.Unity.UI.Navigation.ICanNavigate.html#Aci_Unity_UI_Navigation_ICanNavigate_CanNavigate_Aci_Unity_UI_Navigation_INavigationParameters_">ICanNavigate.CanNavigate(INavigationParameters)</a></div>
+  
+  
+  
+  
+  </div>
+  
+  
   <a id="Aci_Unity_UI_Navigation_ScreenController_Construct_" data-uid="Aci.Unity.UI.Navigation.ScreenController.Construct*"></a>
   
-  <h4 id="Aci_Unity_UI_Navigation_ScreenController_Construct_Aci_Unity_UI_Navigation_IScreenRegistry_IInstantiator_IAciEventManager_" data-uid="Aci.Unity.UI.Navigation.ScreenController.Construct(Aci.Unity.UI.Navigation.IScreenRegistry,IInstantiator,IAciEventManager)"><a href="#collapsible-Aci_Unity_UI_Navigation_ScreenController_Construct_Aci_Unity_UI_Navigation_IScreenRegistry_IInstantiator_IAciEventManager_" class="expander" data-toggle="collapse">Construct(IScreenRegistry, IInstantiator, IAciEventManager)</a></h4>
+  <h4 id="Aci_Unity_UI_Navigation_ScreenController_Construct_Aci_Unity_UI_Navigation_IScreenRegistry_IInstantiator_Aci_Unity_Events_IAciEventManager_" data-uid="Aci.Unity.UI.Navigation.ScreenController.Construct(Aci.Unity.UI.Navigation.IScreenRegistry,IInstantiator,Aci.Unity.Events.IAciEventManager)"><a href="#collapsible-Aci_Unity_UI_Navigation_ScreenController_Construct_Aci_Unity_UI_Navigation_IScreenRegistry_IInstantiator_Aci_Unity_Events_IAciEventManager_" class="expander" data-toggle="collapse">Construct(IScreenRegistry, IInstantiator, IAciEventManager)</a></h4>
   
-  <div id="collapsible-Aci_Unity_UI_Navigation_ScreenController_Construct_Aci_Unity_UI_Navigation_IScreenRegistry_IInstantiator_IAciEventManager_" class="collapse in">
+  <div id="collapsible-Aci_Unity_UI_Navigation_ScreenController_Construct_Aci_Unity_UI_Navigation_IScreenRegistry_IInstantiator_Aci_Unity_Events_IAciEventManager_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -169,7 +220,7 @@
     </tr>
     <tr>
       <td>
-        <span class="pull-right"><span class="xref">IAciEventManager</span></span>
+        <span class="pull-right"><a class="xref" href="Aci.Unity.Events.IAciEventManager.html">IAciEventManager</a></span>
         <span class="parametername">eventManager</span>
         <p>
       </td>
@@ -228,8 +279,6 @@
   
   
   
-  <h5 class="implements">Implements</h5>
-      <div><span class="xref">System.IEquatable&lt;T&gt;.Equals(T)</span></div>
   
   
   
