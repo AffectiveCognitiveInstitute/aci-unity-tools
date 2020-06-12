@@ -29,6 +29,8 @@ namespace Aci.Unity.UI.Navigation
             if (m_IsBusy)
                 return;
 
+            if (!m_NavigationService.CanNavigate())
+                return;
 
             m_IsBusy = true;
 

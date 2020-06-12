@@ -31,6 +31,7 @@ namespace Aci.Unity.UI.Navigation
         private IAciEventManager m_EventManager;
         private IInstantiator m_Instantiator;
         private IScreenTransition m_ScreenTransition;
+        private ICanNavigate[] m_CanNavigate;
         private Canvas m_Canvas;
 
         public string id => m_Id;
@@ -66,6 +67,7 @@ namespace Aci.Unity.UI.Navigation
             {
                 m_Instance = InstantiateScreen();
                 m_ScreenTransition = m_Instance.GetComponent<IScreenTransition>();
+                m_CanNavigate = m_Instance.GetComponentsInChildren<ICanNavigate>();
                 m_Instance.transform.SetParent(transform, false);
                 m_Instance.name = m_Id;
                 m_Canvas.enabled = false;
@@ -155,5 +157,19 @@ namespace Aci.Unity.UI.Navigation
             }
         }
 
+        /// <inheritdoc/>
+        public bool CanNavigate(INavigationParameters navigationParameters)
+        {
+            if (m_CanNavigate == null || m_CanNavigate.Length == 0)
+                return true;
+
+            for (int i = 0; i < m_CanNavigate.Length; i++)
+            {
+                if (!m_CanNavigate[i].CanNavigate(navigationParameters))
+                    return false;
+            }
+
+            return true;
+        }
     }
 }

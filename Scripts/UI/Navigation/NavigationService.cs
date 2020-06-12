@@ -32,6 +32,15 @@ namespace Aci.Unity.UI.Navigation
         }
 
         /// <inheritdoc />
+        public bool CanNavigate()
+        {
+            if (m_Current == null)
+                return true;
+
+            return m_Current.CanNavigate(null);
+        }
+
+        /// <inheritdoc />
         public Task PopAsync(AnimationOptions animationOptions)
         {
             s_DefaultParams.Clear();
@@ -46,6 +55,9 @@ namespace Aci.Unity.UI.Navigation
 
             if (m_Current == null)
                 throw new InvalidOperationException("Cannot pop if there is no screen current being displayed!");
+
+            if (!m_Current.CanNavigate(parameters))
+                return;
 
             IScreenController previousScreen = null;
             if (m_NavigationStack.Count != 0)
@@ -133,6 +145,9 @@ namespace Aci.Unity.UI.Navigation
             if (m_NavigationStack.Count == 0)
                 return;
 
+            if (!m_Current.CanNavigate(parameters))
+                return;
+
             s_DefaultParams.Clear();
             // Destroy all screens in between
             while (m_NavigationStack.Count > 1)
@@ -191,6 +206,9 @@ namespace Aci.Unity.UI.Navigation
             IScreenController nextScreen = null;
             if (!m_ScreenRegistry.TryGetScreen(screen, out nextScreen))
                 throw new ArgumentNullException(nameof(screen), $"Screen with id {screen} does not exist!");
+
+            if (m_Current != null && !m_Current.CanNavigate(parameters))
+                return;
 
             if (m_Current != null && addToHistory)
                 m_NavigationStack.Push(m_Current);
@@ -293,6 +311,8 @@ namespace Aci.Unity.UI.Navigation
             if (string.IsNullOrWhiteSpace(screen))
                 throw new ArgumentNullException(nameof(screen));
 
+            if (m_Current != null && !m_Current.CanNavigate(parameters))
+                return Task.CompletedTask;
 
             if (m_NavigationStack.Count != 0)
             {

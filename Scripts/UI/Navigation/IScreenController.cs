@@ -6,7 +6,7 @@ namespace Aci.Unity.UI.Navigation
     /// <summary>
     ///     Controls visibility of screen.
     /// </summary>
-    public interface IScreenController : IEquatable<IScreenController>, INavigationAware
+    public interface IScreenController : IEquatable<IScreenController>, INavigationAware, ICanNavigate
     {
         /// <summary>
         ///     The id of the screen.
