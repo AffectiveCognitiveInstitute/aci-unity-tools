@@ -8,6 +8,12 @@ namespace Aci.Unity.UI.Navigation
     public interface INavigationService
     {
         /// <summary>
+        /// Can navigation be executed?
+        /// </summary>
+        /// <returns>Returns <c>True</c> if possible, else <c>False</c>.</returns>
+        bool CanNavigate();
+
+        /// <summary>
         /// Can a Navigation Pop command be executed?
         /// </summary>
         /// <returns>Returns true or false</returns>
