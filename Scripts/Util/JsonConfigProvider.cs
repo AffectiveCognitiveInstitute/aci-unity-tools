@@ -127,8 +127,8 @@ namespace Aci.Unity.Util
 
         private void WriteToClient(object client)
         {
-            PropertyInfo[] pInfos = client.GetType().GetProperties();
-            FieldInfo[] fInfos = client.GetType().GetFields();
+            PropertyInfo[] pInfos = client.GetType().GetProperties(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+            FieldInfo[] fInfos = client.GetType().GetFields(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
 
             foreach (FieldInfo info in fInfos)
             {
@@ -153,8 +153,8 @@ namespace Aci.Unity.Util
 
         private void ReadFromClient(object client)
         {
-            PropertyInfo[] pInfos = client.GetType().GetProperties();
-            FieldInfo[] fInfos = client.GetType().GetFields();
+            PropertyInfo[] pInfos = client.GetType().GetProperties(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+            FieldInfo[] fInfos = client.GetType().GetFields(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
 
             foreach (FieldInfo info in fInfos)
             {
