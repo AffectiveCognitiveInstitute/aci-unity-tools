@@ -23,6 +23,7 @@
 // <date>08/01/2018 06:16</date>
 
 using System;
+using System.Linq;
 using System.Threading.Tasks;
 using UnityEngine;
 
@@ -45,7 +46,15 @@ namespace Aci.Unity.UI.Tweening
 
         [SerializeField] private Tweener[] m_Tweeners;
 
+        private float m_Value = 0f;
+
         public Tweener[] tweeners => m_Tweeners;
+
+        public float Value
+        {
+            get => m_Value;
+            set => Seek(m_Value);
+        }
 
         private void Awake()
         {
@@ -86,12 +95,31 @@ namespace Aci.Unity.UI.Tweening
 
         public void Seek(float timeNormalized)
         {
+            m_Value = timeNormalized;
+
             if (m_Tweeners == null)
                 return;
 
             int count = m_Tweeners.Length;
+            float totalDuration = GetTotalDuration();
+            float realtime = Mathf.Lerp(0f, totalDuration, timeNormalized);
             for (int i = 0; i < count; i++)
-                m_Tweeners[i].Seek(timeNormalized);
+            {
+                float relativeNormalizedTime = Mathf.InverseLerp(m_Tweeners[i].delayTime, m_Tweeners[i].duration, realtime);
+                m_Tweeners[i].Seek(relativeNormalizedTime);
+            }
+        }
+
+        private float GetTotalDuration()
+        {
+            float max = 0f;
+            for(int i = 0; i < m_Tweeners.Length; i++)
+            {
+                float duration = m_Tweeners[i].delayTime + m_Tweeners[i].duration;
+                max = Mathf.Max(max, duration);
+            }
+
+            return max;
         }
 
         [ContextMenu("Play forwards")]
