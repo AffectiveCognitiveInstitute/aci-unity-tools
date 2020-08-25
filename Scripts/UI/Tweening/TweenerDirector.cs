@@ -53,7 +53,7 @@ namespace Aci.Unity.UI.Tweening
         public float normalizedTime
         {
             get => m_NormalizedTime;
-            set => Seek(m_NormalizedTime);
+            set => Seek(Mathf.Clamp01(value));
         }
 
         private void Awake()
