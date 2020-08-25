@@ -46,14 +46,14 @@ namespace Aci.Unity.UI.Tweening
 
         [SerializeField] private Tweener[] m_Tweeners;
 
-        private float m_Value = 0f;
+        private float m_NormalizedTime = 0f;
 
         public Tweener[] tweeners => m_Tweeners;
 
-        public float Value
+        public float normalizedTime
         {
-            get => m_Value;
-            set => Seek(m_Value);
+            get => m_NormalizedTime;
+            set => Seek(m_NormalizedTime);
         }
 
         private void Awake()
@@ -95,7 +95,7 @@ namespace Aci.Unity.UI.Tweening
 
         public void Seek(float timeNormalized)
         {
-            m_Value = timeNormalized;
+            m_NormalizedTime = timeNormalized;
 
             if (m_Tweeners == null)
                 return;

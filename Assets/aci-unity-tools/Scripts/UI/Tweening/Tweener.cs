@@ -104,6 +104,12 @@ namespace Aci.Unity.UI.Tweening
             set { m_IgnoreTimeScale = value; }
         }
 
+        public float normalizedTime
+        {
+            get => Mathf.InverseLerp(m_DelayTime, m_Duration, m_TimeElapsed);
+            set => Seek(Mathf.Clamp01(value));
+        }
+
         /// <summary>
         ///     Event invoked when a tween has started
         /// </summary>
@@ -149,6 +155,7 @@ namespace Aci.Unity.UI.Tweening
 
         public void Seek(float timeNormalized)
         {
+            m_TimeElapsed = Mathf.Lerp(0, m_Duration, timeNormalized);
             ExecuteFrame(timeNormalized);
         }
 
