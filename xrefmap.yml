@@ -6986,6 +6986,19 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Tweening.TweenerDirector.tweeners
   nameWithType: TweenerDirector.tweeners
+- uid: Aci.Unity.UI.Tweening.TweenerDirector.Value
+  name: Value
+  href: api/Aci.Unity.UI.Tweening.TweenerDirector.html#Aci_Unity_UI_Tweening_TweenerDirector_Value
+  commentId: P:Aci.Unity.UI.Tweening.TweenerDirector.Value
+  fullName: Aci.Unity.UI.Tweening.TweenerDirector.Value
+  nameWithType: TweenerDirector.Value
+- uid: Aci.Unity.UI.Tweening.TweenerDirector.Value*
+  name: Value
+  href: api/Aci.Unity.UI.Tweening.TweenerDirector.html#Aci_Unity_UI_Tweening_TweenerDirector_Value_
+  commentId: Overload:Aci.Unity.UI.Tweening.TweenerDirector.Value
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Tweening.TweenerDirector.Value
+  nameWithType: TweenerDirector.Value
 - uid: Aci.Unity.UI.Tweening.TweenerDirectorNavigationTrigger
   name: TweenerDirectorNavigationTrigger
   href: api/Aci.Unity.UI.Tweening.TweenerDirectorNavigationTrigger.html
