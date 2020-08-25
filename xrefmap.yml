@@ -6350,6 +6350,19 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Tweening.Tweener.isPlayingForwards
   nameWithType: Tweener.isPlayingForwards
+- uid: Aci.Unity.UI.Tweening.Tweener.normalizedTime
+  name: normalizedTime
+  href: api/Aci.Unity.UI.Tweening.Tweener.html#Aci_Unity_UI_Tweening_Tweener_normalizedTime
+  commentId: P:Aci.Unity.UI.Tweening.Tweener.normalizedTime
+  fullName: Aci.Unity.UI.Tweening.Tweener.normalizedTime
+  nameWithType: Tweener.normalizedTime
+- uid: Aci.Unity.UI.Tweening.Tweener.normalizedTime*
+  name: normalizedTime
+  href: api/Aci.Unity.UI.Tweening.Tweener.html#Aci_Unity_UI_Tweening_Tweener_normalizedTime_
+  commentId: Overload:Aci.Unity.UI.Tweening.Tweener.normalizedTime
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Tweening.Tweener.normalizedTime
+  nameWithType: Tweener.normalizedTime
 - uid: Aci.Unity.UI.Tweening.Tweener.OnPostTween
   name: OnPostTween()
   href: api/Aci.Unity.UI.Tweening.Tweener.html#Aci_Unity_UI_Tweening_Tweener_OnPostTween
@@ -6839,6 +6852,19 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Tweening.TweenerDirector.AddTweener
   nameWithType: TweenerDirector.AddTweener
+- uid: Aci.Unity.UI.Tweening.TweenerDirector.normalizedTime
+  name: normalizedTime
+  href: api/Aci.Unity.UI.Tweening.TweenerDirector.html#Aci_Unity_UI_Tweening_TweenerDirector_normalizedTime
+  commentId: P:Aci.Unity.UI.Tweening.TweenerDirector.normalizedTime
+  fullName: Aci.Unity.UI.Tweening.TweenerDirector.normalizedTime
+  nameWithType: TweenerDirector.normalizedTime
+- uid: Aci.Unity.UI.Tweening.TweenerDirector.normalizedTime*
+  name: normalizedTime
+  href: api/Aci.Unity.UI.Tweening.TweenerDirector.html#Aci_Unity_UI_Tweening_TweenerDirector_normalizedTime_
+  commentId: Overload:Aci.Unity.UI.Tweening.TweenerDirector.normalizedTime
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Tweening.TweenerDirector.normalizedTime
+  nameWithType: TweenerDirector.normalizedTime
 - uid: Aci.Unity.UI.Tweening.TweenerDirector.PlayForwards(System.Boolean)
   name: PlayForwards(Boolean)
   href: api/Aci.Unity.UI.Tweening.TweenerDirector.html#Aci_Unity_UI_Tweening_TweenerDirector_PlayForwards_System_Boolean_
@@ -6986,19 +7012,6 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Tweening.TweenerDirector.tweeners
   nameWithType: TweenerDirector.tweeners
-- uid: Aci.Unity.UI.Tweening.TweenerDirector.Value
-  name: Value
-  href: api/Aci.Unity.UI.Tweening.TweenerDirector.html#Aci_Unity_UI_Tweening_TweenerDirector_Value
-  commentId: P:Aci.Unity.UI.Tweening.TweenerDirector.Value
-  fullName: Aci.Unity.UI.Tweening.TweenerDirector.Value
-  nameWithType: TweenerDirector.Value
-- uid: Aci.Unity.UI.Tweening.TweenerDirector.Value*
-  name: Value
-  href: api/Aci.Unity.UI.Tweening.TweenerDirector.html#Aci_Unity_UI_Tweening_TweenerDirector_Value_
-  commentId: Overload:Aci.Unity.UI.Tweening.TweenerDirector.Value
-  isSpec: "True"
-  fullName: Aci.Unity.UI.Tweening.TweenerDirector.Value
-  nameWithType: TweenerDirector.Value
 - uid: Aci.Unity.UI.Tweening.TweenerDirectorNavigationTrigger
   name: TweenerDirectorNavigationTrigger
   href: api/Aci.Unity.UI.Tweening.TweenerDirectorNavigationTrigger.html
