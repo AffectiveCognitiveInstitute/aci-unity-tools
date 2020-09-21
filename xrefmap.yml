@@ -354,6 +354,44 @@ references:
   fullName.vb: Aci.Collections.Heap(Of TItem).Swap
   nameWithType: Heap<TItem>.Swap
   nameWithType.vb: Heap(Of TItem).Swap
+- uid: Aci.Collections.Heap`1.System#Collections#Generic#ICollection{TItem}#Add(`0)
+  name: ICollection<TItem>.Add(TItem)
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_System_Collections_Generic_ICollection_TItem__Add__0_
+  commentId: M:Aci.Collections.Heap`1.System#Collections#Generic#ICollection{TItem}#Add(`0)
+  name.vb: System.Collections.Generic.ICollection<TItem>.Add(TItem)
+  fullName: Aci.Collections.Heap<TItem>.System.Collections.Generic.ICollection<TItem>.Add(TItem)
+  fullName.vb: Aci.Collections.Heap(Of TItem).System.Collections.Generic.ICollection<TItem>.Add(TItem)
+  nameWithType: Heap<TItem>.ICollection<TItem>.Add(TItem)
+  nameWithType.vb: Heap(Of TItem).System.Collections.Generic.ICollection<TItem>.Add(TItem)
+- uid: Aci.Collections.Heap`1.System#Collections#Generic#ICollection{TItem}#Add*
+  name: ICollection<TItem>.Add
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_System_Collections_Generic_ICollection_TItem__Add_
+  commentId: Overload:Aci.Collections.Heap`1.System#Collections#Generic#ICollection{TItem}#Add
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ICollection<TItem>.Add
+  fullName: Aci.Collections.Heap<TItem>.System.Collections.Generic.ICollection<TItem>.Add
+  fullName.vb: Aci.Collections.Heap(Of TItem).System.Collections.Generic.ICollection<TItem>.Add
+  nameWithType: Heap<TItem>.ICollection<TItem>.Add
+  nameWithType.vb: Heap(Of TItem).System.Collections.Generic.ICollection<TItem>.Add
+- uid: Aci.Collections.Heap`1.System#Collections#Generic#ICollection{TItem}#CopyTo(`0[],System.Int32)
+  name: ICollection<TItem>.CopyTo(TItem[], Int32)
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_System_Collections_Generic_ICollection_TItem__CopyTo__0___System_Int32_
+  commentId: M:Aci.Collections.Heap`1.System#Collections#Generic#ICollection{TItem}#CopyTo(`0[],System.Int32)
+  name.vb: System.Collections.Generic.ICollection<TItem>.CopyTo(TItem(), Int32)
+  fullName: Aci.Collections.Heap<TItem>.System.Collections.Generic.ICollection<TItem>.CopyTo(TItem[], System.Int32)
+  fullName.vb: Aci.Collections.Heap(Of TItem).System.Collections.Generic.ICollection<TItem>.CopyTo(TItem(), System.Int32)
+  nameWithType: Heap<TItem>.ICollection<TItem>.CopyTo(TItem[], Int32)
+  nameWithType.vb: Heap(Of TItem).System.Collections.Generic.ICollection<TItem>.CopyTo(TItem(), Int32)
+- uid: Aci.Collections.Heap`1.System#Collections#Generic#ICollection{TItem}#CopyTo*
+  name: ICollection<TItem>.CopyTo
+  href: api/Aci.Collections.Heap-1.html#Aci_Collections_Heap_1_System_Collections_Generic_ICollection_TItem__CopyTo_
+  commentId: Overload:Aci.Collections.Heap`1.System#Collections#Generic#ICollection{TItem}#CopyTo
+  isSpec: "True"
+  name.vb: System.Collections.Generic.ICollection<TItem>.CopyTo
+  fullName: Aci.Collections.Heap<TItem>.System.Collections.Generic.ICollection<TItem>.CopyTo
+  fullName.vb: Aci.Collections.Heap(Of TItem).System.Collections.Generic.ICollection<TItem>.CopyTo
+  nameWithType: Heap<TItem>.ICollection<TItem>.CopyTo
+  nameWithType.vb: Heap(Of TItem).System.Collections.Generic.ICollection<TItem>.CopyTo
 - uid: Aci.Collections.MaxHeap`1
   name: MaxHeap<TItem>
   href: api/Aci.Collections.MaxHeap-1.html
@@ -4053,11 +4091,11 @@ references:
   commentId: T:Aci.Unity.UI.Localization.LocalizedString
   fullName: Aci.Unity.UI.Localization.LocalizedString
   nameWithType: LocalizedString
-- uid: Aci.Unity.UI.Localization.LocalizedString.OnEvent(LocalizationChangedArgs)
+- uid: Aci.Unity.UI.Localization.LocalizedString.OnEvent(Aci.Unity.Events.LocalizationChangedArgs)
   name: OnEvent(LocalizationChangedArgs)
-  href: api/Aci.Unity.UI.Localization.LocalizedString.html#Aci_Unity_UI_Localization_LocalizedString_OnEvent_LocalizationChangedArgs_
-  commentId: M:Aci.Unity.UI.Localization.LocalizedString.OnEvent(LocalizationChangedArgs)
-  fullName: Aci.Unity.UI.Localization.LocalizedString.OnEvent(LocalizationChangedArgs)
+  href: api/Aci.Unity.UI.Localization.LocalizedString.html#Aci_Unity_UI_Localization_LocalizedString_OnEvent_Aci_Unity_Events_LocalizationChangedArgs_
+  commentId: M:Aci.Unity.UI.Localization.LocalizedString.OnEvent(Aci.Unity.Events.LocalizationChangedArgs)
+  fullName: Aci.Unity.UI.Localization.LocalizedString.OnEvent(Aci.Unity.Events.LocalizationChangedArgs)
   nameWithType: LocalizedString.OnEvent(LocalizationChangedArgs)
 - uid: Aci.Unity.UI.Localization.LocalizedString.OnEvent*
   name: OnEvent
@@ -4828,13 +4866,13 @@ references:
   commentId: T:Aci.Unity.UI.Navigation.NavigationCompletedEvent
   fullName: Aci.Unity.UI.Navigation.NavigationCompletedEvent
   nameWithType: NavigationCompletedEvent
-- uid: Aci.Unity.UI.Navigation.NavigationCompletedEvent.#ctor(System.String,IReadOnlyCollection{Aci.Unity.UI.Navigation.IScreenController})
+- uid: Aci.Unity.UI.Navigation.NavigationCompletedEvent.#ctor(System.String,System.Collections.Generic.IReadOnlyCollection{Aci.Unity.UI.Navigation.IScreenController})
   name: NavigationCompletedEvent(String, IReadOnlyCollection<IScreenController>)
-  href: api/Aci.Unity.UI.Navigation.NavigationCompletedEvent.html#Aci_Unity_UI_Navigation_NavigationCompletedEvent__ctor_System_String_IReadOnlyCollection_Aci_Unity_UI_Navigation_IScreenController__
-  commentId: M:Aci.Unity.UI.Navigation.NavigationCompletedEvent.#ctor(System.String,IReadOnlyCollection{Aci.Unity.UI.Navigation.IScreenController})
+  href: api/Aci.Unity.UI.Navigation.NavigationCompletedEvent.html#Aci_Unity_UI_Navigation_NavigationCompletedEvent__ctor_System_String_System_Collections_Generic_IReadOnlyCollection_Aci_Unity_UI_Navigation_IScreenController__
+  commentId: M:Aci.Unity.UI.Navigation.NavigationCompletedEvent.#ctor(System.String,System.Collections.Generic.IReadOnlyCollection{Aci.Unity.UI.Navigation.IScreenController})
   name.vb: NavigationCompletedEvent(String, IReadOnlyCollection(Of IScreenController))
-  fullName: Aci.Unity.UI.Navigation.NavigationCompletedEvent.NavigationCompletedEvent(System.String, IReadOnlyCollection<Aci.Unity.UI.Navigation.IScreenController>)
-  fullName.vb: Aci.Unity.UI.Navigation.NavigationCompletedEvent.NavigationCompletedEvent(System.String, IReadOnlyCollection(Of Aci.Unity.UI.Navigation.IScreenController))
+  fullName: Aci.Unity.UI.Navigation.NavigationCompletedEvent.NavigationCompletedEvent(System.String, System.Collections.Generic.IReadOnlyCollection<Aci.Unity.UI.Navigation.IScreenController>)
+  fullName.vb: Aci.Unity.UI.Navigation.NavigationCompletedEvent.NavigationCompletedEvent(System.String, System.Collections.Generic.IReadOnlyCollection(Of Aci.Unity.UI.Navigation.IScreenController))
   nameWithType: NavigationCompletedEvent.NavigationCompletedEvent(String, IReadOnlyCollection<IScreenController>)
   nameWithType.vb: NavigationCompletedEvent.NavigationCompletedEvent(String, IReadOnlyCollection(Of IScreenController))
 - uid: Aci.Unity.UI.Navigation.NavigationCompletedEvent.#ctor*
@@ -5069,11 +5107,11 @@ references:
   commentId: T:Aci.Unity.UI.Navigation.NavigationService
   fullName: Aci.Unity.UI.Navigation.NavigationService
   nameWithType: NavigationService
-- uid: Aci.Unity.UI.Navigation.NavigationService.#ctor(Aci.Unity.UI.Navigation.IScreenRegistry,IAciEventManager)
+- uid: Aci.Unity.UI.Navigation.NavigationService.#ctor(Aci.Unity.UI.Navigation.IScreenRegistry,Aci.Unity.Events.IAciEventManager)
   name: NavigationService(IScreenRegistry, IAciEventManager)
-  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService__ctor_Aci_Unity_UI_Navigation_IScreenRegistry_IAciEventManager_
-  commentId: M:Aci.Unity.UI.Navigation.NavigationService.#ctor(Aci.Unity.UI.Navigation.IScreenRegistry,IAciEventManager)
-  fullName: Aci.Unity.UI.Navigation.NavigationService.NavigationService(Aci.Unity.UI.Navigation.IScreenRegistry, IAciEventManager)
+  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService__ctor_Aci_Unity_UI_Navigation_IScreenRegistry_Aci_Unity_Events_IAciEventManager_
+  commentId: M:Aci.Unity.UI.Navigation.NavigationService.#ctor(Aci.Unity.UI.Navigation.IScreenRegistry,Aci.Unity.Events.IAciEventManager)
+  fullName: Aci.Unity.UI.Navigation.NavigationService.NavigationService(Aci.Unity.UI.Navigation.IScreenRegistry, Aci.Unity.Events.IAciEventManager)
   nameWithType: NavigationService.NavigationService(IScreenRegistry, IAciEventManager)
 - uid: Aci.Unity.UI.Navigation.NavigationService.#ctor*
   name: NavigationService
@@ -5296,11 +5334,11 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Navigation.ScreenController.CanNavigate
   nameWithType: ScreenController.CanNavigate
-- uid: Aci.Unity.UI.Navigation.ScreenController.Construct(Aci.Unity.UI.Navigation.IScreenRegistry,IInstantiator,IAciEventManager)
+- uid: Aci.Unity.UI.Navigation.ScreenController.Construct(Aci.Unity.UI.Navigation.IScreenRegistry,IInstantiator,Aci.Unity.Events.IAciEventManager)
   name: Construct(IScreenRegistry, IInstantiator, IAciEventManager)
-  href: api/Aci.Unity.UI.Navigation.ScreenController.html#Aci_Unity_UI_Navigation_ScreenController_Construct_Aci_Unity_UI_Navigation_IScreenRegistry_IInstantiator_IAciEventManager_
-  commentId: M:Aci.Unity.UI.Navigation.ScreenController.Construct(Aci.Unity.UI.Navigation.IScreenRegistry,IInstantiator,IAciEventManager)
-  fullName: Aci.Unity.UI.Navigation.ScreenController.Construct(Aci.Unity.UI.Navigation.IScreenRegistry, IInstantiator, IAciEventManager)
+  href: api/Aci.Unity.UI.Navigation.ScreenController.html#Aci_Unity_UI_Navigation_ScreenController_Construct_Aci_Unity_UI_Navigation_IScreenRegistry_IInstantiator_Aci_Unity_Events_IAciEventManager_
+  commentId: M:Aci.Unity.UI.Navigation.ScreenController.Construct(Aci.Unity.UI.Navigation.IScreenRegistry,IInstantiator,Aci.Unity.Events.IAciEventManager)
+  fullName: Aci.Unity.UI.Navigation.ScreenController.Construct(Aci.Unity.UI.Navigation.IScreenRegistry, IInstantiator, Aci.Unity.Events.IAciEventManager)
   nameWithType: ScreenController.Construct(IScreenRegistry, IInstantiator, IAciEventManager)
 - uid: Aci.Unity.UI.Navigation.ScreenController.Construct*
   name: Construct
@@ -7379,11 +7417,11 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.ViewControllers.CameraFeedViewController.broker
   nameWithType: CameraFeedViewController.broker
-- uid: Aci.Unity.UI.ViewControllers.CameraFeedViewController.OnEvent(WebcamStatusChangedArgs)
+- uid: Aci.Unity.UI.ViewControllers.CameraFeedViewController.OnEvent(Aci.Unity.Events.WebcamStatusChangedArgs)
   name: OnEvent(WebcamStatusChangedArgs)
-  href: api/Aci.Unity.UI.ViewControllers.CameraFeedViewController.html#Aci_Unity_UI_ViewControllers_CameraFeedViewController_OnEvent_WebcamStatusChangedArgs_
-  commentId: M:Aci.Unity.UI.ViewControllers.CameraFeedViewController.OnEvent(WebcamStatusChangedArgs)
-  fullName: Aci.Unity.UI.ViewControllers.CameraFeedViewController.OnEvent(WebcamStatusChangedArgs)
+  href: api/Aci.Unity.UI.ViewControllers.CameraFeedViewController.html#Aci_Unity_UI_ViewControllers_CameraFeedViewController_OnEvent_Aci_Unity_Events_WebcamStatusChangedArgs_
+  commentId: M:Aci.Unity.UI.ViewControllers.CameraFeedViewController.OnEvent(Aci.Unity.Events.WebcamStatusChangedArgs)
+  fullName: Aci.Unity.UI.ViewControllers.CameraFeedViewController.OnEvent(Aci.Unity.Events.WebcamStatusChangedArgs)
   nameWithType: CameraFeedViewController.OnEvent(WebcamStatusChangedArgs)
 - uid: Aci.Unity.UI.ViewControllers.CameraFeedViewController.OnEvent*
   name: OnEvent
@@ -8156,11 +8194,11 @@ references:
   commentId: M:Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(Action)
   fullName: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(Action)
   nameWithType: UnityMainThreadDispatcher.Enqueue(Action)
-- uid: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(IEnumerator)
+- uid: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(System.Collections.Generic.IEnumerator)
   name: Enqueue(IEnumerator)
-  href: api/Aci.Unity.Util.UnityMainThreadDispatcher.html#Aci_Unity_Util_UnityMainThreadDispatcher_Enqueue_IEnumerator_
-  commentId: M:Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(IEnumerator)
-  fullName: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(IEnumerator)
+  href: api/Aci.Unity.Util.UnityMainThreadDispatcher.html#Aci_Unity_Util_UnityMainThreadDispatcher_Enqueue_System_Collections_Generic_IEnumerator_
+  commentId: M:Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(System.Collections.Generic.IEnumerator)
+  fullName: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(System.Collections.Generic.IEnumerator)
   nameWithType: UnityMainThreadDispatcher.Enqueue(IEnumerator)
 - uid: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue*
   name: Enqueue
