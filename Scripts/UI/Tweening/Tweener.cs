@@ -414,7 +414,7 @@ namespace Aci.Unity.UI.Tweening
                             isPlayingForwards = false;
                             float delta = Mathf.Abs(m_Duration - m_TimeElapsed);
                             m_TimeElapsed = (m_Duration - delta);
-                            Debug.Log(m_TimeElapsed);
+                            //Debug.Log(m_TimeElapsed);
                         }
                     }
                     else
