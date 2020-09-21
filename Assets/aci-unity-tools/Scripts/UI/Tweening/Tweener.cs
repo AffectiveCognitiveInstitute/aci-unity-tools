@@ -424,7 +424,7 @@ namespace Aci.Unity.UI.Tweening
                         {
                             isPlayingForwards = true;
                             m_TimeElapsed = Mathf.Abs(m_TimeElapsed);
-                            Debug.Log(m_TimeElapsed);
+                            //Debug.Log(m_TimeElapsed);
                         }
                     }
                     break;
