@@ -6,6 +6,7 @@ using Zenject;
 namespace Aci.Unity.UI.Navigation
 {
     [RequireComponent(typeof(Canvas))]
+    [DefaultExecutionOrder(-100)]
     public class ScreenController : MonoBehaviour, IScreenController
     {
         public enum PrefabLoadingStrategy
