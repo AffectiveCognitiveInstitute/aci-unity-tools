@@ -779,13 +779,13 @@ references:
   isSpec: "True"
   fullName: Aci.UI.Binding.MonoBindable.SetProperty
   nameWithType: MonoBindable.SetProperty
-- uid: Aci.UI.Binding.MonoBindable.SetProperty``1(``0@,``0,Action,System.String)
+- uid: Aci.UI.Binding.MonoBindable.SetProperty``1(``0@,``0,System.Action,System.String)
   name: SetProperty<T>(ref T, T, Action, String)
-  href: api/Aci.UI.Binding.MonoBindable.html#Aci_UI_Binding_MonoBindable_SetProperty__1___0____0_Action_System_String_
-  commentId: M:Aci.UI.Binding.MonoBindable.SetProperty``1(``0@,``0,Action,System.String)
+  href: api/Aci.UI.Binding.MonoBindable.html#Aci_UI_Binding_MonoBindable_SetProperty__1___0____0_System_Action_System_String_
+  commentId: M:Aci.UI.Binding.MonoBindable.SetProperty``1(``0@,``0,System.Action,System.String)
   name.vb: SetProperty(Of T)(ByRef T, T, Action, String)
-  fullName: Aci.UI.Binding.MonoBindable.SetProperty<T>(ref T, T, Action, System.String)
-  fullName.vb: Aci.UI.Binding.MonoBindable.SetProperty(Of T)(ByRef T, T, Action, System.String)
+  fullName: Aci.UI.Binding.MonoBindable.SetProperty<T>(ref T, T, System.Action, System.String)
+  fullName.vb: Aci.UI.Binding.MonoBindable.SetProperty(Of T)(ByRef T, T, System.Action, System.String)
   nameWithType: MonoBindable.SetProperty<T>(ref T, T, Action, String)
   nameWithType.vb: MonoBindable.SetProperty(Of T)(ByRef T, T, Action, String)
 - uid: Aci.UI.Binding.PropertyBinder
@@ -897,22 +897,22 @@ references:
   fullName.vb: Aci.UI.Collections.Pool(Of T)
   nameWithType: Pool<T>
   nameWithType.vb: Pool(Of T)
-- uid: Aci.UI.Collections.Pool`1.#ctor(Func{`0})
+- uid: Aci.UI.Collections.Pool`1.#ctor(System.Func{`0})
   name: Pool(Func<T>)
-  href: api/Aci.UI.Collections.Pool-1.html#Aci_UI_Collections_Pool_1__ctor_Func__0__
-  commentId: M:Aci.UI.Collections.Pool`1.#ctor(Func{`0})
+  href: api/Aci.UI.Collections.Pool-1.html#Aci_UI_Collections_Pool_1__ctor_System_Func__0__
+  commentId: M:Aci.UI.Collections.Pool`1.#ctor(System.Func{`0})
   name.vb: Pool(Func(Of T))
-  fullName: Aci.UI.Collections.Pool<T>.Pool(Func<T>)
-  fullName.vb: Aci.UI.Collections.Pool(Of T).Pool(Func(Of T))
+  fullName: Aci.UI.Collections.Pool<T>.Pool(System.Func<T>)
+  fullName.vb: Aci.UI.Collections.Pool(Of T).Pool(System.Func(Of T))
   nameWithType: Pool<T>.Pool(Func<T>)
   nameWithType.vb: Pool(Of T).Pool(Func(Of T))
-- uid: Aci.UI.Collections.Pool`1.#ctor(Func{`0},System.Int32)
+- uid: Aci.UI.Collections.Pool`1.#ctor(System.Func{`0},System.Int32)
   name: Pool(Func<T>, Int32)
-  href: api/Aci.UI.Collections.Pool-1.html#Aci_UI_Collections_Pool_1__ctor_Func__0__System_Int32_
-  commentId: M:Aci.UI.Collections.Pool`1.#ctor(Func{`0},System.Int32)
+  href: api/Aci.UI.Collections.Pool-1.html#Aci_UI_Collections_Pool_1__ctor_System_Func__0__System_Int32_
+  commentId: M:Aci.UI.Collections.Pool`1.#ctor(System.Func{`0},System.Int32)
   name.vb: Pool(Func(Of T), Int32)
-  fullName: Aci.UI.Collections.Pool<T>.Pool(Func<T>, System.Int32)
-  fullName.vb: Aci.UI.Collections.Pool(Of T).Pool(Func(Of T), System.Int32)
+  fullName: Aci.UI.Collections.Pool<T>.Pool(System.Func<T>, System.Int32)
+  fullName.vb: Aci.UI.Collections.Pool(Of T).Pool(System.Func(Of T), System.Int32)
   nameWithType: Pool<T>.Pool(Func<T>, Int32)
   nameWithType.vb: Pool(Of T).Pool(Func(Of T), Int32)
 - uid: Aci.UI.Collections.Pool`1.#ctor*
@@ -1693,11 +1693,11 @@ references:
   commentId: M:Aci.Unity.Logging.AciLog.Log(System.String,System.Object)
   fullName: Aci.Unity.Logging.AciLog.Log(System.String, System.Object)
   nameWithType: AciLog.Log(String, Object)
-- uid: Aci.Unity.Logging.AciLog.Log(System.String,System.Object,Object)
+- uid: Aci.Unity.Logging.AciLog.Log(System.String,System.Object,System.Object)
   name: Log(String, Object, Object)
-  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_Log_System_String_System_Object_Object_
-  commentId: M:Aci.Unity.Logging.AciLog.Log(System.String,System.Object,Object)
-  fullName: Aci.Unity.Logging.AciLog.Log(System.String, System.Object, Object)
+  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_Log_System_String_System_Object_System_Object_
+  commentId: M:Aci.Unity.Logging.AciLog.Log(System.String,System.Object,System.Object)
+  fullName: Aci.Unity.Logging.AciLog.Log(System.String, System.Object, System.Object)
   nameWithType: AciLog.Log(String, Object, Object)
 - uid: Aci.Unity.Logging.AciLog.Log*
   name: Log
@@ -1712,11 +1712,11 @@ references:
   commentId: M:Aci.Unity.Logging.AciLog.LogError(System.String,System.Object)
   fullName: Aci.Unity.Logging.AciLog.LogError(System.String, System.Object)
   nameWithType: AciLog.LogError(String, Object)
-- uid: Aci.Unity.Logging.AciLog.LogError(System.String,System.Object,Object)
+- uid: Aci.Unity.Logging.AciLog.LogError(System.String,System.Object,System.Object)
   name: LogError(String, Object, Object)
-  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogError_System_String_System_Object_Object_
-  commentId: M:Aci.Unity.Logging.AciLog.LogError(System.String,System.Object,Object)
-  fullName: Aci.Unity.Logging.AciLog.LogError(System.String, System.Object, Object)
+  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogError_System_String_System_Object_System_Object_
+  commentId: M:Aci.Unity.Logging.AciLog.LogError(System.String,System.Object,System.Object)
+  fullName: Aci.Unity.Logging.AciLog.LogError(System.String, System.Object, System.Object)
   nameWithType: AciLog.LogError(String, Object, Object)
 - uid: Aci.Unity.Logging.AciLog.LogError*
   name: LogError
@@ -1725,17 +1725,17 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.Logging.AciLog.LogError
   nameWithType: AciLog.LogError
-- uid: Aci.Unity.Logging.AciLog.LogException(Exception)
+- uid: Aci.Unity.Logging.AciLog.LogException(System.Exception)
   name: LogException(Exception)
-  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogException_Exception_
-  commentId: M:Aci.Unity.Logging.AciLog.LogException(Exception)
-  fullName: Aci.Unity.Logging.AciLog.LogException(Exception)
+  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogException_System_Exception_
+  commentId: M:Aci.Unity.Logging.AciLog.LogException(System.Exception)
+  fullName: Aci.Unity.Logging.AciLog.LogException(System.Exception)
   nameWithType: AciLog.LogException(Exception)
-- uid: Aci.Unity.Logging.AciLog.LogException(Exception,Object)
+- uid: Aci.Unity.Logging.AciLog.LogException(System.Exception,System.Object)
   name: LogException(Exception, Object)
-  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogException_Exception_Object_
-  commentId: M:Aci.Unity.Logging.AciLog.LogException(Exception,Object)
-  fullName: Aci.Unity.Logging.AciLog.LogException(Exception, Object)
+  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogException_System_Exception_System_Object_
+  commentId: M:Aci.Unity.Logging.AciLog.LogException(System.Exception,System.Object)
+  fullName: Aci.Unity.Logging.AciLog.LogException(System.Exception, System.Object)
   nameWithType: AciLog.LogException(Exception, Object)
 - uid: Aci.Unity.Logging.AciLog.LogException*
   name: LogException
@@ -1744,13 +1744,13 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.Logging.AciLog.LogException
   nameWithType: AciLog.LogException
-- uid: Aci.Unity.Logging.AciLog.LogFormat(LogType,Object,System.String,System.String,System.Object[])
+- uid: Aci.Unity.Logging.AciLog.LogFormat(LogType,System.Object,System.String,System.String,System.Object[])
   name: LogFormat(LogType, Object, String, String, Object[])
-  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogFormat_LogType_Object_System_String_System_String_System_Object___
-  commentId: M:Aci.Unity.Logging.AciLog.LogFormat(LogType,Object,System.String,System.String,System.Object[])
+  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogFormat_LogType_System_Object_System_String_System_String_System_Object___
+  commentId: M:Aci.Unity.Logging.AciLog.LogFormat(LogType,System.Object,System.String,System.String,System.Object[])
   name.vb: LogFormat(LogType, Object, String, String, Object())
-  fullName: Aci.Unity.Logging.AciLog.LogFormat(LogType, Object, System.String, System.String, System.Object[])
-  fullName.vb: Aci.Unity.Logging.AciLog.LogFormat(LogType, Object, System.String, System.String, System.Object())
+  fullName: Aci.Unity.Logging.AciLog.LogFormat(LogType, System.Object, System.String, System.String, System.Object[])
+  fullName.vb: Aci.Unity.Logging.AciLog.LogFormat(LogType, System.Object, System.String, System.String, System.Object())
   nameWithType: AciLog.LogFormat(LogType, Object, String, String, Object[])
   nameWithType.vb: AciLog.LogFormat(LogType, Object, String, String, Object())
 - uid: Aci.Unity.Logging.AciLog.LogFormat(LogType,System.String,System.String,System.Object[])
@@ -1775,11 +1775,11 @@ references:
   commentId: M:Aci.Unity.Logging.AciLog.LogWarning(System.String,System.Object)
   fullName: Aci.Unity.Logging.AciLog.LogWarning(System.String, System.Object)
   nameWithType: AciLog.LogWarning(String, Object)
-- uid: Aci.Unity.Logging.AciLog.LogWarning(System.String,System.Object,Object)
+- uid: Aci.Unity.Logging.AciLog.LogWarning(System.String,System.Object,System.Object)
   name: LogWarning(String, Object, Object)
-  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogWarning_System_String_System_Object_Object_
-  commentId: M:Aci.Unity.Logging.AciLog.LogWarning(System.String,System.Object,Object)
-  fullName: Aci.Unity.Logging.AciLog.LogWarning(System.String, System.Object, Object)
+  href: api/Aci.Unity.Logging.AciLog.html#Aci_Unity_Logging_AciLog_LogWarning_System_String_System_Object_System_Object_
+  commentId: M:Aci.Unity.Logging.AciLog.LogWarning(System.String,System.Object,System.Object)
+  fullName: Aci.Unity.Logging.AciLog.LogWarning(System.String, System.Object, System.Object)
   nameWithType: AciLog.LogWarning(String, Object, Object)
 - uid: Aci.Unity.Logging.AciLog.LogWarning*
   name: LogWarning
@@ -3191,17 +3191,17 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Dialog.DialogFacade.DisplayActivity
   nameWithType: DialogFacade.DisplayActivity
-- uid: Aci.Unity.UI.Dialog.DialogFacade.DisplayAlert(Aci.Unity.UI.Dialog.DialogPriority,System.String,System.String,System.String,System.String,Action,Action)
+- uid: Aci.Unity.UI.Dialog.DialogFacade.DisplayAlert(Aci.Unity.UI.Dialog.DialogPriority,System.String,System.String,System.String,System.String,System.Action,System.Action)
   name: DisplayAlert(DialogPriority, String, String, String, String, Action, Action)
-  href: api/Aci.Unity.UI.Dialog.DialogFacade.html#Aci_Unity_UI_Dialog_DialogFacade_DisplayAlert_Aci_Unity_UI_Dialog_DialogPriority_System_String_System_String_System_String_System_String_Action_Action_
-  commentId: M:Aci.Unity.UI.Dialog.DialogFacade.DisplayAlert(Aci.Unity.UI.Dialog.DialogPriority,System.String,System.String,System.String,System.String,Action,Action)
-  fullName: Aci.Unity.UI.Dialog.DialogFacade.DisplayAlert(Aci.Unity.UI.Dialog.DialogPriority, System.String, System.String, System.String, System.String, Action, Action)
+  href: api/Aci.Unity.UI.Dialog.DialogFacade.html#Aci_Unity_UI_Dialog_DialogFacade_DisplayAlert_Aci_Unity_UI_Dialog_DialogPriority_System_String_System_String_System_String_System_String_System_Action_System_Action_
+  commentId: M:Aci.Unity.UI.Dialog.DialogFacade.DisplayAlert(Aci.Unity.UI.Dialog.DialogPriority,System.String,System.String,System.String,System.String,System.Action,System.Action)
+  fullName: Aci.Unity.UI.Dialog.DialogFacade.DisplayAlert(Aci.Unity.UI.Dialog.DialogPriority, System.String, System.String, System.String, System.String, System.Action, System.Action)
   nameWithType: DialogFacade.DisplayAlert(DialogPriority, String, String, String, String, Action, Action)
-- uid: Aci.Unity.UI.Dialog.DialogFacade.DisplayAlert(System.String,System.String,System.String,System.String,Action,Action)
+- uid: Aci.Unity.UI.Dialog.DialogFacade.DisplayAlert(System.String,System.String,System.String,System.String,System.Action,System.Action)
   name: DisplayAlert(String, String, String, String, Action, Action)
-  href: api/Aci.Unity.UI.Dialog.DialogFacade.html#Aci_Unity_UI_Dialog_DialogFacade_DisplayAlert_System_String_System_String_System_String_System_String_Action_Action_
-  commentId: M:Aci.Unity.UI.Dialog.DialogFacade.DisplayAlert(System.String,System.String,System.String,System.String,Action,Action)
-  fullName: Aci.Unity.UI.Dialog.DialogFacade.DisplayAlert(System.String, System.String, System.String, System.String, Action, Action)
+  href: api/Aci.Unity.UI.Dialog.DialogFacade.html#Aci_Unity_UI_Dialog_DialogFacade_DisplayAlert_System_String_System_String_System_String_System_String_System_Action_System_Action_
+  commentId: M:Aci.Unity.UI.Dialog.DialogFacade.DisplayAlert(System.String,System.String,System.String,System.String,System.Action,System.Action)
+  fullName: Aci.Unity.UI.Dialog.DialogFacade.DisplayAlert(System.String, System.String, System.String, System.String, System.Action, System.Action)
   nameWithType: DialogFacade.DisplayAlert(String, String, String, String, Action, Action)
 - uid: Aci.Unity.UI.Dialog.DialogFacade.DisplayAlert*
   name: DisplayAlert
@@ -3598,17 +3598,17 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Dialog.IDialogFacade.DisplayActivity
   nameWithType: IDialogFacade.DisplayActivity
-- uid: Aci.Unity.UI.Dialog.IDialogFacade.DisplayAlert(Aci.Unity.UI.Dialog.DialogPriority,System.String,System.String,System.String,System.String,Action,Action)
+- uid: Aci.Unity.UI.Dialog.IDialogFacade.DisplayAlert(Aci.Unity.UI.Dialog.DialogPriority,System.String,System.String,System.String,System.String,System.Action,System.Action)
   name: DisplayAlert(DialogPriority, String, String, String, String, Action, Action)
-  href: api/Aci.Unity.UI.Dialog.IDialogFacade.html#Aci_Unity_UI_Dialog_IDialogFacade_DisplayAlert_Aci_Unity_UI_Dialog_DialogPriority_System_String_System_String_System_String_System_String_Action_Action_
-  commentId: M:Aci.Unity.UI.Dialog.IDialogFacade.DisplayAlert(Aci.Unity.UI.Dialog.DialogPriority,System.String,System.String,System.String,System.String,Action,Action)
-  fullName: Aci.Unity.UI.Dialog.IDialogFacade.DisplayAlert(Aci.Unity.UI.Dialog.DialogPriority, System.String, System.String, System.String, System.String, Action, Action)
+  href: api/Aci.Unity.UI.Dialog.IDialogFacade.html#Aci_Unity_UI_Dialog_IDialogFacade_DisplayAlert_Aci_Unity_UI_Dialog_DialogPriority_System_String_System_String_System_String_System_String_System_Action_System_Action_
+  commentId: M:Aci.Unity.UI.Dialog.IDialogFacade.DisplayAlert(Aci.Unity.UI.Dialog.DialogPriority,System.String,System.String,System.String,System.String,System.Action,System.Action)
+  fullName: Aci.Unity.UI.Dialog.IDialogFacade.DisplayAlert(Aci.Unity.UI.Dialog.DialogPriority, System.String, System.String, System.String, System.String, System.Action, System.Action)
   nameWithType: IDialogFacade.DisplayAlert(DialogPriority, String, String, String, String, Action, Action)
-- uid: Aci.Unity.UI.Dialog.IDialogFacade.DisplayAlert(System.String,System.String,System.String,System.String,Action,Action)
+- uid: Aci.Unity.UI.Dialog.IDialogFacade.DisplayAlert(System.String,System.String,System.String,System.String,System.Action,System.Action)
   name: DisplayAlert(String, String, String, String, Action, Action)
-  href: api/Aci.Unity.UI.Dialog.IDialogFacade.html#Aci_Unity_UI_Dialog_IDialogFacade_DisplayAlert_System_String_System_String_System_String_System_String_Action_Action_
-  commentId: M:Aci.Unity.UI.Dialog.IDialogFacade.DisplayAlert(System.String,System.String,System.String,System.String,Action,Action)
-  fullName: Aci.Unity.UI.Dialog.IDialogFacade.DisplayAlert(System.String, System.String, System.String, System.String, Action, Action)
+  href: api/Aci.Unity.UI.Dialog.IDialogFacade.html#Aci_Unity_UI_Dialog_IDialogFacade_DisplayAlert_System_String_System_String_System_String_System_String_System_Action_System_Action_
+  commentId: M:Aci.Unity.UI.Dialog.IDialogFacade.DisplayAlert(System.String,System.String,System.String,System.String,System.Action,System.Action)
+  fullName: Aci.Unity.UI.Dialog.IDialogFacade.DisplayAlert(System.String, System.String, System.String, System.String, System.Action, System.Action)
   nameWithType: IDialogFacade.DisplayAlert(String, String, String, String, Action, Action)
 - uid: Aci.Unity.UI.Dialog.IDialogFacade.DisplayAlert*
   name: DisplayAlert
@@ -4091,11 +4091,11 @@ references:
   commentId: T:Aci.Unity.UI.Localization.LocalizedString
   fullName: Aci.Unity.UI.Localization.LocalizedString
   nameWithType: LocalizedString
-- uid: Aci.Unity.UI.Localization.LocalizedString.OnEvent(Aci.Unity.Events.LocalizationChangedArgs)
+- uid: Aci.Unity.UI.Localization.LocalizedString.OnEvent(LocalizationChangedArgs)
   name: OnEvent(LocalizationChangedArgs)
-  href: api/Aci.Unity.UI.Localization.LocalizedString.html#Aci_Unity_UI_Localization_LocalizedString_OnEvent_Aci_Unity_Events_LocalizationChangedArgs_
-  commentId: M:Aci.Unity.UI.Localization.LocalizedString.OnEvent(Aci.Unity.Events.LocalizationChangedArgs)
-  fullName: Aci.Unity.UI.Localization.LocalizedString.OnEvent(Aci.Unity.Events.LocalizationChangedArgs)
+  href: api/Aci.Unity.UI.Localization.LocalizedString.html#Aci_Unity_UI_Localization_LocalizedString_OnEvent_LocalizationChangedArgs_
+  commentId: M:Aci.Unity.UI.Localization.LocalizedString.OnEvent(LocalizationChangedArgs)
+  fullName: Aci.Unity.UI.Localization.LocalizedString.OnEvent(LocalizationChangedArgs)
   nameWithType: LocalizedString.OnEvent(LocalizationChangedArgs)
 - uid: Aci.Unity.UI.Localization.LocalizedString.OnEvent*
   name: OnEvent
@@ -4210,6 +4210,25 @@ references:
   commentId: F:Aci.Unity.UI.Navigation.AnimationOptions.Synchronous
   fullName: Aci.Unity.UI.Navigation.AnimationOptions.Synchronous
   nameWithType: AnimationOptions.Synchronous
+- uid: Aci.Unity.UI.Navigation.ClearNavigationStackComponent
+  name: ClearNavigationStackComponent
+  href: api/Aci.Unity.UI.Navigation.ClearNavigationStackComponent.html
+  commentId: T:Aci.Unity.UI.Navigation.ClearNavigationStackComponent
+  fullName: Aci.Unity.UI.Navigation.ClearNavigationStackComponent
+  nameWithType: ClearNavigationStackComponent
+- uid: Aci.Unity.UI.Navigation.ClearNavigationStackComponent.Execute
+  name: Execute()
+  href: api/Aci.Unity.UI.Navigation.ClearNavigationStackComponent.html#Aci_Unity_UI_Navigation_ClearNavigationStackComponent_Execute
+  commentId: M:Aci.Unity.UI.Navigation.ClearNavigationStackComponent.Execute
+  fullName: Aci.Unity.UI.Navigation.ClearNavigationStackComponent.Execute()
+  nameWithType: ClearNavigationStackComponent.Execute()
+- uid: Aci.Unity.UI.Navigation.ClearNavigationStackComponent.Execute*
+  name: Execute
+  href: api/Aci.Unity.UI.Navigation.ClearNavigationStackComponent.html#Aci_Unity_UI_Navigation_ClearNavigationStackComponent_Execute_
+  commentId: Overload:Aci.Unity.UI.Navigation.ClearNavigationStackComponent.Execute
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Navigation.ClearNavigationStackComponent.Execute
+  nameWithType: ClearNavigationStackComponent.Execute
 - uid: Aci.Unity.UI.Navigation.ExecuteNavigationEvent
   name: ExecuteNavigationEvent
   href: api/Aci.Unity.UI.Navigation.ExecuteNavigationEvent.html
@@ -4563,6 +4582,19 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Navigation.INavigationService.CanPop
   nameWithType: INavigationService.CanPop
+- uid: Aci.Unity.UI.Navigation.INavigationService.Clear
+  name: Clear()
+  href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_Clear
+  commentId: M:Aci.Unity.UI.Navigation.INavigationService.Clear
+  fullName: Aci.Unity.UI.Navigation.INavigationService.Clear()
+  nameWithType: INavigationService.Clear()
+- uid: Aci.Unity.UI.Navigation.INavigationService.Clear*
+  name: Clear
+  href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_Clear_
+  commentId: Overload:Aci.Unity.UI.Navigation.INavigationService.Clear
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Navigation.INavigationService.Clear
+  nameWithType: INavigationService.Clear
 - uid: Aci.Unity.UI.Navigation.INavigationService.PopAsync(Aci.Unity.UI.Navigation.AnimationOptions)
   name: PopAsync(AnimationOptions)
   href: api/Aci.Unity.UI.Navigation.INavigationService.html#Aci_Unity_UI_Navigation_INavigationService_PopAsync_Aci_Unity_UI_Navigation_AnimationOptions_
@@ -5107,11 +5139,11 @@ references:
   commentId: T:Aci.Unity.UI.Navigation.NavigationService
   fullName: Aci.Unity.UI.Navigation.NavigationService
   nameWithType: NavigationService
-- uid: Aci.Unity.UI.Navigation.NavigationService.#ctor(Aci.Unity.UI.Navigation.IScreenRegistry,Aci.Unity.Events.IAciEventManager)
+- uid: Aci.Unity.UI.Navigation.NavigationService.#ctor(Aci.Unity.UI.Navigation.IScreenRegistry,IAciEventManager)
   name: NavigationService(IScreenRegistry, IAciEventManager)
-  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService__ctor_Aci_Unity_UI_Navigation_IScreenRegistry_Aci_Unity_Events_IAciEventManager_
-  commentId: M:Aci.Unity.UI.Navigation.NavigationService.#ctor(Aci.Unity.UI.Navigation.IScreenRegistry,Aci.Unity.Events.IAciEventManager)
-  fullName: Aci.Unity.UI.Navigation.NavigationService.NavigationService(Aci.Unity.UI.Navigation.IScreenRegistry, Aci.Unity.Events.IAciEventManager)
+  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService__ctor_Aci_Unity_UI_Navigation_IScreenRegistry_IAciEventManager_
+  commentId: M:Aci.Unity.UI.Navigation.NavigationService.#ctor(Aci.Unity.UI.Navigation.IScreenRegistry,IAciEventManager)
+  fullName: Aci.Unity.UI.Navigation.NavigationService.NavigationService(Aci.Unity.UI.Navigation.IScreenRegistry, IAciEventManager)
   nameWithType: NavigationService.NavigationService(IScreenRegistry, IAciEventManager)
 - uid: Aci.Unity.UI.Navigation.NavigationService.#ctor*
   name: NavigationService
@@ -5146,6 +5178,19 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Navigation.NavigationService.CanPop
   nameWithType: NavigationService.CanPop
+- uid: Aci.Unity.UI.Navigation.NavigationService.Clear
+  name: Clear()
+  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_Clear
+  commentId: M:Aci.Unity.UI.Navigation.NavigationService.Clear
+  fullName: Aci.Unity.UI.Navigation.NavigationService.Clear()
+  nameWithType: NavigationService.Clear()
+- uid: Aci.Unity.UI.Navigation.NavigationService.Clear*
+  name: Clear
+  href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_Clear_
+  commentId: Overload:Aci.Unity.UI.Navigation.NavigationService.Clear
+  isSpec: "True"
+  fullName: Aci.Unity.UI.Navigation.NavigationService.Clear
+  nameWithType: NavigationService.Clear
 - uid: Aci.Unity.UI.Navigation.NavigationService.PopAsync(Aci.Unity.UI.Navigation.AnimationOptions)
   name: PopAsync(AnimationOptions)
   href: api/Aci.Unity.UI.Navigation.NavigationService.html#Aci_Unity_UI_Navigation_NavigationService_PopAsync_Aci_Unity_UI_Navigation_AnimationOptions_
@@ -5334,11 +5379,11 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.Navigation.ScreenController.CanNavigate
   nameWithType: ScreenController.CanNavigate
-- uid: Aci.Unity.UI.Navigation.ScreenController.Construct(Aci.Unity.UI.Navigation.IScreenRegistry,IInstantiator,Aci.Unity.Events.IAciEventManager)
+- uid: Aci.Unity.UI.Navigation.ScreenController.Construct(Aci.Unity.UI.Navigation.IScreenRegistry,IInstantiator,IAciEventManager)
   name: Construct(IScreenRegistry, IInstantiator, IAciEventManager)
-  href: api/Aci.Unity.UI.Navigation.ScreenController.html#Aci_Unity_UI_Navigation_ScreenController_Construct_Aci_Unity_UI_Navigation_IScreenRegistry_IInstantiator_Aci_Unity_Events_IAciEventManager_
-  commentId: M:Aci.Unity.UI.Navigation.ScreenController.Construct(Aci.Unity.UI.Navigation.IScreenRegistry,IInstantiator,Aci.Unity.Events.IAciEventManager)
-  fullName: Aci.Unity.UI.Navigation.ScreenController.Construct(Aci.Unity.UI.Navigation.IScreenRegistry, IInstantiator, Aci.Unity.Events.IAciEventManager)
+  href: api/Aci.Unity.UI.Navigation.ScreenController.html#Aci_Unity_UI_Navigation_ScreenController_Construct_Aci_Unity_UI_Navigation_IScreenRegistry_IInstantiator_IAciEventManager_
+  commentId: M:Aci.Unity.UI.Navigation.ScreenController.Construct(Aci.Unity.UI.Navigation.IScreenRegistry,IInstantiator,IAciEventManager)
+  fullName: Aci.Unity.UI.Navigation.ScreenController.Construct(Aci.Unity.UI.Navigation.IScreenRegistry, IInstantiator, IAciEventManager)
   nameWithType: ScreenController.Construct(IScreenRegistry, IInstantiator, IAciEventManager)
 - uid: Aci.Unity.UI.Navigation.ScreenController.Construct*
   name: Construct
@@ -7314,11 +7359,11 @@ references:
   commentId: T:Aci.Unity.UI.ViewControllers.AlertDialogViewController.Factory
   fullName: Aci.Unity.UI.ViewControllers.AlertDialogViewController.Factory
   nameWithType: AlertDialogViewController.Factory
-- uid: Aci.Unity.UI.ViewControllers.AlertDialogViewController.Initialize(System.String,System.String,System.String,System.String,Action,Action)
+- uid: Aci.Unity.UI.ViewControllers.AlertDialogViewController.Initialize(System.String,System.String,System.String,System.String,System.Action,System.Action)
   name: Initialize(String, String, String, String, Action, Action)
-  href: api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.html#Aci_Unity_UI_ViewControllers_AlertDialogViewController_Initialize_System_String_System_String_System_String_System_String_Action_Action_
-  commentId: M:Aci.Unity.UI.ViewControllers.AlertDialogViewController.Initialize(System.String,System.String,System.String,System.String,Action,Action)
-  fullName: Aci.Unity.UI.ViewControllers.AlertDialogViewController.Initialize(System.String, System.String, System.String, System.String, Action, Action)
+  href: api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.html#Aci_Unity_UI_ViewControllers_AlertDialogViewController_Initialize_System_String_System_String_System_String_System_String_System_Action_System_Action_
+  commentId: M:Aci.Unity.UI.ViewControllers.AlertDialogViewController.Initialize(System.String,System.String,System.String,System.String,System.Action,System.Action)
+  fullName: Aci.Unity.UI.ViewControllers.AlertDialogViewController.Initialize(System.String, System.String, System.String, System.String, System.Action, System.Action)
   nameWithType: AlertDialogViewController.Initialize(String, String, String, String, Action, Action)
 - uid: Aci.Unity.UI.ViewControllers.AlertDialogViewController.Initialize*
   name: Initialize
@@ -7366,11 +7411,11 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnDespawned
   nameWithType: AlertDialogViewController.OnDespawned
-- uid: Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnSpawned(System.String,System.String,System.String,System.String,Action,Action,IMemoryPool)
+- uid: Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnSpawned(System.String,System.String,System.String,System.String,System.Action,System.Action,IMemoryPool)
   name: OnSpawned(String, String, String, String, Action, Action, IMemoryPool)
-  href: api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.html#Aci_Unity_UI_ViewControllers_AlertDialogViewController_OnSpawned_System_String_System_String_System_String_System_String_Action_Action_IMemoryPool_
-  commentId: M:Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnSpawned(System.String,System.String,System.String,System.String,Action,Action,IMemoryPool)
-  fullName: Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnSpawned(System.String, System.String, System.String, System.String, Action, Action, IMemoryPool)
+  href: api/Aci.Unity.UI.ViewControllers.AlertDialogViewController.html#Aci_Unity_UI_ViewControllers_AlertDialogViewController_OnSpawned_System_String_System_String_System_String_System_String_System_Action_System_Action_IMemoryPool_
+  commentId: M:Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnSpawned(System.String,System.String,System.String,System.String,System.Action,System.Action,IMemoryPool)
+  fullName: Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnSpawned(System.String, System.String, System.String, System.String, System.Action, System.Action, IMemoryPool)
   nameWithType: AlertDialogViewController.OnSpawned(String, String, String, String, Action, Action, IMemoryPool)
 - uid: Aci.Unity.UI.ViewControllers.AlertDialogViewController.OnSpawned*
   name: OnSpawned
@@ -7417,11 +7462,11 @@ references:
   isSpec: "True"
   fullName: Aci.Unity.UI.ViewControllers.CameraFeedViewController.broker
   nameWithType: CameraFeedViewController.broker
-- uid: Aci.Unity.UI.ViewControllers.CameraFeedViewController.OnEvent(Aci.Unity.Events.WebcamStatusChangedArgs)
+- uid: Aci.Unity.UI.ViewControllers.CameraFeedViewController.OnEvent(WebcamStatusChangedArgs)
   name: OnEvent(WebcamStatusChangedArgs)
-  href: api/Aci.Unity.UI.ViewControllers.CameraFeedViewController.html#Aci_Unity_UI_ViewControllers_CameraFeedViewController_OnEvent_Aci_Unity_Events_WebcamStatusChangedArgs_
-  commentId: M:Aci.Unity.UI.ViewControllers.CameraFeedViewController.OnEvent(Aci.Unity.Events.WebcamStatusChangedArgs)
-  fullName: Aci.Unity.UI.ViewControllers.CameraFeedViewController.OnEvent(Aci.Unity.Events.WebcamStatusChangedArgs)
+  href: api/Aci.Unity.UI.ViewControllers.CameraFeedViewController.html#Aci_Unity_UI_ViewControllers_CameraFeedViewController_OnEvent_WebcamStatusChangedArgs_
+  commentId: M:Aci.Unity.UI.ViewControllers.CameraFeedViewController.OnEvent(WebcamStatusChangedArgs)
+  fullName: Aci.Unity.UI.ViewControllers.CameraFeedViewController.OnEvent(WebcamStatusChangedArgs)
   nameWithType: CameraFeedViewController.OnEvent(WebcamStatusChangedArgs)
 - uid: Aci.Unity.UI.ViewControllers.CameraFeedViewController.OnEvent*
   name: OnEvent
@@ -7531,11 +7576,11 @@ references:
   commentId: T:Aci.Unity.Util.AsyncTimeProvider
   fullName: Aci.Unity.Util.AsyncTimeProvider
   nameWithType: AsyncTimeProvider
-- uid: Aci.Unity.Util.AsyncTimeProvider.Add(TimeSpan,System.Boolean)
+- uid: Aci.Unity.Util.AsyncTimeProvider.Add(System.TimeSpan,System.Boolean)
   name: Add(TimeSpan, Boolean)
-  href: api/Aci.Unity.Util.AsyncTimeProvider.html#Aci_Unity_Util_AsyncTimeProvider_Add_TimeSpan_System_Boolean_
-  commentId: M:Aci.Unity.Util.AsyncTimeProvider.Add(TimeSpan,System.Boolean)
-  fullName: Aci.Unity.Util.AsyncTimeProvider.Add(TimeSpan, System.Boolean)
+  href: api/Aci.Unity.Util.AsyncTimeProvider.html#Aci_Unity_Util_AsyncTimeProvider_Add_System_TimeSpan_System_Boolean_
+  commentId: M:Aci.Unity.Util.AsyncTimeProvider.Add(System.TimeSpan,System.Boolean)
+  fullName: Aci.Unity.Util.AsyncTimeProvider.Add(System.TimeSpan, System.Boolean)
   nameWithType: AsyncTimeProvider.Add(TimeSpan, Boolean)
 - uid: Aci.Unity.Util.AsyncTimeProvider.Add*
   name: Add
@@ -7896,11 +7941,11 @@ references:
   commentId: T:Aci.Unity.Util.ITimeProvider
   fullName: Aci.Unity.Util.ITimeProvider
   nameWithType: ITimeProvider
-- uid: Aci.Unity.Util.ITimeProvider.Add(TimeSpan,System.Boolean)
+- uid: Aci.Unity.Util.ITimeProvider.Add(System.TimeSpan,System.Boolean)
   name: Add(TimeSpan, Boolean)
-  href: api/Aci.Unity.Util.ITimeProvider.html#Aci_Unity_Util_ITimeProvider_Add_TimeSpan_System_Boolean_
-  commentId: M:Aci.Unity.Util.ITimeProvider.Add(TimeSpan,System.Boolean)
-  fullName: Aci.Unity.Util.ITimeProvider.Add(TimeSpan, System.Boolean)
+  href: api/Aci.Unity.Util.ITimeProvider.html#Aci_Unity_Util_ITimeProvider_Add_System_TimeSpan_System_Boolean_
+  commentId: M:Aci.Unity.Util.ITimeProvider.Add(System.TimeSpan,System.Boolean)
+  fullName: Aci.Unity.Util.ITimeProvider.Add(System.TimeSpan, System.Boolean)
   nameWithType: ITimeProvider.Add(TimeSpan, Boolean)
 - uid: Aci.Unity.Util.ITimeProvider.Add*
   name: Add
@@ -8188,11 +8233,11 @@ references:
   commentId: T:Aci.Unity.Util.UnityMainThreadDispatcher
   fullName: Aci.Unity.Util.UnityMainThreadDispatcher
   nameWithType: UnityMainThreadDispatcher
-- uid: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(Action)
+- uid: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(System.Action)
   name: Enqueue(Action)
-  href: api/Aci.Unity.Util.UnityMainThreadDispatcher.html#Aci_Unity_Util_UnityMainThreadDispatcher_Enqueue_Action_
-  commentId: M:Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(Action)
-  fullName: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(Action)
+  href: api/Aci.Unity.Util.UnityMainThreadDispatcher.html#Aci_Unity_Util_UnityMainThreadDispatcher_Enqueue_System_Action_
+  commentId: M:Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(System.Action)
+  fullName: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(System.Action)
   nameWithType: UnityMainThreadDispatcher.Enqueue(Action)
 - uid: Aci.Unity.Util.UnityMainThreadDispatcher.Enqueue(System.Collections.Generic.IEnumerator)
   name: Enqueue(IEnumerator)
