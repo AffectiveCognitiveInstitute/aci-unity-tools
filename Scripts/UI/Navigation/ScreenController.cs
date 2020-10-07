@@ -90,31 +90,49 @@ namespace Aci.Unity.UI.Navigation
 
         public void OnNavigatedTo(INavigationParameters navigationParameters)
         {
+            if (ReferenceEquals(m_Instance, null) || m_Instance == null)
+                return;
+
             ExecuteNavigationEvent.Execute(m_Instance, ExecuteNavigationEvent.navigatedTo, navigationParameters);
         }
 
         public void OnNavigatingAway(INavigationParameters navigationParameters)
         {
+            if (ReferenceEquals(m_Instance, null) || m_Instance == null)
+                return;
+
             ExecuteNavigationEvent.Execute(m_Instance, ExecuteNavigationEvent.navigatingAway, navigationParameters);
         }
 
         public void OnNavigatingBack(INavigationParameters navigationParameters)
         {
+            if (ReferenceEquals(m_Instance, null) || m_Instance == null)
+                return;
+
             ExecuteNavigationEvent.Execute(m_Instance, ExecuteNavigationEvent.navigatingBack, navigationParameters);
         }
 
         public void OnNavigatedBack(INavigationParameters navigationParameters)
         {
+            if (ReferenceEquals(m_Instance, null) || m_Instance == null)
+                return;
+
             ExecuteNavigationEvent.Execute(m_Instance, ExecuteNavigationEvent.navigatedBack, navigationParameters);
         }
 
         public void OnNavigatingTo(INavigationParameters navigationParameters)
         {
+            if (ReferenceEquals(m_Instance, null) || m_Instance == null)
+                return;
+
             ExecuteNavigationEvent.Execute(m_Instance, ExecuteNavigationEvent.navigatingTo, navigationParameters);
         }
 
         public void OnScreenDestroyed(INavigationParameters navigationParameters)
         {
+            if (ReferenceEquals(m_Instance, null) || m_Instance == null)
+                return;
+
             ExecuteNavigationEvent.Execute(m_Instance, ExecuteNavigationEvent.destroyed, navigationParameters);
         }
 
