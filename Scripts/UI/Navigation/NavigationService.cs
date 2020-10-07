@@ -351,6 +351,33 @@ namespace Aci.Unity.UI.Navigation
             }
         }
 
+        public void Clear()
+        {
+            s_DefaultParams.Clear();
+
+            // Destroy all screens on navigation stack.
+            while (m_NavigationStack.Count > 0)
+            {
+                var screen = m_NavigationStack.Pop();
+                screen.OnScreenDestroyed(s_DefaultParams);
+#pragma warning disable CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
+                screen.UpdateDisplayAsync(NavigationMode.Removed, false);
+#pragma warning restore CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
+            }
+
+            m_NavigationStack.Clear();
+
+            // Destroy current screen.
+            if(m_Current != null)
+            {
+                m_Current.OnScreenDestroyed(s_DefaultParams);
+#pragma warning disable CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
+                m_Current.UpdateDisplayAsync(NavigationMode.Removed, false);
+#pragma warning restore CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
+                m_Current = null;
+            }
+        }
+
         private enum Operation
         {
             Pop,

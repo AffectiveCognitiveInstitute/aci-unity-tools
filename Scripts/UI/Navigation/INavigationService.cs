@@ -86,5 +86,10 @@ namespace Aci.Unity.UI.Navigation
         /// <param name="animationOptions">Animation options for the screen being popped and for the screen that reappears.</param>
         /// <returns></returns>
         Task PushWithNewStackAsync(string screen, INavigationParameters parameters, AnimationOptions animationOptions);
+
+        /// <summary>
+        /// Clears the entire navigation stack.
+        /// </summary>
+        void Clear();
     }
 }
