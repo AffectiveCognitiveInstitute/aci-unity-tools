@@ -31,6 +31,9 @@ namespace Aci.Unity.UI.Tweening
     {
         protected override void ExecuteFrame(float percentage)
         {
+            if (ReferenceEquals(m_Target, null) || m_Target == null)
+                return;
+
             float t = m_Transition.Evaluate(percentage);
 
             m_Target.anchorMin = Vector2.LerpUnclamped(m_FromValue.min, m_ToValue.min, t);
