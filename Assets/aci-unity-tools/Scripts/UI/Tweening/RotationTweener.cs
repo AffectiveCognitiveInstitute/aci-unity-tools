@@ -31,6 +31,9 @@ namespace Aci.Unity.UI.Tweening
     {
         protected override void ExecuteFrame(float percentage)
         {
+            if (ReferenceEquals(m_Target, null) || m_Target == null)
+                return;
+
             float t = m_Transition.Evaluate(percentage);
 
             m_Target.localEulerAngles = Vector3.LerpUnclamped(m_FromValue.euler, m_ToValue.euler, t);
